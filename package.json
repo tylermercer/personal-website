@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "watch:sass": "sass  --no-source-map --watch src/sass:dist/css",
+    "watch:sass": "sass  --no-source-map --watch src/sass/style.scss:dist/css/style.css",
     "watch:eleventy": "eleventy --serve",
-    "build:sass": "sass  --no-source-map src/sass:dist/css",
+    "build:sass": "sass  --no-source-map src/sass/style.scss:dist/css/style.css",
     "build:eleventy": "eleventy",
     "postbuild": "lightningcss --minify --targets '> 0.25%, not IE 11' dist/css/*.css -o dist/css/*.css",
     "start": "npm-run-all build:sass --parallel watch:*",
