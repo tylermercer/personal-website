@@ -4,13 +4,21 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npx @11ty/eleventy --serve",
-    "build": "npx @11ty/eleventy"
+    "watch:sass": "sass  --no-source-map --watch src/sass:dist/css",
+    "watch:eleventy": "eleventy --serve",
+    "build:sass": "sass  --no-source-map src/sass:dist/css",
+    "build:eleventy": "eleventy",
+    "postbuild": "lightningcss --minify --targets '> 0.25%, not IE 11' dist/css/*.css -o dist/css/*.css",
+    "start": "npm-run-all build:sass --parallel watch:*",
+    "build": "npm-run-all build:sass build:eleventy"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@11ty/eleventy": "^1.0.2"
+    "@11ty/eleventy": "^1.0.2",
+    "lightningcss-cli": "^1.18.0",
+    "npm-run-all": "^4.1.5",
+    "sass": "^1.57.1"
   }
 }
