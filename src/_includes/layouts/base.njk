@@ -7,11 +7,10 @@
     <link rel="stylesheet" href="{{ '/css/style.css' | url }}">
   </head>
   <body>
-    <header>
-      <h1>{{ title }}</h1>
-    </header>
-    <main>
+    {% include 'partials/site-nav-header.njk' %}
+    <main id="main">
         {{ content | safe }}
     </main>
+    {% include 'partials/site-footer.njk' %}
   </body>
 </html>
