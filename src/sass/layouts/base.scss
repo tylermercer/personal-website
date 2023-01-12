@@ -1,0 +1,84 @@
+:root {
+    --font-size-base: clamp(1rem, 0.34vw + 0.91rem, 1.19rem);
+    --font-size-lg: clamp(1.2rem, 0.7vw + 1.2rem, 1.5rem);
+    --font-size-xl: clamp(2.44rem, 2.38vw + 1.85rem, 3.75rem);
+}
+
+html {
+    font-size: var(--font-size-base);
+    font-family: var(--font-body);
+    color-scheme: light dark;
+    color: var(--color-gray-12);
+    background-color: var(--color-gray-1);
+}
+
+body {
+    margin: 0;
+}
+
+html, body {
+    height: 100vh;
+    height: 100svh;
+}
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    margin: 2rem 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+}
+
+a {
+    color: var(--color-primary-11);
+}
+
+a:where(:visited) {
+    color: var(--color-primary-12);
+}
+
+.astro-code {
+    padding: 1rem;
+    border-radius: 0.2rem;
+    border: 1px solid var(--color-gray-10);
+}
+
+main {
+    margin: auto;
+    padding: 1em;
+    max-width: 60ch;
+}
+
+p {
+    line-height: 1.85em;
+}
+
+code {
+    font-family: var(--font-code, monospace);
+}
+
+blockquote {
+    border-left: 2px solid var(--color-primary-11);
+    margin-left: none;
+    line-height: 1.6;
+    margin: 1rem 0;
+    background: var(--color-primary-4);
+    padding: 1rem;
+}
+
+blockquote code {
+    font-size: 0.875em;
+    border: 0.1em solid;
+    border-radius: 4px;
+    padding: 0.15em 0.25em;
+}
+
+h1 {
+    font-size: var(--font-size-xl);
+}
+
+h2 {
+    font-size: var(--font-size-lg);
+}
