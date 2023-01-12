@@ -1,6 +1,6 @@
 ---
 title: Tyler Mercer
-layout: 'base.njk'
+layout: 'base'
 ---
 
 Hello from index.md
