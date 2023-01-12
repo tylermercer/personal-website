@@ -10,9 +10,9 @@
     @media (prefers-reduced-motion: reduce) {
         transition: none;
     }
-}
-.skip-to-content-link:focus {
-    transform: translateY(0%);
+    &:focus {
+        transform: translateY(0%);
+    }
 }
 .logo-link {
     text-decoration: none;
