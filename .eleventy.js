@@ -8,6 +8,8 @@ eleventyConfig.addLayoutAlias('base', 'layouts/base.njk');
       return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED);
     });
 
+    eleventyConfig.addPassthroughCopy("./src/fonts/*");
+
     eleventyConfig.addWatchTarget("./src/sass/");
 
     return {
