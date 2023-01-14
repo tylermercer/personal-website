@@ -50,7 +50,7 @@
         &:hover, &:focus {
             color: var(--color-primary-10);
         }
-        &.active-link {
+        &[aria-current=page] {
             border: 2px solid transparent;
             border-bottom: 2px solid var(--color-primary-9);
         }
