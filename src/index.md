@@ -1,6 +1,7 @@
 ---
 title: Tyler Mercer
 layout: 'base'
+pageScopedStyles: true
 ---
 
 Hello from index.md

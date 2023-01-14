@@ -12,6 +12,12 @@ eleventyConfig.addLayoutAlias('base', 'layouts/base.njk');
 
     eleventyConfig.addWatchTarget("./src/sass/");
 
+    eleventyConfig.addFilter("pageScopedStyle", (filePathStem) => {
+      var foo = ('/css' + (filePathStem === '/' ? '/index' : filePathStem) + '.css')
+      console.log(foo)
+      return foo
+    })
+
     return {
       dir: {
         input: "src",
