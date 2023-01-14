@@ -1,0 +1,12 @@
+---
+eleventyExcludeFromCollections: true
+layout: base
+---
+
+<h1>Faith</h1>
+
+<ul>
+    {% for post in collections.faith -%}
+        <li><a href={{ post.url }}>Lonk: {{ post.data.title }}</a></li>
+    {% endfor %}
+<ul>

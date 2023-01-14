@@ -1,4 +1,5 @@
 ---
+eleventyExcludeFromCollections: true
 title: Tyler Mercer
 layout: 'base'
 pageScopedStyles: true
