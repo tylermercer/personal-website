@@ -1,0 +1,12 @@
+---
+eleventyExcludeFromCollections: true
+layout: base
+---
+
+<h1>Software</h1>
+
+<ul>
+    {% for post in collections.software -%}
+        <li><a href={{ post.url }}>{{ post.data.title }}</a></li>
+    {% endfor %}
+<ul>
