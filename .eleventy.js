@@ -16,7 +16,7 @@ eleventyConfig.addLayoutAlias('base', 'layouts/base.njk');
       var foo = ('/css' + (filePathStem === '/' ? '/index' : filePathStem) + '.css')
       console.log(foo)
       return foo
-    })
+    });
 
     return {
       dir: {

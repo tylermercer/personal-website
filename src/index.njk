@@ -9,8 +9,21 @@ pageScopedStyles: true
 
 <p>Hello from index.njk</p>
 
+<h2>Latest Posts</h2>
 <ul>
     {% for post in collections.all -%}
         <li><a href={{ post.url }}>{{ post.data.title }}</a></li>
     {% endfor %}
-<ul>
+</ul>
+
+<h2>Collections</h2>
+<div class="collections">
+    <div class="collection card">
+        <h3><a href="/posts/software/">Software</a></h3>
+        <p>Posts about software engineering, UI and UX design, and other aspects of software development</p>
+    </div>
+    <div class="collection card">
+        <h3><a href="/posts/faith/">Faith</a></h3>
+        <p>Musings on the principles of Christianity and how those principles interconnect with the sciences and daily life</p>
+    </div>
+<div>
