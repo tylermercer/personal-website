@@ -1,4 +1,4 @@
-:root {
+@mixin light-colors {
     --color-primary-1: hsl(24, 70.0%, 99.0%);
     --color-primary-2: hsl(24, 83.3%, 97.6%);
     --color-primary-3: hsl(24, 100%, 95.3%);
@@ -24,66 +24,45 @@
     --color-gray-10: hsl(55, 1.7%, 51.9%);
     --color-gray-11: hsl(50, 2.0%, 43.1%);
     --color-gray-12: hsl(50, 6.0%, 10.0%);
-
-    --font-heading: 'Alegreya Sans', Georgia, serif;
-    --font-body: 'Alegreya', Georgia, serif;
-    --font-accent: 'Alegreya Sans', Georgia, serif;
 }
 
-@media (prefers-color-scheme:dark) {
-    :root {
-        --color-primary-1: hsl(30, 70.0%, 7.2%);
-        --color-primary-2: hsl(28, 100%, 8.4%);
-        --color-primary-3: hsl(26, 91.1%, 11.6%);
-        --color-primary-4: hsl(25, 88.3%, 14.1%);
-        --color-primary-5: hsl(24, 87.6%, 16.6%);
-        --color-primary-6: hsl(24, 88.6%, 19.8%);
-        --color-primary-7: hsl(24, 92.4%, 24.0%);
-        --color-primary-8: hsl(25, 100%, 29.0%);
-        --color-primary-9: hsl(24, 94.0%, 50.0%);
-        --color-primary-10: hsl(24, 100%, 58.5%);
-        --color-primary-11: hsl(24, 100%, 62.2%);
-        --color-primary-12: hsl(24, 97.0%, 93.2%);
+@mixin dark-colors {
+    --color-primary-1: hsl(30, 70.0%, 7.2%);
+    --color-primary-2: hsl(28, 100%, 8.4%);
+    --color-primary-3: hsl(26, 91.1%, 11.6%);
+    --color-primary-4: hsl(25, 88.3%, 14.1%);
+    --color-primary-5: hsl(24, 87.6%, 16.6%);
+    --color-primary-6: hsl(24, 88.6%, 19.8%);
+    --color-primary-7: hsl(24, 92.4%, 24.0%);
+    --color-primary-8: hsl(25, 100%, 29.0%);
+    --color-primary-9: hsl(24, 94.0%, 50.0%);
+    --color-primary-10: hsl(24, 100%, 58.5%);
+    --color-primary-11: hsl(24, 100%, 62.2%);
+    --color-primary-12: hsl(24, 97.0%, 93.2%);
 
-        --color-gray-1: hsl(61, 2.0%, 8.3%);
-        --color-gray-2: hsl(60, 3.7%, 10.6%);
-        --color-gray-3: hsl(58, 3.7%, 13.1%);
-        --color-gray-4: hsl(57, 3.6%, 15.3%);
-        --color-gray-5: hsl(56, 3.7%, 17.4%);
-        --color-gray-6: hsl(55, 3.7%, 19.9%);
-        --color-gray-7: hsl(53, 3.7%, 23.6%);
-        --color-gray-8: hsl(50, 3.8%, 30.6%);
-        --color-gray-9: hsl(50, 4.0%, 42.7%);
-        --color-gray-10: hsl(52, 3.1%, 48.3%);
-        --color-gray-11: hsl(50, 4.0%, 61.8%);
-        --color-gray-12: hsl(56, 4.0%, 92.8%);
+    --color-gray-1: hsl(61, 2.0%, 8.3%);
+    --color-gray-2: hsl(60, 3.7%, 10.6%);
+    --color-gray-3: hsl(58, 3.7%, 13.1%);
+    --color-gray-4: hsl(57, 3.6%, 15.3%);
+    --color-gray-5: hsl(56, 3.7%, 17.4%);
+    --color-gray-6: hsl(55, 3.7%, 19.9%);
+    --color-gray-7: hsl(53, 3.7%, 23.6%);
+    --color-gray-8: hsl(50, 3.8%, 30.6%);
+    --color-gray-9: hsl(50, 4.0%, 42.7%);
+    --color-gray-10: hsl(52, 3.1%, 48.3%);
+    --color-gray-11: hsl(50, 4.0%, 61.8%);
+    --color-gray-12: hsl(56, 4.0%, 92.8%);
+}
+
+:root {
+    @include light-colors;
+    @media (prefers-color-scheme:dark) {
+        @include dark-colors;
     }
 }
-
-.invert {
-    --color-primary-1: var(--color-primary-12)
-    --color-primary-2: var(--color-primary-11)
-    --color-primary-3: var(--color-primary-10)
-    --color-primary-4: var(--color-primary-9)
-    --color-primary-5: var(--color-primary-8)
-    --color-primary-6: var(--color-primary-7)
-    --color-primary-7: var(--color-primary-6)
-    --color-primary-8: var(--color-primary-5)
-    --color-primary-9: var(--color-primary-4)
-    --color-primary-10: var(--color-primary-3)
-    --color-primary-11: var(--color-primary-2)
-    --color-primary-12: var(--color-primary-1)
-    
-    --color-gray-1: var(--color-gray-12)
-    --color-gray-2: var(--color-gray-11)
-    --color-gray-3: var(--color-gray-10)
-    --color-gray-4: var(--color-gray-9)
-    --color-gray-5: var(--color-gray-8)
-    --color-gray-6: var(--color-gray-7)
-    --color-gray-7: var(--color-gray-6)
-    --color-gray-8: var(--color-gray-5)
-    --color-gray-9: var(--color-gray-4)
-    --color-gray-10: var(--color-gray-3)
-    --color-gray-11: var(--color-gray-2)
-    --color-gray-12: var(--color-gray-1)
+.inverted {
+    @include dark-colors;
+    @media (prefers-color-scheme:dark) {
+        @include light-colors;
+    }
 }

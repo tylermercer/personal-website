@@ -1,2 +1,8 @@
 @import 'fonts/alegreya.scss';
 @import 'fonts/alegreya-sans.scss';
+
+:root {
+    --font-heading: 'Alegreya Sans', Georgia, serif;
+    --font-body: 'Alegreya', Georgia, serif;
+    --font-accent: 'Alegreya Sans', Georgia, serif;
+}
