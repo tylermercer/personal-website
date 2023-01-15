@@ -6,3 +6,12 @@
     font-family: var(--font-accent);
     font-variant-numeric: lining-nums;
 }
+.post-title-inner {
+    display: block;
+}
+.post-title-inner,
+.post-content {
+    max-width: 36rem;
+    margin: 0 auto;
+    padding: 1rem;
+}

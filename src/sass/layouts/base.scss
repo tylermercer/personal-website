@@ -35,6 +35,8 @@ h2 {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-heading);
+    margin: 0;
+    padding: 1rem;
 }
 
 a {
@@ -48,12 +50,6 @@ a {
     padding: 1rem;
     border-radius: 0.2rem;
     border: 1px solid var(--color-gray-10);
-}
-
-main {
-    margin: auto;
-    padding: 1em;
-    max-width: 80ch;
 }
 
 p {
