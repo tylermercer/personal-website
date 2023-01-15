@@ -1,13 +1,24 @@
 .collections {
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
+    gap: 1.5rem;
     @media (min-width: 400px) {
         flex-direction: row;
     }
 }
 .collection {
-    @media (min-width: 400px) {
+    border: 1px solid var(--color-gray-8);
+    contain: paint;
+    @media (min-width: 414px) {
         width: calc(50% - 0.5 * 0.5rem);
+    }
+    & h3 {
+        padding: 1rem;
+        margin-bottom: 0;
+        font-size: 1.5em;
+    }
+    & p {
+        margin-top: 0;
+        padding: 1rem;
     }
 }
