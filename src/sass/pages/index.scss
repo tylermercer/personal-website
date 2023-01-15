@@ -18,6 +18,9 @@ main {
         padding: 1rem;
         margin-bottom: 0;
         font-size: 1.5em;
+        & a {
+            color: var(--color-gray-12);
+        }
     }
     & p {
         margin-top: 0;
