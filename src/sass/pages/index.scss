@@ -1,0 +1,13 @@
+.collections {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    @media (min-width: 400px) {
+        flex-direction: row;
+    }
+}
+.collection {
+    @media (min-width: 400px) {
+        width: calc(50% - 0.5 * 0.5rem);
+    }
+}
