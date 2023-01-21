@@ -1,8 +1,7 @@
-@import 'fonts/alegreya.scss';
-@import 'fonts/alegreya-sans.scss';
+@import 'fonts/rubik.scss';
 
 :root {
-    --font-heading: 'Alegreya Sans', Georgia, serif;
-    --font-body: 'Alegreya', Georgia, serif;
-    --font-accent: 'Alegreya Sans', Georgia, serif;
+    --font-heading: 'Rubik', Arial, sans-serif;
+    --font-body: Georgia, serif;
+    --font-accent: monospace;
 }
