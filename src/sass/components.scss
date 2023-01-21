@@ -8,3 +8,13 @@
         margin-bottom: 0;
     }
 }
+.heading-anchor {
+    position: absolute;
+    transform: translate(-200%, 0.2em);
+    font-size: 0.7em;
+    font-weight: normal;
+    text-decoration: none;
+    &:hover, &:focus {
+        text-decoration: underline;
+    }
+}

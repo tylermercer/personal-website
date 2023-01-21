@@ -6,3 +6,11 @@
     $string: '%23' + $string;
 	@return $string;
 }
+
+@function headings($from:1, $to:6) {
+    @if $from == $to {
+        @return 'h#{$from}';
+    } @else {
+        @return 'h#{$from},' + headings($from+1, $to);
+    }
+}

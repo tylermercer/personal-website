@@ -13,7 +13,9 @@ The height of a mountain imposes a necessary solitude
 and isolation upon its summit, 
 and this removal of the self from the 
 entangling influences of this world is significant 
-in allowing God to speak to us. 
+in allowing God to speak to us.
+
+## Desirable Difficulty
 
 Furthermore, it is not simply the distance between us 
 and the voices of the world 
