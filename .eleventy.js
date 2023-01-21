@@ -1,6 +1,7 @@
 const { DateTime } = require("luxon");
 const markdownIt = require("markdown-it");
 const anchor = require('markdown-it-anchor');
+const footnote = require('markdown-it-footnote');
 
 module.exports = function (eleventyConfig) {
     eleventyConfig.addLayoutAlias('base', 'layouts/base.njk');
@@ -26,7 +27,7 @@ module.exports = function (eleventyConfig) {
         `,
         placement: 'before'
       })
-    });
+    }).use(footnote);
   
     eleventyConfig.setLibrary("md", markdown);
 

@@ -21,7 +21,7 @@ Furthermore, it is not simply the distance between us
 and the voices of the world 
 that provides the necessary mental isolation--it 
 is the difficulty of that distance. 
-Physically, humans have never been significantly deterred by horizontal distance. 
+Physically, humans have never been significantly deterred by horizontal distance.^[With a few exceptions, such as Macchu Picchu] 
 Civilizations span plains and forests and cross rivers and oceans. 
 Rarely does a civilization extend upwards to a mountain's summit. 
 The summit is almost always occupied only by those who 
