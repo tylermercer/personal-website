@@ -4,7 +4,16 @@ layout: base
 <h1 {% if bgPattern %} class="pattern pattern-{{ bgPattern }}" {% endif %}><span class="guttered">{{ title }}</span></h1>
 <div class="guttered">
     {% if (not eleventyExcludeFromCollections) %}
-        <p class="dateline">{{ page.date | postDate }}</p>
+        <p class="dateline"></p>
+        {% set regExpCode = r/<pre class=(.|\n)*?<\/pre>/gm %}
+        {% set fixedContent = content | replace(regExpCode, "") | striptags %}
+        {% set wordCount = fixedContent | wordcount %}
+        {% set readingRate = 225 %}
+        {% set readingTime = (wordCount/readingRate) | round %}
+        {% if readingTime < 1 %}{% set readingTime = 1 %}{% endif %}
+        <p class="dateline">
+            {{ page.date | postDate }} • {{ wordCount | numCommas }} words (Reading time: {{ readingTime }} minute{% if readingTime > 1 %}s{% endif %})
+        </p>
     {% endif %}
     {{ content | safe }}
 </div>
