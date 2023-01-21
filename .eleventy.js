@@ -1,4 +1,5 @@
 const { DateTime } = require("luxon");
+const markdownIt = require("markdown-it");
 
 module.exports = function (eleventyConfig) {
     eleventyConfig.addLayoutAlias('base', 'layouts/base.njk');
@@ -11,6 +12,13 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addFilter("numCommas", function(value) {
       return value.toLocaleString()
     });
+
+    let options = {
+      html: true,
+      typographer: true
+    };
+  
+    eleventyConfig.setLibrary("md", markdownIt(options));
 
     eleventyConfig.addPassthroughCopy("./src/fonts/*");
 
