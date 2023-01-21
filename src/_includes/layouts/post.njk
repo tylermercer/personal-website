@@ -1,7 +1,7 @@
 ---
 layout: base
 ---
-<h1 {% if bgPattern %} class="pattern pattern-{{ bgPattern }}" {% endif %}><span class="guttered">{{ title }}</span></h1>
+<h1 {% if category %} class="pattern pattern-{{ category }}" {% endif %}><span class="guttered">{{ title }}</span></h1>
 <div class="guttered">
     {% if (not eleventyExcludeFromCollections) %}
         <p class="dateline"></p>
@@ -12,7 +12,10 @@ layout: base
         {% set readingTime = (wordCount/readingRate) | round %}
         {% if readingTime < 1 %}{% set readingTime = 1 %}{% endif %}
         <p class="dateline">
-            {{ page.date | postDate }} • {{ wordCount | numCommas }} words (Reading time: {{ readingTime }} minute{% if readingTime > 1 %}s{% endif %})
+            {{- page.date | postDate }}
+            {% if category %} in <a href="/posts/{{ category }}">{{ category | capitalize -}}</a>{% endif %}
+            <span> &mdash; <span>
+            {{- wordCount | numCommas }} words &mdash; Reading time: {{ readingTime }} minute{% if readingTime > 1 %}s{% endif %}
         </p>
     {% endif %}
     {{ content | safe }}
