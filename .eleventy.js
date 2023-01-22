@@ -8,9 +8,14 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addLayoutAlias('post', 'layouts/post.njk');
     eleventyConfig.addLayoutAlias('page', 'layouts/page.njk');
 
-    eleventyConfig.addFilter("postDate", (dateObj) => {
-      return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED);
+    eleventyConfig.addFilter("postDate", (date) => {
+      return DateTime.fromJSDate(date).toLocaleString(DateTime.DATE_MED);
     });
+
+    eleventyConfig.addFilter('dateIso', date => {
+      return DateTime.fromJSDate(date).toISO();
+    });
+
     eleventyConfig.addFilter("numCommas", function(value) {
       return value.toLocaleString()
     });

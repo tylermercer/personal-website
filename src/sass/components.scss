@@ -13,3 +13,14 @@
         height: 0;
     }
 }
+.dateline {
+    color: var(--color-gray-10);
+    text-transform: uppercase;
+    font-size: 0.8em;
+    font-weight: bold;
+    font-family: var(--font-accent);
+    font-variant-numeric: lining-nums;
+}
+:is(h1, h2, h3, h4, h5, h6).pattern {
+    padding: 1rem 0;
+}

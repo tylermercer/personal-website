@@ -3,10 +3,34 @@ main {
     margin: 0 auto;
     padding: 1rem;
 }
+h2 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.posts {
+    & > h2 {
+        padding: 0;
+    }
+    & > * + * {
+        margin-top: 1.5rem;
+    }
+    & > ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+}
+.post {
+    & > h3 {
+        margin: 0;
+    }
+}
 .collection {
     margin-bottom: 1.5rem;
     & h3 {
         padding: 1rem;
+        margin-left: -1rem;
+        margin-right: -1rem;
         font-size: 1.5em;
         & a {
             color: var(--color-gray-12);
