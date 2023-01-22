@@ -7,25 +7,30 @@ pageScopedStyles: true
 
 <h1>Tyler Mercer</h1>
 
-<p>Hello from index.njk</p>
-
-<h2>Latest Posts</h2>
-<ul>
-    {% for post in collections.all -%}
-        <li><a href={{ post.url }}>{{ post.data.title }}</a></li>
-    {% endfor %}
-</ul>
-
-<h2>Collections</h2>
-<div class="collections">
-    <div class="collection card">
-        <h3 class="pattern pattern-software"><a href="/posts/software/">Software</a></h3>
-        <p>Posts about software engineering, UI and UX design, and other aspects of software development</p>
+<div class="with-sidebar">
+    <div>
+        <h2>Latest Posts</h2>
+        <ul>
+            {% for post in collections.all -%}
+                <li><a href={{ post.url }}>{{ post.data.title }}</a></li>
+            {% endfor %}
+        </ul>
     </div>
-    <div class="collection card">
-        <h3 class="pattern pattern-faith"><a href="/posts/faith/">Faith</a></h3>
-        <p>Thoughts about Christianity and how its principles interconnect with the sciences and daily life</p>
+    <div class="sidebar">
+        <h2>Collections</h2>
+        <div class="collections">
+            <div class="collection">
+                <h3 class="pattern pattern-software"><a href="/posts/software/">Software</a></h3>
+                <p>Posts about software engineering, UI and UX design, and other aspects of software development</p>
+            </div>
+            <div class="collection">
+                <h3 class="pattern pattern-faith"><a href="/posts/faith/">Faith</a></h3>
+                <p>Thoughts about Christianity and how its principles interconnect with the sciences and daily life</p>
+            </div>
+        </div>
     </div>
 </div>
+
+
 
 <p><a href="/posts/">All Posts</a></p>
