@@ -14,7 +14,6 @@
     padding-left: 1.5ch;
     margin-left: -1.5ch;
     &:hover:before, &:focus:before {
-        font-weight: normal;
         color: var(--color-primary-11);
         content: '\00B6';
         position: relative;
