@@ -1,60 +1,70 @@
-.site-nav {
-    display: flex;
-    padding: 0 1rem;
+.site-nav-container {
+    --guttered-content-width: 60rem;
     border-bottom: 1px solid var(--color-gray-8);
-    justify-content: space-between;
-    align-items: stretch;
-    height: 58px;
-
-    ul {
+    & nav {
         display: flex;
-        margin: 0;
         padding: 0;
-    }
+        justify-content: space-between;
+        align-items: stretch;
+        height: 58px;
 
-    li {
-        list-style: none;
-    }
+        ul {
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
 
-    .skip-to-content-link {
-        background-color: var(--color-primary-2);
-        left: 50%;
-        padding: 4px;
-        position: absolute;
-        font-weight: bold;
-        text-transform: uppercase;
-        font-family: var(--font-accent);
-        transform: translate(-50%, -100%);
-        transition: transform 0.2s;
-        z-index: 1;
-        @media (prefers-reduced-motion: reduce) {
-            transition: none;
+        li {
+            list-style: none;
         }
-        &:focus {
-            transform: translate(-50%, 0%);
+
+        .skip-to-content-link {
+            background-color: var(--color-primary-2);
+            left: 50%;
+            padding: 4px;
+            position: absolute;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-family: var(--font-accent);
+            transform: translate(-50%, -100%);
+            transition: transform 0.2s;
+            z-index: 1;
+
+            @media (prefers-reduced-motion: reduce) {
+                transition: none;
+            }
+
+            &:focus {
+                transform: translate(-50%, 0%);
+            }
         }
-    }
-    .logo-link {
-        text-decoration: none;
-        color: initial;
-    }
-    .nav-link {
-        margin: 0;
-        font-family: var(--font-accent);
-        color: var(--color-gray-12);
-        text-decoration: none;
-        font-weight: bold;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 100%;
-        padding: 0 0.5rem;
-        &:hover, &:focus {
-            color: var(--color-primary-10);
+
+        .logo-link {
+            text-decoration: none;
+            color: initial;
         }
-        &[aria-current=page] {
-            border: 2px solid transparent;
-            border-bottom: 2px solid var(--color-primary-9);
+
+        .nav-link {
+            margin: 0;
+            font-family: var(--font-accent);
+            color: var(--color-gray-12);
+            text-decoration: none;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            padding: 0 0.5rem;
+
+            &:hover,
+            &:focus {
+                color: var(--color-primary-10);
+            }
+
+            &[aria-current=page] {
+                border: 2px solid transparent;
+                border-bottom: 2px solid var(--color-primary-9);
+            }
         }
     }
 }

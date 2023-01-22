@@ -1,24 +1,26 @@
-<header>
-    <nav class="site-nav">
-        <a class="skip-to-content-link" href="#main">Skip to Content</a>
-        <a class="logo-link" aria-label="Home" href="/">
-            {% include 'partials/logo.njk' %}
-        </a>
-        <ul>
-            <li>
-                <a class="nav-link" {% if page.url == '/' %} aria-current="page"{% endif %} href="{{ '/' | url}}">
-                    <span class="text">
-                        Home
-                    </span>
-                </a>
-            </li>
-            <li>
-                <a class="nav-link" {% if page.url == '/about/' %} aria-current="page"{% endif %} href="{{ '/about' | url}}">
-                    <span class="text">
-                        About
-                    </span>
-                </a>
-            </li>
-        </ul>
-    </nav>
+<header class="site-nav-container">
+    <div class="guttered">
+        <nav>
+            <a class="skip-to-content-link" href="#main">Skip to Content</a>
+            <a class="logo-link" aria-label="Home" href="/">
+                {% include 'partials/logo.njk' %}
+            </a>
+            <ul>
+                <li>
+                    <a class="nav-link" {% if page.url == '/' %} aria-current="page"{% endif %} href="{{ '/' | url}}">
+                        <span class="text">
+                            Home
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a class="nav-link" {% if page.url == '/about/' %} aria-current="page"{% endif %} href="{{ '/about' | url}}">
+                        <span class="text">
+                            About
+                        </span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
 </header>

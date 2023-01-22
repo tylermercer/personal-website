@@ -10,10 +10,10 @@ pagination:
     alias: posts
 ---
 
-<h1>Tyler Mercer</h1>
 
-<div class="with-sidebar">
+<div class="with-sidebar guttered">
     <div class="posts">
+        <h1>Tyler Mercer</h1>
         <h2>Latest Posts</h2>
         <ul>
             {% for post in posts %}
@@ -27,6 +27,7 @@ pagination:
             </li>
             {% endfor %}
         </ul>
+        <p><a href="/posts/">All Posts</a></p>
     </div>
     <div class="sidebar">
         <h2>Collections</h2>
@@ -45,4 +46,3 @@ pagination:
 
 
 
-<p><a href="/posts/">All Posts</a></p>

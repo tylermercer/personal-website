@@ -10,8 +10,10 @@
     border-width: 0;
 }
 .guttered {
-    max-width: 36rem;
-    margin: 0 auto;
-    padding: 1rem;
+    max-width: var(--guttered-content-width, 36rem);
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
     display: block;
 }
