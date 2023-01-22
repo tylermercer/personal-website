@@ -19,13 +19,8 @@ module.exports = function (eleventyConfig) {
       html: true,
       typographer: true
     }).use(anchor,  {
-      permalink: anchor.permalink.linkInsideHeader({
-        class: "heading-anchor",
-        symbol: `
-          <span class="sr-only">Jump to heading</span>
-          <span aria-hidden="true">&para;</span>
-        `,
-        placement: 'before'
+      permalink: anchor.permalink.headerLink({
+        safariReaderFix: true
       })
     }).use(footnote);
   
