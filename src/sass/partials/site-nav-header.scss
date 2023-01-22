@@ -18,12 +18,14 @@
 
     .skip-to-content-link {
         background-color: var(--color-primary-2);
-        height: 46px;
         left: 50%;
-        padding: 8px;
+        padding: 4px;
         position: absolute;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-family: var(--font-accent);
         transform: translate(-50%, -100%);
-        transition: transform 0.3s;
+        transition: transform 0.2s;
         z-index: 1;
         @media (prefers-reduced-motion: reduce) {
             transition: none;
