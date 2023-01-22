@@ -8,13 +8,19 @@
         margin-bottom: 0;
     }
 }
-.heading-anchor {
-    position: absolute;
-    transform: translate(-200%, 0.2em);
-    font-size: 0.7em;
-    font-weight: normal;
+.header-anchor {
+    color: var(--color-fg-default);
     text-decoration: none;
-    &:hover, &:focus {
-        text-decoration: underline;
+    padding-left: 1.5ch;
+    margin-left: -1.5ch;
+    &:hover:before, &:focus:before {
+        font-weight: normal;
+        color: var(--color-primary-11);
+        content: '\00B6';
+        position: relative;
+        float: left;
+        left: -1.5ch;
+        width: 0;
+        height: 0;
     }
 }
