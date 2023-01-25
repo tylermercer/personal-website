@@ -3,7 +3,11 @@ const markdownIt = require("markdown-it");
 const anchor = require('markdown-it-anchor');
 const footnote = require('markdown-it-footnote');
 
+const UpgradeHelper = require("@11ty/eleventy-upgrade-help");
+
 module.exports = function (eleventyConfig) {
+    eleventyConfig.addPlugin(UpgradeHelper);
+
     eleventyConfig.addLayoutAlias('base', 'layouts/base.njk');
     eleventyConfig.addLayoutAlias('post', 'layouts/post.njk');
     eleventyConfig.addLayoutAlias('page', 'layouts/page.njk');
