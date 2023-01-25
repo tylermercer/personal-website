@@ -44,22 +44,24 @@
     --color-primary-12: #{$color-primary-dark-12};
 
 // Right now the primary and gray colors are the same but this may change
-    --color-gray-1:  #{$color-primary-dark-1};
-    --color-gray-2:  #{$color-primary-dark-2};
-    --color-gray-3:  #{$color-primary-dark-3};
-    --color-gray-4:  #{$color-primary-dark-4};
-    --color-gray-5:  #{$color-primary-dark-5};
-    --color-gray-6:  #{$color-primary-dark-6};
-    --color-gray-7:  #{$color-primary-dark-7};
-    --color-gray-8:  #{$color-primary-dark-8};
-    --color-gray-9:  #{$color-primary-dark-9};
-    --color-gray-10: #{$color-primary-dark-10};
-    --color-gray-11: #{$color-primary-dark-11};
-    --color-gray-12: #{$color-primary-dark-12};
+    --color-gray-1:  #{$color-gray-dark-1};
+    --color-gray-2:  #{$color-gray-dark-2};
+    --color-gray-3:  #{$color-gray-dark-3};
+    --color-gray-4:  #{$color-gray-dark-4};
+    --color-gray-5:  #{$color-gray-dark-5};
+    --color-gray-6:  #{$color-gray-dark-6};
+    --color-gray-7:  #{$color-gray-dark-7};
+    --color-gray-8:  #{$color-gray-dark-8};
+    --color-gray-9:  #{$color-gray-dark-9};
+    --color-gray-10: #{$color-gray-dark-10};
+    --color-gray-11: #{$color-gray-dark-11};
+    --color-gray-12: #{$color-gray-dark-12};
 }
 
 :root {
     @include light-colors;
+    --color-primary: #{$color-primary};
+
     @media (prefers-color-scheme:dark) {
         @include dark-colors;
     }
