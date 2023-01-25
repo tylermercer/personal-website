@@ -1,5 +1,9 @@
 //Right now the primary and gray colors are the same but this may change
 
+$color-primary: hsl(206, 100%, 20%);
+$color-accent-light: hsl(42, 60%, 85%);
+$color-accent-dark: hsl(51, 40%, 25%); 
+
 //Light
 $color-primary-light-1: hsl(206, 30.0%, 98.8%);
 $color-primary-light-2: hsl(210, 16.7%, 97.6%);
@@ -12,7 +16,7 @@ $color-primary-light-8: hsl(205, 10.7%, 78.0%);
 $color-primary-light-9: hsl(206, 6.0%, 56.1%);
 $color-primary-light-10: hsl(206, 5.8%, 52.3%);
 $color-primary-light-11: hsl(206, 6.0%, 43.5%);
-$color-primary-light-12: hsl(206, 24.0%, 9.0%);
+$color-primary-light-12: $color-primary;
 
 $color-gray-light-1: hsl(206, 30.0%, 98.8%);
 $color-gray-light-2: hsl(210, 16.7%, 97.6%);
@@ -28,7 +32,7 @@ $color-gray-light-11: hsl(206, 6.0%, 43.5%);
 $color-gray-light-12: hsl(206, 24.0%, 9.0%);
 
 //Dark
-$color-primary-dark-1: hsl(200, 7.0%, 8.8%);
+$color-primary-dark-1: $color-primary;
 $color-primary-dark-2: hsl(195, 7.1%, 11.0%);
 $color-primary-dark-3: hsl(197, 6.8%, 13.6%);
 $color-primary-dark-4: hsl(198, 6.6%, 15.8%);
