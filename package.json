@@ -19,7 +19,6 @@
   "license": "ISC",
   "devDependencies": {
     "@11ty/eleventy": "^2.0.0-beta.1",
-    "@11ty/eleventy-upgrade-help": "^2.0.5",
     "lightningcss-cli": "^1.18.0",
     "markdown-it-anchor": "^8.6.6",
     "markdown-it-footnote": "^3.0.3",
