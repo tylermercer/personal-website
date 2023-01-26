@@ -2,6 +2,8 @@
 
 @mixin base-colors {
     --color-primary-static: #{$color-primary};
+    --color-accent-1-static: #{$color-accent-1};
+    --color-accent-2-static: #{$color-accent-2};
     --color-primary-1-static: #{$color-primary-light-1};
     --color-primary-2-static: #{$color-primary-light-2};
     --color-primary-3-static: #{$color-primary-light-3};
@@ -31,6 +33,9 @@
 }
 
 @mixin resp-light-colors {
+    --color-accent-1: #{$color-accent-1};
+    --color-accent-2: #{$color-accent-2};
+
     --color-primary-1: #{$color-primary-light-1};
     --color-primary-2: #{$color-primary-light-2};
     --color-primary-3: #{$color-primary-light-3};
@@ -60,6 +65,9 @@
 }
 
 @mixin dark-colors {
+    --color-accent-1: #{$color-accent-2};
+    --color-accent-2: #{$color-accent-1};
+
     --color-primary-1:  #{$color-primary-dark-1};
     --color-primary-2:  #{$color-primary-dark-2};
     --color-primary-3:  #{$color-primary-dark-3};
