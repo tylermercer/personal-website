@@ -57,12 +57,12 @@
 
             &:hover,
             &:focus {
-                color: var(--color-accent-2);
+                color: var(--color-accent-4);
             }
 
             &[aria-current=page] {
                 border-top: 2px solid transparent;
-                border-bottom: 3px solid var(--color-accent-2);
+                border-bottom: 3px solid var(--color-accent-4);
             }
         }
     }
