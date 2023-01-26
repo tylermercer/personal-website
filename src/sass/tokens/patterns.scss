@@ -1,8 +1,8 @@
 @use '../tokens/color-vars';
 @import '../functions';
 
-$svg-color-light: encodeColor($color-accent-dark);
-$svg-color-dark: encodeColor($color-accent-dark);
+$svg-color-light: encodeColor($color-accent-2);
+$svg-color-dark: encodeColor($color-accent-2);
 
 .pattern {
     background-color: var(--color-primary-static);
