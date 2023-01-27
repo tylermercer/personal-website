@@ -26,7 +26,7 @@ ogImageTemplatePath: ./src/_og-image-templates/post.og.njk
                     </h3>
                     <time class="dateline" datetime="{{ post.date | dateIso }}">{{ post.date | postDate }}</time>
                     <p>
-                        {{ post.data.page.excerpt }}
+                        {%- excerpt post -%}
                     </p>
                 </article>
             </li>
