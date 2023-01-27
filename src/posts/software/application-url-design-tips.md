@@ -1,6 +1,6 @@
 ---
-title: "Application URL Design Tips"
-description: "Nine useful tips for organizing your web app URLs"
+title: Application URL Design Tips
+description: Useful tips for organizing the URLs in a web app
 date: 2023-01-02
 ---
 <!--This is a test post-->
