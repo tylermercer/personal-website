@@ -40,9 +40,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a {
-    color: var(--color-accent-4);
+    color: var(--color-primary-11);
     &:where(:visited) {
-        color: var(--color-accent-5);
+        color: var(--color-primary-12);
     }
 }
 
