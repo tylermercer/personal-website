@@ -70,6 +70,10 @@ module.exports = function (eleventyConfig) {
       console.log(foo)
       return foo
     });
+    
+    eleventyConfig.setFrontMatterParsingOptions({
+      excerpt: true
+    });
 
     eleventyConfig.addPlugin(brokenExternalLinks, { broken: "error" });
 

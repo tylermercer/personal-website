@@ -9,7 +9,7 @@ It's not every day that a _question_ on Stack Overflow proves helpful
 rather than an answer, 
 but [this Stack Overflow question about organizing URLs](https://stackoverflow.com/questions/37734246/how-to-organise-resources-in-web-application-url-structure) 
 provides some great tips:
-
+---
 > 1. Namespacing features behind the username 
 >   like `example.com/{username}/followers` 
 >   [is ideal] for public features that belong to each user individually.
