@@ -9,6 +9,7 @@ At first glance this might seem uninteresting,
 as heaven is traditionally seen as being above the earth,
 but it occurred to me that the more important thing may be 
 that they bring us away from the world. 
+---
 The height of a mountain imposes a necessary solitude 
 and isolation upon its summit, 
 and this removal of the self from the 
