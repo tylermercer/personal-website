@@ -12,7 +12,7 @@
     "build:eleventy": "eleventy",
     "postbuild": "del-cli dist/drafts",
     "start": "npm-run-all build:sass-global build:sass-pages --parallel watch:*",
-    "build:pagefind": "npx pagefind --source \"dist\"",
+    "build:pagefind": "npx pagefind@latest --source \"dist\"",
     "build:dev": "npm-run-all build:sass-global build:sass-pages build:eleventy build:pagefind",
     "build" : "cross-env NODE_ENV=production npm run build:dev",
     "clean": "del-cli dist"
