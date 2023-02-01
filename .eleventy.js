@@ -5,6 +5,8 @@ const footnote = require('markdown-it-footnote');
 const automaticNoopener = require('eleventy-plugin-automatic-noopener');
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const brokenExternalLinks = require("eleventy-plugin-broken-links");
+const ogImage = require('eleventy-plugin-og-image');
+const fs = require('fs');
 
 module.exports = function (eleventyConfig) {
     eleventyConfig.addLayoutAlias('base', 'layouts/base.njk');
@@ -15,6 +17,18 @@ module.exports = function (eleventyConfig) {
       noreferrer: true,
     });
     eleventyConfig.addPlugin(syntaxHighlight);
+    eleventyConfig.addPlugin(ogImage, {
+      satoriOptions: {
+        fonts: [
+          {
+            name: 'Figtree',
+            data: fs.readFileSync('src/fonts/figtree-v2-latin-700.woff'),
+            weight: 700,
+            style: 'normal',
+          },
+        ],
+      },
+    })
 
     eleventyConfig.addFilter("postDate", (date) => {
       return DateTime.fromJSDate(date).toLocaleString(DateTime.DATE_MED);
