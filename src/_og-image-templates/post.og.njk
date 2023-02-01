@@ -10,11 +10,11 @@
         background: hsl(206, 30.0%, 98.8%);
     }
     .title-container {
-        align-items: center;
+        align-items: flex-start;
         flex: 1;
     }
     .pattern {
-        align-items: center;
+        align-items: flex-start;
         background: hsl(206, 80%, 20%);
         padding: 1rem;
         color: hsl(206, 30.0%, 98.8%);
@@ -32,6 +32,6 @@
         <h1 class="title">{{ title }}</h1>
     </div> 
     <div class="stack pattern pattern-{{ pattern }}">
-        Tyler Mercer
+        {{ description }}
     </div>
 </div>
