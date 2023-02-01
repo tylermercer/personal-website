@@ -2,11 +2,16 @@ const { DateTime } = require("luxon");
 const markdownIt = require("markdown-it");
 const anchor = require('markdown-it-anchor');
 const footnote = require('markdown-it-footnote');
+const automaticNoopener = require('eleventy-plugin-automatic-noopener');
 
 module.exports = function (eleventyConfig) {
     eleventyConfig.addLayoutAlias('base', 'layouts/base.njk');
     eleventyConfig.addLayoutAlias('post', 'layouts/post.njk');
     eleventyConfig.addLayoutAlias('page', 'layouts/page.njk');
+
+    eleventyConfig.addPlugin(automaticNoopener, {
+      noreferrer: true,
+    });
 
     eleventyConfig.addFilter("postDate", (date) => {
       return DateTime.fromJSDate(date).toLocaleString(DateTime.DATE_MED);
