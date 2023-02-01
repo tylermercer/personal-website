@@ -4,6 +4,7 @@ const anchor = require('markdown-it-anchor');
 const footnote = require('markdown-it-footnote');
 const automaticNoopener = require('eleventy-plugin-automatic-noopener');
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
+const brokenExternalLinks = require("eleventy-plugin-broken-links");
 
 module.exports = function (eleventyConfig) {
     eleventyConfig.addLayoutAlias('base', 'layouts/base.njk');
@@ -48,6 +49,8 @@ module.exports = function (eleventyConfig) {
       console.log(foo)
       return foo
     });
+
+    eleventyConfig.addPlugin(brokenExternalLinks, { broken: "error" });
 
     return {
       dir: {
