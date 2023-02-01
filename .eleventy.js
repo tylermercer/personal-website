@@ -32,6 +32,7 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.setLibrary("md", markdown);
 
     eleventyConfig.addPassthroughCopy("./src/fonts/*");
+    eleventyConfig.addPassthroughCopy({ "./src/static/*" : "/" });
 
     eleventyConfig.addWatchTarget("./src/sass/");
 
