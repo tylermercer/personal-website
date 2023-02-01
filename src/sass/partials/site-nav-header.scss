@@ -58,10 +58,8 @@
             &:hover,
             &:focus,
             &[aria-current=page]:hover,
-            &[aria-current=page]:focus, {
-                color: var(--color-accent-4);
-                border-top: 2px solid transparent;
-                border-bottom: 2px solid var(--color-accent-4);
+            &[aria-current=page]:focus {
+                color: var(--color-primary-11);
             }
 
             &[aria-current=page] {
