@@ -47,17 +47,12 @@ a {
     }
 }
 
-.astro-code {
-    padding: 1rem;
-    border-radius: 0.2rem;
-    border: 1px solid var(--color-gray-10);
-}
-
 p {
     line-height: 1.85em;
 }
 
-code {
+pre {
+    border: 1px solid var(--color-gray-10);
     font-family: var(--font-code, monospace);
 }
 

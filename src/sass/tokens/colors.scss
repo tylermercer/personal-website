@@ -88,11 +88,19 @@
     --color-gray-11: #{$color-gray-dark-11};
     --color-gray-12: #{$color-gray-dark-12};
 }
+@media (prefers-color-scheme: dark) {
+    @import '../../../node_modules/prism-themes/themes/prism-coldark-dark';
+}
+@media (prefers-color-scheme: light) {
+    @import '../../../node_modules/prism-themes/themes/prism-coldark-cold';
+}
+
 
 :root {
     @include base-colors;
 
     @include resp-light-colors;
+
 
     @media (prefers-color-scheme:dark) {
         @include dark-colors;

@@ -3,6 +3,7 @@ const markdownIt = require("markdown-it");
 const anchor = require('markdown-it-anchor');
 const footnote = require('markdown-it-footnote');
 const automaticNoopener = require('eleventy-plugin-automatic-noopener');
+const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 
 module.exports = function (eleventyConfig) {
     eleventyConfig.addLayoutAlias('base', 'layouts/base.njk');
@@ -12,6 +13,7 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPlugin(automaticNoopener, {
       noreferrer: true,
     });
+    eleventyConfig.addPlugin(syntaxHighlight);
 
     eleventyConfig.addFilter("postDate", (date) => {
       return DateTime.fromJSDate(date).toLocaleString(DateTime.DATE_MED);

@@ -19,11 +19,15 @@
   "license": "ISC",
   "devDependencies": {
     "@11ty/eleventy": "^2.0.0-beta.1",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^4.2.0",
+    "eleventy-plugin-automatic-noopener": "^2.0.2",
     "lightningcss-cli": "^1.18.0",
     "markdown-it-anchor": "^8.6.6",
     "markdown-it-footnote": "^3.0.3",
     "npm-run-all": "^4.1.5",
-    "sass": "^1.57.1",
-    "eleventy-plugin-automatic-noopener": "^2.0.2"
+    "sass": "^1.57.1"
+  },
+  "dependencies": {
+    "prism-themes": "^1.9.0"
   }
 }
