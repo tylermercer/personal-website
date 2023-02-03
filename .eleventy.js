@@ -39,7 +39,7 @@ module.exports = function (eleventyConfig) {
   
     eleventyConfig.setLibrary("md", markdown);
 
-    eleventyConfig.addPassthroughCopy({ "./src/static/*" : "/" });
+    eleventyConfig.addPassthroughCopy({ "./src/_static/*" : "/" });
     eleventyConfig.addPassthroughCopy({ './node_modules/@fontsource/figtree/files/*latin-{400,700}*.woff2': '/css/files' })
     eleventyConfig.addPassthroughCopy({ './node_modules/@fontsource/faustina/files/*latin-{400,700}*.woff2': '/css/files' })
 
