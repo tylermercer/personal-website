@@ -41,6 +41,7 @@ module.exports = function (eleventyConfig) {
 
     eleventyConfig.addPassthroughCopy("./src/fonts/*");
     eleventyConfig.addPassthroughCopy({ "./src/static/*" : "/" });
+    eleventyConfig.addPassthroughCopy({ './node_modules/@fontsource/faustina/files/*latin-{400,700}*.woff2': '/css/files' })
 
     eleventyConfig.addWatchTarget("./src/sass/");
 
