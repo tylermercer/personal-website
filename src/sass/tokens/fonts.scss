@@ -1,7 +1,10 @@
 @import 'fonts/figtree.scss';
+@import '../../../node_modules/@fontsource/faustina/400';
+@import '../../../node_modules/@fontsource/faustina/400-italic';
+@import '../../../node_modules/@fontsource/faustina/700';
 
 :root {
     --font-heading: 'Figtree', Arial, sans-serif;
-    --font-body: Georgia, serif;
+    --font-body: 'Faustina', Georgia, serif;
     --font-accent: 'Figtree', Arial, sans-serif;
 }
