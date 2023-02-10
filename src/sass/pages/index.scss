@@ -3,14 +3,13 @@
 }
 main {
     margin: 0 auto;
-    padding: 1rem;
+    margin-bottom: 2rem;
 }
 h2 {
-    margin-top: 0.5rem;
+    margin-top: 2rem;
     margin-bottom: 1rem;
 }
 .posts {
-    margin-bottom: 2rem;
     & > h2 {
         margin-top: 1.5rem;
         padding: 0;
@@ -44,6 +43,7 @@ h2 {
 .with-sidebar {
     display: flex;
     flex-wrap: wrap;
+    gap: 2rem;
     & > .sidebar {
         flex-grow: 1;
         flex-basis: 20rem;
