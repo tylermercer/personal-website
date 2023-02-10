@@ -21,5 +21,7 @@ layout: base
             {{- wordCount | numCommas }} words &mdash; Reading time: {{ readingTime }} minute{% if readingTime > 1 %}s{% endif -%}
         </p>
     {%- endif -%}
-    {{- content | safe -}}
+    <div class="article-content">
+        {{- content | safe -}}
+    </div>
 </div>

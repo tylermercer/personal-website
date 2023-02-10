@@ -34,6 +34,7 @@
     margin-bottom: 2rem;
     & p {
         margin-top: 0.2rem;
+        margin-bottom: 0.2rem;
     }
 }
 .post-description {
@@ -41,4 +42,17 @@
     font-size: 1.75em;
     margin-top: 2rem;
     margin-bottom: 2rem;
+}
+.article-content {
+    &:has(p:nth-of-type(2)) > p:first-of-type::first-letter {
+        font-family: var(--font-heading);
+        color: var(--color-primary-11);
+        float: left;
+        font-size: 75px;
+        line-height: 10px;
+        padding-top: 26px;
+        padding-right: 4px;
+        padding-left: 4px;
+        margin: 0.1em 0.1em 0.2em 0;
+    }
 }
