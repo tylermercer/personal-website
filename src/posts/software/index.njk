@@ -4,8 +4,18 @@ eleventyExcludeFromCollections: true
 description: Posts about software engineering, UI and UX design, and other aspects of software development
 ---
 
-<ul>
-    {% for post in collections.software -%}
-        <li><a href={{ post.url }}>{{ post.data.title }}</a></li>
+<ul class="post-cards-list">
+    {% for post in collections.software %}
+        <li class="post-card">
+            <article>
+                <h3>
+                    <a href="{{ post.url | url }}">{{ post.data.title }}</a>
+                </h3>
+                <p>
+                    {{ post.data.description }}
+                </p>
+                <time class="dateline" datetime="{{ post.date | dateIso }}">{{ post.date | postDate }}</time>
+            </article>
+        </li>
     {% endfor %}
-<ul>
+</ul>
