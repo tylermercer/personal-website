@@ -3,20 +3,20 @@ layout: base
 ---
 <h1 {% if category %} class="pattern pattern-{{ category }}" {% endif %}><span class="guttered">{{ title }}</span></h1>
 <div class="guttered">
-    {% if (not eleventyExcludeFromCollections) %}
+    {%- if (not eleventyExcludeFromCollections) -%}
         <p class="dateline"></p>
         {% set regExpCode = r/<pre class=(.|\n)*?<\/pre>/gm %}
         {% set fixedContent = content | replace(regExpCode, "") | striptags %}
         {% set wordCount = fixedContent | wordcount %}
         {% set readingRate = 225 %}
         {% set readingTime = (wordCount/readingRate) | round %}
-        {% if readingTime < 1 %}{% set readingTime = 1 %}{% endif %}
+        {%- if readingTime < 1 %}{% set readingTime = 1 %}{% endif %}
         <p class="dateline">
-            {{- page.date | postDate }}
-            {% if category %} in <a href="/posts/{{ category }}">{{ category | capitalize -}}</a>{% endif %}
+            <time datetime="{{ page.date | dateIso }}">{{ page.date | postDate }}</time>
+            {%- if category %} in <a href="/posts/{{ category }}">{{ category | capitalize -}}</a>{% endif -%}
             <span> &mdash; <span>
-            {{- wordCount | numCommas }} words &mdash; Reading time: {{ readingTime }} minute{% if readingTime > 1 %}s{% endif %}
+            {{- wordCount | numCommas }} words &mdash; Reading time: {{ readingTime }} minute{% if readingTime > 1 %}s{% endif -%}
         </p>
-    {% endif %}
-    {{ content | safe }}
+    {%- endif -%}
+    {{- content | safe -}}
 </div>
