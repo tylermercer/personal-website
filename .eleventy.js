@@ -22,8 +22,14 @@ module.exports = function (eleventyConfig) {
         fonts: [
           {
             name: 'Figtree',
-            data: fs.readFileSync('src/fonts/figtree-v2-latin-700.woff'),
+            data: fs.readFileSync('./node_modules/@fontsource/figtree/files/figtree-all-700-normal.woff'),
             weight: 700,
+            style: 'normal',
+          },
+          {
+            name: 'Faustina',
+            data: fs.readFileSync('./node_modules/@fontsource/faustina/files/faustina-all-400-normal.woff'),
+            weight: 400,
             style: 'normal',
           },
         ],
