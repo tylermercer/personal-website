@@ -11,7 +11,7 @@
       {% if eleventyExcludeFromCollections %}
         {{- title -}}
       {% else %}
-        {{- title }} - {{ siteName -}}
+        {{- title }} - {{ metadata.title -}}
       {% endif %}
     </title>
     <link rel="stylesheet" href="{{ '/css/style.css' | url }}">
