@@ -1,5 +1,5 @@
 <style>
-    .stack {
+    div {
         display: flex;
         flex-direction: column;
     }
@@ -47,11 +47,11 @@
         font-variant-numeric: lining-nums;
     }
 </style>
-<div class="stack root">
-    <div class="stack pattern pattern-{{ pattern }}">
+<div class="root">
+    <div class="pattern pattern-{{ pattern }}">
         <h1 class="title">{{ title }}</h1>
     </div>
-    <div class="stack bg-container">
+    <div class="bg-container">
         <div>{{- description -}}</div>
         {% if not hideDateline %}
             <div class="dateline">{{- date | postDate }} — Tyler Mercer</div>
