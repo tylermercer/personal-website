@@ -17,17 +17,17 @@ ogImageTemplatePath: ./src/_og-image-templates/post.og.njk
     <div class="posts">
         <h1>Tyler Mercer</h1>
         <h2>Latest Posts</h2>
-        <ul>
+        <ul class="post-cards-list">
             {% for post in posts %}
-            <li class="post">
+            <li class="post-card">
                 <article>
                     <h3>
                         <a href="{{ post.url | url }}">{{ post.data.title }}</a>
                     </h3>
-                    <time class="dateline" datetime="{{ post.date | dateIso }}">{{ post.date | postDate }}</time>
                     <p>
                         {{ post.data.description }}
                     </p>
+                    <time class="dateline" datetime="{{ post.date | dateIso }}">{{ post.date | postDate }}</time>
                 </article>
             </li>
             {% endfor %}
