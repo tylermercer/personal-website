@@ -6,6 +6,8 @@ const automaticNoopener = require('eleventy-plugin-automatic-noopener');
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const brokenExternalLinks = require("eleventy-plugin-broken-links");
 const ogImage = require('eleventy-plugin-og-image');
+const rss = require('@11ty/eleventy-plugin-rss');
+const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
 const fs = require('fs');
 
 module.exports = function (eleventyConfig) {
@@ -17,6 +19,8 @@ module.exports = function (eleventyConfig) {
       noreferrer: true,
     });
     eleventyConfig.addPlugin(syntaxHighlight);
+    eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
+    eleventyConfig.addPlugin(rss);
     eleventyConfig.addPlugin(ogImage, {
       satoriOptions: {
         fonts: [
