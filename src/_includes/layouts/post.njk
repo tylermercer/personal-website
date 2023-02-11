@@ -24,4 +24,9 @@ layout: base
     <div class="article-content">
         {{- content | safe -}}
     </div>
+    {%- if (not eleventyExcludeFromCollections) -%}
+        <div>
+            TODO: Social links
+        </div>
+    {%- endif -%}
 </div>
