@@ -3,6 +3,7 @@ title: "/now"
 layout: post
 description: "What I'm up to right now"
 eleventyExcludeFromCollections: true
+date: Last Modified
 ---
 
 I am currently working at Brevium, where I collaborate with some amazing people 
@@ -17,6 +18,8 @@ by Brene Brown with my wife Evelyn, and just finished _Indistractible_ by Nir
 Eyal.^[I started _Indistractible_ a while ago and got most of the way through 
 it, but finally picked it up again a few weeks ago. You could say I got 
 distracted.] I highly recommend both books.
+
+_Last updated: {{ page.date | postDate }}_
 
 <hr/>
 
