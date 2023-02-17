@@ -4,9 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:;">
-    {% if description %}
+    {%- if description -%}
       <meta name="description" content="{{ description }}">
-    {% endif %}
+    {%- endif -%}
     {%- set titleFull -%}
       {%- if eleventyExcludeFromCollections -%}
         {{- title -}}
@@ -18,20 +18,20 @@
     <title>{{ titleFull }}</title>
     {#- Styles -#}
     <link rel="stylesheet" href="{{ '/css/style.css' | url }}">
-    {% if pageScopedStyles %}
+    {%- if pageScopedStyles -%}
     <link rel="stylesheet" href="{{ page.filePathStem | pageScopedStyle | url }}">
-    {% endif %}
+    {%- endif -%}
     {#- Icons -#}
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" href="favicon.svg">
     {#- OG and Twitter -#}
-    {% if ogImageTemplatePath %}
-      {% setAsync "ogOutputUrl" -%}
-      {% ogImage ogImageTemplatePath, { title: title, description: description, pattern: category, date: page.date, hideDateline: eleventyExcludeFromCollections } %}
-      {%- endsetAsync %}
+    {%- if ogImageTemplatePath -%}
+      {%- setAsync "ogOutputUrl" -%}
+      {%- ogImage ogImageTemplatePath, { title: title, description: description, pattern: category, date: page.date, hideDateline: eleventyExcludeFromCollections } -%}
+      {%- endsetAsync -%}
       <meta property="og:image" content="{{ ogOutputUrl }}">
       <meta name="twitter:image" content="{{ ogOutputUrl }}">
-    {% endif %}
+    {%- endif -%}
     <meta property="og:title" content="{{ titleFull }}">
     <meta property="og:type" content="article">
     <meta property="og:url" content="{{ page.url | htmlBaseUrl(metadata.url) }}">
@@ -47,10 +47,10 @@
     <link rel="manifest" href="/site.webmanifest">
   </head>
   <body>
-    {% include 'partials/site-nav-header.njk' %}
+    {%- include 'partials/site-nav-header.njk' -%}
     <main id="main">
         {{ content | safe }}
     </main>
-    {% include 'partials/site-footer.njk' %}
+    {%- include 'partials/site-footer.njk' -%}
   </body>
 </html>
