@@ -14,6 +14,13 @@
                     </a>
                 </li>
                 <li>
+                    <a class="nav-link" {% if page.url == '/now/' %} aria-current="page"{% endif %} href="{{ '/now' | url}}">
+                        <span class="text">
+                            Now
+                        </span>
+                    </a>
+                </li>
+                <li>
                     <a class="nav-link" {% if page.url == '/about/' %} aria-current="page"{% endif %} href="{{ '/about' | url}}">
                         <span class="text">
                             About
