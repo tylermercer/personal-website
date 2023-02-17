@@ -24,7 +24,7 @@ _Last updated: {{ page.date | postDate }}_
 <hr/>
 
 ## What's this?
-The /now page movement was started by [Derek Sivers](https://sive.rs/nowff)^[Perhaps more accurately, it was started by Gregory Brown, who saw what Derek had done and did the same thing]. From [the page he created to explain it](https://nownownow.com/about):
+The /now page movement was started by [Derek Sivers](https://sive.rs/nowff)^[Perhaps more accurately, it was started by Gregory Brown, who saw what Derek had done and did the same thing.]. From [the page he created to explain it](https://nownownow.com/about):
 
 > Most websites have a link that says “about”. It goes to a page that tells you something about the background of this person or business. For short, people just call it an “about page”.
 > ...
