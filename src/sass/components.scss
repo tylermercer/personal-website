@@ -48,6 +48,7 @@
     margin-bottom: 2rem;
 }
 .article-content {
+    margin-bottom: 3rem;
     &:has(p:nth-of-type(2)) > p:first-of-type::first-letter {
         font-family: var(--font-heading);
         color: var(--color-primary-11);
@@ -65,4 +66,13 @@
         margin-top: 0;
         margin-bottom: 0;
     }
+}
+.links-next-prev {
+    margin-bottom: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    gap: 0.5ch;
 }
