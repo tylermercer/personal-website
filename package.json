@@ -10,7 +10,7 @@
     "build:sass-global": "sass  --no-source-map src/sass/_style.scss:dist/css/style.css",
     "build:sass-pages": "sass  --no-source-map src/sass/pages:dist/css",
     "build:eleventy": "eleventy",
-    "postbuild": "del-cli dist/drafts",
+    "postbuild": "del-cli dist/drafts; npx @divriots/jampack dist",
     "start": "npm-run-all build:sass-global build:sass-pages --parallel watch:*",
     "build:dev": "npm-run-all build:sass-global build:sass-pages build:eleventy",
     "build" : "cross-env NODE_ENV=production npm run build:dev",
