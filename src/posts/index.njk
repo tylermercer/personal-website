@@ -12,13 +12,13 @@ layout: base
         {% for post in collections.posts %}
             <li class="post-card">
                 <article>
+                    <time class="dateline" datetime="{{ post.date | dateIso }}">{{ post.date | postDate }}</time>
                     <h3>
                         <a href="{{ post.url | url }}">{{ post.data.title }}</a>
                     </h3>
                     <p>
                         {{ post.data.description }}
                     </p>
-                    <time class="dateline" datetime="{{ post.date | dateIso }}">{{ post.date | postDate }}</time>
                 </article>
             </li>
         {% endfor %}

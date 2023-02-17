@@ -22,13 +22,13 @@ ogImageTemplatePath : ./src/_og-image-templates/home.og.njk
             {% for post in posts %}
             <li class="post-card">
                 <article>
+                    <time class="dateline" datetime="{{ post.date | dateIso }}">{{ post.date | postDate }}</time>
                     <h3>
                         <a href="{{ post.url | url }}">{{ post.data.title }}</a>
                     </h3>
                     <p>
                         {{ post.data.description }}
                     </p>
-                    <time class="dateline" datetime="{{ post.date | dateIso }}">{{ post.date | postDate }}</time>
                 </article>
             </li>
             {% endfor %}
