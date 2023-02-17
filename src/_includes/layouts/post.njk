@@ -24,9 +24,15 @@ layout: base
     <div class="article-content">
         {{- content | safe -}}
     </div>
-    {%- if (not eleventyExcludeFromCollections) -%}
-        <div>
-            TODO: Social links
-        </div>
-    {%- endif -%}
+    {%- if collections.posts %}
+    {%- set previousPost = collections.posts | getPreviousCollectionItem %}
+    {%- set nextPost = collections.posts | getNextCollectionItem %}
+    {%- if nextPost or previousPost %}
+    <ul class="links-next-prev">
+        {%- if previousPost %}<li>Previous: <a href="{{ previousPost.url }}">{{ previousPost.data.title }}</a></li>{% endif %}
+        {%- if previousPost and nextPost %}<span>|</span>{% endif %}
+        {%- if nextPost %}<li>Next: <a href="{{ nextPost.url }}">{{ nextPost.data.title }}</a></li>{% endif %}
+    </ul>
+    {%- endif %}
+    {%- endif %}
 </div>
