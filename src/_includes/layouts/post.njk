@@ -3,9 +3,11 @@ layout: base
 ---
 <h1 {% if category %} class="pattern pattern-{{ category }}" {% endif %}><span class="guttered">{{ title }}</span></h1>
 <div class="guttered">
-    <p class="post-description">
-        {{- description -}}
-    </p>
+    {%- if description -%}
+        <p class="post-description">
+            {{- description -}}
+        </p>
+    {%- endif -%}
     {%- if (not eleventyExcludeFromCollections) -%}
         <p class="dateline"></p>
         {% set regExpCode = r/<pre class=(.|\n)*?<\/pre>/gm %}
