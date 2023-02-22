@@ -10,6 +10,22 @@ const rss = require('@11ty/eleventy-plugin-rss');
 const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
 const fs = require('fs');
 
+function rmDir(dirPath, removeSelf) {
+  let files;
+  try { files = fs.readdirSync(dirPath); }
+  catch(e) { return; }
+  if (files.length > 0)
+    for (let i in files) {
+      const filePath = `${dirPath}/${files[i]}`;
+      if (fs.statSync(filePath).isFile())
+        fs.unlinkSync(filePath);
+      else
+        rmDir(filePath, true);
+    }
+  if (removeSelf)
+    fs.rmdirSync(dirPath);
+};
+
 module.exports = function (eleventyConfig) {
     eleventyConfig.addLayoutAlias('base', 'layouts/base.njk');
     eleventyConfig.addLayoutAlias('post', 'layouts/post.njk');
@@ -21,6 +37,11 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPlugin(syntaxHighlight);
     eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
     eleventyConfig.addPlugin(rss);
+
+    eleventyConfig.on('eleventy.before', () => {
+      rmDir('./dist/og-images'); // empty OG directory
+    });
+
     eleventyConfig.addPlugin(ogImage, {
       generateHTML: (url) => url,
       satoriOptions: {
