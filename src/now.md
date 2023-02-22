@@ -4,7 +4,7 @@ layout: post
 description: "What I'm up to right now"
 eleventyExcludeFromCollections: true
 date: Last Modified
-ogImageTemplatePath : ./src/_og-image-templates/post.og.njk
+ogImageTemplatePath : ./src/_og-image-templates/home.og.njk
 ---
 
 I am currently working at Brevium, where I collaborate with some amazing people 
