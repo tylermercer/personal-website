@@ -50,10 +50,10 @@
 </style>
 <div class="root">
     <div class="pattern pattern-{{ pattern }}">
-        <h1 class="title">{{ title }}</h1>
+        <h1 class="title">{{ title | safe }}</h1>
     </div>
     <div class="bg-container">
-        <div>{{- description -}}</div>
+        <div>{{- description | safe -}}</div>
         {% if not hideDateline %}
             <div class="dateline">{{- date | postDate }} — Tyler Mercer</div>
         {% endif %}
