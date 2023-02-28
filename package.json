@@ -11,7 +11,7 @@
     "build:sass-pages": "sass  --no-source-map src/sass/pages:dist/css",
     "build:eleventy": "eleventy",
     "postbuild": "",
-    "start": "npm-run-all clean:og build:sass-global build:sass-pages --parallel watch:*",
+    "start": "npm-run-all build:sass-global build:sass-pages --parallel watch:*",
     "build": "npm-run-all build:sass-global build:sass-pages build:eleventy",
     "clean": "del-cli dist"
   },
