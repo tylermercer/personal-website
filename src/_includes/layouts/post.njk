@@ -23,7 +23,7 @@ layout: base
             {{- wordCount | numCommas }} words &mdash; Reading time: {{ readingTime }} minute{% if readingTime > 1 %}s{% endif -%}
         </p>
     {%- endif -%}
-    <div class="article-content">
+    <div class="article-content {%- if dropCap %} drop-caps {%- endif %}">
         {{- content | safe -}}
     </div>
     {%- if collections.posts %}

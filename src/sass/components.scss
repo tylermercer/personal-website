@@ -49,7 +49,7 @@
 }
 .article-content {
     margin-bottom: 3rem;
-    &:has(p:nth-of-type(2)) > p:first-of-type::first-letter {
+    &.drop-caps > p:first-of-type::first-letter {
         font-family: var(--font-heading);
         color: var(--color-primary-11);
         float: left;
