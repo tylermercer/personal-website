@@ -38,14 +38,12 @@ ogImageTemplatePath : ./src/_og-image-templates/home.og.njk
     <div class="sidebar">
         <h2>Collections</h2>
         <div class="collections">
-            <div class="collection">
-                <h3 class="pattern pattern-software"><a href="/posts/software/">Software</a></h3>
-                <p>Posts about software engineering, UI and UX design, and other aspects of software development</p>
-            </div>
-            <div class="collection">
-                <h3 class="pattern pattern-faith"><a href="/posts/faith/">Faith</a></h3>
-                <p>Thoughts about the Gospel of Jesus Christ and how its principles interconnect with the sciences and daily life</p>
-            </div>
+            {% for category in collections.category %}
+                <div class="collection">
+                    <h3 class="pattern pattern-{{ category.data.category }}"><a href="{{ category.url | url }}">{{ category.data.title }}</a></h3>
+                    <p>{{ category.data.description }}</p>
+                </div>
+            {% endfor %}
         </div>
     </div>
 </div>
