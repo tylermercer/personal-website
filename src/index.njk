@@ -5,7 +5,7 @@ layout: base
 eleventyExcludeFromCollections: true
 pageScopedStyles: true
 pagination:
-    data: collections.all
+    data: collections.posts
     size: 10
     reverse: true
     alias: posts
@@ -19,7 +19,7 @@ ogImageTemplatePath : ./src/_og-image-templates/home.og.njk
         <p>{{ description }} </p>
         <h2>Latest Posts</h2>
         <ul class="post-cards-list">
-            {% for post in posts %}
+            {%- for post in posts -%}
             <li class="post-card">
                 <article>
                     <time class="dateline" datetime="{{ post.date | dateIso }}">{{ post.date | postDate }}</time>
@@ -27,11 +27,11 @@ ogImageTemplatePath : ./src/_og-image-templates/home.og.njk
                         <a href="{{ post.url | url }}">{{ post.data.title }}</a>
                     </h3>
                     <p>
-                        {{ post.data.description }}
+                        {{- post.data.description -}}
                     </p>
                 </article>
             </li>
-            {% endfor %}
+            {%- endfor -%}
         </ul>
         <p><a href="/posts/">All Posts</a></p>
     </div>
