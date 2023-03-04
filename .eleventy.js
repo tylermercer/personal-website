@@ -31,6 +31,14 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addLayoutAlias('post', 'layouts/post.njk');
     eleventyConfig.addLayoutAlias('page', 'layouts/page.njk');
 
+    eleventyConfig.addCollection("category", function(collectionApi) {
+      //Order categories by count
+      let count = (c) => collectionApi.getFilteredByGlob(`src/posts/${c.data.category}/*`).length;
+      return collectionApi
+            .getFilteredByTag("category")
+            .sort((c1, c2) => count(c2) - count(c1))
+    });
+
     eleventyConfig.addPlugin(automaticNoopener, {
       noreferrer: true,
     });
