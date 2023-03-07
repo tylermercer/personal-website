@@ -1,6 +1,7 @@
 ---
 title: Contact Me
 description: Say hi!
+layout: post
 ---
 
 If you'd like to contact me, please send me an email at 
