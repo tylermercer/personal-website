@@ -1,4 +1,6 @@
 ---
-title: Another Uncategorized Post
+title: Test Software Post
+description: This is another test post
 ---
-This is another uncategorized post 
+
+This is a test post in Software
