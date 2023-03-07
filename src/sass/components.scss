@@ -44,6 +44,9 @@
 .post-card {
     margin-top: 2rem;
     margin-bottom: 2rem;
+    &:first-of-type {
+        margin-top: 0;
+    }
     & h3 {
         margin-top: 0.2rem;
         margin-bottom: 0;
