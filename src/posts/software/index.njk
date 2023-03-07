@@ -5,7 +5,7 @@ description: Posts about software engineering, UI and UX design, and other aspec
 ---
 
 <ul class="post-cards-list">
-    {% for post in collections.software %}
+    {% for post in collections.software | reverse %}
         <li class="post-card">
             <article>
                 <time class="dateline" datetime="{{ post.date | dateIso }}">{{ post.date | postDate }}</time>

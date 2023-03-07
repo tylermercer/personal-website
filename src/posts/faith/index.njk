@@ -5,7 +5,7 @@ description: Thoughts about the Gospel of Jesus Christ and how its principles in
 ---
 
 <ul class="post-cards-list">
-    {% for post in collections.faith %}
+    {% for post in collections.faith  | reverse %}
         <li class="post-card">
             <article>
                 <time class="dateline" datetime="{{ post.date | dateIso }}">{{ post.date | postDate }}</time>
