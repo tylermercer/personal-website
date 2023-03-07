@@ -69,9 +69,20 @@ p {
     line-height: 1.85em;
 }
 
+code {
+    font-family: var(--font-code);
+    background-color: var(--color-primary-4);
+    padding: 2px;
+    border-radius: 4px;
+    border: 1px solid var(--color-primary-6);
+}
+
 pre {
     border: 1px solid var(--color-gray-10);
-    font-family: var(--font-code, monospace);
+    font-family: var(--font-code);
+    & > code {
+        border: unset;
+    }
 }
 
 blockquote {
