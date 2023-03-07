@@ -1,16 +1,26 @@
 .header-anchor {
     color: var(--color-fg-default);
     text-decoration: none;
-    padding-left: 1.5ch;
     margin-left: -1.5ch;
-    &:hover:before, &:focus:before {
-        color: var(--color-primary-11);
+    padding-left: 0;
+    @media screen and (width < 46rem) {
+        padding-left: 1.5ch;
+    }
+    & > span:after {
+        color: transparent;
         content: '\00B6';
         position: relative;
         float: left;
+        width: 1.5ch;
         left: -1.5ch;
-        width: 0;
-        height: 0;
+        @media screen and (width < 46rem) {
+            width: 2ch;
+            float: none;
+            left: 1ch;
+        }
+    }
+    &:hover > span:after, &:focus > span:after {
+        color: var(--color-primary-11);
     }
 }
 .dateline {
