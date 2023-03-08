@@ -8,7 +8,7 @@ layout: base
             {{- description -}}
         </p>
     {%- endif -%}
-    {%- if tags and 'post' in tags -%}
+    {%- if tags and 'posts' in tags -%}
         {% set regExpCode = r/<pre class=(.|\n)*?<\/pre>/gm %}
         {% set fixedContent = content | replace(regExpCode, "") | striptags %}
         {% set wordCount = fixedContent | wordcount %}
@@ -22,7 +22,7 @@ layout: base
             {{- wordCount | numCommas }} words &mdash; Reading time: {{ readingTime }} minute{% if readingTime > 1 %}s{% endif -%}
         </p>
     {%- endif -%}
-    <div class="article-content {%- if dropCap %} drop-caps {%- endif %}">
+    <div class="{%- if tags and 'posts' in tags -%}article-content{% endif %} {% if dropCap %} drop-caps {%- endif %}">
         {{- content | safe -}}
     </div>
     {%- if collections.posts %}
