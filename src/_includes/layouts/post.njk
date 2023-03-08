@@ -8,7 +8,7 @@ layout: base
             {{- description -}}
         </p>
     {%- endif -%}
-    {%- if (not eleventyExcludeFromCollections) -%}
+    {%- if tags and 'post' in tags -%}
         {% set regExpCode = r/<pre class=(.|\n)*?<\/pre>/gm %}
         {% set fixedContent = content | replace(regExpCode, "") | striptags %}
         {% set wordCount = fixedContent | wordcount %}
