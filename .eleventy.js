@@ -66,6 +66,12 @@ module.exports = function (eleventyConfig) {
             weight: 400,
             style: 'normal',
           },
+          {
+            name: 'Faustina',
+            data: fs.readFileSync('./node_modules/@fontsource/faustina/files/faustina-all-300-normal.woff'),
+            weight: 300,
+            style: 'normal',
+          },
         ],
       },
     })
@@ -95,7 +101,7 @@ module.exports = function (eleventyConfig) {
 
     eleventyConfig.addPassthroughCopy({ "./src/_static/*" : "/" });
     eleventyConfig.addPassthroughCopy({ './node_modules/@fontsource/figtree/files/*latin-{400,700}*.woff2': '/css/files' })
-    eleventyConfig.addPassthroughCopy({ './node_modules/@fontsource/faustina/files/*latin-{400,700}*.woff2': '/css/files' })
+    eleventyConfig.addPassthroughCopy({ './node_modules/@fontsource/faustina/files/*latin-{300,400,700}*.woff2': '/css/files' })
 
     eleventyConfig.addWatchTarget("./src/sass/");
 
