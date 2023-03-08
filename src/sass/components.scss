@@ -53,10 +53,12 @@
     }
 }
 .post-description {
+    font-weight: 300;
     line-height: 1.3;
-    font-size: 1.75em;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    font-size: 1.65em;
+    margin-top: 1.6rem;
+    margin-bottom: 1.6rem;
+    color: var(--color-gray-11);
 }
 .article-content {
     margin-bottom: 3rem;
