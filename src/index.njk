@@ -14,7 +14,7 @@ ogImageTemplatePath : ./src/_og-image-templates/home.og.njk
 
 
 <h1 class="pattern {% if category %} pattern-{{ category }}{% endif %}"><span class="guttered">{{ title }}</span></h1>
-<p class="guttered">{{ description }} </p>
+<p class="guttered post-description">{{- description -}}</p>
 <div class="with-sidebar guttered">
     <div class="posts">
         <h2>Latest Posts</h2>
