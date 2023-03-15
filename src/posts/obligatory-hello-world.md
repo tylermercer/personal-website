@@ -106,10 +106,10 @@ That's pretty cool, when you think about it.
 I made a thing, from scratch, that other people can enjoy.^[
    See ["Make Free Stuff"](https://mxb.dev/blog/make-free-stuff/) by Max Böck]
 I can share it with them simply by handing them a sequence of characters
-(`https://tylermercer.net`)^[
+(`https://tylermercer.net`).^[
    URLs are *so dang cool* when you think about it.
    I need to write more about this.]
-It's a peice of my mind that people anywhere in the world
+It's a piece of my mind that people _anywhere in the world_
 can experience and (hopefully) relate to.
 Heck, that's not just cool, that's _electrifying_!
 
@@ -137,7 +137,7 @@ that's a blog, a web app, art, or something else.
 
 To borrow and expand on the words of Chris Coyier, "you’ve got a brain.
 Lemme hear [or see] that thing go. 
-Write some words [or put some art or a web app] at a URL."^[
+Write some words [or put something else you created] at a URL."^[
    [🧠💭✏️](https://chriscoyier.net/2022/05/11/%F0%9F%A7%A0%F0%9F%92%AD%E2%9C%8F%EF%B8%8F/). 
    This post, along with Chris' [many](https://chriscoyier.net/2022/02/24/day-and-night-your-content-searches-the-world-for-people-and-opportunities/)
    [other](https://chriscoyier.net/2022/12/26/writing-the-cornerstone-of-amplification/)
