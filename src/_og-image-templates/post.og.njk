@@ -46,13 +46,16 @@
         font-family: 'Figtree';
         font-variant-numeric: lining-nums;
     }
+    .description {
+        color: hsl(206, 6.0%, 43.5%);
+    }
 </style>
 <div class="root">
     <div class="pattern pattern-{{ pattern }}">
         <h1 class="title">{{ title | safe }}</h1>
     </div>
     <div class="bg-container">
-        <div>{{- description | safe -}}</div>
+        <div class="description">{{- description | safe -}}</div>
         {% if not hideDateline %}
             <div class="dateline">{{- date | postDate }} — Tyler Mercer</div>
         {% endif %}
