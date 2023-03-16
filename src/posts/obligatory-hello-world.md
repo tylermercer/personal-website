@@ -172,7 +172,7 @@ Write some words [or put something else you created] at a URL."^[
 Most of my posts will fall into one of the two categories shown
 on [the home page](/): [Software](/posts/software) and [Faith](/posts/faith).
 You can read more about my foundational beliefs
-in each of these two categories [on the About page](/about).
+in each of these two categories on [the About page](/about).
 
 Occasionally, an article won't fit into these two categories.
 These articles, as well as the categorized ones, will be shown in
