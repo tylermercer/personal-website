@@ -8,21 +8,19 @@ layout: base
             {{- description -}}
         </p>
     {%- endif -%}
-    {%- if tags and 'posts' in tags -%}
-        {% set regExpCode = r/<pre class=(.|\n)*?<\/pre>/gm %}
-        {% set fixedContent = content | replace(regExpCode, "") | striptags %}
-        {% set wordCount = fixedContent | wordcount %}
-        {% set readingRate = 225 %}
-        {% set readingTime = (wordCount/readingRate) | round %}
-        {%- if readingTime < 1 %}{% set readingTime = 1 %}{% endif %}
-        <p class="dateline">
-            <time datetime="{{ page.date | dateIso }}">{{ page.date | postDate }}</time>
-            {%- if category %} in <a href="/posts/{{ category }}">{{ category | capitalize -}}</a>{% endif -%}
-            <span> &mdash; <span>
-            {{- wordCount | numCommas }} words &mdash; Reading time: {{ readingTime }} minute{% if readingTime > 1 %}s{% endif -%}
-        </p>
-    {%- endif -%}
-    <div class="{%- if tags and 'posts' in tags -%}article-content{% endif %} {% if dropCap %} drop-caps {%- endif %}">
+    {% set regExpCode = r/<pre class=(.|\n)*?<\/pre>/gm %}
+    {% set fixedContent = content | replace(regExpCode, "") | striptags %}
+    {% set wordCount = fixedContent | wordcount %}
+    {% set readingRate = 225 %}
+    {% set readingTime = (wordCount/readingRate) | round %}
+    {%- if readingTime < 1 %}{% set readingTime = 1 %}{% endif %}
+    <p class="dateline">
+        <time datetime="{{ page.date | dateIso }}">{{ page.date | postDate }}</time>
+        {%- if category %} in <a href="/posts/{{ category }}">{{ category | capitalize -}}</a>{% endif -%}
+        <span> &mdash; <span>
+        {{- wordCount | numCommas }} words &mdash; Reading time: {{ readingTime }} minute{% if readingTime > 1 %}s{% endif -%}
+    </p>
+    <div class="article-content {% if dropCap %} drop-caps {%- endif %}">
         {{- content | safe -}}
     </div>
     {%- if collections.posts %}
