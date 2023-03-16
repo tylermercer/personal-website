@@ -1,6 +1,6 @@
 ---
 title: "/now"
-layout: post
+layout: page
 description: "What I'm up to right now"
 eleventyExcludeFromCollections: true
 date: Last Modified

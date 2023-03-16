@@ -1,7 +1,7 @@
 ---
 title: Get in Touch
 description: How to contact me
-layout: post
+layout: page
 eleventyExcludeFromCollections: true
 ---
 

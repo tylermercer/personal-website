@@ -1,6 +1,6 @@
 ---
 title: About Me
-layout: post
+layout: page
 description: About Tyler Mercer
 eleventyExcludeFromCollections: true
 ogImageTemplatePath: ./src/_og-image-templates/home.og.njk
