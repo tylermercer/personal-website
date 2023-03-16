@@ -106,7 +106,8 @@ as a reader, know what to expect.
    in general.
 3. **Be unpolished.** I'm not going to let myself endlessly
    revise my writing.
-   I'm going to choose to be okay with just hitting publish (or "rebase and merge", as the case may be), even when
+   I'm going to choose to be okay with just hitting publish
+   (or "rebase and merge", as the case may be), even when
    it doesn't feel perfect yet.
    As such, I also reserve the right to adjust my perspectives over time as I learn more.
    I'll try to update older articles as that happens, but please
@@ -131,7 +132,7 @@ I can share it with them simply by handing them a sequence of characters
    I need to write more about this.]
 It's a piece of my mind that people _anywhere in the world_
 can experience and (hopefully) relate to.
-Heck, that's not just cool, that's _electrifying_!
+Heck, that's not just pretty cool, that's incredible!
 
 My goal is to keep this momentum going,
 not just in publishing more articles,
