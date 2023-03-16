@@ -29,7 +29,7 @@ function rmDir(dirPath, removeSelf) {
 module.exports = function (eleventyConfig) {
     eleventyConfig.addLayoutAlias('base', 'layouts/base.njk');
     eleventyConfig.addLayoutAlias('post', 'layouts/post.njk');
-    eleventyConfig.addLayoutAlias('category', 'layouts/category.njk');
+    eleventyConfig.addLayoutAlias('page', 'layouts/page.njk');
 
     eleventyConfig.addCollection("category", function(collectionApi) {
       //Order categories by count
