@@ -17,9 +17,29 @@ I'd pick up an interesting side project for a few weeks,
 until some other, more shiny idea came along and I'd start on that instead.
 I've accumulated a larger project graveyard than I care to admit.
 
-Lately though, I've been pushing against that.
-My wife and I have been slowly working our way through
-_The Gifts of Imperfection_ by Brené Brown over the last few months.
+A big part of that is anxiety.
+The idea of putting something I've created that's permanent
+(or relatively permanent), like writing, out into the world
+puts me into a high stress response.
+About 25 percent of people report an intense fear of public speaking,^[
+   ["Social phobia in the general population: prevalence and sociodemographic profile"](https://pubmed.ncbi.nlm.nih.gov/10501711/)
+]
+but for me, public speaking is
+_significantly_ less anxiety-inducing than public writing or
+other forms of more permanent creativity.^[
+   That's not to say I don't get stressed before giving a talk--just
+   that the stress is short-lived, because the event itself is short-lived.
+   In college, I also approached papers in a "short-lived stress"
+   way, writing them in the few hours before they were due.
+   (I actually found I wrote better essays this way.)]
+Public speaking is inherently ephermeral--it's an _event_.
+Public writing is inherently permanent. (As the saying goes,
+"once on the Internet, always on the Internet.")
+That evokes a very deep sense of anxiety in me.
+
+Over the last few months,
+my wife and I have been slowly working our way through
+_The Gifts of Imperfection_ by Brené Brown.
 In it, Brown discusses embracing our humanness
 and overcoming perfectionism and fear. Quoting from the book:
 
@@ -136,20 +156,20 @@ We need people creating cool things just for the sake of it--whether
 that's a blog, a web app, art, or something else.
 
 To borrow and expand on the words of Chris Coyier, "you’ve got a brain.
-Lemme hear [or see] that thing go. 
+Lemme hear [or see] that thing go.
 Write some words [or put something else you created] at a URL."^[
-   [🧠💭✏️](https://chriscoyier.net/2022/05/11/%F0%9F%A7%A0%F0%9F%92%AD%E2%9C%8F%EF%B8%8F/). 
+   [🧠💭✏️](https://chriscoyier.net/2022/05/11/%F0%9F%A7%A0%F0%9F%92%AD%E2%9C%8F%EF%B8%8F/).
    This post, along with Chris' [many](https://chriscoyier.net/2022/02/24/day-and-night-your-content-searches-the-world-for-people-and-opportunities/)
    [other](https://chriscoyier.net/2022/12/26/writing-the-cornerstone-of-amplification/)
-   [posts](https://chriscoyier.net/2023/01/09/getting-the-most-value-out-of-an-answer/) 
-   encouraging his readers to write, 
+   [posts](https://chriscoyier.net/2023/01/09/getting-the-most-value-out-of-an-answer/)
+   encouraging his readers to write,
    was another thing that helped tip the scales towards me actually doing this.
    ]
 
 ## A brief guide to this blog
 
 Most of my posts will fall into one of the two categories shown
-on [the home page](/): [Software](/posts/software) and [Faith](/posts/faith). 
+on [the home page](/): [Software](/posts/software) and [Faith](/posts/faith).
 You can read more about my foundational beliefs
 in each of these two categories [on the About page](/about).
 
