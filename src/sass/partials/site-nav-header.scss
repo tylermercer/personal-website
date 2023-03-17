@@ -22,7 +22,8 @@
             background-color: var(--color-primary-2);
             left: 50%;
             padding: 4px;
-            top: -40px;
+            --shift: 50px;
+            top: calc(var(--shift) * -1);
             position: absolute;
             font-weight: bold;
             text-transform: uppercase;
@@ -35,7 +36,7 @@
             }
 
             &:focus {
-                transform: translate(-50%, 40px);
+                transform: translate(-50%, var(--shift));
             }
         }
 
