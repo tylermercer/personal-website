@@ -83,10 +83,6 @@ the sense of wonder that I feel about those ideas and how I see them
 in the world. I also hope that what I write can be accessible to anyone,
 regardless of what they believe. God's light can be found in all of us.
 
-## Contact Me
-
-If you'd like to get in touch, you can [contact me here](/contact/).
-
 ## Under the Hood
 
 This website is built using [Eleventy](https://11ty.dev) and hosted on [Netlify](https://netlify.com).
@@ -102,3 +98,7 @@ Some other resources I used as part of this site:
   * [Faustina](https://www.omnibus-type.com/fonts/faustina/), designed by Alfonso Garcia and [Omnibus-Type](https://www.omnibus-type.com/)
 * [Satori](https://github.com/vercel/satori) for generating OG images from HTML
   (via [this excellent 11ty plugin](https://www.npmjs.com/package/eleventy-plugin-og-image))
+
+## Contact Me
+
+If you'd like to get in touch, you can [contact me here](/contact/).
