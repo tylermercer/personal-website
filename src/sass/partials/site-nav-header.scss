@@ -29,6 +29,7 @@
             font-family: var(--font-accent);
             transition: transform 0.2s;
             transform: translate(-50%, 0%);
+            white-space: nowrap;
             @media (prefers-reduced-motion: reduce) {
                 transition: none;
             }
