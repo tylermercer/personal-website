@@ -72,8 +72,8 @@ Some of my core beliefs:
 * As a result of the Atonement, we can be made "at one" with God and
   those we love. The Atonement of Christ enables us to receive
   _grace_, which makes it possible for us to do and become better.
-* Jesus Christ also provides _light_ called in the scriptures
-  _the light of Christ_, which is that influence deep inside each
+* Jesus Christ also provides spiritual _light_, which the scriptures call
+  _the Light of Christ_, which is that influence deep inside each
   person that calls him or her towards goodness, other-centeredness,
   intelligence, and sound principles. This light can be seen througout
   the world, in every culture, and across history.
@@ -97,7 +97,7 @@ Some other resources I used as part of this site:
 
 * [Sass](https://sass-lang.com/) for styling, with a setup inspired by 
   [Stephanie Eckle's 11ty-sass-skeleton template](https://github.com/5t3ph/11ty-sass-skeleton).
-* Fontsource for self-hosting the two webfonts:
+* [Fontsource](https://fontsource.org) for self-hosting the two webfonts:
   * [Figtree](https://www.erikdkennedy.com/projects/figtree.html), designed by by [Erik Kennedy](https://www.erikdkennedy.com/)
   * [Faustina](https://www.omnibus-type.com/fonts/faustina/), designed by Alfonso Garcia and [Omnibus-Type](https://www.omnibus-type.com/)
 * [Satori](https://github.com/vercel/satori) for generating OG images from HTML
