@@ -1,8 +1,9 @@
 ---
-title: "Pause Giant AI Experiments" Petition Signature
-description: This page confirms that I, Tyler Mercer, have signed Future of Life's "Pause Giant AI Experiments" petition
+title: “Pause Giant AI Experiments” Petition Signature
+description: This page confirms that I, Tyler Mercer, have signed Future of Life's “Pause Giant AI Experiments” petition
 eleventyExcludeFromCollections: true
 ---
+
 This page confirms that I, Tyler Mercer, have 
 signed Future of Life's ["Pause Giant AI Experiments" 
 petition](https://futureoflife.org/open-letter/pause-giant-ai-experiments/).
