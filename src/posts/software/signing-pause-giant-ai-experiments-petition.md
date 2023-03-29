@@ -1,7 +1,6 @@
 ---
 title: Signing the “Pause Giant AI Experiments” Petition
 description: I signed Future of Life's “Pause Giant AI Experiments” petition. You should too.
-eleventyExcludeFromCollections: true
 ---
 
 Today I signed the
