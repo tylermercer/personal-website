@@ -1,6 +1,7 @@
 ---
 title: Signing the “Pause Giant AI Experiments” Petition
 description: I signed Future of Life's “Pause Giant AI Experiments” petition. You should too.
+date: 2023-03-29 9:00:00.00
 ---
 
 Today I signed the
