@@ -41,13 +41,46 @@ with React having such a strong presence, to a [hawk-dove game](https://en.wikip
 > forces of self-interest that created it.
 > We have to change the game, not just yell at the players.
 
-I fully agree with this! People tend to behave in predictable, explainable ways.^[I'm hesitant to use the word "rational" because I don't think I can say "people are rational" _and_ reference Dan Ariely's book _Predictably Irrational_ in the same post and still take myself seriously.] Understanding people's behavior from a point of "we're all trying the best we can" is a much healthier way to approach things than pointing fingers at some specific group as a scapegoat for our general responsibility in these problems.
+This is a great point, and one we would do well to remember more often. People tend to behave in predictable, explainable ways.^[I'm hesitant to use the word "rational" because I don't think I can say "people are rational" _and_ reference Dan Ariely's book _Predictably Irrational_ in the same post and still take myself seriously.] Understanding people's behavior from a point of "we're all trying the best we can" is a much healthier way to approach things than pointing fingers at some specific group as a scapegoat for our general responsibility in these problems.
 
-Some of his other claims, though, had me scratching my head. For example, he claims that "most React proponents will tell you that not every website needs to be a React app," but in my experience that's precisely where the problem lies. The _entire selling point_ of React meta-frameworks like Remix and NextJS is that you can use them for everything. For example, NextJS [includes a blog as one of it's starter templates](https://vercel.com/templates/next.js/blog-starter-kit). There is no good reason for a blog to be rendered client-side using React, regardless of whether it uses SSR. In the case of a blog especially, [hydration is pure overhead](https://www.builder.io/blog/hydration-is-pure-overhead). The same goes for [docs sites](https://vercel.com/templates/next.js/documentation-starter-kit). NextJS and Remix are hammers--useful, certainly, but abjectly _not_ the right answer for every problem, unless you squint hard enough that screws, eye-bolts, wing-nuts, and your mobile users' big toes all look like nails.
+## Implicit Trade-Offs
+
+Shortly after making this point, though, he makes the claim that "most React proponents will tell you that not every website needs to be a React app." He also claims that developers "know that they are making ... trade-offs when they pick React." I believe these claims are true for some React developers, but this is probably a minority. There are, in my experience, many developers and firms who choose React when it is not the best choice, simply because it is familiar. Most of the trade-offs Laurie mentions are then chosen _implicitly_, not explicitly, because alternatives haven't been sincerely considered.
+
+I think this common _modus operandi_ of "just use React" exists largely because of bad framing in two areas: education and framework branding.
+
+### "React as the Web" in Education
+
+Many bootcamps teach React development before teaching core web development principles (if they teach the core principles at all). They churn out graduates who can build things with React but would freeze up if you handed them an HTML file in a text editor and asked them to make a simple project using plan JavaScript.
+
+Many online instructors also perpetuate this thinking. TODO: finish this part
+
+### "React as the Web" in Framework Branding
+
+The entire selling point of React meta-frameworks like Remix and Next.js is that you can use them for everything. Like the educators mentioned above, they implicitly frame React as the One True Way to build for the web. For example, [Next.js includes a blog as one of it's starter templates](https://vercel.com/templates/next.js/blog-starter-kit). There is no good reason for a blog to be rendered client-side using React, regardless of whether it uses SSR. In the case of a blog especially, [hydration is pure overhead](https://www.builder.io/blog/hydration-is-pure-overhead). The same goes for [docs sites](https://vercel.com/templates/next.js/documentation-starter-kit). But there's an implicit premise in the branding and documentation of frameworks like Next.js and Remix that you should use them for any kind of project.
+
+As an example of _avoiding_ this implicit premise, Astro does a great job of specifying that it _isn't_ the best fit for every project.
+From ["Why Astro"](https://docs.astro.build/en/concepts/why-astro/) (emphasis mine):
+
+> Astro was designed for building content-rich websites. This includes most marketing sites, publishing sites, documentation sites, blogs, portfolios, and some ecommerce sites.
+> 
+> By contrast, most modern web frameworks are designed for building web applications. These frameworks work best for building more complex, application-like experiences in the browser: logged-in admin dashboards, inboxes, social networks, todo lists, and even native-like applications like Figma and Ping.
+> 
+> This is one of the most important differences to understand about Astro. Astro’s unique focus on content lets Astro make tradeoffs and deliver unmatched performance features that wouldn’t make sense for more application-focused web frameworks to implement.
+> 
+> **If your project falls into the second “application” camp, Astro might not be the right choice for your project… and that’s okay! Check out Next.js for a more application-focused alternative to Astro.**
+
+(Look at that! They even point people to Next.js for application use cases. But don't expect to see the Next.js docs pointing you to Astro for content sites--that would violate their implicit "React is the web" premise.)
+
+Frameworks like Next.js and Remix are hammers--useful, certainly, (especially for business-to-business, auth-gated SaaS applications) but abjectly _not_ the right answer for every problem, unless you squint hard enough that screws, eye-bolts, wing-nuts, and your mobile users' big toes all look like nails. But they have consistently branded themselves as universal solutions, in a way that, I believe, has mislead many developers, especially ones who don't take it upon themselves to seriously consider options outside the "React bubble."
+
+## Unfortunate Side Effects of Sensible Thinking
+
+Now, to be clear, I don't think educators or framework authors or marketers are scheming to keep hapless developers in the React bubble. Returning to Laurie's point about the equilibrium existing for rational reasons, educators and framework authors have a lot of rational reasons to focus on React. The ecosystem is huge, and the market for React developers is equally massive. But by not actively pointing developers to other, non-React solutions, they've perpetuated that status quo.
 
 ## Directed Laziness
 
-At the end of the day, I agree with Laurie: developers aren't stupid for using React. Rather, developers are _efficiently lazy_ for using React, and laziness is in many respects a highly valuable attribute for developers. (Heck, I started my web dev journey with React. I believe that the component-based thinking I learned from it makes me a better developer.) However, in this specific case, our laziness as developers, combined with the propaganda--and sometimes [outright hostility](https://fediverse.zachleat.com/@zachleat/109830047951867907)--from certain React proponents, has led our industry into a mire.
+At the end of the day, I agree with Laurie: developers aren't stupid for using React. Rather, developers are _efficiently lazy_ for using React, and laziness is in many respects a highly valuable attribute for developers. (Heck, I started my web dev journey with React. I believe that the component-based thinking I learned from it makes me a better developer.) However, in this specific case, our laziness as developers, combined with the propaganda--and sometimes [outright hostility](https://fediverse.zachleat.com/@zachleat/109830047951867907)--from certain React proponents and educators, has led our industry into a mire.
 
 Time to vote with our feet and step out of the mud together:
 
@@ -58,7 +91,7 @@ Time to vote with our feet and step out of the mud together:
 
 ## Free as in Lunch
 
-The really good news about all of this is that there is plenty of room in this hawks-and-doves game for what psychologist Dan Ariely calls^[Dan Ariely, [_Predictably Irrational_](https://www.amazon.com/dp/0061854549)] a "free lunch" -- a place of mutual benefit. A situation in which both the hawks and doves can prosper beyond where they currently are now. Tools like Astro are demonstrating that we can have developer velocity _and_ meet the performance needs of marginal users. Users and devs can _both_ be better off by favoring the incremental adoption of complexity over out-of-the-gate bloat.
+The really good news about all of this is that there is plenty of room in this hawks-and-doves game for what psychologist Dan Ariely calls^[Dan Ariely, [_Predictably Irrational_](https://www.amazon.com/dp/0061854549)] a "free lunch"--a place of mutual benefit based on a heightened understanding of why the differing parties behave as they do. A situation in which both the hawks and doves can prosper beyond where they currently are now. By learning more tools than just the hammer of React, we can apply the best tool to each problem and move so much faster--and make better, more resilient products to boot. Tools like Astro, for example, are demonstrating that we can have developer experience and velocity _and_ meet the performance needs of marginal users. Users and devs can _both_ be better off by favoring the incremental adoption of complexity over out-of-the-gate bloat.
 
 We can even invite those who make a living pushing React (and other JS hogs, though they're not nearly as prevalent) as the One True Way to adjust their perspective and come with us. Who knows? Maybe they'll come 'round.
 
