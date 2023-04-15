@@ -1,11 +1,11 @@
 ---
 title: Free Lunches in Frontend Dev
-description: We can have developer velocity and meet the performance needs of marginal users at the same time
+description: We can have developer velocity _and_ meet the performance needs of marginal users
 date: 2023-04-06 9:00:00.00
 ---
 
-Alex Russell's ["The Market For Lemons"](https://infrequently.org/2023/02/the-market-for-lemons/)
-has really been making the rounds lately. If you haven't read it, I recommend it.
+Alex Russell's article ["The Market For Lemons"](https://infrequently.org/2023/02/the-market-for-lemons/)
+has been making the rounds lately. If you haven't read it, I recommend it.
 There have been some very well-worded responses, like Laurie Voss's
 ["The case for frameworks."](https://seldo.com/posts/the_case_for_frameworks);
 together they've made for an interesting conversation, which I've learned a lot from.
@@ -91,7 +91,7 @@ Time to vote with our feet and step out of the mud together:
 
 ## Free as in Lunch
 
-The really good news about all of this is that there is plenty of room in this hawks-and-doves game for what psychologist Dan Ariely calls^[Dan Ariely, [_Predictably Irrational_](https://www.amazon.com/dp/0061854549)] a "free lunch"--a place of mutual benefit based on a heightened understanding of why the differing parties behave as they do. A situation in which both the hawks and doves can prosper beyond where they currently are now. By learning more tools than just the hammer of React, we can apply the best tool to each problem and move so much faster--and make better, more resilient products to boot. Tools like Astro, for example, are demonstrating that we can have developer experience and velocity _and_ meet the performance needs of marginal users. Users and devs can _both_ be better off by favoring the incremental adoption of complexity over out-of-the-gate bloat.
+The good news about all of this is that there is plenty of room in this hawks-and-doves game for what psychologist Dan Ariely calls^[Dan Ariely, [_Predictably Irrational_](https://www.amazon.com/dp/0061854549)] a "free lunch"--a place of mutual benefit based on a heightened understanding of why the differing parties behave as they do. A situation in which both the hawks and doves can prosper beyond where they currently are now. By learning more tools than just the hammer of React, we can apply the best tool to each problem and move so much faster--and make better, more resilient products to boot. Tools like Astro, for example, are demonstrating that we can have developer experience and velocity _and_ meet the performance needs of marginal users. Users and devs can _both_ be better off by favoring the incremental adoption of complexity over out-of-the-gate bloat.
 
 We can even invite those who make a living pushing React (and other JS hogs, though they're not nearly as prevalent) as the One True Way to adjust their perspective and come with us. Who knows? Maybe they'll come 'round.
 
