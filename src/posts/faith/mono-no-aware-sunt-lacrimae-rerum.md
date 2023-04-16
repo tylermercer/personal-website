@@ -69,10 +69,10 @@ and replace it with gratitude.
 We can fully feel the emotions---both good and bad---brought by the impermanent
 things, and then allow the emotions and eventually the things themselves to pass on.
 We can feel grateful for the emotions we experienced,
-rather than inflicting suffering upon ourselves through our attachment.
+rather than inflicting more suffering upon ourselves because of our attachment.
 
-Furthermore, the richest and most rewarding experiences---and, I believe,
-the least ephemeral in terms of their impact on us and their reality---are
+Furthermore, the richest and most rewarding experiences---and those that are,
+I believe, the least ephemeral in terms of their impact on us and their reality---are
 our relational experiences, which are themselves deepened through this
 profound acknowledgement of both emotions and things.
 
@@ -87,7 +87,8 @@ As C. Terry Warner writes in _Bonds That Make Us Free_:
 Finally, I found these two ideas---the concept of ephemerality and the
 struggle we have in dealing with the emotions caused by ephemeral
 things---evocative of an interesting corollary idea:
-if we can only know things through contrast and opposition (as 2 Nephi 2:11 says),
+if we can only know things through contrast and opposition
+(as [2 Nephi 2:11](https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/2?lang=eng&id=p11#p11) says),
 perhaps the fact that we are profoundly aware of and moved by impermanence
 is an indication that _we are_ permanent.
 
