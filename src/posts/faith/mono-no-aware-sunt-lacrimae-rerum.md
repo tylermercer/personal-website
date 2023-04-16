@@ -1,7 +1,7 @@
 ---
 title: Mono No Aware; Sunt Lacrimae Rerum
 description: We can simultaneously acknowledge both the visceral reality of our suffering _and_ its ephemeral nature.
-date: 2023-04-15 21:02:00.00
+date: 2023-04-15 23:02:00.00
 ---
 
 _Mono no aware_ is a Japanese phrase meaning "the pathos of things,"
