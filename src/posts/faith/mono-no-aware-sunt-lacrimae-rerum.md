@@ -34,6 +34,7 @@ ideas is that, in a way, it actually _refutes_ this conclusion, because
 mortal things _do_ touch the mind.
 The feelings caused by the impermanent things of life are profoundly real,
 notwithstanding their impermanence.
+
 In addition, the impermanence of things is _itself_ a thing that touches
 the mind---_mono no aware_ connotes a quiet solemnity or sadness in
 considering the impermanence of things.
