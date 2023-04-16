@@ -67,7 +67,7 @@ in healthier ways than we might otherwise.
 Mindfulness also enables us to let go of our attachment to impermanent things
 and replace it with gratitude.
 We can fully feel the emotions---both good and bad---brought by the impermanent
-things, and then allow the emotions and eventually the things to pass on.
+things, and then allow the emotions and eventually the things themselves to pass on.
 We can feel grateful for the emotions we experienced,
 rather than inflicting suffering upon ourselves through our attachment.
 
