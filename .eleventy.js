@@ -83,7 +83,7 @@ module.exports = function (eleventyConfig) {
     })
 
     eleventyConfig.addFilter("md", (raw) => {
-      return md.renderInline(raw);
+      return raw && md.renderInline(raw);
     })
 
     eleventyConfig.addFilter("unmd", (raw) => {
