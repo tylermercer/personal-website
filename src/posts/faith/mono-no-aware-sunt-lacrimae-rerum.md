@@ -40,6 +40,15 @@ the mind---_mono no aware_ connotes a quiet solemnity or sadness in
 considering the impermanence of things.
 This somberness occurs because the impermanence touches us.
 
+We often respond to that impermanence with attachment.
+Ironically, we hold on too tightly to things in an attempt to avoid losing them,
+and _because_ of this attachment, we experience loss—we
+lose the richness of the present to our fear,
+and we lose peace within ourselves.^[
+    This interesting concept of loss _because of_ attachment was
+    something my wife Evelyn pointed out. I am grateful for her wisdom!
+    ]
+
 ## Ephemeral yet visceral
 
 [//]: # (future-link: "we are not our emotions" to observer self article)
@@ -54,6 +63,13 @@ observe, experience, and influence things.
 I believe that mindfully experiencing both our emotions and the things
 around us in this way allow us to cope with our "tears of things"
 in healthier ways than we might otherwise.
+
+Mindfulness also enables us to let go of our attachment to impermanent things
+and replace it with gratitude.
+We can fully feel the emotions---both good and bad---brought by the impermanent
+things, and then allow the emotions and eventually the things to pass on.
+We can feel grateful for the emotions we experienced because of the things,
+rather than inflicting suffering upon ourselves through our attachment.
 
 Furthermore, the richest and most rewarding experiences---and, I believe,
 the least ephemeral in terms of their impact on us and their reality---are
