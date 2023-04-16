@@ -157,10 +157,13 @@ solutions would be better suited to the task at hand, they've perpetuated that s
 
 At the end of the day, I agree with Laurie:
 developers aren't stupid for using React.
+I also don't developers are stupid for learning React
+when first learning web dev.^[
+    I actually started my web dev journey with React.
+    I believe that the component-based thinking I learned from it makes me a better developer.
+    ]
 Rather, developers are _efficiently lazy_ for using React, and laziness is in many
 respects a highly valuable attribute for developers.
-(Heck, I started my web dev journey with React.
-I believe that the component-based thinking I learned from it makes me a better developer.)
 However, in this specific case, our laziness as developers, combined with the
 propaganda---and sometimes
 [outright hostility](https://fediverse.zachleat.com/@zachleat/109830047951867907)---from
@@ -168,17 +171,21 @@ certain React proponents and educators, has led our industry into a mire.
 
 Time to vote with our feet and step out of the mud together:
 
-- Frameworks like SvelteKit, Solid, Qwik, Preact, and Astro are all becoming
-  increasingly mature and robust, and solve many of the same problems as React,
-  without the JS weight.
-  We can use our influential voices as developers to push for the adoption of those frameworks
-  (which can even happen incrementally in some cases) over the JS heavy ones.
-- We can choose to value the marginal user, and test what we build on lower-end
-  devices and network conditions.
 - We can focus on [learning web development principles](https://www.zachleat.com/twitter/1074776108422307840/)
   rather than learning an abstraction on top of the web.
   In [Alex's words](https://changelog.com/jsparty/263),
   "I promise you, there’s life after the framework that you love right now."
+- Frameworks like SvelteKit, Solid, Qwik, Preact, and Astro are all becoming
+  increasingly mature and robust, and solve many of the same problems as React,
+  without the JS weight.
+  We can explore and learn these frameworks to broaden our skills.
+- We can practice building things with no framework at all! Vanilla web technologies are
+  becoming increasingly powerful and are not as unwieldy as one might think.
+  [Chris Ferdinandi](https://gomakethings.com) has some great material on building with vanilla web tech.
+- We can use our influential voices as developers to push for the adoption of lighter frameworks
+  (which can even happen incrementally in some cases) over the JS heavy ones.
+- We can choose to value the marginal user, and test what we build on lower-end
+  devices and network conditions.
 - We can contribute to open-source projects that will help leaner frameworks compete
   with the bundle-size giants like React.
   (In my experience, there is a particular need for headless, accessible component libraries.)
