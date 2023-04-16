@@ -15,12 +15,10 @@ His full statement is "Sunt lacrimae rerum et mentem mortalia tangunt,"
 or "There are tears of/for things and mortal things touch the mind."^[
     [Lacrimae rerum - Wikipedia](https://en.wikipedia.org/wiki/Lacrimae_rerum)]
 
-## A Contrast
-
 I came across these two phrases a while ago and was struck by
 their intriguing duality.
 Things are impermanent, and yet they often cause real and raw emotions.
-They "touch the mind" of those who experience the vicissitudes of life.
+The vicissitudes of life "touch the mind" of those who experience them.
 Often our desire is to escape this touch.
 This attempted escape can take many forms of varying extremeness,
 ranging from eating too much or spending too much time on social media to
@@ -41,7 +39,7 @@ the mind---_mono no aware_ connotes a quiet solemnity or sadness in
 considering the impermanence of things.
 This somberness occurs because the impermanence touches us.
 
-## Virtue is Found in the Mean Between Extremes
+## Recognizing the Validity of our Ephemeral Suffering
 
 Thus, I believe that we can, with effort, simultaneously acknowledge both
 the visceral reality of our suffering _and_ its ephemeral nature.
