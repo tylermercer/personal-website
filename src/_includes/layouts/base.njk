@@ -6,7 +6,7 @@
     <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:;">
     <meta name="generator" content="{{ eleventy.generator }}">
     {%- if description -%}
-      <meta name="description" content="{{ description | md }}">
+      <meta name="description" content="{{ description | unmd }}">
     {%- endif -%}
     {%- set titleFull -%}
       {%- if eleventyExcludeFromCollections -%}
@@ -39,11 +39,11 @@
     <meta property="og:locale" content="en">
     <meta property="og:image:alt" content="{{ description | unmd }}">
     <meta property="og:site_name" content="{{ metadata.title }}">
-    <meta name="og:description" content="{{ description | md }}">
+    <meta name="og:description" content="{{ description | unmd }}">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="{{ metadata.twitter }}">
     <meta name="twitter:title" content="{{ titleFull }}">
-    <meta name="twitter:description" content="{{ description | md }}">
+    <meta name="twitter:description" content="{{ description | unmd }}">
     <meta name="twitter:image:alt" content="{{ titleFull }} - {{ description | unmd }}">
     {#- Tags -#}
     <link rel="manifest" href="/site.webmanifest">
