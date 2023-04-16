@@ -8,7 +8,7 @@ permalink: /feeds/feed.json
 	"language": "{{ metadata.language }}",
 	"home_page_url": "{{ metadata.url | addPathPrefixToFullUrl }}",
 	"feed_url": "{{ permalink | htmlBaseUrl(metadata.url) }}",
-	"description": "{{ metadata.description }}",
+	"description": "{{ metadata.description | md }}",
 	"author": {
 		"name": "{{ metadata.author.name }}",
 		"url": "{{ metadata.author.url }}"
