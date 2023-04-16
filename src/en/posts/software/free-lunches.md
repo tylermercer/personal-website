@@ -201,7 +201,7 @@ Time to vote with our feet and step out of the mud together:
 The good news about all of this is that there is plenty of room in this hawks-and-doves
 game for what psychologist Dan Ariely calls^[Dan Ariely, [_Predictably Irrational_](https://www.amazon.com/dp/0061854549)]
 a "free lunch"---a place of mutual benefit based on a heightened understanding of
-why the differing parties behave as they do. A situation in which both the hawks
+why the differing parties behave as they do. **TODO: quote Ariely.** A situation in which both the hawks
 and doves can prosper beyond where they currently are now.
 By learning more tools than just the hammer of React, we can apply the best
 tool to each problem and move so much faster---and make better,
