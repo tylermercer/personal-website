@@ -87,7 +87,7 @@ module.exports = function (eleventyConfig) {
     })
 
     eleventyConfig.addFilter("unmd", (raw) => {
-      return raw.replace(/[\*_`]/g, '')
+      return raw?.replace(/[\*_`]/g, '')
     })
 
     eleventyConfig.addFilter("postDate", (date) => {
