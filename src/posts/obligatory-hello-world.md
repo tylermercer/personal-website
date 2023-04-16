@@ -1,6 +1,6 @@
 ---
 title: Obligatory “Hello, World!” Post
-description: Some thoughts about fear, this blog, and creating cool stuff
+description: Some thoughts about *fear, this blog, and creating cool stuff*
 date: 2023-03-16 9:01:00.00
 dropCap: true
 ---
