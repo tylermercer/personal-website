@@ -41,6 +41,8 @@ This somberness occurs because the impermanence touches us.
 
 ## Ephemeral yet visceral
 
+[//]: # (future-link: "we are not our emotions" to observer self article)
+
 Thus, I believe that we can, with effort, simultaneously acknowledge both
 the visceral reality of our suffering _and_ its ephemeral nature.
 By doing so, we can recognize the beauty in both the things of life and
