@@ -55,7 +55,7 @@
         <h1 class="title">{{ title | safe }}</h1>
     </div>
     <div class="bg-container">
-        <div class="description">{{- description | safe -}}</div>
+        <div class="description">{{- description | unmd | safe -}}</div>
         {% if not hideDateline %}
             <div class="dateline">{{- date | postDate }} — Tyler Mercer</div>
         {% endif %}
