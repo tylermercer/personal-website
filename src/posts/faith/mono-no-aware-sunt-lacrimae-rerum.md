@@ -2,6 +2,7 @@
 title: Mono No Aware; Sunt Lacrimae Rerum
 description: Things are impermanent, yet they often cause real and raw emotions.
 date: 2023-04-15 23:02:00.00
+dropCap: true
 ---
 
 _Mono no aware_ is a Japanese phrase meaning "the pathos of things," signifying
