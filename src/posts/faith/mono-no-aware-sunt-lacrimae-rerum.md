@@ -1,6 +1,6 @@
 ---
 title: Mono No Aware; Sunt Lacrimae Rerum
-description: We can simultaneously acknowledge both the visceral reality of our suffering _and_ its ephemeral nature.
+description: Things are impermanent, yet they often cause real and raw emotions.
 date: 2023-04-15 23:02:00.00
 ---
 
@@ -17,7 +17,7 @@ or "There are tears of/for things and mortal things touch the mind."^[
 
 I came across these two phrases a while ago and was struck by
 their intriguing duality.
-Things are impermanent, and yet they often cause real and raw emotions.
+Things are impermanent, yet they often cause real and raw emotions.
 The vicissitudes of life "touch the mind" of those who experience them.
 Often our desire is to escape this touch.
 This attempted escape can take many forms of varying extremeness,
