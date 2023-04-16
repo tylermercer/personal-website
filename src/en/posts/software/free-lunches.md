@@ -63,20 +63,20 @@ when it is not the best choice, simply because it is familiar.
 Most of the trade-offs Laurie mentions are then chosen _implicitly_, not explicitly,
 because alternatives haven't been sincerely considered.
 
-One point of evidence for this is the comparatively low usage of Preact vs React.
+One point of evidence for these tradeoffs being chosen implicitly
+is the comparatively low usage of Preact vs React.
 Preact has a React-compatible API---with `preact/compat`, you can [replace React with
-Preact in an existing React project](https://preactjs.com/guide/v10/switching-to-preact).^[
-    Admittedly, in full-stack frameworks like Next.js and Remix, this gets significantly hairier,
+Preact in an existing React project](https://preactjs.com/guide/v10/switching-to-preact)^[
+    Admittedly, in full-stack frameworks like Next.js, this gets significantly hairier,
     but [it can still be done](https://joyofcode.xyz/next-bundle-size).
     Furthermore, there are still people using React without a meta-framework
-    (even though [the docs imply otherwise](https://wasp-lang.dev/blog/2023/03/17/new-react-docs-pretend-spas-dont-exist)),
-    so I believe my point still stands.
+    (even though [the docs imply otherwise](https://wasp-lang.dev/blog/2023/03/17/new-react-docs-pretend-spas-dont-exist)).
     ].
 If people were carefully considering the trade-offs of different framework choices,
 wouldn't a lot of them decide that Preact's much smaller bundle size
 ([4.2kb minified and gzipped](https://bundlephobia.com/package/react-dom@18.2.0)
 vs React which is [ten times that](https://bundlephobia.com/package/react-dom@18.2.0))
-and faster performance^[see the [JS Framework Benchmark](https://krausest.github.io/js-framework-benchmark/2023/table_chrome_112.0.5615.49.html) by Krauest] make it a better choice?
+and faster performance^[See the [JS Framework Benchmark](https://krausest.github.io/js-framework-benchmark/2023/table_chrome_112.0.5615.49.html) by Krauest] make it a better choice?
 
 I think this common _modus operandi_ of "just use React" exists largely because of
 bad framing in two areas: education and framework branding.
@@ -152,7 +152,7 @@ Time to vote with our feet and step out of the mud together:
 
 The good news about all of this is that there is plenty of room in this hawks-and-doves game for what psychologist Dan Ariely calls^[Dan Ariely, [_Predictably Irrational_](https://www.amazon.com/dp/0061854549)] a "free lunch"---a place of mutual benefit based on a heightened understanding of why the differing parties behave as they do. A situation in which both the hawks and doves can prosper beyond where they currently are now. By learning more tools than just the hammer of React, we can apply the best tool to each problem and move so much faster---and make better, more resilient products to boot. Tools like Astro, for example, are demonstrating that we can have developer experience and velocity _and_ meet the performance needs of marginal users. Users and devs can _both_ be better off by favoring the incremental adoption of complexity over out-of-the-gate bloat.
 
-We can even invite those who make a living pushing React (and other JS hogs, though they're not nearly as prevalent) as the One True Way to adjust their perspective and come with us. Who knows? Maybe they'll come 'round.
+We can even invite those who make a living pushing React as the One True Way to adjust their perspective and come with us. Who knows? Maybe they'll come 'round.
 
 ---
 
