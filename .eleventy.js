@@ -86,6 +86,10 @@ module.exports = function (eleventyConfig) {
       return md.renderInline(raw);
     })
 
+    eleventyConfig.addFilter("unmd", (raw) => {
+      return raw.replace(/[\*_`]/g, '')
+    })
+
     eleventyConfig.addFilter("postDate", (date) => {
       return DateTime.fromJSDate(date).toLocaleString(DateTime.DATE_MED);
     });
