@@ -76,6 +76,16 @@ module.exports = function (eleventyConfig) {
       },
     })
 
+    let md = markdownIt({
+      html: true,
+      breaks: true,
+      linkify: true
+    })
+
+    eleventyConfig.addFilter("md", (raw) => {
+      return md.renderInline(raw);
+    })
+
     eleventyConfig.addFilter("postDate", (date) => {
       return DateTime.fromJSDate(date).toLocaleString(DateTime.DATE_MED);
     });

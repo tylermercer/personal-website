@@ -5,7 +5,7 @@ layout: base
 <div class="guttered">
     {%- if description -%}
         <p class="post-description">
-            {{- description -}}
+            {{- description | md | safe -}}
         </p>
     {%- endif -%}
     {% set regExpCode = r/<pre class=(.|\n)*?<\/pre>/gm %}

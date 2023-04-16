@@ -14,7 +14,7 @@ ogImageTemplatePath : ./src/_og-image-templates/home.og.njk
 
 
 <h1 class="pattern {% if category %} pattern-{{ category }}{% endif %}"><span class="guttered">{{ title }}</span></h1>
-<p class="guttered post-description">{{- description -}}</p>
+<p class="guttered post-description">{{- description | md | safe -}}</p>
 <div class="with-sidebar guttered">
     <div class="posts">
         <h2>Latest Posts</h2>
@@ -27,7 +27,7 @@ ogImageTemplatePath : ./src/_og-image-templates/home.og.njk
                         <a href="{{ post.url | url }}">{{ post.data.title }}</a>
                     </h3>
                     <p>
-                        {{- post.data.description -}}
+                        {{- post.data.description | md | safe -}}
                     </p>
                 </article>
             </li>
@@ -41,7 +41,7 @@ ogImageTemplatePath : ./src/_og-image-templates/home.og.njk
             {% for category in collections.category %}
                 <div class="collection">
                     <h3 class="pattern pattern-{{ category.data.category }}"><a href="{{ category.url | url }}">{{ category.data.title }}</a></h3>
-                    <p>{{ category.data.description }}</p>
+                    <p>{{ category.data.description | md | safe }}</p>
                 </div>
             {% endfor %}
         </div>
