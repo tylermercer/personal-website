@@ -117,11 +117,8 @@ From ["Why Astro"](https://docs.astro.build/en/concepts/why-astro/) (emphasis mi
 > These frameworks work best for building more complex, application-like experiences
 > in the browser: logged-in admin dashboards, inboxes, social networks, todo lists,
 > and even native-like applications like Figma and Ping.
-> 
-> This is one of the most important differences to understand about Astro.
-> Astro’s unique focus on content lets Astro make tradeoffs and deliver
-> unmatched performance features that wouldn’t make sense for more
-> application-focused web frameworks to implement.
+>
+> ...
 > 
 > **If your project falls into the second “application” camp,**
 > **Astro might not be the right choice for your project… and that’s okay!**
