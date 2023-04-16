@@ -39,7 +39,7 @@ the mind---_mono no aware_ connotes a quiet solemnity or sadness in
 considering the impermanence of things.
 This somberness occurs because the impermanence touches us.
 
-## Recognizing the Validity of our Ephemeral Suffering
+## Ephemeral yet visceral
 
 Thus, I believe that we can, with effort, simultaneously acknowledge both
 the visceral reality of our suffering _and_ its ephemeral nature.
@@ -63,7 +63,7 @@ As C. Terry Warner writes in _Bonds That Make Us Free_:
 > and of themselves;
 > rather, they get their value from the critical role they play in our relationships with others.
 
-## Permanence Moved By Impermanence
+## Permanence moved by impermanence
 
 Finally, I found these two ideas---the concept of ephemerality and the
 struggle we have in dealing with the emotions caused by ephemeral
@@ -72,7 +72,7 @@ if we can only know things through contrast and opposition (as 2 Nephi 2:11 says
 perhaps the fact that we are profoundly aware of and moved by impermanence
 is an indication that _we are_ permanent.
 
-This idea was disussed by Elder Dieter F. Uchtdorf
+This idea was captured beautifully by Elder Dieter F. Uchtdorf
 [in April 2014](https://www.lds.org/general-conference/2014/04/grateful-in-any-circumstances):
 
 > Is it any wonder that whenever we face the bitter endings of life,
