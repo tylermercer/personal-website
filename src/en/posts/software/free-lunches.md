@@ -109,7 +109,8 @@ I am skeptical that there's ever a good reason for a blog to be
 rendered client-side using React, regardless of whether it uses SSR.
 In the case of a blog especially, [hydration is pure overhead](https://www.builder.io/blog/hydration-is-pure-overhead).
 The same goes for [docs sites](https://vercel.com/templates/next.js/documentation-starter-kit).
-But there's an implicit premise in the branding and documentation of frameworks like Next.js and Remix that you should use them for any kind of project.
+But there's an implicit premise in the branding and documentation of frameworks like
+Next.js and Remix that you should use them for any kind of project.
 
 As an example of _avoiding_ an implicit premise like this, [Astro](https://astro.build) does a
 great job of specifying that it _isn't_ the best fit for every project.
@@ -178,10 +179,15 @@ Time to vote with our feet and step out of the mud together:
 - Frameworks like SvelteKit, Solid, Qwik, Preact, and Astro are all becoming
   increasingly mature and robust, and solve many of the same problems as React,
   without the JS weight.
-  We can explore and learn these frameworks to broaden our skills.
+  We can explore and learn these frameworks to broaden our skills and
+  add tools to our mental toolboxes.
 - We can practice building things with no framework at all! Vanilla web technologies are
-  becoming increasingly powerful and are not as unwieldy as one might think.
-  [Chris Ferdinandi](https://gomakethings.com) has some great material on building with vanilla web tech.
+  becoming increasingly powerful and are not as unwieldy as you might think.
+  [Chris Ferdinandi](https://gomakethings.com) has some great material on building with
+  vanilla web tech.
+  I personally love tackling a project without a framework when it makes sense to---after
+  doing lots of work in framework-based
+  projects, it feels like a breath of fresh air.
 - We can use our influential voices as developers to push for the adoption of lighter frameworks
   (which can even happen incrementally in some cases) over the JS heavy ones.
 - We can choose to value the marginal user, and test what we build on lower-end
@@ -205,7 +211,8 @@ experience and velocity _and_ meet the performance needs of marginal users.
 Users and devs can _both_ be better off if we choose incremental adoption of complexity
 instead of out-of-the-gate bloat.
 
-We can even invite those who make a living pushing React as the One True Way to adjust their perspective and come with us. Who knows? Maybe they'll come 'round.
+We can even invite those who make a living pushing React as the One True Way to adjust
+their perspective and come with us. Who knows? Maybe they'll come 'round.
 
 ---
 
