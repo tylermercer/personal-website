@@ -156,19 +156,15 @@ solutions would be better suited to the task at hand, they've perpetuated that s
 
 ## Directed Laziness
 
-At the end of the day, I agree with Laurie:
-developers aren't stupid for using React.
-I also don't developers are stupid for learning React
-when first learning web dev.^[
-    I actually started my web dev journey with React.
-    I believe that the component-based thinking I learned from it makes me a better developer.
-    ]
-Rather, developers are _efficiently lazy_ for using React, and laziness is in many
-respects a highly valuable attribute for developers.
+At the end of the day, I agree with Laurie: developers aren't stupid for using
+React.^[I actually started my web dev journey with React, and I'm grateful for
+it. I believe that the component-based thinking I learned from it makes me a
+better developer. ] Rather, developers are _efficiently lazy_ for using React,
+and laziness is in many respects a highly valuable attribute for developers.
 However, in this specific case, our laziness as developers, combined with the
-propaganda---and sometimes
-[outright hostility](https://fediverse.zachleat.com/@zachleat/109830047951867907)---from
-certain React proponents and educators, has led our industry into a mire.
+bad framing^[And sometimes
+[outright hostility](https://fediverse.zachleat.com/@zachleat/109830047951867907)]
+from certain React proponents and educators, has led our industry into a mire.
 
 Time to vote with our feet and step out of the mud together:
 
@@ -181,35 +177,39 @@ Time to vote with our feet and step out of the mud together:
   without the JS weight.
   We can explore and learn these frameworks to broaden our skills and
   add tools to our mental toolboxes.
-- We can practice building things with no framework at all! Vanilla web technologies are
-  becoming increasingly powerful and are not as unwieldy as you might think.
-  [Chris Ferdinandi](https://gomakethings.com) has some great material on building with
-  vanilla web tech.
-  I personally love tackling a project without a framework when it makes sense to---after
-  doing lots of work in framework-based
-  projects, it feels like a breath of fresh air.
+- We can practice building things with no framework at all! Vanilla web
+  technologies are becoming increasingly powerful and are not as unwieldy as you
+  might think. [Chris Ferdinandi](https://gomakethings.com) has some great
+  material on building with vanilla web tech. I personally love tackling a
+  project without a framework when it makes sense to---after doing lots of work
+  in framework-based projects, it feels like a breath of fresh
+  air.^[I do still use build tools in these projects---most notably [Astro](https://astro.build)
+  and [Eleventy](https://11ty.dev).]
 - We can use our influential voices as developers to push for the adoption of lighter frameworks
   (which can even happen incrementally in some cases) over the JS heavy ones.
 - We can choose to value the marginal user, and test what we build on lower-end
   devices and network conditions.
-- We can contribute to open-source projects that will help leaner frameworks compete
-  with the bundle-size giants like React.
-  (In my experience, there is a particular need for headless, accessible component libraries.)
+- We can contribute to open-source projects that will help leaner frameworks
+  compete with the bundle-size giants like React. (In my experience, there is a
+  particular need for headless, accessible component libraries.)
 
 ## Free as in Lunch
 
 The good news about all of this is that there is plenty of room in this hawks-and-doves
 game for what psychologist Dan Ariely calls^[Dan Ariely, [_Predictably Irrational_](https://www.amazon.com/dp/0061854549)]
 a "free lunch"---a place of mutual benefit based on a heightened understanding of
-why the differing parties behave as they do. **TODO: quote Ariely.** A situation in which both the hawks
-and doves can prosper beyond where they currently are now.
-By learning more tools than just the hammer of React, we can apply the best
-tool to each problem and move so much faster---and make better,
-more resilient products to boot.
-Tools like Astro, for example, are demonstrating that we can have developer
-experience and velocity _and_ meet the performance needs of marginal users.
-Users and devs can _both_ be better off if we choose incremental adoption of complexity
-instead of out-of-the-gate bloat.
+why the differing parties behave as they do. From his book _Predictably Irrational_:
+
+> **TODO: quote Ariely.**
+
+In this case, the free lunch is a situation in which both users and devs can
+have a better experience than they do in this "market for lemons." By learning
+more tools than just the hammer of React, we can apply the best tool to each
+problem and move so much faster---and make better, more resilient products to
+boot. Tools like Astro, for example, are demonstrating that we can have
+developer experience and velocity _and_ meet the performance needs of marginal
+users. Users and devs can _both_ be better off if we choose incremental adoption
+of complexity instead of out-of-the-gate bloat.
 
 We can even invite those who make a living pushing React as the One True Way to adjust
 their perspective and come with us. Who knows? Maybe they'll come 'round.
