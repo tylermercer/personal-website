@@ -3,7 +3,6 @@ title: About Me
 layout: page
 description: About Tyler Mercer
 eleventyExcludeFromCollections: true
-ogImageTemplatePath: ./src/_og-image-templates/home.og.njk
 ---
 
 Hi! I'm Tyler, a software engineer, web developer, and design enthusiast.
