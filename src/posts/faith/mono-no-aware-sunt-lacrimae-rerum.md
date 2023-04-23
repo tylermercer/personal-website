@@ -85,8 +85,8 @@ opposition (as
 says), perhaps the fact that we are profoundly aware of and moved by
 impermanence is an indication that _we are_ permanent.
 
-This idea was captured beautifully by Elder Dieter F. Uchtdorf
-[in April 2014](https://www.lds.org/general-conference/2014/04/grateful-in-any-circumstances):
+This idea was captured beautifully by [Elder Dieter F. Uchtdorf
+in April 2014](https://www.lds.org/general-conference/2014/04/grateful-in-any-circumstances):
 
 > Is it any wonder that whenever we face the bitter endings of life, they seem
 > unacceptable to us? There seems to be something inside of us that resists
