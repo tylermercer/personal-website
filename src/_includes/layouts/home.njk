@@ -7,7 +7,7 @@ eleventyExcludeFromCollections: true
 <p class="guttered post-description">{{- description | md | safe -}}</p>
 <div class="with-sidebar guttered">
     <div class="posts">
-        <h2>Latest Posts</h2>
+        <h2>{{ 'Latest Posts' | i18n }}</h2>
         <ul class="post-cards-list">
             {%- for post in posts -%}
             <li class="post-card">
@@ -23,10 +23,10 @@ eleventyExcludeFromCollections: true
             </li>
             {%- endfor -%}
         </ul>
-        <p><a href="/posts/">All Posts</a></p>
+        <p><a href="/posts/">{{ 'All Posts' | i18n }}</a></p>
     </div>
     <div class="sidebar">
-        <h2>Collections</h2>
+        <h2>{{ 'Collections' | i18n }}</h2>
         <div class="collections">
             {% for category in collections.category %}
                 <div class="collection">
