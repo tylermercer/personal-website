@@ -8,7 +8,10 @@ const brokenExternalLinks = require("eleventy-plugin-broken-links");
 const ogImage = require('eleventy-plugin-og-image');
 const rss = require('@11ty/eleventy-plugin-rss');
 const { EleventyHtmlBasePlugin, EleventyI18nPlugin } = require("@11ty/eleventy");
+const i18n = require('eleventy-plugin-i18n');
 const fs = require('fs');
+
+const translations = require('./src/_data/i18n');
 
 function rmDir(dirPath, removeSelf) {
   let files;
@@ -42,6 +45,13 @@ module.exports = function (eleventyConfig) {
 
     eleventyConfig.addPlugin(EleventyI18nPlugin, {
       defaultLanguage: "en",
+    });
+    
+    eleventyConfig.addPlugin(i18n, {
+      translations,
+      fallbackLocales: {
+        'es': 'en'
+      }
     });
 
     eleventyConfig.addPlugin(automaticNoopener, {
