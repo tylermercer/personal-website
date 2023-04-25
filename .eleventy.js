@@ -7,7 +7,7 @@ const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const brokenExternalLinks = require("eleventy-plugin-broken-links");
 const ogImage = require('eleventy-plugin-og-image');
 const rss = require('@11ty/eleventy-plugin-rss');
-const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
+const { EleventyHtmlBasePlugin, EleventyI18nPlugin } = require("@11ty/eleventy");
 const fs = require('fs');
 
 function rmDir(dirPath, removeSelf) {
@@ -38,6 +38,10 @@ module.exports = function (eleventyConfig) {
       return collectionApi
             .getFilteredByTag("category")
             .sort((c1, c2) => count(c2) - count(c1))
+    });
+
+    eleventyConfig.addPlugin(EleventyI18nPlugin, {
+      defaultLanguage: "en",
     });
 
     eleventyConfig.addPlugin(automaticNoopener, {
@@ -121,7 +125,7 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addWatchTarget("./src/sass/");
 
     eleventyConfig.addFilter("pageScopedStyle", (filePathStem) => {
-      var foo = ('/css' + (filePathStem === '/' ? '/index' : filePathStem) + '.css')
+      var foo = ('/css' + (filePathStem === '/' ? '/index' : filePathStem.substring(3)) + '.css')
       console.log(foo)
       return foo
     });
