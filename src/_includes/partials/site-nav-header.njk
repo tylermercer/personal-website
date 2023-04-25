@@ -2,19 +2,19 @@
     <div class="guttered">
         <nav>
             <a class="skip-to-content-link" href="#main">Skip to Content</a>
-            <a class="logo-link" aria-label="Home" href="/">
+            <a class="logo-link" aria-label="Home" href="{{ "/" | locale_url }}">
                 {% include 'partials/logo.njk' %}
             </a>
             <ul>
                 <li>
-                    <a class="nav-link" {% if page.url == '/now/' %} aria-current="page"{% endif %} href="{{ '/now' | url}}">
+                    <a class="nav-link" {% if page.url == '/now/' %} aria-current="page"{% endif %} href="{{ '/now' | locale_url}}">
                         <span class="text">
                             Now
                         </span>
                     </a>
                 </li>
                 <li>
-                    <a class="nav-link" {% if page.url == '/about/' %} aria-current="page"{% endif %} href="{{ '/about' | url}}">
+                    <a class="nav-link" {% if page.url == '/about/' %} aria-current="page"{% endif %} href="{{ '/about' | locale_url}}">
                         <span class="text">
                             About
                         </span>
