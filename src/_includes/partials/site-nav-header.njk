@@ -1,7 +1,7 @@
 <header class="site-nav-container">
     <div class="guttered">
         <nav>
-            <a class="skip-to-content-link" href="#main">Skip to Content</a>
+            <a class="skip-to-content-link" href="#main">{{ 'Skip to Content' | i18n }}</a>
             <a class="logo-link" aria-label="Home" href="{{ "/" | locale_url }}">
                 {% include 'partials/logo.njk' %}
             </a>
@@ -9,14 +9,14 @@
                 <li>
                     <a class="nav-link" {% if page.url == '/now/' %} aria-current="page"{% endif %} href="{{ '/now' | locale_url}}">
                         <span class="text">
-                            Now
+                            {{ 'Now' | i18n }}
                         </span>
                     </a>
                 </li>
                 <li>
                     <a class="nav-link" {% if page.url == '/about/' %} aria-current="page"{% endif %} href="{{ '/about' | locale_url}}">
                         <span class="text">
-                            About
+                            {{ 'About' | i18n }}
                         </span>
                     </a>
                 </li>
