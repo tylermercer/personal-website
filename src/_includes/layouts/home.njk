@@ -1,16 +1,7 @@
 ---
-title: Tyler Mercer
-description: Web developer, behavioral design enthusiast, and follower of Jesus
 layout: base
 eleventyExcludeFromCollections: true
-pageScopedStyles: true
-pagination:
-    data: collections.posts
-    size: 5
-    reverse: true
-    alias: posts
 ---
-
 
 <h1 class="pattern {% if category %} pattern-{{ category }}{% endif %}"><span class="guttered">{{ title }}</span></h1>
 <p class="guttered post-description">{{- description | md | safe -}}</p>
