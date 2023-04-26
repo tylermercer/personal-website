@@ -4,7 +4,7 @@ description: Desarrollador web, entusiasta del diseño conductual y seguidor de 
 layout: home
 pageScopedStyles: true
 pagination:
-    data: collections.posts
+    data: collections.posts.es
     size: 5
     reverse: true
     alias: posts

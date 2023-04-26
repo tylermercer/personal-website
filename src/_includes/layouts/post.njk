@@ -23,9 +23,9 @@ layout: base
     <div class="article-content {% if dropCap %} drop-caps {%- endif %}">
         {{- content | safe -}}
     </div>
-    {%- if collections.posts %}
-    {%- set previousPost = collections.posts | getPreviousCollectionItem %}
-    {%- set nextPost = collections.posts | getNextCollectionItem %}
+    {%- if collections.posts[lang] %}
+    {%- set previousPost = collections.posts[lang] | getPreviousCollectionItem %}
+    {%- set nextPost = collections.posts[lang] | getNextCollectionItem %}
     {%- if nextPost or previousPost %}
     <ul class="links-next-prev">
         {%- if previousPost %}<li>Previous: <a href="{{ previousPost.url }}">{{ previousPost.data.title }}</a></li>{% endif %}
