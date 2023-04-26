@@ -34,6 +34,7 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addLayoutAlias('home', 'layouts/home.njk');
     eleventyConfig.addLayoutAlias('post', 'layouts/post.njk');
     eleventyConfig.addLayoutAlias('page', 'layouts/page.njk');
+    eleventyConfig.addLayoutAlias('collection', 'layouts/collection.njk');
 
     eleventyConfig.addCollection("category", function(collectionApi) {
       //Order categories by count
