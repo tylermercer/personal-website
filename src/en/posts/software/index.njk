@@ -2,21 +2,10 @@
 title: Software
 override:tags: [ 'category' ]
 description: Posts about software engineering, UI and UX design, and other aspects of software development
-layout: page
+layout: collection
+pagination:
+    data: collections.software
+    size: 5
+    reverse: true
+    alias: paginatedPosts
 ---
-
-<ul class="post-cards-list">
-    {% for post in collections.software | reverse %}
-        <li class="post-card">
-            <article>
-                <time class="dateline" datetime="{{ post.date | dateIso }}">{{ post.date | postDate }}</time>
-                <h3>
-                    <a href="{{ post.url | url }}">{{ post.data.title }}</a>
-                </h3>
-                <p>
-                    {{ post.data.description }}
-                </p>
-            </article>
-        </li>
-    {% endfor %}
-</ul>
