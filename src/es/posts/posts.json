@@ -1,0 +1,5 @@
+{
+    "layout": "post",
+    "tags": "posts",
+    "ogImageTemplatePath" : "./src/_og-image-templates/post.og.njk"
+}

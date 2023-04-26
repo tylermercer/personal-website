@@ -44,6 +44,27 @@ module.exports = function (eleventyConfig) {
             .sort((c1, c2) => count(c2) - count(c1))
     });
 
+    function createLangGroupedCollections(tag) {
+      return function(collectionApi) {
+        return collectionApi
+              .getFilteredByTag(tag)
+              .reduce(function (acc, cur) {
+                if (cur?.page?.lang == null) {
+                  throw new Error("A page did not have a lang! " + JSON.stringify(cur))
+                }
+                if (acc[cur.page.lang] == null) {
+                  acc[cur.page.lang] = [];
+                }
+                acc[cur.page.lang].push(cur);
+                return acc;
+              }, {});
+      }
+    }
+
+    eleventyConfig.addCollection("posts", createLangGroupedCollections("posts"))
+    eleventyConfig.addCollection("software", createLangGroupedCollections("software"))
+    eleventyConfig.addCollection("faith", createLangGroupedCollections("faith"))
+
     eleventyConfig.addPlugin(EleventyI18nPlugin, {
       defaultLanguage: "en",
     });
