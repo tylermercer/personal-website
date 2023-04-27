@@ -1,5 +1,15 @@
----
-layout: page
+---js
+{
+    layout: "page",
+    pagination: {
+        before(collection, data) {
+            return this.byLang(collection, data.lang);
+        },
+        size: 5,
+        reverse: true,
+        alias: "paginatedPosts",
+    },
+}
 ---
 <ul class="post-cards-list">
     {% for post in paginatedPosts | reverse %}
