@@ -15,7 +15,7 @@ permalink: /feeds/feed.json
 	},
 	"items": [
 		{%- for post in collections.posts | reverse %}
-		{%- set absolutePostUrl = post.url | htmlBaseUrl(metadata.url) %}
+		{%- set absolutePostUrl = post.url | strip_default_locale | htmlBaseUrl(metadata.url) %}
 		{
 			"id": "{{ absolutePostUrl }}",
 			"url": "{{ absolutePostUrl }}",
