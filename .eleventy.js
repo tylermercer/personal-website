@@ -34,6 +34,8 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addLayoutAlias('home', 'layouts/home.njk');
     eleventyConfig.addLayoutAlias('post', 'layouts/post.njk');
     eleventyConfig.addLayoutAlias('page', 'layouts/page.njk');
+    eleventyConfig.addLayoutAlias('feed-rss', 'layouts/feeds/rss.njk');
+    eleventyConfig.addLayoutAlias('feed-json', 'layouts/feeds/json.njk');
     eleventyConfig.addLayoutAlias('collection', 'layouts/collection.njk');
 
     eleventyConfig.addCollection("category", function(collectionApi) {
