@@ -1,0 +1,17 @@
+---js
+{
+    title: "Todos Los Publicaciones",
+    description: "Mis ensayos y pensamientos",
+    eleventyExcludeFromCollections: true,
+    layout: "collection",
+    pagination: {
+        data: "collections.posts",
+        before(collection, data) {
+            return this.byLang(collection, data.lang);
+        },
+        size: 5,
+        reverse: true,
+        alias: "paginatedPosts",
+    },
+}
+---

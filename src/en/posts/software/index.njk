@@ -1,0 +1,17 @@
+---js
+{
+    title: "Software",
+    description: "Posts about software engineering, UI and UX design, and other aspects of software development",
+    "override:tags": [ 'category' ],
+    layout: "collection",
+    pagination: {
+        data: "collections.software",
+        before(collection, data) {
+            return this.byLang(collection, data.lang);
+        },
+        size: 5,
+        reverse: true,
+        alias: "paginatedPosts",
+    },
+}
+---
