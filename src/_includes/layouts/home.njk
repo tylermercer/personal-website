@@ -28,7 +28,7 @@ eleventyExcludeFromCollections: true
     <div class="sidebar">
         <h2>{{ 'Collections' | i18n }}</h2>
         <div class="collections">
-            {% for category in collections.category %}
+            {% for category in collections.category | byLang %}
                 <div class="collection">
                     <h3 class="pattern pattern-{{ category.data.category }}"><a href="{{ category.url | url }}">{{ category.data.title }}</a></h3>
                     <p>{{ category.data.description | md | safe }}</p>
