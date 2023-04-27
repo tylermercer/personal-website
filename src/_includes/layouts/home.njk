@@ -23,7 +23,7 @@ eleventyExcludeFromCollections: true
             </li>
             {%- endfor -%}
         </ul>
-        <p><a href="/posts/">{{ 'All Posts' | i18n }}</a></p>
+        <p><a href="{{ "/posts/" | locale_url }}">{{ 'All Posts' | i18n }}</a></p>
     </div>
     <div class="sidebar">
         <h2>{{ 'Collections' | i18n }}</h2>
