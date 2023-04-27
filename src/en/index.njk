@@ -3,15 +3,5 @@
     title: "Tyler Mercer",
     description: "Web developer, behavioral design enthusiast, and follower of Jesus",
     layout: "home",
-    pageScopedStyles: true,
-    pagination: {
-        data: "collections.posts",
-        before(collection, data) {
-            return this.byLang(collection, data.lang);
-        },
-        size: 5,
-        reverse: true,
-        alias: "posts",
-    },
 }
 ---
