@@ -1,18 +1,7 @@
----js
-{
-    layout: "base",
-    eleventyExcludeFromCollections: true,
-    pageScopedStyles: true,
-    pagination: {
-        data: "collections.posts",
-        before(collection, data) {
-            return this.byLang(collection, data.lang);
-        },
-        size: 5,
-        reverse: true,
-        alias: "posts",
-    },
-}
+---
+layout: base
+eleventyExcludeFromCollections: true
+pageScopedStyles: true
 ---
 
 <h1 class="pattern {% if category %} pattern-{{ category }}{% endif %}"><span class="guttered">{{ title }}</span></h1>
@@ -21,7 +10,7 @@
     <div class="posts">
         <h2>{{ 'Latest Posts' | i18n }}</h2>
         <ul class="post-cards-list">
-            {%- for post in posts -%}
+            {%- for post in collections.posts | byLang | reverse | firstFive -%}
             <li class="post-card">
                 <article>
                     <time class="dateline" datetime="{{ post.date | dateIso }}">{{ post.date | postDate }}</time>

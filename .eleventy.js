@@ -48,7 +48,11 @@ module.exports = function (eleventyConfig) {
 
     eleventyConfig.addFilter('byLang', function (collection, lang = this.page.lang) {
         return collection.filter(item => item.data.lang === lang);
-    })
+    });
+
+    eleventyConfig.addFilter('firstFive', function (collection) {
+      return collection.slice(0,5);
+    });
 
     eleventyConfig.addPlugin(EleventyI18nPlugin, {
       defaultLanguage: "en",
