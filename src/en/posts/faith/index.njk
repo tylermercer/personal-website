@@ -6,12 +6,6 @@
     layout: "collection",
     pagination: {
         data: "collections.faith",
-        before(collection, data) {
-            return this.byLang(collection, data.lang);
-        },
-        size: 5,
-        reverse: true,
-        alias: "paginatedPosts",
     },
 }
 ---
