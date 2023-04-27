@@ -145,6 +145,10 @@ module.exports = function (eleventyConfig) {
       return foo
     });
 
+    eleventyConfig.addFilter("strip_default_locale", (path) => {
+      return path.startsWith('/en') ? path.substring(3) : path;
+    })
+
     eleventyConfig.addPlugin(brokenExternalLinks, { broken: "error" });
 
     return {
