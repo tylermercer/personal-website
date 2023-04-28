@@ -12,7 +12,7 @@
 }
 ---
 <ul class="post-cards-list">
-    {% for post in paginatedPosts | reverse %}
+    {% for post in paginatedPosts %}
         <li class="post-card">
             <article>
                 <time class="dateline" datetime="{{ post.date | dateIso }}">{{ post.date | postDate }}</time>
