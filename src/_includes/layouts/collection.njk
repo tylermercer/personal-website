@@ -26,3 +26,12 @@
         </li>
     {% endfor %}
 </ul>
+{%- set previousPage = pagination.href.previous %}
+{%- set nextPage = pagination.href.next %}
+{%- if nextPage or previousPage %}
+<nav aria-label="Navigation" class="links-next-prev">
+    {%- if previousPage %}<a href="{{ previousPage }}">← Newer posts</a>{% endif %}
+    {%- if previousPage and nextPage %}<span>|</span>{% endif %}
+    {%- if nextPage %}<a href="{{ nextPage }}">Older posts →</a>{% endif %}
+</nav>
+{%- endif -%}
