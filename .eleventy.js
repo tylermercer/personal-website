@@ -40,7 +40,7 @@ module.exports = function (eleventyConfig) {
 
     eleventyConfig.addCollection("category", function(collectionApi) {
       //Order categories by count
-      let count = (c) => collectionApi.getFilteredByGlob(`src/posts/${c.data.category}/*`).length;
+      let count = (c) => collectionApi.getFilteredByGlob(`src/${c.page.lang}/posts/${c.data.category}/*`).length;
       return collectionApi
             .getFilteredByTag("category")
             .sort((c1, c2) => count(c2) - count(c1))
