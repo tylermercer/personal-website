@@ -34,4 +34,8 @@
     {%- if previousPage and nextPage %}<span>|</span>{% endif %}
     {%- if nextPage %}<a href="{{ nextPage }}">Older posts →</a>{% endif %}
 </nav>
+{%- else -%}
+<div class="links-next-prev empty">
+    No more posts to show
+</div>
 {%- endif -%}
