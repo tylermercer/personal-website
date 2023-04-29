@@ -1,6 +1,6 @@
 ---
 title: Compassion and Covenants
-description: We should strive to love others _and_ love God, even when those things are difficult or uncomfortable.
+description: True covenant-keeping includes loving others wholeheartedly and vulnerably.
 date: 2023-04-22 22:00:00.00
 ---
 I once heard someone say that
@@ -61,21 +61,21 @@ from last General Conference:
 
 If anything, the story of the tension between the compassion and covenants of
 the People of Ammon teaches us that covenant life is messy. We need to be
-willing to love others _and_ love God even when one or both of those things is
-hard and uncomfortable. We can live in accordance with our covenants and still
-acknowledge and validate the experiences, trials, and struggles of those around
-us. We can still feel a deep desire to help others even when---for whatever
-reason---we are unable to help them. In a way, this discomfort proves that our
-love is real, and gives it depth and substance. This principle was exemplified
-by God Himself in the book of Moses, when He wept because of the suffering His
-children had brought upon themselves and each
+willing to love others _and_ love God even when doing both is uncomfortable. We
+can live in accordance with our covenants and still acknowledge and validate the
+experiences, trials, and struggles of those around us. We can still feel a deep
+desire to help others even when---for whatever reason---we are unable to help
+them. In a way, this discomfort proves that our love is real, and gives it depth
+and substance. This principle was exemplified by God Himself in the book of
+Moses, when He wept because of the suffering His children had brought upon
+themselves and each
 other.^[See [Moses 7:28-37](https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/7?lang=eng&id=p28-p37#p28).
 See also _The God Who Weeps_ by Terryl and Fiona Givens. Quoting from that book:
 "It is not their wickedness, but their 'misery,' not their disobedience, but
 their 'suffering,' that elicits the God of Heaven's tears."] God, a perfect
-being, was willing to experience emotional pain because of His love for His
-children.
+being, was willing to experience emotional pain---vulnerability---because of His
+love for His children.
 
 We should never use our covenants to justify callousness. True covenant-keeping
-includes loving others wholeheartedly---even those who are different from us, and
-even when it is messy or uncomfortable.
+includes loving others wholeheartedly and vulnerably---even those who disagree
+with us or do not support our ideals.
