@@ -14,8 +14,8 @@ compassion. In those verses, Helaman and the Nephites dissuade the People of
 Ammon from going to battle to protect the Nephites, because the People of Ammon
 had covenanted with God not to take up arms.
 
-I believe this covenants-over-compassion interpretation is a dangerous idea
-resulting from taking an isolated incident out of context and misunderstanding
+I believe this idea of covenants superseding compassion is a dangerous idea
+resulting from taking a nuanced incident out of context and misunderstanding
 the nature of compassion and our covenants.
 
 The danger inherent in this idea is that of claiming that our covenants justify
@@ -61,7 +61,7 @@ from last General Conference:
 
 If anything, the story of the tension between the compassion and covenants of
 the People of Ammon teaches us that covenant life is messy. We need to be
-willing to love others _and_ love God even when doing both is uncomfortable. We
+willing to love others _and_ love God even when doing so is uncomfortable. We
 can live in accordance with our covenants and still acknowledge and validate the
 experiences, trials, and struggles of those around us. We can still feel a deep
 desire to help others even when---for whatever reason---we are unable to help
