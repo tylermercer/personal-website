@@ -95,4 +95,7 @@
     list-style-type: none;
     padding: 0;
     gap: 0.5ch;
+    &.empty {
+        color: var(--color-gray-11);
+    }
 }
