@@ -8,9 +8,16 @@
 @import '../../../node_modules/@fontsource/faustina/400-italic';
 @import '../../../node_modules/@fontsource/faustina/700';
 
+@font-face {
+    font-family: "Faustina-fallback";
+    size-adjust: 103.05%;
+    ascent-override: 99%;
+    src: local("Times New Roman");
+}
+
 :root {
     --font-heading: 'Figtree', Arial, sans-serif;
-    --font-body: 'Faustina', Georgia, serif;
+    --font-body: 'Faustina', 'Faustina-fallback', 'Times New Roman', serif;
     --font-accent: 'Figtree', Arial, sans-serif;
     --font-code: Consolas, 'Courier New', monospace;
 }
