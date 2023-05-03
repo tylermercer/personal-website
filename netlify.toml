@@ -1,9 +1,15 @@
+
 # Redirect any URLs with the default language code in them already
 [[redirects]]
   from = "/en/*"
   to = "/:splat"
   status = 301
   force = true
+  
+[[redirects]]
+  from = "/en/*"
+  to = "/404/index.html"
+  status = 404
 
 # Important: Per shadowing rules, URLs for the
 # _non-default_ language-specific content files
@@ -14,8 +20,3 @@
   from = "/*"
   to = "/en/:splat"
   status = 200
-
-[[redirects]]
-  from = "/en/*"
-  to = "/en/404.html"
-  status = 404
