@@ -37,6 +37,7 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addLayoutAlias('feed-rss', 'layouts/feeds/rss.njk');
     eleventyConfig.addLayoutAlias('feed-json', 'layouts/feeds/json.njk');
     eleventyConfig.addLayoutAlias('collection', 'layouts/collection.njk');
+    eleventyConfig.addLayoutAlias('not-found', 'layouts/not-found.njk');
 
     eleventyConfig.addCollection("category", function(collectionApi) {
       //Order categories by count

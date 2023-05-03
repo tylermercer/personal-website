@@ -1,0 +1,13 @@
+---js
+{
+    eleventyExcludeFromCollections: true,
+    layout: "page",
+    eleventyComputed: {
+        latestPost(data) {
+            console.log("latestPost: ", this.byLang(data.collections.posts, data.lang).slice(-1)[0]);
+            return this.byLang(data.collections.posts, data.lang).slice(-1)[0];
+        }
+    }
+}
+---
+{{- content | safe -}}
