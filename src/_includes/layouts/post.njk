@@ -1,25 +1,5 @@
----js
-{
-    layout: "base",
-    eleventyComputed: {
-        eleventyExcludeFromCollections: function(data) {
-            if(this.shouldShowDraft(data)) {
-                return data.eleventyExcludeFromCollections;
-            }
-            else {
-                return true;
-            }
-        },
-        permalink: function(data) {
-            if(this.shouldShowDraft(data)) {
-                return data.permalink
-            }
-            else {
-                return false;
-            }
-        }
-    }
-}
+---
+layout: base
 ---
 <h1 class="pattern {% if category %} pattern-{{ category }}{% endif %}"><span class="guttered">{{ title }}</span></h1>
 <div class="guttered">
