@@ -152,6 +152,35 @@ module.exports = function (eleventyConfig) {
       return foo
     });
 
+    eleventyConfig.addGlobalData("eleventyComputed.permalink", function() {
+      return (data) => {
+        // Always skip during non-watch/serve builds
+        if(data.draft && !process.env.BUILD_DRAFTS) {
+          return false;
+        }
+  
+        return undefined;
+      }
+    });
+
+    eleventyConfig.addGlobalData("eleventyComputed.eleventyExcludeFromCollections", function() {
+      return (data) => {
+        // Always exclude from non-watch/serve builds
+        if(data.draft && !process.env.BUILD_DRAFTS) {
+          return true;
+        }
+  
+        return data.eleventyExcludeFromCollections;
+      }
+    });
+
+    eleventyConfig.on("eleventy.before", ({runMode}) => {
+      // Set the environment variable
+      if(runMode === "serve" || runMode === "watch") {
+        process.env.BUILD_DRAFTS = true;
+      }
+    });
+
     eleventyConfig.addFilter("strip_default_locale", (path) => {
       return path.startsWith('/en') ? path.substring(3) : path;
     })
