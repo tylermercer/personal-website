@@ -1,7 +1,7 @@
 ---
 title: Free Lunches in Frontend Dev
 description: We can have developer velocity _and_ meet the performance needs of marginal users
-date: 2023-04-06 9:00:00.00
+draft: true
 ---
 
 Alex Russell's article ["The Market For Lemons"](https://infrequently.org/2023/02/the-market-for-lemons/)
