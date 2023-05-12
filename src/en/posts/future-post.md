@@ -1,5 +1,5 @@
 ---
-date: 2024-05-10
+draft: true
 title: A Future Post
 description: This is a post from far in the future
 ---
