@@ -13,7 +13,9 @@ const fs = require('fs');
 
 const translations = require('./src/_data/i18n');
 
-const BUILD_DRAFTS = false;
+const BUILD_DRAFTS = !(process.env.NODE_ENV === 'production');
+
+console.log(BUILD_DRAFTS ? "Building Drafts" : "Excluding Drafts");
 
 function rmDir(dirPath, removeSelf) {
   let files;

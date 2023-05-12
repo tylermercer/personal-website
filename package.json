@@ -12,7 +12,8 @@
     "build:eleventy": "eleventy",
     "postbuild": "del-cli dist/drafts",
     "start": "npm-run-all build:sass-global build:sass-pages --parallel watch:*",
-    "build": "npm-run-all build:sass-global build:sass-pages build:eleventy",
+    "build:dev": "npm-run-all build:sass-global build:sass-pages build:eleventy",
+    "build" : "cross-env NODE_ENV=production npm run build:dev",
     "clean": "del-cli dist"
   },
   "keywords": [],
@@ -24,6 +25,7 @@
     "@11ty/eleventy-plugin-syntaxhighlight": "^4.2.0",
     "@fontsource/faustina": "^4.5.11",
     "@fontsource/figtree": "^4.5.3",
+    "cross-env": "^7.0.3",
     "del-cli": "^5.0.0",
     "eleventy-plugin-automatic-noopener": "^2.0.2",
     "eleventy-plugin-broken-links": "^2.0.3",
