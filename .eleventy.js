@@ -152,6 +152,10 @@ module.exports = function (eleventyConfig) {
       return foo
     });
 
+    eleventyConfig.addFilter("trimTrailingIndex", (filePathStem) => {
+      return filePathStem.endsWith('/index') ? filePathStem.slice(0, -6) : filePathStem;
+    })
+
     eleventyConfig.addGlobalData("eleventyComputed.permalink", function() {
       return (data) => {
         // Always skip during non-watch/serve builds
