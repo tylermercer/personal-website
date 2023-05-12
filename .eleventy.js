@@ -158,8 +158,8 @@ module.exports = function (eleventyConfig) {
         if(data.draft && !process.env.BUILD_DRAFTS) {
           return false;
         }
-  
-        return undefined;
+        console.log(data);
+        return data.permalink;
       }
     });
 
