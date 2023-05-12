@@ -13,6 +13,8 @@ const fs = require('fs');
 
 const translations = require('./src/_data/i18n');
 
+const BUILD_DRAFTS = false;
+
 function rmDir(dirPath, removeSelf) {
   let files;
   try { files = fs.readdirSync(dirPath); }
@@ -156,13 +158,16 @@ module.exports = function (eleventyConfig) {
       return filePathStem.endsWith('/index') ? filePathStem.slice(0, -6) : filePathStem;
     })
 
+    const now = new Date();
+
     eleventyConfig.addGlobalData("eleventyComputed.permalink", function() {
       return (data) => {
         // Always skip during non-watch/serve builds
-        if(data.draft && !process.env.BUILD_DRAFTS) {
-          return false;
+        const isDraftOrFuture = (('draft' in data && data.draft !== false) || data.page.date > now);
+        if(isDraftOrFuture && !BUILD_DRAFTS) {
+          console.log("skipping " + data.title)
+          return "drafts/" + data.page.filePathStem + "/index.html";
         }
-        console.log(data);
         return data.permalink;
       }
     });
@@ -170,18 +175,13 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addGlobalData("eleventyComputed.eleventyExcludeFromCollections", function() {
       return (data) => {
         // Always exclude from non-watch/serve builds
-        if(data.draft && !process.env.BUILD_DRAFTS) {
+        const isDraftOrFuture = (('draft' in data && data.draft !== false) || data.page.date > now);
+        if(isDraftOrFuture && !BUILD_DRAFTS) {
+          console.log("excluding " + data.title)
           return true;
         }
   
         return data.eleventyExcludeFromCollections;
-      }
-    });
-
-    eleventyConfig.on("eleventy.before", ({runMode}) => {
-      // Set the environment variable
-      if(runMode === "serve" || runMode === "watch") {
-        process.env.BUILD_DRAFTS = true;
       }
     });
 
