@@ -55,6 +55,16 @@ module.exports = function (eleventyConfig) {
       return collection.slice(0,5);
     });
 
+    const isDevEnv = process.env.ELEVENTY_ENV === 'development';
+    const todaysDate = new Date();
+
+    eleventyConfig.addFilter('shouldShowDraft', function (data) {
+        const isDraft = 'draft' in data && data.draft !== false;
+        const isFutureDate = data.page.date > todaysDate;
+        console.log(data);
+        return isDevEnv || (!isDraft && !isFutureDate);
+    })
+
     eleventyConfig.addPlugin(EleventyI18nPlugin, {
       defaultLanguage: "en",
     });
@@ -150,35 +160,6 @@ module.exports = function (eleventyConfig) {
       var foo = ('/css' + (filePathStem === '/' ? '/index' : filePathStem.substring(3)) + '.css')
       console.log(foo)
       return foo
-    });
-
-    eleventyConfig.addGlobalData("eleventyComputed.permalink", function() {
-      return (data) => {
-        // Always skip during non-watch/serve builds
-        if(data.draft && !process.env.BUILD_DRAFTS) {
-          return false;
-        }
-  
-        return undefined;
-      }
-    });
-
-    eleventyConfig.addGlobalData("eleventyComputed.eleventyExcludeFromCollections", function() {
-      return (data) => {
-        // Always exclude from non-watch/serve builds
-        if(data.draft && !process.env.BUILD_DRAFTS) {
-          return true;
-        }
-  
-        return data.eleventyExcludeFromCollections;
-      }
-    });
-
-    eleventyConfig.on("eleventy.before", ({runMode}) => {
-      // Set the environment variable
-      if(runMode === "serve" || runMode === "watch") {
-        process.env.BUILD_DRAFTS = true;
-      }
     });
 
     eleventyConfig.addFilter("strip_default_locale", (path) => {
