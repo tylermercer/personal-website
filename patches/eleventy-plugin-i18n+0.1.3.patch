@@ -1,0 +1,13 @@
+diff --git a/node_modules/eleventy-plugin-i18n/i18n.js b/node_modules/eleventy-plugin-i18n/i18n.js
+index f8c4165..30ee78c 100644
+--- a/node_modules/eleventy-plugin-i18n/i18n.js
++++ b/node_modules/eleventy-plugin-i18n/i18n.js
+@@ -15,7 +15,7 @@ module.exports = function (
+     pluginOptions;
+ 
+   // Use explicit `locale` argument if passed in, otherwise infer it from URL prefix segment
+-  const url = get(page, 'url', '');
++  const url = get(page, 'filePathStem', '');
+   const contextLocale = url.split('/')[1];
+   const locale = localeOverride || contextLocale;
+ 

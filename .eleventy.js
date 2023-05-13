@@ -168,7 +168,7 @@ module.exports = function (eleventyConfig) {
         const isDraftOrFuture = (('draft' in data && data.draft !== false) || data.page.date > now);
         if(isDraftOrFuture && !BUILD_DRAFTS) {
           console.log("skipping " + data.title)
-          return "drafts/" + data.page.filePathStem + "/index.html";
+          return false;
         }
         return data.permalink;
       }
