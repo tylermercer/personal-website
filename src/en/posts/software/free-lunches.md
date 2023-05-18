@@ -244,7 +244,9 @@ lean in to their 0-JS-by-default strength while still providing support for
 developers who are familiar with the dominant React ecosystem.
 
 Personally, I have found working in Astro _without_ framework components a
-breath of fresh air. 
+breath of fresh air.
+
+# Framework Example #2: Qwik
 
 ## Free Lunch => A Better Web for All
 
