@@ -28,13 +28,13 @@ industry, with React having such a strong presence, to a
 > will always end up at the same mix of hawks and doves, a point of equilibrium
 > known as an
 > [evolutionarily stable strategy](https://en.wikipedia.org/wiki/Evolutionarily_stable_strategy).
-> 
+>
 > All you need to take away from this to understand the argument I'm about to
 > make is that: while a world of doves all cooperating with each other would be
 > nicer, indeed the best possible world, it is not the world you end up with
 > because it is not **stable**. It only takes a single hawk to show up to throw
 > it out of whack.
-> 
+>
 > How this translates to the world of software is: it is my assertion that the
 > world as it exists is a world in a relatively stable equilibrium. Reality is
 > complicated, so there aren't just two teams of hawks and doves, there are tens
@@ -43,7 +43,7 @@ industry, with React having such a strong presence, to a
 > resources and trade-offs. The result is the world we see, and despite it being
 > not the best possible world depending on your own priorities, **the
 > equilibrium exists for completely rational reasons**.
-> 
+>
 > So: there is no secret cabal of charismatic influencers destroying what would
 > be a perfect world without them. We cannot blame anybody for the state of
 > things. We created this world ourselves, collectively. If we want to change
@@ -93,23 +93,17 @@ Rather than being explicitly chosen, I think this _modus operandi_ of "just use
 React" exists largely because of bad framing in two areas: education and
 framework branding.
 
-### "React === The Web" in Education
+### "React === The Web"
 
 Many bootcamps teach React development before teaching core web development
 principles (if they teach the core principles at all). They churn out graduates
-who can build things with React but would freeze up if you handed them an HTML
-file in a text editor and asked them to make a simple project using plain
-JavaScript.
+who can build things with React but would freeze up if you asked them to make a
+simple project using plain JavaScript.
 
-Many online instructors also perpetuate this thinking. **TODO: finish this
-part**
-
-### "React === The Web" in Framework Branding
-
-The entire selling point of React meta-frameworks like Remix and Next.js is that
-you can use them for everything. Like the educators mentioned above, the
-framework authors implicitly frame React as the One True Way to build for the
-web. For example,
+On the framework side, the entire selling point of React meta-frameworks like
+Remix and Next.js is that you can use them for everything. Like the educators
+mentioned above, the framework authors implicitly frame React as the One True
+Way to build for the web. For example,
 [Next.js includes a blog as one of it's starter templates](https://vercel.com/templates/next.js/blog-starter-kit).
 I am skeptical that there's ever a good reason for a blog to be rendered
 client-side using React, regardless of whether it uses SSR. In the case of a
@@ -120,37 +114,12 @@ The same goes for
 But there's an implicit premise in the branding and documentation of frameworks
 like Next.js and Remix that you should use them for any kind of project.
 
-As an example of _avoiding_ an implicit premise like this,
-[Astro](https://astro.build) does a great job of specifying that it _isn't_ the
-best fit for every project. From
-["Why Astro"](https://docs.astro.build/en/concepts/why-astro/) (emphasis mine):
-
-> Astro was designed for building content-rich websites. This includes most
-> marketing sites, publishing sites, documentation sites, blogs, portfolios, and
-> some ecommerce sites.
-> 
-> By contrast, most modern web frameworks are designed for building web
-> applications. These frameworks work best for building more complex,
-> application-like experiences in the browser: logged-in admin dashboards,
-> inboxes, social networks, todo lists, and even native-like applications like
-> Figma and Ping.
-> 
-> ...
-> 
-> **If your project falls into the second “application” camp, Astro might not be
-> the right choice for your project… and that’s okay!** Check out Next.js for a
-> more application-focused alternative to Astro.
-
-(Look at that! They even point people to Next.js for application use cases. But
-you won't see the Next.js docs pointing you to Astro for content sites---that
-would violate Next.js' implicit "React === the web" premise.)
-
 Frameworks like Next.js and Remix are hammers---useful, certainly, (especially
 for business-to-business, auth-gated SaaS applications) but abjectly _not_ the
 right answer for every problem, unless you squint hard enough that screws,
-eye-bolts, wing-nuts, and your mobile users' big toes all look like nails. But
-they have consistently branded themselves as universal solutions, in a way that,
-I believe, has mislead many developers, especially ones who don't take it upon
+eye-bolts, and your mobile users' big toes all look like nails. But they have
+consistently branded themselves as universal solutions, in a way that, I
+believe, has mislead many developers, especially ones who don't take it upon
 themselves to seriously consider options outside the "React bubble."
 
 ## Unfortunate Side Effects of Sensible Thinking
@@ -176,7 +145,22 @@ bad framing^[And sometimes
 [outright hostility](https://fediverse.zachleat.com/@zachleat/109830047951867907)]
 from certain React proponents and educators, has led our industry into a mire.
 
-Time to vote with our feet and step out of the mud together:
+## Free as in Lunch
+
+The good news about all of this is that there is plenty of room in this
+hawks-and-doves game for what psychologist Dan Ariely
+calls^[Dan Ariely, [_Predictably Irrational_](https://www.amazon.com/dp/0061854549)]
+a "free lunch"---a place of mutual benefit based on a heightened understanding
+of why the differing parties behave as they do. From his book _Predictably
+Irrational_:
+
+> **TODO: quote Ariely.**
+
+In this case, the free lunch is a situation in which both users and devs can
+have a better experience than they do in this "market for lemons." I think there
+are a few things we can do to step out of the mud together.
+
+As developers:
 
 - We can focus on
   [learning web development principles](https://www.zachleat.com/twitter/1074776108422307840/)
@@ -201,31 +185,75 @@ Time to vote with our feet and step out of the mud together:
 - We can choose to value the marginal user, and test what we build on lower-end
   devices and network conditions.
 - We can contribute to open-source projects that will help leaner frameworks
-  compete with the bundle-size giants like React. (In my experience, there is a
-  particular need for headless, accessible component libraries.)
+  compete with and integrate with the bundle-size giants like React. (In my
+  experience, there is a particular need for headless, accessible component
+  libraries.)
 
-## Free as in Lunch
+As educators and framework or library authors:
 
-The good news about all of this is that there is plenty of room in this
-hawks-and-doves game for what psychologist Dan Ariely
-calls^[Dan Ariely, [_Predictably Irrational_](https://www.amazon.com/dp/0061854549)]
-a "free lunch"---a place of mutual benefit based on a heightened understanding
-of why the differing parties behave as they do. From his book _Predictably
-Irrational_:
+- We can emphasize the importance of picking a well-suited tool for the job. (I
+  say "a well-suited tool" rather than "the best tool" intentionally---there is
+  often not a "best" tool for a specific job any more than there is a single
+  tool that does all jobs well.)
+- We can make our tools and frameworks interoperable, especially with the
+  dominant React ecosystem. Preact, as mentioned above, is a good example of
+  this.
+- We can focus on reducing the "magic" and complexity in our systems to the bare
+  minimum. [Eleventy](https://11ty.dev) is an excellent example of this. It does
+  one thing well, and relies on plugins and community-built starters to add
+  non-core functionality on top of that.
+- We can increase awareness of _other_ tools that increase interoperability and
+  facilitate picking a well suited tool for the job.
 
-> **TODO: quote Ariely.**
+## Framework Example #1: Astro
 
-In this case, the free lunch is a situation in which both users and devs can
-have a better experience than they do in this "market for lemons." By learning
-and teaching more tools than just the hammer of React, we can apply the best
-tool to each problem and move so much faster---and make better, more resilient
-products to boot. Tools like Astro, for example, are demonstrating that we can
-have developer experience and velocity _and_ meet the performance needs of
-marginal users. Users and devs can _both_ be better off if we choose incremental
-adoption of complexity instead of out-of-the-gate bloat.
+[Astro](https://astro.build) is a build tool known for its "islands
+architecture" that hydrates individual framework components rather than
+hydrating the whole page.
 
-We can even invite those who make a living pushing React as the One True Way to
-adjust their perspective and come with us. Who knows? Maybe they'll come 'round.
+It does a great job of specifying that it _isn't_ the best fit for every
+project. From ["Why Astro"](https://docs.astro.build/en/concepts/why-astro/)
+(emphasis mine):
+
+> Astro was designed for building content-rich websites. This includes most
+> marketing sites, publishing sites, documentation sites, blogs, portfolios, and
+> some ecommerce sites.
+>
+> By contrast, most modern web frameworks are designed for building web
+> applications. These frameworks work best for building more complex,
+> application-like experiences in the browser: logged-in admin dashboards,
+> inboxes, social networks, todo lists, and even native-like applications like
+> Figma and Ping.
+>
+> ...
+>
+> **If your project falls into the second “application” camp, Astro might not be
+> the right choice for your project… and that’s okay!** Check out Next.js for a
+> more application-focused alternative to Astro.
+
+(Look at that! They even point people to Next.js for application use cases. But
+the Next.js docs don't point you to Astro for content sites, because that would
+contradict violate Next.js' implicit "React === the web" premise.)
+
+Astro also does a great job of providing interoperability in a way that is
+geared towards its specific use case: You can use Astro's integrations to render
+React, Svelte, Vue, Preact, Solid, or Lit components within your site. These
+components can be marked as "islands" of interactivity to make them hydrate on
+the client, but by default they render only on the server. This allows Astro to
+lean in to their 0-JS-by-default strength while still providing support for
+developers who are familiar with the dominant React ecosystem.
+
+Personally, I have found working in Astro _without_ framework components a
+breath of fresh air. 
+
+## Free Lunch => A Better Web for All
+
+By learning and teaching more tools than just the hammer of React, we can apply
+a well-suited tool to each problem and move so much faster---and make better,
+more resilient web experiences. Tools like Astro and Qwik are demonstrating
+that we can have developer experience and velocity _and_ meet the performance
+needs of marginal users. Users and devs can _both_ be better off if we choose
+incremental adoption of complexity instead of out-of-the-gate bloat.
 
 ---
 
