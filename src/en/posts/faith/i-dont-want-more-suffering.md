@@ -5,7 +5,7 @@ date: 2023-05-19 12:00:00
 ---
 
 I had a neat thought when reading
-[Alma 34:11-13](https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/34?lang=eng&id=p11-p13#p11)
+[Alma 34:11-14](https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/34?lang=eng&id=p11-p14#p11)
 today:
 
 > **11** Now there is not any man that can sacrifice his own blood which will atone
@@ -20,6 +20,10 @@ today:
 > and then shall there be, or it is expedient there should be, a stop to the
 > shedding of blood; then shall the law of Moses be fulfilled; yea, it shall be
 > all fulfilled, every jot and tittle, and none shall have passed away.
+> 
+> **14** And behold, this is the whole meaning of the law, every whit pointing to
+> that great and last sacrifice; and that great and last sacrifice will be the Son
+> of God, yea, infinite and eternal.
 
 As I read verse 13, I saw the "stop to the shedding of blood" as connected to
 verses 11 and 12 and not just to the animal sacrifices under the law of Moses
