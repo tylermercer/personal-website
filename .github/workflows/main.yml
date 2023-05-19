@@ -1,34 +1,29 @@
-name: Netlify builds
-
+name: Build and Deploy to Netlify
 on:
   push:
-    branches: [ main ]
-  repository_dispatch:
-    types: [created, updated, deleted]
-
+  pull_request:
 jobs:
   build:
-    runs-on: ubuntu-latest
-
+    runs-on: ubuntu-22.04
     steps:
-      - uses: actions/checkout@v2
-      
-      - name: Setup Node.js environment
-        uses: actions/setup-node@v2.1.4
-        with: 
-          version: 18.x
+      - uses: actions/checkout@v3
           
       - name: Build site
         working-directory: ./
         run: |
           npm install --production
           npm run build
-          
-      - name: Netlify deployment      
-        uses: nwtgck/actions-netlify@v2.0.0     
+
+      - name: Deploy to Netlify
+        uses: nwtgck/actions-netlify@v2.0
         with:
           publish-dir: './dist'
-          production-branch: main 
+          production-branch: master
+          deploy-message: "Deploy from GitHub Actions"
+          enable-pull-request-comment: false
+          enable-commit-comment: false
+          overwrites-pull-request-comment: false
         env:
-          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+        timeout-minutes: 1
