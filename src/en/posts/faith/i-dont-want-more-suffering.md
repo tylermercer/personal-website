@@ -1,6 +1,6 @@
 ---
 title: '"I Don''t Want More Suffering."'
-description: 'Rather than being vengeful, God offers us mercy through Christ'
+description: 'Rather than being vengeful, God pleads with us to accept the mercy He offers through Christ'
 date: 2023-05-19 12:00:00
 ---
 
