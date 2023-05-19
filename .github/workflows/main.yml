@@ -11,7 +11,7 @@ jobs:
       - name: Build site
         working-directory: ./
         run: |
-          npm install --production
+          npm install
           npm run build
 
       - name: Deploy to Netlify
