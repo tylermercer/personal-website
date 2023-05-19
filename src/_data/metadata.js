@@ -7,5 +7,6 @@ module.exports = {
 	"author": {
 		"name": "Tyler Mercer",
 		"url": "https://tylermercer.net/about/"
-	}
+	},
+	"builtAt": new Date().toDateString(),
 }

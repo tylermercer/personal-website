@@ -24,4 +24,4 @@ Some other resources I used as part of this site:
   [this excellent 11ty plugin](https://www.npmjs.com/package/eleventy-plugin-og-image))
 
 I deploy the site via a GitHub Actions workflow that builds the site and deploys
-to Netlify. Last run: {{ currentDatetime | postDate }}
+to Netlify. Last run: {{ metadata.builtAt }}

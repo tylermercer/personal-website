@@ -34,9 +34,6 @@ function rmDir(dirPath, removeSelf) {
 };
 
 module.exports = function (eleventyConfig) {
-
-    const now = new Date();
-
     eleventyConfig.addLayoutAlias('base', 'layouts/base.njk');
     eleventyConfig.addLayoutAlias('home', 'layouts/home.njk');
     eleventyConfig.addLayoutAlias('post', 'layouts/post.njk');
@@ -128,8 +125,6 @@ module.exports = function (eleventyConfig) {
       return DateTime.fromJSDate(date).toLocaleString(DateTime.DATE_MED);
     });
 
-    eleventyConfig.addShortcode("currentDatetime", () => now);
-
     eleventyConfig.addFilter('dateIso', date => {
       return DateTime.fromJSDate(date).toISO();
     });
@@ -164,6 +159,8 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addFilter("trimTrailingIndex", (filePathStem) => {
       return filePathStem.endsWith('/index') ? filePathStem.slice(0, -6) : filePathStem;
     })
+
+    const now = new Date();
 
     eleventyConfig.addGlobalData("eleventyComputed.permalink", function() {
       return (data) => {
