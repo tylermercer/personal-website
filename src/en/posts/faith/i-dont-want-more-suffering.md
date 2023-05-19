@@ -1,8 +1,7 @@
 ---
-title: I Don't Want More Suffering.
-description: Rather than being vengeful, God offers us mercy through Christ
+title: '"I Don''t Want More Suffering."'
+description: 'Rather than being vengeful, God offers us mercy through Christ'
 date: 2023-05-19 12:00:00
-draft: true
 ---
 
 I had a neat thought when reading
@@ -23,13 +22,13 @@ today:
 > all fulfilled, every jot and tittle, and none shall have passed away.
 
 As I read verse 13, I saw the "stop to the shedding of blood" as connected to
-verses 11 and 12 and not just to the previously-mentioned animal sacrifices
-under the law of Moses. This connection is perhaps eisegetical, but I think it's
-significant---God sent His son to "fulfill the demands of justice" because
-justice demands _our_ blood. Justice demands "an eye for an eye," which means
-that, without a Savior, there would just be more pain and suffering in response
-to the pain and suffering we inflict on others. God yearns to _stop_ the pain
-and suffering, not to have it propagate unbounded. Thus, He sent His Son that
+verses 11 and 12 and not just to the animal sacrifices under the law of Moses
+mentioned in the preceding verses. This connection is perhaps eisegetical, but
+I think it's significant---God sent His son to "fulfill the demands of justice"
+because justice demands _our_ blood. Justice demands "an eye for an eye," which
+means that, without a Savior, there would just be more pain and suffering in
+response to the pain and suffering we inflict on others. God yearns to _stop_ the
+pain and suffering, not to have it propagate unbounded. Thus, He sent His Son that
 there could be "a stop to the shedding of blood." I'm reminded of a quote from
 _The Brothers Karamazov_, in which a man named Ivan expresses his dissatisfaction
 with the idea of a God whose primary goal is justice:
@@ -41,4 +40,4 @@ with the idea of a God whose primary goal is justice:
 > that I don't accept, Alyosha, only I most respectfully return him the ticket.
 
 Fortunately, God agrees with Ivan. He _also_ doesn't want more suffering. He
-also wants to embrace and to forgive.
+_also_ wants to embrace and to forgive.
