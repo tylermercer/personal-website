@@ -9,11 +9,8 @@ module.exports = {
 		"url": "https://tylermercer.net/about/"
 	},
 	"builtAt": new Date().toLocaleString("en-US", {
-	  weekday: "long",
-	  year: "numeric",
-	  month: "long",
-	  day: "numeric",
-	  timeZone: "UTC",
-	  timeZoneName: "short"
+	  dateStyle: "full",
+	  timeStyle: "long",
+	  timeZone: "UTC"
 	}),
 }
