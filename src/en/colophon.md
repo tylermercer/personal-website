@@ -23,7 +23,7 @@ Some other resources I used as part of this site:
   (via
   [this excellent 11ty plugin](https://www.npmjs.com/package/eleventy-plugin-og-image))
 
-I deploy the site via a GitHub Actions workflow that builds the site and deploys
-to Netlify.
+I deploy the site via a GitHub Actions workflow that builds the site daily and
+deploys it to Netlify.
 
 _Last deployed on {{ metadata.builtAt }}._
