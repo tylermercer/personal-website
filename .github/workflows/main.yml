@@ -1,5 +1,7 @@
 name: Build and Deploy to Netlify
 on:
+  schedule:
+    - cron:  "0 8 * * *"
   push:
 jobs:
   build:
@@ -19,6 +21,7 @@ jobs:
           publish-dir: './dist'
           netlify-config-path: ./netlify.toml
           production-branch: main
+          production-deploy: true
           deploy-message: "Deploy from GitHub Actions"
           enable-pull-request-comment: false
           enable-commit-comment: false
