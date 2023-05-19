@@ -8,5 +8,12 @@ module.exports = {
 		"name": "Tyler Mercer",
 		"url": "https://tylermercer.net/about/"
 	},
-	"builtAt": new Date().toDateString(),
+	"builtAt": new Date().toLocaleString("en-US", {
+	  weekday: "long",
+	  year: "numeric",
+	  month: "long",
+	  day: "numeric",
+	  timeZone: "UTC",
+	  timeZoneName: "short"
+	}),
 }
