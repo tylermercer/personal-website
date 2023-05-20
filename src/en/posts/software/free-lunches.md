@@ -154,7 +154,12 @@ a "free lunch"---a place of mutual benefit based on a heightened understanding
 of why the differing parties behave as they do. From his book _Predictably
 Irrational_:
 
-> **TODO: quote Ariely.**
+> According to the assumptions of standard economics, all human decisions are rational and informed, motivated by an accurate concept of the worth of all goods and services and the amount of happiness (utility) all decisions are likely to produce. 
+> Under this set of assumptions, everyone in the marketplace is trying to maximize profit and striving to optimize his experiences. As a consequence, economic theory asserts that there are no free lunches—if there were any, someone would have already found them and extracted all their value.
+> 
+> Behavioral economists, on the other hand, believe that people are susceptible to irrelevant influences from their immediate environment (which we call context effects), irrelevant emotions, shortsightedness, and other forms of irrationality (see any chapter in this book or any research paper in behavioral economics for more examples). 
+> What good news can accompany this realization? The good news is that these mistakes also provide opportunities for improvement. If we all make systematic mistakes in our decisions, then why not develop new strategies, tools, and methods to help us make better decisions and improve our overall well-being? 
+> That’s exactly the meaning of free lunches from the perspective of behavioral economics—the idea that there are tools, methods, and policies that can help all of us make better decisions and as a consequence achieve what we desire.
 
 In this case, the free lunch is a situation in which both users and devs can
 have a better experience than they do in this "market for lemons." I think there
