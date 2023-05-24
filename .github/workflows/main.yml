@@ -1,24 +1,44 @@
 name: Build and Deploy to Netlify
+
 on:
   schedule:
-    - cron:  "0 15 * * *"
+    - cron: "0 15 * * *"
   push:
+    branches:
+      - main
+
 jobs:
   build:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v3
-          
-      - name: Build site
-        working-directory: ./
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      
+      - name: Get changed files
+        id: changed-files
+        uses: tj-actions/changed-files@v35
+
+      - name: Check for non-Markdown files
+        id: check_files
         run: |
-          npm install
-          npm run build
+          non_markdown_files=$(echo "${{ steps.changed-files.outputs.modified_files }}" | grep -v '\.md$' || true)
+          echo "non_markdown_files=$non_markdown_files" >> $GITHUB_OUTPUT
+
+      - name: Build site
+        run: |
+          if [[ "${{ github.event_name }}" == "schedule" || -n "${{ steps.check_files.outputs.non_markdown_files }}" ]]; then
+            npm install
+            npm run build
+          else
+            echo "Skipping build step."
+          fi
 
       - name: Deploy to Netlify
+        if: steps.build.outcome == 'success'
         uses: nwtgck/actions-netlify@v2.0
         with:
-          publish-dir: './dist'
+          publish-dir: "./dist"
           netlify-config-path: ./netlify.toml
           production-branch: main
           production-deploy: true
