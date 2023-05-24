@@ -332,7 +332,7 @@ that we can have developer experience and velocity _and_ meet the performance
 needs of marginal users. Users and devs can _both_ be better off if we choose
 incremental adoption of complexity instead of out-of-the-gate bloat.
 
-Ultimately, the problem of the "market for lemons" is a behavioral design one:
+Ultimately, the problem of the "market for lemons" is a behavioral design problem:
 how can we leverage the current system, and the motivations of the various
 people that comprise it, to unlock greater utility for our users? As developers
 especially, we all want to create useful, valuable things for others. But in
