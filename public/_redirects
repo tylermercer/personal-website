@@ -8,3 +8,12 @@
 
 # Default
 /*    /en/:splat    200
+
+# Exclude specific files and directories from redirect
+!/css/*    # Exclude the /css directory from redirect
+!/favicon.svg    # Exclude the favicon.ico file from redirect
+!/android-chrome-192x192.png
+!/android-chrome-512x512.png
+!/apple-touch-icon.png
+!/site.webmanifest
+!/og-images/*
