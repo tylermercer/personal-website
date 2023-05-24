@@ -6,9 +6,10 @@ eleventyExcludeFromCollections: true
 ---
 
 This website is built using [Eleventy](https://11ty.dev) and hosted on
-[Netlify](https://netlify.com). It loads no client-side JavaScript, and currently
-gets a perfect score on [pagespeed.web.dev](https://pagespeed.web.dev).
-(Hopefully I can keep it that way as I add features!)
+[Netlify](https://netlify.com). It loads no client-side JavaScript, and
+currently gets a perfect score on
+[pagespeed.web.dev](https://pagespeed.web.dev). (Hopefully I can keep it that
+way as I add features!)
 
 Some other resources I used as part of this site:
 
