@@ -1,0 +1,10 @@
+# Redirect any URLs with the default language code in them already
+/en/*    /:splat    301!
+/en/*    /404/index.html    404
+
+# Important: Per shadowing rules, URLs for the
+# _non-default_ language-specific content files
+# are served without redirects.
+
+# Default
+/*    /en/:splat    200
