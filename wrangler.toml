@@ -1,9 +1,0 @@
-[env.production]
-# ... (existing configuration)
-
-# Define redirects
-routes = [
-  { pattern = "/en/:splat", destination = "/:splat", status = 301 },
-  { pattern = "/en/:splat", destination = "/404/index.html", status = 404 },
-  { pattern = "/*", destination = "/en/:splat", status = 200 },
-]
