@@ -6,6 +6,7 @@ on:
   push:
     branches:
       - main
+      - only-deploy-when-needed
 
 jobs:
   build:
