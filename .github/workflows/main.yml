@@ -6,6 +6,7 @@ on:
   push:
     branches:
       - main
+      - switch-to-cf-pages
   workflow_dispatch:
 
 jobs:
@@ -39,19 +40,10 @@ jobs:
             echo "result=skipped" >> $GITHUB_OUTPUT
           fi
 
-      - name: Deploy to Netlify
-        if: steps.build_site.outputs.result == 'built'
-        uses: nwtgck/actions-netlify@v2.0
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/pages-action@v1
         with:
-          publish-dir: "./dist"
-          netlify-config-path: ./netlify.toml
-          production-branch: main
-          production-deploy: true
-          deploy-message: "Deploy from GitHub Actions"
-          enable-pull-request-comment: false
-          enable-commit-comment: false
-          overwrites-pull-request-comment: false
-        env:
-          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
-          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
-        timeout-minutes: 1
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          projectName: ${{ secrets.CLOUDFLARE_PROJECT_NAME }}
+          directory: ./dist
