@@ -307,10 +307,10 @@ Qwik docs](https://qwik.builder.io/docs/concepts/resumable/):
 
 This means that components that only need JS on the server (e.g. a top nav bar
 that has no JS-powered interactivity) don't need to run JS on the client at all!
-Qwik is even able to ship to the browser just the parts that are actually needed
+Qwik is able to ship to the browser just the parts that are actually needed
 for interactivity. It can even defer those parts individually, e.g. only running
 the JS file for a click listener for a button once the button is interacted
-with.^[["Prefetching"](https://qwik.builder.io/docs/concepts/progressive/), Qwik
+with.^[See ["Prefetching"](https://qwik.builder.io/docs/concepts/progressive/) in the Qwik
 docs]
 
 These superpowers make it possible to build increasingly large applications
