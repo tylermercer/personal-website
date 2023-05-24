@@ -1,3 +1,12 @@
+# Exclude specific files and directories from redirect
+!/css/*    # Exclude the /css directory from redirect
+!/favicon.svg    # Exclude the favicon.ico file from redirect
+!/android-chrome-192x192.png
+!/android-chrome-512x512.png
+!/apple-touch-icon.png
+!/site.webmanifest
+!/og-images/*
+
 # Redirect any URLs with the default language code in them already
 /en/*    /:splat    301!
 /en/*    /404/index.html    404
@@ -8,12 +17,3 @@
 
 # Default
 /*    /en/:splat    200
-
-# Exclude specific files and directories from redirect
-!/css/*    # Exclude the /css directory from redirect
-!/favicon.svg    # Exclude the favicon.ico file from redirect
-!/android-chrome-192x192.png
-!/android-chrome-512x512.png
-!/apple-touch-icon.png
-!/site.webmanifest
-!/og-images/*
