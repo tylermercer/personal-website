@@ -32,13 +32,14 @@ jobs:
           if [[ "${{ github.event_name }}" == "schedule" || -n "${{ steps.check_files.outputs.non_markdown_files }}" ]]; then
             npm install
             npm run build
-            echo "outcome=success" >> $GITHUB_OUTPUT
+            echo "result=built" >> $GITHUB_OUTPUT
           else
             echo "Skipping build step."
+            echo "result=skipped" >> $GITHUB_OUTPUT
           fi
 
       - name: Deploy to Netlify
-        if: steps.build_site.outcome == 'success'
+        if: steps.build_site.outputs.result == 'built'
         uses: nwtgck/actions-netlify@v2.0
         with:
           publish-dir: "./dist"
