@@ -33,9 +33,17 @@ jobs:
           else
             echo "Skipping build step."
           fi
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+
+    if: needs.build.result == 'success'
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
 
       - name: Deploy to Netlify
-        if: steps.build.outcome == 'success'
         uses: nwtgck/actions-netlify@v2.0
         with:
           publish-dir: "./dist"
