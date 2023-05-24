@@ -1,6 +1,6 @@
 ---
 title: The Uniqueness of Spiritual Experiences
-description: Thoughts on why we sometimes don't have spiritual experiences in the same way as others
+description: Why we sometimes don't have spiritual experiences in the same way as others
 draft: true
 ---
 
