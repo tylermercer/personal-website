@@ -16,4 +16,4 @@
 # are served without redirects.
 
 # Default
-/(.*)    /en/$1    200
+/(.*)    /en/$1    302
