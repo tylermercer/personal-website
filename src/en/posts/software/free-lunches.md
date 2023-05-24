@@ -48,7 +48,7 @@ industry, with React having such a strong presence, to a
 > be a perfect world without them. We cannot blame anybody for the state of
 > things. We created this world ourselves, collectively. If we want to change
 > the status quo, we need to understand the rational forces of self-interest
-> that created it. We have to change the game, not just yell at the players.
+> that created it.
 
 This is a great point, and one we would do well to remember more often. People
 tend to behave in predictable, explainable ways.^[ I'm hesitant to use the word
@@ -72,9 +72,9 @@ Most of the trade-offs Laurie mentions are then chosen _implicitly_, not
 explicitly, because alternatives haven't been sincerely considered.
 
 One point of evidence for these tradeoffs being chosen implicitly is the
-comparatively low usage of Preact vs React. Preact has a React-compatible
-API---with `preact/compat`, you can replace React with Preact in an existing
-React project.^[ See
+comparatively low usage of [Preact](https://preactjs.com/) compared to that of
+React. Preact has a React-compatible API---with `preact/compat`, you can replace
+React with Preact in an existing React project.^[ See
 ["Switching to Preact"](https://preactjs.com/guide/v10/switching-to-preact).
 Admittedly, in full-stack frameworks like Next.js, this gets significantly
 hairier, but [it can still be done](https://joyofcode.xyz/next-bundle-size).
@@ -89,16 +89,15 @@ Bundlephobia: [Preact](https://bundlephobia.com/package/react-dom@18.2.0) vs
 performance^[See the [JS Framework Benchmark](https://krausest.github.io/js-framework-benchmark/2023/table_chrome_112.0.5615.49.html)
 by Krauest] make it a better choice?
 
-Rather than being explicitly chosen, I think this _modus operandi_ of "just use
-React" exists largely because of bad framing in two areas: education and
-framework branding.
-
 ### "React === The Web"
+
+I think this _modus operandi_ of "just use React" exists largely because of bad
+framing in education and framework branding.
 
 Many bootcamps teach React development before teaching core web development
 principles (if they teach the core principles at all). They churn out graduates
 who can build things with React but would freeze up if you asked them to make a
-simple project using plain JavaScript.
+nontrivial web project without it.
 
 On the framework side, the entire selling point of React meta-frameworks like
 Remix and Next.js is that you can use them for everything. Like the educators
@@ -154,16 +153,40 @@ a "free lunch"---a place of mutual benefit based on a heightened understanding
 of why the differing parties behave as they do. From his book _Predictably
 Irrational_:
 
-> According to the assumptions of standard economics, all human decisions are rational and informed, motivated by an accurate concept of the worth of all goods and services and the amount of happiness (utility) all decisions are likely to produce. 
-> Under this set of assumptions, everyone in the marketplace is trying to maximize profit and striving to optimize his experiences. As a consequence, economic theory asserts that there are no free lunches—if there were any, someone would have already found them and extracted all their value.
-> 
-> Behavioral economists, on the other hand, believe that people are susceptible to irrelevant influences from their immediate environment (which we call context effects), irrelevant emotions, shortsightedness, and other forms of irrationality (see any chapter in this book or any research paper in behavioral economics for more examples). 
-> What good news can accompany this realization? The good news is that these mistakes also provide opportunities for improvement. If we all make systematic mistakes in our decisions, then why not develop new strategies, tools, and methods to help us make better decisions and improve our overall well-being? 
-> That’s exactly the meaning of free lunches from the perspective of behavioral economics—the idea that there are tools, methods, and policies that can help all of us make better decisions and as a consequence achieve what we desire.
+> According to the assumptions of standard economics, all human decisions are
+> rational and informed, motivated by an accurate concept of the worth of all
+> goods and services and the amount of happiness (utility) all decisions are
+> likely to produce. Under this set of assumptions, everyone in the marketplace
+> is trying to maximize profit and striving to optimize his experiences. As a
+> consequence, economic theory asserts that there are no free lunches—if there
+> were any, someone would have already found them and extracted all their value.
 
-In this case, the free lunch is a situation in which both users and devs can
-have a better experience than they do in this "market for lemons." I think there
-are a few things we can do to step out of the mud together.
+Sounds like Laurie's description of the web dev industry---a stable equilibrium
+driven by rational decisions. Note that in this context, the "utility" includes
+both UX and DX (developer experience), and stems from decisions made by
+developers, framework authors, firms, etc.
+
+Ariely continues:
+
+> Behavioral economists, on the other hand, believe that people are susceptible
+> to irrelevant influences from their immediate environment (which we call
+> context effects), irrelevant emotions, shortsightedness, and other forms of
+> irrationality....
+>
+> What good news can accompany this realization? The good news is that these
+> mistakes also provide opportunities for improvement. If we all make systematic
+> mistakes in our decisions, then why not develop new strategies, tools, and
+> methods to help us make better decisions and improve our overall well-being?
+>
+> That’s exactly the meaning of free lunches from the perspective of behavioral
+> economics—the idea that there are tools, methods, and policies that can help
+> all of us make better decisions and as a consequence achieve what we desire.
+
+The free lunches, in the web development sense, are situations in which both
+users and devs can have a better experience than they do in this "market for
+lemons," and the tools and practices that help us create those situations.
+
+I think there are a few things we can do to move towards those free lunches.
 
 As developers:
 
@@ -172,10 +195,14 @@ As developers:
   rather than learning an abstraction on top of the web. In
   [Alex's words](https://changelog.com/jsparty/263), "I promise you, there’s
   life after the framework that you love right now."
-- Frameworks like SvelteKit, Solid, Qwik, Preact, and Astro are all becoming
-  increasingly mature and robust, and solve many of the same problems as React,
-  without the JS weight. We can explore and learn these frameworks to broaden
-  our skills and add tools to our mental toolboxes.
+- We can explore and learn how to use performance-focused frameworks to broaden
+  our skills and add tools to our mental toolboxes. Frameworks like
+  [SvelteKit](https://kit.svelte.dev/), [Solid](https://www.solidjs.com/),
+  [Qwik](https://qwik.builder.io/) /
+  [QwikCity](https://qwik.builder.io/docs/qwikcity/), and
+  [Preact](https://preactjs.com/) are all becoming increasingly mature and
+  robust, and provide a similar DX to that of React-based frameworks, without
+  the JS weight.
 - We can practice building things with no framework at all! Vanilla web
   technologies are becoming increasingly powerful and are not as unwieldy as you
   might think. [Chris Ferdinandi](https://gomakethings.com) has some great
@@ -209,6 +236,9 @@ As educators and framework or library authors:
   non-core functionality on top of that.
 - We can increase awareness of _other_ tools that increase interoperability and
   facilitate picking a well suited tool for the job.
+
+There are a couple frameworks in particular that I think are doing these things
+remarkably well: Astro and Qwik.
 
 ## Framework Example #1: Astro
 
@@ -248,12 +278,53 @@ the client, but by default they render only on the server. This allows Astro to
 lean in to their 0-JS-by-default strength while still providing support for
 developers who are familiar with the dominant React ecosystem.
 
-Personally, I have found working in Astro _without_ framework components a
-breath of fresh air.
+Personally, I've found working in Astro to be a breath of fresh air. I've
+particularly enjoyed working without framework components--being able to
+encapsulate style, markup, and logic for a component all in one file but in a
+way that still feels "vanilla" is _so_ nice. It feels like I've emerged from
+[Plato's cave](https://en.wikipedia.org/wiki/Allegory_of_the_cave) and seen
+HTML's ideal form.
 
 ## Framework Example #2: Qwik
 
-## Free Lunch => A Better Web for All
+[Qwik](https://qwik.builder.io/) is a newer JS framework that uses a React-like
+syntax, combined with signals like you can find in
+[Solid](https://www.solidjs.com/guides/reactivity) and, more recently,
+[Preact](https://preactjs.com/guide/v10/signals/) and
+[Angular](https://angular.io/guide/signals).
+
+But the seriously awesome part of Qwik is what it calls "resumability." From [the
+Qwik docs](https://qwik.builder.io/docs/concepts/resumable/):
+
+> Resumability is about pausing execution in the server and resuming execution
+> in the client without having to replay and download all of the application
+> logic.
+> 
+> A good mental model is that Qwik applications at any point in their
+> lifecycle can be serialized and moved to a different VM instance (server to
+> browser). There, the application simply resumes where the serialization
+> stopped. No hydration is required. This is why we say that Qwik applications
+> don't hydrate; they resume.
+
+This means that components that only need JS on the server (e.g. a top nav bar
+that has no JS-powered interactivity) don't need to run JS on the client at all!
+Qwik is even able to ship to the browser just the parts that are actually needed
+for interactivity. It can even defer those parts individually, e.g. only running
+the JS file for a click listener for a button once the button is interacted
+with.^[["Prefetching"](https://qwik.builder.io/docs/concepts/progressive/), Qwik
+docs]
+
+These superpowers make it possible to build increasingly large applications
+without an ever-increasing bundle size and time-to-interactive---what Qwik calls
+["O(1) applications."](https://www.builder.io/blog/our-current-frameworks-are-on-we-need-o1)
+
+Qwik also provides
+[a React adapter](https://www.npmjs.com/package/@builder.io/qwik-react) to allow
+you to use React components in your Qwik projects, much like Astro does. This
+allows Qwik developers to tap into React's ecosystem and could even facilitate
+porting large React applications to Qwik.
+
+## Free Lunches Mean A Better Web for All
 
 By learning and teaching more tools than just the hammer of React, we can apply
 a well-suited tool to each problem and move so much faster---and make better,
@@ -261,6 +332,13 @@ more resilient web experiences. Tools like Astro and Qwik are demonstrating
 that we can have developer experience and velocity _and_ meet the performance
 needs of marginal users. Users and devs can _both_ be better off if we choose
 incremental adoption of complexity instead of out-of-the-gate bloat.
+
+Ultimately, the problem of the "market for lemons" is a behavioral design one:
+how can we leverage the current system, and the motivations of the various
+people that comprise it, to unlock greater utility for our users? As developers
+especially, we all want to create useful, valuable things for others. But in
+this case, the challenge we face in order to do so is not merely technical. We
+need to, as Laurie puts it "change the game, not just yell at the players."
 
 ---
 
