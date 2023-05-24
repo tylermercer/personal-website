@@ -26,8 +26,7 @@ industry, with React having such a strong presence, to a
 > The finding [of simulated hawk-dove games] is that you can throw in any number
 > of hawks and doves to start with but for a given quantity of resources you
 > will always end up at the same mix of hawks and doves, a point of equilibrium
-> known as an
-> [evolutionarily stable strategy](https://en.wikipedia.org/wiki/Evolutionarily_stable_strategy).
+> known as an evolutionarily stable strategy.
 >
 > All you need to take away from this to understand the argument I'm about to
 > make is that: while a world of doves all cooperating with each other would be
