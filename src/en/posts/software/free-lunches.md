@@ -191,20 +191,20 @@ I think there are a few things we can do to move towards those free lunches.
 
 As developers:
 
-- We can focus on learning web development
-  principles^[See [this tweet from Zach Leatherman](https://www.zachleat.com/twitter/1074776108422307840/)]
-  rather than learning an abstraction on top of the web. In
-  [Russell's words](https://changelog.com/jsparty/263), "I promise you, there’s
-  life after the framework that you love right now."
-- We can explore and learn how to use performance-focused frameworks to broaden
-  our skills and add tools to our mental toolboxes. Frameworks like
+- **We can focus on learning web development
+  principles**^[See [this tweet from Zach Leatherman](https://www.zachleat.com/twitter/1074776108422307840/)]
+  rather than learning an abstraction on top of the web. In Russell's words, "I
+  promise you, there’s life after the framework that you love right
+  now."^[[JS Party #263, "Web Development's Lost Decade"](https://changelog.com/jsparty/263)]
+- **We can explore and learn how to use performance-focused frameworks** to
+  broaden our skills and add tools to our mental toolboxes. Frameworks like
   [SvelteKit](https://kit.svelte.dev/), [Solid](https://www.solidjs.com/),
   [Qwik](https://qwik.builder.io/) /
   [QwikCity](https://qwik.builder.io/docs/qwikcity/), and
   [Preact](https://preactjs.com/) are all becoming increasingly mature and
   robust, and provide a similar DX to that of React-based frameworks, without
   the JS weight.
-- We can practice building things _without_ web frameworks. Vanilla web
+- **We can practice building things _without_ web frameworks.** Vanilla web
   technologies are becoming increasingly powerful and are not as unwieldy as you
   might think. [Chris Ferdinandi](https://gomakethings.com) has some great
   material on building with vanilla web tech. I personally love tackling a
@@ -212,31 +212,31 @@ As developers:
   in framework-based projects, it feels like a breath of fresh
   air.^[I do still use build tools in these projects---most notably [Astro](https://astro.build)
   and [Eleventy](https://11ty.dev).]
-- We can use our influential voices as developers to push for the adoption of
-  lighter frameworks (which can even happen incrementally in some cases) over
+- **We can use our influential voices as developers to push for the adoption of
+  lighter frameworks** (which can even happen incrementally in some cases) over
   the JS heavy ones.
-- We can choose to value the marginal user, and test what we build on lower-end
-  devices and network conditions.
-- We can contribute to open-source projects that will help leaner frameworks
+- **We can choose to value the marginal user,** and test what we build on
+  lower-end devices and network conditions.
+- **We can contribute to open-source projects** that will help leaner frameworks
   compete with and integrate with the bundle-size giants like React. (In my
   experience, there is a particular need for headless, accessible component
   libraries.)
 
 As educators and framework or library authors:
 
-- We can emphasize the importance of picking a well-suited tool for the job. (I
-  say "a well-suited tool" rather than "the best tool" intentionally---there is
-  often not a "best" tool for a specific job any more than there is a single
+- **We can emphasize the importance of picking a well-suited tool for the job**.
+  (I say "a well-suited tool" rather than "the best tool" intentionally---there
+  is often not a "best" tool for a specific job any more than there is a single
   tool that does all jobs well.)
-- We can make our tools and frameworks interoperable, especially with the
+- **We can make our tools and frameworks interoperable**, especially with the
   dominant React ecosystem. Preact, as mentioned above, is a good example of
   this.
-- We can focus on reducing the "magic" and complexity in our systems to the bare
-  minimum. [Eleventy](https://11ty.dev) is an excellent example of this. It does
-  one thing well, and relies on plugins and community-built starters to add
+- **We can focus on reducing the "magic" and complexity in our systems** to the
+  bare minimum. [Eleventy](https://11ty.dev) is an excellent example of this. It
+  does one thing well, and relies on plugins and community-built starters to add
   non-core functionality on top of that.
-- We can increase awareness of _other_ tools that increase interoperability and
-  facilitate picking a well suited tool for the job.
+- **We can increase awareness of _other_ tools** that increase interoperability
+  and facilitate picking a well suited tool for the job.
 
 There are a couple frameworks in particular that I think are doing these things
 remarkably well: Astro and Qwik.
