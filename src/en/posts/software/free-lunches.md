@@ -325,7 +325,7 @@ you to use React components in your Qwik projects, much like Astro does. This
 allows Qwik developers to tap into React's ecosystem and could even facilitate
 porting large React applications to Qwik.
 
-## Free Lunches Mean A Better Web for All
+## A Better Web for Everyone
 
 By learning and teaching more tools than just the hammer of React, we can apply
 a well-suited tool to each problem and move so much faster---and make better,
