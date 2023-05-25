@@ -1,6 +1,7 @@
 ---
 title: Free Lunches in Frontend Dev
 description: We can have developer velocity _and_ meet the performance needs of marginal users
+dropCap: true
 draft: true
 ---
 
