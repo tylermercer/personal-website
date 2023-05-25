@@ -108,9 +108,10 @@ client-side using React, regardless of whether it uses SSR. In the case of a
 blog especially,
 [hydration is pure overhead](https://www.builder.io/blog/hydration-is-pure-overhead).
 (Even if your blog needs richer features like commenting and user accounts,
-those features can be provided as [islands of interactivity] rather than by
-rendering the entire page, most of which is a document, from JS.) The same goes
-for
+those features can be provided as
+[islands of interactivity](https://jasonformat.com/islands-architecture/) rather
+than by rendering the entire page, most of which is a static document, from JS.)
+The same goes for
 [docs sites](https://vercel.com/templates/next.js/documentation-starter-kit).
 But there's an implicit premise in the branding and documentation of frameworks
 like Next.js and Remix that you should use them for any kind of project.
