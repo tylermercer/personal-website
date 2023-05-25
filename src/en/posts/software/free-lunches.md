@@ -117,13 +117,12 @@ But there's an implicit premise in the branding and documentation of frameworks
 like Next.js and Remix that you should use them for any kind of project.
 
 Client-heavy React frameworks like Next.js and Remix are hammers---useful,
-certainly, (especially for business-to-business, auth-gated SaaS applications)
-but abjectly _not_ the right answer for every problem, unless you squint hard
-enough that screws, eye-bolts, and your mobile users' big toes all look like
-nails. But they have consistently branded themselves as universal solutions, in
-a way that, I believe, has mislead many developers, especially ones who don't
-take it upon themselves to seriously consider options outside the "React
-bubble."
+certainly (such as for business-to-business, auth-gated SaaS applications), but
+abjectly _not_ the right answer for every problem, unless you squint hard enough
+that screws, eye-bolts, and your mobile users' big toes all look like nails. But
+they have consistently branded themselves as universal solutions, in a way that,
+I believe, has mislead many developers, especially ones who don't take it upon
+themselves to seriously consider options outside the "React bubble."
 
 ## Unfortunate Side Effects of Sensible Thinking
 
