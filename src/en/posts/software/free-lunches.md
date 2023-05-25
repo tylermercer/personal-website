@@ -244,8 +244,8 @@ remarkably well: Astro and Qwik.
 ## Framework Example #1: Astro
 
 [Astro](https://astro.build) is a build tool known for its "islands
-architecture" that hydrates individual framework components rather than
-hydrating the whole page.
+architecture" that hydrates individual framework components on an otherwise
+static page rather than hydrating the whole page.
 
 It does a great job of specifying that it _isn't_ the best fit for every
 project. From ["Why Astro"](https://docs.astro.build/en/concepts/why-astro/)
