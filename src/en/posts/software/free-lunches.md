@@ -13,13 +13,13 @@ Voss's
 together they've made for an interesting conversation, which I've learned a lot
 from and thought about a lot.
 
-To summarize, Alex's article accuses React, other JS-heavy frontend frameworks,
-and their proponents of bogging down the web development industry with slow page
-load times and high rates of poor usability and performance. Laurie's article
-responds to that claim by highlighting the rational reasons behind the
-popularity of React.
+To summarize, Russell's article accuses React, other JS-heavy frontend
+frameworks, and their proponents of bogging down the web development industry
+with slow page load times and high rates of poor usability and performance.
+Voss's article responds to that claim by highlighting the rational reasons
+behind the popularity of React.
 
-I like where Laurie starts with his article: he compares the current web dev
+I like where Voss starts with his article: he compares the current web dev
 industry, with React having such a strong presence, to a
 [hawk-dove game](https://en.wikipedia.org/wiki/Chicken_(game)):
 
@@ -59,7 +59,7 @@ specific group as a scapegoat for our general responsibility in these problems.
 
 ## Implicit Trade-Offs
 
-Shortly after making this point, though, he makes the claim that "most React
+Shortly after making this point, though, Voss makes the claim that "most React
 proponents will tell you that not every website needs to be a React app." He
 also claims that developers "know that they are making ... trade-offs when they
 pick React." I believe these claims are true for some React developers, but this
@@ -67,7 +67,7 @@ is probably a minority. It seems to me that many developers and firms choose
 React simply because it is familiar and popular.^[ See
 ["The self-fulfilling prophecy of React"](https://joshcollinsworth.com/blog/self-fulfilling-prophecy-of-react)
 by Josh Collinsworth. "React isn’t great at anything except being popular." ]
-Most of the trade-offs Laurie mentions are then chosen _implicitly_, not
+Most of the trade-offs Voss mentions are then chosen _implicitly_, not
 explicitly, because alternatives haven't been sincerely considered.
 
 One point of evidence for these tradeoffs being chosen implicitly is the
@@ -93,10 +93,10 @@ by Krauest] make it a better choice?
 I think this _modus operandi_ of "just use React" exists largely because of bad
 framing in education and framework branding.
 
-Many bootcamps teach React development before teaching core web development
-principles (if they teach the core principles at all). They churn out graduates
-who can build things with React but would freeze up if you asked them to make a
-nontrivial web project without it.
+Many bootcamps and online courses teach React development before teaching core
+web development principles (if they teach the core principles at all). They
+churn out graduates who can build things with React but would freeze up if you
+asked them to make a nontrivial web project without it.
 
 On the framework side, the entire selling point of React meta-frameworks like
 Remix and Next.js is that you can use them for everything. Like the educators
@@ -107,34 +107,36 @@ I am skeptical that there's ever a good reason for a blog to be rendered
 client-side using React, regardless of whether it uses SSR. In the case of a
 blog especially,
 [hydration is pure overhead](https://www.builder.io/blog/hydration-is-pure-overhead).
-The same goes for
+(Even if your blog needs richer features like commenting and user accounts,
+those features can be provided as [islands of interactivity] rather than by
+rendering the entire page, most of which is a document, from JS.) The same goes
+for
 [docs sites](https://vercel.com/templates/next.js/documentation-starter-kit).
 But there's an implicit premise in the branding and documentation of frameworks
 like Next.js and Remix that you should use them for any kind of project.
 
-Frameworks like Next.js and Remix are hammers---useful, certainly, (especially
-for business-to-business, auth-gated SaaS applications) but abjectly _not_ the
-right answer for every problem, unless you squint hard enough that screws,
-eye-bolts, and your mobile users' big toes all look like nails. But they have
-consistently branded themselves as universal solutions, in a way that, I
-believe, has mislead many developers, especially ones who don't take it upon
-themselves to seriously consider options outside the "React bubble."
+Client-heavy React frameworks like Next.js and Remix are hammers---useful,
+certainly, (especially for business-to-business, auth-gated SaaS applications)
+but abjectly _not_ the right answer for every problem, unless you squint hard
+enough that screws, eye-bolts, and your mobile users' big toes all look like
+nails. But they have consistently branded themselves as universal solutions, in
+a way that, I believe, has mislead many developers, especially ones who don't
+take it upon themselves to seriously consider options outside the "React
+bubble."
 
 ## Unfortunate Side Effects of Sensible Thinking
 
-Now, to be clear, I don't think educators or framework authors or marketers are
-maliciously scheming to keep hapless developers in the React bubble. Returning
-to Laurie's point about the equilibrium existing for rational reasons, educators
-and framework authors have a lot of rational reasons to focus on React. The
+Now, to be clear, I don't think educators or framework marketers are maliciously
+scheming to keep hapless developers in the React bubble. Returning to Voss's
+point about the equilibrium existing for rational reasons, educators and
+framework authors have a lot of rational reasons to focus on React. The
 ecosystem is huge, and the market for React developers is equally massive. But
 by not actively pointing developers to other, non-React web dev approaches when
 those solutions would be better suited to the task at hand, they've perpetuated
 that status quo.
 
-## Directed Laziness
-
-At the end of the day, I agree with Laurie: developers aren't stupid for using
-React.^[I actually started my web dev journey with React, and I'm grateful for
+As pointed out by Voss, developers aren't irrational or stupid for using React
+either.^[I actually started my web dev journey with React, and I'm grateful for
 it. I believe that the component-based thinking I learned from it makes me a
 better developer. ] Rather, developers are _efficiently lazy_ for using React,
 and laziness is in many respects a highly valuable attribute for developers.
@@ -160,7 +162,7 @@ Irrational_:
 > consequence, economic theory asserts that there are no free lunches—if there
 > were any, someone would have already found them and extracted all their value.
 
-Sounds like Laurie's description of the web dev industry---a stable equilibrium
+Sounds like Voss's description of the web dev industry---a stable equilibrium
 driven by rational decisions. Note that in this context, the "utility" includes
 both UX and DX (developer experience), and stems from decisions made by
 developers, framework authors, firms, etc.
@@ -189,10 +191,10 @@ I think there are a few things we can do to move towards those free lunches.
 
 As developers:
 
-- We can focus on
-  [learning web development principles](https://www.zachleat.com/twitter/1074776108422307840/)
+- We can focus on learning web development
+  principles^[See [this tweet from Zach Leatherman](https://www.zachleat.com/twitter/1074776108422307840/)]
   rather than learning an abstraction on top of the web. In
-  [Alex's words](https://changelog.com/jsparty/263), "I promise you, there’s
+  [Russell's words](https://changelog.com/jsparty/263), "I promise you, there’s
   life after the framework that you love right now."
 - We can explore and learn how to use performance-focused frameworks to broaden
   our skills and add tools to our mental toolboxes. Frameworks like
@@ -202,7 +204,7 @@ As developers:
   [Preact](https://preactjs.com/) are all becoming increasingly mature and
   robust, and provide a similar DX to that of React-based frameworks, without
   the JS weight.
-- We can practice building things with no framework at all! Vanilla web
+- We can practice building things _without_ web frameworks. Vanilla web
   technologies are becoming increasingly powerful and are not as unwieldy as you
   might think. [Chris Ferdinandi](https://gomakethings.com) has some great
   material on building with vanilla web tech. I personally love tackling a
@@ -337,7 +339,7 @@ problem: how can we leverage the current system, and the motivations of the
 various people that comprise it, to unlock greater utility for our users? As
 developers especially, we all want to create useful, valuable things for others.
 But in this case, the challenge we face in order to do so is not merely
-technical. We need to, as Laurie puts it "change the game, not just yell at the
+technical. We need to, as Voss puts it "change the game, not just yell at the
 players."
 
 ---
