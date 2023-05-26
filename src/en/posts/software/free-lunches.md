@@ -1,6 +1,6 @@
 ---
 title: Free Lunches in Frontend Dev
-description: We can have developer velocity _and_ meet the performance needs of marginal users
+description: We can have developer velocity _and_ meet the performance needs of marginal users.
 dropCap: true
 draft: true
 ---
@@ -122,7 +122,7 @@ certainly (such as for business-to-business, auth-gated SaaS applications), but
 abjectly _not_ the right answer for every problem, unless you squint hard enough
 that screws, eye-bolts, and your mobile users' big toes all look like nails. But
 they have consistently branded themselves as universal solutions, in a way that,
-I believe, has mislead many developers, especially ones who don't take it upon
+I believe, has misled many developers, especially ones who don't take it upon
 themselves to seriously consider options outside the "React bubble."
 
 ## Unfortunate Side Effects of Sensible Thinking
@@ -268,16 +268,12 @@ project. From ["Why Astro"](https://docs.astro.build/en/concepts/why-astro/)
 > the right choice for your project… and that’s okay!** Check out Next.js for a
 > more application-focused alternative to Astro.
 
-(Look at that! They even point people to Next.js for application use cases. But
-the Next.js docs don't point you to Astro for content sites, because that would
-contradict violate Next.js' implicit "React === the web" premise.)
-
 Astro also does a great job of providing interoperability in a way that is
 geared towards its specific use case: You can use Astro's integrations to render
 React, Svelte, Vue, Preact, Solid, or Lit components within your site. These
 components can be marked as "islands" of interactivity to make them hydrate on
 the client, but by default they render only on the server. This allows Astro to
-lean in to their 0-JS-by-default strength while still providing support for
+lean into their 0-JS-by-default strength while still providing support for
 developers who are familiar with the dominant React ecosystem.
 
 Personally, I've found working in Astro to be a breath of fresh air. I've
@@ -335,13 +331,44 @@ that we can have developer experience and velocity _and_ meet the performance
 needs of marginal users. Users and devs can _both_ be better off if we choose
 incremental adoption of complexity instead of out-of-the-gate bloat.
 
-Ultimately, the problem of the "market for lemons" is a behavioral design
-problem: how can we leverage the current system, and the motivations of the
-various people that comprise it, to unlock greater utility for our users? As
-developers especially, we all want to create useful, valuable things for others.
-But in this case, the challenge we face in order to do so is not merely
-technical. We need to, as Voss puts it "change the game, not just yell at the
-players."
+Admittedly---and before I get lambasted as a myopic React-hater---the choice of
+framework is only one aspect of web performance. Bundle size, font and image
+optimisation, DOM size, the number of requests and request destinations, server
+location relative to the user, and many other factors all impact
+performance.^[For an incredible case study in all of these factors, see Taylor
+Hunt's
+["Making the world's fastest website, and other mistakes"](https://dev.to/tigt/making-the-worlds-fastest-website-and-other-mistakes-56na),
+and its four subsequent articles, on Dev.to. In addition to being compelling and
+enlightening in its own right, this series links to a veritable wealth of
+knowledge on performance. One could easily spend hours reading all the
+interesting things linked in those five articles.] In that sense, this article
+is reductionistic (as is all writing). But using frameworks that are
+performance-minded, like Qwik and Astro, can be a springboard to thinking about
+performance as it relates to the entire stack.
+
+Ultimately, though, I believe the problem of the "market for lemons" is at its
+core a behavioral design problem: **how can we leverage the current system, and
+the motivations of the various people that comprise it, to unlock greater
+utility for our users?** As developers especially, we all want to create useful,
+valuable things for others. But in this case, the challenge we face in order to
+do so is not merely technical. We need to, as Voss puts it "change the game, not
+just yell at the players." We need to understand and work within the system of
+the modern web development industry, working on all fronts---framework
+architecture, framework marketing, personal skills, and our collective thinking
+patterns---to unlock these free lunches for ourselves and our users.
+
+---
+
+## Penny for your thoughts?
+
+I'm curious what you thought of this article. In particular, I'm curious about
+ways in which you have seen behavioral design impacting web performance, and how
+you think we can take that further, whether that's in addressing framework
+choice or any of the other factors in web performance. Please share your
+thoughts
+[on Twitter](https://twitter.com/tylermercerdev)^[I'm hoping I don't regret this. 😆]
+or [via email]({{ '/contact/' | locale_url }})---or, even better, write a blog
+post and send me the link!
 
 ---
 
