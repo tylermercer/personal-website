@@ -297,7 +297,7 @@ Qwik docs](https://qwik.builder.io/docs/concepts/resumable/):
 > Resumability is about pausing execution in the server and resuming execution
 > in the client without having to replay and download all of the application
 > logic.
-> 
+>
 > A good mental model is that Qwik applications at any point in their
 > lifecycle can be serialized and moved to a different VM instance (server to
 > browser). There, the application simply resumes where the serialization
@@ -344,22 +344,21 @@ knowledge on performance. One could easily spend hours reading all the
 interesting things linked in those five articles.] In that sense, this article
 is reductionistic (as is all writing). But using frameworks that are
 performance-minded, like Qwik and Astro, can be a springboard to thinking about
-performance as it relates to the entire stack.
+performance as it relates to the entire stack---and using frameworks that
+_aren't_ can be an albatross.
 
 Ultimately, though, I believe the problem of the "market for lemons" is at its
 core a behavioral design problem: **how can we leverage the current system, and
 the motivations of the various people that comprise it, to unlock greater
 utility for our users?** As developers especially, we all want to create useful,
 valuable things for others. But in this case, the challenge we face in order to
-do so is not merely technical. We need to, as Voss puts it "change the game, not
+do so is not merely technical. We need to, as Voss puts it, "change the game, not
 just yell at the players." We need to understand and work within the system of
 the modern web development industry, working on all fronts---framework
 architecture, framework marketing, personal skills, and our collective thinking
 patterns---to unlock these free lunches for ourselves and our users.
 
 ---
-
-## Penny for your thoughts?
 
 I'm curious what you thought of this article. In particular, I'm curious about
 ways in which you have seen behavioral design impacting web performance, and how
@@ -372,7 +371,8 @@ post and send me the link!
 
 ---
 
-## Further Reading:
+## Further Reading
 
-* [Healthcare, Selling Lemons, and the Price of Developer Experience | CSS-Tricks](https://css-tricks.com/healthcare-selling-lemons-and-the-price-of-developer-experience/)
-* [Why We're Breaking Up with CSS-in-JS](https://bradfrost.com/blog/link/why-were-breaking-up-with-css-in-js/)
+- [Healthcare, Selling Lemons, and the Price of Developer Experience |
+  CSS-Tricks](https://css-tricks.com/healthcare-selling-lemons-and-the-price-of-developer-experience/)
+- [Why We're Breaking Up with CSS-in-JS](https://bradfrost.com/blog/link/why-were-breaking-up-with-css-in-js/)
