@@ -1,7 +1,7 @@
 ---
 title: All Writing is Reductionistic
 description: You can't trace a fractal with a finite pen.
-draft: true
+date: 2023-05-27 12:00:00
 ---
 
 In 1687, Isaac Newton published _Philosophiæ Naturalis Principia Mathematica_,
