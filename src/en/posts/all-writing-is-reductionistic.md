@@ -48,7 +48,7 @@ help us both to withhold criticism and extend grace to writers whose writing
 seems imperfect, and to maintain healthy skepticism of those whose writing we
 accept or agree with. In both cases, they're probably missing something that
 some future writer will contribute. We can be open both to the thoughts of the
-first writer and to the second.^[An interesting application of this principle in
+first writer and to the second.^[An example of this principle in
 a Christian context: both the Old Testament and the New Testament are valuable
 scripture. And as a member of the Church of Jesus Christ of Latter-day Saints,
 the Bible, the Book of Mormon, the other standard works, and the teachings of
