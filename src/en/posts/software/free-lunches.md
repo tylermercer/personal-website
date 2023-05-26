@@ -84,9 +84,10 @@ though
 ] If people were carefully considering the trade-offs of different framework
 choices, wouldn't a lot of them decide that Preact's much smaller bundle size
 (4.2kb minified and gzipped---_one tenth_ of the size of React!^[ From
-Bundlephobia: [Preact](https://bundlephobia.com/package/react-dom@18.2.0) vs
+Bundlephobia: [Preact](https://bundlephobia.com/package/preact@10.15.0) vs
 [React](https://bundlephobia.com/package/react-dom@18.2.0) ]) and better
-performance^[See the [JS Framework Benchmark](https://krausest.github.io/js-framework-benchmark/2023/table_chrome_112.0.5615.49.html)
+performance^[See the
+[JS Framework Benchmark](https://krausest.github.io/js-framework-benchmark/2023/table_chrome_112.0.5615.49.html)
 by Krauest] make it a better choice?
 
 ### "React === The Web"
