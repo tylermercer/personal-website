@@ -21,7 +21,7 @@
                     <a href="{{ post.url | url }}">{{ post.data.title }}</a>
                 </h3>
                 <p>
-                    {{ post.data.description }}
+                    {{- post.data.description | md | safe -}}
                 </p>
             </article>
         </li>
