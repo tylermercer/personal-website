@@ -2,7 +2,7 @@
 title: Free Lunches in Frontend Dev
 description: We can have developer velocity _and_ meet the performance needs of marginal users.
 dropCap: true
-draft: true
+date: 2023-05-25 12:00:00
 ---
 
 Alex Russell's article
