@@ -13,8 +13,8 @@ Naturalis Principia Mathematica", The Stanford Encyclopedia of Philosophy
 physics that are universally
 applicable.^[["Isaac Newton - Wikipedia"](https://en.wikipedia.org/wiki/Isaac_Newton)]
 
-...except for in situations where objects are traveling at speeds near the speed
-of light. This is what Eintstein posited with his famous Theory of Special
+...except for in situations where objects are traveling at speeds close to the
+speed of light. This is what Eintstein posited with his famous Theory of Special
 Relativity, which he first described in 1905.
 
 Was Newton _wrong_? No. But his writing was reductionistic. It didn't capture
