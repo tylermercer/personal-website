@@ -6,10 +6,7 @@ eleventyExcludeFromCollections: true
 ---
 
 This website is built using [Eleventy](https://11ty.dev) and hosted on
-[Netlify](https://netlify.com). It loads no client-side JavaScript, and
-currently gets a perfect score on
-[pagespeed.web.dev](https://pagespeed.web.dev). (Hopefully I can keep it that
-way as I add features!)
+[Netlify](https://netlify.com).
 
 Some other resources I used as part of this site:
 
@@ -23,6 +20,8 @@ Some other resources I used as part of this site:
 * [Satori](https://github.com/vercel/satori) for generating OG images from HTML
   (via
   [this excellent 11ty plugin](https://www.npmjs.com/package/eleventy-plugin-og-image))
+* [Cloudflare Analytics](https://developers.cloudflare.com/analytics/web-analytics/)
+  for simple, privacy-preserving analytics.
 
 I deploy the site via a GitHub Actions workflow that builds the site daily and
 deploys it to Netlify.
