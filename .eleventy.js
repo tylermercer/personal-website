@@ -198,7 +198,7 @@ module.exports = function (eleventyConfig) {
         return url; // Return original URL if it's not internal
       }
     
-      const langCodePattern = /^[a-z]{2}\//; // Regex pattern for two-letter language code at the beginning of the string
+      const langCodePattern = /^\/[a-z]{2}\//; // Regex pattern for two-letter language code at the beginning of the string
       const hasLanguageCode = langCodePattern.test(url);
       if (hasLanguageCode) {
         return url;
