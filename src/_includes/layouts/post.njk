@@ -1,5 +1,6 @@
 ---
 layout: base
+includeEmailJs: true
 ---
 <h1 class="pattern {% if category %} pattern-{{ category }}{% endif %}"><span class="guttered">{{ title }}</span></h1>
 <div class="guttered">
@@ -22,6 +23,9 @@ layout: base
     </p>
     <div class="article-content {% if dropCap %} drop-caps {%- endif %}">
         {{- content | safe -}}
+    </div>
+    <div class="post-reply">
+        {% set mungedEmailLabel = 'Reply via email' %}{% include 'partials/munged-email.njk' %}
     </div>
     {%- if collections.posts | byLang %}
     {%- set previousPost = collections.posts | byLang | getPreviousCollectionItem %}

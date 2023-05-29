@@ -3,10 +3,10 @@ title: Get in Touch
 description: How to contact me
 layout: page
 eleventyExcludeFromCollections: true
+includeEmailJs: true
 ---
 
-If you'd like to contact me, please send me an email at `contact` _at_
-`(this website)`.
+If you'd like to contact me, please {% include 'partials/munged-email.njk' %}.
 
 You can also [follow me on GitHub](https://github.com/tylermercer).
 
