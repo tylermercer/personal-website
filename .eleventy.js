@@ -10,7 +10,6 @@ const rss = require('@11ty/eleventy-plugin-rss');
 const { EleventyHtmlBasePlugin, EleventyI18nPlugin } = require("@11ty/eleventy");
 const i18n = require('eleventy-plugin-i18n');
 const fs = require('fs');
-const cheerio = require('cheerio');
 
 const translations = require('./src/_data/i18n');
 
@@ -195,49 +194,28 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPlugin(brokenExternalLinks, { broken: "warn" });
 
     const localeUrl = (url, languageCode) => {
-      if (!url || !url.startsWith('/')) {
+      if (!url.startsWith('/')) {
         return url; // Return original URL if it's not internal
       }
     
-      const engCodePattern = /^\/en\//; // Regex pattern for two-letter EN code at the beginning of the string
-      const hasEngLanguageCode = engCodePattern.test(url)
-      if (hasEngLanguageCode) {
-        // Strip language code
-        return url.substring(3)
-      }
-      else {
-        const langCodePattern = /^\/[a-z]{2}\//; // Regex pattern for two-letter language code at the beginning of the string
-        const hasLanguageCode = langCodePattern.test(url);
-        if (hasLanguageCode || !languageCode) {
-          return url;
-        } else {
-          const hasLeadingSlash = url.startsWith('/');
-          const prefixedUrl = hasLeadingSlash ? url.slice(1) : url;
-          return `/${languageCode}/${prefixedUrl}`;
-        }
+      const langCodePattern = /^\/[a-z]{2}\//; // Regex pattern for two-letter language code at the beginning of the string
+      const hasLanguageCode = langCodePattern.test(url);
+      if (hasLanguageCode) {
+        return url;
+      } else {
+        const hasLeadingSlash = url.startsWith('/');
+        const prefixedUrl = hasLeadingSlash ? url.slice(1) : url;
+        return `/${languageCode}/${prefixedUrl}`;
       }
     }
 
     eleventyConfig.addTransform("addLocaleUrlFilter", function (content) {
-      if (this.outputPath.endsWith('.html')) {
-        const dom = cheerio.load(content);
-    
-        // Find all anchor elements
-        const anchors = dom('a');
-    
-        anchors.each((index, anchor) => {
-          const href = dom(anchor).attr('href');
-    
-          // Modify the href attribute
-          const updatedHref = localeUrl(href);
-          console.log("Modified " + href + " to " + updatedHref);
-          dom(anchor).attr('href', updatedHref);
+      if (this.inputPath.endsWith(".md")) {
+        return content.replace(/<a href="([^"]+)">([^<]+)<\/a>/g, (match, url, text) => {
+          const localizedUrl = localeUrl(url, this.page.lang);
+          return `<a href="${localizedUrl}">${text}</a>`;
         });
-    
-        // Update the content with the modified HTML
-        content = dom.html();
       }
-      
       return content;
     });
 
