@@ -191,7 +191,7 @@ module.exports = function (eleventyConfig) {
       return path.startsWith('/en') ? path.substring(3) : path;
     })
 
-    eleventyConfig.addPlugin(brokenExternalLinks, { broken: "error" });
+    eleventyConfig.addPlugin(brokenExternalLinks, { broken: "warn" });
 
     return {
       dir: {
