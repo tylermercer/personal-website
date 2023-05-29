@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; connect-src 'self' https://cloudflareinsights.com/cdn-cgi/rum; script-src 'self' https://static.cloudflareinsights.com; img-src 'self' data:;">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; connect-src 'self' https://cloudflareinsights.com/cdn-cgi/rum; script-src 'self' 'sha256-tKZ5Uy4GgbvbzOb22Mh+HYQrc+n+tqAlrtIOaBrgvhc=' https://static.cloudflareinsights.com; img-src 'self' data:;">
     <meta name="generator" content="{{ eleventy.generator }}">
     {%- if description -%}
       <meta name="description" content="{{ description | unmd }}">
@@ -54,6 +54,17 @@
         {{ content | safe }}
     </main>
     {%- include 'partials/site-footer.njk' -%}
+    {%- if includeEmailJs -%}
+    <script>
+      var el = document.querySelector('.contact-email[data-munged-user]');
+      function dec(str) {return str.replace(/[a-zA-Z]/g, function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);})}
+      el.innerText = el.dataset.label || "send me an email";
+      el.href = dec(`znvygb:${el.dataset.mungedUser}@${el.dataset.mungedDomain}`);
+      el.dataset.mungedDomain = null;
+      el.dataset.mungedUser = null;
+      console.log("foobar");
+    </script>
+    {%- endif -%}
     <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "6a72187972844110ba59868a8dca8e54"}'></script>
   </body>
 </html>

@@ -102,3 +102,14 @@
 sup.footnote-ref {
     line-height: 0;
 }
+.post-reply {
+    display: flex;
+    justify-content: center;
+    & .contact-email {
+        padding: 0.5rem;
+        background-color: var(--color-primary-bg-static);
+        color: var(--color-gray-1-static);
+        font-weight: bold;
+        font-family: var(--font-heading);
+    }
+}
