@@ -367,8 +367,8 @@ you think we can take that further, whether that's in addressing framework
 choice or any of the other factors in web performance. Please share your
 thoughts
 [on Twitter](https://twitter.com/tylermercerdev/status/1661968132750348289)^[I'm
-hoping I don't regret this. 😆] or [via email]({{ '/contact/' | locale_url
-}})---or, even better, write a blog post and send me the link!
+hoping I don't regret this. 😆] or [via email](/contact/)---or, even better,
+write a blog post and send me the link!
 
 ---
 

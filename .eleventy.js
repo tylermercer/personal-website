@@ -193,6 +193,31 @@ module.exports = function (eleventyConfig) {
 
     eleventyConfig.addPlugin(brokenExternalLinks, { broken: "warn" });
 
+    const localeUrl = (url, languageCode) => {
+      if (!url.startsWith('/')) {
+        return url; // Return original URL if it's not internal
+      }
+    
+      const hasLanguageCode = url.startsWith(`/${languageCode}`);
+      if (hasLanguageCode) {
+        return url;
+      } else {
+        const hasLeadingSlash = url.startsWith('/');
+        const prefixedUrl = hasLeadingSlash ? url.slice(1) : url;
+        return `/${languageCode}/${prefixedUrl}`;
+      }
+    }
+
+    eleventyConfig.addTransform("addLocaleUrlFilter", function (content) {
+      if (this.inputPath.endsWith(".md")) {
+        return content.replace(/<a href="([^"]+)">([^<]+)<\/a>/g, (match, url, text) => {
+          const localizedUrl = localeUrl(url, this.page.lang);
+          return `<a href="${localizedUrl}">${text}</a>`;
+        });
+      }
+      return content;
+    });
+
     return {
       dir: {
         input: "src",
