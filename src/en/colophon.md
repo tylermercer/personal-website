@@ -6,7 +6,7 @@ eleventyExcludeFromCollections: true
 ---
 
 This website is built using [Eleventy](https://11ty.dev) and hosted on
-[Netlify](https://netlify.com).
+[Cloudflare Pages](https://pages.cloudflare.com/).
 
 Some other resources I used as part of this site:
 
@@ -24,6 +24,6 @@ Some other resources I used as part of this site:
   for simple, privacy-preserving analytics.
 
 I deploy the site via a GitHub Actions workflow that builds the site daily and
-deploys it to Netlify.
+deploys it to Cloudflare.
 
 _Last deployed on {{ metadata.builtAt }}._
