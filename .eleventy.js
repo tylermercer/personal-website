@@ -194,7 +194,7 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPlugin(brokenExternalLinks, { broken: "warn" });
 
     const localeUrl = (url, languageCode) => {
-      if (!url.startsWith('/')) {
+      if (!url || !url.startsWith('/')) {
         return url; // Return original URL if it's not internal
       }
     
@@ -211,9 +211,9 @@ module.exports = function (eleventyConfig) {
 
     eleventyConfig.addTransform("addLocaleUrlFilter", function (content) {
       if (this.inputPath.endsWith(".md")) {
-        return content.replace(/<a href="([^"]+)">([^<]+)<\/a>/g, (match, url, text) => {
+        return content.replace(/(<a\s+(?:[^>]*?\s+)?href=(["']))(.*?)(\2)/g, (match, prefix, quote, url) => {
           const localizedUrl = localeUrl(url, this.page.lang);
-          return `<a href="${localizedUrl}">${text}</a>`;
+          return `${prefix}${localizedUrl}${quote}`;
         });
       }
       return content;
