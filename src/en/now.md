@@ -3,7 +3,7 @@ title: "/now"
 layout: page
 description: "What I'm up to right now"
 eleventyExcludeFromCollections: true
-date: Last Modified
+date: 2023-03-16 12:00:00
 ---
 
 I am currently working at Brevium, where I collaborate with some amazing people 
@@ -21,7 +21,7 @@ distracted.] I highly recommend both books.
 
 _Last updated: {{ page.date | postDate }}_
 
-<hr/>
+---
 
 ## What's this?
 The /now page movement was started by [Derek Sivers](https://sive.rs/nowff)^[Perhaps more accurately, it was started by Gregory Brown, who saw what Derek had done and did the same thing.]. From [the page he created to explain it](https://nownownow.com/about):
