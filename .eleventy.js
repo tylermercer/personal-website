@@ -198,14 +198,22 @@ module.exports = function (eleventyConfig) {
         return url; // Return original URL if it's not internal
       }
     
-      const langCodePattern = /^\/[a-z]{2}\//; // Regex pattern for two-letter language code at the beginning of the string
-      const hasLanguageCode = langCodePattern.test(url);
-      if (hasLanguageCode) {
-        return url;
-      } else {
-        const hasLeadingSlash = url.startsWith('/');
-        const prefixedUrl = hasLeadingSlash ? url.slice(1) : url;
-        return `/${languageCode}/${prefixedUrl}`;
+      const engCodePattern = /^\/en\//; // Regex pattern for two-letter EN code at the beginning of the string
+      const hasEngLanguageCode = engCodePattern.test(url)
+      if (hasEngLanguageCode) {
+        // Strip language code
+        return url.substring(3)
+      }
+      else {
+        const langCodePattern = /^\/[a-z]{2}\//; // Regex pattern for two-letter language code at the beginning of the string
+        const hasLanguageCode = langCodePattern.test(url);
+        if (hasLanguageCode || !languageCode) {
+          return url;
+        } else {
+          const hasLeadingSlash = url.startsWith('/');
+          const prefixedUrl = hasLeadingSlash ? url.slice(1) : url;
+          return `/${languageCode}/${prefixedUrl}`;
+        }
       }
     }
 
