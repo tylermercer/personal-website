@@ -80,6 +80,17 @@
         margin-top: 1em;
         margin-bottom: 0;
     }
+    & .contact-email {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: fit-content;
+        padding: 0.5rem;
+        background-color: var(--color-primary-bg-static);
+        color: var(--color-gray-1-static);
+        font-weight: bold;
+        font-family: var(--font-heading);
+    }
 }
 .site-footer {
     & > p {
@@ -101,15 +112,4 @@
 }
 sup.footnote-ref {
     line-height: 0;
-}
-.post-reply {
-    display: flex;
-    justify-content: center;
-    & .contact-email {
-        padding: 0.5rem;
-        background-color: var(--color-primary-bg-static);
-        color: var(--color-gray-1-static);
-        font-weight: bold;
-        font-family: var(--font-heading);
-    }
 }
