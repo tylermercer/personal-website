@@ -1,19 +1,17 @@
-# Exclude specific files and directories from redirect
-!/css/*    # Exclude the /css directory from redirect
-!/favicon.svg    # Exclude the favicon.ico file from redirect
-!/android-chrome-192x192.png
-!/android-chrome-512x512.png
-!/apple-touch-icon.png
-!/site.webmanifest
-!/og-images/*
+# Serve assets from their respective paths without redirection
+/css/* /css/:splat 200
+/js/* /js/:splat 200
+/images/* /images/:splat 200
+/og-images/* /images/:splat 200
+/favicon.svg /favicon.svg 200
+/android-chrome-192x192.png /android-chrome-192x192.png 200
+/android-chrome-512x512.png /android-chrome-512x512.png 200
+/apple-touch-icon.png /apple-touch-icon.png 200
+/site.webmanifest /site.webmanifest 200
 
-# Redirect any URLs with the default language code in them already
-/en/*    /:splat    301!
-/en/*    /404/index.html    404
+# Serve localized content from their respective paths without redirection
+/es/* /es/:splat 200
+/en/* /en/:splat 200
 
-# Important: Per shadowing rules, URLs for the
-# _non-default_ language-specific content files
-# are served without redirects.
-
-# Default
-/*    /en/:splat    200
+# Redirect any non-localized path to English version
+/* /en/:splat 200
