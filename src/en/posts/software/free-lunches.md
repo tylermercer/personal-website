@@ -90,7 +90,7 @@ performance^[See the
 [JS Framework Benchmark](https://krausest.github.io/js-framework-benchmark/2023/table_chrome_112.0.5615.49.html)
 by Krauest] make it a better choice?
 
-### "React === The Web"
+## "React === The Web"
 
 I think this _modus operandi_ of "just use React" exists largely because of bad
 framing in education and framework branding.
