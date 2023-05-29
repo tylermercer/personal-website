@@ -25,6 +25,7 @@
     "@11ty/eleventy-plugin-syntaxhighlight": "^4.2.0",
     "@fontsource/faustina": "^4.5.11",
     "@fontsource/figtree": "^4.5.3",
+    "cheerio": "^1.0.0-rc.12",
     "cross-env": "^7.0.3",
     "del-cli": "^5.0.0",
     "eleventy-plugin-automatic-noopener": "^2.0.2",
