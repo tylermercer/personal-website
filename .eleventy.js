@@ -207,7 +207,7 @@ module.exports = function (eleventyConfig) {
       else {
         const langCodePattern = /^\/[a-z]{2}\//; // Regex pattern for two-letter language code at the beginning of the string
         const hasLanguageCode = langCodePattern.test(url);
-        if (hasLanguageCode || !languageCode) {
+        if (hasLanguageCode || !languageCode || languageCode === 'en') {
           return url;
         } else {
           const hasLeadingSlash = url.startsWith('/');
