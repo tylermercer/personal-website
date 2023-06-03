@@ -24,7 +24,7 @@ different than the unminified version, and was able to find something similar in
 [this article about GUID generation](https://www.moreonfew.com/how-to-generate-uuid-in-javascript/),
 which contains a code comment mentioning
 [this Stack Overflow answer](https://stackoverflow.com/a/2117523). The question
-for that answer has [another answer](https://stackoverflow.com/a/2117523) with
+for that answer has [another answer](https://stackoverflow.com/a/7061193) with
 the code I was looking for, and that answer cited
 [this GitHub Gist](https://gist.github.com/982883). It had to laugh when I saw
 that it wasn't minified---it was golfed. "Clever minifier" indeed---a clever
