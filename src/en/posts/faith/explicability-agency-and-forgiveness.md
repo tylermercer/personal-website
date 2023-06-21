@@ -19,7 +19,9 @@ agency.
 One common argument against free will is the idea that everything a person does
 can be explained by some cause or causes external to that person. If I eat, it
 is because I am hungry. If I drive cautiously, it is because I have learned
-through my past experiences to do so.
+through my past experiences to do so. Therefore, some assert, _all_ human
+actions were bound to happen as a result of the external forces that led to
+those behaviors (an idea known as _determinism_).
 
 The behaviorism school of psychological thought, popularized in the early
 1900's, leads many to this position. The influential behaviorist B. F. Skinner
@@ -36,8 +38,8 @@ People don't do things that don't have explanations; this is true. And yet, at
 the same time, there may be multiple explicable decisions in a given situation.
 For example, when I feel hurt by another person, I can either respond with
 hurtfulness in kind, or I can choose to acknowledge my hurt without retaliating.
-Either of those choices is explicable---there are valid reasons to make the
-choice. But that does not eliminate my responsibility to choose.
+Either of those choices is explicable---there are valid reasons to make either
+choice. But that does not eliminate my ability and responsibility to choose.
 
 I'm reminded of a great quote by Victor Frankl: "Between stimulus and response
 there is a space. In that space lies our power to choose our response. In our
