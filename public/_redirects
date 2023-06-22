@@ -16,3 +16,6 @@
 
 # Redirect any non-localized path to English version
 /* /en/:splat 200
+
+# Post redirects
+/posts/faith/explicability-agency-and-forgiveness/* /posts/faith/explicability-does-not-negate-agency/:splat 301
