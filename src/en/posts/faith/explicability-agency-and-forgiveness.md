@@ -1,7 +1,7 @@
 ---
 title: Explicability Does Not Negate Agency
 description: Our decisions are still decisions, even though they are explainable via external stimuli.
-draft: true
+date: 2023-06-22 12:00:00
 ---
 
 A common argument against the existence of free will is the idea that everything
