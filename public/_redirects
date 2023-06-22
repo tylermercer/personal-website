@@ -11,7 +11,7 @@
 /site.webmanifest /site.webmanifest 200
 
 # Post redirects
-/posts/faith/explicability-agency-and-forgiveness/index.html /posts/faith/explicability-does-not-negate-agency/index.html 301
+/posts/faith/explicability-agency-and-forgiveness/ /posts/faith/explicability-does-not-negate-agency/ 301
 
 # Serve localized content from their respective paths without redirection
 /es/* /es/:splat 200
