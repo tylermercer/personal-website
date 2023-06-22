@@ -42,9 +42,8 @@ were both necessary parts of God's plan.
 
 As I reread this chapter recently, I noticed that
 [verse 16](https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/2?id=p16#p16)
-shows that explicability---or the ability of something to be
-explained---_doesn't_ eliminate agency. Instead, Lehi says that explicability is
-a _necessary part_ of agency:
+suggests that explicability _doesn't_ eliminate agency. Instead, Lehi says that
+explicability is a _necessary part_ of agency:
 
 > 16 Wherefore, the Lord God gave unto man that he should act for himself.
 > Wherefore, **man could not act for himself save it should be that he was
