@@ -1,13 +1,13 @@
 ---
 title: '"Write entire emails with just one line"'
-description: Or UFTAAS (useless filler text, as a service)
+description: The rise of UFTaaS (Useless Filler Text as a Service)
 date: 2023-06-23 12:00:00
 ---
 
 Email platform [Superhuman](https://superhuman.com/)^[Superhuman apparently
 receives rave reviews from its customers. I can't make any claims about its
 overall usefulness, having never used it. This article is just addressing the AI
-feature.] has this blurb on their landing page:
+feature described on the landing page.] has this blurb on their landing page:
 
 > **Introducing Superhuman AI**<br/>
 > Write entire emails with just one line
@@ -26,27 +26,27 @@ of the email in the image):
 > please take a moment to upvote our product ...<br/>
 > ...
 
-In my mind, there's a big hole in this value proposition that is unaddressed:
-**Only a masochist would prefer reading that fluffy, corporate-speak^[
-Superhuman claims to match your voice, but still. ] email over "hey team please
-upvote the new launch on producthunt."** Do you really _need_ an AI to give you
-hundreds of words of fluff to replace "hey team please"?
+In my mind, there's a big hole in this value proposition: **nobody wants to read
+this kind of email.** Only a masochist would prefer reading a fluffy,
+corporate-speak email over "hey team please upvote the new launch on
+producthunt."^[ Superhuman claims to match your voice, but still. ] Do you
+really need an AI to give you hundreds of extra words to use instead of "hey
+team please"?
 
-The great irony of it all is that the value prop of "Write entire emails with
-just one line" was _always true_. You could always write your emails in the same
-amount of words it would take to describe to an AI: just use those words _as the
-email itself._
+The value prop of "Write entire emails with just one line" has always been true.
+You could _always_ write your emails in the same amount of words it would take
+to describe to an AI: just use those words _as the email itself._
 
-Words are free-as-in-speech, but they aren't free-as-in-beer.^[In this case,
-they are "free as in mattress." It's free, but you probably don't want it.] Each
-new word is additional cognitive overhead for your readers. Each _unnecessary_
-word is just a distraction.
+Words are free-as-in-speech, but they aren't free-as-in-beer. In this case, they
+are free-as-in-mattress: it's free, but no one wants it. Each unnecessary word
+is just additional cognitive overhead for your readers.
 
 [Richard Lanham](https://english.ucla.edu/people-faculty/lanham-richard/),
 creator of
 [the Paramedic Method](https://owl.purdue.edu/owl/general_writing/academic_writing/paramedic_method.html)
 for editing writing, refers to these useless words as "lard." So many new
-AI-powered products seem to be commoditizing the production of lard.
+AI-powered products seem to be commoditized lard-generators.
 
-Maybe someday someone will go the other way: an AI service that takes a big
-fluffy corporate-speak email and boils it down to one line. That would be nice.
+Someone should go the other way: build an AI service that takes a big fluffy
+corporate-speak email and boils it down to one concise line. _That_ would be
+nice.
