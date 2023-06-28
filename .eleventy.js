@@ -148,7 +148,7 @@ module.exports = function (eleventyConfig) {
     return collection.filter(item => item.data.lang === lang);
   });
   eleventyConfig.addFilter("strip_default_locale", (path) => {
-    return path.startsWith('/en') ? path.substring(3) : path;
+    return path?.startsWith('/en') ? path.substring(3) : path;
   });
 
   /* - styles */
