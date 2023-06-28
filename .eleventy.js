@@ -31,7 +31,7 @@ function rmDir(dirPath, removeSelf) {
     }
   if (removeSelf)
     fs.rmdirSync(dirPath);
-};
+}
 
 function localeUrl(url, languageCode) {
   if (!url || !url.startsWith('/')) {
@@ -54,7 +54,7 @@ function localeUrl(url, languageCode) {
       return `/${languageCode}/${prefixedUrl}`;
     }
   }
-};
+}
 
 module.exports = function (eleventyConfig) {
   /* Constants */
@@ -181,6 +181,22 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter("numCommas", function (value) {
     return value.toLocaleString()
   });
+
+  /* - sharing */
+  eleventyConfig.addShortcode("shareLink", function (platform, url, title) {
+    switch (platform.toLowerCase()) {
+      case 'facebook':
+        return `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}`;
+      case 'twitter':
+        return `https://twitter.com/intent/tweet?url=${encodeURIComponent(url)}`;
+      case 'linkedin':
+        return `https://www.linkedin.com/shareArticle?url=${encodeURIComponent(url)}`;
+        case 'email':
+          return `mailto:?body=${encodeURIComponent(`${title}\n${url}`)}`;
+      default:
+        throw new Error(`Invalid platform: ${platform}`);
+    }
+  })
 
   /* Computed Data */
   eleventyConfig.addGlobalData("eleventyComputed.permalink", function () {
