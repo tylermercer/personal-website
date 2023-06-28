@@ -246,6 +246,11 @@ module.exports = function (eleventyConfig) {
     return content;
   });
 
+  /* Server Options */
+  eleventyConfig.setServerOptions({
+    port: 8081,
+  })
+
   return {
     dir: {
       input: "src",
