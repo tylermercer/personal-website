@@ -1,5 +1,5 @@
-<div class="share-links">
-    or share this article:
+<section aria-labelledby="share-links-label" class="share-links">
+    <label id="share-links-label">Share this article:</label>
     <ul class="share-links-list">
         {%- set links = [ 'Facebook', 'Twitter', 'LinkedIn', 'Email' ] -%}
         {%- set absolutePostUrl -%}{{- page.url | strip_default_locale | htmlBaseUrl(metadata.url) -}}{%- endset -%}
