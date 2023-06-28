@@ -23,8 +23,10 @@ includeEmailJs: true
     </p>
     <div class="article-content {% if dropCap %} drop-caps {%- endif %}">
         {{- content | safe -}}
-        {% set mungedEmailLabel = 'Reply via email' %}{% include 'partials/munged-email.njk' %}
-        {% include 'partials/share-links.njk' %}
+        <div class="reply-and-share">
+            {% set mungedEmailLabel = 'Reply via email' %}{% include 'partials/munged-email.njk' %}
+            {% include 'partials/share-links.njk' %}
+        </div>
     </div>
     {%- if collections.posts | byLang %}
     {%- set previousPost = collections.posts | byLang | getPreviousCollectionItem %}
