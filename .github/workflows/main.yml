@@ -44,10 +44,16 @@ jobs:
             echo "result=skipped" >> $GITHUB_OUTPUT
           fi
 
+      - name: Extract branch name
+        shell: bash
+        run: echo "branch=${GITHUB_HEAD_REF:-${GITHUB_REF#refs/heads/}}" >> $GITHUB_OUTPUT
+        id: extract_branch
+
       - name: Deploy to Cloudflare Pages
         if: steps.build_site.outputs.result == 'built'
         uses: cloudflare/pages-action@v1
         with:
+          branch: ${{ steps.extract_branch.outputs.branch }}
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           projectName: ${{ secrets.CLOUDFLARE_PROJECT_NAME }}
