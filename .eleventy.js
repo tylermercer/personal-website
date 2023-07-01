@@ -222,6 +222,9 @@ module.exports = function (eleventyConfig) {
       return data.eleventyExcludeFromCollections;
     }
   });
+  eleventyConfig.addGlobalData("eleventyComputed.safeUrl", function() {
+    return (data) => data.page.url || data.page.filePathStem || '';
+  });
 
   /* Filesystem */
   eleventyConfig.addPassthroughCopy({ "./public/*": "/" });
