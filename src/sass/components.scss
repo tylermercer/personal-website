@@ -116,9 +116,8 @@ sup.footnote-ref {
     line-height: 0;
 }
 .share-links {
-    display: inline-flex;
-    flex-wrap: wrap;
-    gap: 0.2rem;
+    display: inline;
+    width: 100%;
     & label {
         display: inline;
         @media (min-width: 635px) {
@@ -132,5 +131,11 @@ sup.footnote-ref {
         display: contents;
         list-style-type: none;
         padding: 0;
+        & li {
+            display: inline;
+        }
+    }
+    @media (min-width: 635px) {
+        width: unset;
     }
 }
