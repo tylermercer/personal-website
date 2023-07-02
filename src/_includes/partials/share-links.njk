@@ -4,11 +4,10 @@
         {%- set links = [ 'Facebook', 'Twitter', 'LinkedIn', 'Email' ] -%}
         {%- set absolutePostUrl -%}{{- safeUrl | strip_default_locale | htmlBaseUrl(metadata.url) -}}{%- endset -%}
 	    {%- for link in links -%}
-        <li>
-            <a href="{% shareLink link, absolutePostUrl, title %}" target="_blank">
+        {%- if loop.index === links.length -%}&nbsp;{% else %} {% endif -%}
+        <li><a href="{% shareLink link, absolutePostUrl, title %}" target="_blank">
                 {{- link -}}
-            </a>
-        </li>
+        </a></li>
 	    {%- endfor -%}
     </ul>
 </div>
