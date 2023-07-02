@@ -1,4 +1,3 @@
-const { createProxyMiddleware } = require('http-proxy-middleware');
 const fs = require('fs');
 
 const beep = f => console.log(f) || f;
@@ -30,12 +29,11 @@ function generateRedirectsArrayFromFile(filePath) {
         }
     });
 
-    return beep(redirects);
+    return redirects;
 }
 
 function applyRedirect(redirect, url) {
     const { from, to, status } = redirect;
-    //beep({ redirect, url });
     // Handle wildcard splat
     const wildcardIndex = from.indexOf('*');
     if (wildcardIndex !== -1) {
@@ -55,6 +53,23 @@ function applyRedirect(redirect, url) {
     
     // No redirect applied
     return { redirectedUrl: url, status: 200 };
+}
+function applyRedirectsMiddleware(req, res, next) {
+    // Load redirects from file
+    const redirects = generateRedirectsArrayFromFile("./public/_redirects");
+    // Apply each redirect
+    for (let i = 0; i < redirects.length; i++) {
+        const { redirectedUrl, status } = applyRedirect(redirects[i], req.url);
+        if (status !== 200) {
+            res.redirect(status, redirectedUrl);
+            return;
+        }
+        else if (redirectedUrl != req.url) {
+            res.url = redirectedUrl;
+        }
+    }
+    // If no redirect was applied, continue to the next middleware
+    next();
 }
 
 /*
@@ -86,16 +101,8 @@ module.exports = {
     },
     "server": false,
     "proxy": {
-        target: 'http://localhost:8081',
-        middleware: generateRedirectsArrayFromFile("./public/_redirects").map(redirect => {
-            beep(redirect)
-            return createProxyMiddleware({
-                target: 'http://localhost:8081',  // Replace with your target URL
-                pathRewrite: (path, req) => {
-                    return applyRedirect(redirect, path).redirectedUrl;
-                }
-            });
-        })
+        target:'localhost:8081',
+        middleware: [applyRedirectsMiddleware]
     },
     "port": 8080,
     "middleware": false,

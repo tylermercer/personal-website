@@ -40,7 +40,6 @@
     "sass": "^1.57.1"
   },
   "dependencies": {
-    "@11ty/eleventy-server-browsersync": "^1.0.2",
-    "http-proxy-middleware": "^2.0.6"
+    "@11ty/eleventy-server-browsersync": "^1.0.2"
   }
 }
