@@ -49,9 +49,7 @@ function localeUrl(url, languageCode) {
     if (hasLanguageCode || !languageCode || languageCode === 'en') {
       return url;
     } else {
-      const hasLeadingSlash = url.startsWith('/');
-      const prefixedUrl = hasLeadingSlash ? url.slice(1) : url;
-      return `/${languageCode}/${prefixedUrl}`;
+      return `/${languageCode}${url}`;
     }
   }
 }
