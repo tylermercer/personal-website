@@ -33,27 +33,6 @@ function rmDir(dirPath, removeSelf) {
     fs.rmdirSync(dirPath);
 }
 
-function localeUrl(url, languageCode) {
-  if (!url || !url.startsWith('/')) {
-    return url; // Return original URL if it's not internal
-  }
-  const engCodePattern = /^\/en\//; // Regex pattern for two-letter EN code at the beginning of the string
-  const hasEngLanguageCode = engCodePattern.test(url)
-  if (hasEngLanguageCode) {
-    // Strip language code
-    return url.substring(3)
-  }
-  else {
-    const langCodePattern = /^\/[a-z]{2}\//; // Regex pattern for two-letter language code at the beginning of the string
-    const hasLanguageCode = langCodePattern.test(url);
-    if (hasLanguageCode || !languageCode || languageCode === 'en') {
-      return url;
-    } else {
-      return `/${languageCode}${url}`;
-    }
-  }
-}
-
 module.exports = function (eleventyConfig) {
   /* Constants */
   const now = new Date();
@@ -232,17 +211,6 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addWatchTarget("./src/sass/");
   eleventyConfig.on('eleventy.before', () => {
     rmDir('./dist/og-images'); // empty OG directory
-  });
-
-  /* Post-Processing Transforms */
-  eleventyConfig.addTransform("addLocaleUrlFilter", function (content) {
-    if (this.inputPath.endsWith(".md")) {
-      return content.replace(/(<a\s+(?:[^>]*?\s+)?href=(["']))(.*?)(\2)/g, (match, prefix, quote, url) => {
-        const localizedUrl = localeUrl(url, this.page.lang);
-        return `${prefix}${localizedUrl}${quote}`;
-      });
-    }
-    return content;
   });
 
   return {
