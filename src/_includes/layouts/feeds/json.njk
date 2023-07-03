@@ -14,7 +14,7 @@ eleventyExcludeFromCollections: true
 	},
 	"items": [
 		{%- for post in collections.posts | byLang | reverse %}
-		{%- set absolutePostUrl = post.url | strip_default_locale | htmlBaseUrl(metadata.url) %}
+		{%- set absolutePostUrl = post.url | stripDefaultLocale | htmlBaseUrl(metadata.url) %}
 		{
 			"id": "{{ absolutePostUrl }}",
 			"url": "{{ absolutePostUrl }}",

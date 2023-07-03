@@ -2,7 +2,7 @@
     <label id="share-links-label">Share this article:</label>
     <ul class="share-links-list">
         {%- set links = [ 'Facebook', 'Twitter', 'LinkedIn', 'Email' ] -%}
-        {%- set absolutePostUrl -%}{{- safeUrl | strip_default_locale | htmlBaseUrl(metadata.url) -}}{%- endset -%}
+        {%- set absolutePostUrl -%}{{- safeUrl | stripDefaultLocale | htmlBaseUrl(metadata.url) -}}{%- endset -%}
 	    {%- for link in links -%}
         {%- if loop.index === links.length -%}&nbsp;{% else %} {% endif -%}
         <li><a href="{% shareLink link, absolutePostUrl, title %}" target="_blank">
