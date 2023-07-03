@@ -91,6 +91,7 @@ module.exports = function (eleventyConfig) {
   /* Plugins */
   eleventyConfig.addPlugin(EleventyI18nPlugin, {
     defaultLanguage: "en",
+    errorMode: "never",
   });
   eleventyConfig.addPlugin(i18n, {
     translations,
