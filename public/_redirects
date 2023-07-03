@@ -13,9 +13,6 @@
 # Post redirects
 /posts/faith/explicability-agency-and-forgiveness/ /posts/faith/explicability-does-not-negate-agency/ 301
 
-# Serve localized content from their respective paths without redirection
+# Serve localized content from their respective locations
 /es/* /es/:splat 200
 /en/* /:splat 200
-
-# Redirect any non-localized path to English version
-/* /:splat 200
