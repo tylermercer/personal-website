@@ -68,4 +68,4 @@ jobs:
         with:
           comment_tag: deploy_preview
           message: |
-            Deployed to ${{ steps.deploy.url }}
+            Deployed to ${{ steps.deploy.outputs.url }}
