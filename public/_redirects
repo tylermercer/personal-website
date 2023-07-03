@@ -15,7 +15,7 @@
 
 # Serve localized content from their respective paths without redirection
 /es/* /es/:splat 200
-/en/* /en/:splat 200
+/en/* /:splat 200
 
 # Redirect any non-localized path to English version
-/* /en/:splat 200
+/* /:splat 200
