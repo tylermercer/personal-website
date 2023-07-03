@@ -37,7 +37,7 @@ jobs:
       - name: Build site
         id: build_site
         run: |
-          if [[ "${{ github.event_name }}" == "schedule" || "${{ github.event_name }}" == "workflow_dispatch" || -n "${{ steps.check_files.outputs.non_markdown_files }}" ]]; then
+          if [[ "${{ github.event_name }}" == "schedule" || "${{ github.event_name }}" == "workflow_dispatch" || "${{ github.event_name }}" == "pull_request" || -n "${{ steps.check_files.outputs.non_markdown_files }}" ]]; then
             npm install
             npm run build
             echo "result=built" >> $GITHUB_OUTPUT
