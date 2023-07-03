@@ -91,7 +91,7 @@ module.exports = function (eleventyConfig) {
   /* Plugins */
   eleventyConfig.addPlugin(EleventyI18nPlugin, {
     defaultLanguage: "en",
-    errorMode: "never",
+    errorMode: "never", //Could be allow-fallback if not for the pagination pages.... TODO: rethink
   });
   eleventyConfig.addPlugin(i18n, {
     translations,
