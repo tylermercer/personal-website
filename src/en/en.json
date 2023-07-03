@@ -1,4 +1,5 @@
 {
     "lang":"en",
-    "dir":"ltr"
+    "dir":"ltr",
+    "permalink":"{{ page.filePathStem | stripDefaultLocale }}/index.html"
 }
