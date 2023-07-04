@@ -24,7 +24,7 @@ jobs:
         id: checkout_repo
         uses: actions/checkout@v3
 
-      - name: Determine whether we need to check for non-markdown files
+      - name: Determine whether to check for changed non-markdown files
         id: determine_mode
         run: |
           if [[ "${{ github.event_name }}" == "schedule" || "${{ github.event_name }}" == "workflow_dispatch" || "${{ github.event_name }}" == "pull_request" ]]; then
@@ -73,7 +73,7 @@ jobs:
           projectName: ${{ secrets.CLOUDFLARE_PROJECT_NAME }}
           directory: ./dist
 
-      - name: Add Deploy Preview URL to Pull Request
+      - name: Add preview URL to pull pequest
         if: github.event_name == 'pull_request' && steps.build_site.outputs.result == 'built'
         uses: thollander/actions-comment-pull-request@v2
         with:
