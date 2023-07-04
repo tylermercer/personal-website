@@ -61,9 +61,9 @@ jobs:
         id: extract_vars
         shell: bash
         run: |
-          echo "branch=${GITHUB_HEAD_REF:-${GITHUB_REF#refs/heads/}}" >> $GITHUB_OUTPUT
           echo "sha_short=$(git rev-parse --short HEAD)" >> $GITHUB_OUTPUT
           echo "datetime=$(date +'%Y-%m-%d %H:%M:%S')" >> $GITHUB_OUTPUT
+          echo "branch=${GITHUB_HEAD_REF:-${GITHUB_REF#refs/heads/}}" >> $GITHUB_OUTPUT
 
       - name: Deploy to Cloudflare Pages
         id: deploy
@@ -76,7 +76,7 @@ jobs:
           projectName: ${{ secrets.CLOUDFLARE_PROJECT_NAME }}
           directory: ./dist
 
-      - name: Add preview URL to pull pequest
+      - name: Add preview URL to pull request
         if: github.event_name == 'pull_request' && steps.build_site.outputs.result == 'built'
         uses: thollander/actions-comment-pull-request@v2
         with:
@@ -87,6 +87,6 @@ jobs:
 
             | Name                    | Result |
             | ----------------------- | - |
-            | **Preview URL**:        | ${{ steps.deploy.outputs.alias }} |
+            | **Preview URL**:        | https://${{ steps.extract_vars.outputs.branch }}.tylermercer.pages.dev |
             | **Last commit:**        | `${{ steps.extract_vars.outputs.sha_short }}` |
-            | **Deployed at**:        | `${{ steps.extract_vars.outputs.datetime }}`` |
+            | **Deployed at**:        | `${{ steps.extract_vars.outputs.datetime }}` |
