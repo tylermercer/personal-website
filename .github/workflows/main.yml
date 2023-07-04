@@ -16,19 +16,30 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    permissions: 
-      pull-requests: write 
+    permissions:
+      pull-requests: write
 
     steps:
       - name: Checkout repository
         id: checkout_repo
         uses: actions/checkout@v3
-      
+
+      - name: Determine whether we need to check for non-markdown files
+        id: determine_mode
+        run: |
+          if [[ "${{ github.event_name }}" == "schedule" || "${{ github.event_name }}" == "workflow_dispatch" || "${{ github.event_name }}" == "pull_request" ]]; then
+            echo "mode=always" >> $GITHUB_OUTPUT
+          else
+            echo "mode=check" >> $GITHUB_OUTPUT
+          fi
+
       - name: Get changed files
+        if: steps.determine_mode.outputs.mode == 'check'
         id: changed_files
         uses: tj-actions/changed-files@v35
 
       - name: Check for non-Markdown files
+        if: steps.determine_mode.outputs.mode == 'check'
         id: check_files
         run: |
           non_markdown_files=$(echo "${{ steps.changed_files.outputs.modified_files }}" | grep -v '\.md$' || true)
