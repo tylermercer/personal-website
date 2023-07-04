@@ -63,7 +63,7 @@ jobs:
         run: |
           echo "branch=${GITHUB_HEAD_REF:-${GITHUB_REF#refs/heads/}}" >> $GITHUB_OUTPUT
           echo "sha_short=$(git rev-parse --short HEAD)" >> $GITHUB_OUTPUT
-          echo "datetime=$(date +'%Y-%m-%dT%H:%M:%S')" >> $GITHUB_OUTPUT
+          echo "datetime=$(date +'%Y-%m-%d %H:%M:%S')" >> $GITHUB_OUTPUT
 
       - name: Deploy to Cloudflare Pages
         id: deploy
@@ -84,6 +84,8 @@ jobs:
           message: |
             ## Deployed to Cloudflare Pages! :rocket:
 
-            Deploy preview: ${{ steps.deploy.outputs.alias }}
-            Deployed at: ${{ steps.extract_vars.outputs.datetime }}
-            Latest deployed commit: `${{ steps.extract_vars.outputs.sha_short }}`
+            | Name                    | Result |
+            | ----------------------- | - |
+            | **Preview URL**:        | ${{ steps.deploy.outputs.alias }} |
+            | **Last commit:**        | `${{ steps.extract_vars.outputs.sha_short }}` |
+            | **Deployed at**:        | `${{ steps.extract_vars.outputs.datetime }}`` |
