@@ -79,4 +79,6 @@ jobs:
         with:
           comment_tag: deploy_preview
           message: |
-            Deployed to ${{ steps.deploy.outputs.alias }}
+            ## Deployed to Cloudflare Pages! :rocket:
+            
+            Deploy preview: ${{ steps.deploy.outputs.alias }}
