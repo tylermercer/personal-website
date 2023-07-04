@@ -57,12 +57,13 @@ jobs:
             echo "result=skipped" >> $GITHUB_OUTPUT
           fi
 
-      - name: Extract branch name and short SHA
+      - name: Extract variables
         id: extract_vars
         shell: bash
         run: |
           echo "branch=${GITHUB_HEAD_REF:-${GITHUB_REF#refs/heads/}}" >> $GITHUB_OUTPUT
           echo "sha_short=$(git rev-parse --short HEAD)" >> $GITHUB_OUTPUT
+          echo "datetime=$(date +'%Y-%m-%dT%H:%M:%S')" >> $GITHUB_OUTPUT
 
       - name: Deploy to Cloudflare Pages
         id: deploy
@@ -84,4 +85,5 @@ jobs:
             ## Deployed to Cloudflare Pages! :rocket:
 
             Deploy preview: ${{ steps.deploy.outputs.alias }}
+            Deployed at: ${{ steps.extract_vars.outputs.datetime }}
             Latest deployed commit: `${{ steps.extract_vars.outputs.sha_short }}`
