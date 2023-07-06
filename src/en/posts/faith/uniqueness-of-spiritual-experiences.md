@@ -14,23 +14,25 @@ household.
 
 This, to me, makes an interesting point: we should not feel less important or
 valued when we do not have spiritual experiences or receive revelation^[For
-readers who may not be familiar with this term, "revelation" is when God speaks
+readers who may not be familiar with this term, _revelation_ is when God speaks
 to humans. The scriptures record many dramatic instances of revelation, such as
 through visions or dreams, but many individuals receive revelation through
 feelings, thoughts, or impressions.] in the same way others do. Abish may never
-have had a dramatic spiritual experience like the kind described here in her
-entire life. The text says she was converted "on account of a remarkable vision
-of her father," which likely means that she heard of her father's remarkable
-spiritual experience and trusted him, not that she herself had a vision.
+have had an experience like the kind described here in her entire life. The text
+says she was converted "on account of a remarkable vision of her father," which
+likely means that she heard her father's account of a vision he saw and trusted
+him, not that she herself had a vision.
 
-Often in the church, when we have a firm faith in Christ but haven't had any (or
-don't remember any) particularly amazing or miraculous experiences, we can be
-tempted to feel that our testimony is weaker than, inferior to, or less valid
-than those of others. As a result, we often don't "give ourselves permission" to
-be spiritually strong. We don't give ourselves permission to bear testimony
-clearly and sincerely, since we feel that we haven't earned the right to make
-direct or firm claims about spiritual truth. Deep down we have a nagging doubt
-that our light isn't "good enough."
+Often, when we have a firm faith in Christ but haven't had any (or don't
+remember any) particularly amazing or miraculous experiences, we can be tempted
+to feel that our testimony^[ A _testimony_ is a witness of spiritual truth,
+often about Heavenly Father or His son Jesus Christ, borne to a person's heart
+and mind by the Holy Ghost. ] is weaker than, inferior to, or less valid than
+those of others. As a result, we often don't "give ourselves permission" to be
+spiritually strong. We don't allow ourselves to bear testimony clearly and
+sincerely, since we feel that we haven't earned the right to make direct or firm
+claims about spiritual truth. Deep down we have a nagging doubt that our light
+isn't "good enough."
 
 But whether it is obtained through an instantaneous light-switch experience or
 through a gradual sunrise experience,^[ Elder Bednar teaches about these
