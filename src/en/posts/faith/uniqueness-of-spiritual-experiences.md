@@ -13,12 +13,15 @@ gather the rest of the people to see what the Lord had done for the king and his
 household.
 
 This, to me, makes an interesting point: we should not feel less important or
-valued when we do not have spiritual experiences in the same way others do.
-Abish may never have had a dramatic spiritual experience like the kind described
-here in her entire life. The text says she was converted "on account of a
-remarkable vision of her father," which likely means that she heard of her
-father's remarkable spiritual experience and trusted him, not that she herself
-had a vision.
+valued when we do not have spiritual experiences or receive revelation^[For
+readers who may not be familiar with this term, "revelation" is when God speaks
+to humans. The scriptures record many dramatic instances of revelation, such as
+through visions or dreams, but many individuals receive revelation through
+feelings, thoughts, or impressions.] in the same way others do. Abish may never
+have had a dramatic spiritual experience like the kind described here in her
+entire life. The text says she was converted "on account of a remarkable vision
+of her father," which likely means that she heard of her father's remarkable
+spiritual experience and trusted him, not that she herself had a vision.
 
 Often in the church, when we have a firm faith in Christ but haven't had any (or
 don't remember any) particularly amazing or miraculous experiences, we can be
