@@ -42,13 +42,13 @@ bringing the joy of the gospel into the lives of people she knew and loved.
 
 God blesses others through each of our unique voices and perspectives. He
 invites us to share the light that we've been given. We each have the capacity
-to touch and uplift those around us in ways that no one else can. We do not
-"earn" grand spiritual manifestations; rather, spiritual experiences of all
-kinds are, in the words of the ancient prophet Mormon, "sent forth by the power
-and gift of Christ"^[
+to touch and uplift those around us in ways that no one else can. And in our
+learning, we do not "earn" grand spiritual manifestations; rather, spiritual
+experiences of all kinds are, in the words of the ancient prophet Mormon, "sent
+forth by the power and gift of Christ"^[
 [Moroni 7:16](https://www.churchofjesuschrist.org/study/scriptures/bofm/moro/7?lang=eng&id=p16#p16)]---in
 other words, we receive spiritual experiences, both large and small, because of
 Jesus Christ. He gives them to us for our benefit as we are willing to receive
 them, and He does so in the way that is best for each of us individually, to
-bless His children as a
-whole.^[This article was based on a post I shared on Facebook in 2018.]
+bless us and to bless His other children through
+us.^[This article was based on a post I shared on Facebook in 2018.]
