@@ -1,7 +1,7 @@
 ---
 title: The Uniqueness of Spiritual Experiences
 description: Why we sometimes don't have spiritual experiences in the same way others do
-draft: true
+date: 2023-07-06 12:00:00
 ---
 
 A few years ago, as I was reading
@@ -55,5 +55,4 @@ forth by the power and gift of Christ"^[
 other words, we receive revelatory experiences because of Jesus Christ. He gives
 them to us for our benefit as we are willing to receive them, and He does so in
 the way that is best for each of us individually, to bless us and to bless His
-other children through
-us.^[This article was based on a post I shared on Facebook in 2018.]
+other children through us.
