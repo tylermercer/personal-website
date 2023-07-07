@@ -1,6 +1,6 @@
 import metadata from '../../content/_metadata';
 import { getCollection } from 'astro:content';
-import { filterOutDraftsIfProduction, formatDateIso, getPostDate, sortByDate, renderMarkdown } from '../../utils/utils';
+import { filterOutDraftsIfProduction, formatDateIso, getPostDate, sortByDate, renderMarkdown, getCategory } from '../../utils/utils';
 
 export async function GET(context) {
     const blog = sortByDate(filterOutDraftsIfProduction(await getCollection('posts')));
@@ -18,6 +18,7 @@ export async function GET(context) {
                 title: post.data.title,
                 content_html: renderMarkdown(post.body),
                 date_published: formatDateIso(getPostDate(post)) + 'Z',
+                category: getCategory(post) ?? "uncategorized"
             })),
         }));
 }
