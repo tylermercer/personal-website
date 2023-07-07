@@ -1,6 +1,6 @@
 ---
 title: The Uniqueness of Spiritual Experiences
-description: Why we sometimes don't have spiritual experiences in the same way others do
+description: Why we sometimes don’t have spiritual experiences in the same way others do
 date: 2023-07-06 12:00:00
 draft: true
 ---

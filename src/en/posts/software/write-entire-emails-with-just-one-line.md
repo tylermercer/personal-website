@@ -1,5 +1,5 @@
 ---
-title: '"Write entire emails with just one line"'
+title: “Write entire emails with just one line”
 description: The rise of UFTaaS (Useless Filler Text as a Service)
 date: 2023-06-23 12:00:00
 ---
