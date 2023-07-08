@@ -85,3 +85,9 @@ jobs:
             | **Preview URL**:        | https://${{ steps.extract_vars.outputs.branch }}.${{ secrets.CLOUDFLARE_PROJECT_NAME }}.pages.dev |
             | **Last commit:**        | `${{ steps.extract_vars.outputs.sha_short }}` |
             | **Deployed at**:        | `${{ steps.extract_vars.outputs.datetime }}` |
+
+      - name: Send email if new post
+        id: send_email
+        if: github.event_name == 'schedule'
+        run: |
+          npm run send-email
