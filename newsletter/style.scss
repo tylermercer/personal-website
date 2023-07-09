@@ -1,0 +1,51 @@
+@import '../src/sass/tokens/color-vars.scss';
+
+/* Article content styles */
+.article-content {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.article-content p {
+    margin-bottom: 10px;
+}
+
+.article-content a {
+    color: $color-primary-light-11;
+    text-decoration: none;
+}
+
+/* Footnote styles */
+.footnote-ref {
+    line-height: 0;
+}
+
+.footnotes-sep {
+    margin-top: 20px;
+    border: none;
+    border-top: 1px solid #ddd;
+}
+
+.footnotes-list {
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.footnote-item {
+    margin-bottom: 5px;
+}
+
+.footnote-item p {
+    margin-bottom: 0;
+}
+
+.footnote-backref {
+    color: $color-primary-light-11;
+    text-decoration: none;
+}
+
+.footnote-backref:before {
+    content: "↩︎ ";
+}

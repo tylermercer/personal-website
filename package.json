@@ -8,7 +8,7 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "send-email": "node ./send-email.js",
+    "send-email": "node ./newsletter/send-email.js",
     "clean": "del-cli dist"
   },
   "dependencies": {
@@ -22,6 +22,7 @@
     "@sendgrid/client": "^7.7.0",
     "astro": "^3.0.13",
     "dotenv": "^16.3.1",
+    "juice": "^9.1.0",
     "luxon": "^3.4.3",
     "markdown-it": "^13.0.2",
     "markdown-it-anchor": "^8.6.7",

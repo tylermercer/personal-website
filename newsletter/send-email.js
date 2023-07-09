@@ -1,7 +1,12 @@
 const fs = require('fs');
 const path = require('path');
 const client = require('@sendgrid/client');
+const juice = require('juice');
+const sass = require('sass');
+
 require('dotenv').config();
+
+const beep = (...f) => console.log(...f) || f[0]
 
 // Set your SendGrid API key
 client.setApiKey(process.env.SENDGRID_API_KEY);
@@ -13,19 +18,35 @@ const segments = {
 }
 
 // Read the JSON feed
-const feedData = JSON.parse(fs.readFileSync(path.join(__dirname, 'dist', 'feeds', 'feed.json'), 'utf8'));
+const feedData = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'dist', 'feeds', 'feed.json'), 'utf8'));
 
 const latestPost = feedData.items[0];
 
 //Check date
-const wasPostedToday = new Date().toISOString().split('T')[0] == latestPost.date_published.split('T')[0];
+const wasPostedToday = beep(new Date().toISOString().split('T')[0]) == beep(latestPost.date_published.split('T')[0]);
 
 if (wasPostedToday) {
   console.log(`${latestPost.title} was posted today! Sending email...`);
+
+  const css = sass.compile(path.join(__dirname, 'style.scss')).css;
+
   const format = (html, url) => {
-    return `<div><p><small><a href="${url}">View this article online</a></small></p>${html}</div>`
+    var wrapped = `
+    <style>
+    ${css}
+    </style>
+    <div class="article-content">
+        <p>
+          <small>
+            <a href="${url}">View this article online</a>
+          </small>
+        </p>
+        ${html}
+      </div>`
+
+    return juice(wrapped);
   }
-  
+
   // Set up the API request
   const request = {
     method: 'POST',
@@ -41,9 +62,7 @@ if (wasPostedToday) {
       }
     }
   };
-  
-  console.log(request);
-  
+
   // Send the request
   client.request(request)
     .then(([response, body]) => {
