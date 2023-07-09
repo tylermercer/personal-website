@@ -6,7 +6,6 @@ on:
   push:
     branches:
       - main
-      - switch-to-cf-pages
   workflow_dispatch:
   pull_request:
     types:
