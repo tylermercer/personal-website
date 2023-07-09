@@ -3,6 +3,7 @@ const path = require('path');
 const client = require('@sendgrid/client');
 const juice = require('juice');
 const sass = require('sass');
+const cheerio = require('cheerio');
 
 require('dotenv').config();
 
@@ -20,7 +21,7 @@ if (wasPostedToday) {
   console.log(`${latestPost.title} was posted today!`);
 
   client.setApiKey(process.env.SENDGRID_API_KEY);
-  
+
   const segments = {
     'uncategorized': process.env.SENDGRID_SEGMENT_UNCATEGORIZED,
     'software': process.env.SENDGRID_SEGMENT_SOFTWARE,
@@ -30,6 +31,23 @@ if (wasPostedToday) {
   console.log("Compiling email css....");
 
   const css = sass.compile(path.join(__dirname, 'style.scss')).css;
+
+  const removeFootnoteLinks = (html) => {
+    const $ = cheerio.load(html);
+
+    $('.footnotes-list .footnote-item a.footnote-backref').each(function () {
+      const link = $(this);
+      link.remove();
+    });
+
+    $('.footnote-ref a').each(function () {
+      const ref = $(this);
+      const text = ref.text().replace(/\D/g, '');
+      ref.replaceWith(text);
+    });
+
+    return $.html();
+  };
 
   const format = (html, url, title) => {
     return juice(`
@@ -43,9 +61,9 @@ if (wasPostedToday) {
           </small>
         </p>
         <h1>${title}</h1>
-        ${html}
+        ${removeFootnoteLinks(html)}
       </div>`);
-  }
+  };
 
   // Set up the API request
   const request = {
