@@ -31,7 +31,7 @@ if (wasPostedToday) {
 
   const css = sass.compile(path.join(__dirname, 'style.scss')).css;
 
-  const format = (html, url) => {
+  const format = (html, url, title) => {
     return juice(`
     <style>
     ${css}
@@ -42,6 +42,7 @@ if (wasPostedToday) {
             <a href="${url}">View this article online</a>
           </small>
         </p>
+        <h1>${title}</h1>
         ${html}
       </div>`);
   }
@@ -53,7 +54,7 @@ if (wasPostedToday) {
     body: {
       name: latestPost.title,
       email_config: {
-        html_content: format(latestPost.content_html, latestPost.url),
+        html_content: format(latestPost.content_html, latestPost.url, latestPost.title),
         subject: latestPost.title,
       },
       send_to: {
