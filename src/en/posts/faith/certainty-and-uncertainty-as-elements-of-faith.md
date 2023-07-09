@@ -5,3 +5,78 @@ date: Last Modified
 draft: true
 ---
 
+Something I've been thinking about and have been encountering in the scriptures
+and elsewhere lately is how true faith requires us to _embrace_ uncertainty,
+when we often want to reject it.
+
+It started with the _Come, Follow Me_ study guide from a couple weeks
+back,^[Specifically, [the week on Matthew 8, Mark 2–4, and Luke 7](https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-individuals-and-families-new-testament-2023/10?lang=eng)]
+which referenced
+["Accepting the Lord's Will and Timing"](https://www.churchofjesuschrist.org/study/liahona/2016/08/accepting-the-lords-will-and-timing?lang=eng),
+an article by Elder David A. Bednar. Then I found this quote from theologian
+Richard Rohr:^[ Quoted by Brené Brown in _The Gifts of Imperfection_ ]
+
+> My scientist friends have come up with things like ‘principles of uncertainty’
+> and dark holes. They’re willing to live inside imagined hypotheses and
+> theories. But many religious folks insist on answers that are always true. We
+> love closure, resolution and clarity, while thinking that we are people of
+> ‘faith’! How strange that the very word ‘faith’ has come to mean its exact
+> opposite.
+
+Since then, that idea of "faith to embrace uncertainty" seems to be popping up
+everywhere. Like Hebrews 11:13-16:
+
+> 13 These all died in faith, not having received the promises, but having seen
+> them afar off, and were persuaded of them, and embraced them, and confessed
+> that they were strangers and pilgrims on the earth.
+>
+> 14 For they that say such
+> things declare plainly that they seek a country.
+>
+> 15 And truly, if they had
+> been mindful of that country from whence they came out, they might have had
+> opportunity to have returned.
+>
+> 16 But now they desire a better country, that
+> is, an heavenly: wherefore God is not ashamed to be called their God: for he
+> hath prepared for them a city.
+
+And the other day I was pondering Alma 26:22, which was quoted a lot on my mission:
+
+> 22 Yea, he that repenteth and exerciseth faith, and bringeth forth good works,
+> and prayeth continually without ceasing—unto such it is given to know the
+> mysteries of God; yea, unto such it shall be given to reveal things which
+> never have been revealed; yea, and it shall be given unto such to bring
+> thousands of souls to repentance, even as it has been given unto us to bring
+> these our brethren to repentance
+
+On the mission it was referred to almost as a sort of "recipe"---if you do these
+things you _will_ baptize converts. But when I pondered that in the context of
+"faith to embrace uncertainty," I realized something interesting:
+Enos^[[One of the authors](https://www.churchofjesuschrist.org/study/scriptures/bofm/enos/1?lang=eng)
+of _The Book of Mormon_] also did all of the things mentioned in that verse,^[
+Repent and exercise faith:
+[The book of Enos, verses 1-8](https://www.churchofjesuschrist.org/study/scriptures/bofm/enos/1?lang=eng&id=p1-p8#p1).
+Do good works:
+[verses 19-20](https://www.churchofjesuschrist.org/study/scriptures/bofm/enos/1?lang=eng&id=p19-p20#p19).
+Pray continually, earnestly, and with sincerity:
+[verses 1-18](https://www.churchofjesuschrist.org/study/scriptures/bofm/enos/1?lang=eng&id=p1-p18#p1).]
+but he specifically says they were _unsuccessful_ in their attempts to teach the
+Lamanites.^[[Verse 20](https://www.churchofjesuschrist.org/study/scriptures/bofm/enos/1?lang=eng&id=p20#p20):
+"But our labors were vain"]
+
+I think the problem is that we impose our own ideas about how and when the Lord
+fulfills His promises. Instead, we need to have faith to embrace uncertainty.
+That's what drove Enos to keep going even when unsuccessful. I'm sure Satan
+wanted him to doubt himself, but he was able to say, "I know God will eventually
+redeem the Lamanites, but I don't know when or how, and that's ok." His faith to
+embrace uncertainty was what let him keep going.
+
+Now, there _is_ an element of certainty to faith. Alma says "if ye have faith,
+ye hope for that which is not seen, which is true." There must be some true idea
+in which we believe in order for us to have faith. But that's exactly where
+rejecting uncertainty undermines our faith: rejecting uncertainty leads us to
+hold _false_ beliefs, like "if I do the things in Alma 26:22 then I _will_
+baptize people on my mission." You can't have faith by believing something
+that's false. As Bruce R. McConkie put it, "there is no power in believing a
+false doctrine." Such belief is inert, and often a stumbling block.
