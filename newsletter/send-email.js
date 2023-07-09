@@ -70,6 +70,14 @@ if (wasPostedToday) {
     .then(([response, body]) => {
       console.log('Status Code:', response.statusCode);
       console.log('Response Body:', response.body);
+
+      // return client.request({
+      //   method: 'POST',
+      //   url: `/v3/marketing/singlesends/${response.body.id}`,
+      //   body: {
+      //     send_at: 'now'
+      //   }
+      // });
     })
     .catch(error => {
       console.error('Error:', error);
