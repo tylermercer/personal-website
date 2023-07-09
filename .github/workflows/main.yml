@@ -33,32 +33,28 @@ jobs:
           fi
 
       - name: Get changed files
-        if: steps.determine_mode.outputs.mode == 'check'
         id: changed_files
+        if: steps.determine_mode.outputs.mode == 'check'
         uses: tj-actions/changed-files@v35
 
       - name: Check for non-Markdown files
-        if: steps.determine_mode.outputs.mode == 'check'
         id: check_files
+        if: steps.determine_mode.outputs.mode == 'check'
         run: |
           non_markdown_files=$(echo "${{ steps.changed_files.outputs.modified_files }}" | grep -v '\.md$' || true)
           echo "non_markdown_files=$non_markdown_files" >> $GITHUB_OUTPUT
 
       - name: Build site
         id: build_site
+        if: steps.determine_mode.outputs.mode == 'always' || steps.check_files.outputs.non_markdown_files != ''
         run: |
-          if [[ "${{ steps.determine_mode.outputs.mode }}" == "always" || -n "${{ steps.check_files.outputs.non_markdown_files }}" ]]; then
-            npm install
-            npm run build
-            echo "result=built" >> $GITHUB_OUTPUT
-          else
-            echo "Skipping build step."
-            echo "result=skipped" >> $GITHUB_OUTPUT
-          fi
+          npm install
+          npm run build
+          echo "result=built" >> $GITHUB_OUTPUT
 
       - name: Extract variables
         id: extract_vars
-        shell: bash
+        if: steps.build_site.outputs.result == 'built'
         run: |
           echo "sha_short=$(git rev-parse --short HEAD)" >> $GITHUB_OUTPUT
           echo "datetime=$(date +'%Y-%m-%d %H:%M:%S')" >> $GITHUB_OUTPUT
