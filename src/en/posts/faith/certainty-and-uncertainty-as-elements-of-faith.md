@@ -66,15 +66,16 @@ And the other day I was pondering Alma 26:22, which was quoted a lot on my missi
 On the mission it was referred to almost as a sort of "recipe"---if you do these
 things you _will_ baptize converts. But when I pondered that in the context of
 "faith to embrace uncertainty," I realized something interesting:
-Enos^[[One of the authors](https://www.churchofjesuschrist.org/study/scriptures/bofm/enos/1?lang=eng)
-of _The Book of Mormon_] also did all of the things mentioned in that verse,^[
-Repent and exercise faith:
+[Enos](https://www.churchofjesuschrist.org/study/scriptures/bofm/enos/1?lang=eng)
+(one of the authors of the Book of Mormon) also did all of the things mentioned
+in that verse^[ Repent and exercise faith:
 [The book of Enos, verses 1-8](https://www.churchofjesuschrist.org/study/scriptures/bofm/enos/1?lang=eng&id=p1-p8#p1).
 Do good works:
 [verses 19-20](https://www.churchofjesuschrist.org/study/scriptures/bofm/enos/1?lang=eng&id=p19-p20#p19).
 Pray continually, earnestly, and with sincerity:
 [verses 1-18](https://www.churchofjesuschrist.org/study/scriptures/bofm/enos/1?lang=eng&id=p1-p18#p1).]
 but he specifically says they were _unsuccessful_ in their attempts to teach the
+then-unbelieving
 Lamanites.^[[Verse 20](https://www.churchofjesuschrist.org/study/scriptures/bofm/enos/1?lang=eng&id=p20#p20):
 "But our labors were vain"]
 
