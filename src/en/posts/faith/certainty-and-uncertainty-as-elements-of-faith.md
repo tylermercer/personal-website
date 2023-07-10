@@ -13,7 +13,20 @@ It started with the _Come, Follow Me_ study guide from a couple weeks
 back,^[Specifically, [the week on Matthew 8, Mark 2–4, and Luke 7](https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-individuals-and-families-new-testament-2023/10?lang=eng)]
 which referenced
 ["Accepting the Lord's Will and Timing"](https://www.churchofjesuschrist.org/study/liahona/2016/08/accepting-the-lords-will-and-timing?lang=eng),
-an article by Elder David A. Bednar. Then I found this quote from theologian
+an article by Elder David A. Bednar. In the article, Elder Bednar tells a
+heart-wrenching story of a newly-married young man who was diagnosed with
+cancer. He asked Elder Bednar to give him a blessing.^[In the Church of Jesus
+Christ of Latter-Day Saints, blessings are given by the authority of the God
+(called the priesthood), for purposes of healing the sick or providing counsel
+or comfort. These blessings are typically given at the request of the person in
+need, and are given by the laying on of hands, as described in the Bible (e.g.
+in
+[Mark 16:17-18](https://www.churchofjesuschrist.org/study/scriptures/nt/mark/16?lang=eng&id=17-18#p17)
+and
+[Acts 28:8](https://www.churchofjesuschrist.org/study/scriptures/nt/acts/28.8?lang=eng#p8)).
+]
+
+A day or two later, my wife and I came across this quote from theologian
 Richard Rohr:^[ Quoted by Brené Brown in _The Gifts of Imperfection_ ]
 
 > My scientist friends have come up with things like ‘principles of uncertainty’
@@ -80,3 +93,11 @@ hold _false_ beliefs, like "if I do the things in Alma 26:22 then I _will_
 baptize people on my mission." You can't have faith by believing something
 that's false. As Bruce R. McConkie put it, "there is no power in believing a
 false doctrine." Such belief is inert, and often a stumbling block.
+
+As an example, 
+
+Thus, we need to cultivate both the willingness to admit what we do not
+know---what is sometimes called epistemic humility---and the courage to hold
+firm convictions in what we do know. Jacob Hess discusses the need to balance
+these two ideas in
+[this excellent article in Public Square Magazine](https://publicsquaremag.org/faith/gospel-fare/conviction-is-no-sin/).
