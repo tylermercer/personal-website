@@ -1,6 +1,6 @@
 ---
 title: Certainty and Uncertainty as Elements of Faith
-description: Our faith is stronger when we can admit what we do not know
+description: Our faith is stronger when we can accept what we do not know
 date: Last Modified
 draft: true
 ---
@@ -9,7 +9,7 @@ Something I've been thinking about and have been encountering in the scriptures
 and elsewhere lately is how true faith requires us to _embrace_ uncertainty,
 when we often want to reject it.
 
-It started with the _Come, Follow Me_ study guide from a couple weeks
+It started with the _Come, Follow Me_ study guide from a few weeks
 back,^[Specifically, [the week on Matthew 8, Mark 2–4, and Luke 7](https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-individuals-and-families-new-testament-2023/10?lang=eng)]
 which referenced
 ["Accepting the Lord's Will and Timing"](https://www.churchofjesuschrist.org/study/liahona/2016/08/accepting-the-lords-will-and-timing?lang=eng),
@@ -25,6 +25,8 @@ in
 and
 [Acts 28:8](https://www.churchofjesuschrist.org/study/scriptures/nt/acts/28.8?lang=eng#p8)).
 ]
+
+**_TODO: Summarize_**
 
 A day or two later, my wife and I came across this quote from theologian
 Richard Rohr:^[ Quoted by Brené Brown in _The Gifts of Imperfection_ ]
@@ -81,10 +83,10 @@ Lamanites.^[[Verse 20](https://www.churchofjesuschrist.org/study/scriptures/bofm
 
 I think the problem is that we impose our own ideas about how and when the Lord
 fulfills His promises. Instead, we need to have faith to embrace uncertainty.
-That's what drove Enos to keep going even when unsuccessful. I'm sure Satan
+That's what enabled Enos to keep going even when unsuccessful. I'm sure Satan
 wanted him to doubt himself, but he was able to say, "I know God will eventually
 redeem the Lamanites, but I don't know when or how, and that's ok." His faith to
-embrace uncertainty was what let him keep going.
+embrace uncertainty was what let him press forward.
 
 Now, there _is_ an element of certainty to faith. Alma says "if ye have faith,
 ye hope for that which is not seen, which is true." There must be some true idea
@@ -95,10 +97,40 @@ baptize people on my mission." You can't have effectual faith by believing
 something that's false. As Bruce R. McConkie put it, "there is no power in
 believing a false doctrine." Such belief is inert, and often a stumbling block.
 
-As an example, 
-
 Thus, we need to cultivate both the willingness to admit what we do not
 know---what is sometimes called epistemic humility---and the courage to hold
 firm convictions in what we do know. Jacob Hess discusses the need to balance
 these two ideas in
 [this excellent article in Public Square Magazine](https://publicsquaremag.org/faith/gospel-fare/conviction-is-no-sin/).
+
+Hess mentions "epistemic humility as a barrier to new knowledge," or, in other
+words, being too certain that something is uncertain and not seeking further
+light. Certainly, this is something we should be wary of. The balance between
+certainty and uncertainty is a very nuanced one (as discussed in that article).
+
+However, particularly when it comes to how things will happen in the future, I
+believe that, in many cases, the way the Lord reveals additional knowledge is by
+allowing us to simply witness His will as events proceed, rather than revealing
+what will happen in detail to us beforehand. Desiring that the future be
+revealed to us "up front" can too easily become a stipulation on our continued
+faithful action. This is, ironically, a position of doubt:
+
+> [W]hen people doubt their beliefs, they often suspend their commitment to
+> commandments and covenants while waiting for answers. The doubter’s posture is
+> generally to withhold obedience or limit it, pending resolution of the doubts.
+>
+> ...
+>
+> [A key] problem with doubt is the intent to obey only _after_ the uncertainty
+> is resolved to the satisfaction of the
+> doubter.^[["When Doubts and Questions Arise,"](https://www.churchofjesuschrist.org/study/ensign/2015/03/when-doubts-and-questions-arise?lang=eng)
+> March
+2015 Ensign]
+
+As such, while we should seek knowledge, we should be open to that knowledge
+coming through experience rather than through a priori revelation.
+
+## An Example
+
+This exploration of uncertainty as an element of faith was brought about by a
+deeply personal experience.
