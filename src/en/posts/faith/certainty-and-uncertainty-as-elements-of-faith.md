@@ -91,9 +91,9 @@ ye hope for that which is not seen, which is true." There must be some true idea
 in which we believe in order for us to have faith. But that's exactly where
 rejecting uncertainty undermines our faith: rejecting uncertainty leads us to
 hold _false_ beliefs, like "if I do the things in Alma 26:22 then I _will_
-baptize people on my mission." You can't have faith by believing something
-that's false. As Bruce R. McConkie put it, "there is no power in believing a
-false doctrine." Such belief is inert, and often a stumbling block.
+baptize people on my mission." You can't have effectual faith by believing
+something that's false. As Bruce R. McConkie put it, "there is no power in
+believing a false doctrine." Such belief is inert, and often a stumbling block.
 
 As an example, 
 
