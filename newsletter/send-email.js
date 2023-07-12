@@ -9,6 +9,10 @@ require('dotenv').config();
 
 const beep = (...f) => console.log(...f) || f[0];
 
+const IS_DEV = !(process.env.NODE_ENV === 'production');
+
+console.log(IS_DEV ? "Running in dev mode" : "Running in prod mode");
+
 // Read the JSON feed
 const feedData = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'dist', 'feeds', 'feed.json'), 'utf8'));
 
@@ -28,7 +32,7 @@ if (wasPostedToday) {
     'faith': process.env.SENDGRID_SEGMENT_FAITH,
   }
 
-  console.log("Compiling email css....");
+  console.log("Building email html....");
 
   const css = sass.compile(path.join(__dirname, 'style.scss')).css;
 
@@ -51,59 +55,66 @@ if (wasPostedToday) {
 
   const format = (html, url, title) => {
     return juice(`
-    <style>
-    ${css}
-    </style>
-    <div class="article-content">
+      <style>
+      ${css}
+      </style>
+      <div class="article-content">
         <p>
           <small>
             <a href="${url}">View this article online</a>
           </small>
         </p>
-        <h1>${title}</h1>
+        <h1>TEST: ${title}</h1>
         ${removeFootnoteLinks(html)}
       </div>`);
   };
 
-  // Set up the API request
-  const request = {
+  const createReq = {
     method: 'POST',
     url: '/v3/marketing/singlesends',
     body: {
       name: latestPost.title,
       email_config: {
         html_content: format(latestPost.content_html, latestPost.url, latestPost.title),
-        subject: latestPost.title,
+        subject: 'TEST: ' + latestPost.title,
       },
       send_to: {
         segment_ids: [ segments[latestPost.category] ]
-      }
+      },
+      sent_at: 'now',
+      status: 'triggered'
     }
   };
 
   console.log("Creating Single Send....");
 
-  // Send the request
-  client.request(request)
+  client.request(createReq)
     .then(([response, body]) => {
-      console.log('Status Code:', response.statusCode);
-      console.log('Response Body:', response.body);
+      if (IS_DEV) {
+        console.log('Status Code:', response.statusCode);
+        console.log('Body:', response.body);
+      }
 
-      // return client.request({
-      //   method: 'POST',
-      //   url: `/v3/marketing/singlesends/${response.body.id}`,
-      //   body: {
-      //     send_at: 'now'
-      //   }
-      // });
+      var scheduleReq = {
+        method: 'PUT',
+        url: `/v3/marketing/singlesends/${response.body.id}/schedule`,
+        body: {
+          send_at: 'now'
+        }
+      };
+
+      if (!IS_DEV) {
+        console.log("Sending Single Send....");
+        console.log(scheduleReq)
+        return client.request(scheduleReq);
+      }
+      else {
+        console.log('Request to schedule:', scheduleReq);
+      }
     })
     .catch(error => {
       console.error('Error:', error);
     });
-
-  console.log("Sending Single Send....");
-
-  //TODO
 }
 else {
   console.log(`${latestPost.title} was not posted today; skipping email.`);
