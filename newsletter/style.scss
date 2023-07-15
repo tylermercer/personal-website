@@ -2,10 +2,13 @@
 
 /* Article content styles */
 .article-content {
-    font-family: Inter, Roboto, 'Helvetica Neue', 'Arial Nova', 'Nimbus Sans', Arial, sans-serif;
+    font-family: Charter, 'Bitstream Charter', 'Sitka Text', Cambria, serif;
     margin: 20px;
     line-height: 1.5;
     margin-bottom: 20px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: Inter, Roboto, 'Helvetica Neue', 'Arial Nova', 'Nimbus Sans', Arial, sans-serif;
 }
 
 .article-content p {
