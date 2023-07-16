@@ -11,11 +11,12 @@
     "build:sass-pages": "sass  --no-source-map src/sass/pages:dist/css",
     "build:eleventy": "eleventy",
     "start": "npm-run-all build:sass-global build:sass-pages --parallel watch:*",
-    "build:dev": "npm-run-all build:sass-global build:sass-pages build:eleventy partytown",
+    "build:dev": "npm-run-all build:sass-global build:sass-pages build:eleventy cf-analytics partytown",
     "build": "cross-env NODE_ENV=production npm run build:dev",
     "clean": "del-cli dist",
     "postinstall": "patch-package",
-    "partytown": "partytown copylib dist/~partytown"
+    "partytown": "partytown copylib dist/~partytown",
+    "cf-analytics": "curl -o ./dist/beacon.min.js https://static.cloudflareinsights.com/beacon.min.js"
   },
   "keywords": [],
   "author": "",
