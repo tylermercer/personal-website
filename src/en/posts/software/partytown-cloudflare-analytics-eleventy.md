@@ -64,7 +64,7 @@ find and offload this script. Your document head should now look like this:
     <script>
       {{- partytown.snippet | safe -}}
     </script>
-    <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "6a72187972844110ba59868a8dca8e54"}'></script>
+    <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "..."}'></script>
 ```
 
 (Note: I left the `defer` attribute as recommended by the Cloudflare docs, but
