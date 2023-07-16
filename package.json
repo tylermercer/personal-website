@@ -11,10 +11,11 @@
     "build:sass-pages": "sass  --no-source-map src/sass/pages:dist/css",
     "build:eleventy": "eleventy",
     "start": "npm-run-all build:sass-global build:sass-pages --parallel watch:*",
-    "build:dev": "npm-run-all build:sass-global build:sass-pages build:eleventy",
+    "build:dev": "npm-run-all build:sass-global build:sass-pages build:eleventy partytown",
     "build": "cross-env NODE_ENV=production npm run build:dev",
     "clean": "del-cli dist",
-    "postinstall": "patch-package"
+    "postinstall": "patch-package",
+    "partytown": "partytown copylib dist/~partytown"
   },
   "keywords": [],
   "author": "",
@@ -38,5 +39,8 @@
     "patch-package": "^7.0.0",
     "prism-themes": "^1.9.0",
     "sass": "^1.57.1"
+  },
+  "dependencies": {
+    "@builder.io/partytown": "^0.8.0"
   }
 }
