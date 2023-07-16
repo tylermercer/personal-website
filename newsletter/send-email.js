@@ -18,8 +18,8 @@ const feedData = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'dist', '
 
 const latestPost = feedData.items[0];
 
-//Check date
-const wasPostedToday = new Date().toISOString().split('T')[0] == latestPost.date_published.split('T')[0];
+//Ensure date was within last 24 hours (treat date as UTC-7)
+const wasPostedToday = beep(new Date(latestPost.date_published)) > beep(new Date(Date.now() - (24 + 7)*60*60*1000))
 
 if (wasPostedToday) {
   console.log(`${latestPost.title} was posted today!`);
