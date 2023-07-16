@@ -71,3 +71,6 @@ find and offload this script. Your document head should now look like this:
 I'm not actually sure it does anything when Partytown is running your scripts.
 If anyone knows the answer to this, please [shoot me an email!](/contact/))
 
+## Copy Partytown's other JS files into your built site
+
+## Self-serve Cloudflare Web Analytics
