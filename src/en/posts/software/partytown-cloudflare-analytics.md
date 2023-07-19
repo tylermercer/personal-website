@@ -14,7 +14,7 @@ which I mentioned in
 
 This got me wondering if I could move Cloudflare Web Analytics off of the main
 thread on this site. Cloudflare Web Analytics is a great analytics platform, but
-it caused my site to lose its perfect score on
+adding it caused my site to lose its perfect score on
 [pagespeed.web.dev](https://pagespeed.web.dev). So, turning a willfully blind
 eye to [Goodhart's Law](https://en.wikipedia.org/wiki/Goodhart%27s_law), I
 decided to give Partytown a shot.
@@ -53,6 +53,10 @@ In your site's `head`, add the following. Make sure it is placed before any thir
       {% raw %}{{- partytown.snippet | safe -}}{% endraw %}
 </script>
 ```
+
+(Note: I'm using the
+[Nunjucks templating language](https://www.11ty.dev/docs/languages/nunjucks/)
+here.)
 
 Move your Cloudflare Analytics script tag to immediately follow this new script
 tag, and add a `type` attribute of `text/partytown`. This allows Partytown to
