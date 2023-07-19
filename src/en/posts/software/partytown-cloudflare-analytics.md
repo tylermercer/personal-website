@@ -34,8 +34,8 @@ Here's how you can do the same for your website.
 First off, install `@builder.io/partytown` using NPM or your package manager of
 choice. This package includes a script that we'll need to inline in our page.
 
-To access the Partytown script source from within your site's templating, you
-can add it as global data. In your site's `_data` folder, create a
+To access the Partytown script source from within your site's templating in
+Eleventy, you can add it as global data. In your site's `_data` folder, create a
 [JS data file](https://www.11ty.dev/docs/data-js/) called `partytown.js`, with
 the following contents:
 
@@ -57,6 +57,8 @@ In your site's `head`, add the following. Make sure it is placed before any thir
 (Note: I'm using the
 [Nunjucks templating language](https://www.11ty.dev/docs/languages/nunjucks/)
 here.)
+
+**_TODO: exlplain that this will look different in other frameworks._**
 
 Move your Cloudflare Analytics script tag to immediately follow this new script
 tag, and add a `type` attribute of `text/partytown`. This allows Partytown to
