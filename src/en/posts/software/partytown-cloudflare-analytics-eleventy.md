@@ -1,6 +1,6 @@
 ---
-title: Using Partytown to run Cloudflare Analytics in a Web Worker in Eleventy
-description: Boost your Eleventy blog's Pagespeed score with this one weird trick
+title: Using Partytown to run Cloudflare Analytics in a Web Worker
+description: Boost your blog's Pagespeed score with this one weird trick
 draft: true
 ---
 Today [my brother](https://danmercer.net) shared
@@ -56,20 +56,20 @@ In your site's `head`, add the following. Make sure it is placed before any thir
 
 Move your Cloudflare Analytics script tag to immediately follow this new script
 tag, and add a `type` attribute of `text/partytown`. This allows Partytown to
-find and offload this script. Your document head should now look like this:
+find and offload this script. Your document head should now look like this:^[ I
+left the `defer` attribute as recommended by the Cloudflare docs, but I'm not
+actually sure it does anything when Partytown is running your scripts. If anyone
+knows the answer to this, please [shoot me an email!](/contact/)]
 
-```
+```html
 <head>
     <!-- Other contents... -->
     <script>
       {% raw %}{{- partytown.snippet | safe -}}{% endraw %}
     </script>
     <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "..."}'></script>
+</head>
 ```
-
-(Note: I left the `defer` attribute as recommended by the Cloudflare docs, but
-I'm not actually sure it does anything when Partytown is running your scripts.
-If anyone knows the answer to this, please [shoot me an email!](/contact/))
 
 ## Copy Partytown's other JS files into your built site
 
