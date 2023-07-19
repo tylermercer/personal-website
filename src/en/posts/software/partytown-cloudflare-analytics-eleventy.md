@@ -50,7 +50,7 @@ In your site's `head`, add the following. Make sure it is placed before any thir
 
 ```html
 <script>
-      {{- partytown.snippet | safe -}}
+      {% raw %}{{- partytown.snippet | safe -}}{% endraw %}
 </script>
 ```
 
@@ -62,7 +62,7 @@ find and offload this script. Your document head should now look like this:
 <head>
     <!-- Other contents... -->
     <script>
-      {{- partytown.snippet | safe -}}
+      {% raw %}{{- partytown.snippet | safe -}}{% endraw %}
     </script>
     <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "..."}'></script>
 ```
