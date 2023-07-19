@@ -5,31 +5,82 @@ date: Last Modified
 draft: true
 ---
 
-Something I've been thinking about and have been encountering in the scriptures
-and elsewhere lately is how true faith requires us to _embrace_ uncertainty,
-when we often want to reject it.
+A month and a half ago, my wife and I had a miscarriage scare.
 
-It started with the _Come, Follow Me_ study guide from a few weeks
-back,^[Specifically, [the week on Matthew 8, Mark 2–4, and Luke 7](https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-individuals-and-families-new-testament-2023/10?lang=eng)]
-which referenced
+_Not again. Not this time._ After trying to conceive for about ten months,
+during which time we had already had one miscarriage, we were finally pregnant.
+We saw it as a blessing from God, and had rejoiced in His goodness in answering
+our prayers. But now, everything was uncertain and
+unclear.
+
+Three months prior, my wife and I were grappling with the uncertainty of
+fertility treatments. What if they did not work? What about the side
+effects---which could affect both my wife and our future children? What if we
+ended up needing to adopt? How would we afford it? When should we decide to
+focus on adoption instead of fertility treatments?
+
+Above all, what about the promises the Lord had made to us? Both of our
+patriarchal blessings^[ A
+[patriarchal blessing](https://history.churchofjesuschrist.org/faq/library/patriarchal-blessings?lang=eng)
+is a blessing, or inspired declaration, given to each worthy member of the
+Church of Jesus Christ of Latter-day Saints, by the authority of the God (called
+the priesthood). A patriarchal blessing typically includes statements about a
+person's future spiritual experiences, as well as providing insight into the
+person's spiritual gifts (attributes such as faith or wisdom, given to a person
+to benefit others) and declaring their lineage among the descendants of one of
+the twelve sons of the biblical Israel. ] mention us having children, and in the
+covenant^[A covenant is a two-way promise between God and a human or humans, with conditions set forth by Him in His love and mercy.]
+given to Abraham^[ See
+"[Abrahamic Covenant](https://www.churchofjesuschrist.org/study/manual/gospel-topics/abrahamic-covenant?lang=eng)"
+], we are promised posterity.^[ See
+[Gen. 17:5-7](https://www.churchofjesuschrist.org/study/scriptures/ot/gen/17?lang=eng&id=5-7#p5).
+God made this covenant with Abraham and with "[his] seed after [him] in their
+generations for an everlasting covenant," covenanting that "[God] will make
+[them] exceeding fruitful, and nations shall come out of [them]".] We believed
+that God would bless us with children. But I began to wonder if my faith was
+insufficient. Perhaps, I reasoned, I could receive this blessing if I would just
+believe _firmly enough_. I felt frustrated with myself for what seemed like an
+inability to exert more faith.
+
+But then my wife and I read
 ["Accepting the Lord's Will and Timing"](https://www.churchofjesuschrist.org/study/liahona/2016/08/accepting-the-lords-will-and-timing?lang=eng),
-an article by Elder David A. Bednar. In the article, Elder Bednar tells a
-heart-wrenching story of a newly-married young man who was diagnosed with
-cancer. He asked Elder Bednar to give him a blessing.^[In the Church of Jesus
-Christ of Latter-Day Saints, blessings are given by the authority of the God
-(called the priesthood), for purposes of healing the sick or providing counsel
+an article by Elder David A. Bednar.^[ We came across this article through the
+[_Come, Follow Me_ study guide for Matthew 8, Mark 2–4, and Luke 7](https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-individuals-and-families-new-testament-2023/10?lang=eng)
+] In the article, Elder Bednar tells a heart-wrenching story of a newly-married
+young man named John, who was diagnosed with cancer. He asked Elder Bednar to
+give him a blessing.^[In the Church of Jesus Christ of Latter-Day Saints,
+blessings are often given for purposes of healing the sick or providing counsel
 or comfort. These blessings are typically given at the request of the person in
 need, and are given by the laying on of hands, as described in the Bible (e.g.
 in
 [Mark 16:17-18](https://www.churchofjesuschrist.org/study/scriptures/nt/mark/16?lang=eng&id=17-18#p17)
 and
 [Acts 28:8](https://www.churchofjesuschrist.org/study/scriptures/nt/acts/28.8?lang=eng#p8)).
-]
+] As Elder Bednar talked with him, he felt inspired to ask the young man if he
+had the faith to _not_ be healed:
 
-**_TODO: Summarize_**
+> “John, do you have the faith not to be healed? If it is the will of our
+> Heavenly Father that you are transferred by death in your youth to the spirit
+> world to continue your ministry, do you have the faith to submit to His will
+> and not be healed?”
+>
+> Frequently in the scriptures, the Savior or His servants
+> exercised the spiritual gift of healing and perceived that an individual had
+> the faith to be healed. But as John and Heather and I counseled together and
+> wrestled with these questions, we increasingly understood that if God’s will
+> were for this good young man to be healed, then that blessing could be
+> received only if this valiant couple first had the faith not to be healed. In
+> other words, John and Heather needed to overcome, through the Atonement of the
+> Lord Jesus Christ, the “natural man”
+> ([Mosiah 3:19](https://www.churchofjesuschrist.org/study/scriptures/bofm/mosiah/3.19?lang=eng#p19))
+> tendency in all of us to demand impatiently and insist incessantly on the
+> blessings we want and believe we deserve.
 
-A day or two later, my wife and I came across this quote from theologian
-Richard Rohr:^[ Quoted by Brené Brown in _The Gifts of Imperfection_ ]
+That's a lot to accept. Certainly (and gratefully!), neither Evelyn nor I had
+cancer, but our situation was nonetheless similar in kind, if not in extremity.
+
+Later that week, we read part of _The Gifts of Imperfection_ by Brené Brown, and
+came to the section on faith. In it, Brown quotes theologian Richard Rohr:
 
 > My scientist friends have come up with things like ‘principles of uncertainty’
 > and dark holes. They’re willing to live inside imagined hypotheses and
@@ -38,12 +89,16 @@ Richard Rohr:^[ Quoted by Brené Brown in _The Gifts of Imperfection_ ]
 > ‘faith’! How strange that the very word ‘faith’ has come to mean its exact
 > opposite.
 
-Since then, that idea of "faith to embrace uncertainty" seems to be popping up
-everywhere. Like Hebrews 11:13-16:
+That was the kind of faith John and Heather had had to exercise. **Faith to
+accept, acknowledge, and perhaps even embrace uncertainty.**
 
-> 13 These all died in faith, not having received the promises, but having seen
-> them afar off, and were persuaded of them, and embraced them, and confessed
-> that they were strangers and pilgrims on the earth.
+As I pondered and studied that idea in the following weeks, I saw it everywhere,
+such as in Hebrews 11:13-16:
+
+> 13 These [the individuals Paul mentions in the preceding verses] all died in
+> faith, not having received the promises, but having seen them afar off, and
+> were persuaded of them, and embraced them, and confessed that they were
+> strangers and pilgrims on the earth.
 >
 > 14 For they that say such
 > things declare plainly that they seek a country.
@@ -56,7 +111,8 @@ everywhere. Like Hebrews 11:13-16:
 > is, an heavenly: wherefore God is not ashamed to be called their God: for he
 > hath prepared for them a city.
 
-And the other day I was pondering Alma 26:22, which was quoted a lot on my mission:
+A few days later, I was reminded of Alma 26:22, which was quoted a lot on my
+mission:
 
 > 22 Yea, he that repenteth and exerciseth faith, and bringeth forth good works,
 > and prayeth continually without ceasing—unto such it is given to know the
@@ -68,25 +124,34 @@ And the other day I was pondering Alma 26:22, which was quoted a lot on my missi
 On the mission it was referred to almost as a sort of "recipe"---if you do these
 things you _will_ baptize converts. But when I pondered that in the context of
 "faith to embrace uncertainty," I realized something interesting:
-[Enos](https://www.churchofjesuschrist.org/study/scriptures/bofm/enos/1?lang=eng)
-(one of the authors of the Book of Mormon) also did all of the things mentioned
-in that verse^[ Repent and exercise faith:
-[The book of Enos, verses 1-8](https://www.churchofjesuschrist.org/study/scriptures/bofm/enos/1?lang=eng&id=p1-p8#p1).
-Do good works:
-[verses 19-20](https://www.churchofjesuschrist.org/study/scriptures/bofm/enos/1?lang=eng&id=p19-p20#p19).
-Pray continually, earnestly, and with sincerity:
-[verses 1-18](https://www.churchofjesuschrist.org/study/scriptures/bofm/enos/1?lang=eng&id=p1-p18#p1).]
-but he specifically says they were _unsuccessful_ in their attempts to teach the
+Enos^[one of the authors of the Book of Mormon, who wrote [one powerful and well-known chapter](https://www.churchofjesuschrist.org/study/scriptures/bofm/enos/1?lang=eng)]
+_also_ did all of the things mentioned in that verse:
+
+* Repent and exercise faith:
+  [verses 1-8 of his record](https://www.churchofjesuschrist.org/study/scriptures/bofm/enos/1?lang=eng&id=p1-p8#p1).
+* Do good works:
+  [verses 19-20](https://www.churchofjesuschrist.org/study/scriptures/bofm/enos/1?lang=eng&id=p19-p20#p19).
+* Pray continually, earnestly, and with sincerity:
+  [verses 1-18](https://www.churchofjesuschrist.org/study/scriptures/bofm/enos/1?lang=eng&id=p1-p18#p1).]
+
+But he specifically says they were _unsuccessful_ in their attempts to teach the
 then-unbelieving
 Lamanites.^[[Verse 20](https://www.churchofjesuschrist.org/study/scriptures/bofm/enos/1?lang=eng&id=p20#p20):
-"But our labors were vain"]
+"But our labors were vain"] The promise in Alma 26 wasn't fulfilled for Enos
+until 330 years later (when, ironically, the great teacher Ammon uttered the
+words previously quoted from Alma 26).
 
-I think the problem is that we impose our own ideas about how and when the Lord
-fulfills His promises. Instead, we need to have faith to embrace uncertainty.
-That's what enabled Enos to keep going even when unsuccessful. I'm sure Satan
-wanted him to doubt himself, but he was able to say, "I know God will eventually
-redeem the Lamanites, but I don't know when or how, and that's ok." His faith to
-embrace uncertainty was what let him press forward.
+## Overcoming Gumball-Machine Faith
+
+**_TODO: quote Elder Christofferson?_**
+
+The problem with this sort of "recipe" thinking is that we impose our own ideas
+about how and when the Lord fulfills His promises. Instead, we need to have
+faith to embrace uncertainty. That's what enabled Enos to keep going even when
+unsuccessful. I'm sure Satan wanted him to doubt himself, but he was able to
+say, "I know God will eventually redeem the Lamanites, but I don't know when or
+how, and that's ok." His faith to embrace uncertainty was what let him press
+forward.
 
 Now, there _is_ an element of certainty to faith. Alma says "if ye have faith,
 ye hope for that which is not seen, which is true." There must be some true idea
@@ -129,8 +194,3 @@ faithful action. This is, ironically, a position of doubt:
 
 As such, while we should seek knowledge, we should be open to that knowledge
 coming through experience rather than through a priori revelation.
-
-## An Example
-
-This exploration of uncertainty as an element of faith was brought about by a
-deeply personal experience.
