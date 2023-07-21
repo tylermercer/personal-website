@@ -156,7 +156,7 @@ mission:
 On my mission, this scripture was interpreted almost as a sort of "recipe"---if
 you do these things you _will_ baptize converts. But when I considered it in the
 context of "faith to accept uncertainty," I realized something interesting:
-Enos^[one of the authors of the Book of Mormon, who wrote [one powerful and well-known chapter](https://www.churchofjesuschrist.org/study/scriptures/bofm/enos/1?lang=eng)]
+Enos^[One of the authors of the Book of Mormon, who wrote [one powerful and well-known chapter](https://www.churchofjesuschrist.org/study/scriptures/bofm/enos/1?lang=eng)]
 _also_ did all of the things mentioned in that verse:
 
 * Repent and exercise faith:
