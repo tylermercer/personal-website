@@ -38,7 +38,9 @@ generations for an everlasting covenant," covenanting that "[God] will make
 [them] exceeding fruitful, and nations shall come out of [them]".] We believed
 that God would bless us with children. But I began to wonder if my faith was
 insufficient. There are many many scriptures that connect miracles with faith.
-For example, chapter 12 of the book of Ether contains the following promises:
+For example,
+[chapter 12 of the book of Ether](https://www.churchofjesuschrist.org/study/scriptures/bofm/ether/12?lang=eng)
+contains the following promises:
 
 > **9** Wherefore, ye may also have hope, and be partakers of the gift, if ye will but have faith.
 >
