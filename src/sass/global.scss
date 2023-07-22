@@ -93,7 +93,15 @@ blockquote {
     margin: 1rem 0;
     background: var(--color-gray-3);
     padding: 1rem;
+    margin-trim: block;
     code {
         border-color: var(--color-primary-8);
+    }
+    //Fallbacks for margin-trim
+    & > :first-child {
+        margin-top: 0;
+    }
+    & > :last-child {
+        margin-bottom: 0;
     }
 }
