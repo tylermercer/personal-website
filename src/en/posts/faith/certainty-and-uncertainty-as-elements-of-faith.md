@@ -28,8 +28,8 @@ person's future spiritual experiences, as well as providing insight into the
 person's spiritual gifts (attributes such as faith or wisdom, given to a person
 to benefit others) and declaring their lineage among the descendants of one of
 the twelve sons of the biblical Israel. ] mention us having children, and in the
-covenant^[A covenant is a two-way promise between God and a human or humans, with conditions set forth by Him in His love and mercy.]
-given to Abraham^[ See
+covenant^[A covenant is a two-way promise between God and a human or humans,
+with conditions set forth by Him in His love and mercy.] given to Abraham^[ See
 "[Abrahamic Covenant](https://www.churchofjesuschrist.org/study/manual/gospel-topics/abrahamic-covenant?lang=eng)"
 ], we are promised posterity.^[ See
 [Gen. 17:5-7](https://www.churchofjesuschrist.org/study/scriptures/ot/gen/17?lang=eng&id=5-7#p5).
