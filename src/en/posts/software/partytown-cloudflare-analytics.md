@@ -3,6 +3,11 @@ title: Using Partytown to run Cloudflare Analytics in a Web Worker
 description: Boost your blog's Pagespeed score with this one weird trick
 draft: true
 ---
+
+**_TODO: transition to "You don't need Partytown to make Cloudflare Web Analytics faster"_**
+
+**_Use [this link](https://without-partytown.tylermercer.pages.dev/) and [this link](https://add-partytown.tylermercer.pages.dev/)_**
+
 Today [my brother](https://danmercer.net) shared
 [this article](https://dev.to/adamdbradley/how-partytown-s-sync-communication-works-4244)
 about Partytown's clever way of communicating from a web worker to the main
