@@ -3,9 +3,12 @@
 /* Article content styles */
 .article-content {
     font-family: Charter, 'Bitstream Charter', 'Sitka Text', Cambria, serif;
-    margin: 20px;
+    padding: 20px;
     line-height: 1.5;
     margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 60rem;
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: Inter, Roboto, 'Helvetica Neue', 'Arial Nova', 'Nimbus Sans', Arial, sans-serif;
