@@ -91,3 +91,16 @@ jobs:
         if: github.event_name == 'schedule'
         run: |
           npm run send-email
+  
+  send-email:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        id: checkout_repo
+        uses: actions/checkout@v3
+
+      - name: Send email if needed
+        id: send_email
+        run: |
+          npm install
+          npm run send-email
