@@ -4,22 +4,23 @@ const client = require('@sendgrid/client');
 const juice = require('juice');
 const sass = require('sass');
 const cheerio = require('cheerio');
+const argv = require('minimist')(process.argv.slice(2));
 
 require('dotenv').config();
 
+
 const beep = (...f) => console.log(...f) || f[0];
 
-const IS_DEV = !(process.env.NODE_ENV === 'production');
+console.log(!argv.prod ? "Running in dev mode" : "Running in prod mode");
 
-console.log(IS_DEV ? "Running in dev mode" : "Running in prod mode");
-
+process.exit();
 function processFeedData(feedData) {
   const latestPost = feedData.items[0];
   
   //Ensure date was within last 24 hours (treat date as UTC-7)
   const wasPostedToday = beep(new Date(latestPost.date_published)) > beep(new Date(Date.now() - (24 + 7)*60*60*1000))
   
-  if (wasPostedToday) {
+  if (wasPostedToday || argv.skipDateCheck) {
     console.log(`${latestPost.title} was posted today!`);
   
     client.setApiKey(process.env.SENDGRID_API_KEY);
@@ -109,7 +110,7 @@ function processFeedData(feedData) {
           }
         };
   
-        if (!IS_DEV) {
+        if (argv.prod || argv.send) {
           console.log("Sending Single Send....");
           console.log(scheduleReq)
           return client.request(scheduleReq);
