@@ -9,7 +9,7 @@
     "preview": "astro preview",
     "astro": "astro",
     "send-email:dev": "node ./newsletter/send-email.js",
-    "send-email": "cross-env NODE_ENV=production npm run send-email:dev",
+    "send-email": "node ./newsletter/send-email.js --prod",
     "clean": "del-cli dist"
   },
   "dependencies": {
@@ -29,6 +29,7 @@
     "markdown-it": "^13.0.2",
     "markdown-it-anchor": "^8.6.7",
     "markdown-it-footnote": "^3.0.3",
+    "minimist": "^1.2.8",
     "node-fetch": "^2.0.0",
     "prism-themes": "^1.9.0",
     "remark-footnotes": "^4.0.1",
