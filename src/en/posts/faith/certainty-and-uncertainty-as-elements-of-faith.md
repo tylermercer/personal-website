@@ -42,7 +42,8 @@ For example,
 [chapter 12 of the book of Ether](https://www.churchofjesuschrist.org/study/scriptures/bofm/ether/12?lang=eng)
 contains the following promises:
 
-> **9** Wherefore, ye may also have hope, and be partakers of the gift, if ye will but have faith.
+> **9** Wherefore, ye may also have hope, and be partakers of the gift, if ye
+> will but have faith.
 >
 > ...
 >
@@ -158,7 +159,8 @@ mission:
 On my mission, this scripture was interpreted almost as a sort of "recipe"---if
 you do these things you _will_ baptize converts. But when I considered it in the
 context of "faith to accept uncertainty," I realized something interesting:
-Enos^[One of the authors of the Book of Mormon, who wrote [one powerful and well-known chapter](https://www.churchofjesuschrist.org/study/scriptures/bofm/enos/1?lang=eng)]
+Enos^[One of the authors of the Book of Mormon, who wrote
+[one powerful and well-known chapter](https://www.churchofjesuschrist.org/study/scriptures/bofm/enos/1?lang=eng)]
 _also_ did all of the things mentioned in that verse:
 
 * Repent and exercise faith:
@@ -168,47 +170,82 @@ _also_ did all of the things mentioned in that verse:
 * Pray continually, earnestly, and with sincerity:
   [verses 1-18](https://www.churchofjesuschrist.org/study/scriptures/bofm/enos/1?lang=eng&id=p1-p18#p1).
 
-But he specifically says he and his fellow missionaries were _unsuccessful_ in
-their attempts to teach the then-unbelieving
-Lamanites.^[[Verse 20](https://www.churchofjesuschrist.org/study/scriptures/bofm/enos/1?lang=eng&id=p20#p20):
-"But our labors were vain"] The promise in Alma 26 wasn't fulfilled for Enos
-until 330 years later (when, ironically, the great teacher Ammon uttered the
-words previously quoted from Alma 26).
+However, Enos specifically says he and his fellow missionaries were
+_unsuccessful_ in their attempts to teach the then-unbelieving
+Lamanites^[[Verse 20](https://www.churchofjesuschrist.org/study/scriptures/bofm/enos/1?lang=eng&id=p20#p20):
+"But our labors were vain"]. The promise in Alma 26 wasn't fulfilled for Enos
+until 330 years later (which, ironically, was the occasion for the great teacher
+Ammon uttering the words previously quoted from Alma 26). Faith to embrace
+uncertainty is what enabled Enos to keep going even when he did not obtain the
+outcome he hoped for. I'm sure Satan wanted him to doubt himself, but he was
+able to say, "I know God will eventually redeem the Lamanites, but I don't know
+when or how, and that's ok."
 
-## Gumball-Machine “Faith” is Limiting
+## “Cosmic-Vending-Machine Faith”
 
-**_TODO: quote Elder Christofferson?_**
+Elder D. Todd Christofferson of the Quorum of the Twelve Apostles shared the
+following in
+[a conference talk in April 2022](https://www.churchofjesuschrist.org/study/general-conference/2022/04/41christofferson?lang=eng):
 
-The problem with this sort of "recipe" thinking is that we impose our own ideas
-about how and when the Lord fulfills His promises. Instead, we need to have
-faith to embrace uncertainty. That's what enabled Enos to keep going even when
-unsuccessful. I'm sure Satan wanted him to doubt himself, but he was able to
-say, "I know God will eventually redeem the Lamanites, but I don't know when or
-how, and that's ok." His faith to embrace uncertainty was what let him press
-forward.
+> Some misunderstand the promises of God to mean that obedience to
+> [or, in this case, faith in] Him yields specific outcomes on a fixed schedule.
+> ... But things are not so mechanical in the divine economy. We ought not to
+> think of God’s plan as a cosmic vending machine where we select a desired
+> blessing, insert the required sum of good works, and the order is
+> promptly delivered.
 
-**_TODO: break out knowledge, faith, and false certainty using the JTB model._**
+**TODO: continue this line of thought, perhaps tying in "faith in Christ and not
+in outcomes"**
 
 ## Certainty and Uncertainty
 
-Now, there _is_ an element of certainty to faith. Alma says "if ye have faith,
-ye hope for that which is not seen, _which is true_."^[
-[Alma 32:21](https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/32?lang=eng&id=p21#p21),
-emphasis mine.] There must be some true idea in which we believe in order for us
-to have faith. But that's exactly where rejecting uncertainty undermines our
-faith: rejecting uncertainty leads us to hold _false_ beliefs, like "if I do the
-things in Alma 26:22 then I _will_ baptize people on my mission." You can't have
-effectual faith by believing something that's false. As Bruce R. McConkie put
-it, "there is no power in believing a false doctrine." Such belief is inert, and
-often a stumbling block.
+There _is_ an element of certainty in effectual faith. This can be seen in
+[Alma 32:21](https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/32?lang=eng&id=p21#p21):
+
+> And now as I said concerning faith---faith is not to have a perfect knowledge
+> of things; therefore if ye have faith ye hope for things which are not seen,
+> which are true.
+
+There must be some true idea in which we believe in order for us to have faith.
+But that's exactly where rejecting uncertainty undermines our faith: rejecting
+uncertainty leads us to hold _false_ beliefs, like "if I do the things in Alma
+26:22 then I _will_ baptize people on my mission." You can't have effectual
+faith by believing something that's false. As Bruce R. McConkie put it, "there
+is no power in believing a false doctrine." Such belief is inert, and often a
+stumbling block.
+
+To see why false certainty is a hindrance, I found it helpful to examine
+knowledge, faith, and false certainty using the _justified true belief_ (JTB)
+model of knowledge. These three qualities---truth, belief of that truth, and
+justification of that belief---are necessary components of knowledge.
+
+If knowledge is _justified_ true belief, faith is, inherently, _unjustified_
+true belief. This can be seen in the verse from Alma 21 quoted earlier---faith
+is a belief in "things which are not seen," or, in other words, not justified.
+If truth, belief, and justification are necessary components of knowledge, then
+truth, belief, and _a lack of justification_ are equally necessary components of
+faith. As Alma says in the same chapter: "if a man knoweth a thing he hath no
+cause to believe [meaning no cause to exert faith], for he knoweth it."
+
+The third case, false certainty, is unjustified _false_ belief. **TODO: elaborate**
+
+**TODO: expand on why false certainty eventually leads to stagnation, pride, and
+disbelief, e.g. "it is not reasonable that such a being as Christ shall come".
+Perhaps rework Hess article and doubt quote into here, or move into its own
+section.**
 
 Thus, we need to cultivate _both_ the willingness to admit what we do not
 know---what is sometimes called epistemic humility---_and_ the courage to hold
-firm convictions in what we do know. It is what Ross Ellenhorn calls a _both-and
-proposition_,^[_How We Change (And Ten Reasons Why We Don't)_] not an either-or.
+firm convictions in what we do know. It is a delicate interaction, of the kind
+that Ross Ellenhorn refers to as a _both-and proposition_,^[_How We Change (And
+Ten Reasons Why We Don't)_] as opposed to an either-or proposition.
 
-Jacob Hess discusses the need to balance these two ideas in
+Jacob Hess discusses this delicate balance in
 [this excellent article in Public Square Magazine](https://publicsquaremag.org/faith/gospel-fare/conviction-is-no-sin/).
+He warns of prioritizing either of these ideas at the cost of the other:
+
+> **TODO: quote Hess?**
+
 Hess mentions "epistemic humility as a barrier to new knowledge," or, in other
 words, being too certain that something is uncertain and not seeking further
 light. Certainly, this is something we should be wary of. The balance between
