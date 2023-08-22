@@ -15,7 +15,7 @@ programming. You may begin to develop a loathing for OOP. 😉)
 
 **[Don't sync state. Derive it!](https://kentcdodds.com/blog/dont-sync-state-derive-it)**
 If you are constantly having to remember to update one piece of state
-(e.g. the status of the steps passed into the StepDisplay) when another piece of state changes (e.g.
+(e.g. the status of the steps passed into a Stepper) when another piece of state changes (e.g.
 the step you're currently on), that's a good sign that one of those pieces of state should be derived
 from the other (e.g. `private List<Step> Steps => /* compute step statuses for current step */`).
 
