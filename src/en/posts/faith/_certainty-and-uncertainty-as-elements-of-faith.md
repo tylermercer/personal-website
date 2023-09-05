@@ -181,22 +181,6 @@ outcome he hoped for. I'm sure Satan wanted him to doubt himself, but he was
 able to say, "I know God will eventually redeem the Lamanites, but I don't know
 when or how, and that's ok."
 
-## “Cosmic-Vending-Machine Faith”
-
-Elder D. Todd Christofferson of the Quorum of the Twelve Apostles shared the
-following in
-[a conference talk in April 2022](https://www.churchofjesuschrist.org/study/general-conference/2022/04/41christofferson?lang=eng):
-
-> Some misunderstand the promises of God to mean that obedience to
-> [or, in this case, faith in] Him yields specific outcomes on a fixed schedule.
-> ... But things are not so mechanical in the divine economy. We ought not to
-> think of God’s plan as a cosmic vending machine where we select a desired
-> blessing, insert the required sum of good works, and the order is
-> promptly delivered.
-
-**TODO: continue this line of thought, perhaps tying in "faith in Christ and not
-in outcomes"**
-
 ## Certainty and Uncertainty
 
 There _is_ an element of certainty in effectual faith. This can be seen in
