@@ -236,8 +236,7 @@ He warns of prioritizing either of these ideas at the cost of the other:
 
 Hess mentions "epistemic humility as a barrier to new knowledge," or, in other
 words, being too certain that something is uncertain and not seeking further
-light. Certainly, this is something we should be wary of. The balance between
-certainty and uncertainty is a very nuanced one (as discussed in that article).
+light. Certainly, this is something we should be wary of.
 
 However, particularly when it comes to how things will happen in the future, I
 believe that the way the Lord reveals additional knowledge is most often by
