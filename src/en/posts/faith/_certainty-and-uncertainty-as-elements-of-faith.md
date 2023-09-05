@@ -238,7 +238,11 @@ Thus, we need to cultivate _both_ the willingness to admit what we do not
 know---what is sometimes called epistemic humility---_and_ the courage to hold
 firm convictions in what we do know. It is a delicate interaction, of the kind
 that Ross Ellenhorn refers to as a _both-and proposition_,^[_How We Change (And
-Ten Reasons Why We Don't)_] as opposed to an either-or proposition.
+Ten Reasons Why We Don't)_] as opposed to an either-or proposition. We need
+_both_ conviction _and_ epistemic humility if we are to move forward with faith
+in the face of uncertainty.
+
+## Balancing Conviction and Epistemic Humility
 
 Jacob Hess discusses this delicate balance in
 [this excellent article in Public Square Magazine](https://publicsquaremag.org/faith/gospel-fare/conviction-is-no-sin/).
@@ -266,9 +270,7 @@ faithful action. This is, ironically, a position of doubt:
 >
 > [A key] problem with doubt is the intent to obey only _after_ the uncertainty
 > is resolved to the satisfaction of the
-> doubter.^[["When Doubts and Questions Arise,"](https://www.churchofjesuschrist.org/study/ensign/2015/03/when-doubts-and-questions-arise?lang=eng)
-> March
-2015 Ensign]
+> doubter.^[["When Doubts and Questions Arise,"](https://www.churchofjesuschrist.org/study/ensign/2015/03/when-doubts-and-questions-arise?lang=eng) March 2015 Ensign]
 
 As such, while we should seek knowledge, we should be open to that knowledge
 coming through experience rather than through a priori revelation.
