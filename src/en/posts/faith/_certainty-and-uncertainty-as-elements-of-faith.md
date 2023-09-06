@@ -239,11 +239,11 @@ words, being too certain that something is uncertain and not seeking further
 light. Certainly, this is something we should be wary of.
 
 However, particularly when it comes to how things will happen in the future, I
-believe that the way the Lord reveals additional knowledge is most often by
-allowing us to simply witness His will as events proceed, rather than revealing
-what will happen in detail to us beforehand. Desiring that the future be
-revealed to us "up front" can too easily become a stipulation on our continued
-faithful action. This is, ironically, a position of doubt:
+believe that the Lord most often reveals additional knowledge to us by allowing
+us to simply witness His will as events proceed, rather than revealing what will
+happen in detail to us beforehand. Desiring that the future be revealed to us
+"up front" can easily become a stipulation on our continued faithful action.
+This is, ironically, a mindset of doubt:
 
 > [W]hen people doubt their beliefs, they often suspend their commitment to
 > commandments and covenants while waiting for answers. The doubter’s posture is
