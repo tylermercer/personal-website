@@ -228,17 +228,17 @@ Messiah will destroy the Romans" and "the Messiah will respect our religious
 authority." Because what they saw in Jesus contradicted these false beliefs, the
 Pharisees rejected Him as the Messiah.
 
-We need to cultivate _both_ the willingness to admit what we do not know---what
-is sometimes called epistemic humility---_and_ the courage to hold firm
-convictions in what we do know. It is a delicate interaction, of the kind that
-Ross Ellenhorn refers to as a _both-and proposition_,^[_How We Change (And Ten
-Reasons Why We Don't)_] as opposed to an either-or proposition. We need _both_
-conviction _and_ epistemic humility if we are to move forward with faith in the
-face of uncertainty.
+We need to cultivate both the willingness to admit what we do not know and the
+courage to firmly believe in what God has revealed. It is a delicate
+interaction, of the kind that Ross Ellenhorn refers to as a _both-and
+proposition_,^[_How We Change (And Ten Reasons Why We Don't)_] as opposed to an
+either-or proposition. We need _both_ firm belief _and_ the ability to
+acknowledge uncertainty if we are to have true faith in the Lord and His
+promises.
 
 ## Balancing Conviction and Epistemic Humility
 
-Jacob Z. Hess discusses these two concepts in
+Jacob Z. Hess discusses these two concepts---conviction and uncertainty---in
 [this excellent article in Public Square Magazine](https://publicsquaremag.org/faith/gospel-fare/conviction-is-no-sin/).
 He specifically responds to the zeitgeist of "uncertainty good, certainty bad"
 that can be seen in a lot of recent faith discussions. **TODO: recap Hess's
