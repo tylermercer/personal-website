@@ -191,15 +191,11 @@ _unsuccessful_ in their attempts to teach the then-unbelieving
 Lamanites^[[Verse 20](https://www.churchofjesuschrist.org/study/scriptures/bofm/enos/1?lang=eng&id=p20#p20):
 "But our labors were vain"]. The promise in Alma 26 wasn't fulfilled for Enos
 until 330 years later (which, ironically, was the occasion for the great teacher
-Ammon uttering the words previously quoted from Alma 26). Faith to embrace
-uncertainty is what enabled Enos to keep going even when he did not obtain the
-outcome he hoped for. I'm sure Satan wanted him to doubt himself, but he was
-able to say, "I know God will eventually redeem the Lamanites, but I don't know
-when or how, and that's ok."
+Ammon uttering the words previously quoted from Alma 26).
 
 ## Certainty and Uncertainty
 
-There _is_ an element of certainty in effectual faith. This can be seen in
+Effectual faith involves both certainty and uncertainty. This can be seen in
 [Alma 32:21](https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/32?lang=eng&id=p21#p21):
 
 > And now as I said concerning faith---faith is not to have a perfect knowledge
@@ -232,38 +228,34 @@ Messiah will destroy the Romans" and "the Messiah will respect our religious
 authority." Because what they saw in Jesus contradicted these false beliefs, the
 Pharisees rejected Him as the Messiah.
 
-Firm certainty in false ideas leads us down a dangerous path. 
-
-**TODO: expand on why false certainty eventually leads to stagnation, pride, and
-disbelief, e.g. "it is not reasonable that such a being as Christ shall come".
-Perhaps rework Hess article and doubt quote into here, or move into its own
-section.**
-
-Thus, we need to cultivate _both_ the willingness to admit what we do not
-know---what is sometimes called epistemic humility---_and_ the courage to hold
-firm convictions in what we do know. It is a delicate interaction, of the kind
-that Ross Ellenhorn refers to as a _both-and proposition_,^[_How We Change (And
-Ten Reasons Why We Don't)_] as opposed to an either-or proposition. We need
-_both_ conviction _and_ epistemic humility if we are to move forward with faith
-in the face of uncertainty.
+We need to cultivate _both_ the willingness to admit what we do not know---what
+is sometimes called epistemic humility---_and_ the courage to hold firm
+convictions in what we do know. It is a delicate interaction, of the kind that
+Ross Ellenhorn refers to as a _both-and proposition_,^[_How We Change (And Ten
+Reasons Why We Don't)_] as opposed to an either-or proposition. We need _both_
+conviction _and_ epistemic humility if we are to move forward with faith in the
+face of uncertainty.
 
 ## Balancing Conviction and Epistemic Humility
 
-Jacob Hess discusses this delicate balance in
+Jacob Z. Hess discusses these two concepts in
 [this excellent article in Public Square Magazine](https://publicsquaremag.org/faith/gospel-fare/conviction-is-no-sin/).
 He specifically responds to the zeitgeist of "uncertainty good, certainty bad"
-that can be seen in a lot of recent faith discussions. Highlighting the dangers
-of an overemphasis on uncertainty, he mentions "epistemic humility as a barrier
-to new knowledge," or, in other words, being too certain that something is
-uncertain and not seeking further light:
+that can be seen in a lot of recent faith discussions. **TODO: recap Hess's
+argument in more detail here, and move response into subsequent section**
+Highlighting the dangers of an overemphasis on uncertainty, he mentions
+"epistemic humility as a barrier to new knowledge," or, in other words, being
+too certain that something is uncertain and not seeking further light:
 
 > [I]t’s widely appreciated how epistemic humility can catalyze our learning, as we are open to truth and welcoming of uncertainty, etc. But when taken to an extreme, can these same sensibilities undermine and erode our growth in spiritual knowledge? ...
 >
 > More specifically, can an _a priori_ aversion to any degree of certainty (or strong conviction) prevent people from ever seeking more direct reassurance, more definitive experiences, and more final and grounding forms of knowing? And in this way, can an overemphasis on uncertainty ultimately trip us up?
 
 This is a powerful point, and one that we would do well to remember, especially
-as pertaining to ongoing uncertainty, such as about how to reconcile organic
-evolution with divine creation as described in the scriptures.
+with regards to ongoing uncertainty, such as about how to reconcile organic
+evolution with divine creation as described in the scriptures. **TODO describe this kind of uncertainty better**
+
+## When Uncertainty is Still Valuable
 
 However, when it comes to how things will happen in the future, I believe that
 the Lord often reveals additional knowledge to us by allowing us to simply
@@ -285,9 +277,25 @@ ironically, a mindset of doubt:
 As such, while we should seek knowledge, we should be open to that knowledge
 coming through experience rather than through a priori revelation.
 
+**TODO: blend preceding section and following one better**
+
+Firm certainty in false ideas leads us down a dangerous path.
+
+**TODO: expand on why false certainty eventually leads to stagnation, pride, and
+disbelief, e.g. "it is not reasonable that such a being as Christ shall come".
+Perhaps rework Hess article and doubt quote into here, or move into its own
+section.**
+
+**TODO: how acknowledging what we do not know helps us avoid mingling man's wisdom with God's wisdom**
+
 ## Exercising Faith with Humility
 
 **TODO: examples of Nephi, Enos, and Job**
+
+Faith to embrace uncertainty is what enabled Enos to keep going even when he did
+not obtain the outcome he hoped for. I'm sure Satan wanted him to doubt himself,
+but he was able to say, "I know God will eventually redeem the Lamanites, but I
+don't know when or how, and that's ok."
 
 **TODO: helpful form of statement of faith that acknowledges uncertainty**
 
