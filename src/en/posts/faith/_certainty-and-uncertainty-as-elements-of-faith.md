@@ -37,26 +37,20 @@ God made this covenant with Abraham and with "[his] seed after [him] in their
 generations for an everlasting covenant," covenanting that "[God] will make
 [them] exceeding fruitful, and nations shall come out of [them]".] We believed
 that God would bless us with children. But I began to wonder if my faith was
-insufficient. There are many many scriptures that connect miracles with faith.
+insufficient. There are many scriptures that connect miracles with faith.
 For example,
 [chapter 12 of the book of Ether](https://www.churchofjesuschrist.org/study/scriptures/bofm/ether/12?lang=eng)
 contains the following promises:
 
 > **9** Wherefore, ye may also have hope, and be partakers of the gift, if ye
 > will but have faith.
->
-> ...
->
+
 > **16** Yea, and even all they who wrought miracles wrought them by faith, even
 > those who were before Christ and also those who were after.
->
-> ...
->
+
 > **18** And neither at any time hath any wrought miracles until after their faith;
 > wherefore they first believed in the Son of God.
->
-> ...
->
+
 > **29** ... O Lord, thy righteous will be done, for I know that thou workest
 > unto the children of men according to their faith;
 
@@ -66,14 +60,36 @@ it was easy to have faith that the Lord would bless us with children, and other
 times it was much harder. I felt frustrated with myself for what seemed like an
 inability to exert more faith.
 
-But then my wife and I read
+## Faith and Hope
+
+At this point, I should note here that this article uses the word _faith_ to
+capture this idea of belief in something that is "not seen"
+([Hebrews 11:1](https://www.churchofjesuschrist.org/study/scriptures/nt/heb/11?lang=eng&id=p1#p1))
+but true. This is an intentionally
+[reductionistic](https://tylermercer.net/posts/all-writing-is-reductionistic/)
+use of the word. More precisely, this kind of belief has two parts, the first of
+which is faith, and the second of which is _hope_. _Faith_ is a firm trust in
+the efficacy of someone or something (and, in the gospel, this Someone is
+Christ), whereas _hope_ is a firm trust in some future outcome, often
+experienced as a result of having faith.
+[Moroni 7:41](https://www.churchofjesuschrist.org/study/scriptures/bofm/moro/7?lang=eng&id=41#p41)
+illustrates this distinction and interconnection between faith and hope:
+
+> And what is it that ye shall hope for? Behold I say unto you that ye shall have hope through the atonement of Christ and the power of his resurrection, to be raised unto life eternal, and this because of your faith in him according to the promise.
+
+Thus, faith and hope are separate but related parts of this kind of belief. For
+the purposes of this article, however, I will simply use the word _faith_ to
+mean both faith and hope (as do many of the scriptures and prophetic writings I
+will reference).
+
+## Faith to Accept Uncertainty
+
+Around the time we were grappling with these concerns, my wife and I read
 ["Accepting the Lord's Will and Timing"](https://www.churchofjesuschrist.org/study/liahona/2016/08/accepting-the-lords-will-and-timing?lang=eng),
 an article by Elder David A. Bednar.^[ We came across this article through the
 [_Come, Follow Me_ study guide for Matthew 8, Mark 2–4, and Luke 7](https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-individuals-and-families-new-testament-2023/10?lang=eng)
 ] This article started a journey of discovery for us through which we learned
 that we had been thinking about faith the wrong way.
-
-## Faith to Accept Uncertainty
 
 In the article, Elder Bednar tells a heart-wrenching story of a newly-married
 young man named John, who was diagnosed with cancer. He asked Elder Bednar to
@@ -194,9 +210,7 @@ There must be some true idea in which we believe in order for us to have faith.
 But that's exactly where rejecting uncertainty undermines our faith: rejecting
 uncertainty leads us to hold _false_ beliefs, like "if I do the things in Alma
 26:22 then I _will_ baptize people on my mission." You can't have effectual
-faith by believing something that's false. As Bruce R. McConkie put it, "there
-is no salvation in believing a false doctrine." (**TODO: remove?**) Such belief
-is inert, and often a stumbling block.
+faith by believing something that's false.
 
 To see why false certainty is a hindrance, I found it helpful to examine
 knowledge, faith, and false certainty using the _justified true belief_ (JTB)
@@ -211,7 +225,14 @@ truth, belief, and _a lack of justification_ are equally necessary components of
 faith. As Alma says in the same chapter: "if a man knoweth a thing he hath no
 cause to believe [meaning no cause to exert faith], for he knoweth it."
 
-The third case, false certainty, is unjustified _false_ belief. **TODO: elaborate**
+The third case, false certainty, is unjustified _false_ belief. We assert some
+idea that we _think_ is true, but is not. A good scriptural example of this is
+seen in the Pharisees, who held several beliefs about the Messiah, such as "the
+Messiah will destroy the Romans" and "the Messiah will respect our religious
+authority." Because what they saw in Jesus contradicted these false beliefs, the
+Pharisees rejected Him as the Messiah.
+
+Firm certainty in false ideas leads us down a dangerous path. 
 
 **TODO: expand on why false certainty eventually leads to stagnation, pride, and
 disbelief, e.g. "it is not reasonable that such a being as Christ shall come".
@@ -230,20 +251,26 @@ in the face of uncertainty.
 
 Jacob Hess discusses this delicate balance in
 [this excellent article in Public Square Magazine](https://publicsquaremag.org/faith/gospel-fare/conviction-is-no-sin/).
-He warns of prioritizing either of these ideas at the cost of the other:
+He specifically responds to the zeitgeist of "uncertainty good, certainty bad"
+that can be seen in a lot of recent faith discussions. Highlighting the dangers
+of an overemphasis on uncertainty, he mentions "epistemic humility as a barrier
+to new knowledge," or, in other words, being too certain that something is
+uncertain and not seeking further light:
 
-> **TODO: quote Hess?**
+> [I]t’s widely appreciated how epistemic humility can catalyze our learning, as we are open to truth and welcoming of uncertainty, etc. But when taken to an extreme, can these same sensibilities undermine and erode our growth in spiritual knowledge? ...
+>
+> More specifically, can an _a priori_ aversion to any degree of certainty (or strong conviction) prevent people from ever seeking more direct reassurance, more definitive experiences, and more final and grounding forms of knowing? And in this way, can an overemphasis on uncertainty ultimately trip us up?
 
-Hess mentions "epistemic humility as a barrier to new knowledge," or, in other
-words, being too certain that something is uncertain and not seeking further
-light. Certainly, this is something we should be wary of.
+This is a powerful point, and one that we would do well to remember, especially
+as pertaining to ongoing uncertainty, such as about how to reconcile organic
+evolution with divine creation as described in the scriptures.
 
-However, particularly when it comes to how things will happen in the future, I
-believe that the Lord most often reveals additional knowledge to us by allowing
-us to simply witness His will as events proceed, rather than revealing what will
-happen in detail to us beforehand. Desiring that the future be revealed to us
-"up front" can easily become a stipulation on our continued faithful action.
-This is, ironically, a mindset of doubt:
+However, when it comes to how things will happen in the future, I believe that
+the Lord often reveals additional knowledge to us by allowing us to simply
+witness His will as events proceed, rather than revealing what will happen in
+detail to us beforehand. Desiring that the future be revealed to us "up front"
+can easily become a stipulation on our continued faithful action. This is,
+ironically, a mindset of doubt:
 
 > [W]hen people doubt their beliefs, they often suspend their commitment to
 > commandments and covenants while waiting for answers. The doubter’s posture is
@@ -257,3 +284,15 @@ This is, ironically, a mindset of doubt:
 
 As such, while we should seek knowledge, we should be open to that knowledge
 coming through experience rather than through a priori revelation.
+
+## Exercising Faith with Humility
+
+**TODO: examples of Nephi, Enos, and Job**
+
+**TODO: helpful form of statement of faith that acknowledges uncertainty**
+
+**TODO: how this relates to meekness: Moro. 7:43-44**
+
+> 43 And again, behold I say unto you that [someone] cannot have faith and hope, save he shall be meek, and lowly of heart.
+>
+> 44 If so, his faith and hope is vain, for none is acceptable before God, save the meek and lowly in heart;
