@@ -191,7 +191,8 @@ _unsuccessful_ in their attempts to teach the then-unbelieving
 Lamanites^[[Verse 20](https://www.churchofjesuschrist.org/study/scriptures/bofm/enos/1?lang=eng&id=p20#p20):
 "But our labors were vain"]. The promise in Alma 26 wasn't fulfilled for Enos
 until 330 years later (which, ironically, was the occasion for the great teacher
-Ammon uttering the words previously quoted from Alma 26).
+Ammon uttering the words previously quoted from Alma 26). Clearly, there is
+uncertainty about how and when this promise is fulfilled.
 
 ## Certainty and Uncertainty
 
@@ -242,10 +243,10 @@ Jacob Z. Hess discusses these two concepts---conviction and uncertainty---in
 [this excellent article in Public Square Magazine](https://publicsquaremag.org/faith/gospel-fare/conviction-is-no-sin/).
 He specifically responds to the zeitgeist of "uncertainty good, certainty bad"
 that can be seen in a lot of recent faith discussions. **TODO: recap Hess's
-argument in more detail here, and move response into subsequent section**
-Highlighting the dangers of an overemphasis on uncertainty, he mentions
-"epistemic humility as a barrier to new knowledge," or, in other words, being
-too certain that something is uncertain and not seeking further light:
+argument in more detail.** Highlighting the dangers of an overemphasis on
+uncertainty, he mentions "epistemic humility as a barrier to new knowledge," or,
+in other words, being too certain that something is uncertain and not seeking
+further light:
 
 > [I]t’s widely appreciated how epistemic humility can catalyze our learning, as we are open to truth and welcoming of uncertainty, etc. But when taken to an extreme, can these same sensibilities undermine and erode our growth in spiritual knowledge? ...
 >
@@ -290,6 +291,12 @@ section.**
 
 ## Exercising Faith with Humility
 
+**TODO: how this relates to meekness: Moro. 7:43-44**
+
+> 43 And again, behold I say unto you that [someone] cannot have faith and hope, save he shall be meek, and lowly of heart.
+>
+> 44 If so, his faith and hope is vain, for none is acceptable before God, save the meek and lowly in heart;
+
 **TODO: examples of Nephi, Enos, and Job**
 
 Faith to embrace uncertainty is what enabled Enos to keep going even when he did
@@ -299,8 +306,6 @@ don't know when or how, and that's ok."
 
 **TODO: helpful form of statement of faith that acknowledges uncertainty**
 
-**TODO: how this relates to meekness: Moro. 7:43-44**
+## Conclusion
 
-> 43 And again, behold I say unto you that [someone] cannot have faith and hope, save he shall be meek, and lowly of heart.
->
-> 44 If so, his faith and hope is vain, for none is acceptable before God, save the meek and lowly in heart;
+**TODO: return to our faith journey**
