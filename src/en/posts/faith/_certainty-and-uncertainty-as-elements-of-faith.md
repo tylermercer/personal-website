@@ -58,29 +58,7 @@ Perhaps, I reasoned, I could receive this blessing if I would just believe
 _firmly enough_. But I found my faith and hope fluctuating over time. Sometimes
 it was easy to have faith that the Lord would bless us with children, and other
 times it was much harder. I felt frustrated with myself for what seemed like an
-inability to exert more faith.
-
-## Faith and Hope
-
-At this point, I should note here that this article uses the word _faith_ to
-capture this idea of belief in something that is "not seen"
-([Hebrews 11:1](https://www.churchofjesuschrist.org/study/scriptures/nt/heb/11?lang=eng&id=p1#p1))
-but true. This is an intentionally
-[reductionistic](https://tylermercer.net/posts/all-writing-is-reductionistic/)
-use of the word. More precisely, this kind of belief has two parts, the first of
-which is faith, and the second of which is _hope_. _Faith_ is a firm trust in
-the efficacy of someone or something (and, in the gospel, this Someone is
-Christ), whereas _hope_ is a firm trust in some future outcome, often
-experienced as a result of having faith.
-[Moroni 7:41](https://www.churchofjesuschrist.org/study/scriptures/bofm/moro/7?lang=eng&id=41#p41)
-illustrates this distinction and interconnection between faith and hope:
-
-> And what is it that ye shall hope for? Behold I say unto you that ye shall have hope through the atonement of Christ and the power of his resurrection, to be raised unto life eternal, and this because of your faith in him according to the promise.
-
-Thus, faith and hope are separate but related parts of this kind of belief. For
-the purposes of this article, however, I will simply use the word _faith_ to
-mean both faith and hope (as do many of the scriptures and prophetic writings I
-will reference).
+inability to exert more faith.[^faith-and-hope]
 
 ## Faith to Accept Uncertainty
 
@@ -248,13 +226,20 @@ uncertainty, he mentions "epistemic humility as a barrier to new knowledge," or,
 in other words, being too certain that something is uncertain and not seeking
 further light:
 
-> [I]t’s widely appreciated how epistemic humility can catalyze our learning, as we are open to truth and welcoming of uncertainty, etc. But when taken to an extreme, can these same sensibilities undermine and erode our growth in spiritual knowledge? ...
+> [I]t’s widely appreciated how epistemic humility can catalyze our learning, as
+> we are open to truth and welcoming of uncertainty, etc. But when taken to an
+> extreme, can these same sensibilities undermine and erode our growth in
+> spiritual knowledge? ...
 >
-> More specifically, can an _a priori_ aversion to any degree of certainty (or strong conviction) prevent people from ever seeking more direct reassurance, more definitive experiences, and more final and grounding forms of knowing? And in this way, can an overemphasis on uncertainty ultimately trip us up?
+> More specifically, can an _a priori_ aversion to any degree of certainty (or
+> strong conviction) prevent people from ever seeking more direct reassurance,
+> more definitive experiences, and more final and grounding forms of knowing?
+> And in this way, can an overemphasis on uncertainty ultimately trip us up?
 
 This is a powerful point, and one that we would do well to remember, especially
 with regards to ongoing uncertainty, such as about how to reconcile organic
-evolution with divine creation as described in the scriptures. **TODO describe this kind of uncertainty better**
+evolution with divine creation as described in the scriptures. **TODO describe
+this kind of uncertainty better**
 
 ## When Uncertainty is Still Valuable
 
@@ -309,3 +294,28 @@ don't know when or how, and that's ok."
 ## Conclusion
 
 **TODO: return to our faith journey**
+
+[^faith-and-hope]:
+
+    This article uses the word _faith_ to capture this idea of belief in
+    something that is true but "not seen"
+    ([Hebrews 11:1](https://www.churchofjesuschrist.org/study/scriptures/nt/heb/11?lang=eng&id=p1#p1)).
+    This is an intentionally
+    [reductionistic](https://tylermercer.net/posts/all-writing-is-reductionistic/)
+    use of the word. More precisely, this kind of belief has two parts, the
+    first of which is faith, and the second of which is _hope_. _Faith_ is a
+    firm trust in the efficacy of someone or something (and, in the gospel, this
+    Someone is Christ), whereas _hope_ is a firm trust in some future outcome,
+    often experienced as a result of having faith.
+    [Moroni 7:41](https://www.churchofjesuschrist.org/study/scriptures/bofm/moro/7?lang=eng&id=41#p41)
+    illustrates this distinction and interconnection between faith and hope:
+
+    > And what is it that ye shall hope for? Behold I say unto you that ye shall
+    > have hope through the atonement of Christ and the power of his
+    > resurrection, to be raised unto life eternal, and this because of your
+    > faith in him according to the promise.
+
+    Thus, faith and hope are separate but related parts of this kind of belief.
+    For the purposes of this article, however, I will simply use the word
+    _faith_ to mean both faith and hope (as do many of the scriptures and
+    prophetic writings I will reference).
