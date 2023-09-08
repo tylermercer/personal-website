@@ -287,12 +287,9 @@ ironically, a mindset of doubt:
 As such, while we should seek knowledge, we should be open to that knowledge
 coming through experience rather than through a priori revelation.
 
-**TODO: blend preceding section and following one better**
-
-Firm certainty in false ideas leads us down a dangerous path.
-
-**TODO: expand on why false certainty eventually leads to stagnation, pride, and
-disbelief, e.g. "it is not reasonable that such a being as Christ shall come".**
+**TODO: expand on the dangers of false certainty and why it eventually leads to
+stagnation, pride, and disbelief, e.g. "it is not reasonable that such a being
+as Christ shall come".**
 
 **TODO: how acknowledging what we do not know helps us avoid mingling man's wisdom with God's wisdom**
 
