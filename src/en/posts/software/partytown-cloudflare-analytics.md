@@ -1,6 +1,6 @@
 ---
-title: Using Partytown to run Cloudflare Analytics in a Web Worker
-description: Boost your blog's Pagespeed score with this one weird trick
+title: Partytown + Cloudflare Analytics = ?
+description: Trying to speed up Cloudflare Analytics and reclaim my site's vanity four-100's Pagespeed score
 draft: true
 ---
 
@@ -8,7 +8,7 @@ draft: true
 
 **_Use [this link](https://without-partytown.tylermercer.pages.dev/) and [this link](https://add-partytown.tylermercer.pages.dev/)_**
 
-Today [my brother](https://danmercer.net) shared
+A while back, [my brother](https://danmercer.net) shared
 [this article](https://dev.to/adamdbradley/how-partytown-s-sync-communication-works-4244)
 about Partytown's clever way of communicating from a web worker to the main
 thread synchronously. [Partytown](https://partytown.builder.io/) is a library
