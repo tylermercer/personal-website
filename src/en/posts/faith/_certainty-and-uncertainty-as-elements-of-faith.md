@@ -219,12 +219,23 @@ promises.
 
 Jacob Z. Hess discusses these two concepts---conviction and uncertainty---in
 [this excellent article in Public Square Magazine](https://publicsquaremag.org/faith/gospel-fare/conviction-is-no-sin/).
-He specifically responds to the zeitgeist of "uncertainty good, certainty bad"
-that can be seen in a lot of recent faith discussions. **TODO: recap Hess's
-argument in more detail.** Highlighting the dangers of an overemphasis on
-uncertainty, he mentions "epistemic humility as a barrier to new knowledge," or,
-in other words, being too certain that something is uncertain and not seeking
-further light:
+He specifically responds to the zeitgeist of "certainty bad, uncertainty good"
+that can be seen in a lot of recent faith discussions. Arguing that this stance
+often conflates conviction with dogmatism, he encourages us to value conviction
+while recognizing uncertainty. He warns against the harmful reductionism of
+"those who either demonize doubt without conditions or who glorify doubt as an
+unmistakable sign of greater enlightenment":
+
+> In the same moment that we hold space for uncertainty, therefore, let’s not
+> overly valorize doubt in a way that obscures its potential dangers.
+
+Instead, he argues, we should "[aspire] for humility instead of uncertainty"---a
+humility that enables a person to both acknowledge what she or he does not know,
+and at the same time to seek further light from God.
+
+Along the same lines, he mentions the danger of "epistemic humility as a barrier
+to new knowledge," or, in other words, being too certain that something is
+_uncertain_ and not seeking further light:
 
 > [I]t’s widely appreciated how epistemic humility can catalyze our learning, as
 > we are open to truth and welcoming of uncertainty, etc. But when taken to an
@@ -236,10 +247,23 @@ further light:
 > more definitive experiences, and more final and grounding forms of knowing?
 > And in this way, can an overemphasis on uncertainty ultimately trip us up?
 
-This is a powerful point, and one that we would do well to remember, especially
-with regards to ongoing uncertainty, such as about how to reconcile organic
-evolution with divine creation as described in the scriptures. **TODO describe
-this kind of uncertainty better**
+These are thought provoking questions. I find it particularly relevant to
+uncertainty that does not pertain to the fulfilment of God's promises in the
+future. For example, many people face uncertainties about how to harmonize or
+reconcile certain aspects of religion and science, and some choose to put these
+uncertainties on a metaphorical "shelf" for later resolution. While this is
+useful, it is equally (or perhaps more) useful to instead take God at His word
+when He says "if any of you lack wisdom, let him ask of God, that giveth to all
+men [and women] liberally, and upbraideth not, and it shall be given him."^[[James
+1:5](https://www.churchofjesuschrist.org/study/scriptures/nt/james/1?lang=eng&id=p5#p5)] This is particularly true in the Church of Jesus Christ of Latter-day
+Saints---one of our fundamental tenets is that the heavens are not closed. To
+quote
+[Doctrine & Covenants 121:33](https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/121?lang=eng&id=p33#p33):
+
+> What power shall stay the heavens? As well might man stretch forth his puny
+> arm to stop the Missouri river in its decreed course, or to turn it up stream,
+> as to hinder the Almighty from pouring down knowledge from heaven upon the
+> heads of the Latter-day Saints.
 
 ## When Uncertainty is Still Valuable
 
@@ -268,9 +292,7 @@ coming through experience rather than through a priori revelation.
 Firm certainty in false ideas leads us down a dangerous path.
 
 **TODO: expand on why false certainty eventually leads to stagnation, pride, and
-disbelief, e.g. "it is not reasonable that such a being as Christ shall come".
-Perhaps rework Hess article and doubt quote into here, or move into its own
-section.**
+disbelief, e.g. "it is not reasonable that such a being as Christ shall come".**
 
 **TODO: how acknowledging what we do not know helps us avoid mingling man's wisdom with God's wisdom**
 
