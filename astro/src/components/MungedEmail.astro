@@ -1,0 +1,17 @@
+---
+---
+<a class="contact-email" target="_blank" data-munged-user="pbagnpg" data-munged-domain="glyrezrepre.arg" data-label="{{ mungedEmailLabel }}">
+    [Enable JS to view email link]
+</a>
+<script>
+    var el: HTMLAnchorElement = document.querySelector('.contact-email[data-munged-user]')!;
+    function dec(str: string) {
+        return str.replace(/[a-zA-Z]/g, function(c: any){return String.fromCharCode(((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26));})
+    }
+    el.innerText = el.dataset.label || "send me an email";
+    el.href = dec(`znvygb:${el.dataset.mungedUser}@${el.dataset.mungedDomain}`);
+    el.removeAttribute('data-munged-user');
+    el.removeAttribute('data-munged-domain');
+    el.removeAttribute('data-label');
+    console.log("foobar");
+</script>

@@ -1,0 +1,31 @@
+---
+import Logo from "./Logo.astro"
+
+const ariaCurrent = (path: string) => Astro.url.href === path ? 'page' : undefined;
+---
+<header class="site-nav-container">
+    <div class="guttered">
+        <nav>
+            <a class="skip-to-content-link" href="#main">Skip to Content</a>
+            <a class="logo-link" aria-label="Home" href="/">
+                <Logo/>
+            </a>
+            <ul>
+                <li>
+                    <a class="nav-link" aria-current={ariaCurrent('/now')} href="/now">
+                        <span class="text">
+                            Now
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a class="nav-link" aria-current={ariaCurrent('/about')} href="/about">
+                        <span class="text">
+                            About
+                        </span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
