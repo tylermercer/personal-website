@@ -1,0 +1,86 @@
+---
+import SiteFooter from "../components/SiteFooter.astro";
+import SiteNavHeader from "../components/SiteNavHeader.astro";
+
+export type Props = {
+    title: string;
+    description: string;
+};
+
+const { title, description } = Astro.props;
+
+const titleFull = title; //TODO: logic below for titleFull
+---
+
+<!doctype html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+            http-equiv="Content-Security-Policy"
+            content="default-src 'self'; connect-src 'self' https://cloudflareinsights.com/cdn-cgi/rum; script-src 'self' 'sha256-tKZ5Uy4GgbvbzOb22Mh+HYQrc+n+tqAlrtIOaBrgvhc=' https://static.cloudflareinsights.com; img-src 'self' data:;"
+        />
+        <meta name="generator" content="{{ eleventy.generator }}" />
+        {
+            description && (
+                <meta name="description" content="{{ description | unmd }}" />
+            )
+        }
+        <!-- {%- if description -%}
+    {%- endif -%}
+    {%- set titleFull -%}
+    {%- if eleventyExcludeFromCollections -%}
+        {{- title -}}
+    {%- else -%}
+        {{- title }} - {{ metadata.title -}}
+    {%- endif -%}
+    {%- endset -%} -->
+    </head><p></p>
+    <!-- Title -->
+    <title>{ titleFull }</title>
+    <!-- Icons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" href="/favicon.svg" />
+    <!-- Og and Twitter -->
+    <!-- {%- if ogImageTemplatePath -%}
+      {%- setAsync "ogOutputUrl" -%}
+      {%- ogImage ogImageTemplatePath, { title: title, description: description, pattern: category, date: page.date, hideDateline: eleventyExcludeFromCollections } -%}
+      {%- endsetAsync -%}
+      <meta property="og:image" content="{{ ogOutputUrl }}">
+      <meta name="twitter:image" content="{{ ogOutputUrl }}">
+    {%- endif -%} -->
+    <meta property="og:title" content={ titleFull } />
+    <meta property="og:type" content="article" />
+    <meta
+        property="og:url"
+        content="{{ page.url | htmlBaseUrl(metadata.url) }}"
+    />
+    <meta property="og:locale" content="en" />
+    <meta property="og:image:alt" content="{{ description | unmd }}" />
+    <meta property="og:site_name" content="{{ metadata.title }}" />
+    <meta name="og:description" content="{{ description | unmd }}" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="{{ metadata.twitter }}" />
+    <meta name="twitter:title" content="{{ titleFull }}" />
+    <meta name="twitter:description" content="{{ description | unmd }}" />
+    <meta
+        name="twitter:image:alt"
+        content="{{ titleFull }} - {{ description | unmd }}"
+    />
+    <!-- Tags -->
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <body>
+        <SiteNavHeader />
+        <main id="main">
+            <slot />
+        </main>
+        <SiteFooter />
+        <script
+            defer
+            src="/beacon.min.js"
+            data-cf-beacon='{"token": "6a72187972844110ba59868a8dca8e54"}'
+        ></script>
+    </body>
+</html>

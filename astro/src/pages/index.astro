@@ -1,0 +1,20 @@
+---
+import { getCollection } from "astro:content";
+import Layout from "../layouts/Home.astro";
+
+export type Props = {
+	title: string;
+};
+
+const { title } = Astro.props;
+
+const allPosts = await getCollection('posts');
+
+const posts = allPosts; //TODO: take most recent 5
+
+const categories = await getCollection('categories');
+---
+
+<Layout posts={posts} categories={categories} title={title}>
+	<p slot="description">Web developer, behavioral design enthusiast, and follower of Jesus</p>
+</Layout>
