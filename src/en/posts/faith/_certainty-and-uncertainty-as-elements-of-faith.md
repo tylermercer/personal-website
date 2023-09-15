@@ -216,8 +216,8 @@ interaction between these two seemingly-opposed ideas is a delicate one, of the
 kind that Ross Ellenhorn refers to as a _both-and
 proposition_,^[[_How We Change (And Ten Reasons Why We Don't)_](https://www.harpercollins.com/products/how-we-change-ross-ellenhorn)]
 as opposed to an either-or proposition. I needed _both_ firm belief _and_ the
-ability to acknowledge uncertainty if I was to have true faith in the Lord and
-His promises.
+ability to acknowledge uncertainty if I was to have effectual faith in the Lord
+and His promises.
 
 ## Balancing Conviction and Epistemic Humility
 
@@ -371,10 +371,10 @@ James wrote, "God resisteth the
 proud",^[[James 4:6](https://www.churchofjesuschrist.org/study/scriptures/nt/james/4?lang=eng&id=p6#p6)]
 but, perhaps more significantly, _the proud resist God_. When we seek to hold
 firmly to something that is not true, in essence demanding it from God, we
-unwittingly fall into pride. True faith, on the other hand, is the submission of
-our will and mind (wherein we lack justification) to God's will and mind (from
-which we learn truth, thus forming the _unjustified true belief_ discussed
-earlier). In the words of Jacob:
+unwittingly fall into pride. Faith, on the other hand, is the submission of our
+will and mind (wherein we lack justification) to God's will and mind (from which
+we learn truth, thus forming the _unjustified true belief_ discussed earlier).
+In the words of Jacob:
 
 > Wherefore, brethren, seek not to counsel the Lord, but to take counsel from
 > his hand.
