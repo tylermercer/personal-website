@@ -195,7 +195,7 @@ model of knowledge. These three qualities---truth, belief of that truth, and
 justification of that belief---are necessary components of knowledge.
 
 If knowledge is _justified_ true belief, faith is, inherently, _unjustified_
-true belief. This can be seen in the verse from Alma 21 quoted earlier---faith
+true belief. This can be seen in the verse from Alma 32 quoted earlier---faith
 is a belief in "things which are not seen," or, in other words, not justified.
 If truth, belief, and justification are necessary components of knowledge, then
 truth, belief, and _a lack of justification_ are equally necessary components of
