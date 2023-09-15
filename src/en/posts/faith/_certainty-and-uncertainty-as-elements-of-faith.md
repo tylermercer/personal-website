@@ -396,7 +396,7 @@ himself or God's promises, but he instead chose to say, "I know God will
 eventually redeem the Lamanites, but I don't know when or how, and that's ok."
 
 Job, after he had lost his family, his livestock, and his property, declared,
-"Though he slay me, yet will I trust in
+"Though [God] slay me, yet will I trust in
 Him."^[[Job 13:15](https://www.churchofjesuschrist.org/study/scriptures/ot/job/13?lang=eng&id=p15#p15)]
 
 But the most significant example of meek, submissive faith is found in Jesus
