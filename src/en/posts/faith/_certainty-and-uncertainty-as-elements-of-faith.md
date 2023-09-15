@@ -168,7 +168,7 @@ _also_ did all of the things mentioned in that verse:
 
 However, Enos specifically says he and his fellow missionaries were
 _unsuccessful_ in their attempts to teach the then-unbelieving
-Lamanites.^[[Verse 20](https://www.churchofjesuschrist.org/study/scriptures/bofm/enos/1?lang=eng&id=p20#p20)
+Lamanites.^[[Verse 20](https://www.churchofjesuschrist.org/study/scriptures/bofm/enos/1?lang=eng&id=p20#p20):
 "But our labors were vain"] The promise in Alma 26 wasn't fulfilled for Enos
 until 330 years later (which, ironically, was the occasion for the great teacher
 Ammon uttering the words previously quoted from Alma 26). Clearly, there is
@@ -327,11 +327,11 @@ as Christ shall come"._
 to explain why humility is necessary for faith that produces growth_:
 
 > We must approach our Eternal Father with broken hearts and teachable minds. We
-> must be willing to learn and to change. And, oh, how much we gain by
-> committing to live the life our Heavenly Father intends for us.
+> must be willing to learn and to change. ...
 >
 > Those who do not wish to learn and change probably will not and most likely
-> will begin to wonder whether the Church has anything to offer them.
+> will begin to wonder whether the Church [or the gospel] has anything to offer
+> them.
 
 False certainty often leads us to this dangerous state of being unwilling to
 learn and change.
@@ -364,17 +364,17 @@ emphasis mine.]
 > 44 If [he is not], his faith and hope is vain, for none is acceptable before
 > God, save the meek and lowly in heart;
 
-"Cannot" is more than just "likely won't". Meekness is a necessary part of
+"Cannot" is more than just "likely won't." Meekness is a necessary part of
 faith. I believe this has more to do with the inherent nature of faith than with
 God simply being picky about "how" we exercise it. Certainly, as the apostle
 James wrote, "God resisteth the
 proud",^[[James 4:6](https://www.churchofjesuschrist.org/study/scriptures/nt/james/4?lang=eng&id=p6#p6)]
-but, perhaps more significantly for our purposes, _the proud resist God_. When
-we seek to hold firmly to something that is not true, in essence demanding it
-from God, we unwittingly fall into pride. True faith, on the other hand, is the
-submission of our will and mind (wherein we lack justification) to God's will
-and mind (from which we learn truth, thus forming the _unjustified true belief_
-discussed earlier). In the words of Jacob:
+but, perhaps more significantly, _the proud resist God_. When we seek to hold
+firmly to something that is not true, in essence demanding it from God, we
+unwittingly fall into pride. True faith, on the other hand, is the submission of
+our will and mind (wherein we lack justification) to God's will and mind (from
+which we learn truth, thus forming the _unjustified true belief_ discussed
+earlier). In the words of Jacob:
 
 > Wherefore, brethren, seek not to counsel the Lord, but to take counsel from
 > his hand.
@@ -399,28 +399,38 @@ promised him that the Lamanites would receive the gospel. He could have doubted
 himself or God's promises, but he instead chose to say, "I know God will
 eventually redeem the Lamanites, but I don't know when or how, and that's ok."
 
-Job, after he had lost his family, his livestock, and his property, declared,
-"Though [God] slay me, yet will I trust in
+Even after he had lost his family, his livestock, and his property, Job
+faithfully declared, "Though [God] slay me, yet will I trust in
 Him."^[[Job 13:15](https://www.churchofjesuschrist.org/study/scriptures/ot/job/13?lang=eng&id=p15#p15)]
 
 But the most significant example of meek, submissive faith is found in Jesus
 Christ Himself. At the apex of His mortal ministry, when He was about to suffer
 the sins, pain, sickness, and sorrows of all
-humankind,^[See [Alma 7:11-12](https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/7?lang=eng&id=p11-p12#p11)] He deferred humbly to His Father's will and knowledge:^[[Matt. 26:39](https://www.churchofjesuschrist.org/study/scriptures/nt/matt/26?lang=eng&id=p39#p39). See also [Luke 22:42](https://www.churchofjesuschrist.org/study/scriptures/nt/luke/22?lang=eng&id=p42#p42).]
+humankind,^[See [Alma 7:11-12](https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/7?lang=eng&id=p11-p12#p11)]
+He deferred humbly to His Father's will and
+knowledge:^[[Matt. 26:39](https://www.churchofjesuschrist.org/study/scriptures/nt/matt/26?lang=eng&id=p39#p39).
+See also
+[Luke 22:42](https://www.churchofjesuschrist.org/study/scriptures/nt/luke/22?lang=eng&id=p42#p42).]
 
 > O my Father, if it be possible, let this cup pass from me: nevertheless not as
 > I will, but as thou wilt.
 
 ### A Pattern
 
-There is a powerful pattern that can be derived from these scriptural examples:
+We can derive a powerful pattern from these scriptural examples:
 
 > [Statement of uncertainty] but [statement of conviction]
 
-The exact text in each case differs slightly from this form, but the pattern is one we can use in our own lives:
+The exact text in each case differs slightly from this form, but we can apply
+this pattern in our own lives:
 
-* "I don't know when or how I will have the opportunity to marry, but I know God has promised that 'no blessings will be withheld from His faithful Saints.'"^[["Celestial Marriage", by then-Elder Russell M. Nelson](https://www.churchofjesuschrist.org/study/general-conference/2008/10/celestial-marriage?lang=eng&id=p23#p23)]
-* "I don't know why the Priesthood was not given to Blacks for a time in this dispensation, but I know that God 'denieth none that come unto him, black and white, bond and free, male and female.'"^[[2 Ne. 26:33](https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/26?lang=eng&id=p33#p33)]
+* "I don't know when or how I will have the opportunity to marry, but I know God
+  has promised that 'no blessings will be withheld from His faithful
+  Saints.'"^[["Celestial Marriage", by then-Elder Russell M. Nelson](https://www.churchofjesuschrist.org/study/general-conference/2008/10/celestial-marriage?lang=eng&id=p23#p23)]
+* "I don't know why the Priesthood was not given to Blacks for a time in this
+  dispensation, but I know that God 'denieth none that come unto him, black and
+  white, bond and free, male and
+  female.'"^[[2 Ne. 26:33](https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/26?lang=eng&id=p33#p33)]
 * **TODO**: _another example_
 
 Importantly, the second clause does not _negate_ the first clause. The unknown
