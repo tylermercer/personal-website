@@ -166,8 +166,8 @@ _also_ did all of the things mentioned in that verse:
 
 However, Enos specifically says he and his fellow missionaries were
 _unsuccessful_ in their attempts to teach the then-unbelieving
-Lamanites:^[[Verse 20](https://www.churchofjesuschrist.org/study/scriptures/bofm/enos/1?lang=eng&id=p20#p20)
-"But our labors were vain"]. The promise in Alma 26 wasn't fulfilled for Enos
+Lamanites.^[[Verse 20](https://www.churchofjesuschrist.org/study/scriptures/bofm/enos/1?lang=eng&id=p20#p20)
+"But our labors were vain"] The promise in Alma 26 wasn't fulfilled for Enos
 until 330 years later (which, ironically, was the occasion for the great teacher
 Ammon uttering the words previously quoted from Alma 26). Clearly, there is
 uncertainty about how and when this promise is fulfilled.
