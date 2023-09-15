@@ -29,9 +29,9 @@ person's spiritual gifts (attributes such as faith or wisdom, given to a person
 to benefit others) and declaring their lineage among the descendants of one of
 the twelve sons of the biblical Israel. ] mention us having children, and in the
 covenant^[A covenant is a two-way promise between God and a human or humans,
-with conditions set forth by Him in His love and mercy.] given to Abraham^[ See
+with conditions set forth by Him in His love and mercy.] given to Abraham,^[ See
 "[Abrahamic Covenant](https://www.churchofjesuschrist.org/study/manual/gospel-topics/abrahamic-covenant?lang=eng)"
-], we are promised posterity.^[ See
+] we are promised posterity.^[ See
 [Gen. 17:5-7](https://www.churchofjesuschrist.org/study/scriptures/ot/gen/17?lang=eng&id=5-7#p5).
 God made this covenant with Abraham and with "[his] seed after [him] in their
 generations for an everlasting covenant," covenanting that "[God] will make
@@ -166,7 +166,7 @@ _also_ did all of the things mentioned in that verse:
 
 However, Enos specifically says he and his fellow missionaries were
 _unsuccessful_ in their attempts to teach the then-unbelieving
-Lamanites^[[Verse 20](https://www.churchofjesuschrist.org/study/scriptures/bofm/enos/1?lang=eng&id=p20#p20):
+Lamanites:^[[Verse 20](https://www.churchofjesuschrist.org/study/scriptures/bofm/enos/1?lang=eng&id=p20#p20)
 "But our labors were vain"]. The promise in Alma 26 wasn't fulfilled for Enos
 until 330 years later (which, ironically, was the occasion for the great teacher
 Ammon uttering the words previously quoted from Alma 26). Clearly, there is
@@ -210,10 +210,10 @@ Pharisees rejected Him as the Messiah.
 We need to cultivate both the willingness to admit what we do not know and the
 courage to firmly believe in what God has revealed. It is a delicate
 interaction, of the kind that Ross Ellenhorn refers to as a _both-and
-proposition_,^[_How We Change (And Ten Reasons Why We Don't)_] as opposed to an
-either-or proposition. We need _both_ firm belief _and_ the ability to
-acknowledge uncertainty if we are to have true faith in the Lord and His
-promises.
+proposition_,^[[_How We Change (And Ten Reasons Why We Don't)_](https://www.harpercollins.com/products/how-we-change-ross-ellenhorn)]
+as opposed to an either-or proposition. We need _both_ firm belief _and_ the
+ability to acknowledge uncertainty if we are to have true faith in the Lord and
+His promises.
 
 ## Balancing Conviction and Epistemic Humility
 
@@ -296,7 +296,7 @@ like we are choosing to have strong faith. But, as discussed previously, false
 certainty and faith have different characteristics---and the most crucial
 difference is that false certainty is, well, _false_. Ultimately, when we make
 our minds accept as certainty that which is false, we restrict ourselves. This
-self-limitation happens in several ways.
+self-limitation happens in at least two ways.
 
 First, we are simply _less capable_ when we are acting upon falsehoods. If, for
 example, a person is drawn into "get rich quick" schemes, or
@@ -415,7 +415,7 @@ The exact text in each case differs slightly from this form, but the pattern is 
 
 * "I don't know when or how I will have the opportunity to marry, but I know God has promised that 'no blessings will be withheld from His faithful Saints.'"^[["Celestial Marriage", by then-Elder Russell M. Nelson](https://www.churchofjesuschrist.org/study/general-conference/2008/10/celestial-marriage?lang=eng&id=p23#p23)]
 * "I don't know why the Priesthood was not given to Blacks for a time in this dispensation, but I know that God 'denieth none that come unto him, black and white, bond and free, male and female.'"^[[2 Ne. 26:33](https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/26?lang=eng&id=p33#p33)]
-* **TODO: another example**
+* **TODO**: _another example_
 
 Importantly, the second clause does not _negate_ the first clause. The unknown
 thing is still unknown. Rather, stating what we do know _and_ what we don't know
@@ -425,7 +425,7 @@ foward because the unknowns have been resolved.
 
 ## Conclusion
 
-**TODO: return to our faith journey**
+**TODO**: _return to our faith journey_
 
 [^faith-and-hope]:
 
