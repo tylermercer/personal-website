@@ -351,10 +351,12 @@ wisdom with God's wisdom_
 Elder Uchtdorf mentions meekness in connection to this kind of humble,
 growth-oriented faith. Meekness, according to Elder David A. Bednar, "is a
 defining attribute of the Redeemer and is distinguished by righteous
-responsiveness, willing submissiveness, and strong self-restraint." Each of
-these characteristics contributes to our effectual faith. But meekness is not
-just a "nice-to-have" when it comes to faith. Wrote the ancient prophet
-Mormon:^[[Moroni 7:42-43](https://www.churchofjesuschrist.org/study/scriptures/bofm/moro/7?lang=eng&id=p42-p43#p42),
+responsiveness, willing submissiveness, and strong
+self-restraint."^[["Meek and Lowly in Heart"](https://www.churchofjesuschrist.org/study/general-conference/2018/04/meek-and-lowly-of-heart?lang=eng)]
+Each of these characteristics contributes to our effectual faith. However,
+meekness is not just a "nice-to-have" when it comes to faith. The ancient
+prophet Mormon
+wrote:^[[Moroni 7:42-43](https://www.churchofjesuschrist.org/study/scriptures/bofm/moro/7?lang=eng&id=p42-p43#p42),
 emphasis mine.]
 
 > 43 And again, behold I say unto you that [someone] **cannot** have faith and
