@@ -367,7 +367,7 @@ emphasis mine.]
 
 "Cannot" is more than just "likely won't." Meekness is a necessary part of
 faith. I believe this has more to do with the inherent nature of faith than with
-God simply being picky about "how" we exercise it. Certainly, as the apostle
+God simply being picky about how we exercise it. Certainly, as the apostle
 James wrote, "God resisteth the
 proud",^[[James 4:6](https://www.churchofjesuschrist.org/study/scriptures/nt/james/4?lang=eng&id=p6#p6)]
 but, perhaps more significantly, _the proud resist God_. When we seek to hold
