@@ -252,10 +252,11 @@ uncertainty that does not pertain to the fulfilment of God's promises in the
 future. For example, many people face uncertainties about how to harmonize or
 reconcile certain aspects of religion and science, and some choose to put these
 uncertainties on a metaphorical "shelf" for later resolution. While this is
-useful, it is equally (or perhaps more) useful to instead take God at His word
-when He says "if any of you lack wisdom, let him ask of God, that giveth to all
-men [and women] liberally, and upbraideth not, and it shall be given him."^[[James
-1:5](https://www.churchofjesuschrist.org/study/scriptures/nt/james/1?lang=eng&id=p5#p5)] This is particularly true in the Church of Jesus Christ of Latter-day
+useful, it is equally useful to instead take God at His word when He says "if
+any of you lack wisdom, let him ask of God, that giveth to all men [and women]
+liberally, and upbraideth not, and it shall be given him."^[[James
+1:5](https://www.churchofjesuschrist.org/study/scriptures/nt/james/1?lang=eng&id=p5#p5)]
+This is particularly true in the Church of Jesus Christ of Latter-day
 Saints---one of our fundamental tenets is that the heavens are not closed. To
 quote
 [Doctrine & Covenants 121:33](https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/121?lang=eng&id=p33#p33):
@@ -285,30 +286,142 @@ ironically, a mindset of doubt:
 > doubter.^[["When Doubts and Questions Arise,"](https://www.churchofjesuschrist.org/study/ensign/2015/03/when-doubts-and-questions-arise?lang=eng) March 2015 Ensign]
 
 As such, while we should seek knowledge, we should be open to that knowledge
-coming through experience rather than through a priori revelation.
+coming through experience rather than in advance through revelation.
 
-**TODO: expand on the dangers of false certainty and why it eventually leads to
+False certainty often begins with good intentions, as it did for my wife and
+me---we had a righteous desire to be parents, and I in particular attempted to
+assert my belief with certainty. "I _know_ that God will bless us with children
+at this time and in this way." This kind of firm assertion of certainty feels
+like we are choosing to have strong faith. But, as discussed previously, false
+certainty and faith have different characteristics---and the most crucial
+difference is that false certainty is, well, _false_. Ultimately, when we make
+our minds accept as certainty that which is false, we restrict ourselves. This
+self-limitation happens in several ways.
+
+First, we are simply _less capable_ when we are acting upon falsehoods. If, for
+example, a person is drawn into "get rich quick" schemes, or
+[prosperity theology](https://en.wikipedia.org/wiki/Prosperity_theology), he or
+she might make poor investment decisions as a result of their false belief that
+such decisions will lead to good financial outcomes. As a result, their
+financial growth, and their current and future freedom, are restricted. Another
+example is negative stereotypes---if I have some false belief about particular
+group of people, I am
+
+Second, we restrict our learning, because our false beliefs must be displaced by
+the truth in order for us to accept it, and strongly-held beliefs do not change
+easily. Studies have shown that **TODO**
+
+**TODO**: _expand on the dangers of false certainty and why it eventually leads to
 stagnation, pride, and disbelief, e.g. "it is not reasonable that such a being
-as Christ shall come".**
-
-**TODO: how acknowledging what we do not know helps us avoid mingling man's wisdom with God's wisdom**
+as Christ shall come"._
 
 ## Exercising Faith with Humility
 
-**TODO: how this relates to meekness: Moro. 7:43-44**
+**TODO**: _introduce this passage
+[from Elder Uchtdorf](https://www.churchofjesuschrist.org/study/general-conference/2014/10/lord-is-it-i?lang=eng#p1)
+to explain why humility is necessary for faith that produces growth_:
 
-> 43 And again, behold I say unto you that [someone] cannot have faith and hope, save he shall be meek, and lowly of heart.
+> We must approach our Eternal Father with broken hearts and teachable minds. We
+> must be willing to learn and to change. And, oh, how much we gain by
+> committing to live the life our Heavenly Father intends for us.
 >
-> 44 If so, his faith and hope is vain, for none is acceptable before God, save the meek and lowly in heart;
+> Those who do not wish to learn and change probably will not and most likely
+> will begin to wonder whether the Church has anything to offer them.
 
-**TODO: examples of Nephi, Enos, and Job**
+False certainty often leads us to this dangerous state of being unwilling to
+learn and change.
+
+Elder Uchtdorf continues:
+
+> But those who want to improve and progress, those who learn of the Savior and
+> desire to be like Him, those who humble themselves as a little child and seek
+> to bring their thoughts and actions into harmony with our Father in
+> Heaven---they will experience the miracle of the Savior’s Atonement. They will
+> surely feel God’s resplendent Spirit. They will taste the indescribable joy
+> that is the fruit of a meek and humble heart. They will be blessed with the
+> desire and discipline to become true disciples of Jesus Christ.
+
+**TODO**: _how acknowledging what we do not know helps us avoid mingling man's
+wisdom with God's wisdom_
+
+Elder Uchtdorf mentions meekness in connection to this kind of humble,
+growth-oriented faith. Meekness, according to Elder David A. Bednar, "is a
+defining attribute of the Redeemer and is distinguished by righteous
+responsiveness, willing submissiveness, and strong self-restraint." Each of
+these characteristics contributes to our effectual faith. But meekness is not
+just a "nice-to-have" when it comes to faith. Wrote the ancient prophet
+Mormon:^[[Moroni 7:42-43](https://www.churchofjesuschrist.org/study/scriptures/bofm/moro/7?lang=eng&id=p42-p43#p42),
+emphasis mine.]
+
+> 43 And again, behold I say unto you that [someone] **cannot** have faith and
+> hope, save [or unless] he shall be meek, and lowly of heart.
+>
+> 44 If [he is not], his faith and hope is vain, for none is acceptable before
+> God, save the meek and lowly in heart;
+
+"Cannot" is more than just "likely won't". Meekness is a necessary part of
+faith. I believe this has more to do with the inherent nature of faith than with
+God simply being picky about "how" we exercise it. Certainly, as the apostle
+James wrote, "God resisteth the
+proud",^[[James 4:6](https://www.churchofjesuschrist.org/study/scriptures/nt/james/4?lang=eng&id=p6#p6)]
+but, perhaps more significantly for our purposes, _the proud resist God_. When
+we seek to hold firmly to something that is not true, in essence demanding it
+from God, we unwittingly fall into pride. True faith, on the other hand, is the
+submission of our will and mind (wherein we lack justification) to God's will
+and mind (from which we learn truth, thus forming the _unjustified true belief_
+discussed earlier). In the words of Jacob:
+
+> Wherefore, brethren, seek not to counsel the Lord, but to take counsel from
+> his hand.
+
+False certainty seeks to counsel the Lord, to fill in the gaps of what is not
+clear. Faith humbly accepts what He promises _and_ what He leaves uncertain
+about those promises, asking for---but never demanding---additional light, and
+always moving forward with trust in Him.
+
+The more I pondered these concepts, the more I saw them in the scriptures.
+
+Nephi, when asked by an angel whether he knew "the condescension of God",
+replied "I know that he loveth his children; nevertheless, I do not know the
+meaning of all things." He acknowledged what he did not know while holding to
+what _had_ been revealed to him (God's love for His children).
 
 Faith to embrace uncertainty is what enabled Enos to keep going even when he did
-not obtain the outcome he hoped for. I'm sure Satan wanted him to doubt himself,
-but he was able to say, "I know God will eventually redeem the Lamanites, but I
-don't know when or how, and that's ok."
+not succeed in preaching the gospel to the Lamanites---which God had promised
+would happen. He could have doubted himself or God's promises, but he instead
+chose to say, "I know God will eventually redeem the Lamanites, but I don't know
+when or how, and that's ok."
 
-**TODO: helpful form of statement of faith that acknowledges uncertainty**
+Job, after he had lost his family, his livestock, and his property, declared,
+"Though he slay me, yet will I trust in
+Him."^[[Job 13:15](https://www.churchofjesuschrist.org/study/scriptures/ot/job/13?lang=eng&id=p15#p15)]
+
+But the most significant example of meek, submissive faith is found in Jesus
+Christ Himself. At the apex of His mortal ministry, when He was about to suffer
+the sins, pain, sickness, and sorrows of all
+humankind,^[See [Alma 7:11-12](https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/7?lang=eng&id=p11-p12#p11)] He deferred humbly to His Father's will and knowledge:^[[Matt. 26:39](https://www.churchofjesuschrist.org/study/scriptures/nt/matt/26?lang=eng&id=p39#p39). See also [Luke 22:42](https://www.churchofjesuschrist.org/study/scriptures/nt/luke/22?lang=eng&id=p42#p42).]
+
+> O my Father, if it be possible, let this cup pass from me: nevertheless not as
+> I will, but as thou wilt.
+
+### A Pattern
+
+There is a powerful linguistic pattern that can be derived from these scriptural
+examples:
+
+> [Statement of uncertainty] but [statement of conviction]
+
+The exact text in each case differs slightly from this form, but the pattern is one we can use in our own lives:
+
+* "I don't know when or how I will have the opportunity to marry, but I know God has promised that 'no blessings will be withheld from His faithful Saints.'"^[["Celestial Marriage", by then-Elder Russell M. Nelson](https://www.churchofjesuschrist.org/study/general-conference/2008/10/celestial-marriage?lang=eng&id=p23#p23)]
+* "I don't know why the Priesthood was not given to Blacks for a time in this dispensation, but I know that God 'denieth none that come unto him, black and white, bond and free, male and female.'"^[[2 Ne. 26:33](https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/26?lang=eng&id=p33#p33)]
+* **TODO: another example**
+
+Importantly, the second clause does not _negate_ the first clause. The unknown
+thing is still unknown. Rather, stating what we do know _and_ what we don't know
+allows us to move forward with faith in Christ. We move forward _even though_
+there are unknowns. This makes our faith much more soul-stretching than moving
+foward because the unknowns have been resolved.
 
 ## Conclusion
 
