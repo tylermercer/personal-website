@@ -176,7 +176,8 @@ uncertainty about how and when this promise is fulfilled.
 
 ## Certainty and Uncertainty
 
-Effectual faith involves both certainty and uncertainty. This can be seen in
+As I continued pondering and studying this idea, I learned that effectual faith
+involves both certainty and uncertainty. This can be seen in
 [Alma 32:21](https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/32?lang=eng&id=p21#p21):
 
 > And now as I said concerning faith---faith is not to have a perfect knowledge
@@ -186,8 +187,8 @@ Effectual faith involves both certainty and uncertainty. This can be seen in
 There must be some true idea in which we believe in order for us to have faith.
 But that's exactly where rejecting uncertainty undermines our faith: rejecting
 uncertainty leads us to hold _false_ beliefs, like "if I do the things in Alma
-26:22 then I _will_ baptize people on my mission." You can't have effectual
-faith by believing something that's false.
+26:22 then I _will_ baptize people on my mission." I learned that you can't have
+effectual faith by believing something that's false.
 
 To see why false certainty is a hindrance, I found it helpful to examine
 knowledge, faith, and false certainty using the _justified true belief_ (JTB)
@@ -209,12 +210,13 @@ Messiah will destroy the Romans" and "the Messiah will respect our religious
 authority." Because what they saw in Jesus contradicted these false beliefs, the
 Pharisees rejected Him as the Messiah.
 
-We need to cultivate both the willingness to admit what we do not know and the
-courage to firmly believe in what God has revealed. It is a delicate
-interaction, of the kind that Ross Ellenhorn refers to as a _both-and
+I learned that I needed to cultivate both the willingness to admit what I did
+not know and the courage to firmly believe in what God had promised. The
+interaction between these two seemingly-opposed ideas is a delicate one, of the
+kind that Ross Ellenhorn refers to as a _both-and
 proposition_,^[[_How We Change (And Ten Reasons Why We Don't)_](https://www.harpercollins.com/products/how-we-change-ross-ellenhorn)]
-as opposed to an either-or proposition. We need _both_ firm belief _and_ the
-ability to acknowledge uncertainty if we are to have true faith in the Lord and
+as opposed to an either-or proposition. I needed _both_ firm belief _and_ the
+ability to acknowledge uncertainty if I was to have true faith in the Lord and
 His promises.
 
 ## Balancing Conviction and Epistemic Humility
@@ -271,12 +273,12 @@ quote
 
 ## When Uncertainty is Still Valuable
 
-However, when it comes to how things will happen in the future, I believe that
-the Lord often reveals additional knowledge to us by allowing us to simply
-witness His will as events proceed, rather than revealing what will happen in
-detail to us beforehand. Desiring that the future be revealed to us "up front"
-can easily become a stipulation on our continued faithful action. This is,
-ironically, a mindset of doubt:
+However, when it comes to how things will happen in the future, I've come to
+believe that the Lord often reveals additional knowledge to us by allowing us to
+simply witness His will as events proceed, rather than revealing what will
+happen in detail to us beforehand. Desiring that the future be revealed to us
+"up front" can easily become a stipulation on our continued faithful action.
+This is, ironically, a mindset of doubt:
 
 > [W]hen people doubt their beliefs, they often suspend their commitment to
 > commandments and covenants while waiting for answers. The doubter’s posture is
