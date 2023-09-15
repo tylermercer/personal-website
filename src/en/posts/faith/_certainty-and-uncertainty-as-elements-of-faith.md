@@ -247,14 +247,15 @@ _uncertain_ and not seeking further light:
 > more definitive experiences, and more final and grounding forms of knowing?
 > And in this way, can an overemphasis on uncertainty ultimately trip us up?
 
-These are thought provoking questions. I find it particularly relevant to
+These are thought provoking questions. I think they are particularly relevant to
 uncertainty that does not pertain to the fulfilment of God's promises in the
 future. For example, many people face uncertainties about how to harmonize or
-reconcile certain aspects of religion and science, and some choose to put these
-uncertainties on a metaphorical "shelf" for later resolution. While this is
-useful, it is equally useful to instead take God at His word when He says "if
-any of you lack wisdom, let him ask of God, that giveth to all men [and women]
-liberally, and upbraideth not, and it shall be given him."^[[James
+reconcile certain aspects of religion and science or history, and some choose to
+put these uncertainties on a metaphorical "shelf" for later resolution. While
+this shelf idea is useful, it is equally useful to instead take God at His word
+when He says "if any of you lack wisdom, let him ask of God, that giveth to all
+men [and women] liberally, and upbraideth not, and it shall be given
+him."^[[James
 1:5](https://www.churchofjesuschrist.org/study/scriptures/nt/james/1?lang=eng&id=p5#p5)]
 This is particularly true in the Church of Jesus Christ of Latter-day
 Saints---one of our fundamental tenets is that the heavens are not closed. To
@@ -295,7 +296,7 @@ at this time and in this way." This kind of firm assertion of certainty feels
 like we are choosing to have strong faith. But, as discussed previously, false
 certainty and faith have different characteristics---and the most crucial
 difference is that false certainty is, well, _false_. Ultimately, when we make
-our minds accept as certainty that which is false, we restrict ourselves. This
+our minds accept as certainty that which is false, we limit ourselves. This
 self-limitation happens in at least two ways.
 
 First, we are simply _less capable_ when we are acting upon falsehoods. If, for
@@ -305,7 +306,7 @@ she might make poor investment decisions as a result of their false belief that
 such decisions will lead to good financial outcomes. As a result, their
 financial growth, and their current and future freedom, are restricted. Another
 example is negative stereotypes---if I have some false belief about particular
-group of people, I am
+group of people, I am **TODO**
 
 Second, we restrict our learning, because our false beliefs must be displaced by
 the truth in order for us to accept it, and strongly-held beliefs do not change
