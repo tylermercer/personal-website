@@ -57,8 +57,8 @@ contains the following promises:
 Perhaps, I reasoned, I could receive this blessing if I would just believe
 _firmly enough_. But I found my faith and hope fluctuating over time. Sometimes
 it was easy to have faith that the Lord would bless us with children, and other
-times it was much harder. I felt frustrated with myself for what seemed like an
-inability to exert more faith.[^faith-and-hope]
+times it was much harder. I became frustrated with myself for what seemed like
+an inability to exert more faith.[^faith-and-hope]
 
 ## Faith to Accept Uncertainty
 
