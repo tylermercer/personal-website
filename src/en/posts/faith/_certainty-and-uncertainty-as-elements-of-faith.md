@@ -283,7 +283,6 @@ This is, ironically, a mindset of doubt:
 > [W]hen people doubt their beliefs, they often suspend their commitment to
 > commandments and covenants while waiting for answers. The doubter’s posture is
 > generally to withhold obedience or limit it, pending resolution of the doubts.
->
 > ...
 >
 > [A key] problem with doubt is the intent to obey only _after_ the uncertainty
