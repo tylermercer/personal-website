@@ -409,8 +409,7 @@ humankind,^[See [Alma 7:11-12](https://www.churchofjesuschrist.org/study/scriptu
 
 ### A Pattern
 
-There is a powerful linguistic pattern that can be derived from these scriptural
-examples:
+There is a powerful pattern that can be derived from these scriptural examples:
 
 > [Statement of uncertainty] but [statement of conviction]
 
