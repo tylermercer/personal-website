@@ -380,18 +380,20 @@ clear. Faith humbly accepts what He promises _and_ what He leaves uncertain
 about those promises, asking for---but never demanding---additional light, and
 always moving forward with trust in Him.
 
-The more I pondered these concepts, the more I saw them in the scriptures.
+The more I have pondered these concepts, the more I see them in the scriptures.
 
 Nephi, when asked by an angel whether he knew "the condescension of God",
 replied "I know that he loveth his children; nevertheless, I do not know the
-meaning of all things." He acknowledged what he did not know while holding to
+meaning of all
+things."^[[1 Nephi 11:17](https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/11?lang=eng&id=p17#p17)]
+He acknowledged what he did not know (the condescension of God) while holding to
 what _had_ been revealed to him (God's love for His children).
 
 Faith to embrace uncertainty is what enabled Enos to keep going even when he did
-not succeed in preaching the gospel to the Lamanites---which God had promised
-would happen. He could have doubted himself or God's promises, but he instead
-chose to say, "I know God will eventually redeem the Lamanites, but I don't know
-when or how, and that's ok."
+not succeed in preaching the gospel to the Lamanites---when God had directly
+promised him that the Lamanites would receive the gospel. He could have doubted
+himself or God's promises, but he instead chose to say, "I know God will
+eventually redeem the Lamanites, but I don't know when or how, and that's ok."
 
 Job, after he had lost his family, his livestock, and his property, declared,
 "Though he slay me, yet will I trust in
