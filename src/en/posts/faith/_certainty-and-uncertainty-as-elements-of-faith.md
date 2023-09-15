@@ -119,7 +119,8 @@ That was the kind of faith John and Heather had had to exercise. Faith to
 accept, acknowledge, and perhaps even embrace uncertainty.
 
 As I've pondered and studied that idea since then, I've encountered it
-everywhere, such as in Hebrews 11:13-16:
+everywhere, such as in
+[Hebrews 11:13-16](https://www.churchofjesuschrist.org/study/scriptures/nt/heb/11?lang=eng&id=p13-p16#p13):
 
 > **13** These [the individuals Paul mentions in the preceding verses] all died in
 > faith, not having received the promises, but having seen them afar off, and
@@ -140,8 +141,9 @@ everywhere, such as in Hebrews 11:13-16:
 The people Paul speaks of in this scripture faced uncertainty about both _when_
 and _how_ the Lord would fulfill His promises to them.
 
-A few days later, I was reminded of Alma 26:22, which was quoted a lot on my
-mission:
+A few days later, I was reminded of
+[Alma 26:22](https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/26?lang=eng&id=p22#p22),
+which was quoted often by my leaders on my mission:
 
 > **22** Yea, he that repenteth and exerciseth faith, and bringeth forth good works,
 > and prayeth continually without ceasing—unto such it is given to know the
