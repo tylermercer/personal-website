@@ -278,7 +278,7 @@ believe that the Lord often reveals additional knowledge to us by allowing us to
 simply witness His will as events proceed, rather than revealing what will
 happen in detail to us beforehand. Desiring that the future be revealed to us
 "up front" can easily become a stipulation on our continued faithful action.
-This is, ironically, a mindset of doubt:
+This is, ironically, a mindset of doubt:^[["When Doubts and Questions Arise,"](https://www.churchofjesuschrist.org/study/ensign/2015/03/when-doubts-and-questions-arise?lang=eng) March 2015 Ensign]
 
 > [W]hen people doubt their beliefs, they often suspend their commitment to
 > commandments and covenants while waiting for answers. The doubter’s posture is
@@ -286,8 +286,7 @@ This is, ironically, a mindset of doubt:
 > ...
 >
 > [A key] problem with doubt is the intent to obey only _after_ the uncertainty
-> is resolved to the satisfaction of the
-> doubter.^[["When Doubts and Questions Arise,"](https://www.churchofjesuschrist.org/study/ensign/2015/03/when-doubts-and-questions-arise?lang=eng) March 2015 Ensign]
+> is resolved to the satisfaction of the doubter.
 
 As such, while we should seek knowledge, we should be open to that knowledge
 coming through experience rather than in advance through revelation.
