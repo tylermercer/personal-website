@@ -251,7 +251,7 @@ _uncertain_ and not seeking further light:
 > more definitive experiences, and more final and grounding forms of knowing?
 > And in this way, can an overemphasis on uncertainty ultimately trip us up?
 
-These are thought provoking questions. I think they are particularly relevant to
+These are thought provoking questions. I think they are especially relevant to
 uncertainty that does not pertain to the fulfilment of God's promises in the
 future. For example, many people face uncertainties about how to harmonize or
 reconcile certain aspects of religion and science or history, and some choose to
@@ -276,9 +276,11 @@ quote
 However, when it comes to how things will happen in the future, I've come to
 believe that the Lord often reveals additional knowledge to us by allowing us to
 simply witness His will as events proceed, rather than revealing what will
-happen in detail to us beforehand. Desiring that the future be revealed to us
-"up front" can easily become a stipulation on our continued faithful action.
-This is, ironically, a mindset of doubt:^[["When Doubts and Questions Arise,"](https://www.churchofjesuschrist.org/study/ensign/2015/03/when-doubts-and-questions-arise?lang=eng) March 2015 Ensign]
+happen in detail to us beforehand. Our desiring that the future be revealed to
+us "up front" can easily become a stipulation on our continued faithful action.
+This is, ironically, a mindset of
+doubt:^[["When Doubts and Questions Arise,"](https://www.churchofjesuschrist.org/study/ensign/2015/03/when-doubts-and-questions-arise?lang=eng)
+March 2015 Ensign]
 
 > [W]hen people doubt their beliefs, they often suspend their commitment to
 > commandments and covenants while waiting for answers. The doubter’s posture is
@@ -302,17 +304,24 @@ our minds accept as certainty that which is false, we limit ourselves. This
 self-limitation happens in at least two ways.
 
 First, we are simply _less capable_ when we are acting upon falsehoods. If, for
-example, a person is drawn into "get rich quick" schemes, or
-[prosperity theology](https://en.wikipedia.org/wiki/Prosperity_theology), he or
-she might make poor investment decisions as a result of their false belief that
-such decisions will lead to good financial outcomes. As a result, their
-financial growth, and their current and future freedom, are restricted. Another
-example is negative stereotypes---if I have some false belief about particular
-group of people, I am **TODO**
+example, I buy into "get rich quick" schemes, or
+[prosperity theology](https://en.wikipedia.org/wiki/Prosperity_theology), and
+make investment decisions based on that false belief, my financial growth, and
+my current and future freedom, would be restricted. Another example is negative
+stereotypes---if I have false negative beliefs about a particular group of
+people, I am likely to judge people from that group incorrectly, falling into
+"us-vs-them" thinking. This would prevent me from forming rewarding
+relationships with people from that group and would inhibit my personal growth
+and learning.
 
-Second, we restrict our learning, because our false beliefs must be displaced by
-the truth in order for us to accept it, and strongly-held beliefs do not change
-easily. Studies have shown that **TODO**
+Second, holding false beliefs restricts our learning, because our false beliefs
+must be displaced by the truth in order for us to accept it, and strongly-held
+beliefs do not change easily. Studies have shown that, when faced with new
+information that contradicts an existing belief, people experience cognitive
+dissonance, and often reject the new information entirely. They may even hold
+_more strongly_ to their false beliefs. Acknowledging what we do not know, and
+cultivating a mindset of openness, can mitigate these negative self-limiting
+effects.
 
 **TODO**: _expand on the dangers of false certainty and why it eventually leads to
 stagnation, pride, and disbelief, e.g. "it is not reasonable that such a being
@@ -366,11 +375,11 @@ emphasis mine.]
 
 "Cannot" is more than just "likely won't." Meekness is a necessary part of
 faith. I believe this has more to do with the inherent nature of faith than with
-God simply being picky about how we exercise it. Certainly, as the apostle
-James wrote, "God resisteth the
-proud",^[[James 4:6](https://www.churchofjesuschrist.org/study/scriptures/nt/james/4?lang=eng&id=p6#p6)]
+God simply being picky about how we exercise it. Certainly, as the apostle James
+wrote, "God resisteth the
+proud,"^[[James 4:6](https://www.churchofjesuschrist.org/study/scriptures/nt/james/4?lang=eng&id=p6#p6)]
 but, perhaps more significantly, _the proud resist God_. When we seek to hold
-firmly to something that is not true, in essence demanding it from God, we
+firmly to something that is not true, in essence demanding that it be true, we
 unwittingly fall into pride. Faith, on the other hand, is the submission of our
 will and mind (wherein we lack justification) to God's will and mind (from which
 we learn truth, thus forming the _unjustified true belief_ discussed earlier).
@@ -393,8 +402,8 @@ things."^[[1 Nephi 11:17](https://www.churchofjesuschrist.org/study/scriptures/b
 He acknowledged what he did not know (the condescension of God) while holding to
 what _had_ been revealed to him (God's love for His children).
 
-Faith to embrace uncertainty is what enabled Enos to keep going even when he did
-not succeed in preaching the gospel to the Lamanites---when God had directly
+Faith to embrace uncertainty enabled Enos to keep going even when he did not
+succeed in preaching the gospel to the Lamanites---when God had directly
 promised him that the Lamanites would receive the gospel. He could have doubted
 himself or God's promises, but he instead chose to say, "I know God will
 eventually redeem the Lamanites, but I don't know when or how, and that's ok."
@@ -431,7 +440,7 @@ this pattern in our own lives:
   dispensation, but I know that God 'denieth none that come unto him, black and
   white, bond and free, male and
   female.'"^[[2 Ne. 26:33](https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/26?lang=eng&id=p33#p33)]
-* **TODO**: _another example_
+* "I don't know 
 
 Importantly, the second clause does not _negate_ the first clause. The unknown
 thing is still unknown. Rather, stating what we do know _and_ what we don't know
