@@ -329,9 +329,10 @@ as Christ shall come"._
 
 ## Exercising Faith with Humility
 
-**TODO**: _introduce this passage
-[from Elder Uchtdorf](https://www.churchofjesuschrist.org/study/general-conference/2014/10/lord-is-it-i?lang=eng#p1)
-to explain why humility is necessary for faith that produces growth_:
+In
+[his talk from October 2014](https://www.churchofjesuschrist.org/study/general-conference/2014/10/lord-is-it-i?lang=eng#p1),
+Elder Dieter F. Uchtdorf touched on these themes of pride, uncertainty, and
+receiving additional light from God:
 
 > We must approach our Eternal Father with broken hearts and teachable minds. We
 > must be willing to learn and to change. ...
@@ -343,7 +344,7 @@ to explain why humility is necessary for faith that produces growth_:
 False certainty often leads us to this dangerous state of being unwilling to
 learn and change.
 
-Elder Uchtdorf continues:
+He continued:
 
 > But those who want to improve and progress, those who learn of the Savior and
 > desire to be like Him, those who humble themselves as a little child and seek
@@ -353,18 +354,15 @@ Elder Uchtdorf continues:
 > that is the fruit of a meek and humble heart. They will be blessed with the
 > desire and discipline to become true disciples of Jesus Christ.
 
-**TODO**: _how acknowledging what we do not know helps us avoid mingling man's
-wisdom with God's wisdom_
-
-Elder Uchtdorf mentions meekness in connection to this kind of humble,
-growth-oriented faith. Meekness, according to Elder David A. Bednar, "is a
-defining attribute of the Redeemer and is distinguished by righteous
-responsiveness, willing submissiveness, and strong
+I find it noteworthy that Elder Uchtdorf mentions _meekness_ in connection to
+this kind of humble, growth-oriented faith. Meekness, according to Elder David
+A. Bednar, "is a defining attribute of the Redeemer and is distinguished by
+righteous responsiveness, willing submissiveness, and strong
 self-restraint."^[["Meek and Lowly in Heart"](https://www.churchofjesuschrist.org/study/general-conference/2018/04/meek-and-lowly-of-heart?lang=eng)]
-Each of these characteristics contributes to our effectual faith. However,
-meekness is not just a "nice-to-have" when it comes to faith. The ancient
-prophet Mormon
-wrote:^[[Moroni 7:42-43](https://www.churchofjesuschrist.org/study/scriptures/bofm/moro/7?lang=eng&id=p42-p43#p42),
+Each of these characteristics supports our effectual faith, but I think Elder
+Uchtdorf's point is that meekness is not just a "nice-to-have" when it comes to
+faith. The ancient prophet Mormon seemed to
+agree:^[[Moroni 7:42-43](https://www.churchofjesuschrist.org/study/scriptures/bofm/moro/7?lang=eng&id=p42-p43#p42),
 emphasis mine.]
 
 > 43 And again, behold I say unto you that [someone] **cannot** have faith and
@@ -440,7 +438,7 @@ this pattern in our own lives:
   dispensation, but I know that God 'denieth none that come unto him, black and
   white, bond and free, male and
   female.'"^[[2 Ne. 26:33](https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/26?lang=eng&id=p33#p33)]
-* "I don't know 
+* "I don't know **TODO**
 
 Importantly, the second clause does not _negate_ the first clause. The unknown
 thing is still unknown. Rather, stating what we do know _and_ what we don't know
