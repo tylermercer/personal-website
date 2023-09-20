@@ -5,7 +5,7 @@ date: 2023-09-20 12:00:00
 draft: true
 ---
 
-Yesterday I read
+The other day I read
 [the guide to this week's Come, Follow Me](https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-individuals-and-families-new-testament-2023/39?lang=eng),
 which covers 2 Corinthians 8-13. The introduction to the guide talks about
 chapters 8 and 9 specifically, and quotes chapter 9 verse 7:
