@@ -431,14 +431,21 @@ We can derive a powerful pattern from these scriptural examples:
 The exact text in each case differs slightly from this form, but we can apply
 this pattern in our own lives:
 
-* "I don't know when or how I will have the opportunity to marry, but I know God
-  has promised that 'no blessings will be withheld from His faithful
+* Someone who seeks to be married but has not received that blessing yet might
+  say, "I don't know when or how I will have the opportunity to marry, but I
+  know God has promised that 'no blessings will be withheld from His faithful
   Saints.'"^[["Celestial Marriage", by then-Elder Russell M. Nelson](https://www.churchofjesuschrist.org/study/general-conference/2008/10/celestial-marriage?lang=eng&id=p23#p23)]
-* "I don't know why the Priesthood was not given to Blacks for a time in this
-  dispensation, but I know that God 'denieth none that come unto him, black and
-  white, bond and free, male and
+* Someone who struggles with the Church's former policy of not conferring the
+  priesthood upon Black members might say, "I don't know why the Priesthood was
+  not given to Blacks for a time in this dispensation, but I know that God
+  'denieth none that come unto him, black and white, bond and free, male and
   female.'"^[[2 Ne. 26:33](https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/26?lang=eng&id=p33#p33)]
-* "I don't know **TODO**
+* Someone in John and Heather's situation, discussed earlier---facing uncertain
+  health outcomes and possibly even death---might faithfully declare, "I don't
+  know whether I will be healed or not, but I know that 'all things have been
+  done in the wisdom of Him who knoweth all things' and that 'there shall be a
+  resurrection of the dead, both of the just and
+  unjust'"^[[2 Nephi 2:24](https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/2?lang=eng&id=p24#p24)]^[[Acts 24:15](https://www.churchofjesuschrist.org/study/scriptures/nt/acts/24?lang=eng&id=15#p15)]
 
 Importantly, the second clause does not _negate_ the first clause. The unknown
 thing is still unknown. Rather, stating what we do know _and_ what we don't know
