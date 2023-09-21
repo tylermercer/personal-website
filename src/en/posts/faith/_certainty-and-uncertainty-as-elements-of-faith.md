@@ -319,9 +319,9 @@ must be displaced by the truth in order for us to accept it, and strongly-held
 beliefs do not change easily. Studies have shown that, when faced with new
 information that contradicts an existing belief, people experience cognitive
 dissonance, and often reject the new information entirely. They may even hold
-_more strongly_ to their false beliefs. Acknowledging what we do not know, and
-cultivating a mindset of openness, can mitigate these negative self-limiting
-effects.
+_more strongly_ to their false beliefs, a phenomenon known as belief
+perseverance. Acknowledging what we do not know, and cultivating a mindset of
+openness, can mitigate these negative self-limiting effects.
 
 **TODO**: _expand on the dangers of false certainty and why it eventually leads to
 stagnation, pride, and disbelief, e.g. "it is not reasonable that such a being
