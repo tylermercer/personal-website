@@ -27,10 +27,12 @@ ways "love" plays into a person's experience giving to someone in need:
 ### 1 - The giver loves the recipient by choosing to feel compassion
 
 Upon seeing the recipient, the giver loves the recipient by choosing a mental
-attitude of compassion or empathy for their plight, rather than one of
-accusation (e.g. Mosiah 4:17's example of "the man has brought upon himself his
-misery") or toxic individualism ("I've got my own problems" or "I don't want to
-get involved"). Note *love* is a verb here.
+attitude of compassion or empathy for their plight, rather than a mindset of
+accusation (e.g.
+[Mosiah 4:17](https://www.churchofjesuschrist.org/study/scriptures/bofm/mosiah/4?lang=eng&id=p17#p17)'s
+example of "the man has brought upon himself his misery") or toxic individualism
+("I've got my own problems" or "I don't want to get involved"). Note *love* is a
+verb here.
 
 ### 2 - The giver loves the recipient through giving
 
@@ -41,7 +43,7 @@ the parable of the Good Samaritan). Note *love* is again a verb.
 
 ### 3 - The giver feels love for the recipient
 
-This is the first time we see *love* as a noun.^[You could argue that the
+This is the first time we see *love* as a noun.^[One could argue that the
 feeling of compassion or empathy is *love* as a noun, but I see it as primarily
 a verb---we must choose compassion.] It might seem strange to place this feeling
 of love *after* the action of love, but both modern psychology and the teachings
@@ -66,9 +68,9 @@ principle powerfully:
 > sacrificed enough for your parents or for that brother or sister or roommate.
 
 In psychology, this effect is sometimes termed
-[the Ben Franklin effect](<https://en.wikipedia.org/wiki/Ben_Franklin_effect>),
+[the Ben Franklin effect](https://en.wikipedia.org/wiki/Ben_Franklin_effect),
 after Benjamin Franklin, who described "an old maxim"
-[in his autobiography](<https://web.archive.org/web/20150118172814/http://www.ushistory.org/franklin/autobiography/page48.htm>):
+[in his autobiography](https://web.archive.org/web/20150118172814/http://www.ushistory.org/franklin/autobiography/page48.htm):
 
 > "He that has once done you a kindness will be more ready to do you another,
 > than he whom you yourself have obliged."
@@ -91,7 +93,9 @@ feels an increase in love towards the doer of that good deed.
 
 To bring this back to a spiritual context, God blesses us with a portion of *His
 love* for others when we serve them. The ancient prophet Mormon described this,
-at the end of the sermon recorded in Moroni 7 (emphasis mine):
+at the end of the sermon recorded in Moroni
+7:^[[Moroni 7:47-48](https://www.churchofjesuschrist.org/study/scriptures/bofm/moro/7?lang=eng&id=p48#p48),
+emphasis mine]
 
 > Wherefore, my beloved brethren, pray unto the Father with all the energy of
 > heart, that ye may be filled with *this love, which he hath bestowed upon all
@@ -116,11 +120,11 @@ her children are kind to each other.
 
 This one, again, may not always occur---it depends on the state of the
 recipient. But this idea reminds me of
-[the harrowing experience of Chris Williams](<https://youtu.be/E7zwQ_7q-fU>),
-who lost his wife and several children in a horrific car crash caused by a drunk
-driver. After the incident, Chris knew he needed to forgive the driver, and
-relied upon the grace of Christ to do so. Eventually, he met up with Cameron,
-the teenager who had been driving the other car:
+[the story of Chris Williams](https://youtu.be/E7zwQ_7q-fU), who lost his wife
+and several children in a horrific car crash caused by a drunk driver. After the
+incident, Chris knew he needed to forgive the driver, and relied upon the grace
+of Christ to do so. Eventually, he met up with Cameron, the teenager who had
+been driving the other car. This is how Williams described that meeting:
 
 > The thought and sentiment that I expressed as I sat down with Cameron was
 > simply this, that if through the forgiveness through anything else he had seen
@@ -130,6 +134,7 @@ the teenager who had been driving the other car:
 > which His knowledge, His experience, His brilliance, could shine.
 
 Chris (the giver, in this case of forgiveness) pointed Cameron (the recipient)
+towards God and His love.
 
 I think this experience of love, perhaps together with #3 and #5, is arguably
 _the point_ of our service. We serve so that others can feel the Savior's love,
