@@ -304,15 +304,17 @@ our minds accept as certainty that which is false, we limit ourselves. This
 self-limitation happens in at least two ways.
 
 First, we are simply _less capable_ when we are acting upon falsehoods. If, for
-example, I buy into "get rich quick" schemes, or
-[prosperity theology](https://en.wikipedia.org/wiki/Prosperity_theology), and
-make investment decisions based on that false belief, my financial growth, and
-my current and future freedom, would be restricted. Another example is negative
-stereotypes---if I have false negative beliefs about a particular group of
-people, I am likely to judge people from that group incorrectly, falling into
-"us-vs-them" thinking. This would prevent me from forming rewarding
-relationships with people from that group and would inhibit my personal growth
-and learning.
+example, I buy into "get rich quick" schemes, or prosperity
+theology,^[[Prosperity theology](https://en.wikipedia.org/wiki/Prosperity_theology)
+is the false belief that material wealth is always the will of God for His
+followers.] and make investment decisions based on that false belief, my
+financial growth, and my current and future freedom, would be restricted.
+Another example is negative stereotypes---if I have false negative beliefs about
+a particular group of people, I am likely to judge people from that group
+incorrectly, falling into "us-vs-them" thinking. This would prevent me from
+forming rewarding relationships with people from that group, would inhibit my
+personal growth and learning, and could lead to me being hostile or harmful
+towards that group.
 
 Second, holding false beliefs restricts our learning, because our false beliefs
 must be displaced by the truth in order for us to accept it, and strongly-held
@@ -323,16 +325,40 @@ _more strongly_ to their false beliefs, a phenomenon known as belief
 perseverance. Acknowledging what we do not know, and cultivating a mindset of
 openness, can mitigate these negative self-limiting effects.
 
-**TODO**: _expand on the dangers of false certainty and why it eventually leads to
-stagnation, pride, and disbelief, e.g. "it is not reasonable that such a being
-as Christ shall come"._
+The self-restricting nature of false certainty, over time, can cause spiritual
+stagnation and complacency. We may think we've "already heard it all" or that we
+know all that we need to about the gospel. When taken to an extreme, it can lead
+us to reject God's word and His prophets. The scriptures contain many examples
+of this: from the self-assured Pharisees, mentioned previously; to the Nephites
+who lived in the time preceding Jesus' visit to the Americas, who relied on
+their own wisdom to conclude that "it is not reasonable that such a being as
+Christ shall
+come."^[[Helaman 16:18](https://www.churchofjesuschrist.org/study/scriptures/bofm/hel/16?lang=eng&id=p18#p18)]
+Ultimately, of course, these people were proven wrong, their false certainty
+shaken by truth with which it was incongruent.
+
+Ironically, a position of false certainty feels secure when we firmly assert our
+belief, but, when our experience refutes them, we find that we have built upon a
+shaky foundation. The ancient prophet Jacob warned against
+this:^[[2 Nephi 28:28](https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/28?lang=eng&id=p28#p28)]
+
+> And in fine, wo unto all those who tremble, and are angry because of the truth
+> of God! For behold, he that is built upon the rock receiveth it with gladness;
+> and he that is built upon a sandy foundation trembleth lest he shall fall.
+
+It is counterintuitive, but false certainty's "sandy" nature means that it's
+only through _acknowledging uncertainty_ that we can dig deep enough to reach
+the firm, bedrock foundation of Jesus Christ and His
+gospel.^[See [Helaman 5:12](https://www.churchofjesuschrist.org/study/scriptures/bofm/hel/5?lang=eng&id=p12#p12)]
 
 ## Exercising Faith with Humility
 
-In
+The Pharisees' rejection of Christ; the Nephites' dismissal of the coming of
+Christ as "unreasonable"; and the anger Jacob mentions in the verse quoted
+previously have a common underlying cause: pride. In
 [his talk from October 2014](https://www.churchofjesuschrist.org/study/general-conference/2014/10/lord-is-it-i?lang=eng#p1),
-Elder Dieter F. Uchtdorf touched on these themes of pride, uncertainty, and
-receiving additional light from God:
+Elder Dieter F. Uchtdorf explains this connection between pride, uncertainty,
+and receiving additional light from God:
 
 > We must approach our Eternal Father with broken hearts and teachable minds. We
 > must be willing to learn and to change. ...
@@ -341,10 +367,10 @@ receiving additional light from God:
 > will begin to wonder whether the Church [or the gospel] has anything to offer
 > them.
 
-False certainty often leads us to this dangerous state of being unwilling to
-learn and change.
+False certainty, as in the case of the Pharisees and the "reasonable" Nephites,
+often leads us to this dangerous state of being unwilling to learn and change.
 
-He continued:
+He continues:
 
 > But those who want to improve and progress, those who learn of the Savior and
 > desire to be like Him, those who humble themselves as a little child and seek
@@ -355,9 +381,12 @@ He continued:
 > desire and discipline to become true disciples of Jesus Christ.
 
 I find it noteworthy that Elder Uchtdorf mentions _meekness_ in connection to
-this kind of humble, growth-oriented faith. Meekness, according to Elder David
-A. Bednar, "is a defining attribute of the Redeemer and is distinguished by
-righteous responsiveness, willing submissiveness, and strong
+this kind of humble, growth-oriented faith. This, I believe, is a clue to how we
+can avoid building on a sandy foundation of false certainty.
+
+Meekness, according to Elder David A. Bednar, "is a defining attribute of the
+Redeemer and is distinguished by righteous responsiveness, willing
+submissiveness, and strong
 self-restraint."^[["Meek and Lowly in Heart"](https://www.churchofjesuschrist.org/study/general-conference/2018/04/meek-and-lowly-of-heart?lang=eng)]
 Each of these characteristics supports our effectual faith, but I think Elder
 Uchtdorf's point is that meekness is not just a "nice-to-have" when it comes to
@@ -373,15 +402,15 @@ emphasis mine.]
 
 "Cannot" is more than just "likely won't." Meekness is a necessary part of
 faith. I believe this has more to do with the inherent nature of faith than with
-God simply being picky about how we exercise it. Certainly, as the apostle James
+God being particular about how we exercise it. Certainly, as the apostle James
 wrote, "God resisteth the
 proud,"^[[James 4:6](https://www.churchofjesuschrist.org/study/scriptures/nt/james/4?lang=eng&id=p6#p6)]
 but, perhaps more significantly, _the proud resist God_. When we seek to hold
 firmly to something that is not true, in essence demanding that it be true, we
-unwittingly fall into pride. Faith, on the other hand, is the submission of our
-will and mind (wherein we lack justification) to God's will and mind (from which
-we learn truth, thus forming the _unjustified true belief_ discussed earlier).
-In the words of Jacob:
+unwittingly fall into pride. Faith, on the other hand, is the meek submission of
+our will and mind (wherein we lack justification) to God's will and mind (from
+which we learn truth, thus forming the _unjustified true belief_ discussed
+earlier). In the words of Jacob:^[[Jacob 4:10](https://www.churchofjesuschrist.org/study/scriptures/bofm/jacob/4?lang=eng&id=p10#p10)]
 
 > Wherefore, brethren, seek not to counsel the Lord, but to take counsel from
 > his hand.
@@ -448,10 +477,10 @@ this pattern in our own lives:
   unjust'"^[[2 Nephi 2:24](https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/2?lang=eng&id=p24#p24)]^[[Acts 24:15](https://www.churchofjesuschrist.org/study/scriptures/nt/acts/24?lang=eng&id=15#p15)]
 
 Importantly, the second clause does not _negate_ the first clause. The unknown
-thing is still unknown. Rather, stating what we do know _and_ what we don't know
-allows us to move forward with faith in Christ. We move forward _even though_
-there are unknowns. This makes our faith much more soul-stretching than moving
-foward because the unknowns have been resolved.
+thing is still unknown. Rather, meekly recognizing what we do know _and_ what we
+don't know allows us to move forward with faith in Christ. We move forward _even
+though_ there are unknowns. This makes our faith much more soul-stretching than
+moving foward because the unknowns have been resolved.
 
 ## Conclusion
 
