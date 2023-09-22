@@ -346,9 +346,9 @@ this:^[[2 Nephi 28:28](https://www.churchofjesuschrist.org/study/scriptures/bofm
 > of God! For behold, he that is built upon the rock receiveth it with gladness;
 > and he that is built upon a sandy foundation trembleth lest he shall fall.
 
-It is counterintuitive, but false certainty's "sandy" nature means that it's
-only through _acknowledging uncertainty_ that we can dig deep enough to reach
-the firm, bedrock foundation of Jesus Christ and His
+It's counterintuitive, but false certainty's "sandy" nature means that it's only
+through _acknowledging uncertainty_ that we can dig deep enough to reach the
+firm, bedrock foundation of Jesus Christ and His
 gospel.^[See [Helaman 5:12](https://www.churchofjesuschrist.org/study/scriptures/bofm/hel/5?lang=eng&id=p12#p12)]
 
 ## Exercising Faith with Humility
