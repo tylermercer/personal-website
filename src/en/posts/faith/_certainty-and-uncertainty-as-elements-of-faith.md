@@ -519,7 +519,7 @@ After praying, we felt peace. We hoped that things would be okay but trusted
 that God was mindful of us and watching over us and our child, regardless of the
 outcome.
 
-Fortunately---gratefully!---things did turn out okay. Our baby continued
+Fortunately---and _so_ gratefully!---things did turn out okay. Our baby continued
 developing and is growing healthily as I write this. We have since learned that
 she's a girl, and feel so much joyful anticipation and so much gratitude for
 the Lord's hand in our lives and her life in this way. However, we're also
