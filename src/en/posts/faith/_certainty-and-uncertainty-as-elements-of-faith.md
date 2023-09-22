@@ -5,7 +5,7 @@ date: Last Modified
 draft: true
 ---
 
-A month and a half ago, my wife and I had a miscarriage scare.
+A month and a half ago, my wife Evelyn and I had a miscarriage scare.
 
 After trying to conceive for about ten months, during which time we had already
 had one miscarriage, we were finally pregnant. We saw it as a blessing from God,
@@ -484,7 +484,52 @@ moving foward because the unknowns have been resolved.
 
 ## Conclusion
 
-**TODO**: _return to our faith journey_
+Over the course of our fertility journey, Evelyn and I slowly learned to
+exercise this kind of faith---not perfectly, but better, and more intentionally,
+than we had before. We learned to let go of false certainty and acknowledge what
+we did not know. We did not know whether God would bless us with children at
+this time in our lives, but we knew that He had promised us children eventually
+(whether in this life or in the eternities) and chose a mindset of celebrating
+every small experience in that direction: seeing our friends have children, and
+getting to know and care for them; seeing our younger relatives grow and
+spending time with them; hearing the (frequent!) baby
+blessings^[In the Church of Jesus Christ of Latter-day Saints, children are blessed and given their names as a priesthood ordinance, typically by their father. These are unique and powerful spiritual experiences wherein the father follows the direction of the Spirit to bless his child. See ["Naming and Blessing Chilren"](https://www.churchofjesuschrist.org/study/manual/priesthood-ordinances-and-blessings/naming-and-blessing-children?lang=eng#p4)]
+as children were born in our church congregation.
+
+Shortly after we learned my wife was pregnant, I had a distinct impression. I
+was pondering what we had learned, and I realized that the "overcoming" of our
+trial hadn't happened through receiving the blessing we had sought. It had come
+earlier, through the Lord gently instructing us in what it really means to have
+faith in Him. We overcame the difficulty of infertility _as soon as_ we chose to
+have meek, uncertainty-acknowledging faith in Chirst. Our worry and concerns
+were "swallowed up" in peace and trust in Him.
+
+The fear and worry of our fertility journey could be described as a "chronic"
+case, and the treatment prescribed by the Great
+Physician^[See [Matt. 9:12](https://www.churchofjesuschrist.org/study/scriptures/nt/matt/9?lang=eng&id=12#p12)]---faith
+to accept uncertainty--- was effective. The miscarriage scare, on the other
+hand, was "acute." Our fear and worry was gripping. We prayed fervently that
+night, pleading with the Lord to protect our child. As we prayed, we felt the
+soft guidance of the Spirit reminding us of what we had learned. It was
+heart-wrenching, but we told the Lord that we would accept His will, and that we
+would trust in His promised blessings even if we did not receive our desired
+outcome right now and in this way.
+
+After praying, we felt peace. We hoped that things would be okay but trusted
+that God was mindful of us and watching over us and our child, regardless of the
+outcome.
+
+Fortunately---gratefully!---things did turn out okay. Our baby continued
+developing and is growing healthily as I write this. We have since learned that
+she's a girl, and feel so much joyful anticipation and so much gratitude for
+the Lord's hand in our lives and her life in this way. However, we're also
+grateful for the powerful truths we have learned, and for the furnace of
+affliction in which the impurities of false certainty were refined out of our
+faith. We aren't perfect at avoiding false certainty, by any means. I believe
+that the digging out of "sand" in our foundations of faith must be an ongoing
+process---learning to distinguish what we can place our faith in from what we
+cannot. But we have learned to rely more meekly upon God's grace and mercy,
+trusting in His timing and being willing to acknowledge what we do not know.
 
 [^faith-and-hope]:
 
