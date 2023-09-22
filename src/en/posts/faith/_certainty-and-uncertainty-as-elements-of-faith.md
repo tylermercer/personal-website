@@ -1,8 +1,7 @@
 ---
 title: Certainty and Uncertainty as Elements of Faith
 description: Our faith is stronger when we can accept what we do not know
-date: Last Modified
-draft: true
+date: 2023-09-21 12:00:00
 ---
 
 A month and a half ago, my wife Evelyn and I had a miscarriage scare.
