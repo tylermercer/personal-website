@@ -311,10 +311,12 @@ followers.] and make investment decisions based on that false belief, my
 financial growth, and my current and future freedom, would be restricted.
 Another example is negative stereotypes---if I have false negative beliefs about
 a particular group of people, I am likely to judge people from that group
-incorrectly, falling into "us-vs-them" thinking. This would prevent me from
-forming rewarding relationships with people from that group, would inhibit my
-personal growth and learning, and could lead to me being hostile or harmful
-towards that group.
+incorrectly, falling into "us-vs-them"
+thinking.^[See ["Them and Us,"](https://speeches.byu.edu/talks/elaine-l-jack/us/)
+a devotional address by Elaine L. Jack] This would prevent me from forming
+rewarding relationships with people from that group, would inhibit my personal
+growth and learning, and could lead to me being hostile or harmful towards that
+group.
 
 Second, holding false beliefs restricts our learning, because our false beliefs
 must be displaced by the truth in order for us to accept it, and strongly-held
@@ -330,9 +332,8 @@ stagnation and complacency. We may think we've "already heard it all" or that we
 know all that we need to about the gospel. When taken to an extreme, it can lead
 us to reject God's word and His prophets. The scriptures contain many examples
 of this: from the self-assured Pharisees, mentioned previously; to the Nephites
-who lived in the time preceding Jesus' visit to the Americas, who relied on
-their own wisdom to conclude that "it is not reasonable that such a being as
-Christ shall
+in the time preceding Jesus' visit to the Americas, who relied on their own
+wisdom to conclude that "it is not reasonable that such a being as Christ shall
 come."^[[Helaman 16:18](https://www.churchofjesuschrist.org/study/scriptures/bofm/hel/16?lang=eng&id=p18#p18)]
 Ultimately, of course, these people were proven wrong, their false certainty
 shaken by truth with which it was incongruent.
@@ -420,7 +421,8 @@ clear. Faith humbly accepts what He promises _and_ what He leaves uncertain
 about those promises, asking for---but never demanding---additional light, and
 always moving forward with trust in Him.
 
-The more I have pondered these concepts, the more I see them in the scriptures.
+The more I have pondered these concepts, the more I see examples of this kind of
+faith in the scriptures.
 
 Nephi, when asked by an angel whether he knew "the condescension of God",
 replied "I know that he loveth his children; nevertheless, I do not know the
@@ -429,7 +431,7 @@ things."^[[1 Nephi 11:17](https://www.churchofjesuschrist.org/study/scriptures/b
 He acknowledged what he did not know (the condescension of God) while holding to
 what _had_ been revealed to him (God's love for His children).
 
-Faith to embrace uncertainty enabled Enos to keep going even when he did not
+Faith to accept uncertainty enabled Enos to keep going even when he did not
 succeed in preaching the gospel to the Lamanites---when God had directly
 promised him that the Lamanites would receive the gospel. He could have doubted
 himself or God's promises, but he instead chose to say, "I know God will
@@ -521,15 +523,16 @@ outcome.
 
 Fortunately---and _so_ gratefully!---things did turn out okay. Our baby continued
 developing and is growing healthily as I write this. We have since learned that
-she's a girl, and feel so much joyful anticipation and so much gratitude for
-the Lord's hand in our lives and her life in this way. However, we're also
-grateful for the powerful truths we have learned, and for the furnace of
-affliction in which the impurities of false certainty were refined out of our
-faith. We aren't perfect at avoiding false certainty, by any means. I believe
+she's a girl, and feel so much joyful anticipation and so much gratitude for the
+Lord's hand in our lives and her life in this way. However, we're also grateful
+for the powerful truths we have learned, and for the "furnace of
+affliction"^[[Isaiah 48:10](https://www.churchofjesuschrist.org/study/scriptures/ot/isa/48?lang=eng&id=p10#p10)]
+in which our faith was refined and the impurities of false certainty were purged
+away. We aren't perfect at avoiding false certainty, by any means. I believe
 that the digging out of "sand" in our foundations of faith must be an ongoing
 process---learning to distinguish what we can place our faith in from what we
 cannot. But we have learned to rely more meekly upon God's grace and mercy,
-trusting in His timing and being willing to acknowledge what we do not know.
+trusting in His timing and choosing to acknowledge what we do not know.
 
 [^faith-and-hope]:
 
