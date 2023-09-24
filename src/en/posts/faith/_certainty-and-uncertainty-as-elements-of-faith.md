@@ -37,8 +37,8 @@ God made this covenant with Abraham and with "[his] seed after [him] in their
 generations for an everlasting covenant," covenanting that "[God] will make
 [them] exceeding fruitful, and nations shall come out of [them]".] We believed
 that God would bless us with children. But I began to wonder if my faith was
-insufficient. There are many scriptures that connect miracles with faith.
-For example,
+insufficient. There are many scriptures that connect miracles with faith. For
+example,
 [chapter 12 of the book of Ether](https://www.churchofjesuschrist.org/study/scriptures/bofm/ether/12?lang=eng)
 contains the following promises:
 
@@ -446,7 +446,7 @@ Christ Himself. At the apex of His mortal ministry, when He was about to suffer
 the sins, pain, sickness, and sorrows of all
 humankind,^[See [Alma 7:11-12](https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/7?lang=eng&id=p11-p12#p11)]
 He deferred humbly to His Father's will and
-knowledge:^[[Matt. 26:39](https://www.churchofjesuschrist.org/study/scriptures/nt/matt/26?lang=eng&id=p39#p39).
+knowledge:^[[Matthew 26:39](https://www.churchofjesuschrist.org/study/scriptures/nt/matt/26?lang=eng&id=p39#p39).
 See also
 [Luke 22:42](https://www.churchofjesuschrist.org/study/scriptures/nt/luke/22?lang=eng&id=p42#p42).]
 
@@ -470,7 +470,7 @@ this pattern in our own lives:
   priesthood upon Black members might say, "I don't know why the Priesthood was
   not given to Blacks for a time in this dispensation, but I know that God
   'denieth none that come unto him, black and white, bond and free, male and
-  female.'"^[[2 Ne. 26:33](https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/26?lang=eng&id=p33#p33)]
+  female.'"^[[2 Nephi 26:33](https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/26?lang=eng&id=p33#p33)]
 * Someone in John and Heather's situation, discussed earlier---facing uncertain
   health outcomes and possibly even death---might faithfully declare, "I don't
   know whether I will be healed or not, but I know that 'all things have been
@@ -508,7 +508,7 @@ were "swallowed up" in peace and trust in Him.
 
 The fear and worry of our fertility journey could be described as a "chronic"
 case, and the treatment prescribed by the Great
-Physician^[See [Matt. 9:12](https://www.churchofjesuschrist.org/study/scriptures/nt/matt/9?lang=eng&id=12#p12)]---faith
+Physician^[See [Matthew 9:12](https://www.churchofjesuschrist.org/study/scriptures/nt/matt/9?lang=eng&id=12#p12)]---faith
 to accept uncertainty--- was effective. The miscarriage scare, on the other
 hand, was "acute." Our fear and worry was gripping. We prayed fervently that
 night, pleading with the Lord to protect our child. As we prayed, we felt the
