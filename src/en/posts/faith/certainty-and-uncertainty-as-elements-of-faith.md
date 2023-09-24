@@ -1,7 +1,7 @@
 ---
 title: Certainty and Uncertainty as Elements of Faith
 description: Our faith is stronger when we can accept what we do not know
-date: 2023-09-21 12:00:00
+date: 2023-09-24 12:00:00
 ---
 
 A month and a half ago, my wife Evelyn and I had a miscarriage scare.
@@ -520,17 +520,16 @@ After praying, we felt peace. We hoped that things would be okay but trusted
 that God was mindful of us and watching over us and our child, regardless of the
 outcome.
 
-Fortunately---and _so_ gratefully!---things did turn out okay. Our baby continued
-developing and is growing healthily as I write this. We have since learned that
-she's a girl, and feel so much joyful anticipation and so much gratitude for the
-Lord's hand in our lives and her life in this way. However, we're also grateful
-for the powerful truths we have learned, and for the "furnace of
+Fortunately---and _so_ gratefully!---things did turn out okay. Our baby
+continued developing and is growing healthily as I write this. We have since
+learned that she's a girl, and feel so much joyful anticipation and so much
+gratitude for the Lord's hand in our lives and her life in this way. However,
+we're also grateful for the powerful truths we have learned, and for the
+"furnace of
 affliction"^[[Isaiah 48:10](https://www.churchofjesuschrist.org/study/scriptures/ot/isa/48?lang=eng&id=p10#p10)]
 in which our faith was refined. We aren't perfect at avoiding false certainty,
-by any means---I believe that removing the "sand" of uncertainty from our
-foundations of faith is something we must constantly do---but we have learned to
-rely more meekly upon God's grace and mercy, trusting in His timing and choosing
-to acknowledge what we do not know.
+but we have learned to rely more meekly upon God's grace and mercy, trusting in
+His timing and choosing to acknowledge what we do not know.
 
 [^faith-and-hope]:
 
