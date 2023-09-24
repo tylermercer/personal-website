@@ -154,9 +154,7 @@ which was quoted often by my leaders on my mission:
 
 On my mission, this scripture was interpreted almost as a sort of "recipe"---if
 you do these things you _will_ baptize converts. But when I considered it in the
-context of "faith to accept uncertainty," I realized something interesting:
-Enos^[One of the authors of the Book of Mormon, who wrote
-[one powerful and well-known chapter](https://www.churchofjesuschrist.org/study/scriptures/bofm/enos/1?lang=eng)]
+context of "faith to accept uncertainty," I realized something interesting: Enos
 _also_ did all of the things mentioned in that verse:
 
 * Repent and exercise faith:
@@ -504,7 +502,9 @@ trial hadn't happened through receiving the blessing we had sought. It had come
 earlier, through the Lord gently instructing us in what it really means to have
 faith in Him. We overcame the difficulty of infertility _as soon as_ we chose to
 have meek, uncertainty-acknowledging faith in Chirst. Our worry and concerns
-were "swallowed up" in peace and trust in Him.
+were "swallowed
+up"^[[Alma 31:38](https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/31?lang=eng&id=p38#p38)]
+in peace and trust in Him.
 
 The fear and worry of our fertility journey could be described as a "chronic"
 case, and the treatment prescribed by the Great
@@ -527,12 +527,11 @@ she's a girl, and feel so much joyful anticipation and so much gratitude for the
 Lord's hand in our lives and her life in this way. However, we're also grateful
 for the powerful truths we have learned, and for the "furnace of
 affliction"^[[Isaiah 48:10](https://www.churchofjesuschrist.org/study/scriptures/ot/isa/48?lang=eng&id=p10#p10)]
-in which our faith was refined and the impurities of false certainty were purged
-away. We aren't perfect at avoiding false certainty, by any means. I believe
-that the digging out of "sand" in our foundations of faith must be an ongoing
-process---learning to distinguish what we can place our faith in from what we
-cannot. But we have learned to rely more meekly upon God's grace and mercy,
-trusting in His timing and choosing to acknowledge what we do not know.
+in which our faith was refined. We aren't perfect at avoiding false certainty,
+by any means---I believe that removing the "sand" of uncertainty from our
+foundations of faith is something we must constantly do---but we have learned to
+rely more meekly upon God's grace and mercy, trusting in His timing and choosing
+to acknowledge what we do not know.
 
 [^faith-and-hope]:
 
