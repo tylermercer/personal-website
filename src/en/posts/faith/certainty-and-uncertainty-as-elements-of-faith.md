@@ -21,7 +21,7 @@ Above all, what about the promises the Lord had made to us? Both of our
 patriarchal blessings^[ A
 [patriarchal blessing](https://history.churchofjesuschrist.org/faq/library/patriarchal-blessings?lang=eng)
 is a blessing, or inspired declaration, given to each worthy member of the
-Church of Jesus Christ of Latter-day Saints, by the authority of the God (called
+Church of Jesus Christ of Latter-day Saints, by the authority of God (called
 the priesthood). A patriarchal blessing typically includes statements about a
 person's future spiritual experiences, as well as providing insight into the
 person's spiritual gifts (attributes such as faith or wisdom, given to a person
@@ -249,7 +249,7 @@ _uncertain_ and not seeking further light:
 > And in this way, can an overemphasis on uncertainty ultimately trip us up?
 
 These are thought provoking questions. I think they are especially relevant to
-uncertainty that does not pertain to the fulfilment of God's promises in the
+uncertainty that does not pertain to the fulfillment of God's promises in the
 future. For example, many people face uncertainties about how to harmonize or
 reconcile certain aspects of religion and science or history, and some choose to
 put these uncertainties on a metaphorical "shelf" for later resolution. While
@@ -479,7 +479,7 @@ Importantly, the second clause does not _negate_ the first clause. The unknown
 thing is still unknown. Rather, meekly recognizing what we do know _and_ what we
 don't know allows us to move forward with faith in Christ. We move forward _even
 though_ there are unknowns. This makes our faith much more soul-stretching than
-moving foward because the unknowns have been resolved.
+moving forward because the unknowns have been resolved.
 
 ## Conclusion
 
@@ -496,7 +496,7 @@ of Jesus Christ of Latter-day Saints, children are blessed and given their names
 as a priesthood ordinance, typically by their father. These are unique and
 powerful spiritual experiences wherein the father follows the direction of the
 Spirit to bless his child. See
-["Naming and Blessing Chilren"](https://www.churchofjesuschrist.org/study/manual/priesthood-ordinances-and-blessings/naming-and-blessing-children?lang=eng#p4)]
+["Naming and Blessing Children"](https://www.churchofjesuschrist.org/study/manual/priesthood-ordinances-and-blessings/naming-and-blessing-children?lang=eng#p4)]
 as children were born in our church congregation.
 
 Shortly after we learned my wife was pregnant, I had a distinct impression. I
