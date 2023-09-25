@@ -491,8 +491,12 @@ this time in our lives, but we knew that He had promised us children eventually
 (whether in this life or in the eternities) and chose a mindset of celebrating
 every small experience in that direction: seeing our friends have children, and
 getting to know and care for them; seeing our younger relatives grow and
-spending time with them; hearing the (frequent!) baby
-blessings^[In the Church of Jesus Christ of Latter-day Saints, children are blessed and given their names as a priesthood ordinance, typically by their father. These are unique and powerful spiritual experiences wherein the father follows the direction of the Spirit to bless his child. See ["Naming and Blessing Chilren"](https://www.churchofjesuschrist.org/study/manual/priesthood-ordinances-and-blessings/naming-and-blessing-children?lang=eng#p4)]
+spending time with them; hearing the (frequent!) baby blessings^[In the Church
+of Jesus Christ of Latter-day Saints, children are blessed and given their names
+as a priesthood ordinance, typically by their father. These are unique and
+powerful spiritual experiences wherein the father follows the direction of the
+Spirit to bless his child. See
+["Naming and Blessing Chilren"](https://www.churchofjesuschrist.org/study/manual/priesthood-ordinances-and-blessings/naming-and-blessing-children?lang=eng#p4)]
 as children were born in our church congregation.
 
 Shortly after we learned my wife was pregnant, I had a distinct impression. I
@@ -500,7 +504,7 @@ was pondering what we had learned, and I realized that the "overcoming" of our
 trial hadn't happened through receiving the blessing we had sought. It had come
 earlier, through the Lord gently instructing us in what it really means to have
 faith in Him. We overcame the difficulty of infertility _as soon as_ we chose to
-have meek, uncertainty-acknowledging faith in Chirst. Our worry and concerns
+have meek, uncertainty-acknowledging faith in Christ. Our worry and concerns
 were "swallowed
 up"^[[Alma 31:38](https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/31?lang=eng&id=p38#p38)]
 in peace and trust in Him.
