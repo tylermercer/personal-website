@@ -1,0 +1,23 @@
+---
+import Layout from './Base.astro';
+export type Props = {
+    title: string;
+    description: string;
+}
+
+const { description, title } = Astro.props;
+---
+
+<Layout title={title} description={description}>
+    <h1 class="pattern">
+        <span class="guttered">{ title }</span>
+    </h1>
+    <div class="guttered">
+        {description &&
+            <p class="post-description">
+                {description}
+            </p>
+        }
+        <slot></slot>
+    </div>
+</Layout>
