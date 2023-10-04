@@ -4,11 +4,11 @@ export type Props = {
     class?: string;
 };
 
-const { class: className = "contact-email", label } = Astro.props;
+const { class: className, label } = Astro.props;
 ---
 
 <a
-    class={className}
+    class={className + " contact-email"}
     target="_blank"
     data-munged-user="pbagnpg"
     data-munged-domain="glyrezrepre.arg"
