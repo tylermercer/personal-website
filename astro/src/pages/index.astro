@@ -1,20 +1,16 @@
 ---
 import { getCollection } from "astro:content";
 import Layout from "../layouts/Home.astro";
+import { filterOutDraftsIfProduction, firstFive, sortByDate } from "../utils/utils";
 
-export type Props = {
-	title: string;
-};
-
-const { title } = Astro.props;
+const title = "Tyler Mercer";
+const description = "Web developer, behavioral design enthusiast, and follower of Jesus"
 
 const allPosts = await getCollection('posts');
 
-const posts = allPosts; //TODO: take most recent 5
+const posts = firstFive(filterOutDraftsIfProduction(sortByDate(allPosts)));
 
 const categories = await getCollection('categories');
 ---
 
-<Layout posts={posts} categories={categories} title={title}>
-	<p slot="description">Web developer, behavioral design enthusiast, and follower of Jesus</p>
-</Layout>
+<Layout posts={posts} categories={categories} title={title} description={description}/>

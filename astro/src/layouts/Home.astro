@@ -5,21 +5,22 @@ import { formatDateIso, formatPostDate, getPostDate } from "../utils/utils";
 
 export type Props = {
 	title: string;
-    posts: CollectionEntry<'posts'>[],
-    categories: CollectionEntry<'categories'>[]
+	description: string;
+	posts: CollectionEntry<"posts">[];
+	categories: CollectionEntry<"categories">[];
 };
 
-const { title, posts, categories } = Astro.props;
+const { title, posts, categories, description } = Astro.props;
 ---
 
-<Layout>
+<Layout title={title} description={description}>
 	<h1 class="pattern">
 		<span class="guttered">
 			{title}
 		</span>
 	</h1>
 	<p class="guttered post-description">
-		<slot name="description" />
+		{description}
 	</p>
 	<div class="with-sidebar guttered">
 		<div class="posts">
@@ -52,8 +53,15 @@ const { title, posts, categories } = Astro.props;
 				{
 					categories.map((c) => (
 						<div class="collection">
-							<h3 class:list={["pattern", `pattern-${c.data.slug}`]}>
-								<a href={`/posts/${c.data.slug}`}>{c.data.title}</a>
+							<h3
+								class:list={[
+									"pattern",
+									`pattern-${c.data.slug}`,
+								]}
+							>
+								<a href={`/posts/${c.data.slug}`}>
+									{c.data.title}
+								</a>
 							</h3>
 							<p>{c.data.description}</p>
 						</div>
