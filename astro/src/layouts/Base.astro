@@ -11,9 +11,11 @@ export type Props = {
     description: string;
 };
 
+const defaultTitle = "Tyler Mercer";
+
 const { title, description } = Astro.props;
 
-const titleFull = title; //TODO: logic below for titleFull
+const titleFull = (title && title !== defaultTitle) ? `${title} - ${defaultTitle}` : defaultTitle;
 ---
 
 <!doctype html>
@@ -31,17 +33,6 @@ const titleFull = title; //TODO: logic below for titleFull
                 <meta name="description" content="{{ description | unmd }}" />
             )
         }
-        <!-- {%- if description -%}
-    {%- endif -%}
-    {%- set titleFull -%}
-    {%- if eleventyExcludeFromCollections -%}
-        {{- title -}}
-    {%- else -%}
-        {{- title }} - {{ metadata.title -}}
-    {%- endif -%}
-    {%- endset -%} -->
-    </head><p></p>
-    <!-- Title -->
     <title>{ titleFull }</title>
     <!-- Icons -->
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
