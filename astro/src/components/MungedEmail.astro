@@ -1,17 +1,41 @@
 ---
+export type Props = {
+    label: string;
+    class: string;
+};
+
+const { class: className = "contact-email", label } = Astro.props;
 ---
-<a class="contact-email" target="_blank" data-munged-user="pbagnpg" data-munged-domain="glyrezrepre.arg" data-label="{{ mungedEmailLabel }}">
+
+<a
+    class={className}
+    target="_blank"
+    data-munged-user="pbagnpg"
+    data-munged-domain="glyrezrepre.arg"
+    data-label={label}
+>
     [Enable JS to view email link]
 </a>
 <script>
-    var el: HTMLAnchorElement = document.querySelector('.contact-email[data-munged-user]')!;
+    var links: NodeListOf<HTMLAnchorElement> = document.querySelectorAll(
+        ".contact-email[data-munged-user]",
+    )!;
     function dec(str: string) {
-        return str.replace(/[a-zA-Z]/g, function(c: any){return String.fromCharCode(((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26));})
+        return str.replace(/[a-zA-Z]/g, function (c: any) {
+            return String.fromCharCode(
+                (c <= "Z" ? 90 : 122) >= (c = c.charCodeAt(0) + 13)
+                    ? c
+                    : c - 26,
+            );
+        });
     }
-    el.innerText = el.dataset.label || "send me an email";
-    el.href = dec(`znvygb:${el.dataset.mungedUser}@${el.dataset.mungedDomain}`);
-    el.removeAttribute('data-munged-user');
-    el.removeAttribute('data-munged-domain');
-    el.removeAttribute('data-label');
-    console.log("foobar");
+    links.forEach((link) => {
+        link.innerText = link.dataset.label || "send me an email";
+        link.href = dec(
+            `znvygb:${link.dataset.mungedUser}@${link.dataset.mungedDomain}`,
+        );
+        link.removeAttribute("data-munged-user");
+        link.removeAttribute("data-munged-domain");
+        link.removeAttribute("data-label");
+    });
 </script>
