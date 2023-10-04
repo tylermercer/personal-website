@@ -1,0 +1,56 @@
+---
+import { CollectionEntry } from 'astro:content';
+import Layout from './Base.astro';
+import MungedEmail from '../components/MungedEmail.astro';
+import ShareLinks from '../components/ShareLinks.astro';
+export type Props = {
+    title: string;
+    description: string;
+    category?: CollectionEntry<'categories'>;
+    date: Date;
+}
+
+const { description, title, category, date } = Astro.props;
+
+const patternClass = category ? `pattern-${category.data.slug}` : '';
+
+const wordCount = 0; //TODO
+const readingTime = 0; //TODO
+const dropCaps = false; //TODO
+const previousPost = { data: { url: '/', title: 'Placeholder prev post'}} as CollectionEntry<'posts'>; //TODO
+const nextPost = { data: { url: '/', title: 'Placeholder next post'}} as CollectionEntry<'posts'>; //TODO
+---
+
+<Layout title={title} description={description}>
+    <h1 class="pattern">
+        <span class="guttered">{title}</span>
+    </h1>
+    <div class="guttered">
+        {description &&
+            <p class="post-description">
+                {description}
+            </p>
+        }
+        <p class="dateline">
+            <time datetime={date}>{date}</time>
+            {category && 
+                <span> in <a href={`/posts/${category.data.slug}`}>{ category.data.name }</a></span>
+            }
+            <span> &mdash; </span>
+            {wordCount} words &mdash; Reading time: {readingTime} minute{readingTime > 1 ? "s" : ""}
+        </p>
+        <div class:list={{'article-content': true, 'drop-caps' : dropCaps}}>
+            <slot></slot>
+            <div class="reply-and-share">
+                <MungedEmail label='Reply via Email'></MungedEmail>
+                <ShareLinks></ShareLinks>
+            </div>
+        </div>
+    </div>
+    <ul class="links-next-prev">
+        {previousPost && <li>Previous: <a href={ previousPost.data.url }>{ previousPost.data.title }</a></li>}
+        {(nextPost && previousPost) && <span>|</span>}
+        {nextPost && <li>Next: <a href={ nextPost.data.url }>{ nextPost.data.title }</a></li>}
+    </ul>
+</div>
+</Layout>
