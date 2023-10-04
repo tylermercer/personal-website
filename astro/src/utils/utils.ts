@@ -1,4 +1,4 @@
-import type { CollectionEntry } from "astro:content";
+import { getCollection, type CollectionEntry } from "astro:content";
 import { DateTime } from "luxon";
 
 export function firstFive(collection: any[]) {
@@ -37,4 +37,11 @@ export function filterOutDraftsIfProduction(entries: CollectionEntry<'posts'>[])
     return entries.filter(
         (e: CollectionEntry<'posts'>) => !('draft' in e.data && e.data.draft) && !('date' in e.data && e.data.date > now)
     );
+}
+
+export async function getCategory(entry: CollectionEntry<'posts'>): Promise<CollectionEntry<'categories'> | undefined> {
+    const categories = await getCollection('categories');
+    const category = entry.id.split('/').at(0);
+    if (!category) return undefined;
+    return categories.find(c => c.data.slug === category);
 }
