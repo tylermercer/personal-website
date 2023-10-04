@@ -1,0 +1,45 @@
+---
+import metadata from '../utils/metadata';
+
+export type Props = {
+    path: string,
+    title: string
+}
+
+const { path, title } = Astro.props;
+
+const url = metadata.baseUrl + path;
+
+const linkProviders = [ 'Facebook', 'Twitter', 'LinkedIn', 'Email' ];
+
+const getLink = (platform: string) => {
+    switch (platform.toLowerCase()) {
+      case 'facebook':
+        return `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}`;
+      case 'twitter':
+        return `https://twitter.com/intent/tweet?url=${encodeURIComponent(url)}`;
+      case 'linkedin':
+        return `https://www.linkedin.com/shareArticle?url=${encodeURIComponent(url)}`;
+        case 'email':
+          return `mailto:?body=${encodeURIComponent(`${title}\n${url}`)}`;
+      default:
+        throw new Error(`Invalid platform: ${platform}`);
+    }
+  };
+
+const shareLinks = linkProviders.map(name => ({ name, link: getLink(name) }))
+
+---
+<section aria-labelledby="share-links-label" class="share-links">
+    <label id="share-links-label">Share this article:{" "}</label>
+    <ul class="share-links-list">
+        {shareLinks.map((s, i) => (
+            <>
+                <li><a href={s.link} target="_blank">
+                        {s.name}
+                </a></li>
+                {i === linkProviders.length - 1 ? <>&nbsp;</> : <>{" "}</>}
+            </>
+        ))}
+    </ul>
+</div>
