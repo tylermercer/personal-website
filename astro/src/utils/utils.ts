@@ -21,3 +21,20 @@ export function getPostDate(entry: CollectionEntry<'posts'>) {
     }
     else return now;
 }
+
+export function sortByDate(entries: CollectionEntry<'posts'>[]): CollectionEntry<'posts'>[] {
+    return entries.sort(
+        (a, b) => ('date' in b.data) ?
+            (('date' in a.data) ?
+                (b.data.date.getTime() - a.data.date.getTime()) :
+                now.getTime()) :
+            0);
+}
+
+export function filterOutDraftsIfProduction(entries: CollectionEntry<'posts'>[]): CollectionEntry<'posts'>[] {
+    const isProduction = (import.meta.env.PROD);
+    if (!isProduction) return entries;
+    return entries.filter(
+        (e: CollectionEntry<'posts'>) => !('draft' in e.data && e.data.draft) && !('date' in e.data && e.data.date > now)
+    );
+}
