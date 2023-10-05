@@ -1,7 +1,6 @@
 ---
 title: Agency and Prophecy
 description: TODO
-draft: true
 ---
 
 Today I read

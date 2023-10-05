@@ -1,7 +1,6 @@
 ---
 title: Partytown + Cloudflare Analytics = ?
 description: Trying to speed up Cloudflare Analytics and reclaim my site's vanity four-100's Pagespeed score
-draft: true
 ---
 
 **_TODO: transition to "You don't need Partytown to make Cloudflare Web Analytics faster"_**

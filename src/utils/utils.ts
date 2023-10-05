@@ -29,7 +29,7 @@ export function formatPostDate(date: Date) {
 const now = new Date();
 
 export function getPostDate(entry: CollectionEntry<'posts'>) {
-    if ('date' in entry.data) {
+    if (entry.data.date) {
         return entry.data.date;
     }
     else return now;
@@ -38,8 +38,8 @@ export function getPostDate(entry: CollectionEntry<'posts'>) {
 export function sortByDate(entries: CollectionEntry<'posts'>[]): CollectionEntry<'posts'>[] {
     return entries.sort(
         (a, b) => {
-            if (!('date' in a.data)) return -1;
-            if (!('date' in b.data)) return 1;
+            if (!(a.data.date)) return -1;
+            if (!(b.data.date)) return 1;
             else return b.data.date.getTime() - a.data.date.getTime();
         });
 }
@@ -48,7 +48,7 @@ export function filterOutDraftsIfProduction(entries: CollectionEntry<'posts'>[])
     const isProduction = (import.meta.env.MODE === 'production');
     if (!isProduction) return entries;
     return entries.filter(
-        (e: CollectionEntry<'posts'>) => !('draft' in e.data && e.data.draft) && !('date' in e.data && e.data.date > now)
+        (e: CollectionEntry<'posts'>) => (e.data.date && e.data.date < now)
     );
 }
 

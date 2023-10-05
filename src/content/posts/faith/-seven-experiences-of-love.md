@@ -1,8 +1,6 @@
 ---
 title: Seven Experiences of Love
 description: How giving enlarges us and draws us closer to God and others
-date: 2023-09-20 12:00:00
-draft: true
 ---
 
 The other day I read
