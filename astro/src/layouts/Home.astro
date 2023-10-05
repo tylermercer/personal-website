@@ -37,7 +37,7 @@ const { title, posts, categories, description } = Astro.props;
 									{formatPostDate(getPostDate(p))}
 								</time>
 								<h3>
-									<a href={p.slug}>{p.data.title}</a>
+									<a href={`posts/${p.slug}`}>{p.data.title}</a>
 								</h3>
 								<p>{p.data.description}</p>
 							</article>
