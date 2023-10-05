@@ -32,7 +32,7 @@ export function sortByDate(entries: CollectionEntry<'posts'>[]): CollectionEntry
 }
 
 export function filterOutDraftsIfProduction(entries: CollectionEntry<'posts'>[]): CollectionEntry<'posts'>[] {
-    const isProduction = (import.meta.env.PROD);
+    const isProduction = (import.meta.env.MODE === 'production');
     if (!isProduction) return entries;
     return entries.filter(
         (e: CollectionEntry<'posts'>) => !('draft' in e.data && e.data.draft) && !('date' in e.data && e.data.date > now)
