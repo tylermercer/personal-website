@@ -1,0 +1,37 @@
+---
+import type { GetStaticPaths } from "astro";
+import { getCollection, type CollectionEntry } from "astro:content";
+import Layout from "../../layouts/Category.astro";
+import { filterOutDraftsIfProduction, sortByDate } from "../../utils/utils";
+
+export type Props = {
+    page: {
+        data: CollectionEntry<"posts">[];
+        url: {
+            next: string;
+            prev: string;
+        };
+    };
+};
+
+const category = {
+    data: {
+        title: "All Posts",
+        description: "My writings and thoughts",
+    },
+} as CollectionEntry<"categories">;
+
+const { page } = Astro.props;
+
+export const getStaticPaths = (async ({ paginate }) => {
+    const posts = await getCollection("posts");
+    return paginate(sortByDate(filterOutDraftsIfProduction(posts)), { pageSize: 5 });
+}) satisfies GetStaticPaths;
+---
+
+<Layout
+    category={category}
+    nextPageUrl={page.url.next}
+    previousPageUrl={page.url.prev}
+    paginatedPosts={page.data}
+/>
