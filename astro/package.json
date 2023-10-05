@@ -10,11 +10,15 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@astrojs/rss": "^3.0.0",
     "@fontsource-variable/faustina": "^5.0.9",
     "@fontsource-variable/figtree": "^5.0.15",
+    "@types/sanitize-html": "^2.9.1",
     "astro": "^3.0.13",
     "luxon": "^3.4.3",
-    "prism-themes": "^1.9.0"
+    "markdown-it": "^13.0.2",
+    "prism-themes": "^1.9.0",
+    "sanitize-html": "^2.11.0"
   },
   "devDependencies": {
     "@types/luxon": "^3.3.2"
