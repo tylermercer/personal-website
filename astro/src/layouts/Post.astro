@@ -25,7 +25,7 @@ const nextPost = { data: { url: '/', title: 'Placeholder next post'}} as unknown
 ---
 
 <Layout title={post.data.title} description={post.data.description}>
-    <h1 class="pattern">
+    <h1 class:list={[ 'pattern', patternClass ]}>
         <span class="guttered">{post.data.title}</span>
     </h1>
     <div class="guttered">

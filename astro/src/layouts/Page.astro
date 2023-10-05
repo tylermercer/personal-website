@@ -1,15 +1,19 @@
 ---
+import type { CollectionEntry } from 'astro:content';
 import Layout from './Base.astro';
 export type Props = {
     title: string;
     description: string;
+    category?: CollectionEntry<'categories'>
 }
 
-const { description, title } = Astro.props;
+const { description, title, category } = Astro.props;
+
+const patternClass = category ? `pattern-${category.data.slug}` : '';
 ---
 
 <Layout title={title} description={description}>
-    <h1 class="pattern">
+    <h1 class:list={[ 'pattern', patternClass ]}>
         <span class="guttered">{ title }</span>
     </h1>
     <div class="guttered">
