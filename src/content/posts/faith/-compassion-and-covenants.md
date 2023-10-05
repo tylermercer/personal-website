@@ -1,7 +1,6 @@
 ---
 title: Compassion and Covenants
 description: True covenant-keeping includes loving others wholeheartedly and vulnerably.
-draft: true
 ---
 I once heard someone say that
 [Alma 53:10-15](https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/53?lang=eng&id=p10-p15#p10)

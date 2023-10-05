@@ -2,20 +2,12 @@ import { z, defineCollection } from 'astro:content';
 
 const posts = defineCollection({
   type: 'content', // v2.5.0 and later
-  schema: z.union([
-    z.object({
-      title: z.string(),
-      description: z.string(),
-      dropCaps: z.optional(z.boolean()),
-      date: z.date()
-    }),
-    z.object({
-      title: z.string(),
-      description: z.string(),
-      dropCaps: z.optional(z.boolean()),
-      draft: z.boolean()
-    }),
-  ]),
+  schema: z.object({
+    title: z.string(),
+    description: z.string(),
+    dropCaps: z.optional(z.boolean()),
+    date: z.optional(z.date()) // no date = is draft
+  }),
 });
 const pages = defineCollection({
   type: 'content',

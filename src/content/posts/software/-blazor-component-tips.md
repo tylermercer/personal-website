@@ -1,7 +1,6 @@
 ---
 title: Component Architecture Tips for Blazor Developers
 description: Borrowing useful mental models from React for fun and profit
-draft: true
 ---
 
 Some principles that apply to most component-based UI frameworks that I've been reminded of lately.

@@ -4,13 +4,14 @@ import { type CollectionEntry, getCollection } from "astro:content";
 import {
   filterOutDraftsIfProduction,
   getCategory,
+  sortByDate,
   toWithNextAndPrev,
 type WithNextAndPrev,
 } from "../../utils/utils";
 
 export async function getStaticPaths() {
   const posts = await getCollection("posts");
-  return toWithNextAndPrev(filterOutDraftsIfProduction(posts)).map((entry) => ({
+  return toWithNextAndPrev(sortByDate(filterOutDraftsIfProduction(posts))).map((entry) => ({
     params: { post: entry.item.slug },
     props: { entry },
   }));

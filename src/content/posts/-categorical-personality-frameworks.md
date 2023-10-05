@@ -1,7 +1,6 @@
 ---
 title: Why I Don't Like Categorical Personality Frameworks
 description: Meyers-Briggs? The Four Tendencies? It's a no from me.
-draft: true
 ---
 
 (Spicy take alert 🌶️)
