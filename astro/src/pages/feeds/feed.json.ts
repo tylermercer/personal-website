@@ -1,11 +1,6 @@
-import rss from '@astrojs/rss';
-import sanitizeHtml from 'sanitize-html';
-import MarkdownIt from 'markdown-it';
-const parser = new MarkdownIt();
-
 import metadata from '../../utils/metadata';
 import { getCollection } from 'astro:content';
-import { filterOutDraftsIfProduction, formatDateIso, getPostDate, sortByDate } from '../../utils/utils';
+import { filterOutDraftsIfProduction, formatDateIso, getPostDate, sortByDate, renderMarkdown } from '../../utils/utils';
 
 export async function GET(context) {
     const blog = sortByDate(filterOutDraftsIfProduction(await getCollection('posts')));
@@ -21,7 +16,7 @@ export async function GET(context) {
                 id: `${context.site}/posts/${post.slug}/`,
                 url: `${context.site}/posts/${post.slug}/`,
                 title: post.data.title,
-                content_html: sanitizeHtml(parser.render(post.body)),
+                content_html: renderMarkdown(post.body),
                 date_published: formatDateIso(getPostDate(post)) + 'Z',
             })),
         }));

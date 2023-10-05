@@ -1,5 +1,9 @@
 import { getCollection, type CollectionEntry } from "astro:content";
 import { DateTime } from "luxon";
+import MarkdownIt from 'markdown-it';
+import sanitizeHtml from 'sanitize-html';
+
+const parser = new MarkdownIt();
 
 export function firstFive(collection: any[]) {
     return collection.slice(0, 5);
@@ -48,4 +52,8 @@ export async function getCategory(entry: CollectionEntry<'posts'>): Promise<Coll
 
 export function checkCategory(entry: CollectionEntry<'posts'>, knownCategorySlug: string) {
     return entry.id.split('/').at(0) === knownCategorySlug;
+}
+
+export function renderMarkdown(markdown: string) {
+    return sanitizeHtml(parser.render(markdown));
 }
