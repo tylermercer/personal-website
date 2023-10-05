@@ -2,26 +2,26 @@
 import metadata from '../utils/metadata';
 
 export type Props = {
-    path: string,
+    url: URL,
     title: string
 }
 
-const { path, title } = Astro.props;
+const { url, title } = Astro.props;
 
-const url = metadata.baseUrl + path;
+const urlStr = url.toString();
 
 const linkProviders = [ 'Facebook', 'Twitter', 'LinkedIn', 'Email' ];
 
 const getLink = (platform: string) => {
     switch (platform.toLowerCase()) {
       case 'facebook':
-        return `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}`;
+        return `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(urlStr)}`;
       case 'twitter':
-        return `https://twitter.com/intent/tweet?url=${encodeURIComponent(url)}`;
+        return `https://twitter.com/intent/tweet?url=${encodeURIComponent(urlStr)}`;
       case 'linkedin':
-        return `https://www.linkedin.com/shareArticle?url=${encodeURIComponent(url)}`;
+        return `https://www.linkedin.com/shareArticle?url=${encodeURIComponent(urlStr)}`;
         case 'email':
-          return `mailto:?body=${encodeURIComponent(`${title}\n${url}`)}`;
+          return `mailto:?body=${encodeURIComponent(`${title}\n${urlStr}`)}`;
       default:
         throw new Error(`Invalid platform: ${platform}`);
     }
