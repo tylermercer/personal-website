@@ -1,22 +1,29 @@
 ---
-import Layout from '../../layouts/Post.astro';
+import Layout from "../../layouts/Post.astro";
 import { type CollectionEntry, getCollection } from "astro:content";
-import { filterOutDraftsIfProduction, getCategory } from '../../utils/utils';
+import {
+  filterOutDraftsIfProduction,
+  getCategory,
+  toWithNextAndPrev,
+type WithNextAndPrev,
+} from "../../utils/utils";
 
 export async function getStaticPaths() {
-  const posts = await getCollection('posts');
-  return filterOutDraftsIfProduction(posts).map(entry => ({
-    params: { post: entry.slug }, props: { entry },
+  const posts = await getCollection("posts");
+  return toWithNextAndPrev(filterOutDraftsIfProduction(posts)).map((entry) => ({
+    params: { post: entry.item.slug },
+    props: { entry },
   }));
 }
 
 export type Props = {
-    entry: CollectionEntry<'posts'>;
-}
+  entry: WithNextAndPrev<CollectionEntry<"posts">>;
+};
 const { entry } = Astro.props;
-const { Content } = await entry.render();
-const category = await getCategory(entry);
+const { Content } = await entry.item.render();
+const category = await getCategory(entry.item);
 ---
+
 <Layout post={entry} category={category}>
-    <Content />
+  <Content />
 </Layout>

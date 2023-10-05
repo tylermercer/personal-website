@@ -3,13 +3,16 @@ import { type CollectionEntry } from 'astro:content';
 import Layout from './Base.astro';
 import MungedEmail from '../components/MungedEmail.astro';
 import ShareLinks from '../components/ShareLinks.astro';
-import { getPostDate } from '../utils/utils';
+import { getPostDate, type WithNextAndPrev } from '../utils/utils';
+
 export type Props = {
-    post: CollectionEntry<'posts'>;
+    post: WithNextAndPrev<CollectionEntry<'posts'>>;
     category?: CollectionEntry<'categories'>;
 }
 
-const { post, category } = Astro.props;
+const { post: postWithNextAndPrev, category } = Astro.props;
+
+const { item: post, next: nextPost, prev: previousPost } = postWithNextAndPrev;
 
 const url = Astro.url;
 
@@ -20,8 +23,6 @@ const patternClass = category ? `pattern-${category.data.slug}` : '';
 const wordCount = 0; //TODO
 const readingTime = 0; //TODO
 const dropCaps = post.data.dropCaps || false;
-const previousPost = { data: { url: '/', title: 'Placeholder prev post'}} as unknown as CollectionEntry<'posts'>; //TODO
-const nextPost = { data: { url: '/', title: 'Placeholder next post'}} as unknown as CollectionEntry<'posts'>; //TODO
 ---
 
 <Layout title={post.data.title} description={post.data.description}>
