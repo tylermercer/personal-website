@@ -7,7 +7,8 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "clean": "del-cli dist"
   },
   "dependencies": {
     "@astrojs/rss": "^3.0.0",
@@ -21,11 +22,11 @@
     "markdown-it-footnote": "^3.0.3",
     "prism-themes": "^1.9.0",
     "remark-footnotes": "^4.0.1",
-    "sanitize-html": "^2.11.0",
-    "clean": "del-cli dist"
+    "sanitize-html": "^2.11.0"
   },
   "devDependencies": {
     "@types/luxon": "^3.3.2",
-    "@types/markdown-it-footnote": "^3.0.1"
+    "@types/markdown-it-footnote": "^3.0.1",
+    "sass": "^1.68.0"
   }
 }
