@@ -2,9 +2,9 @@
 import { getCollection } from "astro:content";
 import Layout from "../layouts/Home.astro";
 import { filterOutDraftsIfProduction, firstFive, sortByDate } from "../utils/utils";
+import metadata from "../utils/metadata";
 
-const title = "Tyler Mercer";
-const description = "Web developer, behavioral design enthusiast, and follower of Jesus"
+const { title, description } = metadata;
 
 const allPosts = await getCollection('posts');
 
