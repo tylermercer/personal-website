@@ -1,1 +1,0 @@
-module.exports = "./src/_og-image-templates/home.og.njk"

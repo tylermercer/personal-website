@@ -21,7 +21,8 @@
     "markdown-it-footnote": "^3.0.3",
     "prism-themes": "^1.9.0",
     "remark-footnotes": "^4.0.1",
-    "sanitize-html": "^2.11.0"
+    "sanitize-html": "^2.11.0",
+    "clean": "del-cli dist"
   },
   "devDependencies": {
     "@types/luxon": "^3.3.2",
