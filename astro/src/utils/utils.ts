@@ -24,11 +24,11 @@ export function getPostDate(entry: CollectionEntry<'posts'>) {
 
 export function sortByDate(entries: CollectionEntry<'posts'>[]): CollectionEntry<'posts'>[] {
     return entries.sort(
-        (a, b) => ('date' in b.data) ?
-            (('date' in a.data) ?
-                (b.data.date.getTime() - a.data.date.getTime()) :
-                now.getTime()) :
-            0);
+        (a, b) => {
+            if (!('date' in a.data)) return -1;
+            if (!('date' in b.data)) return 1;
+            else return b.data.date.getTime() - a.data.date.getTime();
+        });
 }
 
 export function filterOutDraftsIfProduction(entries: CollectionEntry<'posts'>[]): CollectionEntry<'posts'>[] {
