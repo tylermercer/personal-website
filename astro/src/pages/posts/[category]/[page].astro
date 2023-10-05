@@ -1,0 +1,46 @@
+---
+import type { GetStaticPaths } from "astro";
+import { getCollection, type CollectionEntry } from "astro:content";
+import Layout from "../../../layouts/Category.astro";
+import { checkCategory, filterOutDraftsIfProduction, getCategory, sortByDate } from "../../../utils/utils";
+
+export type Props = {
+    page: {
+        data: CollectionEntry<"posts">[];
+        url: {
+            next: string;
+            prev: string;
+        };
+    };
+    category: CollectionEntry<'categories'>;
+};
+
+const { page, category } = Astro.props;
+
+export const getStaticPaths = (async ({ paginate }) => {
+    const allCategories = await getCollection('categories');
+
+    const allPosts = sortByDate(filterOutDraftsIfProduction(await getCollection('posts')));
+    // For every tag, return a paginate() result.
+    // Make sure that you pass `{params: {tag}}` to `paginate()`
+    // so that Astro knows which tag grouping the result is for.
+    return allCategories.flatMap((category) => {
+        const postsInCategory = allPosts.filter((post) => checkCategory(post, category.data.slug));
+        return paginate(postsInCategory, {
+        params: { category: category.data.slug },
+        props: { category },
+        pageSize: 5
+        });
+    });
+
+    // const posts = await getCollection("posts");
+    // return paginate(sortByDate(filterOutDraftsIfProduction(posts)), { pageSize: 5 });
+}) satisfies GetStaticPaths;
+---
+
+<Layout
+    category={category}
+    nextPageUrl={page.url.next}
+    previousPageUrl={page.url.prev}
+    paginatedPosts={page.data}
+/>

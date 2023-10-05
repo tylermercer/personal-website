@@ -45,3 +45,7 @@ export async function getCategory(entry: CollectionEntry<'posts'>): Promise<Coll
     if (!category) return undefined;
     return categories.find(c => c.data.slug === category);
 }
+
+export function checkCategory(entry: CollectionEntry<'posts'>, knownCategorySlug: string) {
+    return entry.id.split('/').at(0) === knownCategorySlug;
+}
