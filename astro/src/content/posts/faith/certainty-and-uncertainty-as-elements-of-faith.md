@@ -21,21 +21,17 @@ Above all, what about the promises the Lord had made to us? Both of our
 patriarchal blessings^[ A
 [patriarchal blessing](https://history.churchofjesuschrist.org/faq/library/patriarchal-blessings?lang=eng)
 is a blessing, or inspired declaration, given to each worthy member of the
-Church of Jesus Christ of Latter-day Saints, by the authority of God (called
-the priesthood). A patriarchal blessing typically includes statements about a
+Church of Jesus Christ of Latter-day Saints, by the authority of God (called the
+priesthood). A patriarchal blessing typically includes statements about a
 person's future spiritual experiences, as well as providing insight into the
 person's spiritual gifts (attributes such as faith or wisdom, given to a person
 to benefit others) and declaring their lineage among the descendants of one of
 the twelve sons of the biblical Israel. ] mention us having children, and in the
 covenant^[A covenant is a two-way promise between God and a human or humans,
-with conditions set forth by Him in His love and mercy.] given to Abraham,^[ See
-"[Abrahamic Covenant](https://www.churchofjesuschrist.org/study/manual/gospel-topics/abrahamic-covenant?lang=eng)"
-] we are promised posterity.^[ See
-[Gen. 17:5-7](https://www.churchofjesuschrist.org/study/scriptures/ot/gen/17?lang=eng&id=5-7#p5).
-God made this covenant with Abraham and with "[his] seed after [him] in their
-generations for an everlasting covenant," covenanting that "[God] will make
-[them] exceeding fruitful, and nations shall come out of [them]".] We believed
-that God would bless us with children. But I began to wonder if my faith was
+with conditions set forth by Him in His love and mercy.] given to
+Abraham,^[See"[Abrahamic Covenant](https://www.churchofjesuschrist.org/study/manual/gospel-topics/abrahamic-covenant?lang=eng)"]
+we are promised posterity.[^abrahamic-covenant-posterity] We believed that God
+would bless us with children. But I began to wonder if my faith was
 insufficient. There are many scriptures that connect miracles with faith. For
 example,
 [chapter 12 of the book of Ether](https://www.churchofjesuschrist.org/study/scriptures/bofm/ether/12?lang=eng)
@@ -535,20 +531,24 @@ in which our faith was refined. We aren't perfect at avoiding false certainty,
 but we have learned to rely more meekly upon God's grace and mercy, trusting in
 His timing and choosing to acknowledge what we do not know.
 
-[^faith-and-hope]:
+[^abrahamic-covenant-posterity]: See
+[Gen. 17:5-7](https://www.churchofjesuschrist.org/study/scriptures/ot/gen/17?lang=eng&id=5-7#p5).
+God made this covenant with Abraham and with "[his] seed after [him] in their
+generations for an everlasting covenant," covenanting that "[God] will make
+[them] exceeding fruitful, and nations shall come out of [them]".
 
-    This article uses the word _faith_ to capture this idea of belief in
-    something that is true but "not seen"
-    ([Hebrews 11:1](https://www.churchofjesuschrist.org/study/scriptures/nt/heb/11?lang=eng&id=p1#p1)).
-    This is an intentionally
-    [reductionistic](https://tylermercer.net/posts/all-writing-is-reductionistic/)
-    use of the word. More precisely, this kind of belief has two parts, the
-    first of which is faith, and the second of which is _hope_. _Faith_ is a
-    firm trust in the efficacy of someone or something (and, in the gospel, this
-    Someone is Christ), whereas _hope_ is a firm trust in some future outcome,
-    often experienced as a result of having faith.
-    [Moroni 7:41](https://www.churchofjesuschrist.org/study/scriptures/bofm/moro/7?lang=eng&id=41#p41)
-    illustrates this distinction and interconnection between faith and hope:
+[^faith-and-hope]: This article uses the word _faith_ to capture this idea of
+belief in something that is true but "not seen"
+([Hebrews 11:1](https://www.churchofjesuschrist.org/study/scriptures/nt/heb/11?lang=eng&id=p1#p1)).
+This is an intentionally
+[reductionistic](https://tylermercer.net/posts/all-writing-is-reductionistic/)
+use of the word. More precisely, this kind of belief has two parts, the first of
+which is faith, and the second of which is _hope_. _Faith_ is a firm trust in
+the efficacy of someone or something (and, in the gospel, this Someone is
+Christ), whereas _hope_ is a firm trust in some future outcome, often
+experienced as a result of having faith.
+[Moroni 7:41](https://www.churchofjesuschrist.org/study/scriptures/bofm/moro/7?lang=eng&id=41#p41)
+illustrates this distinction and interconnection between faith and hope:
 
     > And what is it that ye shall hope for? Behold I say unto you that ye shall
     > have hope through the atonement of Christ and the power of his
