@@ -1,40 +1,43 @@
 ---
-import { CollectionEntry } from 'astro:content';
+import { type CollectionEntry } from 'astro:content';
 import Layout from './Base.astro';
 import MungedEmail from '../components/MungedEmail.astro';
 import ShareLinks from '../components/ShareLinks.astro';
+import { getPostDate } from '../utils/utils';
 export type Props = {
-    title: string;
-    description: string;
+    post: CollectionEntry<'posts'>;
     category?: CollectionEntry<'categories'>;
-    date: Date;
 }
 
-const { description, title, category, date } = Astro.props;
+const { post, category } = Astro.props;
+
+const url = Astro.url;
+
+const date = getPostDate(post);
 
 const patternClass = category ? `pattern-${category.data.slug}` : '';
 
 const wordCount = 0; //TODO
 const readingTime = 0; //TODO
-const dropCaps = false; //TODO
-const previousPost = { data: { url: '/', title: 'Placeholder prev post'}} as CollectionEntry<'posts'>; //TODO
-const nextPost = { data: { url: '/', title: 'Placeholder next post'}} as CollectionEntry<'posts'>; //TODO
+const dropCaps = post.data.dropCaps || false;
+const previousPost = { data: { url: '/', title: 'Placeholder prev post'}} as unknown as CollectionEntry<'posts'>; //TODO
+const nextPost = { data: { url: '/', title: 'Placeholder next post'}} as unknown as CollectionEntry<'posts'>; //TODO
 ---
 
-<Layout title={title} description={description}>
+<Layout title={post.data.title} description={post.data.description}>
     <h1 class="pattern">
-        <span class="guttered">{title}</span>
+        <span class="guttered">{post.data.title}</span>
     </h1>
     <div class="guttered">
-        {description &&
+        {post.data.description &&
             <p class="post-description">
-                {description}
+                {post.data.description}
             </p>
         }
         <p class="dateline">
-            <time datetime={date}>{date}</time>
+            <time datetime={date.toISOString()}>{date.toLocaleDateString()}</time>
             {category && 
-                <span> in <a href={`/posts/${category.data.slug}`}>{ category.data.name }</a></span>
+                <span> in <a href={`/posts/${category.data.slug}`}>{ category.data.title }</a></span>
             }
             <span> &mdash; </span>
             {wordCount} words &mdash; Reading time: {readingTime} minute{readingTime > 1 ? "s" : ""}
@@ -42,15 +45,15 @@ const nextPost = { data: { url: '/', title: 'Placeholder next post'}} as Collect
         <div class:list={{'article-content': true, 'drop-caps' : dropCaps}}>
             <slot></slot>
             <div class="reply-and-share">
-                <MungedEmail label='Reply via Email'></MungedEmail>
-                <ShareLinks></ShareLinks>
+                <MungedEmail label='Reply via Email'/>
+                <ShareLinks url={url} title={post.data.title}/>
             </div>
         </div>
     </div>
     <ul class="links-next-prev">
-        {previousPost && <li>Previous: <a href={ previousPost.data.url }>{ previousPost.data.title }</a></li>}
+        {previousPost && <li>Previous: <a href={ `/posts/${previousPost.slug}` }>{ previousPost.data.title }</a></li>}
         {(nextPost && previousPost) && <span>|</span>}
-        {nextPost && <li>Next: <a href={ nextPost.data.url }>{ nextPost.data.title }</a></li>}
+        {nextPost && <li>Next: <a href={ `/posts/${nextPost.slug}` }>{ nextPost.data.title }</a></li>}
     </ul>
 </div>
 </Layout>

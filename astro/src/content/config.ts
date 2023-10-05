@@ -6,11 +6,13 @@ const posts = defineCollection({
     z.object({
       title: z.string(),
       description: z.string(),
+      dropCaps: z.optional(z.boolean()),
       date: z.date()
     }),
     z.object({
       title: z.string(),
       description: z.string(),
+      dropCaps: z.optional(z.boolean()),
       draft: z.boolean()
     }),
   ]),
