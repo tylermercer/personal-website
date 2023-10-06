@@ -11,7 +11,7 @@ type WithNextAndPrev,
 
 export async function getStaticPaths() {
   const posts = await getCollection("posts");
-  return toWithNextAndPrev(sortByDate(filterOutDraftsIfProduction(posts))).map((entry) => ({
+  return toWithNextAndPrev(sortByDate(filterOutDraftsIfProduction(posts)), true).map((entry) => ({
     params: { post: entry.item.slug },
     props: { entry },
   }));
