@@ -46,7 +46,7 @@ const dropCaps = post.data.dropCaps || false;
         <div class:list={{'article-content': true, 'drop-caps' : dropCaps}}>
             <slot></slot>
             <div class="reply-and-share">
-                <MungedEmail label='Reply via Email'/>
+                <MungedEmail label='Reply via email'/>
                 <ShareLinks url={url} title={post.data.title}/>
             </div>
         </div>
