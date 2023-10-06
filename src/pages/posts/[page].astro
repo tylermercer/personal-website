@@ -2,7 +2,7 @@
 import type { GetStaticPaths } from "astro";
 import { getCollection, type CollectionEntry } from "astro:content";
 import Layout from "../../layouts/Category.astro";
-import { filterOutDraftsIfProduction, sortByDate } from "../../utils/utils";
+import { filterOutDraftsIfProduction, labelDrafts, sortByDate } from "../../utils/utils";
 
 export type Props = {
     page: {
@@ -25,7 +25,7 @@ const { page } = Astro.props;
 
 export const getStaticPaths = (async ({ paginate }) => {
     const posts = await getCollection("posts");
-    return paginate(sortByDate(filterOutDraftsIfProduction(posts)), { pageSize: 5 });
+    return paginate(labelDrafts(sortByDate(filterOutDraftsIfProduction(posts))), { pageSize: 5 });
 }) satisfies GetStaticPaths;
 ---
 

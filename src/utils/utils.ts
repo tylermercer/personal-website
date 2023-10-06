@@ -37,19 +37,27 @@ export function getPostDate(entry: CollectionEntry<'posts'>) {
 
 export function sortByDate(entries: CollectionEntry<'posts'>[]): CollectionEntry<'posts'>[] {
     return entries.sort(
-        (a, b) => {
-            if (!(a.data.date)) return -1;
-            if (!(b.data.date)) return 1;
-            else return b.data.date.getTime() - a.data.date.getTime();
-        });
+        (a, b) => getPostDate(b).getTime() - getPostDate(a).getTime());
+}
+
+export function isDraft(entry: CollectionEntry<'posts'>): boolean {
+    return !(entry.data.date && entry.data.date < now);
 }
 
 export function filterOutDraftsIfProduction(entries: CollectionEntry<'posts'>[]): CollectionEntry<'posts'>[] {
     const isProduction = (import.meta.env.MODE === 'production');
     if (!isProduction) return entries;
     return entries.filter(
-        (e: CollectionEntry<'posts'>) => (e.data.date && e.data.date < now)
+        (e: CollectionEntry<'posts'>) => !isDraft(e)
     );
+}
+
+export function labelDrafts(entries: CollectionEntry<'posts'>[]): CollectionEntry<'posts'>[] {
+    const label = `[Draft]`;
+    return entries.map((e: CollectionEntry<'posts'>) => {
+        e.data.title = (isDraft(e) && !e.data.title.startsWith(label))  ? `${label} ${e.data.title}` : e.data.title;
+        return e;
+    });
 }
 
 export async function getCategory(entry: CollectionEntry<'posts'>): Promise<CollectionEntry<'categories'> | undefined> {
