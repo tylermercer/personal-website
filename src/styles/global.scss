@@ -70,13 +70,11 @@ p {
     line-height: 1.85em;
 }
 
-code {
+pre:has(> code) {
+    line-height: 1.35em;
     font-size: 0.875em;
     font-family: var(--font-code);
-    background-color: var(--color-primary-4);
-    padding: 0.15em 0.25em;
-    border-radius: 4px;
-    border: 1px solid var(--color-primary-6);
+    padding: 12px !important;
 }
 
 pre {
