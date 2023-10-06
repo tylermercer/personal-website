@@ -1,7 +1,8 @@
 ---
+import { trimTrailingSlash } from "../utils/utils";
 import Logo from "./Logo.astro"
 
-const ariaCurrent = (path: string) => Astro.url.href === path ? 'page' : undefined;
+const isCurrent = (path: string) => trimTrailingSlash(Astro.url.pathname) === path;
 ---
 <header class="site-nav-container">
     <div class="guttered">
@@ -12,14 +13,14 @@ const ariaCurrent = (path: string) => Astro.url.href === path ? 'page' : undefin
             </a>
             <ul>
                 <li>
-                    <a class="nav-link" aria-current={ariaCurrent('/now')} href="/now">
+                    <a class="nav-link" aria-current={isCurrent('/now') ? 'page' : undefined} href="/now">
                         <span class="text">
                             Now
                         </span>
                     </a>
                 </li>
                 <li>
-                    <a class="nav-link" aria-current={ariaCurrent('/about')} href="/about">
+                    <a class="nav-link" aria-current={isCurrent('/about') ? 'page' : undefined} href="/about">
                         <span class="text">
                             About
                         </span>
