@@ -39,7 +39,7 @@ const titleFull = (title && title !== defaultTitle) ? `${title} - ${defaultTitle
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
     <link rel="icon" href="/favicon.svg" />
     <!-- Og and Twitter -->
-    <!-- {%- if ogImageTemplatePath -%}
+    <!-- TODO: OG images {%- if ogImageTemplatePath -%}
       {%- setAsync "ogOutputUrl" -%}
       {%- ogImage ogImageTemplatePath, { title: title, description: description, pattern: category, date: page.date, hideDateline: eleventyExcludeFromCollections } -%}
       {%- endsetAsync -%}
