@@ -25,14 +25,13 @@ const titleFull = (title && title !== defaultTitle) ? `${title} - ${defaultTitle
         {import.meta.env.MODE === 'production' && 
             <meta
                 http-equiv="Content-Security-Policy"
-                content="default-src 'self'; connect-src 'self' https://cloudflareinsights.com/cdn-cgi/rum; script-src 'self' 'sha256-tKZ5Uy4GgbvbzOb22Mh+HYQrc+n+tqAlrtIOaBrgvhc=' 'sha256-AbpHGcgLb+kRsJGnwFEktk7uzpZOCcBY74+YBdrKVGs=' https://static.cloudflareinsights.com; style-src 'self' 'sha256-KjKiNS3ynD601QMpDlt0lvrpvAqlSZ7DquI0hKx98lw='; img-src 'self' data:;"
+                content="default-src 'self'; connect-src 'self' https://cloudflareinsights.com/cdn-cgi/rum; script-src 'self' 'sha256-tKZ5Uy4GgbvbzOb22Mh+HYQrc+n+tqAlrtIOaBrgvhc=' 'sha256-AbpHGcgLb+kRsJGnwFEktk7uzpZOCcBY74+YBdrKVGs=' https://static.cloudflareinsights.com; style-src 'self' 'unsafe-inline'; img-src 'self' data:;"
             />
         }
         <meta name="generator" content={Astro.generator} />
         {
             description && (
                 <meta name="description" content="{{ description | unmd }}" />
-            )
         }
     <title>{ titleFull }</title>
     <!-- Icons -->
