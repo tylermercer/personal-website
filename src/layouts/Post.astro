@@ -40,7 +40,7 @@ const dropCaps = post.data.dropCaps || false;
         <p class="dateline">
             <time datetime={date.toISOString()}>{date.toLocaleDateString()}</time>
             {category && 
-                <span> in <a href={`/posts/${category.data.slug}`}>{ category.data.title }</a></span>
+                <span> in <a href={`/posts/${category.data.slug}/1`}>{ category.data.title }</a></span>
             }
             <span> &mdash; </span>
             {wordCount} words &mdash; {readingTime} min read
