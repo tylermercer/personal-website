@@ -2,7 +2,7 @@
 import type { GetStaticPaths } from "astro";
 import { getCollection, type CollectionEntry } from "astro:content";
 import Layout from "../../../layouts/Category.astro";
-import { checkCategory, filterOutDraftsIfProduction, getCategory, sortByDate } from "../../../utils/utils";
+import { checkCategory, filterOutDraftsIfProduction, getCategory, labelDrafts, sortByDate } from "../../../utils/utils";
 
 export type Props = {
     page: {
@@ -20,7 +20,7 @@ const { page, category } = Astro.props;
 export const getStaticPaths = (async ({ paginate }) => {
     const allCategories = await getCollection('categories');
 
-    const allPosts = sortByDate(filterOutDraftsIfProduction(await getCollection('posts')));
+    const allPosts = labelDrafts(sortByDate(filterOutDraftsIfProduction(await getCollection('posts'))));
     // For every tag, return a paginate() result.
     // Make sure that you pass `{params: {tag}}` to `paginate()`
     // so that Astro knows which tag grouping the result is for.
