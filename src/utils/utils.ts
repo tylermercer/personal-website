@@ -94,3 +94,7 @@ export function countWords(str: string): number {
     const words = (str) ? str.match(/\w+/g) : null;
     return (words) ? words.length : 0;
 }
+
+export function trimTrailingSlash(str: string): string {
+    return str.replace(/\/$/, "");
+}
