@@ -8,11 +8,11 @@ import footnote from 'markdown-it-footnote';
 const parser = new MarkdownIt({
     html: true,
     typographer: true
-  }).use(anchor, {
+}).use(anchor, {
     permalink: anchor.permalink.headerLink({
-      safariReaderFix: true
+        safariReaderFix: true
     })
-  }).use(footnote);
+}).use(footnote);
 
 export function firstFive(collection: any[]) {
     return collection.slice(0, 5);
@@ -76,7 +76,13 @@ export type WithNextAndPrev<T> = {
 export function toWithNextAndPrev<T>(items: T[], reverse: boolean = false): WithNextAndPrev<T>[] {
     return items.map((t, i, a) => ({
         item: t,
-        next: reverse ? a[i-1] : a[i+1],
-        prev: reverse ? a[i+1] : a[i-1]
+        next: reverse ? a[i - 1] : a[i + 1],
+        prev: reverse ? a[i + 1] : a[i - 1]
     }));
+}
+
+// Adapted from Nunjuck's wordcount filter implementation
+export function countWords(str: string): number {
+    const words = (str) ? str.match(/\w+/g) : null;
+    return (words) ? words.length : 0;
 }
