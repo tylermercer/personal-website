@@ -28,7 +28,7 @@ const titleFull = (title && title !== defaultTitle) ? `${title} - ${defaultTitle
                 content="default-src 'self'; connect-src 'self' https://cloudflareinsights.com/cdn-cgi/rum; script-src 'self' 'sha256-tKZ5Uy4GgbvbzOb22Mh+HYQrc+n+tqAlrtIOaBrgvhc=' https://static.cloudflareinsights.com; img-src 'self' data:;"
             />
         } -->
-        <meta name="generator" content="{{ eleventy.generator }}" />
+        <meta name="generator" content={Astro.generator} />
         {
             description && (
                 <meta name="description" content="{{ description | unmd }}" />
