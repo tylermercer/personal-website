@@ -10,6 +10,11 @@
 /apple-touch-icon.png /apple-touch-icon.png 200
 /site.webmanifest /site.webmanifest 200
 
+# Category redirects
+/posts/ /posts/1 301
+/posts/faith/ /posts/faith/1 301
+/posts/software/ /posts/software/1 301
+
 # Post redirects
 /posts/faith/explicability-agency-and-forgiveness/ /posts/faith/explicability-does-not-negate-agency/ 301
 
