@@ -20,7 +20,7 @@ const url = Astro.url;
 
 const date = getPostDate(post);
 
-const patternClass = category ? `pattern-${category.data.slug}` : '';
+const patternClass = category ? `pattern-${category.id}` : '';
 
 const wordCount = countWords(post.body);
 const readingTime = Math.round(wordCount / 235) || 1;
@@ -40,7 +40,7 @@ const dropCaps = post.data.dropCaps || false;
         <p class="dateline">
             <time datetime={date.toISOString()}>{date.toLocaleDateString()}</time>
             {category && 
-                <span> in <a href={`/posts/${category.data.slug}/1`}>{ category.data.title }</a></span>
+                <span> in <a href={`/posts/${category.id}/1`}>{ category.data.title }</a></span>
             }
             <span> &mdash; </span>
             {wordCount} words &mdash; {readingTime} min read

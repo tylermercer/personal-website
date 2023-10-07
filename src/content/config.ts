@@ -19,7 +19,6 @@ const pages = defineCollection({
 const categories = defineCollection({
   type: 'data',
   schema: z.object({
-    slug: z.string(),
     title: z.string(),
     description: z.string(),
   })
