@@ -9,7 +9,7 @@ export type Props = {
 
 const { description, title, category } = Astro.props;
 
-const patternClass = category ? `pattern-${category.data.slug}` : '';
+const patternClass = category ? `pattern-${category.id}` : '';
 ---
 
 <Layout title={title} description={description}>

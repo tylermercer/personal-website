@@ -56,10 +56,10 @@ const { title, posts, categories, description } = Astro.props;
 							<h3
 								class:list={[
 									"pattern",
-									`pattern-${c.data.slug}`,
+									`pattern-${c.id}`,
 								]}
 							>
-								<a href={`/posts/${c.data.slug}/1`}>
+								<a href={`/posts/${c.id}/1`}>
 									{c.data.title}
 								</a>
 							</h3>

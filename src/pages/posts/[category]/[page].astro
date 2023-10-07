@@ -25,9 +25,9 @@ export const getStaticPaths = (async ({ paginate }) => {
     // Make sure that you pass `{params: {tag}}` to `paginate()`
     // so that Astro knows which tag grouping the result is for.
     return allCategories.flatMap((category) => {
-        const postsInCategory = allPosts.filter((post) => checkCategory(post, category.data.slug));
+        const postsInCategory = allPosts.filter((post) => checkCategory(post, category.id));
         return paginate(postsInCategory, {
-        params: { category: category.data.slug },
+        params: { category: category.id },
         props: { category },
         pageSize: 5
         });
