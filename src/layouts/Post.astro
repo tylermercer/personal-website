@@ -3,7 +3,7 @@ import { type CollectionEntry } from 'astro:content';
 import Layout from './Base.astro';
 import MungedEmail from '../components/MungedEmail.astro';
 import ShareLinks from '../components/ShareLinks.astro';
-import { countWords, getPostDate, type WithNextAndPrev } from '../utils/utils';
+import { countWords, formatPostDate, getPostDate, type WithNextAndPrev } from '../utils/utils';
 
 export type Props = {
     post: WithNextAndPrev<CollectionEntry<'posts'>>;
@@ -38,7 +38,7 @@ const dropCaps = post.data.dropCaps || false;
             </p>
         }
         <p class="dateline">
-            <time datetime={date.toISOString()}>{date.toLocaleDateString()}</time>
+            <time datetime={date.toISOString()}>{formatPostDate(date)}</time>
             {category && 
                 <span> in <a href={`/posts/${category.id}/1`}>{ category.data.title }</a></span>
             }
