@@ -23,7 +23,9 @@
     "markdown-it-footnote": "^3.0.3",
     "prism-themes": "^1.9.0",
     "remark-footnotes": "^4.0.1",
-    "sanitize-html": "^2.11.0"
+    "sanitize-html": "^2.11.0",
+    "satori": "^0.10.9",
+    "satori-html": "^0.3.2"
   },
   "devDependencies": {
     "@types/luxon": "^3.3.2",
