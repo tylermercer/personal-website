@@ -98,3 +98,7 @@ export function countWords(str: string): number {
 export function trimTrailingSlash(str: string): string {
     return str.replace(/\/$/, "");
 }
+
+export function unMarkdown(raw: string): string {
+    return raw?.replace(/[\*_`]/g, '')
+}
