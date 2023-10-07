@@ -1,17 +1,27 @@
-import { getCollection } from "astro:content";
+import { getCollection, getEntryBySlug, type ContentCollectionKey } from "astro:content";
 import { labelDrafts, sortByDate, filterOutDraftsIfProduction } from "../../utils/utils";
+import type { APIRoute } from "astro";
 
 
 export async function getStaticPaths() {
     const posts = labelDrafts(sortByDate(filterOutDraftsIfProduction(await getCollection("posts"))));
-    //TODO: get pages too, and merge
-    const all = posts;
-    return (all).map((entry) => ({
-        params: { post: entry.slug },
-        props: { entry },
-    }));
+    const pages = await getCollection('pages');
+    const toParams = (collection: string) => (entry: { slug: string }) => ({
+        params: { slug: entry.slug, collection: 'posts' },
+    });
+    return posts
+        .map(toParams('posts'))
+        .concat(pages.map(toParams('pages')));
 }
 
-export async function GET(context) {
-    //TODO: generate images
+export const GET: APIRoute = async ({ params }) => {
+    const { slug, collection } = params;
+    const entry = await getEntryBySlug(collection as ContentCollectionKey, slug!!);
+    return new Response(
+        //TODO: generate png using slug
+        JSON.stringify({
+            collection,
+            slug
+        })
+    );
 }
