@@ -16,10 +16,14 @@ div {
 }
 .bg-container {
     align-items: flex-start;
+    justify-content: space-between;
+}
+.grow {
     flex: 1;
 }
 .pattern {
     align-items: flex-start;
+    justify-content: flex-end;
     background: hsl(206, 80%, 20%);
     background-position: center;
     background-size: cover;
@@ -35,7 +39,8 @@ div {
 .title {
     font-family: 'Figtree';
     font-size: 80px;
-    margin: auto 0; 
+    margin: 0;
+    text-wrap: balance;
 }
 .dateline {
     margin-top: 3rem;
