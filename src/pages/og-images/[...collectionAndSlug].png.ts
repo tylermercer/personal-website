@@ -21,7 +21,10 @@ export async function getStaticPaths() {
         .concat(pages.map(toParams('pages')));
 }
 
-const renderHtml = (content: CollectionEntry<'posts'> | CollectionEntry<'pages'>, category?: CollectionEntry<'categories'>) => {
+const renderHtml = (
+    content: CollectionEntry<'posts'> | CollectionEntry<'pages'>,
+    category?: CollectionEntry<'categories'>,
+    growTitleBox: boolean = false) => {
 
     const { title, description } = content.data;
     const date: Date | undefined = ('date' in content.data) ? content.data.date : undefined;
@@ -31,10 +34,10 @@ const renderHtml = (content: CollectionEntry<'posts'> | CollectionEntry<'pages'>
             ${styles}
         </style>
         <div class="root">
-            <div class="pattern pattern-${category?.id || ''}">
+            <div class="pattern pattern-${category?.id || ''} ${growTitleBox ? 'grow' : ''}">
                 <h1 class="title">${title}</h1>
             </div>
-            <div class="bg-container">
+            <div class="bg-container ${growTitleBox ? '' : 'grow'}">
                 <div class="description">${description}</div>
                 ${date ? `<div class="dateline">${formatPostDate(date)} — Tyler Mercer</div>` : ''}
             </div>
