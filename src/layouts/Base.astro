@@ -16,6 +16,8 @@ const defaultTitle = metadata.title;
 const { title, description } = Astro.props;
 
 const titleFull = (title && title !== defaultTitle) ? `${title} - ${defaultTitle}` : defaultTitle;
+
+const ogImagePath = `/og-images${Astro.url.pathname}.png`;
 ---
 
 <!doctype html>
@@ -39,15 +41,9 @@ const titleFull = (title && title !== defaultTitle) ? `${title} - ${defaultTitle
     <!-- Icons -->
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
     <link rel="icon" href="/favicon.svg" />
-    <!-- Og and Twitter -->
-    <!-- TODO: OG images {%- if ogImageTemplatePath -%}
-      {%- setAsync "ogOutputUrl" -%}
-      {%- ogImage ogImageTemplatePath, { title: title, description: description, pattern: category, date: page.date, hideDateline: eleventyExcludeFromCollections } -%}
-      {%- endsetAsync -%}
-      <meta property="og:image" content="{{ ogOutputUrl }}">
-      <meta name="twitter:image" content="{{ ogOutputUrl }}">
-    {%- endif -%} -->
-    <meta property="og:title" content={titleFull} />
+    <meta property="og:image" content={ogImagePath}>
+    <meta name="twitter:image" content={ogImagePath}>
+    <meta property="og:title" content={ titleFull } />
     <meta property="og:type" content="article" />
     <meta
         property="og:url"
