@@ -28,8 +28,8 @@ But, as Josh Morony describes in
 ["Why does the average app kind of suck?"](https://www.youtube.com/watch?v=Mfyh2WmNfr0),
 an overemphasis on simple and direct solutions to the immediate problem at hand
 can lead to code that is difficult to refactor and maintain. An overzealous
-application of YAGNI can lead you to write "just get it working" kind of
-solutions. This leads me to the point of this article:
+application of YAGNI can lead you to write "just get it working" solutions.
+This leads me to the point of this article:
 
 **Don't unnecessarily make future requirements harder.**
 
@@ -43,11 +43,13 @@ mind when you're building new code.
 YAGNI's intent is to prevent wasted work on future features, which may or may
 not actually be needed. DUMFRH's intent is to keep you _mindful_ of potential
 future needs, and to structure what you are _currently_ building in a way that
-won't make those potential future needs harder to meet. They're guardrails on
-the opposite side of the developer's path.
+won't make those potential future needs harder to meet. They're like the two
+ends of a tightrope walker's pole---the weight of each end is balanced by the
+other. If you cut off one end of the pole, your high-strung funambulist is
+likely to be quite upset.
 
-Fowler (referenced previously) hints at this idea in his article about YAGNI,
-and provides a good strategy for finding a way to satisfy both rules of thumb:
+Fowler hints at this idea in his aforementioned article about YAGNI, and provides
+a good strategy for finding a way to satisfy both rules of thumb:
 
 > One approach I use when mentoring developers in this situation is to ask them
 > to imagine the refactoring they would have to do later to introduce the
@@ -78,4 +80,5 @@ constrains _how_ you build it.
 
 When there's a cheap way to make future requirements easier ("cheap" meaning
 "quick to implement and introducing no additional future maintenance cost"), you
-should probably do it. DUMFRH.
+should probably do it. DUMFRH.^[Yes, it is phonetically a garbage acronym, but
+is "YAGNI" really that much better? 😆]
