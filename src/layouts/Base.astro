@@ -31,7 +31,7 @@ const titleFull = (title && title !== defaultTitle) ? `${title} - ${defaultTitle
         <meta name="generator" content={Astro.generator} />
         {
             description && (
-                <meta name="description" content="{{ description | unmd }}" />
+                <meta name="description" content={description} />
             )
         }
     <title>{ titleFull }</title>
@@ -46,23 +46,23 @@ const titleFull = (title && title !== defaultTitle) ? `${title} - ${defaultTitle
       <meta property="og:image" content="{{ ogOutputUrl }}">
       <meta name="twitter:image" content="{{ ogOutputUrl }}">
     {%- endif -%} -->
-    <meta property="og:title" content={ titleFull } />
+    <meta property="og:title" content={titleFull} />
     <meta property="og:type" content="article" />
     <meta
         property="og:url"
-        content="{{ page.url | htmlBaseUrl(metadata.url) }}"
+        content={Astro.url}
     />
     <meta property="og:locale" content="en" />
-    <meta property="og:image:alt" content="{{ description | unmd }}" />
-    <meta property="og:site_name" content="{{ metadata.title }}" />
-    <meta name="og:description" content="{{ description | unmd }}" />
+    <meta property="og:image:alt" content={description} />
+    <meta property="og:site_name" content={titleFull} />
+    <meta name="og:description" content={description} />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="{{ metadata.twitter }}" />
-    <meta name="twitter:title" content="{{ titleFull }}" />
-    <meta name="twitter:description" content="{{ description | unmd }}" />
+    <meta name="twitter:site" content={metadata.twitter} />
+    <meta name="twitter:title" content={titleFull} />
+    <meta name="twitter:description" content={description} />
     <meta
         name="twitter:image:alt"
-        content="{{ titleFull }} - {{ description | unmd }}"
+        content={titleFull}
     />
     <!-- Tags -->
     <link rel="manifest" href="/site.webmanifest" />
