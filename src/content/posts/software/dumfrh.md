@@ -13,13 +13,13 @@ choices in certain situations. Building this site in Astro instead of Blazor,
 for example, is obviously better when you consider its content-heavy nature and
 my goal of avoiding unnecessary bloat.]
 
-The age-old principle of YAGNI is no-different. YAGNI---which stands for "you
-ain't gonna need it"---is a rule of thumb for avoiding wasting time on
+The age-old principle of YAGNI is no-different. YAGNI—which stands for "you
+ain't gonna need it"—is a rule of thumb for avoiding wasting time on
 speculative features that you think you might need someday. There are a lot of
 good reasons to apply this heuristic. As
 [Martin Fowler points out](https://www.martinfowler.com/bliki/Yagni.html), any
 time spent building out extra features instead of shipping the functionality you
-first set out to build is time that the company isn't benefiting from that
+first set out to build is time that your users aren't benefiting from that
 functionality. This is, arguably, the entire point of choosing agile over
 waterfall development. You ship quickly and often, get feedback quickly and
 often, and iterate on that feedback.
@@ -36,7 +36,7 @@ This leads me to the point of this article:
 DUMFRH. That's YAGNI's foil.
 
 Now, before you drive me out of town with pitchforks and torches for criticizing
-the time-old doctrine of YAGNI, hear me out---DUMFRH isn't the _opposite_ of
+the time-old doctrine of YAGNI, hear me out—DUMFRH isn't the _opposite_ of
 YAGNI. It's more like the proton to YAGNI's electron. Both should be kept in
 mind when you're building new code.
 
@@ -44,7 +44,7 @@ YAGNI's intent is to prevent wasted work on future features, which may or may
 not actually be needed. DUMFRH's intent is to keep you _mindful_ of potential
 future needs, and to structure what you are _currently_ building in a way that
 won't make those potential future needs harder to meet. They're like the two
-ends of a tightrope walker's pole---the weight of each end is balanced by the
+ends of a tightrope walker's pole—the weight of each end is balanced by the
 other. If you cut off one end of the pole, your high-strung funambulist is
 likely to be quite upset.
 
@@ -60,7 +60,7 @@ a good strategy for finding a way to satisfy both rules of thumb:
 
 That italicized bit? That's DUMFRH.
 
-As a simple example, the other day I created a simple ITimer interface that
+As a simple example, the other day I created a simple `ITimer` interface that
 wrapped C#'s native
 [System.Threading.Timer](https://learn.microsoft.com/en-us/dotnet/api/system.threading.timer?view=net-7.0)
 class so that I could easily mock it in tests. (This was in a project that was
@@ -73,7 +73,7 @@ to not need it in the future. Considering it through a DUMFRH lens led me to add
 that parameter to my interface to support that future potential usage, since it
 added negligible complexity to the code I was writing. However, if I had gone
 out of my way to implement every single method or operation supported by C#'s
-Timer on my ITimer interface, I would have been violating the YAGNI principle.
+Timer on my `ITimer` interface, I would have been violating the YAGNI principle.
 
 Put another way, YAGNI tends to constrain _how much_ you build, whereas DUMFRH
 constrains _how_ you build it.
