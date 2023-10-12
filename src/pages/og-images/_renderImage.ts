@@ -35,7 +35,7 @@ const getHtml = (
             </div>
             <div class="bg-container ${growTitleBox ? '' : 'grow'}">
                 <div class="description">${description}</div>
-                ${date ? `<div class="dateline">${formatPostDate(date)} — Tyler Mercer</div>` : ''}
+                <div class="dateline">${date ? `${formatPostDate(date)} — ` : ''}Tyler Mercer</div>
             </div>
         </div>
         `.trim());
