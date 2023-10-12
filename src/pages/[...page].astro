@@ -1,6 +1,6 @@
 ---
 import Layout from '../layouts/Page.astro';
-import { CollectionEntry, getCollection } from "astro:content";
+import { type CollectionEntry, getCollection } from "astro:content";
 
 export async function getStaticPaths() {
   const pages = await getCollection('pages');
@@ -13,8 +13,9 @@ export type Props = {
     entry: CollectionEntry<'pages'>;
 }
 const { entry } = Astro.props;
+const ogImagePath = `/pages/${entry.slug}`;
 const { Content } = await entry.render();
 ---
-<Layout title={entry.data.title} description={entry.data.description}>
+<Layout title={entry.data.title} description={entry.data.description} ogImagePath={ogImagePath}>
     <Content />
 </Layout>

@@ -9,15 +9,16 @@ import metadata from "../utils/metadata";
 export type Props = {
     title: string;
     description: string;
+    ogImagePath: string;
 };
 
 const defaultTitle = metadata.title;
 
-const { title, description } = Astro.props;
+const { title, description, ogImagePath: ogImagePathRaw } = Astro.props;
 
 const titleFull = (title && title !== defaultTitle) ? `${title} - ${defaultTitle}` : defaultTitle;
 
-const ogImagePath = `/og-images${Astro.url.pathname}.png`;
+const ogImagePath = `/og-images${ogImagePathRaw}.png`
 ---
 
 <!doctype html>

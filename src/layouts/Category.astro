@@ -11,8 +11,10 @@ export type Props = {
 }
 
 const { category, nextPageUrl, previousPageUrl, paginatedPosts } = Astro.props;
+
+const ogImagePath = `/categories/${category.id}`;
 ---
-<Layout title={category.data.title} description={category.data.description} category={category}>
+<Layout title={category.data.title} description={category.data.description} category={category} ogImagePath={ogImagePath}>
     <ul class="post-cards-list">
         {paginatedPosts.map(post => (
             <li class="post-card">
