@@ -23,11 +23,13 @@ const date = getPostDate(post);
 const patternClass = category ? `pattern-${category.id}` : '';
 
 const wordCount = countWords(post.body);
-const readingTime = Math.round(wordCount / 235) || 1;
+const readingTime = Math.round(wordCount / READING_RATE) || 1;
 const dropCaps = post.data.dropCaps || false;
+
+const ogImagePath = `/posts/${post.slug}`
 ---
 
-<Layout title={post.data.title} description={post.data.description}>
+<Layout title={post.data.title} description={post.data.description} ogImagePath={ogImagePath}>
     <h1 class:list={[ 'pattern', patternClass ]}>
         <span class="guttered">{post.data.title}</span>
     </h1>
