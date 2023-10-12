@@ -13,7 +13,7 @@ export type Props = {
 const { title, posts, categories, description } = Astro.props;
 ---
 
-<Layout title={title} description={description}>
+<Layout title={title} description={description} ogImagePath="/home">
 	<h1 class="pattern">
 		<span class="guttered">
 			{title}
