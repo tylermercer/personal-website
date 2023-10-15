@@ -1,0 +1,57 @@
+---
+type Link = {
+  path: string,
+  label: string
+}
+export type Props = {
+  previous?: Link,
+  next?: Link,
+  labelLinks?: boolean,
+}
+
+const { previous, next, labelLinks } = Astro.props;
+---
+
+<nav aria-label="Navigation" class="links-next-prev">
+  { (previous || next) ? (
+    <ul>
+      {
+        previous && (
+          <li>
+            { labelLinks && <>Previous:{" "}</> }
+            <a href={previous.path}>{previous.label}</a>
+          </li>
+        )
+      }
+      {next && previous && <span>|</span>}
+      {
+        next && (
+          <li>
+            { labelLinks && <>Next:{" "}</> }
+            <a href={next.path}>{next.label}</a>
+          </li>
+        )
+      }
+    </ul>
+  ) : (
+    <div class="empty">
+        No more posts to show
+    </div>
+  )}
+</nav>
+<style lang="scss">
+  .links-next-prev {
+    margin-bottom: 3rem;
+    padding: 0 1rem;
+    & ul {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0.5ch;
+      list-style-type: none;
+    }
+  }
+  .empty {
+    color: var(--color-gray-11);
+  }
+</style>

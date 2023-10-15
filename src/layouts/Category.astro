@@ -2,6 +2,7 @@
 import Layout from './Page.astro';
 import type { CollectionEntry } from 'astro:content';
 import PostList from '../components/PostList.astro';
+import NextPrevLinks from '../components/NextPrevLinks.astro';
 
 export type Props = {
     category: CollectionEntry<'categories'>,
@@ -14,18 +15,17 @@ export type Props = {
 const { category, nextPageUrl, previousPageUrl, paginatedPosts, ogImagePath: ogImagePathRaw } = Astro.props;
 
 const ogImagePath = ogImagePathRaw ?? `/categories/${category.id}`;
+
+const previous = previousPageUrl && {
+    label: "← Newer posts",
+    path: previousPageUrl
+}
+const next = nextPageUrl && {
+    label: "Older posts →",
+    path: nextPageUrl
+}
 ---
 <Layout title={category.data.title} description={category.data.description} category={category} ogImagePath={ogImagePath}>
     <PostList posts={paginatedPosts}/>
-    {(previousPageUrl || nextPageUrl) ? (
-        <nav aria-label="Navigation" class="links-next-prev">
-            {previousPageUrl && <a href={previousPageUrl}>← Newer posts</a>}
-            {(previousPageUrl && nextPageUrl) && <span>|</span>}
-            {nextPageUrl && <a href={nextPageUrl}>Older posts →</a>}
-        </nav>
-    ) : (
-        <div class="links-next-prev">
-            No more posts to show
-        </div>
-    )}
+    <NextPrevLinks next={next} previous={previous}/>
 </Layout>

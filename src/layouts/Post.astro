@@ -9,6 +9,7 @@ import {
   getPostDate,
   type WithNextAndPrev,
 } from "../utils/utils";
+import NextPrevLinks from "../components/NextPrevLinks.astro";
 
 export type Props = {
   post: WithNextAndPrev<CollectionEntry<"posts">>;
@@ -19,7 +20,11 @@ const READING_RATE = 235;
 
 const { post: postWithNextAndPrev, category } = Astro.props;
 
-const { item: post, next: nextPost, prev: previousPost } = postWithNextAndPrev;
+const { item: post, next, prev } = postWithNextAndPrev;
+
+const postToLink = (post?: CollectionEntry<'posts'>) => post && { path: `/posts/${post.slug}`, label: post.data.title };
+const nextLink = postToLink(next);
+const previousLink = postToLink(prev);
 
 const url = Astro.url;
 
@@ -72,29 +77,7 @@ const ogImagePath = `/posts/${post.slug}`;
       </div>
     </div>
   </div>
-  <ul class="links-next-prev">
-    {
-      previousPost && (
-        <li>
-          Previous:{" "}
-          <a href={`/posts/${previousPost.slug}`}>
-            {previousPost.data.title}
-          </a>
-        </li>
-      )
-    }
-    {nextPost && previousPost && <span>|</span>}
-    {
-      nextPost && (
-        <li>
-          Next:{" "}
-          <a href={`/posts/${nextPost.slug}`}>
-            {nextPost.data.title}
-          </a>
-        </li>
-      )
-    }
-  </ul>
+  <NextPrevLinks previous={previousLink} next={nextLink} labelLinks />
 </Layout>
 
 <style lang="scss">
