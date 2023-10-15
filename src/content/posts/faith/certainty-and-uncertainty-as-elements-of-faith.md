@@ -388,10 +388,10 @@ faith. The ancient prophet Mormon seemed to
 agree:^[[Moroni 7:42-43](https://www.churchofjesuschrist.org/study/scriptures/bofm/moro/7?lang=eng&id=p42-p43#p42),
 emphasis mine.]
 
-> 43 And again, behold I say unto you that [someone] **cannot** have faith and
+> 42 And again, behold I say unto you that [someone] **cannot** have faith and
 > hope, save [or unless] he shall be meek, and lowly of heart.
 >
-> 44 If [he is not], his faith and hope is vain, for none is acceptable before
+> 43 If [he is not], his faith and hope is vain, for none is acceptable before
 > God, save the meek and lowly in heart;
 
 "Cannot" is more than just "likely won't." Meekness is a necessary part of
