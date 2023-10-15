@@ -1,7 +1,7 @@
 ---
 import Layout from './Page.astro';
 import type { CollectionEntry } from 'astro:content';
-import { formatPostDate, getPostDate } from '../utils/utils';
+import PostList from '../components/PostList.astro';
 
 export type Props = {
     category: CollectionEntry<'categories'>,
@@ -16,23 +16,7 @@ const { category, nextPageUrl, previousPageUrl, paginatedPosts, ogImagePath: ogI
 const ogImagePath = ogImagePathRaw ?? `/categories/${category.id}`;
 ---
 <Layout title={category.data.title} description={category.data.description} category={category} ogImagePath={ogImagePath}>
-    <ul class="post-cards-list">
-        {paginatedPosts.map(post => (
-            <li class="post-card">
-                <article>
-                    <time class="dateline" datetime={getPostDate(post).toISOString()}>
-                        {formatPostDate(getPostDate(post))}
-                    </time>
-                    <h3>
-                        <a href={`/posts/${post.slug}`}>{post.data.title }</a>
-                    </h3>
-                    <p>
-                        {post.data.description}
-                    </p>
-                </article>
-            </li>
-        ))}
-    </ul>
+    <PostList posts={paginatedPosts}/>
     {(previousPageUrl || nextPageUrl) ? (
         <nav aria-label="Navigation" class="links-next-prev">
             {previousPageUrl && <a href={previousPageUrl}>← Newer posts</a>}

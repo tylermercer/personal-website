@@ -1,0 +1,21 @@
+---
+import type { CollectionEntry } from "astro:content";
+import PostCard from "./PostCard.astro";
+
+export type Props = {
+  posts: CollectionEntry<"posts">[];
+};
+
+const { posts } = Astro.props;
+---
+
+<ul class="post-cards-list">
+  {posts.map((p) => <PostCard post={p} />)}
+</ul>
+<style lang="scss">
+  .post-cards-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+</style>

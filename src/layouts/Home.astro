@@ -1,7 +1,7 @@
 ---
 import { type CollectionEntry } from "astro:content";
 import Layout from "./Base.astro";
-import { formatDateIso, formatPostDate, getPostDate } from "../utils/utils";
+import PostList from "../components/PostList.astro";
 
 export type Props = {
 	title: string;
@@ -25,26 +25,7 @@ const { title, posts, categories, description } = Astro.props;
 	<div class="with-sidebar guttered">
 		<div class="posts">
 			<h2>Latest Posts</h2>
-			<ul class="post-cards-list">
-				{
-					posts.map((p) => (
-						<li class="post-card">
-							<article>
-								<time
-									class="dateline"
-									datetime={formatDateIso(getPostDate(p))}
-								>
-									{formatPostDate(getPostDate(p))}
-								</time>
-								<h3>
-									<a href={`posts/${p.slug}`}>{p.data.title}</a>
-								</h3>
-								<p>{p.data.description}</p>
-							</article>
-						</li>
-					))
-				}
-			</ul>
+			<PostList posts={posts}/>
 			<p><a href="/posts/2">Older posts →</a></p>
 		</div>
 		<div class="sidebar">
@@ -53,15 +34,8 @@ const { title, posts, categories, description } = Astro.props;
 				{
 					categories.map((c) => (
 						<div class="collection">
-							<h3
-								class:list={[
-									"pattern",
-									`pattern-${c.id}`,
-								]}
-							>
-								<a href={`/posts/${c.id}/1`}>
-									{c.data.title}
-								</a>
+							<h3 class:list={["pattern", `pattern-${c.id}`]}>
+								<a href={`/posts/${c.id}/1`}>{c.data.title}</a>
 							</h3>
 							<p>{c.data.description}</p>
 						</div>
