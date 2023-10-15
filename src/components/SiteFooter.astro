@@ -1,18 +1,33 @@
 ---
 const currentYear = new Date().getFullYear();
 ---
-<footer class="site-footer">
-    <p>
-        &copy; {currentYear} Tyler Mercer. All rights reserved.
-    </p>
-    <p>
-        <a href="/">Home</a> |
-        <a href="/now">Now</a> |
-        <a href="/about">About</a> |
-        <a href="/contact">Contact</a>
-    </p>
-    <p>
-        <a href="/feeds/feed.xml">RSS</a> |
-        <a href="/feeds/feed.json">JSON</a>
-    </p>
+
+<footer>
+  <p>
+    &copy; {currentYear} Tyler Mercer. All rights reserved.
+  </p>
+  <p>
+    <a href="/">Home</a> |
+    <a href="/now">Now</a> |
+    <a href="/about">About</a> |
+    <a href="/contact">Contact</a>
+  </p>
+  <p>
+    <a href="/feeds/feed.xml">RSS</a> |
+    <a href="/feeds/feed.json">JSON</a>
+  </p>
 </footer>
+<style lang="scss">
+  footer {
+    font-size: 0.8em;
+    text-align: center;
+    background-color: var(--color-gray-3);
+    padding: 1rem;
+    position: sticky;
+    top: 100vh;
+    & > p {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+  }
+</style>
