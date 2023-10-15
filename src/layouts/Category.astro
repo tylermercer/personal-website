@@ -16,14 +16,14 @@ const { category, nextPageUrl, previousPageUrl, paginatedPosts, ogImagePath: ogI
 
 const ogImagePath = ogImagePathRaw ?? `/categories/${category.id}`;
 
-const previous = previousPageUrl && {
+const previous = previousPageUrl ? {
     label: "← Newer posts",
     path: previousPageUrl
-}
-const next = nextPageUrl && {
+} : undefined;
+const next = nextPageUrl ? {
     label: "Older posts →",
     path: nextPageUrl
-}
+} : undefined;
 ---
 <Layout title={category.data.title} description={category.data.description} category={category} ogImagePath={ogImagePath}>
     <PostList posts={paginatedPosts}/>
