@@ -19,8 +19,6 @@ const { title, description, ogImagePath: ogImagePathRaw } = Astro.props;
 const titleFull = (title && title !== defaultTitle) ? `${title} - ${defaultTitle}` : defaultTitle;
 
 const ogImagePath = `/og-images${ogImagePathRaw}.png`;
-
-console.log({ ogImagePath });
 ---
 
 <!doctype html>
