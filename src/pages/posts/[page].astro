@@ -3,6 +3,7 @@ import type { GetStaticPaths } from "astro";
 import { getCollection, type CollectionEntry } from "astro:content";
 import Layout from "../../layouts/Category.astro";
 import { filterOutDraftsIfProduction, labelDrafts, sortByDate } from "../../utils/utils";
+import category from '../../utils/allPostsCategory';
 
 export type Props = {
     page: {
@@ -13,13 +14,6 @@ export type Props = {
         };
     };
 };
-
-const category = {
-    data: {
-        title: "All Posts",
-        description: "My writings and thoughts",
-    },
-} as CollectionEntry<"categories">;
 
 const { page } = Astro.props;
 
