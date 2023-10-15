@@ -3,7 +3,7 @@
 /js/* /js/:splat 200
 /images/* /images/:splat 200
 /feeds/* /feeds/:splat 200
-/og-images/* /images/:splat 200
+/og-images/* /og-images/:splat 200
 /favicon.svg /favicon.svg 200
 /android-chrome-192x192.png /android-chrome-192x192.png 200
 /android-chrome-512x512.png /android-chrome-512x512.png 200
