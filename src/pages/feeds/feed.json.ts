@@ -1,4 +1,4 @@
-import metadata from '../../utils/metadata';
+import metadata from '../../content/_metadata';
 import { getCollection } from 'astro:content';
 import { filterOutDraftsIfProduction, formatDateIso, getPostDate, sortByDate, renderMarkdown } from '../../utils/utils';
 

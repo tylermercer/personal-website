@@ -1,6 +1,6 @@
 import rss from '@astrojs/rss';
 
-import metadata from '../../utils/metadata';
+import metadata from '../../content/_metadata';
 import { getCollection } from 'astro:content';
 import { filterOutDraftsIfProduction, formatDateIso, getPostDate, renderMarkdown, sortByDate } from '../../utils/utils';
 

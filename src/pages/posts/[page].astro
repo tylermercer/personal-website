@@ -3,7 +3,7 @@ import type { GetStaticPaths } from "astro";
 import { getCollection, type CollectionEntry } from "astro:content";
 import Layout from "../../layouts/Category.astro";
 import { filterOutDraftsIfProduction, labelDrafts, sortByDate } from "../../utils/utils";
-import category from '../../utils/allPostsCategory';
+import category from '../../content/_allPostsCategory';
 
 export type Props = {
     page: {
