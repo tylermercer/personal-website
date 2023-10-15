@@ -1,32 +1,113 @@
 ---
 import { trimTrailingSlash } from "../utils/utils";
-import Logo from "./Logo.astro"
+import Logo from "./Logo.astro";
 
-const isCurrent = (path: string) => trimTrailingSlash(Astro.url.pathname) === path;
+const isCurrent = (path: string) =>
+  trimTrailingSlash(Astro.url.pathname) === path;
 ---
+
 <header class="site-nav-container">
-    <div class="guttered">
-        <nav>
-            <a class="skip-to-content-link" href="#main">Skip to Content</a>
-            <a class="logo-link" aria-label="Home" href="/">
-                <Logo/>
-            </a>
-            <ul>
-                <li>
-                    <a class="nav-link" aria-current={isCurrent('/now') ? 'page' : undefined} href="/now">
-                        <span class="text">
-                            Now
-                        </span>
-                    </a>
-                </li>
-                <li>
-                    <a class="nav-link" aria-current={isCurrent('/about') ? 'page' : undefined} href="/about">
-                        <span class="text">
-                            About
-                        </span>
-                    </a>
-                </li>
-            </ul>
-        </nav>
-    </div>
+  <div class="guttered">
+    <nav>
+      <a class="skip-to-content-link" href="#main">Skip to Content</a>
+      <a class="logo-link" aria-label="Home" href="/">
+        <Logo />
+      </a>
+      <ul>
+        <li>
+          <a
+            class="nav-link"
+            aria-current={isCurrent("/now") ? "page" : undefined}
+            href="/now"
+          >
+            <span class="text"> Now</span>
+          </a>
+        </li>
+        <li>
+          <a
+            class="nav-link"
+            aria-current={isCurrent("/about") ? "page" : undefined}
+            href="/about"
+          >
+            <span class="text"> About</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
 </header>
+<style lang="scss">
+  .site-nav-container {
+    --guttered-content-width: 60rem;
+    // border-bottom: 1px solid var(--color-gray-8);
+    & nav {
+      display: flex;
+      padding: 0;
+      justify-content: space-between;
+      align-items: stretch;
+      height: 58px;
+
+      ul {
+        display: flex;
+        margin: 0;
+        padding: 0;
+      }
+
+      li {
+        list-style: none;
+      }
+
+      .skip-to-content-link {
+        background-color: var(--color-primary-2);
+        left: 50%;
+        padding: 4px;
+        --shift: 3rem;
+        top: calc(var(--shift) * -1);
+        position: absolute;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-family: var(--font-accent);
+        transition: transform 0.2s;
+        transform: translate(-50%, 0%);
+        white-space: nowrap;
+        @media (prefers-reduced-motion: reduce) {
+          transition: none;
+        }
+
+        &:focus {
+          transform: translate(-50%, var(--shift));
+        }
+      }
+
+      .logo-link {
+        text-decoration: none;
+        color: initial;
+      }
+
+      .nav-link {
+        margin: 0;
+        font-family: var(--font-accent);
+        color: var(--color-gray-12);
+        text-decoration: none;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        padding: 0 0.5rem;
+
+        &:hover,
+        &:focus,
+        &[aria-current="page"]:hover,
+        &[aria-current="page"]:focus {
+          color: var(--color-primary-11);
+        }
+
+        &[aria-current="page"] {
+          border-top: 2px solid transparent;
+          border-bottom: 2px solid var(--color-primary-11);
+        }
+      }
+    }
+  }
+</style>
