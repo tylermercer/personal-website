@@ -1,14 +1,19 @@
 ---
-import { type CollectionEntry } from 'astro:content';
-import Layout from './Base.astro';
-import MungedEmail from '../components/MungedEmail.astro';
-import ShareLinks from '../components/ShareLinks.astro';
-import { countWords, formatPostDate, getPostDate, type WithNextAndPrev } from '../utils/utils';
+import { type CollectionEntry } from "astro:content";
+import Layout from "./Base.astro";
+import MungedEmail from "../components/MungedEmail.astro";
+import ShareLinks from "../components/ShareLinks.astro";
+import {
+  countWords,
+  formatPostDate,
+  getPostDate,
+  type WithNextAndPrev,
+} from "../utils/utils";
 
 export type Props = {
-    post: WithNextAndPrev<CollectionEntry<'posts'>>;
-    category?: CollectionEntry<'categories'>;
-}
+  post: WithNextAndPrev<CollectionEntry<"posts">>;
+  category?: CollectionEntry<"categories">;
+};
 
 const READING_RATE = 235;
 
@@ -20,45 +25,108 @@ const url = Astro.url;
 
 const date = getPostDate(post);
 
-const patternClass = category ? `pattern-${category.id}` : '';
+const patternClass = category ? `pattern-${category.id}` : "";
 
 const wordCount = countWords(post.body);
 const readingTime = Math.round(wordCount / READING_RATE) || 1;
 const dropCaps = post.data.dropCaps || false;
 
-const ogImagePath = `/posts/${post.slug}`
+const ogImagePath = `/posts/${post.slug}`;
 ---
 
-<Layout title={post.data.title} description={post.data.description} ogImagePath={ogImagePath}>
-    <h1 class:list={[ 'pattern', patternClass ]}>
-        <span class="guttered">{post.data.title}</span>
-    </h1>
-    <div class="guttered">
-        {post.data.description &&
-            <p class="post-description">
-                {post.data.description}
-            </p>
-        }
-        <p class="dateline">
-            <time datetime={date.toISOString()}>{formatPostDate(date)}</time>
-            {category && 
-                <span> in <a href={`/posts/${category.id}/1`}>{ category.data.title }</a></span>
-            }
-            <span> &mdash; </span>
-            {wordCount} words &mdash; {readingTime} min read
-        </p>
-        <div class:list={{'article-content': true, 'drop-caps' : dropCaps}}>
-            <slot></slot>
-            <div class="reply-and-share">
-                <MungedEmail label='Reply via email'/>
-                <ShareLinks url={url} title={post.data.title}/>
-            </div>
-        </div>
+<Layout
+  title={post.data.title}
+  description={post.data.description}
+  ogImagePath={ogImagePath}
+>
+  <h1 class:list={["pattern", patternClass]}>
+    <span class="guttered">{post.data.title}</span>
+  </h1>
+  <div class="guttered">
+    {
+      post.data.description && (
+        <p class="post-description">{post.data.description}</p>
+      )
+    }
+    <p class="dateline">
+      <time datetime={date.toISOString()}>{formatPostDate(date)}</time>
+      {
+        category && (
+          <span>
+            {" "}
+            in{" "}
+            <a href={`/posts/${category.id}/1`}>
+              {category.data.title}
+            </a>
+          </span>
+        )
+      }
+      <span> &mdash;</span>
+      {wordCount} words &mdash; {readingTime} min read
+    </p>
+    <div class:list={{ "article-content": true, "drop-caps": dropCaps }}>
+      <slot />
+      <div class="reply-and-share">
+        <MungedEmail label="Reply via email" />
+        <ShareLinks url={url} title={post.data.title} />
+      </div>
     </div>
-    <ul class="links-next-prev">
-        {previousPost && <li>Previous: <a href={ `/posts/${previousPost.slug}` }>{ previousPost.data.title }</a></li>}
-        {(nextPost && previousPost) && <span>|</span>}
-        {nextPost && <li>Next: <a href={ `/posts/${nextPost.slug}` }>{ nextPost.data.title }</a></li>}
-    </ul>
-</div>
+  </div>
+  <ul class="links-next-prev">
+    {
+      previousPost && (
+        <li>
+          Previous:{" "}
+          <a href={`/posts/${previousPost.slug}`}>
+            {previousPost.data.title}
+          </a>
+        </li>
+      )
+    }
+    {nextPost && previousPost && <span>|</span>}
+    {
+      nextPost && (
+        <li>
+          Next:{" "}
+          <a href={`/posts/${nextPost.slug}`}>
+            {nextPost.data.title}
+          </a>
+        </li>
+      )
+    }
+  </ul>
 </Layout>
+
+<style lang="scss">
+  .article-content {
+    margin-bottom: 3rem;
+    &.drop-caps > p:first-of-type::first-letter {
+      font-family: var(--font-heading);
+      color: var(--color-primary-11);
+      float: left;
+      font-size: 75px;
+      line-height: 10px;
+      padding-top: 26px;
+      padding-right: 4px;
+      padding-left: 4px;
+      margin: 0.1em 0.1em 0.2em 0;
+    }
+    & > :not(:first-child) {
+      margin-top: 1em;
+      margin-bottom: 0;
+    }
+    & .reply-and-share {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.35rem;
+      align-items: baseline;
+      & .contact-email {
+        padding: 0.5rem;
+        background-color: var(--color-primary-bg-static);
+        color: var(--color-gray-1-static);
+        font-weight: bold;
+        font-family: var(--font-heading);
+      }
+    }
+  }
+</style>

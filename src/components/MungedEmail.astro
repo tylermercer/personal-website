@@ -4,7 +4,7 @@ export type Props = {
     class?: string;
 };
 
-const { class: className, label } = Astro.props;
+const { class: className, label, ...rest } = Astro.props;
 ---
 
 <a
@@ -13,6 +13,7 @@ const { class: className, label } = Astro.props;
     data-munged-user="pbagnpg"
     data-munged-domain="glyrezrepre.arg"
     data-label={label}
+    {...rest}
 >
     [Enable JS to view email link]
 </a>

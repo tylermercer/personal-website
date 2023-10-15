@@ -63,37 +63,6 @@
     margin-bottom: 1.6rem;
     color: var(--color-gray-11);
 }
-.article-content {
-    margin-bottom: 3rem;
-    &.drop-caps > p:first-of-type::first-letter {
-        font-family: var(--font-heading);
-        color: var(--color-primary-11);
-        float: left;
-        font-size: 75px;
-        line-height: 10px;
-        padding-top: 26px;
-        padding-right: 4px;
-        padding-left: 4px;
-        margin: 0.1em 0.1em 0.2em 0;
-    }
-    & > :not(:first-child) {
-        margin-top: 1em;
-        margin-bottom: 0;
-    }
-    & .reply-and-share {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 0.35rem;
-        align-items: baseline;
-        & .contact-email {
-            padding: 0.5rem;
-            background-color: var(--color-primary-bg-static);
-            color: var(--color-gray-1-static);
-            font-weight: bold;
-            font-family: var(--font-heading);
-        }
-    }
-}
 .site-footer {
     & > p {
         margin-top: 0;
