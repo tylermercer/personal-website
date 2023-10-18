@@ -16,13 +16,14 @@ type Options = {
     description: string,
     category?: string,
     growTitleBox?: boolean,
-    date?: Date
+    date?: Date,
+    hideDateline?: boolean,
 }
 
 const getHtml = (
     options: Options) => {
 
-    const { title, description, growTitleBox, category } = options;
+    const { title, description, growTitleBox, category, hideDateline } = options;
     const date: Date | undefined = ('date' in options) ? options.date : undefined;
 
     return (`
@@ -35,7 +36,7 @@ const getHtml = (
             </div>
             <div class="bg-container ${growTitleBox ? '' : 'grow'}">
                 <div class="description">${description}</div>
-                <div class="dateline">${date ? `${formatPostDate(date)} — ` : ''}Tyler Mercer</div>
+                ${hideDateline ? '' : `<div class="dateline">${date ? `${formatPostDate(date)} — ` : ''}Tyler Mercer</div>` }
             </div>
         </div>
         `.trim());

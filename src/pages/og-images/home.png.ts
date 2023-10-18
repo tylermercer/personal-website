@@ -5,6 +5,7 @@ import metadata from "../../content/_metadata";
 export const GET: APIRoute = async () => {
     return await renderImage({
         ...metadata,
-        growTitleBox: true
+        growTitleBox: true,
+        hideDateline: true,
     });
 }
