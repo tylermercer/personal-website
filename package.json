@@ -8,8 +8,8 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "send-email:dev": "node ./newsletter/send-email.js",
-    "send-email": "node ./newsletter/send-email.js --prod",
+    "send-email:dev": "node ./newsletter/send-email.cjs",
+    "send-email": "node ./newsletter/send-email.cjs --prod",
     "clean": "del-cli dist"
   },
   "dependencies": {

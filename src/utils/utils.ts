@@ -19,7 +19,7 @@ export function firstFive(collection: any[]) {
 }
 
 export function formatDateIso(date: Date) {
-    return DateTime.fromJSDate(date).toISO();
+    return date.toISOString();
 }
 
 export function formatPostDate(date: Date) {
