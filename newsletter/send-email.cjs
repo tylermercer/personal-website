@@ -87,8 +87,8 @@ function processFeedData(feedData) {
           html_content: htmlContent,
           plain_content: htmlToText(htmlContent),
           subject: 'TEST: ' + latestPost.title,
-          sender_id: process.env.SENDGRID_SENDER_ID,
-          suppression_group_id: unsubGroups[latestPost.category]
+          // sender_id: process.env.SENDGRID_SENDER_ID,
+          // suppression_group_id: unsubGroups[latestPost.category]
         },
         send_to: {
           segment_ids: [ segments[latestPost.category] ]
