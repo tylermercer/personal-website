@@ -4,6 +4,16 @@ import { filterOutDraftsIfProduction, formatDateIso, getPostDate, sortByDate, re
 
 export async function GET(context) {
     const blog = sortByDate(filterOutDraftsIfProduction(await getCollection('posts')));
+
+    const items = (await Promise.all(blog.map(async (post) => ({
+        id: `${context.site}/posts/${post.slug}/`,
+        url: `${context.site}/posts/${post.slug}/`,
+        title: post.data.title,
+        content_html: renderMarkdown(post.body),
+        date_published: formatDateIso(getPostDate(post)),
+        category: (await getCategory(post))?.id ?? "uncategorized"
+    }))));
+
     return new Response(
         JSON.stringify({
             version: "https://jsonfeed.org/version/1.1",
@@ -12,13 +22,6 @@ export async function GET(context) {
             feed_url: context.url,
             description: metadata.description,
             author: metadata.author,
-            items: blog.map((post) => ({
-                id: `${context.site}/posts/${post.slug}/`,
-                url: `${context.site}/posts/${post.slug}/`,
-                title: post.data.title,
-                content_html: renderMarkdown(post.body),
-                date_published: formatDateIso(getPostDate(post)),
-                category: getCategory(post) ?? "uncategorized"
-            })),
+            items,
         }));
 }
