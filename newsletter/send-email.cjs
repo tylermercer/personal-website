@@ -6,6 +6,7 @@ const sass = require('sass');
 const cheerio = require('cheerio');
 const argv = require('minimist')(process.argv.slice(2));
 const fs = require('fs');
+const { htmlToText } = require('html-to-text');
 
 require('dotenv').config();
 
@@ -74,6 +75,8 @@ function processFeedData(feedData) {
           ${removeFootnoteLinks(html)}
         </div>`);
     };
+
+    const htmlContent = beep(format(latestPost.content_html, latestPost.url, latestPost.title));
   
     const createReq = {
       method: 'POST',
@@ -81,7 +84,8 @@ function processFeedData(feedData) {
       body: {
         name: latestPost.title,
         email_config: {
-          html_content: format(latestPost.content_html, latestPost.url, latestPost.title),
+          html_content: htmlContent,
+          plain_content: htmlToText(htmlContent),
           subject: 'TEST: ' + latestPost.title,
           sender_id: process.env.SENDGRID_SENDER_ID,
           suppression_group_id: unsubGroups[latestPost.category]
