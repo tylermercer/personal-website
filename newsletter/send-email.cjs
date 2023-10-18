@@ -46,14 +46,14 @@ function processFeedData(feedData) {
     const removeFootnoteLinks = (html) => {
       const $ = cheerio.load(html);
   
-      $('.footnotes-list .footnote-item a.footnote-backref').each(function () {
+      $('section a[href^="#fnref"]').each(function () {
         const link = $(this);
         link.remove();
       });
-  
-      $('.footnote-ref a').each(function () {
+
+      $('h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, sup a').each(function () {
         const ref = $(this);
-        const text = ref.text().replace(/\D/g, '');
+        const text = ref.text();
         ref.replaceWith(text);
       });
   
@@ -61,7 +61,7 @@ function processFeedData(feedData) {
     };
   
     const format = (html, url, title) => {
-      return juice(`
+      return juice(removeFootnoteLinks(`
         <style>
         ${css}
         </style>
@@ -72,8 +72,8 @@ function processFeedData(feedData) {
             </small>
           </p>
           <h1>TEST: ${title}</h1>
-          ${removeFootnoteLinks(html)}
-        </div>`);
+          ${html}
+        </div>`));
     };
 
     const htmlContent = beep(format(latestPost.content_html, latestPost.url, latestPost.title));
