@@ -5,6 +5,7 @@ const juice = require('juice');
 const sass = require('sass');
 const cheerio = require('cheerio');
 const argv = require('minimist')(process.argv.slice(2));
+const fs = require('fs');
 
 require('dotenv').config();
 
@@ -13,12 +14,12 @@ const beep = (...f) => console.log(...f) || f[0];
 
 console.log(!argv.prod ? "Running in dev mode" : "Running in prod mode");
 
-process.exit();
+// process.exit();
 function processFeedData(feedData) {
   const latestPost = feedData.items[0];
   
   //Ensure date was within last 24 hours (treat date as UTC-7)
-  const wasPostedToday = beep(new Date(latestPost.date_published)) > beep(new Date(Date.now() - (24 + 7)*60*60*1000))
+  const wasPostedToday = beep(new Date(beep(latestPost.date_published))) > beep(new Date(Date.now() - (24 + 7)*60*60*1000))
   
   if (wasPostedToday || argv.skipDateCheck) {
     console.log(`${latestPost.title} was posted today!`);
@@ -97,7 +98,7 @@ function processFeedData(feedData) {
   
     client.request(createReq)
       .then(([response, body]) => {
-        if (IS_DEV) {
+        if (!argv.prod) {
           console.log('Status Code:', response.statusCode);
           console.log('Body:', response.body);
         }
@@ -128,5 +129,10 @@ function processFeedData(feedData) {
   }
 }
 
-// Read and process feed data from live site
-fetch("https://tylermercer.net/feeds/feed.json").then(res => res.json()).then(processFeedData);
+if (argv.prod) {
+  // Read and process feed data from live site
+  fetch("https://tylermercer.net/feeds/feed.json").then(res => res.json()).then(processFeedData);
+}
+else {
+  processFeedData(JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'dist', 'feeds', 'feed.json'), 'utf8')));
+}

@@ -17,7 +17,7 @@ export async function GET(context) {
                 url: `${context.site}/posts/${post.slug}/`,
                 title: post.data.title,
                 content_html: renderMarkdown(post.body),
-                date_published: formatDateIso(getPostDate(post)) + 'Z',
+                date_published: formatDateIso(getPostDate(post)),
                 category: getCategory(post) ?? "uncategorized"
             })),
         }));
