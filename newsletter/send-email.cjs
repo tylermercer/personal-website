@@ -34,10 +34,12 @@ function processFeedData(feedData) {
     }
   
     const unsubGroups = {
-      'uncategorized': process.env.SENDGRID_UG_UNCATEGORIZED,
-      'software': process.env.SENDGRID_UG_SOFTWARE,
-      'faith': process.env.SENDGRID_UG_FAITH,
+      'uncategorized': +process.env.SENDGRID_UG_UNCATEGORIZED,
+      'software': +process.env.SENDGRID_UG_SOFTWARE,
+      'faith': +process.env.SENDGRID_UG_FAITH,
     }
+
+    const senderId = +process.env.SENDGRID_SENDER_ID;
   
     console.log("Building email html....");
   
@@ -85,10 +87,10 @@ function processFeedData(feedData) {
         name: latestPost.title,
         email_config: {
           html_content: htmlContent,
-          plain_content: htmlToText(htmlContent),
-          subject: 'TEST: ' + latestPost.title,
-          // sender_id: process.env.SENDGRID_SENDER_ID,
-          // suppression_group_id: unsubGroups[latestPost.category]
+          generate_plain_content: true,
+          subject: latestPost.title,
+          sender_id: senderId,
+          suppression_group_id: unsubGroups[latestPost.category]
         },
         send_to: {
           segment_ids: [ segments[latestPost.category] ]
@@ -126,6 +128,7 @@ function processFeedData(feedData) {
       })
       .catch(error => {
         console.error('Error:', error);
+        console.log(error.response.body.errors);
       });
   }
   else {
