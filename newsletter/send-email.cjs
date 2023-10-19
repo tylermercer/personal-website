@@ -55,7 +55,7 @@ function processFeedData(feedData) {
 
       $('h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, sup a').each(function () {
         const ref = $(this);
-        const text = ref.text();
+        const text = ref.text().replace(/[\[\]]/g, '');
         ref.replaceWith(text);
       });
   
