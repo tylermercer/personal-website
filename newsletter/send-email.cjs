@@ -6,7 +6,6 @@ const sass = require('sass');
 const cheerio = require('cheerio');
 const argv = require('minimist')(process.argv.slice(2));
 const fs = require('fs');
-const { htmlToText } = require('html-to-text');
 
 require('dotenv').config();
 
