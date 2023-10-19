@@ -119,7 +119,7 @@ function processFeedData(feedData) {
         if (argv.prod || argv.send) {
           console.log("Sending Single Send....");
           console.log(scheduleReq)
-          return client.request(scheduleReq);
+          return client.request(scheduleReq).then(() => console.log("Sent!"));
         }
         else {
           console.log('Request to schedule:', scheduleReq);
