@@ -12,9 +12,20 @@ require('dotenv').config();
 
 const beep = (...f) => console.log(...f) || f[0];
 
+if (!(process.env.SENDGRID_API_KEY &&
+  process.env.SENDGRID_SEGMENT_UNCATEGORIZED &&
+  process.env.SENDGRID_SEGMENT_SOFTWARE &&
+  process.env.SENDGRID_SEGMENT_FAITH &&
+  process.env.SENDGRID_UG_UNCATEGORIZED &&
+  process.env.SENDGRID_UG_SOFTWARE &&
+  process.env.SENDGRID_UG_FAITH &&
+  process.env.SENDGRID_SENDER_ID)) {
+  console.error("Missing environment variables!");
+  process.exit(1);
+}
+
 console.log(!argv.prod ? "Running in dev mode" : "Running in prod mode");
 
-// process.exit();
 function processFeedData(feedData) {
   const latestPost = feedData.items[0];
   
