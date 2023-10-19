@@ -2,6 +2,7 @@
 
 /* Article content styles */
 .article-content {
+    font-size: 1.1em;
     font-family: Charter, 'Bitstream Charter', 'Sitka Text', Cambria, serif;
     padding: 20px;
     line-height: 1.5;
@@ -9,18 +10,36 @@
     margin-left: auto;
     margin-right: auto;
     max-width: 60rem;
+    p {
+        margin-top: 0;
+        margin-bottom: 12px;
+    }
+    a {
+        color: $color-primary-light-11;
+        text-decoration: none;
+    }
+    blockquote {
+        border-left: 2px solid $color-primary-light-9;
+        margin-left: none;
+        line-height: 1.6;
+        margin: 1rem 0;
+        background: $color-gray-light-3;
+        padding: 1rem;
+        margin-trim: block;
+        code {
+            border-color: $color-primary-light-8;
+        }
+        //Fallbacks for margin-trim
+        p {
+            margin-bottom: 0px;
+        }
+        p + p {
+            margin-top: 12px;
+        }
+    }
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: Inter, Roboto, 'Helvetica Neue', 'Arial Nova', 'Nimbus Sans', Arial, sans-serif;
-}
-
-.article-content p {
-    margin-bottom: 10px;
-}
-
-.article-content a {
-    color: $color-primary-light-11;
-    text-decoration: none;
 }
 
 /* Footnote styles */
@@ -31,7 +50,7 @@ h1, h2, h3, h4, h5, h6 {
 .footnotes-sep {
     margin-top: 20px;
     border: none;
-    border-top: 1px solid #ddd;
+    border-top: 1px solid $color-gray-light-5;
 }
 
 .footnotes-list {
@@ -50,8 +69,4 @@ h1, h2, h3, h4, h5, h6 {
 .footnote-backref {
     color: $color-primary-light-11;
     text-decoration: none;
-}
-
-.footnote-backref:before {
-    content: "↩︎ ";
 }
