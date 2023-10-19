@@ -87,7 +87,7 @@ function processFeedData(feedData) {
         email_config: {
           html_content: htmlContent,
           generate_plain_content: true,
-          subject: latestPost.title,
+          subject: '[New Post] ' + latestPost.title,
           sender_id: senderId,
           suppression_group_id: unsubGroups[latestPost.category]
         },
