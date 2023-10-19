@@ -73,7 +73,7 @@ function processFeedData(feedData) {
               <a href="${url}">View this article online</a>
             </small>
           </p>
-          <h1>TEST: ${title}</h1>
+          <h1>${title}</h1>
           ${html}
         </div>`));
     };
