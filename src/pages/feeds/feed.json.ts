@@ -6,8 +6,8 @@ export async function GET(context) {
     const blog = sortByDate(filterOutDraftsIfProduction(await getCollection('posts')));
 
     const items = (await Promise.all(blog.map(async (post) => ({
-        id: `${context.site}/posts/${post.slug}/`,
-        url: `${context.site}/posts/${post.slug}/`,
+        id: `${context.site}posts/${post.slug}/`,
+        url: `${context.site}posts/${post.slug}/`,
         title: post.data.title,
         content_html: renderMarkdown(post.body),
         date_published: formatDateIso(getPostDate(post)),
