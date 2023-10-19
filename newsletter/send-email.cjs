@@ -78,7 +78,7 @@ function processFeedData(feedData) {
         </div>`));
     };
 
-    const htmlContent = beep(format(latestPost.content_html, latestPost.url, latestPost.title));
+    const htmlContent = format(latestPost.content_html, latestPost.url, latestPost.title);
   
     const createReq = {
       method: 'POST',
