@@ -99,8 +99,26 @@ jobs:
         id: checkout_repo
         uses: actions/checkout@v3
 
-      - name: Send email if needed
+      - name: Create .env with Github Secrets, Send email if needed
         id: send_email
         run: |
+          touch .env
+          echo SENDGRID_API_KEY=$SENDGRID_API_KEY >> .env
+          echo SENDGRID_SEGMENT_UNCATEGORIZED=$SENDGRID_SEGMENT_UNCATEGORIZED >> .env
+          echo SENDGRID_SEGMENT_SOFTWARE=$SENDGRID_SEGMENT_SOFTWARE >> .env
+          echo SENDGRID_SEGMENT_FAITH=$SENDGRID_SEGMENT_FAITH >> .env
+          echo SENDGRID_UG_UNCATEGORIZED=$SENDGRID_UG_UNCATEGORIZED >> .env
+          echo SENDGRID_UG_SOFTWARE=$SENDGRID_UG_SOFTWARE >> .env
+          echo SENDGRID_UG_FAITH=$SENDGRID_UG_FAITH >> .env
+          echo SENDGRID_SENDER_ID=$SENDGRID_SENDER_ID >> .env
           npm install
           npm run send-email
+        env:
+          SENDGRID_API_KEY: ${{ secrets.SENDGRID_API_KEY }}
+          SENDGRID_SEGMENT_UNCATEGORIZED: ${{ secrets.SENDGRID_SEGMENT_UNCATEGORIZED }}
+          SENDGRID_SEGMENT_SOFTWARE: ${{ secrets.SENDGRID_SEGMENT_SOFTWARE }}
+          SENDGRID_SEGMENT_FAITH: ${{ secrets.SENDGRID_SEGMENT_FAITH }}
+          SENDGRID_UG_UNCATEGORIZED: ${{ secrets.SENDGRID_UG_UNCATEGORIZED }}
+          SENDGRID_UG_SOFTWARE: ${{ secrets.SENDGRID_UG_SOFTWARE }}
+          SENDGRID_UG_FAITH: ${{ secrets.SENDGRID_UG_FAITH }}
+          SENDGRID_SENDER_ID: ${{ secrets.SENDGRID_SENDER_ID }}
