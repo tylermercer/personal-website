@@ -86,12 +86,6 @@ jobs:
             | **Last commit:**        | `${{ steps.extract_vars.outputs.sha_short }}` |
             | **Deployed at**:        | `${{ steps.extract_vars.outputs.datetime }}` |
 
-      - name: Send email if new post
-        id: send_email
-        if: github.event_name == 'schedule'
-        run: |
-          npm run send-email
-  
   send-email:
     runs-on: ubuntu-latest
     steps:
@@ -100,6 +94,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Create .env with Github Secrets, Send email if needed
+        if: github.event_name == 'schedule'
         id: send_email
         run: |
           touch .env
