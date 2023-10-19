@@ -19,7 +19,7 @@ function processFeedData(feedData) {
   const latestPost = feedData.items[0];
   
   //Ensure date was within last 24 hours (treat date as UTC-7)
-  const wasPostedToday = beep(new Date(beep(latestPost.date_published))) > beep(new Date(Date.now() - (24 + 7)*60*60*1000))
+  const wasPostedToday = new Date(latestPost.date_published) > new Date(Date.now() - (24 + 7)*60*60*1000)
   
   if (wasPostedToday || argv.skipDateCheck) {
     console.log(`${latestPost.title} was posted today!`);
