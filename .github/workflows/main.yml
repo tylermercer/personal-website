@@ -87,6 +87,7 @@ jobs:
             | **Deployed at**:        | `${{ steps.extract_vars.outputs.datetime }}` |
 
   send-email:
+    needs: build
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
