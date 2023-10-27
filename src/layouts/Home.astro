@@ -2,6 +2,7 @@
 import { type CollectionEntry } from "astro:content";
 import Layout from "./Base.astro";
 import PostList from "../components/PostList.astro";
+import EmailForm from "../components/EmailForm.astro";
 
 export type Props = {
 	title: string;
@@ -43,6 +44,17 @@ const { title, posts, categories, description } = Astro.props;
 				}
 			</div>
 		</div>
+	</div>
+	<hr>
+	<div class="with-sidebar guttered email-form-container">
+		<div>
+			<h2>Get new posts in your inbox</h2>
+			<p class="email-blurb">
+				Typically 1 or 2 posts a month. Never more than one post per day.
+			</p>
+			<small class="email-disclaimer">No spam. Unsubscribe at any time.</small>
+		</div>
+		<EmailForm class="sidebar email-form"/>
 	</div>
 </Layout>
 <style lang="scss">
@@ -88,5 +100,17 @@ const { title, posts, categories, description } = Astro.props;
 			flex-grow: 999;
 			min-inline-size: 50%;
 		}
+	}
+	.email-form-container {
+		margin-bottom: 5rem;
+	}
+	.email-form {
+		margin-top: 1rem;
+	}
+	.email-blurb {
+		margin-bottom: 0.2em;
+	}
+	.email-disclaimer {
+		color: var(--color-gray-11);
 	}
 </style>
