@@ -26,17 +26,20 @@ const { class: className, ...rest } = Astro.props;
 			</div>
 		</div>
 		<div class="controls">
-			<button data-element="submit">Subscribe</button>
+			<button data-element="submit" type="submit">Subscribe</button>
 			<details>
 				<summary>Preferences</summary>
 				<label>
-					<input type="checkbox" name="category_faith" checked />Faith Posts
+					<input type="checkbox" name="category_faith" value="yes" checked />
+					Faith Posts
 				</label>
 				<label>
-					<input type="checkbox" name="category_faith" checked />Software Posts
+					<input type="checkbox" name="category_software" value="yes" checked />
+					Software Posts
 				</label>
 				<label>
-					<input type="checkbox" name="category_faith" checked />Uncategorized
+					<input type="checkbox" name="category_uncategorized" value="yes" checked />
+					Uncategorized
 					Posts
 				</label>
 			</details>
@@ -61,15 +64,11 @@ const { class: className, ...rest } = Astro.props;
 				return;
 			}
 
+			let formData = new FormData(form);
+			
+			console.log(Array.from(formData.entries()));
+			
 			input.disabled = true;
-			let formData = new FormData();
-
-			formData.set("email_address", input.value);
-
-			for (var pair of formData.entries()) {
-				console.log(pair[0] + ", " + pair[1]);
-			}
-
 			var res = await fetch(form.action, {
 				method: form.method,
 				body: formData,
@@ -125,11 +124,6 @@ const { class: className, ...rest } = Astro.props;
 		button:focus {
 			filter: brightness(0.95) contrast(1.1);
 		}
-		button:focus-visible,
-		input:focus-visible {
-			outline: white solid 2px;
-			outline-offset: 2px;
-		}
 		.disclaimer {
 			font-size: 0.9em;
 			text-align: center;
@@ -152,7 +146,6 @@ const { class: className, ...rest } = Astro.props;
 			list-style: none;
 			margin: 0.5rem auto;
 			padding: 12px;
-			text-align: center;
 			width: 100%;
 		}
 		.controls {
