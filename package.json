@@ -23,6 +23,7 @@
     "@types/sanitize-html": "^2.9.1",
     "astro": "^3.0.13",
     "cheerio": "^1.0.0-rc.12",
+    "del-cli": "^5.1.0",
     "dotenv": "^16.3.1",
     "html-to-text": "^9.0.5",
     "juice": "^9.1.0",
