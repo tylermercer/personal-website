@@ -18,9 +18,6 @@ const { class: className, ...rest } = Astro.props;
 			aria-label="Email Address"
 		/>
 		<div role="status">
-			<div class="msg msg-success" hidden>Success! Thanks for signing up.</div>
-		</div>
-		<div role="status">
 			<div class="msg msg-error" hidden>
 				Something went wrong. Please try again.
 			</div>
@@ -45,6 +42,9 @@ const { class: className, ...rest } = Astro.props;
 			</details>
 		</div>
 	</form>
+        <div role="status">
+	        <div class="msg msg-success" hidden>Success! Thanks for signing up.</div>
+	</div>
 </div>
 
 <script>
