@@ -1,4 +1,4 @@
-export async function onRequestGet({ request, env }) {
+export async function onRequestPost({ request, env }) {
   try {
     let data = await request.formData();
     let fromJs = request.headers['X-From-JS']
@@ -11,7 +11,7 @@ export async function onRequestGet({ request, env }) {
   } catch (err) {
     return new Response('Error parsing JSON content', { status: 400 });
   }
-  const sendgridApiKey = env.SENDGRID_API_KEY; // Replace with your SendGrid API key
+  const sendgridApiKey = env.SENDGRID_API_KEY;
   const url = 'https://api.sendgrid.com/v3/marketing/contacts';
 
   const email = 'russell.mercer@missionary.org';
