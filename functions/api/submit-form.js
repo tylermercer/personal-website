@@ -1,4 +1,16 @@
 export async function onRequestGet({ request, env }) {
+  try {
+    let data = await request.formData();
+    let fromJs = request.headers['X-From-JS']
+    let pretty = JSON.stringify([...data], null, 2);
+    return new Response({ pretty, fromJS }, {
+      headers: {
+        'Content-Type': 'application/json;charset=utf-8',
+      },
+    });
+  } catch (err) {
+    return new Response('Error parsing JSON content', { status: 400 });
+  }
   const sendgridApiKey = env.SENDGRID_API_KEY; // Replace with your SendGrid API key
   const url = 'https://api.sendgrid.com/v3/marketing/contacts';
 
