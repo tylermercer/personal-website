@@ -1,13 +1,17 @@
 export async function onRequestGet(context) {
-  const sendgridApiKey = 'YOUR_API_KEY_HERE'; // Replace with your SendGrid API key
+  const sendgridApiKey = process.env.SENDGRID_UG_UNCATEGORIZED; // Replace with your SendGrid API key
   const url = 'https://api.sendgrid.com/v3/marketing/contacts';
+
+  const email = 'russell.mercer@missionary.org';
+
+  const custom_fields = { category_faith: 'yes', category_software: 'no', category_uncategorized: 'no' };
 
   const payload = {
     contacts: [
-      // {
-      //   email: 'foobar@example.com',
-      //   custom_fields: { w1: 'coffee', w33: '42', e2: 'blue' }
-      // }
+      {
+        email,
+        custom_fields
+      }
     ]
   };
 
@@ -23,10 +27,38 @@ export async function onRequestGet(context) {
   };
 
   // Send the Fetch request to SendGrid
-  const response = await fetch(url, fetchOptions).then(r => r.text());
+  const response = await fetch(url, fetchOptions).then(r => r.json());
+
+  
+  // Send the email to the added contact
+  const emailPayload = {
+    personalizations: [
+      {
+        to: [
+          { email }
+        ]
+      }
+    ],
+    from: { email: 'hello@tylermercer.net', name: 'Tyler Mercer' },
+    template_id: process.env.SENDGRID_WELCOME_TEMPLATE
+  };
+
+  const emailHeaders = {
+    'Authorization': `Bearer ${sendgridApiKey}`,
+    'Content-Type': 'application/json',
+  };
+
+  const emailOptions = {
+    method: 'POST',
+    headers: emailHeaders,
+    body: JSON.stringify(emailPayload),
+  };
+
+  // // Send the Fetch request to SendGrid to send the email
+  // const emailResponse = await fetch(sendgridEmailUrl, emailOptions);
 
   // Return the response from SendGrid
-  return new Response(response, {
+  return new Response(JSON.stringify({response, envTest: process.env.SENDGRID_UG_UNCATEGORIZED }), {
     headers: {
       "Content-Type": "application/json"
     }
