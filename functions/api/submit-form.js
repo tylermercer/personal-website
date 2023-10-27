@@ -1,5 +1,5 @@
-export async function onRequestGet(context) {
-  const sendgridApiKey = process.env.SENDGRID_UG_UNCATEGORIZED; // Replace with your SendGrid API key
+export async function onRequestGet({ request, env }) {
+  const sendgridApiKey = env.SENDGRID_API_KEY; // Replace with your SendGrid API key
   const url = 'https://api.sendgrid.com/v3/marketing/contacts';
 
   const email = 'russell.mercer@missionary.org';
@@ -58,7 +58,7 @@ export async function onRequestGet(context) {
   // const emailResponse = await fetch(sendgridEmailUrl, emailOptions);
 
   // Return the response from SendGrid
-  return new Response(JSON.stringify({response, envTest: process.env.SENDGRID_UG_UNCATEGORIZED }), {
+  return new Response(JSON.stringify({response, envTest: env.SENDGRID_UG_UNCATEGORIZED }), {
     headers: {
       "Content-Type": "application/json"
     }
