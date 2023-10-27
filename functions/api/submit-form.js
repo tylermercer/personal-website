@@ -2,7 +2,7 @@ export async function onRequestPost({ request, env }) {
   let data = await request.formData();
   let fromJs = request.headers['X-From-JS']
   let pretty = JSON.stringify([...data], null, 2);
-  return new Response({ pretty, fromJS }, {
+  return new Response({ pretty, fromJs }, {
     headers: {
       'Content-Type': 'application/json;charset=utf-8',
     },
