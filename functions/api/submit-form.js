@@ -40,7 +40,7 @@ export async function onRequestGet({ request, env }) {
       }
     ],
     from: { email: 'hello@tylermercer.net', name: 'Tyler Mercer' },
-    template_id: process.env.SENDGRID_WELCOME_TEMPLATE
+    template_id: env.SENDGRID_WELCOME_TEMPLATE
   };
 
   const emailHeaders = {
