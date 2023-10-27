@@ -1,6 +1,7 @@
 export async function onRequestPost({ request, env }) {
-  let data = await request.formData();
-  let fromJs = request.headers['X-From-JS']
+  let formData = await request.formData();
+  let data = Array.from(formData.entries());
+  let fromJs = !!request.headers.get('X-From-JS');
   return new Response(JSON.stringify({ data, fromJs }), {
     headers: {
       'Content-Type': 'application/json;charset=utf-8',
