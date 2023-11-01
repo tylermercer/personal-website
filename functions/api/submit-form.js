@@ -8,7 +8,7 @@ export async function onRequestPost({ request, env }) {
   let formData = await request.formData();
   let fromJs = !!request.headers.get('X-From-JS');
 
-  const defaults = { category_faith: 'yes', category_software: 'no', category_uncategorized: 'no' };
+  const defaults = { category_faith: 'no', category_software: 'no', category_uncategorized: 'no' };
 
   const email = formData.get('email_address');
 
