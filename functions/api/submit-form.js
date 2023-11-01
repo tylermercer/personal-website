@@ -73,7 +73,13 @@ export async function onRequestPost({ request, env }) {
   console.log(addContactResponse);
 
   if (!addContactResponse.ok) {
-    console.log("Error adding new contact", addContactResponse.body);
+    console.error("Error adding new contact", addContactResponse.body);
+    return new Response(JSON.stringify({ error: 'Something went wrong. Please try again.' }), {
+      status: 500,
+      headers: {
+        'Content-Type': 'application/json;charset=utf-8',
+      },
+    });
   }
 
   // Send the email to the added contact
@@ -102,7 +108,13 @@ export async function onRequestPost({ request, env }) {
     }).then(async r => ({ ok: r.ok, body: await r.json() }));
 
     if (!sendEmailResponse.ok) {
-      console.log("Error sending email to new contact", sendEmailResponse.body);
+      console.error("Error sending email to new contact", sendEmailResponse.body);
+      return new Response(JSON.stringify({ error: 'Something went wrong. Please try again.' }), {
+        status: 500,
+        headers: {
+          'Content-Type': 'application/json;charset=utf-8',
+        },
+      });
     }
 
   // Return the response from SendGrid
