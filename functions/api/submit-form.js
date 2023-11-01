@@ -68,9 +68,13 @@ export async function onRequestPost({ request, env }) {
           }
         ]
       }),
-    }).then(r => r.json());
+    }).then(async r => ({ ok: r.ok, body: await r.json() }));
 
   console.log(addContactResponse);
+
+  if (!addContactResponse.ok) {
+    console.log("Error adding new contact", addContactResponse.body);
+  }
 
   // Send the email to the added contact
   const sendEmailResponse = await fetch(
@@ -95,10 +99,14 @@ export async function onRequestPost({ request, env }) {
         from: { email: 'hello@tylermercer.net', name: 'Tyler Mercer' },
         template_id: env.SENDGRID_WELCOME_TEMPLATE
       }),
-    });
+    }).then(async r => ({ ok: r.ok, body: await r.json() }));
+
+    if (!sendEmailResponse.ok) {
+      console.log("Error sending email to new contact", sendEmailResponse.body);
+    }
 
   // Return the response from SendGrid
-  return new Response(JSON.stringify({ addContactResponse, sendEmailResponse, envTest: env.SENDGRID_UG_UNCATEGORIZED }), {
+  return new Response(JSON.stringify({ addContactResponse, sendEmailResponse }), {
     headers: {
       "Content-Type": "application/json"
     }
