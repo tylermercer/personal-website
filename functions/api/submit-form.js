@@ -88,6 +88,10 @@ export async function onRequestPost({ request, env }) {
 
   console.log("Contact added");
 
+  const categoriesString = formatter.format(categoryEntries.map(e => categoryLabels[e[0]]));
+
+  console.log(categoriesString);
+
   // Send the email to the added contact
   const sendEmailResponse = await fetch(
     "https://api.sendgrid.com/v3/mail/send",
@@ -104,7 +108,7 @@ export async function onRequestPost({ request, env }) {
               { email }
             ],
             dynamic_template_data: {
-              categories: formatter.format(categoryEntries.map(e => categoryLabels[e[0]]))
+              categories: categoriesString
             }
           }
         ],
