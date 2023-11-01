@@ -28,22 +28,26 @@ const { class: className, ...rest } = Astro.props;
 				<summary>Preferences</summary>
 				<label>
 					<input type="checkbox" name="category_faith" value="yes" checked />
-					Faith Posts
+					 Faith Posts
 				</label>
 				<label>
 					<input type="checkbox" name="category_software" value="yes" checked />
-					Software Posts
+					 Software Posts
 				</label>
 				<label>
-					<input type="checkbox" name="category_uncategorized" value="yes" checked />
-					Uncategorized
-					Posts
+					<input
+						type="checkbox"
+						name="category_uncategorized"
+						value="yes"
+						checked
+					/>
+					 Uncategorized Posts
 				</label>
 			</details>
 		</div>
 	</form>
-        <div role="status">
-	        <div class="msg msg-success" hidden>Success! Thanks for signing up.</div>
+	<div role="status">
+		<div class="msg msg-success" hidden>Success! Thanks for signing up.</div>
 	</div>
 </div>
 
