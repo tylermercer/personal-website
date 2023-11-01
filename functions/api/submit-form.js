@@ -1,7 +1,29 @@
 export async function onRequestPost({ request, env }) {
   let formData = await request.formData();
-  let data = Array.from(formData.entries());
   let fromJs = !!request.headers.get('X-From-JS');
+
+  const defaults = { category_faith: 'yes', category_software: 'no', category_uncategorized: 'no' };
+
+  const email = formData.get('email_address');
+
+  const categoryEntries =
+    Array.from(formData.entries())
+      .filter(e => e[0].startsWith('category_'));
+
+  if (!categoryEntries.some(e => e[1] === 'yes')) {
+    return new Response(JSON.stringify({ error: 'Must subscribe to at least one category' }), {
+      status: 400,
+      headers: {
+        'Content-Type': 'application/json;charset=utf-8',
+      },
+    })
+  }
+
+  const categories = {
+    ...defaults,
+    ...Object.fromEntries(categoryEntries)
+  }
+
   return new Response(JSON.stringify({ data, fromJs }), {
     headers: {
       'Content-Type': 'application/json;charset=utf-8',
