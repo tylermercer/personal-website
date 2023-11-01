@@ -1,3 +1,9 @@
+const validateEmail = (email) => {
+  return email.match(
+    /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
+  );
+};
+
 export async function onRequestPost({ request, env }) {
   let formData = await request.formData();
   let fromJs = !!request.headers.get('X-From-JS');
@@ -5,6 +11,15 @@ export async function onRequestPost({ request, env }) {
   const defaults = { category_faith: 'yes', category_software: 'no', category_uncategorized: 'no' };
 
   const email = formData.get('email_address');
+
+  if (!validateEmail(email)) {
+    return new Response(JSON.stringify({ error: 'Invalid email address' }), {
+      status: 400,
+      headers: {
+        'Content-Type': 'application/json;charset=utf-8',
+      },
+    });
+  }
 
   const categoryEntries =
     Array.from(formData.entries())
