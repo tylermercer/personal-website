@@ -54,28 +54,35 @@ const { class: className, ...rest } = Astro.props;
 <script>
 	const validateEmail = (email: string) => {
 		return email.match(
-			/^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
+			/^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/,
 		);
 	};
 
 	document.querySelectorAll(".subscribe-form").forEach((container) => {
 		const form: HTMLFormElement = container.querySelector("form")!;
-		const input: HTMLInputElement = container.querySelector("input[type=email]")!;
+		const input: HTMLInputElement =
+			container.querySelector("input[type=email]")!;
 		const success: HTMLDivElement = container.querySelector(".msg-success")!;
 		const error: HTMLDivElement = container.querySelector(".msg-error")!;
+		const button: HTMLButtonElement = container.querySelector(
+			"button[type=submit]",
+		)!;
 
 		form.addEventListener("submit", async (e: SubmitEvent) => {
 			e.preventDefault();
 			error.hidden = true;
+			button.disabled = true;
 
 			if (!input.value) {
 				error.hidden = false;
+				button.disabled = false;
 				error.innerText = "Please enter your email address";
 				return;
 			}
 
 			if (!validateEmail(input.value)) {
 				error.hidden = false;
+				button.disabled = false;
 				error.innerText = "Please enter a valid email address";
 				return;
 			}
@@ -88,6 +95,7 @@ const { class: className, ...rest } = Astro.props;
 
 			if (!categoryEntries.some((e) => e[1] === "yes")) {
 				error.hidden = false;
+				button.disabled = false;
 				error.innerText = "Must subscribe to at least one category";
 				return;
 			}
@@ -106,8 +114,10 @@ const { class: className, ...rest } = Astro.props;
 			} else {
 				const data = await res.json();
 				input.disabled = false;
-				error.innerText = data.error || "Something went wrong. Please try again.";
+				error.innerText =
+					data.error || "Something went wrong. Please try again.";
 				error.hidden = false;
+				button.disabled = false;
 			}
 		});
 	});
@@ -151,6 +161,9 @@ const { class: className, ...rest } = Astro.props;
 		button:hover,
 		button:focus {
 			filter: brightness(0.95) contrast(1.1);
+		}
+		button:disabled {
+			opacity: 0.8;
 		}
 		.disclaimer {
 			font-size: 0.9em;
