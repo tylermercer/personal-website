@@ -12,6 +12,7 @@ const categoryLabels = {
 
 
 export async function onRequestPost({ request, env }) {
+  console.log("Called");
   let formData = await request.formData();
   let fromJs = !!request.headers.get('X-From-JS');
 
@@ -43,6 +44,7 @@ export async function onRequestPost({ request, env }) {
       },
     });
   }
+  console.log("Validated");
 
   const custom_fields = {
     ...defaults,
@@ -70,6 +72,8 @@ export async function onRequestPost({ request, env }) {
       }),
     }).then(async r => ({ ok: r.ok, body: await r.json() }));
 
+  console.log("Contact added");
+
   console.log(addContactResponse);
 
   if (!addContactResponse.ok) {
@@ -81,6 +85,8 @@ export async function onRequestPost({ request, env }) {
       },
     });
   }
+
+  console.log("Contact added");
 
   // Send the email to the added contact
   const sendEmailResponse = await fetch(
@@ -107,15 +113,19 @@ export async function onRequestPost({ request, env }) {
       }),
     }).then(async r => ({ ok: r.ok, body: await r.json() }));
 
-    if (!sendEmailResponse.ok) {
-      console.error("Error sending email to new contact", sendEmailResponse.body);
-      return new Response(JSON.stringify({ error: 'Something went wrong. Please try again.', data: sendEmailResponse }), {
-        status: 500,
-        headers: {
-          'Content-Type': 'application/json;charset=utf-8',
-        },
-      });
-    }
+  console.log("Email sent");
+
+  if (!sendEmailResponse.ok) {
+    console.error("Error sending email to new contact", sendEmailResponse.body);
+    return new Response(JSON.stringify({ error: 'Something went wrong. Please try again.', data: sendEmailResponse }), {
+      status: 500,
+      headers: {
+        'Content-Type': 'application/json;charset=utf-8',
+      },
+    });
+  }
+
+  console.log("Sending response");
 
   // Return the response from SendGrid
   return new Response(JSON.stringify({ addContactResponse, sendEmailResponse }), {
