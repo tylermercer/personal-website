@@ -4,9 +4,18 @@ const validateEmail = (email) => {
   );
 };
 
+const categoryLabels = {
+  category_faith: 'Faith',
+  category_software: 'Software',
+  category_uncategorized: 'Uncategorized'
+};
+
+
 export async function onRequestPost({ request, env }) {
   let formData = await request.formData();
   let fromJs = !!request.headers.get('X-From-JS');
+
+  const formatter = new Intl.ListFormat('en', { style: 'long', type: 'conjunction' });
 
   const defaults = { category_faith: 'no', category_software: 'no', category_uncategorized: 'no' };
 
@@ -25,85 +34,71 @@ export async function onRequestPost({ request, env }) {
     Array.from(formData.entries())
       .filter(e => e[0].startsWith('category_'));
 
+
   if (!categoryEntries.some(e => e[1] === 'yes')) {
     return new Response(JSON.stringify({ error: 'Must subscribe to at least one category' }), {
       status: 400,
       headers: {
         'Content-Type': 'application/json;charset=utf-8',
       },
-    })
+    });
   }
 
-  const categories = {
+  const custom_fields = {
     ...defaults,
     ...Object.fromEntries(categoryEntries)
   }
 
-  return new Response(JSON.stringify({ data, fromJs }), {
-    headers: {
-      'Content-Type': 'application/json;charset=utf-8',
-    },
-  });
   const sendgridApiKey = env.SENDGRID_API_KEY;
-  const url = 'https://api.sendgrid.com/v3/marketing/contacts';
-
-  const email = 'russell.mercer@missionary.org';
-
-  const custom_fields = { category_faith: 'yes', category_software: 'no', category_uncategorized: 'no' };
-
-  const payload = {
-    contacts: [
-      {
-        email,
-        custom_fields
-      }
-    ]
-  };
-
-  const headers = {
-    'Authorization': `Bearer ${sendgridApiKey}`,
-    'Content-Type': 'application/json',
-  };
-
-  const fetchOptions = {
-    method: 'PUT',
-    headers,
-    body: JSON.stringify(payload),
-  };
 
   // Send the Fetch request to SendGrid
-  const response = await fetch(url, fetchOptions).then(r => r.json());
-
-  
-  // Send the email to the added contact
-  const emailPayload = {
-    personalizations: [
-      {
-        to: [
-          { email }
+  const addContactResponse = await fetch(
+    "https://api.sendgrid.com/v3/marketing/contacts",
+    {
+      method: 'PUT',
+      headers: {
+        'Authorization': `Bearer ${sendgridApiKey}`,
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        contacts: [
+          {
+            email,
+            custom_fields
+          }
         ]
-      }
-    ],
-    from: { email: 'hello@tylermercer.net', name: 'Tyler Mercer' },
-    template_id: env.SENDGRID_WELCOME_TEMPLATE
-  };
+      }),
+    }).then(r => r.json());
 
-  const emailHeaders = {
-    'Authorization': `Bearer ${sendgridApiKey}`,
-    'Content-Type': 'application/json',
-  };
+  console.log(addContactResponse);
 
-  const emailOptions = {
-    method: 'POST',
-    headers: emailHeaders,
-    body: JSON.stringify(emailPayload),
-  };
-
-  // // Send the Fetch request to SendGrid to send the email
-  // const emailResponse = await fetch(sendgridEmailUrl, emailOptions);
+  // Send the email to the added contact
+  const sendEmailResponse = await fetch(
+    "https://api.sendgrid.com/v3/mail/send",
+    {
+      method: 'POST',
+      headers: {
+        'Authorization': `Bearer ${sendgridApiKey}`,
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        personalizations: [
+          {
+            to: [
+              { email }
+            ],
+            dynamic_template_data: {
+              categories: formatter.format(categoryEntries.map(e => categoryLabels[e[0]]))
+            }
+          }
+        ],
+        from: { email: 'hello@tylermercer.net', name: 'Tyler Mercer' },
+        template_id: env.SENDGRID_WELCOME_TEMPLATE
+      }),
+    });
 
   // Return the response from SendGrid
-  return new Response(JSON.stringify({response, envTest: env.SENDGRID_UG_UNCATEGORIZED }), {
+  return new Response(JSON.stringify({ addContactResponse, sendEmailResponse, envTest: env.SENDGRID_UG_UNCATEGORIZED }), {
     headers: {
       "Content-Type": "application/json"
     }
