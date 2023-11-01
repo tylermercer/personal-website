@@ -103,7 +103,7 @@ export async function onRequestPost({ request, env }) {
           }
         ],
         from: { email: 'hello@tylermercer.net', name: 'Tyler Mercer' },
-        template_id: env.SENDGRID_WELCOME_TEMPLATE
+        template_id: env.SENDGRID_WELCOME_TEMPLATE_ID
       }),
     }).then(async r => ({ ok: r.ok, body: await r.json() }));
 
