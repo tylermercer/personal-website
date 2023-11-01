@@ -65,23 +65,32 @@ const { class: className, ...rest } = Astro.props;
 			}
 
 			let formData = new FormData(form);
-			
-			console.log(Array.from(formData.entries()));
-			
+
+			const categoryEntries = Array.from(formData.entries()).filter((e) =>
+				e[0].startsWith("category_"),
+			);
+
+			if (!categoryEntries.some((e) => e[1] === "yes")) {
+				error.hidden = false;
+				error.innerText = "Must subscribe to at least one category";
+				return;
+			}
+
 			input.disabled = true;
 			var res = await fetch(form.action, {
 				method: form.method,
 				body: formData,
 				headers: {
-					'X-From-JS': 'true'
-				}
+					"X-From-JS": "true",
+				},
 			});
 			if (res.ok) {
 				form.hidden = true;
 				success.hidden = false;
 			} else {
+				const data = await res.json();
 				input.disabled = false;
-				error.innerText = "Something went wrong. Please try again.";
+				error.innerText = data.error || "Something went wrong. Please try again.";
 				error.hidden = false;
 			}
 		});
