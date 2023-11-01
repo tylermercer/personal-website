@@ -4,10 +4,10 @@ export default
         baseUrl: "https://tylermercer.net",
         twitter: "tylermercerdev",
         language: "en",
-        description: "Web developer, behavioral design enthusiast, and follower of Jesus",
+        description: "Software engineer, UI design enthusiast, and follower of Jesus",
         author: {
             name: "Tyler Mercer",
-            url: "https://tylermercer.net/about/"
+            url: "https://tylermercer.net/"
         },
         builtAt: new Date().toLocaleString("en-US", {
             dateStyle: "full",
