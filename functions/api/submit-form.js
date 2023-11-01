@@ -7,7 +7,7 @@ const validateEmail = (email) => {
 const categoryLabels = {
   category_faith: 'Faith',
   category_software: 'Software',
-  category_uncategorized: 'Uncategorized'
+  category_uncategorized: 'Other'
 };
 
 
