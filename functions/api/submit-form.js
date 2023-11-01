@@ -74,7 +74,7 @@ export async function onRequestPost({ request, env }) {
 
   if (!addContactResponse.ok) {
     console.error("Error adding new contact", addContactResponse.body);
-    return new Response(JSON.stringify({ error: 'Something went wrong. Please try again.' }), {
+    return new Response(JSON.stringify({ error: 'Something went wrong. Please try again.', data: addContactResponse }), {
       status: 500,
       headers: {
         'Content-Type': 'application/json;charset=utf-8',
@@ -109,7 +109,7 @@ export async function onRequestPost({ request, env }) {
 
     if (!sendEmailResponse.ok) {
       console.error("Error sending email to new contact", sendEmailResponse.body);
-      return new Response(JSON.stringify({ error: 'Something went wrong. Please try again.' }), {
+      return new Response(JSON.stringify({ error: 'Something went wrong. Please try again.', data: sendEmailResponse }), {
         status: 500,
         headers: {
           'Content-Type': 'application/json;charset=utf-8',
