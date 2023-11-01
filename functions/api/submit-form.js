@@ -90,7 +90,7 @@ export async function onRequestPost({ request, env }) {
 
   console.log("Contact added");
 
-  const categoriesString = formatter.format(categoryEntries.map(e => categoryLabels[e[0]]));
+  const categoriesString = categoryEntries.some(e => e[1] === 'no') ? formatter.format(categoryEntries.map(e => categoryLabels[e[0]])) : '';
 
   console.log(categoriesString);
 
