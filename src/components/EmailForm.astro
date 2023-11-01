@@ -72,6 +72,7 @@ const { class: className, ...rest } = Astro.props;
 			e.preventDefault();
 			error.hidden = true;
 			button.disabled = true;
+			button.innerText = "Loading";
 
 			if (!input.value) {
 				error.hidden = false;
@@ -83,6 +84,7 @@ const { class: className, ...rest } = Astro.props;
 			if (!validateEmail(input.value)) {
 				error.hidden = false;
 				button.disabled = false;
+				button.innerText = "Subscribe";
 				error.innerText = "Please enter a valid email address";
 				return;
 			}
@@ -96,6 +98,7 @@ const { class: className, ...rest } = Astro.props;
 			if (!categoryEntries.some((e) => e[1] === "yes")) {
 				error.hidden = false;
 				button.disabled = false;
+				button.innerText = "Subscribe";
 				error.innerText = "Must subscribe to at least one category";
 				return;
 			}
@@ -118,6 +121,7 @@ const { class: className, ...rest } = Astro.props;
 					data.error || "Something went wrong. Please try again.";
 				error.hidden = false;
 				button.disabled = false;
+				button.innerText = "Subscribe";
 			}
 		});
 	});
