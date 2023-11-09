@@ -1,12 +1,13 @@
 ---
 title: Seven Experiences of Love
-description: How giving enlarges us and draws us closer to God and others
+description: How giving draws us closer to God and others
+date: 2023-11-12 12:00:00
 ---
 
-The other day I read
-[the guide to this week's Come, Follow Me](https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-individuals-and-families-new-testament-2023/39?lang=eng),
-which covers 2 Corinthians 8-13. The introduction to the guide talks about
-chapters 8 and 9 specifically, and quotes chapter 9 verse 7:
+A few weeks ago, I read
+[the _Come, Follow Me_ guide for 2 Corinthians 8-13](https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-individuals-and-families-new-testament-2023/39?lang=eng).
+The introduction to the guide talks about chapters 8 and 9 specifically, and
+quotes chapter 9 verse 7:
 
 > Every man according as he purposeth in his heart, so let him give; not
 > grudgingly, or of necessity: for God loveth a cheerful giver
@@ -18,9 +19,9 @@ cheerful."
 
 ## Love and cheerful giving
 
-I thought this last thought---"it's love that makes a giver cheerful"---was
-worth thinking about more deeply. After some consideration, I saw at least seven
-ways "love" plays into a person's experience giving to someone in need:
+This last thought---"it's love that makes a giver cheerful"---seemed worth
+thinking about more deeply. After some consideration, I saw at least seven ways
+"love" plays into a person's experience of giving to someone in need:
 
 ### 1 - The giver loves the recipient by choosing to feel compassion
 
@@ -29,28 +30,31 @@ attitude of compassion or empathy for their plight, rather than a mindset of
 accusation (e.g.
 [Mosiah 4:17](https://www.churchofjesuschrist.org/study/scriptures/bofm/mosiah/4?lang=eng&id=p17#p17)'s
 example of "the man has brought upon himself his misery") or toxic individualism
-("I've got my own problems" or "I don't want to get involved"). Note *love* is a
+("I've got my own problems" or "I don't want to get involved"). Note _love_ is a
 verb here.
 
 ### 2 - The giver loves the recipient through giving
 
-The giver loves the recipient by giving them what they lack (whether that is some
-physical resource like money, or something like time, a listening ear,
-friendship, etc.). They resist the siren call of the bystander effect (see also:
-the parable of the Good Samaritan). Note *love* is again a verb.
+The giver loves the recipient by giving them what they lack (whether that is
+some physical resource like money, or something like time, a listening ear,
+friendship, etc.). They resist the siren call of
+[the bystander effect](https://en.wikipedia.org/wiki/Bystander_effect)
+(see also:
+[the parable of the Good Samaritan](https://www.churchofjesuschrist.org/study/scriptures/nt/luke/10?lang=eng&id=25-37#p25)).
+Note _love_ is again a verb.
 
 ### 3 - The giver feels love for the recipient
 
-This is the first time we see *love* as a noun.^[One could argue that the
-feeling of compassion or empathy is *love* as a noun, but I see it as primarily
+This is the first time we see _love_ as a noun.^[One could argue that the
+feeling of compassion or empathy is _love_ as a noun, but I see it as primarily
 a verb---we must choose compassion.] It might seem strange to place this feeling
-of love *after* the action of love, but both modern psychology and the teachings
+of love _after_ the action of love, but both modern psychology and the teachings
 of latter-day prophets show us that this is indeed the case.
 
 In his BYU devotional from May 1986, Robert E. Wells of the Seventy taught this
 principle powerfully:
 
-> [L]ove [for others] comes from our serving and sacrificing for *them*. For
+> [L]ove [for others] comes from our serving and sacrificing for _them_. For
 > example, our Heavenly Father loves us, not because we deserve it but because
 > he has given and sacrificed for us. Our Savior Jesus Christ loves us, not
 > because we deserve it but because he has given so much and sacrificed for us.
@@ -62,7 +66,7 @@ principle powerfully:
 > this. When they don’t love their parents or brothers and sisters or roommates,
 > they tend to think it is because parents or others have not earned their love
 > or do not deserve it. It is the other way around! If you do not love someone
-> as much as you should, it is because *you* have not yet given enough nor
+> as much as you should, it is because _you_ have not yet given enough nor
 > sacrificed enough for your parents or for that brother or sister or roommate.
 
 In psychology, this effect is sometimes termed
@@ -76,10 +80,10 @@ after Benjamin Franklin, who described "an old maxim"
 Studies have confirmed what Franklin observed: that someone who previously
 helped you is likely to be more willing to help you again than someone who you
 have helped. We tend to think more favorably of those to whom we have done kind
-things. One theory as to why this is is that we seek to reduce the *cognitive
-dissonance* of harboring negative perceptions of someone we have served, and
-that reduction in dissonance often comes by our letting go of those negative
-perceptions.
+things. One theory as to why this is is that we seek to reduce the [cognitive
+dissonance](https://en.wikipedia.org/wiki/Cognitive_dissonance) of harboring
+negative perceptions of someone we have served, and that reduction in dissonance
+often comes by our letting go of those negative perceptions.
 
 ### 4 - The recipient feels love for the giver
 
@@ -89,15 +93,15 @@ feels an increase in love towards the doer of that good deed.
 
 ### 5 - The giver feels God's love for the recipient
 
-To bring this back to a spiritual context, God blesses us with a portion of *His
-love* for others when we serve them. The ancient prophet Mormon described this,
+To bring this back to a spiritual context, God blesses us with a portion of _His
+love_ for others when we serve them. The ancient prophet Mormon described this,
 at the end of the sermon recorded in Moroni
 7:^[[Moroni 7:47-48](https://www.churchofjesuschrist.org/study/scriptures/bofm/moro/7?lang=eng&id=p48#p48),
 emphasis mine]
 
 > Wherefore, my beloved brethren, pray unto the Father with all the energy of
-> heart, that ye may be filled with *this love, which he hath bestowed upon all
-> who are true followers of his Son, Jesus Christ*; that ye may become the sons
+> heart, that ye may be filled with _this love, which he hath bestowed upon all
+> who are true followers of his Son, Jesus Christ_; that ye may become the sons
 > of God; that when he shall appear we shall be like him, for we shall see him
 > as he is; that we may have this hope; that we may be purified even as he is
 > pure. Amen.
@@ -134,22 +138,43 @@ been driving the other car. This is how Williams described that meeting:
 Chris (the giver, in this case of forgiveness) pointed Cameron (the recipient)
 towards God and His love.
 
-I think this experience of love, perhaps together with #3 and #5, is arguably
-_the point_ of our service. We serve so that others can feel the Savior's love,
-and so that we can feel the Savior's love for others as we grow to become more
-like Him.
+## Why we serve
+
+God's love, in its fulness, is manifest in the life and mission of Jesus Christ.
+[John 3:16](https://www.churchofjesuschrist.org/study/scriptures/nt/john/3?lang=eng&id=16#p16)
+(probably the most-quoted Bible verse of all time) captures this well:
+
+> For God so loved the world, that he gave his only begotten Son, that whosoever
+> believeth in him should not perish, but have everlasting life.
+
+I think this love, found in experiences #5 and #7 above, is _the point_ of our
+service. We serve so that others can feel the Savior's love, as we grow to
+become more like Him. Our service and sacrifice pales in comparison to the
+Savior's infinite love, but only through our sacrifice can we more deeply
+understand the profound depth of that love.
+
+Consider Chris' experience---he understood Jesus' love on a substantially more
+personal level than he had before his experience of choosing to forgive.
+
+Our meager offering of service and sacrifice becomes, as in Chris' case, a
+reflection of Jesus' transcendent and supernal sacrifice. Our self-denial on
+behalf of another echoes of the supreme suffering He endured as He took upon
+Himself all our sins, sorrows, pains, and
+afflictions.^[See [Alma 7:11-12](https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/7?lang=eng&id=11-12#p11)]
 
 ## Good measure, pressed down, and running over
 
-It is powerful to me to note how only two of these seven experiences of love are
-_love as a verb_---things we do. The remainder are _love as a received
-experience_---something we feel. I am reminded of how Jesus taught us to
+It is also powerful to me to note how only the first two of these seven
+experiences of love are _love as a verb_---things we do. The remainder are _love
+as a received experience_---something we feel. I am reminded of how Jesus taught
+us to
 give,^[[Luke 6:38](https://www.churchofjesuschrist.org/study/scriptures/nt/luke/6?lang=eng&id=p38#p38)]
 and the result He promised:
 
 > Give, and it shall be given unto you; good measure, pressed down, and shaken
 > together, and running over, shall men give into your bosom.
 
-I suspect that the experiences of love we receive through service are a big part
-of that "good measure, pressed down, and shaken together, and running over" of
-which He spoke.
+I suspect that the received experiences of love that come as a result of our
+choices to love---including, especially, a deeper understanding of Jesus' love
+for us and others---are a big part of that "good measure, pressed down, and
+shaken together, and running over" of which He spoke.
