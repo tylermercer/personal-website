@@ -1,7 +1,10 @@
 import { getCollection, getEntryBySlug, type ContentCollectionKey, type CollectionEntry } from "astro:content";
 import type { APIRoute } from "astro";
 
-import { labelDrafts, sortByDate, filterOutDraftsIfProduction, getCategory } from "../../utils/utils";
+import sortByDate from "../../utils/sortByDate";
+import filterOutDraftsIfProduction from "../../utils/filterOutDraftsIfProduction";
+import labelDrafts from "../../utils/labelDrafts";
+import getCategory from "../../utils/getCategory";
 import { renderImage } from "./_renderImage";
 
 export async function getStaticPaths() {

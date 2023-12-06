@@ -1,14 +1,11 @@
 ---
 import Layout from "../../layouts/Post.astro";
 import { type CollectionEntry, getCollection } from "astro:content";
-import {
-  filterOutDraftsIfProduction,
-  getCategory,
-  labelDrafts,
-  sortByDate,
-  toWithNextAndPrev,
-type WithNextAndPrev,
-} from "../../utils/utils";
+import filterOutDraftsIfProduction from "../../utils/filterOutDraftsIfProduction";
+import getCategory from "../../utils/getCategory";
+import labelDrafts from "../../utils/labelDrafts";
+import sortByDate from "../../utils/sortByDate";
+import toWithNextAndPrev, { type WithNextAndPrev } from "../../utils/toWithNextAndPrev";
 
 export async function getStaticPaths() {
   const posts = await getCollection("posts");

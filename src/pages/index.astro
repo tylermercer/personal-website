@@ -1,8 +1,11 @@
 ---
 import { getCollection } from "astro:content";
 import Layout from "../layouts/Home.astro";
-import { filterOutDraftsIfProduction, firstFive, labelDrafts, sortByDate } from "../utils/utils";
 import metadata from "../content/_metadata";
+import filterOutDraftsIfProduction from "../utils/filterOutDraftsIfProduction";
+import firstFive from "../utils/firstFive";
+import labelDrafts from "../utils/labelDrafts";
+import sortByDate from "../utils/sortByDate";
 
 const { title, description } = metadata;
 

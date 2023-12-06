@@ -2,7 +2,11 @@ import rss from '@astrojs/rss';
 
 import metadata from '../../content/_metadata';
 import { getCollection } from 'astro:content';
-import { filterOutDraftsIfProduction, formatDateIso, getPostDate, renderMarkdown, sortByDate } from '../../utils/utils';
+import formatDateIso from '../../utils/formatDateIso';
+import getPostDate from "../../utils/getPostDate";
+import sortByDate from "../../utils/sortByDate";
+import filterOutDraftsIfProduction from "../../utils/filterOutDraftsIfProduction";
+import renderMarkdown from "../../utils/renderMarkdown";
 
 export async function GET(context) {
     const blog = sortByDate(filterOutDraftsIfProduction(await getCollection('posts')));

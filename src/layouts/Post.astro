@@ -3,15 +3,12 @@ import { type CollectionEntry } from "astro:content";
 import Layout from "./Base.astro";
 import MungedEmail from "../components/MungedEmail.astro";
 import ShareLinks from "../components/ShareLinks.astro";
-import {
-  countWords,
-  formatPostDate,
-  getPostDate,
-  type WithNextAndPrev,
-} from "../utils/utils";
 import NextPrevLinks from "../components/NextPrevLinks.astro";
-import renderInlineMarkdown from "../utils/renderInlineMarkdown";
 import PostDescription from "../components/PostDescription.astro";
+import type { WithNextAndPrev } from "../utils/toWithNextAndPrev";
+import countWords from "../utils/countWords";
+import formatPostDate from "../utils/formatPostDate";
+import getPostDate from "../utils/getPostDate";
 
 export type Props = {
   post: WithNextAndPrev<CollectionEntry<"posts">>;

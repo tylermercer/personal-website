@@ -2,8 +2,10 @@
 import type { GetStaticPaths } from "astro";
 import { getCollection, type CollectionEntry } from "astro:content";
 import Layout from "../../layouts/Category.astro";
-import { filterOutDraftsIfProduction, labelDrafts, sortByDate } from "../../utils/utils";
 import category from '../../content/_allPostsCategory';
+import filterOutDraftsIfProduction from "../../utils/filterOutDraftsIfProduction";
+import labelDrafts from "../../utils/labelDrafts";
+import sortByDate from "../../utils/sortByDate";
 
 export type Props = {
     page: {

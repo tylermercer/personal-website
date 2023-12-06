@@ -1,7 +1,8 @@
 ---
 import type { CollectionEntry } from "astro:content";
-import { getPostDate, formatPostDate } from "../utils/utils";
 import renderInlineMarkdown from "../utils/renderInlineMarkdown";
+import formatPostDate from "../utils/formatPostDate";
+import getPostDate from "../utils/getPostDate";
 
 export type Props = {
   post: CollectionEntry<"posts">;
