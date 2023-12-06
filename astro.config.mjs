@@ -1,5 +1,6 @@
 import { defineConfig } from 'astro/config';
 import remarkFootnote from 'remark-footnotes';
+import remarkEmdash from './src/plugins/remark/emdash';
 
 import mdx from "@astrojs/mdx";
 
@@ -9,7 +10,7 @@ export default defineConfig({
   markdown: {
     remarkPlugins: [[remarkFootnote, {
       inlineNotes: true
-    }]],
+    }], remarkEmdash],
     shikiConfig: {
         // Choose from Shiki's built-in themes (or add your own)
         // https://github.com/shikijs/shiki/blob/main/docs/themes.md
