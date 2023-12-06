@@ -10,6 +10,7 @@ import {
   type WithNextAndPrev,
 } from "../utils/utils";
 import NextPrevLinks from "../components/NextPrevLinks.astro";
+import renderInlineMarkdown from "../utils/renderInlineMarkdown";
 
 export type Props = {
   post: WithNextAndPrev<CollectionEntry<"posts">>;
@@ -50,7 +51,9 @@ const ogImagePath = `/posts/${post.slug}`;
   <div class="guttered">
     {
       post.data.description && (
-        <p class="post-description">{post.data.description}</p>
+        <p class="post-description"
+            set:html={renderInlineMarkdown(post.data.description)}>
+        </p>
       )
     }
     <p class="dateline">

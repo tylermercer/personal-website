@@ -1,6 +1,7 @@
 ---
 import type { CollectionEntry } from "astro:content";
 import { getPostDate, formatPostDate } from "../utils/utils";
+import renderInlineMarkdown from "../utils/renderInlineMarkdown";
 
 export type Props = {
   post: CollectionEntry<"posts">;
@@ -17,9 +18,7 @@ const { post } = Astro.props;
     <h3>
       <a href={`/posts/${post.slug}`}>{post.data.title}</a>
     </h3>
-    <p>
-      {post.data.description}
-    </p>
+    <p set:html={renderInlineMarkdown(post.data.description)}></p>
   </article>
 </li>
 <style lang="scss">
