@@ -3,6 +3,7 @@ import { type CollectionEntry } from "astro:content";
 import Layout from "./Base.astro";
 import PostList from "../components/PostList.astro";
 import EmailForm from "../components/EmailForm.astro";
+import renderInlineMarkdown from "../utils/renderInlineMarkdown";
 
 export type Props = {
 	title: string;
@@ -20,9 +21,8 @@ const { title, posts, categories, description } = Astro.props;
 			{title}
 		</span>
 	</h1>
-	<p class="guttered post-description">
-		{description}
-	</p>
+	<p class="guttered post-description"
+		set:html={renderInlineMarkdown(description)}></p>
 	<div class="with-sidebar guttered">
 		<div class="posts">
 			<h2>Latest Posts</h2>
@@ -38,7 +38,7 @@ const { title, posts, categories, description } = Astro.props;
 							<h3 class:list={["pattern", `pattern-${c.id}`]}>
 								<a href={`/posts/${c.id}/1`}>{c.data.title}</a>
 							</h3>
-							<p>{c.data.description}</p>
+							<p set:html={renderInlineMarkdown(c.data.description)}></p>
 						</div>
 					))
 				}
