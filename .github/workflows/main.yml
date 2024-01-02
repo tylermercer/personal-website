@@ -35,7 +35,7 @@ jobs:
       - name: Get changed files
         id: changed_files
         if: steps.determine_mode.outputs.mode == 'check'
-        uses: tj-actions/changed-files@v35
+        uses: tj-actions/changed-files@v41
 
       - name: Check for non-Markdown files
         id: check_files
