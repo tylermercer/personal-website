@@ -15,11 +15,13 @@ export type Props = {
 
 const defaultTitle = metadata.title;
 
-const { title, description, ogImagePath: ogImagePathRaw } = Astro.props;
+const { title, description: descriptionRaw, ogImagePath: ogImagePathRaw } = Astro.props;
 
 const titleFull = (title && title !== defaultTitle) ? `${title} - ${defaultTitle}` : defaultTitle;
 
 const ogImagePath = `/og-images${ogImagePathRaw}.png`;
+
+const description = unMarkdown(descriptionRaw);
 ---
 
 <!doctype html>
@@ -36,7 +38,7 @@ const ogImagePath = `/og-images${ogImagePathRaw}.png`;
         <meta name="generator" content={Astro.generator} />
         {
             description && (
-                <meta name="description" content={unMarkdown(description)} />
+                <meta name="description" content={description} />
             )
         }
     <title>{ titleFull }</title>
