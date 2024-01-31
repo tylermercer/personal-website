@@ -5,6 +5,7 @@ import "../styles/_style.scss";
 import SiteFooter from "../components/SiteFooter.astro";
 import SiteNavHeader from "../components/SiteNavHeader.astro";
 import metadata from "../content/_metadata";
+import unMarkdown from '../utils/unMarkdown';
 
 export type Props = {
     title: string;
@@ -35,7 +36,7 @@ const ogImagePath = `/og-images${ogImagePathRaw}.png`;
         <meta name="generator" content={Astro.generator} />
         {
             description && (
-                <meta name="description" content={description} />
+                <meta name="description" content={unMarkdown(description)} />
             )
         }
     <title>{ titleFull }</title>
