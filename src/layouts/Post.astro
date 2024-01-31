@@ -11,6 +11,7 @@ import {
 } from "../utils/utils";
 import NextPrevLinks from "../components/NextPrevLinks.astro";
 import renderInlineMarkdown from "../utils/renderInlineMarkdown";
+import PostDescription from "../components/PostDescription.astro";
 
 export type Props = {
   post: WithNextAndPrev<CollectionEntry<"posts">>;
@@ -31,7 +32,7 @@ const url = Astro.url;
 
 const date = getPostDate(post);
 
-const patternClass = category ? `pattern-${category.id}` : "";
+const patternClass = category ? `u-pattern-${category.id}` : "";
 
 const wordCount = countWords(post.body);
 const readingTime = Math.round(wordCount / READING_RATE) || 1;
@@ -45,18 +46,16 @@ const ogImagePath = `/posts/${post.slug}`;
   description={post.data.description}
   ogImagePath={ogImagePath}
 >
-  <h1 class:list={["pattern", patternClass]}>
-    <span class="guttered">{post.data.title}</span>
+  <h1 class:list={["u-pattern", patternClass]}>
+    <span class="u-guttered">{post.data.title}</span>
   </h1>
-  <div class="guttered">
+  <div class="u-guttered">
     {
       post.data.description && (
-        <p class="post-description"
-            set:html={renderInlineMarkdown(post.data.description)}>
-        </p>
+        <PostDescription description={post.data.description}/>
       )
     }
-    <p class="dateline">
+    <p class="u-slub">
       <time datetime={date.toISOString()}>{formatPostDate(date)}</time>
       {
         category && (

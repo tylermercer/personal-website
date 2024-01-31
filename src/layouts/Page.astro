@@ -2,6 +2,7 @@
 import type { CollectionEntry } from 'astro:content';
 import Layout from './Base.astro';
 import renderInlineMarkdown from '../utils/renderInlineMarkdown';
+import PostDescription from '../components/PostDescription.astro';
 export type Props = {
     title: string
     description: string
@@ -11,18 +12,16 @@ export type Props = {
 
 const { title, description, category, ogImagePath } = Astro.props;
 
-const patternClass = category ? `pattern-${category.id}` : '';
+const patternClass = category ? `u-pattern-${category.id}` : '';
 ---
 
 <Layout title={title} description={description} ogImagePath={ogImagePath}>
-    <h1 class:list={[ 'pattern', patternClass ]}>
-        <span class="guttered">{ title }</span>
+    <h1 class:list={[ 'u-pattern', patternClass ]}>
+        <span class="u-guttered">{ title }</span>
     </h1>
-    <div class="guttered">
+    <div class="u-guttered">
         {description &&
-            <p class="post-description"
-                set:html={renderInlineMarkdown(description)}>
-            </p>
+            <PostDescription description={description}/>
         }
         <slot></slot>
     </div>
