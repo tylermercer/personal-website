@@ -6,6 +6,7 @@ import styles from './_styles.css?raw';
 import faustinaRaw from '@fontsource/faustina/files/faustina-latin-400-normal.woff';
 import figtreeRaw from '@fontsource/figtree/files/figtree-latin-700-normal.woff';
 import formatPostDate from "../../utils/formatPostDate";
+import unMarkdown from "../../utils/unMarkdown";
 
 // They already are Buffers because of the custom rawFonts Vite plugin in astro.config.js, but TS doesn't know that
 const figtree = figtreeRaw as unknown as Buffer;
@@ -35,7 +36,7 @@ const getHtml = (
                 <h1 class="title">${title}</h1>
             </div>
             <div class="bg-container ${growTitleBox ? '' : 'grow'}">
-                <div class="description">${description}</div>
+                <div class="description">${unMarkdown(description)}</div>
                 ${hideDateline ? '' : `<div class="dateline">${date ? `${formatPostDate(date)} — ` : ''}Tyler Mercer</div>` }
             </div>
         </div>
