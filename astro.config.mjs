@@ -1,8 +1,9 @@
 import { defineConfig } from 'astro/config';
 import remarkFootnote from 'remark-footnotes';
 import remarkEmdash from './src/plugins/remark/emdash';
-
 import mdx from "@astrojs/mdx";
+
+import expressiveCode from "astro-expressive-code";
 
 // https://astro.build/config
 export default defineConfig({
@@ -11,24 +12,12 @@ export default defineConfig({
     remarkPlugins: [[remarkFootnote, {
       inlineNotes: true
     }], remarkEmdash],
-    shikiConfig: {
-        // Choose from Shiki's built-in themes (or add your own)
-        // https://github.com/shikijs/shiki/blob/main/docs/themes.md
-        theme: 'material-theme-ocean',
-        // Add custom languages
-        // Note: Shiki has countless langs built-in, including .astro!
-        // https://github.com/shikijs/shiki/blob/main/docs/languages.md
-        langs: [],
-        // Enable word wrap to prevent horizontal scrolling
-        wrap: true,
-    }
   },
-  integrations: [mdx()],
+  integrations: [expressiveCode(), mdx()],
   vite: {
     plugins: [rawFonts(['.woff'])]
   }
 });
-
 function rawFonts(ext) {
   return {
     name: 'vite-plugin-raw-fonts',
