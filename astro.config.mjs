@@ -14,7 +14,10 @@ export default defineConfig({
     }], remarkEmdash],
   },
   integrations: [expressiveCode({
-    themes: ['material-theme-ocean']
+    themes: ['material-theme-ocean'],
+    styleOverrides: {
+      borderRadius: '0',
+    }
   }), mdx()],
   vite: {
     plugins: [rawFonts(['.woff'])]
