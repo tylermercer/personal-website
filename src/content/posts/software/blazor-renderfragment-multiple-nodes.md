@@ -15,7 +15,7 @@ yield any useful results, but there _is_ a way to do it!
 You can put multiple root elements in a RenderFragment by surrounding them with
 `<text>`. For example:
 
-```razor
+```razor title="MyComponent.razor"
 @code {
   private RenderFragment RenderThing(Thing thing)
   {
