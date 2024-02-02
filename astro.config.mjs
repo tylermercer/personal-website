@@ -13,7 +13,9 @@ export default defineConfig({
       inlineNotes: true
     }], remarkEmdash],
   },
-  integrations: [expressiveCode(), mdx()],
+  integrations: [expressiveCode({
+    themes: ['material-theme-ocean']
+  }), mdx()],
   vite: {
     plugins: [rawFonts(['.woff'])]
   }
