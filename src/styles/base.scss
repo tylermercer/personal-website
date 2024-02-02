@@ -113,3 +113,9 @@ section.footnotes {
 sup {
     line-height: 0;
 }
+
+.expressive-code {
+    & > figure.frame {
+        box-shadow: none !important;
+    }
+}
