@@ -22,6 +22,5 @@ export async function GET(context) {
             content: renderMarkdown(post.body),
         })),
         customData: `<language>${metadata.language}</language>`,
-        stylesheet: '/rss/styles.xsl',
     });
 }
