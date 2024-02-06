@@ -123,16 +123,16 @@ const categories = await getCollection("categories");
     }
     .title {
         margin: 0;
-        font-size: calc(1.8 * var(--font-size-xl));
+        font-size: var(--font-size-2xl);
     }
     .title-container {
         padding-block: 2rem;
         row-gap: 2rem;
     }
     .description-items {
-        list-style-type: none;
+        list-style-type: square;
         margin: 0;
-        padding: 0;
+        padding-inline-start: 26px;
         align-self: stretch;
         display: flex;
         flex-direction: column;
@@ -140,6 +140,9 @@ const categories = await getCollection("categories");
         font-size: var(--font-size-lg);
         color: var(--color-primary-12);
         gap: 0.5rem;
+        & li::marker {
+            color: var(--color-primary-11);
+        }
         & :global(a) {
             color: var(--color-primary-12);
             text-decoration-color: var(--color-primary-11);
