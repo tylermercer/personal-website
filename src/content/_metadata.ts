@@ -5,11 +5,11 @@ export default
         twitter: "tylermercerdev",
         language: "en",
         descriptionItems: [
-            "Technologist",
+            "[Software engineer](/about/#software-design--engineering-ethos)",
             "[Explorer of agency thinking](https://innerhelm.com)",
-            "Husband",
+            "[Husband](https://www.instagram.com/evelynescobarte/)",
             "[Father](/posts/faith/a-different-kind-of-hello-world)",
-            "[Follower of Jesus](/about#my-faith)"
+            "[Follower of Jesus](/about/#my-faith)"
         ],
         author: {
             name: "Tyler Mercer",
