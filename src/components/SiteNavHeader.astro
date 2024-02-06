@@ -1,13 +1,22 @@
 ---
+import type { CollectionEntry } from "astro:content";
 import trimTrailingSlash from "../utils/trimTrailingSlash";
 import Logo from "./Logo.astro";
+
+export type Props = {
+  category?: CollectionEntry<"categories">;
+};
+
+const { category } = Astro.props;
+
+const patternClass = category ? `u-pattern-${category.id}` : "";
 
 const isCurrent = (path: string) =>
   trimTrailingSlash(Astro.url.pathname) === path;
 ---
 
 <header class="site-nav-container u-guttered">
-  <nav>
+  <nav class:list={['u-pattern', patternClass]}>
     <a class="skip-to-content-link" href="#main">Skip to Content</a>
     <a class="logo-link" aria-label="Home" href="/">
       <Logo />
@@ -39,14 +48,21 @@ const isCurrent = (path: string) =>
     --u-guttered-content-width: 60rem;
     // border-bottom: 1px solid var(--color-gray-8);
     & nav {
+      &.u-pattern {
+        background-position: bottom;
+      }
       display: flex;
       padding: 0;
-      justify-content: space-between;
       align-items: stretch;
       height: 58px;
 
       ul {
+        //Occlude pattern shown on nav element so that it only shows on the logo
+        background-color: var(--color-gray-1);
+        text-shadow: none;
+        flex: 1;
         display: flex;
+        justify-content: flex-end;
         margin: 0;
         padding: 0;
       }
