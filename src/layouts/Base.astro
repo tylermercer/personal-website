@@ -55,6 +55,12 @@ const description = unMarkdown(descriptionRaw);
             title={defaultTitle}
             href={`${Astro.site}feeds/feed.xml`}
         />
+        <link
+            rel="alternate"
+            type="application/json"
+            title={defaultTitle}
+            href={`${Astro.site}feeds/feed.json`}
+        />
         <title>{titleFull}</title>
         <!-- Icons -->
         <link
