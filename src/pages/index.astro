@@ -124,6 +124,7 @@ const categories = await getCollection("categories");
     .title {
         margin: 0;
         font-size: var(--font-size-2xl);
+        color: var(--color-gray-1-static);
     }
     .title-container {
         padding-block: 2rem;
@@ -138,19 +139,19 @@ const categories = await getCollection("categories");
         flex-direction: column;
         justify-content: space-between;
         font-size: var(--font-size-lg);
-        color: var(--color-primary-12);
+        color: var(--color-gray-1-static);
         gap: 0.5rem;
         & li::marker {
-            color: var(--color-primary-11);
+            color: var(--color-primary-6-static);
         }
         & :global(a) {
-            color: var(--color-primary-12);
-            text-decoration-color: var(--color-primary-11);
-            text-decoration-thickness: 7%;
+            color: var(--color-primary-1-static);
+            text-decoration-color: var(--color-primary-6-static);
+            text-decoration-thickness: 5%;
             text-underline-offset: 2px;
         }
         & :global(a:hover, a:focus) {
-            text-decoration-color: var(--color-primary-12);
+            text-decoration-color: white;
         }
     }
     .content {
