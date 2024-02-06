@@ -52,7 +52,7 @@ const description = unMarkdown(descriptionRaw);
         <link
             rel="alternate"
             type="application/rss+xml"
-            title={titleFull}
+            title={defaultTitle}
             href={`${Astro.site}feeds/feed.xml`}
         />
         <title>{titleFull}</title>
@@ -70,7 +70,7 @@ const description = unMarkdown(descriptionRaw);
         <meta property="og:url" content={Astro.url} />
         <meta property="og:locale" content="en" />
         <meta property="og:image:alt" content={description} />
-        <meta property="og:site_name" content={titleFull} />
+        <meta property="og:site_name" content={defaultTitle} />
         <meta name="og:description" content={description} />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content={metadata.twitter} />
