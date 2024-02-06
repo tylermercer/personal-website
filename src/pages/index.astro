@@ -5,13 +5,16 @@ import metadata from "../content/_metadata";
 import PostList from "../components/PostList.astro";
 import EmailForm from "../components/EmailForm.astro";
 import PostDescription from "../components/PostDescription.astro";
+import combineDescriptionItems from "../utils/combineDescriptionItems";
 import filterOutDraftsIfProduction from "../utils/filterOutDraftsIfProduction";
 import firstFive from "../utils/firstFive";
 import labelDrafts from "../utils/labelDrafts";
 import renderInlineMarkdown from "../utils/renderInlineMarkdown";
 import sortByDate from "../utils/sortByDate";
 
-const { title, description } = metadata;
+const { title, descriptionItems } = metadata;
+
+const description = combineDescriptionItems(descriptionItems);
 
 const allPosts = await getCollection("posts");
 
