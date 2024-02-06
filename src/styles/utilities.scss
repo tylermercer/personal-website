@@ -28,7 +28,7 @@ $svg-color-dark: encodeColor($color-primary-fg);
 
 .u-pattern {
     background-color: var(--color-primary-bg-static);
-    background-position: center;
+    background-position: top;
     color: var(--color-gray-1-static);
     text-shadow: 0 0 6px var(--color-primary-bg-static), 0 0 12px var(--color-primary-bg-static), 0 0 18px var(--color-primary-bg-static);
     &-software {

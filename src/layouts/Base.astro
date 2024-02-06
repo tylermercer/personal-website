@@ -1,4 +1,5 @@
 ---
+import type { CollectionEntry } from 'astro:content';
 import '@fontsource-variable/figtree';
 import '@fontsource-variable/faustina';
 import "../styles/_style.scss";
@@ -7,15 +8,17 @@ import SiteNavHeader from "../components/SiteNavHeader.astro";
 import metadata from "../content/_metadata";
 import unMarkdown from '../utils/unMarkdown';
 
+
 export type Props = {
     title: string;
     description: string;
     ogImagePath: string;
+    category?: CollectionEntry<'categories'>;
 };
 
 const defaultTitle = metadata.title;
 
-const { title, description: descriptionRaw, ogImagePath: ogImagePathRaw } = Astro.props;
+const { title, description: descriptionRaw, ogImagePath: ogImagePathRaw, category } = Astro.props;
 
 const titleFull = (title && title !== defaultTitle) ? `${title} - ${defaultTitle}` : defaultTitle;
 
@@ -69,7 +72,7 @@ const description = unMarkdown(descriptionRaw);
     <link rel="manifest" href="/site.webmanifest" />
 
     <body>
-        <SiteNavHeader />
+        <SiteNavHeader category={category} />
         <main id="main">
             <slot />
         </main>

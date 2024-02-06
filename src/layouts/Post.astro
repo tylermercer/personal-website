@@ -42,6 +42,7 @@ const ogImagePath = `/posts/${post.slug}`;
   title={post.data.title}
   description={post.data.description}
   ogImagePath={ogImagePath}
+  category={category}
 >
   <h1 class:list={["u-pattern", patternClass]}>
     <span class="u-guttered">{post.data.title}</span>
