@@ -55,10 +55,13 @@ jobs:
       - name: Extract variables
         id: extract_vars
         if: steps.build_site.outputs.result == 'built'
-        run: |
+        run: | # branch_trunc is the branch truncated to 28 chars, which is the CF deploy preview subdomain length
           echo "sha_short=$(git rev-parse --short HEAD)" >> $GITHUB_OUTPUT
           echo "datetime=$(date +'%Y-%m-%d %H:%M:%S')" >> $GITHUB_OUTPUT
-          echo "branch=${GITHUB_HEAD_REF:-${GITHUB_REF#refs/heads/}}" >> $GITHUB_OUTPUT
+          branch=${GITHUB_HEAD_REF:-${GITHUB_REF#refs/heads/}}
+          branch_trunc=${branch:0:28}
+          echo "branch=${branch}" >> $GITHUB_OUTPUT
+          echo "branch_trunc=${branch_trunc}" >> $GITHUB_OUTPUT
 
       - name: Deploy to Cloudflare Pages
         id: deploy
@@ -82,7 +85,7 @@ jobs:
 
             | Name                    | Result |
             | ----------------------- | - |
-            | **Preview URL**:        | https://${{ steps.extract_vars.outputs.branch }}.${{ secrets.CLOUDFLARE_PROJECT_NAME }}.pages.dev |
+            | **Preview URL**:        | https://${{ steps.extract_vars.outputs.branch_trunc }}.${{ secrets.CLOUDFLARE_PROJECT_NAME }}.pages.dev |
             | **Last commit:**        | `${{ steps.extract_vars.outputs.sha_short }}` |
             | **Deployed at**:        | `${{ steps.extract_vars.outputs.datetime }}` |
 
