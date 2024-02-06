@@ -1,26 +1,33 @@
 ---
-import type { CollectionEntry } from 'astro:content';
-import '@fontsource-variable/figtree';
-import '@fontsource-variable/faustina';
+import type { CollectionEntry } from "astro:content";
+import "@fontsource-variable/figtree";
+import "@fontsource-variable/faustina";
 import "../styles/_style.scss";
 import SiteFooter from "../components/SiteFooter.astro";
 import SiteNavHeader from "../components/SiteNavHeader.astro";
 import metadata from "../content/_metadata";
-import unMarkdown from '../utils/unMarkdown';
-
+import unMarkdown from "../utils/unMarkdown";
 
 export type Props = {
     title: string;
     description: string;
     ogImagePath: string;
-    category?: CollectionEntry<'categories'>;
+    category?: CollectionEntry<"categories">;
 };
 
 const defaultTitle = metadata.title;
 
-const { title, description: descriptionRaw, ogImagePath: ogImagePathRaw, category } = Astro.props;
+const {
+    title,
+    description: descriptionRaw,
+    ogImagePath: ogImagePathRaw,
+    category,
+} = Astro.props;
 
-const titleFull = (title && title !== defaultTitle) ? `${title} - ${defaultTitle}` : defaultTitle;
+const titleFull =
+    title && title !== defaultTitle
+        ? `${title} - ${defaultTitle}`
+        : defaultTitle;
 
 const ogImagePath = `/og-images${ogImagePathRaw}.png`;
 
@@ -32,45 +39,41 @@ const description = unMarkdown(descriptionRaw);
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        {import.meta.env.MODE === 'production' && 
-            <meta
-                http-equiv="Content-Security-Policy"
-                content="default-src 'self'; connect-src 'self' https://cloudflareinsights.com/cdn-cgi/rum; script-src 'self' 'unsafe-inline' https://static.cloudflareinsights.com; style-src 'self' 'unsafe-inline'; img-src 'self' data:;"
-            />
-        }
-        <meta name="generator" content={Astro.generator} />
         {
-            description && (
-                <meta name="description" content={description} />
+            import.meta.env.MODE === "production" && (
+                <meta
+                    http-equiv="Content-Security-Policy"
+                    content="default-src 'self'; connect-src 'self' https://cloudflareinsights.com/cdn-cgi/rum; script-src 'self' 'unsafe-inline' https://static.cloudflareinsights.com; style-src 'self' 'unsafe-inline'; img-src 'self' data:;"
+                />
             )
         }
-    <title>{ titleFull }</title>
-    <!-- Icons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-    <link rel="icon" href="/favicon.svg" />
-    <meta property="og:image" content={ogImagePath}>
-    <meta name="twitter:image" content={ogImagePath}>
-    <meta property="og:title" content={ titleFull } />
-    <meta property="og:type" content="article" />
-    <meta
-        property="og:url"
-        content={Astro.url}
-    />
-    <meta property="og:locale" content="en" />
-    <meta property="og:image:alt" content={description} />
-    <meta property="og:site_name" content={titleFull} />
-    <meta name="og:description" content={description} />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content={metadata.twitter} />
-    <meta name="twitter:title" content={titleFull} />
-    <meta name="twitter:description" content={description} />
-    <meta
-        name="twitter:image:alt"
-        content={titleFull}
-    />
-    <!-- Tags -->
-    <link rel="manifest" href="/site.webmanifest" />
-
+        <meta name="generator" content={Astro.generator} />
+        {description && <meta name="description" content={description} />}
+        <title>{titleFull}</title>
+        <!-- Icons -->
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="/apple-touch-icon.png"
+        />
+        <link rel="icon" href="/favicon.svg" />
+        <meta property="og:image" content={ogImagePath} />
+        <meta name="twitter:image" content={ogImagePath} />
+        <meta property="og:title" content={titleFull} />
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content={Astro.url} />
+        <meta property="og:locale" content="en" />
+        <meta property="og:image:alt" content={description} />
+        <meta property="og:site_name" content={titleFull} />
+        <meta name="og:description" content={description} />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content={metadata.twitter} />
+        <meta name="twitter:title" content={titleFull} />
+        <meta name="twitter:description" content={description} />
+        <meta name="twitter:image:alt" content={titleFull} />
+        <!-- Tags -->
+        <link rel="manifest" href="/site.webmanifest" />
+    </head>
     <body>
         <SiteNavHeader category={category} />
         <main id="main">
