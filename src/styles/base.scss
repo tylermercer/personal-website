@@ -119,3 +119,11 @@ sup {
         box-shadow: none !important;
     }
 }
+
+ul {
+    list-style-type: square;
+}
+
+ul > li::marker {
+    color: var(--color-primary-11);
+}
