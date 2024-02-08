@@ -2,6 +2,7 @@
 title: A Different Kind of “Hello, World!”
 description: Welcome to our messy blue marble, Isabella!
 date: 2024-02-01 12:00:00
+featured: true
 ---
 
 Something special happened a couple weeks ago: my daughter was born! She came a
