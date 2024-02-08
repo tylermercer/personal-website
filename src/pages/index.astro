@@ -46,14 +46,14 @@ const featuredPost = filterOutDraftsIfProduction(sortByDate(allPosts))
             </ul>
         </div>
     </div>
-    {featuredPost && (
-        <div class="featured-post u-guttered">
-            <h2>Featured Post</h2>
-            <PostCard post={featuredPost}/>
-        </div>
-    )}
     <div class="content l-sidebar u-guttered">
         <div class="posts">
+            {featuredPost && (
+                <div class="featured">
+                    <h2>Featured Post</h2>
+                    <PostCard post={featuredPost}/>
+                </div>
+            )}
             <h2>Latest Posts</h2>
             <PostList posts={posts} />
             <p><a href="/posts/2">Older posts →</a></p>
@@ -165,10 +165,10 @@ const featuredPost = filterOutDraftsIfProduction(sortByDate(allPosts))
             text-decoration-thickness: 10%;
         }
     }
-    .content, .featured-post {
+    .content {
         margin-top: 2rem;
     }
-    .featured-post {
-        max-width: 30rem;
+    .featured {
+        margin-bottom: 3rem;
     }
 </style>
