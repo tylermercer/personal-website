@@ -6,7 +6,8 @@ const posts = defineCollection({
     title: z.string(),
     description: z.string(),
     dropCaps: z.optional(z.boolean()),
-    date: z.optional(z.date()) // no date = is draft
+    date: z.optional(z.date()), // no date = is draft
+    featured: z.optional(z.boolean()),
   }),
 });
 const pages = defineCollection({

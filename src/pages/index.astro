@@ -10,6 +10,7 @@ import firstFive from "../utils/firstFive";
 import labelDrafts from "../utils/labelDrafts";
 import renderInlineMarkdown from "../utils/renderInlineMarkdown";
 import sortByDate from "../utils/sortByDate";
+import PostCard from "../components/PostCard.astro";
 
 const { title, descriptionItems } = metadata;
 
@@ -22,6 +23,9 @@ const posts = labelDrafts(
 );
 
 const categories = await getCollection("categories");
+
+const featuredPost = filterOutDraftsIfProduction(sortByDate(allPosts))
+    .find(p => p.data.featured)
 ---
 
 <Layout title={title} description={description} ogImagePath="/home">
@@ -42,6 +46,12 @@ const categories = await getCollection("categories");
             </ul>
         </div>
     </div>
+    {featuredPost && (
+        <div class="featured-post u-guttered">
+            <h2>Featured Post</h2>
+            <PostCard post={featuredPost}/>
+        </div>
+    )}
     <div class="content l-sidebar u-guttered">
         <div class="posts">
             <h2>Latest Posts</h2>
@@ -155,7 +165,10 @@ const categories = await getCollection("categories");
             text-decoration-thickness: 10%;
         }
     }
-    .content {
+    .content, .featured-post {
         margin-top: 2rem;
+    }
+    .featured-post {
+        max-width: 30rem;
     }
 </style>
