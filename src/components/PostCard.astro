@@ -5,36 +5,32 @@ import formatPostDate from "../utils/formatPostDate";
 import getPostDate from "../utils/getPostDate";
 
 export type Props = {
-  post: CollectionEntry<"posts">;
+    post: CollectionEntry<"posts">;
 };
 
 const { post } = Astro.props;
 ---
 
-<li class="post-card">
-  <article>
+<article class="post-card">
     <time class="u-slub" datetime={getPostDate(post).toISOString()}>
-      {formatPostDate(getPostDate(post))}
+        {formatPostDate(getPostDate(post))}
     </time>
     <h3>
-      <a href={`/posts/${post.slug}`}>{post.data.title}</a>
+        <a href={`/posts/${post.slug}`}>{post.data.title}</a>
     </h3>
-    <p set:html={renderInlineMarkdown(post.data.description)}></p>
-  </article>
-</li>
+    <p set:html={renderInlineMarkdown(post.data.description)} />
+</article>
 <style lang="scss">
-  .post-card {
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
-    &:first-of-type {
-      margin-top: 0;
+    .post-card {
+        &:first-of-type {
+            margin-top: 0;
+        }
+        & h3 {
+            margin-top: 0.2rem;
+            margin-bottom: 0;
+        }
+        & p {
+            margin-top: 0.2rem;
+        }
     }
-    & h3 {
-      margin-top: 0.2rem;
-      margin-bottom: 0;
-    }
-    & p {
-      margin-top: 0.2rem;
-    }
-  }
 </style>
