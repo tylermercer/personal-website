@@ -1,6 +1,10 @@
-All text content (*.MD and *.MDX files, and text content in HTML) in this
-repository is the exclusive property of Tyler Mercer, except where quoting
-other sources or where otherwise noted.
+All text content (*.MD and *.MDX files, data files like `metadata.ts`, and text
+content in HTML) in this repository is the exclusive property of Tyler Mercer,
+except where quoting other sources or where otherwise noted.
+
+The classes in `layout.scss` are based on Every Layout
+(https://every-layout.dev), for which I have purchased a license. Please do not
+use them in your own code unless you have a license yourself.
 
 All OTHER code in this repository is licensed under the MIT license:
 

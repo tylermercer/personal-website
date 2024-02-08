@@ -1,13 +1,21 @@
+/*
+These layouts are based on Every Layout (https://every-layout.dev), which, as
+explained in the LICENSE file in this repo, is proprietary. Please don't use
+these classes in your own projects without purchasing a copy of Every Layout
+first.
+*/
 .l-sidebar {
     display: flex;
     flex-wrap: wrap;
     gap: 2rem;
     row-gap: 0;
-    & > .sidebar {
+
+    &>.sidebar {
         flex-grow: 1;
         flex-basis: 20rem;
     }
-    & > :not(.sidebar) {
+
+    &> :not(.sidebar) {
         flex-basis: 0;
         flex-grow: 999;
         min-inline-size: 50%;
