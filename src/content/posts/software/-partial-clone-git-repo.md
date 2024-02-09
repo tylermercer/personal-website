@@ -37,7 +37,7 @@ posts are stored as Markdown files in an Astro content collection, the code is
 _right there_, singing its siren song to me, luring me into the rocks of
 comfort-coding when my intended goal was to write.
 
-Being a gigantic git geek, I wondered if there was a way to use git to "tie
+Being the git geek that I am, I wondered if there was a way to use git to "tie
 myself to the mast" by only cloning the folder that contains my posts. Turns
 out, there is! (Kudos to Ciro Santilli for providing the solution in
 [this answer on Stack Overflow](https://stackoverflow.com/a/52269934).)
@@ -78,7 +78,7 @@ paths listed, which git will then use for updating your working-tree when you
 checkout or pull. In my case, the path to the folder was `/src/content`, which
 is where my Markdown files live.^[The path was actually different when I first
 did the partial clone, because I did it prior to
-[my migration to Astro last week](https://github.com/tylermercer/personal-website/pull/63).]
+[my migration to Astro](https://github.com/tylermercer/personal-website/pull/63).]
 
 ## Step 3: Enjoy your peace of mind
 
