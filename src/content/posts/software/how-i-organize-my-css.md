@@ -30,6 +30,8 @@ in order of increasing specificity:
 
 Each of the first four layers has its own SCSS source file.
 
+For an example of how this looks in practice, check out [the home page's source Astro file](https://github.com/tylermercer/personal-website/blob/b9477ffc2621c5999002fb840166263c097d764e/src/pages/index.astro).
+
 I like this organization a lot, for a few reasons:
 
 1. **I can immediately tell where a given class is defined.** It has a prefix?
