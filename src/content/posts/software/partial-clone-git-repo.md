@@ -1,41 +1,46 @@
 ---
 title: Creating a Partial Clone of a Git Repo
 description: A trick I use for writing on this site without being distracted by its code
+date: 2024-02-22 12:00:00
 ---
 
-## TL;DR
+<details>
+<summary class="h4">TL;DR</summary>
 
 ```bash
 git clone -n --depth=1 --filter=tree:0 <your-repo-git-url>
 git sparse-checkout set path/to/desired/folder
 ```
 
-## The full story
+</details>
 
-I recently upgraded my computer, and after some thought, decided to turn my old
-one into a writing-only device. The goal was to use higher-order agency to
-enable myself to focus more deeply on my journaling, this blog, and my other
-writing. I removed everything not related to writing from this device: accounts
-and bookmarks in my browser, the messaging apps I use, the handful of games I
-had installed, and even the VS Code extensions I use that don't relate to
-Markdown. (I use VS Code for my writing for a few reasons, most notably (a)
-because I have yet to find a text editor I like that supports the inline
-footnotes syntax I use, and (b) because I have a large amount of muscle memory
-built up for getting around it, which reduces the friction of writing.)
+I recently upgraded my computer, and, after some thought, decided to turn my old
+one into a writing-only device. The goal was to use higher-order agency
+thinking---decisions that shape one's
+decisions^[I wrote about this topic briefly in the [Feb 8 Innerhelm newsletter](https://innerhelm.com/newsletters/frustration-optimism-and-identity/#higher-order-agency-thinking),
+and am planning on writing a longer Innerhelm blog post about it at some
+point.]---to enable myself to focus more deeply on my journaling, this blog,
+[Innerhelm](https://innerhelm.com), and my other writing. I removed everything
+not related to writing from this device: accounts and bookmarks in my browser,
+the messaging apps I use, the handful of games I had installed, and even the VS
+Code extensions I use that don't relate to Markdown. (I use VS Code for my
+writing for a few reasons, most notably (a) because I have yet to find a text
+editor I like that supports the inline footnotes syntax I use, and (b) because I
+have a large amount of muscle memory built up for getting around it, which
+reduces the friction of writing.)
 
-I'm now left with a much-less-interesting VS Code for my blog writing,
+I was left with a much-less-interesting VS Code for my blog writing,
 [Notesnook](https://notesnook.com/) for my journaling, and
 [Obsidian](https://obsidian.md/) for storing quotes from books and articles that
 I might use in my writing.
 
 But one big distractor remained: my personal site's code. I've spent so many
-hours over the last six months tweaking this site's design and implementation
-like [one would rub a
+hours tweaking this site's design and implementation like [one would rub a
 worry-stone](https://ethanmarcotte.com/wrote/let-a-website-be-a-worry-stone/)---not
 out of genuine need but as an escape from the "should" of writing. Because my
-posts are stored as Markdown files in an Astro content collection, the code is
-_right there_, singing its siren song to me, luring me into the rocks of
-comfort-coding when my intended goal was to write.
+posts are stored as Markdown files in an Astro content collection, the code that
+renders those posts is _right there_, singing its siren song to me, luring me
+into the rocks of comfort-coding when my intended goal was to write.
 
 Being the git geek that I am, I wondered if there was a way to use git to "tie
 myself to the mast" by only cloning the folder that contains my posts. Turns
@@ -50,13 +55,14 @@ There are two commands you'll need to run. Let's break down each of them.
 git clone -n --depth=1 --filter=tree:0 <your-repo-url>
 ```
 
-This isn't your standard git clone. Here we use `--filter` to specify the
-objects (think versions of files) we want to download. Specifying `tree:0` as
-the filter value means we don't want _anything_---at least, not until we say
-which files we _do_ want. `--depth=1` means we don't want any commits other than
-the most recent one. (Commits we or others make on the main branch will be
-pulled when we `git pull`, but nothing older than the most recent commit at the
-time of the clone will be downloaded, even on those subsequent pulls.)
+This isn't your standard-issue git clone command. Here we use `--filter` to
+specify the objects (think versions of files) we want to download. Specifying
+`tree:0` as the filter value means we don't want _anything_---at least, not
+until we say which files we _do_ want. `--depth=1` means we don't want any
+commits other than the most recent one. (Commits we or others make on the main
+branch will be pulled when we `git pull`, but nothing older than the most recent
+commit at the time of the clone will be downloaded, even on those subsequent
+pulls.)
 
 Replace `<your-repo-url>` with the URL you normally use for git clone. For
 example, in my case, I used
@@ -83,11 +89,7 @@ did the partial clone, because I did it prior to
 ## Step 3: Enjoy your peace of mind
 
 I suppose this depends on what you are using it for. But in my case, carving out
-an interruption-free digital space for my writing was _so_ nice. I have
-admittedly only written
-[one article](https://tylermercer.net/posts/faith/certainty-and-uncertainty-as-elements-of-faith/)
-other than this one since then, but I think it turned out better as a result of
-the space I gave myself to focus deeply on it.
+an interruption-free digital space for my writing has been so nice.
 
 ## Imperfections
 
