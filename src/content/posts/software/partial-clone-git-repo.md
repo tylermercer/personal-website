@@ -14,9 +14,9 @@ git sparse-checkout set path/to/desired/folder
 
 </details>
 
-I recently upgraded my computer, and, after some thought, decided to turn my old
-one into a writing-only device. The goal was to use higher-order agency
-thinking---decisions that shape one's
+I upgraded my computer a few months ago, and, after some thought, decided to
+turn my old one into a writing-only device. The goal was to use _higher-order
+agency thinking_---decisions that shape one's
 decisions^[I wrote about this topic briefly in the [Feb 8 Innerhelm newsletter](https://innerhelm.com/newsletters/frustration-optimism-and-identity/#higher-order-agency-thinking),
 and am planning on writing a longer Innerhelm blog post about it at some
 point.]---to enable myself to focus more deeply on my journaling, this blog,
