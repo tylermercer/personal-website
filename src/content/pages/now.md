@@ -3,9 +3,9 @@ title: "/now"
 description: "What I'm up to right now"
 ---
 
-I'm currently working as a senior software engineer at Lucid.^[The opinions
-and views expressed on this site are my own and don’t necessarily reflect
-those of Lucid.]
+I'm currently working as a senior software engineer at
+[Lucid](https://lucid.co/). The opinions and views expressed on this site are my
+own and don’t necessarily reflect those of Lucid.
 
 Outside of work, I've been doing a lot with Astro, SvelteKit, and
 Cloudflare lately.

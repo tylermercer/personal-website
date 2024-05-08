@@ -4,9 +4,9 @@ description: About Tyler Mercer
 ---
 
 Hi! I'm Tyler, a software engineer, web developer, and design enthusiast. I'm
-currently working at Lucid as a senior software engineer.^[The opinions
-and views expressed on this site are my own and don’t necessarily reflect
-those of Lucid.]
+currently working at [Lucid](https://lucid.co/) as a senior software
+engineer.^[The opinions and views expressed on this site are my own and don’t
+necessarily reflect those of Lucid.]
 
 This website is where I share my thoughts about various subjects, most notably
 [software design and development](/posts/software/) and
