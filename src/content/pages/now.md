@@ -3,26 +3,17 @@ title: "/now"
 description: "What I'm up to right now"
 ---
 
-I'm currently working as a software engineer at Brevium, where I collaborate
-with some amazing people and use ASP.NET, Blazor, HTML, Typescript, Tailwind,
-WPF, and Microsoft SQL Server.
+I'm currently working as a senior software engineer at Lucid.^[The opinions
+and views expressed on this site are my own and don’t necessarily reflect
+those of Lucid.]
 
-Outside of work, I've been doing a lot with Astro, Preact, Convex, and
+Outside of work, I've been doing a lot with Astro, SvelteKit, and
 Cloudflare lately.
 
-I've also read several books recently:
+I've just started reading
+[_Better Onboarding_ by Krystal Higgins](https://www.amazon.com/dp/195261600X?psc=1&smid=A3IHWHW38Z0N1B&ref_=chk_typ_imgToDp).
 
-* _How We Change (And Ten Reasons Why We Don't)_ by Ross Ellenhorn
-* _Digital Minimalism_ by Cal Newport
-* _Drive_ by Daniel H. Pink
-* _Essentialism_ by Greg McKeown
-* _The Power of Positive Thinking_ by Norman Vincent Peale
-* _Better Than Before_ by Gretchen Rubin
-
-(This list deserves a more detailed discussion in a post of its own, which I
-will post sometime soon.)
-
-_Last updated: Sep 7, 2023_
+_Last updated: May 8, 2024_
 
 <details>
 <summary><strong>What's this?</strong></summary>
