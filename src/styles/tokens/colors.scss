@@ -31,7 +31,7 @@
     --color-gray-12-static: #{$color-gray-light-12};
 }
 
-@mixin resp-light-colors {
+@mixin light-colors {
     --color-primary-1: #{$color-primary-light-1};
     --color-primary-2: #{$color-primary-light-2};
     --color-primary-3: #{$color-primary-light-3};
@@ -99,7 +99,7 @@
 :root {
     @include base-colors;
 
-    @include resp-light-colors;
+    @include light-colors;
 
 
     @media (prefers-color-scheme:dark) {
@@ -109,6 +109,6 @@
 .inverted {
     @include dark-colors;
     @media (prefers-color-scheme:dark) {
-        @include resp-light-colors;
+        @include light-colors;
     }
 }
