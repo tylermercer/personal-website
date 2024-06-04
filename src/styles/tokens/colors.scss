@@ -16,7 +16,6 @@
     --color-primary-11-static: #{$color-primary-light-11};
     --color-primary-12-static: #{$color-primary-light-12};
 
-// Right now the primary and gray colors are the same but this may change
     --color-gray-1-static: #{$color-gray-light-1};
     --color-gray-2-static: #{$color-gray-light-2};
     --color-gray-3-static: #{$color-gray-light-3};
@@ -45,7 +44,6 @@
     --color-primary-11: #{$color-primary-light-11};
     --color-primary-12: #{$color-primary-light-12};
 
-// Right now the primary and gray colors are the same but this may change
     --color-gray-1: #{$color-gray-light-1};
     --color-gray-2: #{$color-gray-light-2};
     --color-gray-3: #{$color-gray-light-3};
@@ -74,7 +72,6 @@
     --color-primary-11: #{$color-primary-dark-11};
     --color-primary-12: #{$color-primary-dark-12};
 
-// Right now the primary and gray colors are the same but this may change
     --color-gray-1:  #{$color-gray-dark-1};
     --color-gray-2:  #{$color-gray-dark-2};
     --color-gray-3:  #{$color-gray-dark-3};
@@ -98,10 +95,7 @@
 
 :root {
     @include base-colors;
-
     @include light-colors;
-
-
     @media (prefers-color-scheme:dark) {
         @include dark-colors;
     }
