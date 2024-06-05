@@ -15,15 +15,14 @@ doesn't
 [expose a privacy risk](https://github.com/WICG/scroll-to-text-fragment/issues/76).]
 I've actually popped open the browser DevTools on more than one occasion to see
 if a section heading in an article had an ID that I could link to---and often
-this is successful, because many CMS's output headings with an auto-generated id
-(usually in kebab-case, e.g. the heading "**My Heading**" would have the id
-`my-heading`).
+this is successful, because many content management systems output headings with
+an auto-generated id (usually in kebab-case, e.g. the heading "**My Heading**"
+would have the id `my-heading`).
 
-Today I finally got tired of needing to do this, so I decided to write a
-bookmarklet^[A [bookmarklet](https://en.wikipedia.org/wiki/Bookmarklet) is a
-small piece of JavaScript code that runs in a webpage when you click on a
-bookmark in your browser.] to make it easier to extract links for all
-`id`-bearing elements on the page. Here's the script:
+Yesterday I finally got tired of needing to do this manually, so I decided to
+write a bookmarklet^[A [bookmarklet](https://en.wikipedia.org/wiki/Bookmarklet)
+is a small piece of JavaScript code that runs in a webpage when you click on a
+bookmark in your browser.] for it. Here's the script:
 
 ```js
 (function () {
@@ -84,10 +83,8 @@ bookmark in your browser.] to make it easier to extract links for all
 })()
 ```
 
-And here's how that looks as a bookmarklet:
+**TODO: Breakdown**
 
-```
-
-```
+**TODO: provide bookmarklet as link**
 
 **TODO: finish post**
