@@ -7,7 +7,7 @@ export default
         descriptionItems: [
             "[Software engineer](/about/#software-design--engineering-ethos)",
             "[Explorer of agency thinking](https://innerhelm.com)",
-            "[Husband](https://www.instagram.com/evelynescobarte/)",
+            "[Husband](https://evelynescobar.art/)",
             "[Father](/posts/faith/a-different-kind-of-hello-world)",
             "[Follower of Jesus](/about/#my-faith)"
         ],
