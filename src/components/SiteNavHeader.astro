@@ -12,31 +12,23 @@ const { category } = Astro.props;
 const patternClass = category ? `u-pattern-${category.id}` : "";
 
 const isCurrent = (path: string) =>
-  trimTrailingSlash(Astro.url.pathname) === path;
+  trimTrailingSlash(Astro.url.pathname) === path ? "page" : undefined;
 ---
 
 <header class="site-nav-container u-guttered">
-  <nav class:list={['u-pattern', patternClass]}>
+  <nav class:list={["u-pattern", patternClass]}>
     <a class="skip-to-content-link" href="#main">Skip to Content</a>
     <a class="logo-link" aria-label="Home" href="/">
       <Logo />
     </a>
     <ul>
       <li>
-        <a
-          class="nav-link"
-          aria-current={isCurrent("/now") ? "page" : undefined}
-          href="/now"
-        >
+        <a class="nav-link" aria-current={isCurrent("/now")} href="/now">
           <span class="text"> Now</span>
         </a>
       </li>
       <li>
-        <a
-          class="nav-link"
-          aria-current={isCurrent("/about") ? "page" : undefined}
-          href="/about"
-        >
+        <a class="nav-link" aria-current={isCurrent("/about")} href="/about">
           <span class="text"> About</span>
         </a>
       </li>
