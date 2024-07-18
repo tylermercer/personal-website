@@ -112,11 +112,10 @@ export async function onRequestPost({ request, env }) {
               { email }
             ],
             dynamic_template_data: {
-              categories: categoriesString
             }
           }
         ],
-        from: { email: 'hello@tylermercer.net', name: 'Tyler Mercer' },
+        from: { email: 'hello@notes.evelynescobar.art', name: 'Evelyn Mercer' },
         template_id: env.SENDGRID_WELCOME_TEMPLATE_ID
       }),
     })

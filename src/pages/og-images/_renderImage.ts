@@ -37,7 +37,7 @@ const getHtml = (
             </div>
             <div class="bg-container ${growTitleBox ? '' : 'grow'}">
                 <div class="description">${unMarkdown(description)}</div>
-                ${hideDateline ? '' : `<div class="dateline">${date ? `${formatPostDate(date)} — ` : ''}Tyler Mercer</div>` }
+                ${hideDateline ? '' : `<div class="dateline">${date ? `${formatPostDate(date)} — ` : ''}Evelyn Mercer</div>` }
             </div>
         </div>
         `.trim());

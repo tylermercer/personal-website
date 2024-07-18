@@ -148,7 +148,7 @@ function processFeedData(feedData) {
 
 if (argv.prod) {
   // Read and process feed data from live site
-  fetch("https://tylermercer.net/feeds/feed.json").then(res => res.json()).then(processFeedData);
+  fetch("https://notes.evelynescobar.art/feeds/feed.json").then(res => res.json()).then(processFeedData);
 }
 else {
   processFeedData(JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'dist', 'feeds', 'feed.json'), 'utf8')));

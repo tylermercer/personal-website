@@ -7,7 +7,7 @@ import expressiveCode from "astro-expressive-code";
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://tylermercer.net',
+  site: 'https://notes.evelynescobar.art',
   markdown: {
     remarkPlugins: [[remarkFootnote, {
       inlineNotes: true

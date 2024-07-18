@@ -1,6 +1,6 @@
 ---
 title: About Me
-description: About Tyler Mercer
+description: About Evelyn Mercer
 ---
 
 Hi! I'm Tyler, a software engineer, web developer, and design enthusiast. I'm
