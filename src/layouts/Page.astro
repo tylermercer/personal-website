@@ -18,10 +18,15 @@ const patternClass = '';
     <h1 class:list={[ 'u-pattern', patternClass ]}>
         <span class="u-guttered">{ title }</span>
     </h1>
-    <div class="u-guttered">
+    <div class="u-guttered content">
         {description &&
             <PostDescription description={description}/>
         }
         <slot></slot>
     </div>
 </Layout>
+<style lang="scss">
+    .content {
+        padding-bottom: 2rem;
+    }
+</style>
