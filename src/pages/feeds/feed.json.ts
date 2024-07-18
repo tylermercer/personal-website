@@ -6,6 +6,7 @@ import sortByDate from "../../utils/sortByDate";
 import filterOutDraftsIfProduction from "../../utils/filterOutDraftsIfProduction";
 import getCategory from "../../utils/getCategory";
 import renderMarkdown from "../../utils/renderMarkdown";
+import combineDescriptionItems from '../../utils/combineDescriptionItems';
 
 export async function GET(context) {
     const blog = sortByDate(filterOutDraftsIfProduction(await getCollection('posts')));
@@ -25,7 +26,7 @@ export async function GET(context) {
             title: metadata.title,
             home_page_url: context.site,
             feed_url: context.url,
-            description: metadata.description,
+            description: combineDescriptionItems(metadata.descriptionItems),
             author: metadata.author,
             items,
         }));
