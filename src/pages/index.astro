@@ -11,6 +11,7 @@ import labelDrafts from "../utils/labelDrafts";
 import renderInlineMarkdown from "../utils/renderInlineMarkdown";
 import sortByDate from "../utils/sortByDate";
 import PostCard from "../components/PostCard.astro";
+import * as aboutPage from '../content/pages/about.md';
 
 const { title, descriptionItems } = metadata;
 
@@ -24,6 +25,10 @@ const posts = labelDrafts(
 
 const featuredPost = filterOutDraftsIfProduction(sortByDate(allPosts))
     .find(p => p.data.featured)
+
+const aboutHtml = aboutPage.compiledContent();
+
+const aboutHtmlBeforeFirstH2 = aboutHtml.slice(0,aboutHtml.indexOf('<h2')); 
 ---
 
 <Layout title={title} description={description} ogImagePath="/home">
@@ -55,6 +60,10 @@ const featuredPost = filterOutDraftsIfProduction(sortByDate(allPosts))
             <h2>Latest Posts</h2>
             <PostList posts={posts} />
             <p><a href="/posts/2">Older posts →</a></p>
+        </div>
+        <div class="sidebar">
+            <h2>About Me</h2>
+            <Fragment set:html={aboutHtmlBeforeFirstH2} />
         </div>
     </div>
     <!-- <hr>
