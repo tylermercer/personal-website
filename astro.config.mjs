@@ -1,5 +1,4 @@
 import { defineConfig } from 'astro/config';
-import remarkFootnote from 'remark-footnotes';
 import remarkEmdash from './src/plugins/remark/emdash';
 import mdx from "@astrojs/mdx";
 
@@ -9,9 +8,7 @@ import expressiveCode from "astro-expressive-code";
 export default defineConfig({
   site: 'https://notes.evelynescobar.art',
   markdown: {
-    remarkPlugins: [[remarkFootnote, {
-      inlineNotes: true
-    }], remarkEmdash],
+    remarkPlugins: [remarkEmdash],
   },
   integrations: [expressiveCode({
     themes: ['material-theme-ocean'],
