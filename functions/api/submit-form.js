@@ -4,12 +4,6 @@ const validateEmail = (email) => {
   );
 };
 
-const categoryLabels = {
-  category_faith: 'Faith',
-  category_software: 'Software',
-  category_uncategorized: 'Other'
-};
-
 
 export async function onRequestPost({ request, env }) {
   console.log("Called");
@@ -17,8 +11,6 @@ export async function onRequestPost({ request, env }) {
   let fromJs = !!request.headers.get('X-From-JS');
 
   const formatter = new Intl.ListFormat('en', { style: 'long', type: 'conjunction' });
-
-  const defaults = { category_faith: 'no', category_software: 'no', category_uncategorized: 'no' };
 
   const email = formData.get('email_address');
 
@@ -31,24 +23,10 @@ export async function onRequestPost({ request, env }) {
     });
   }
 
-  const categoryEntries =
-    Array.from(formData.entries())
-      .filter(e => e[0].startsWith('category_'));
-
-
-  if (!categoryEntries.some(e => e[1] === 'yes')) {
-    return new Response(JSON.stringify({ error: 'Must subscribe to at least one category' }), {
-      status: 400,
-      headers: {
-        'Content-Type': 'application/json;charset=utf-8',
-      },
-    });
-  }
   console.log("Validated");
 
   const custom_fields = {
     ...defaults,
-    ...Object.fromEntries(categoryEntries)
   }
 
   const sendgridApiKey = env.SENDGRID_API_KEY;
@@ -89,12 +67,6 @@ export async function onRequestPost({ request, env }) {
   }
 
   console.log("Contact added");
-
-  const categoriesString = Object.entries(custom_fields).some(e => e[1] === 'no') ?
-    formatter.format(categoryEntries.map(e => categoryLabels[e[0]])) :
-    '';
-
-  console.log(categoriesString);
 
   // Send the email to the added contact
   const sendEmailResponse = await fetch(

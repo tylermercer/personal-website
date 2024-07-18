@@ -12,12 +12,11 @@ import getPostDate from "../utils/getPostDate";
 
 export type Props = {
   post: WithNextAndPrev<CollectionEntry<"posts">>;
-  category?: CollectionEntry<"categories">;
 };
 
 const READING_RATE = 235;
 
-const { post: postWithNextAndPrev, category } = Astro.props;
+const { post: postWithNextAndPrev } = Astro.props;
 
 const { item: post, next, prev } = postWithNextAndPrev;
 
@@ -29,7 +28,7 @@ const url = Astro.url;
 
 const date = getPostDate(post);
 
-const patternClass = category ? `u-pattern-${category.id}` : "";
+const patternClass = "";
 
 const wordCount = countWords(post.body);
 const readingTime = Math.round(wordCount / READING_RATE) || 1;
@@ -42,7 +41,6 @@ const ogImagePath = `/posts/${post.slug}`;
   title={post.data.title}
   description={post.data.description}
   ogImagePath={ogImagePath}
-  category={category}
 >
   <h1 class:list={["u-pattern", patternClass]}>
     <span class="u-guttered">{post.data.title}</span>
@@ -55,17 +53,6 @@ const ogImagePath = `/posts/${post.slug}`;
     }
     <p class="u-slub">
       <time datetime={date.toISOString()}>{formatPostDate(date)}</time>
-      {
-        category && (
-          <span>
-            {" "}
-            in{" "}
-            <a href={`/posts/${category.id}/1`}>
-              {category.data.title}
-            </a>
-          </span>
-        )
-      }
       <span> &mdash;</span>
       {wordCount} words &mdash; {readingTime} min read
     </p>

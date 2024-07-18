@@ -5,16 +5,15 @@ import PostList from '../components/PostList.astro';
 import NextPrevLinks from '../components/NextPrevLinks.astro';
 
 export type Props = {
-    category: CollectionEntry<'categories'>,
     paginatedPosts: CollectionEntry<'posts'>[],
     nextPageUrl: string,
     previousPageUrl: string,
     ogImagePath?: string,
 }
 
-const { category, nextPageUrl, previousPageUrl, paginatedPosts, ogImagePath: ogImagePathRaw } = Astro.props;
+const { nextPageUrl, previousPageUrl, paginatedPosts, ogImagePath: ogImagePathRaw } = Astro.props;
 
-const ogImagePath = ogImagePathRaw ?? `/categories/${category.id}`;
+const ogImagePath = ogImagePathRaw ?? `/home`;
 
 const previous = previousPageUrl ? {
     label: "← Newer posts",
@@ -25,7 +24,7 @@ const next = nextPageUrl ? {
     path: nextPageUrl
 } : undefined;
 ---
-<Layout title={category.data.title} description={category.data.description} category={category} ogImagePath={ogImagePath}>
+<Layout title="All Posts" description="My writings and thoughts" ogImagePath={ogImagePath}>
     <PostList posts={paginatedPosts}/>
     <NextPrevLinks next={next} previous={previous}/>
 </Layout>

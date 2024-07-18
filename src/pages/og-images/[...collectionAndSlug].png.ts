@@ -4,7 +4,6 @@ import type { APIRoute } from "astro";
 import sortByDate from "../../utils/sortByDate";
 import filterOutDraftsIfProduction from "../../utils/filterOutDraftsIfProduction";
 import labelDrafts from "../../utils/labelDrafts";
-import getCategory from "../../utils/getCategory";
 import { renderImage } from "./_renderImage";
 
 export async function getStaticPaths() {
@@ -22,10 +21,8 @@ export const GET: APIRoute = async ({ params }) => {
     const [collection, slug] = params.collectionAndSlug!.split(/\/(.*)/s);
 
     const entry = await getEntryBySlug(collection as unknown as ContentCollectionKey, slug!!) as CollectionEntry<'posts'> | CollectionEntry<'pages'>;
-    const category = (collection === 'posts') ? await getCategory(entry as CollectionEntry<'posts'>) : undefined;
 
     return await renderImage({
         ...entry.data,
-        category: category?.id
     });
 }

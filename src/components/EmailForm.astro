@@ -24,26 +24,6 @@ const { class: className, ...rest } = Astro.props;
 		</div>
 		<div class="controls">
 			<button data-element="submit" type="submit">Subscribe</button>
-			<details>
-				<summary>Preferences</summary>
-				<label>
-					<input type="checkbox" name="category_faith" value="yes" checked />
-					 Faith Posts
-				</label>
-				<label>
-					<input type="checkbox" name="category_software" value="yes" checked />
-					 Software Posts
-				</label>
-				<label>
-					<input
-						type="checkbox"
-						name="category_uncategorized"
-						value="yes"
-						checked
-					/>
-					 Other Posts
-				</label>
-			</details>
 		</div>
 	</form>
 	<div role="status">
@@ -90,18 +70,6 @@ const { class: className, ...rest } = Astro.props;
 			}
 
 			const formData = new FormData(form);
-
-			const categoryEntries = Array.from(formData.entries()).filter((e) =>
-				e[0].startsWith("category_"),
-			);
-
-			if (!categoryEntries.some((e) => e[1] === "yes")) {
-				error.hidden = false;
-				button.disabled = false;
-				button.innerText = "Subscribe";
-				error.innerText = "Must subscribe to at least one category";
-				return;
-			}
 
 			input.disabled = true;
 			var res = await fetch(form.action, {

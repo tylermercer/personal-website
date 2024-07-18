@@ -37,17 +37,9 @@ function processFeedData(feedData) {
   
     client.setApiKey(process.env.SENDGRID_API_KEY);
   
-    const segments = {
-      'uncategorized': process.env.SENDGRID_SEGMENT_UNCATEGORIZED,
-      'software': process.env.SENDGRID_SEGMENT_SOFTWARE,
-      'faith': process.env.SENDGRID_SEGMENT_FAITH,
-    }
+    const segment = process.env.SENDGRID_SEGMENT_EVELYN;
   
-    const unsubGroups = {
-      'uncategorized': +process.env.SENDGRID_UG_UNCATEGORIZED,
-      'software': +process.env.SENDGRID_UG_SOFTWARE,
-      'faith': +process.env.SENDGRID_UG_FAITH,
-    }
+    const unsubGroup = +process.env.SENGRID_UG_EVELYN;
 
     const senderId = +process.env.SENDGRID_SENDER_ID;
   
@@ -100,10 +92,10 @@ function processFeedData(feedData) {
           generate_plain_content: true,
           subject: '[New Post] ' + latestPost.title,
           sender_id: senderId,
-          suppression_group_id: unsubGroups[latestPost.category]
+          suppression_group_id: unsubGroup
         },
         send_to: {
-          segment_ids: [ segments[latestPost.category] ]
+          segment_ids: [ segment ]
         },
         sent_at: 'now',
         status: 'triggered'

@@ -7,15 +7,14 @@ export type Props = {
     title: string
     description: string
     ogImagePath: string
-    category?: CollectionEntry<'categories'>
 }
 
-const { title, description, category, ogImagePath } = Astro.props;
+const { title, description, ogImagePath } = Astro.props;
 
-const patternClass = category ? `u-pattern-${category.id}` : '';
+const patternClass = '';
 ---
 
-<Layout title={title} description={description} ogImagePath={ogImagePath} category={category}>
+<Layout title={title} description={description} ogImagePath={ogImagePath}>
     <h1 class:list={[ 'u-pattern', patternClass ]}>
         <span class="u-guttered">{ title }</span>
     </h1>

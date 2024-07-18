@@ -22,8 +22,6 @@ const posts = labelDrafts(
     firstFive(filterOutDraftsIfProduction(sortByDate(allPosts))),
 );
 
-const categories = await getCollection("categories");
-
 const featuredPost = filterOutDraftsIfProduction(sortByDate(allPosts))
     .find(p => p.data.featured)
 ---
@@ -57,25 +55,6 @@ const featuredPost = filterOutDraftsIfProduction(sortByDate(allPosts))
             <h2>Latest Posts</h2>
             <PostList posts={posts} />
             <p><a href="/posts/2">Older posts →</a></p>
-        </div>
-        <div class="sidebar">
-            <h2>Collections</h2>
-            <div class="collections">
-                {
-                    categories.map((c) => (
-                        <div class="collection">
-                            <h3 class:list={["u-pattern", `u-pattern-${c.id}`]}>
-                                <a href={`/posts/${c.id}/1`}>{c.data.title}</a>
-                            </h3>
-                            <p
-                                set:html={renderInlineMarkdown(
-                                    c.data.description,
-                                )}
-                            />
-                        </div>
-                    ))
-                }
-            </div>
         </div>
     </div>
     <!-- <hr>

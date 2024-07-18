@@ -1,15 +1,8 @@
 ---
-import type { CollectionEntry } from "astro:content";
 import trimTrailingSlash from "../utils/trimTrailingSlash";
 import Logo from "./Logo.astro";
 
-export type Props = {
-  category?: CollectionEntry<"categories">;
-};
-
-const { category } = Astro.props;
-
-const patternClass = category ? `u-pattern-${category.id}` : "";
+const patternClass = "";
 
 const isCurrent = (path: string) =>
   trimTrailingSlash(Astro.url.pathname) === path ? "page" : undefined;
