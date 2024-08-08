@@ -8,8 +8,10 @@ date: 2024-02-22 12:00:00
 <summary class="h4">TL;DR</summary>
 
 ```bash
-git clone -n --depth=1 --filter=tree:0 <your-repo-git-url>
-git sparse-checkout set path/to/desired/folder
+git clone -n --depth=1 --no-checkout --filter=tree:0 <your-repo-git-url>
+cd your-new-repo-folder
+git sparse-checkout set --no-cone path/to/desired/folder
+git checkout
 ```
 
 </details>
@@ -52,7 +54,7 @@ There are two commands you'll need to run. Let's break down each of them.
 ## Step 1: Clone the repository
 
 ```bash
-git clone -n --depth=1 --filter=tree:0 <your-repo-url>
+git clone -n --depth=1 --no-checkout --filter=tree:0 <your-repo-git-url>
 ```
 
 This isn't your standard-issue git clone command. Here we use `--filter` to
@@ -70,8 +72,10 @@ example, in my case, I used
 
 ## Step 2: Checkout the directory you want
 
+`cd` into the newly-created directory for your repo. Then run the following command:
+
 ```bash
-git sparse-checkout set path/to/a/folder path/to/another/folder
+git sparse-checkout set --no-cone path/to/desired/folder && git checkout
 ```
 
 This one uses
@@ -98,3 +102,11 @@ parent directories, which may be a downside for some use cases, such as mine. It
 would be great if I could just have a `personal-website` folder containing the
 contents of my `content` folder, right alongside the `.git` directory. Maybe git
 will someday add that ability. But until then, this works well enough for me.
+
+---
+
+## Changelog
+
+* **2024-08-07:** Added `--no-cone` and `--no-checkout` flags, and final `git checkout`
+ command. These proved necessary when doing this process for a new repo today, probably due
+ to changes in git since this article was written.
