@@ -1,12 +1,14 @@
+import cloudflare from '@astrojs/cloudflare';
+import mdx from "@astrojs/mdx";
+import expressiveCode from "astro-expressive-code";
 import { defineConfig } from 'astro/config';
 import remarkFootnote from 'remark-footnotes';
 import remarkEmdash from './src/plugins/remark/emdash';
-import mdx from "@astrojs/mdx";
-
-import expressiveCode from "astro-expressive-code";
 
 // https://astro.build/config
 export default defineConfig({
+  output: 'hybrid',
+  adapter: cloudflare(),
   site: 'https://tylermercer.net',
   markdown: {
     remarkPlugins: [[remarkFootnote, {
@@ -20,8 +22,14 @@ export default defineConfig({
     }
   }), mdx()],
   vite: {
-    plugins: [rawFonts(['.woff'])]
-  }
+    plugins: [rawFonts(['.woff'])],
+    ssr: {
+      external: [
+        'markdown-it',
+        'sharp',
+      ]
+    }
+  },
 });
 function rawFonts(ext) {
   return {
@@ -34,6 +42,6 @@ function rawFonts(ext) {
           map: null
         };
       }
-    }
+    },
   };
 }
