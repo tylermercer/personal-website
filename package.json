@@ -6,7 +6,6 @@
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build",
-    "postbuild": "copy-folder functions dist/functions && echo 'Copied functions to dist'",
     "preview": "astro preview",
     "astro": "astro",
     "send-email:dev": "node ./newsletter/send-email.cjs",
