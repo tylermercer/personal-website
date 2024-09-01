@@ -1,17 +1,14 @@
-const validateEmail = (email) => {
-  return email.match(
-    /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
-  );
-};
+import type { APIRoute } from "astro";
 
-const categoryLabels = {
+const categoryLabels: Record<string, string> = {
   category_faith: 'Faith',
   category_software: 'Software',
   category_uncategorized: 'Other'
 };
 
+export const prerender = false;
 
-export async function onRequestPost({ request, env }) {
+export const POST: APIRoute = async ({ request, locals }) => {
   console.log("Called");
   let formData = await request.formData();
   let fromJs = !!request.headers.get('X-From-JS');
@@ -22,7 +19,7 @@ export async function onRequestPost({ request, env }) {
 
   const email = formData.get('email_address');
 
-  if (!validateEmail(email)) {
+  if (!fromJs || !validateEmail(email)) {
     return new Response(JSON.stringify({ error: 'Invalid email address' }), {
       status: 400,
       headers: {
@@ -51,7 +48,7 @@ export async function onRequestPost({ request, env }) {
     ...Object.fromEntries(categoryEntries)
   }
 
-  const sendgridApiKey = env.SENDGRID_API_KEY;
+  const sendgridApiKey = locals.runtime.env.SENDGRID_API_KEY;
 
   // Send the Fetch request to SendGrid
   const addContactResponse = await fetch(
@@ -72,7 +69,7 @@ export async function onRequestPost({ request, env }) {
       }),
     })
     .then(async r => ({ ok: r.ok, body: await r.json() }))
-    .catch(() => ({ ok: false }));
+    .catch((e) => ({ ok: false, body: e }));
 
   console.log("Contact added");
 
@@ -117,11 +114,11 @@ export async function onRequestPost({ request, env }) {
           }
         ],
         from: { email: 'hello@tylermercer.net', name: 'Tyler Mercer' },
-        template_id: env.SENDGRID_WELCOME_TEMPLATE_ID
+        template_id: locals.runtime.env.SENDGRID_WELCOME_TEMPLATE_ID
       }),
     })
-    .then(async r => ({ ok: r.ok }))
-    .catch(() => ({ ok: false }));
+    .then(async r => ({ ok: r.ok, body: r.body }))
+    .catch((e) => ({ ok: false, body: e }));
 
   console.log("Email sent");
 
@@ -144,3 +141,9 @@ export async function onRequestPost({ request, env }) {
     }
   });
 }
+
+function validateEmail(email: FormDataEntryValue | null) {
+  return email != null && typeof email === 'string' && email.match(
+      /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
+  );
+};
