@@ -22,14 +22,14 @@ myth, and an idea that should be discarded.
 Scripture, on the other hand, is replete with passages emphasizing the reality
 and importance of free will. The Old Testament prophet Joshua adjured the
 Israelites to "choose you this day whom ye will
-serve."^[[Josh. 24:15](https://www.churchofjesuschrist.org/study/scriptures/ot/josh/24?lang=eng&id=p15#p15)]
+serve."[^josh-24:15]
 Jesus spoke of how Mary had "chosen that good
-part."^[[Luke 10:42](https://www.churchofjesuschrist.org/study/scriptures/nt/luke/10?id=42#p42)]
+part."[^luke-10:42]
 Later He chastened those who were indecisive in following Him: "I know thy
 works, that thou art neither cold nor hot: I would thou wert cold or hot. So
 then because thou art lukewarm, and neither cold nor hot, I will spue thee out
 of my
-mouth."^[[Rev. 3:15-16](https://www.churchofjesuschrist.org/study/scriptures/nt/rev/3?lang=eng&id=p15-p16#p15)]
+mouth."[^rev-3:15-16]
 
 But perhaps the greatest exposition on the subject of human agency in Latter-Day
 Saint scripture is
@@ -64,3 +64,9 @@ being explained by the given stimulus, but we choose our response nonetheless.
 
 This connects to several other things I've been considering lately as well; I
 will write my thoughts about those things in future posts.
+
+[^josh-24:15]: [Josh. 24:15](https://www.churchofjesuschrist.org/study/scriptures/ot/josh/24?lang=eng&id=p15#p15)
+
+[^luke-10:42]: [Luke 10:42](https://www.churchofjesuschrist.org/study/scriptures/nt/luke/10?id=42#p42)
+
+[^rev-3:15-16]: [Rev. 3:15-16](https://www.churchofjesuschrist.org/study/scriptures/nt/rev/3?lang=eng&id=p15-p16#p15)
