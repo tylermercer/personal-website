@@ -5,8 +5,7 @@ description: About Tyler Mercer
 
 Hi! I'm Tyler, a software engineer, web developer, and design enthusiast. I'm
 currently working at [Lucid](https://lucid.co/) as a senior software
-engineer.^[The opinions and views expressed on this site are my own and don’t
-necessarily reflect those of Lucid.]
+engineer.[^lucid]
 
 This website is where I share my thoughts about various subjects, most notably
 [software design and development](/posts/software/) and
@@ -20,7 +19,7 @@ individual and community level.
 My approach to software design at the product level most closely aligns with
 "libertarian paternalism," as described by Richard H. Thaler and Cass R.
 Sunstein in
-_Nudge_^[_Nudge: The Final Edition: Improving Decisions About Money, Health, and Happiness_, 2021]:
+_Nudge_[^nudge]:
 
 > Our goal, in short, is to help people make the choices that they would have
 > made if they had paid full attention and possessed complete information,
@@ -43,13 +42,11 @@ _is_ the best tool to achieve the goals of my projects--to reach people on every
 platform, without being restricted by oppressive app-store policies and fees,
 and to contribute to an open, accessible, performant, and truly _worldwide_ web.
 The web is _the single greatest tool for communication and creativity ever
-invented by mankind_^[I plan to write more about this someday], and is
+invented by mankind_[^web-creativity], and is
 _inherently widely accessible_--all you need is a web browser. It's also
 distributed by design and governed by open standards rather than by a large
 corporate organization. You won't find any other widely-used development
-platform with those characteristics.^[Chris Coyier shares some great thoughts
-about these concepts in
-[this article](https://chriscoyier.net/2023/01/04/what-does-it-look-like-for-the-web-to-lose/).]
+platform with those characteristics.[^coyier-web]
 
 ## My Faith
 
@@ -82,3 +79,14 @@ deployed.
 ## Contact Me
 
 If you'd like to get in touch, you can [contact me here](/contact/).
+
+[^lucid]: The opinions and views expressed on this site are my own and don’t
+necessarily reflect those of Lucid.
+
+[^nudge]: _Nudge: The Final Edition: Improving Decisions About Money, Health, and Happiness_, 2021
+
+[^web-creativity]: I plan to write more about this someday
+
+[^coyier-web]: Chris Coyier shares some great thoughts
+about these concepts in
+[this article](https://chriscoyier.net/2023/01/04/what-does-it-look-like-for-the-web-to-lose/).
