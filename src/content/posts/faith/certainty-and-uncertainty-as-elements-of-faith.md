@@ -19,18 +19,9 @@ ended up needing to adopt? How would we afford it? When should we decide to
 focus on adoption instead of fertility treatments?
 
 Above all, what about the promises the Lord had made to us? Both of our
-patriarchal blessings^[A
-[patriarchal blessing](https://history.churchofjesuschrist.org/faq/library/patriarchal-blessings?lang=eng)
-is a blessing, or inspired declaration, given to each worthy member of the
-Church of Jesus Christ of Latter-day Saints, by the authority of God (called the
-priesthood). A patriarchal blessing typically includes statements about a
-person's future spiritual experiences, as well as providing insight into the
-person's spiritual gifts (attributes such as faith or wisdom, given to a person
-to benefit others) and declaring their lineage among the descendants of one of
-the twelve sons of the biblical Israel.] mention us having children, and in the
-covenant^[A covenant is a two-way promise between God and a human or humans,
-with conditions set forth by Him in His love and mercy.] given to
-Abraham,^[See"[Abrahamic Covenant](https://www.churchofjesuschrist.org/study/manual/gospel-topics/abrahamic-covenant?lang=eng)"]
+patriarchal blessings[^patriarchal-blessings] mention us having children, and in the
+covenant[^covenants] given to
+Abraham,[^abrahamic-covenant]
 we are promised posterity.[^abrahamic-covenant-posterity] We believed that God
 would bless us with children. But I began to wonder if my faith was
 insufficient. There are many scriptures that connect miracles with faith. For
@@ -60,22 +51,12 @@ an inability to exert more faith.[^faith-and-hope]
 
 Around the time we were grappling with these concerns, my wife and I read
 ["Accepting the Lord's Will and Timing"](https://www.churchofjesuschrist.org/study/liahona/2016/08/accepting-the-lords-will-and-timing?lang=eng),
-an article by Elder David A. Bednar.^[ We came across this article through the
-[_Come, Follow Me_ study guide for Matthew 8, Mark 2–4, and Luke 7](https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-individuals-and-families-new-testament-2023/10?lang=eng)
-] This article started a journey of discovery for us through which we learned
+an article by Elder David A. Bednar.[^bednar-article] This article started a journey of discovery for us through which we learned
 that we had been thinking about faith the wrong way.
 
 In the article, Elder Bednar tells a heart-wrenching story of a newly-married
 young man named John, who was diagnosed with cancer. He asked Elder Bednar to
-give him a blessing.^[In the Church of Jesus Christ of Latter-Day Saints,
-blessings are often given for purposes of healing the sick or providing counsel
-or comfort. These blessings are typically given at the request of the person in
-need, and are given by the laying on of hands, as described in the Bible (e.g.
-in
-[Mark 16:17-18](https://www.churchofjesuschrist.org/study/scriptures/nt/mark/16?lang=eng&id=17-18#p17)
-and
-[Acts 28:8](https://www.churchofjesuschrist.org/study/scriptures/nt/acts/28.8?lang=eng#p8)).
-] As Elder Bednar talked with him, he felt inspired to ask John an unexpected
+give him a blessing.[^blessings] As Elder Bednar talked with him, he felt inspired to ask John an unexpected
 question:
 
 > “John, do you have the faith not to be healed? If it is the will of our
@@ -162,8 +143,7 @@ _also_ did all of the things mentioned in that verse:
 
 However, Enos specifically says he and his fellow missionaries were
 _unsuccessful_ in their attempts to teach the then-unbelieving
-Lamanites.^[[Verse 20](https://www.churchofjesuschrist.org/study/scriptures/bofm/enos/1?lang=eng&id=p20#p20):
-"But our labors were vain"] The promise in Alma 26 wasn't fulfilled for Enos
+Lamanites.[^enos-but-our-labors-were-vain] The promise in Alma 26 wasn't fulfilled for Enos
 until 330 years later (which, ironically, was the occasion for the great teacher
 Ammon uttering the words previously quoted from Alma 26). Clearly, there is
 uncertainty about how and when this promise is fulfilled.
@@ -208,7 +188,7 @@ I learned that I needed to cultivate both the willingness to admit what I did
 not know and the courage to firmly believe in what God had promised. The
 interaction between these two seemingly-opposed ideas is a delicate one, of the
 kind that Ross Ellenhorn refers to as a _both-and
-proposition_,^[[_How We Change (And Ten Reasons Why We Don't)_](https://www.harpercollins.com/products/how-we-change-ross-ellenhorn)]
+proposition_,[^ellenhorn]
 as opposed to an either-or proposition. I needed _both_ firm belief _and_ the
 ability to acknowledge uncertainty if I was to have effectual faith in the Lord
 and His promises.
@@ -253,8 +233,7 @@ put these uncertainties on a metaphorical "shelf" for later resolution. While
 this shelf idea is useful, it is equally useful to instead take God at His word
 when He says "if any of you lack wisdom, let him ask of God, that giveth to all
 men [and women] liberally, and upbraideth not, and it shall be given
-him."^[[James
-1:5](https://www.churchofjesuschrist.org/study/scriptures/nt/james/1?lang=eng&id=p5#p5)]
+him."[^james-1:5]
 This is particularly true in the Church of Jesus Christ of Latter-day
 Saints---one of our fundamental tenets is that the heavens are not closed. To
 quote
@@ -273,8 +252,7 @@ simply witness His will as events proceed, rather than revealing what will
 happen in detail to us beforehand. Our desiring that the future be revealed to
 us "up front" can easily become a stipulation on our continued faithful action.
 This is, ironically, a mindset of
-doubt:^[["When Doubts and Questions Arise,"](https://www.churchofjesuschrist.org/study/ensign/2015/03/when-doubts-and-questions-arise?lang=eng)
-March 2015 Ensign]
+doubt:[^doubt]
 
 > [W]hen people doubt their beliefs, they often suspend their commitment to
 > commandments and covenants while waiting for answers. The doubter’s posture is
@@ -299,15 +277,12 @@ self-limitation happens in at least two ways.
 
 First, we are simply _less capable_ when we are acting upon falsehoods. If, for
 example, I buy into "get rich quick" schemes, or prosperity
-theology,^[[Prosperity theology](https://en.wikipedia.org/wiki/Prosperity_theology)
-is the false belief that material wealth is always the will of God for His
-followers.] and make investment decisions based on that false belief, my
+theology,[^prosperity-theology] and make investment decisions based on that false belief, my
 financial growth, and my current and future freedom, would be restricted.
 Another example is negative stereotypes---if I have false negative beliefs about
 a particular group of people, I am likely to judge people from that group
 incorrectly, falling into "us-vs-them"
-thinking.^[See ["Them and Us,"](https://speeches.byu.edu/talks/elaine-l-jack/us/)
-a devotional address by Elaine L. Jack] This would prevent me from forming
+thinking.[^them-and-us] This would prevent me from forming
 rewarding relationships with people from that group, would inhibit my personal
 growth and learning, and could lead to me being hostile or harmful towards that
 group.
@@ -328,14 +303,14 @@ us to reject God's word and His prophets. The scriptures contain many examples
 of this: from the self-assured Pharisees, mentioned previously; to the Nephites
 in the time preceding Jesus' visit to the Americas, who relied on their own
 wisdom to conclude that "it is not reasonable that such a being as Christ shall
-come."^[[Helaman 16:18](https://www.churchofjesuschrist.org/study/scriptures/bofm/hel/16?lang=eng&id=p18#p18)]
+come."[^helaman-16:18]
 Ultimately, of course, these people were proven wrong, their false certainty
 shaken by truth with which it was incongruent.
 
 Ironically, a position of false certainty feels secure when we firmly assert our
 belief, but, when our experience refutes them, we find that we have built upon a
 shaky foundation. The ancient prophet Jacob warned against
-this:^[[2 Nephi 28:28](https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/28?lang=eng&id=p28#p28)]
+this:[^2-nephi-28:28]
 
 > And in fine, wo unto all those who tremble, and are angry because of the truth
 > of God! For behold, he that is built upon the rock receiveth it with gladness;
@@ -344,7 +319,7 @@ this:^[[2 Nephi 28:28](https://www.churchofjesuschrist.org/study/scriptures/bofm
 It's counterintuitive, but false certainty's "sandy" nature means that it's only
 through _acknowledging uncertainty_ that we can dig deep enough to reach the
 firm, bedrock foundation of Jesus Christ and His
-gospel.^[See [Helaman 5:12](https://www.churchofjesuschrist.org/study/scriptures/bofm/hel/5?lang=eng&id=p12#p12)]
+gospel.[^helaman-5:12]
 
 ## Exercising Faith with Humility
 
@@ -382,12 +357,11 @@ can avoid building on a sandy foundation of false certainty.
 Meekness, according to Elder David A. Bednar, "is a defining attribute of the
 Redeemer and is distinguished by righteous responsiveness, willing
 submissiveness, and strong
-self-restraint."^[["Meek and Lowly in Heart"](https://www.churchofjesuschrist.org/study/general-conference/2018/04/meek-and-lowly-of-heart?lang=eng)]
+self-restraint."[^bednar-meekness]
 Each of these characteristics supports our effectual faith, but I think Elder
 Uchtdorf's point is that meekness is not just a "nice-to-have" when it comes to
 faith. The ancient prophet Mormon seemed to
-agree:^[[Moroni 7:42-43](https://www.churchofjesuschrist.org/study/scriptures/bofm/moro/7?lang=eng&id=p42-p43#p42),
-emphasis mine.]
+agree:[^moroni-7:42-43]
 
 > 42 And again, behold I say unto you that [someone] **cannot** have faith and
 > hope, save [or unless] he shall be meek, and lowly of heart.
@@ -399,13 +373,13 @@ emphasis mine.]
 faith. I believe this has more to do with the inherent nature of faith than with
 God being particular about how we exercise it. Certainly, as the apostle James
 wrote, "God resisteth the
-proud,"^[[James 4:6](https://www.churchofjesuschrist.org/study/scriptures/nt/james/4?lang=eng&id=p6#p6)]
+proud,"[^james-4:6]
 but, perhaps more significantly, _the proud resist God_. When we seek to hold
 firmly to something that is not true, in essence demanding that it be true, we
 unwittingly fall into pride. Faith, on the other hand, is the meek submission of
 our will and mind (wherein we lack justification) to God's will and mind (from
 which we learn truth, thus forming the _unjustified true belief_ discussed
-earlier). In the words of Jacob:^[[Jacob 4:10](https://www.churchofjesuschrist.org/study/scriptures/bofm/jacob/4?lang=eng&id=p10#p10)]
+earlier). In the words of Jacob:[^jacob-4:10]
 
 > Wherefore, brethren, seek not to counsel the Lord, but to take counsel from
 > his hand.
@@ -421,7 +395,7 @@ faith in the scriptures.
 Nephi, when asked by an angel whether he knew "the condescension of God",
 replied "I know that he loveth his children; nevertheless, I do not know the
 meaning of all
-things."^[[1 Nephi 11:17](https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/11?lang=eng&id=p17#p17)]
+things."[^1-nephi-11:17]
 He acknowledged what he did not know (the condescension of God) while holding to
 what _had_ been revealed to him (God's love for His children).
 
@@ -433,16 +407,12 @@ eventually redeem the Lamanites, but I don't know when or how, and that's ok."
 
 Even after he had lost his family, his livestock, and his property, Job
 faithfully declared, "Though [God] slay me, yet will I trust in
-Him."^[[Job 13:15](https://www.churchofjesuschrist.org/study/scriptures/ot/job/13?lang=eng&id=p15#p15)]
-
-But the most significant example of meek, submissive faith is found in Jesus
+Him."[^job-13:35] submissive faith is found in Jesus
 Christ Himself. At the apex of His mortal ministry, when He was about to suffer
 the sins, pain, sickness, and sorrows of all
-humankind,^[See [Alma 7:11-12](https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/7?lang=eng&id=p11-p12#p11)]
+humankind,[^alma-7:11-12]
 He deferred humbly to His Father's will and
-knowledge:^[[Matthew 26:39](https://www.churchofjesuschrist.org/study/scriptures/nt/matt/26?lang=eng&id=p39#p39).
-See also
-[Luke 22:42](https://www.churchofjesuschrist.org/study/scriptures/nt/luke/22?lang=eng&id=p42#p42).]
+knowledge:[^matt-26:39-luke-22:42]
 
 > O my Father, if it be possible, let this cup pass from me: nevertheless not as
 > I will, but as thou wilt.
@@ -459,18 +429,18 @@ this pattern in our own lives:
 * Someone who seeks to be married but has not received that blessing yet might
   say, "I don't know when or how I will have the opportunity to marry, but I
   know God has promised that 'no blessings will be withheld from His faithful
-  Saints.'"^[["Celestial Marriage", by then-Elder Russell M. Nelson](https://www.churchofjesuschrist.org/study/general-conference/2008/10/celestial-marriage?lang=eng&id=p23#p23)]
+  Saints.'"[^celestial-marriage]
 * Someone who struggles with the Church's former policy of not conferring the
   priesthood upon Black members might say, "I don't know why the Priesthood was
   not given to Blacks for a time in this dispensation, but I know that God
   'denieth none that come unto him, black and white, bond and free, male and
-  female.'"^[[2 Nephi 26:33](https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/26?lang=eng&id=p33#p33)]
+  female.'"[^2-nephi-26:33]
 * Someone in John and Heather's situation, discussed earlier---facing uncertain
   health outcomes and possibly even death---might faithfully declare, "I don't
   know whether I will be healed or not, but I know that 'all things have been
   done in the wisdom of Him who knoweth all things' and that 'there shall be a
   resurrection of the dead, both of the just and
-  unjust'"^[[2 Nephi 2:24](https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/2?lang=eng&id=p24#p24)]^[[Acts 24:15](https://www.churchofjesuschrist.org/study/scriptures/nt/acts/24?lang=eng&id=15#p15)]
+  unjust'"[^2-nephi-2:24][^acts-24:15]
 
 Importantly, the second clause does not _negate_ the first clause. The unknown
 thing is still unknown. Rather, meekly recognizing what we do know _and_ what we
@@ -488,12 +458,7 @@ this time in our lives, but we knew that He had promised us children eventually
 (whether in this life or in the eternities) and chose a mindset of celebrating
 every small experience in that direction: seeing our friends have children, and
 getting to know and care for them; seeing our younger relatives grow and
-spending time with them; hearing the (frequent!) baby blessings^[In the Church
-of Jesus Christ of Latter-day Saints, children are blessed and given their names
-as a priesthood ordinance, typically by their father. These are unique and
-powerful spiritual experiences wherein the father follows the direction of the
-Spirit to bless his child. See
-["Naming and Blessing Children"](https://www.churchofjesuschrist.org/study/manual/priesthood-ordinances-and-blessings/naming-and-blessing-children?lang=eng#p4)]
+spending time with them; hearing the (frequent!) baby blessings[^baby-blessings]
 as children were born in our church congregation.
 
 Shortly after we learned my wife was pregnant, I had a distinct impression. I
@@ -503,12 +468,12 @@ earlier, through the Lord gently instructing us in what it really means to have
 faith in Him. We overcame the difficulty of infertility _as soon as_ we chose to
 have meek, uncertainty-acknowledging faith in Christ. Our worry and concerns
 were "swallowed
-up"^[[Alma 31:38](https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/31?lang=eng&id=p38#p38)]
+up"[^alma-31:38]
 in peace and trust in Him.
 
 The fear and worry of our fertility journey could be described as a "chronic"
 case, and the treatment prescribed by the Great
-Physician^[See [Matthew 9:12](https://www.churchofjesuschrist.org/study/scriptures/nt/matt/9?lang=eng&id=12#p12)]---faith
+Physician[^matt-9:12]---faith
 to accept uncertainty--- was effective. The miscarriage scare, on the other
 hand, was "acute." Our fear and worry was gripping. We prayed fervently that
 night, pleading with the Lord to protect our child. As we prayed, we felt the
@@ -527,10 +492,25 @@ learned that she's a girl, and feel so much joyful anticipation and so much
 gratitude for the Lord's hand in our lives and her life in this way. However,
 we're also grateful for the powerful truths we have learned, and for the
 "furnace of
-affliction"^[[Isaiah 48:10](https://www.churchofjesuschrist.org/study/scriptures/ot/isa/48?lang=eng&id=p10#p10)]
+affliction"[^isaiah-48:10]
 in which our faith was refined. We aren't perfect at avoiding false certainty,
 but we have learned to rely more meekly upon God's grace and mercy, trusting in
 His timing and choosing to acknowledge what we do not know.
+
+[^patriarchal-blessings]: A
+[patriarchal blessing](https://history.churchofjesuschrist.org/faq/library/patriarchal-blessings?lang=eng)
+is a blessing, or inspired declaration, given to each worthy member of the
+Church of Jesus Christ of Latter-day Saints, by the authority of God (called the
+priesthood). A patriarchal blessing typically includes statements about a
+person's future spiritual experiences, as well as providing insight into the
+person's spiritual gifts (attributes such as faith or wisdom, given to a person
+to benefit others) and declaring their lineage among the descendants of one of
+the twelve sons of the biblical Israel.
+
+[^covenants]: A covenant is a two-way promise between God and a human or humans,
+with conditions set forth by Him in His love and mercy.
+
+[^abrahamic-covenant]: See"[Abrahamic Covenant](https://www.churchofjesuschrist.org/study/manual/gospel-topics/abrahamic-covenant?lang=eng)"
 
 [^abrahamic-covenant-posterity]: See
 [Gen. 17:5-7](https://www.churchofjesuschrist.org/study/scriptures/ot/gen/17?lang=eng&id=5-7#p5).
@@ -560,3 +540,78 @@ illustrates this distinction and interconnection between faith and hope:
     For the purposes of this article, however, I will simply use the word
     _faith_ to mean both faith and hope (as do many of the scriptures and
     prophetic writings I will reference).
+
+[^bednar-article]: We came across this article through the
+[_Come, Follow Me_ study guide for Matthew 8, Mark 2–4, and Luke 7](https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-individuals-and-families-new-testament-2023/10?lang=eng)
+
+[^blessings]: In the Church of Jesus Christ of Latter-Day Saints,
+blessings are often given for purposes of healing the sick or providing counsel
+or comfort. These blessings are typically given at the request of the person in
+need, and are given by the laying on of hands, as described in the Bible (e.g.
+in
+[Mark 16:17-18](https://www.churchofjesuschrist.org/study/scriptures/nt/mark/16?lang=eng&id=17-18#p17)
+and
+[Acts 28:8](https://www.churchofjesuschrist.org/study/scriptures/nt/acts/28.8?lang=eng#p8)).
+
+[^enos-but-our-labors-were-vain]: [Verse 20](https://www.churchofjesuschrist.org/study/scriptures/bofm/enos/1?lang=eng&id=p20#p20):
+"But our labors were vain"
+
+[^ellenhorn]: [_How We Change (And Ten Reasons Why We Don't)_](https://www.harpercollins.com/products/how-we-change-ross-ellenhorn)
+
+[^james-1:5]: [James 1:5](https://www.churchofjesuschrist.org/study/scriptures/nt/james/1?lang=eng&id=p5#p5)
+
+[^doubt]: ["When Doubts and Questions Arise,"](https://www.churchofjesuschrist.org/study/ensign/2015/03/when-doubts-and-questions-arise?lang=eng)
+March 2015 Ensign
+
+[^prosperity-theology]: [Prosperity theology](https://en.wikipedia.org/wiki/Prosperity_theology)
+is the false belief that material wealth is always the will of God for His
+followers.
+
+[^them-and-us]: See ["Them and Us,"](https://speeches.byu.edu/talks/elaine-l-jack/us/)
+a devotional address by Elaine L. Jack.
+
+[^helaman-16:18]: [Helaman 16:18](https://www.churchofjesuschrist.org/study/scriptures/bofm/hel/16?lang=eng&id=p18#p18)
+
+[^2-nephi-28:28]: [2 Nephi 28:28](https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/28?lang=eng&id=p28#p28)
+
+[^helaman-5:12]: See [Helaman 5:12](https://www.churchofjesuschrist.org/study/scriptures/bofm/hel/5?lang=eng&id=p12#p12)
+
+[^bednar-meekness]: ["Meek and Lowly in Heart"](https://www.churchofjesuschrist.org/study/general-conference/2018/04/meek-and-lowly-of-heart?lang=eng)
+
+[^moroni-7:42-43]: [Moroni 7:42-43](https://www.churchofjesuschrist.org/study/scriptures/bofm/moro/7?lang=eng&id=p42-p43#p42),
+emphasis mine.
+
+[^james-4:6]: [James 4:6](https://www.churchofjesuschrist.org/study/scriptures/nt/james/4?lang=eng&id=p6#p6)
+
+[^jacob-4:10]: [Jacob 4:10](https://www.churchofjesuschrist.org/study/scriptures/bofm/jacob/4?lang=eng&id=p10#p10)
+
+[^1-nephi-11:17]: [1 Nephi 11:17](https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/11?lang=eng&id=p17#p17)
+
+[^job-13:35]: [Job 13:15](https://www.churchofjesuschrist.org/study/scriptures/ot/job/13?lang=eng&id=p15#p15)
+
+[^alma-7:11-12]: See [Alma 7:11-12](https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/7?lang=eng&id=p11-p12#p11)
+
+[^matt-26:39-luke-22:42]: [Matthew 26:39](https://www.churchofjesuschrist.org/study/scriptures/nt/matt/26?lang=eng&id=p39#p39).
+See also
+[Luke 22:42](https://www.churchofjesuschrist.org/study/scriptures/nt/luke/22?lang=eng&id=p42#p42).
+
+[^celestial-marriage]: ["Celestial Marriage", by then-Elder Russell M. Nelson](https://www.churchofjesuschrist.org/study/general-conference/2008/10/celestial-marriage?lang=eng&id=p23#p23)
+
+[^2-nephi-26:33]: [2 Nephi 26:33](https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/26?lang=eng&id=p33#p33)
+
+[^2-nephi-2:24]: [2 Nephi 2:24](https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/2?lang=eng&id=p24#p24)
+
+[^acts-24:15]: [Acts 24:15](https://www.churchofjesuschrist.org/study/scriptures/nt/acts/24?lang=eng&id=15#p15)
+
+[^baby-blessings]: In the Church
+of Jesus Christ of Latter-day Saints, children are blessed and given their names
+as a priesthood ordinance, typically by their father. These are unique and
+powerful spiritual experiences wherein the father follows the direction of the
+Spirit to bless his child. See
+["Naming and Blessing Children"](https://www.churchofjesuschrist.org/study/manual/priesthood-ordinances-and-blessings/naming-and-blessing-children?lang=eng#p4)
+
+[^alma-31:38]: [Alma 31:38](https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/31?lang=eng&id=p38#p38)
+
+[^matt-9:12]: See [Matthew 9:12](https://www.churchofjesuschrist.org/study/scriptures/nt/matt/9?lang=eng&id=12#p12)
+
+[^isaiah-48:10]: [Isaiah 48:10](https://www.churchofjesuschrist.org/study/scriptures/ot/isa/48?lang=eng&id=p10#p10)
