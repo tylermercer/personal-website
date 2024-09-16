@@ -19,9 +19,7 @@ git checkout
 I upgraded my computer a few months ago, and, after some thought, decided to
 turn my old one into a writing-only device. The goal was to use _higher-order
 agency thinking_---decisions that shape one's
-decisions^[I wrote about this topic briefly in the [Feb 8 Innerhelm newsletter](https://innerhelm.com/newsletters/frustration-optimism-and-identity/#higher-order-agency-thinking),
-and am planning on writing a longer Innerhelm blog post about it at some
-point.]---to enable myself to focus more deeply on my journaling, this blog,
+decisions[^innerhelm]---to enable myself to focus more deeply on my journaling, this blog,
 [Innerhelm](https://innerhelm.com), and my other writing. I removed everything
 not related to writing from this device: accounts and bookmarks in my browser,
 the messaging apps I use, the handful of games I had installed, and even the VS
@@ -86,9 +84,7 @@ You can specify multiple folders if you would like, by listing them after the
 This will initialize a file in `your-repo/.git/info/sparse-checkout` with these
 paths listed, which git will then use for updating your working-tree when you
 checkout or pull. In my case, the path to the folder was `/src/content`, which
-is where my Markdown files live.^[The path was actually different when I first
-did the partial clone, because I did it prior to
-[my migration to Astro](https://github.com/tylermercer/personal-website/pull/63).]
+is where my Markdown files live.[^different-before]
 
 ## Step 3: Enjoy your peace of mind
 
@@ -110,3 +106,11 @@ will someday add that ability. But until then, this works well enough for me.
 * **2024-08-07:** Added `--no-cone` and `--no-checkout` flags, and final `git checkout`
  command. These proved necessary when doing this process for a new repo today, probably due
  to changes in git since this article was written.
+
+[^innerhelm]: I wrote about this topic briefly in the [Feb 8 Innerhelm newsletter](https://innerhelm.com/newsletters/frustration-optimism-and-identity/#higher-order-agency-thinking),
+and am planning on writing a longer Innerhelm blog post about it at some
+point.
+
+[^different-before]: The path was actually different when I first
+did the partial clone, because I did it prior to
+[my migration to Astro](https://github.com/tylermercer/personal-website/pull/63).
