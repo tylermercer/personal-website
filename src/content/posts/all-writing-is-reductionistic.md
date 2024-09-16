@@ -7,11 +7,9 @@ date: 2023-05-27 12:00:00
 In 1687, Isaac Newton published _Philosophiæ Naturalis Principia Mathematica_,
 in which he laid out groundbreaking new ideas about the physics of movement. The
 _Principia_ was so thorough and rigorous that it has been described as "the
-ultimate exemplar of science generally."^[G. E. Smith, "Newton's Philosophiae
-Naturalis Principia Mathematica", The Stanford Encyclopedia of Philosophy
-(Winter 2008 Edition), E. N. Zalta (ed.).] It expounds laws of motion and
+ultimate exemplar of science generally."[^newton-1] It expounds laws of motion and
 physics that are universally
-applicable.^[["Isaac Newton - Wikipedia"](https://en.wikipedia.org/wiki/Isaac_Newton)]
+applicable.[^newton-2]
 
 ...except for in situations where objects are traveling at speeds close to the
 speed of light. This is what Eintstein posited with his famous Theory of Special
@@ -48,10 +46,18 @@ help us both to withhold criticism and extend grace to writers whose writing
 seems imperfect, and to maintain healthy skepticism of those whose writing we
 accept or agree with. In both cases, they're probably missing something that
 some future writer will contribute. We can be open both to the thoughts of the
-first writer and to the second.^[An example of this principle in
+first writer and to the second.[^christian-example]
+
+But perhaps, in saying all this, I'm just being reductionistic myself.
+
+[^newton-1]: G. E. Smith, "Newton's Philosophiae
+Naturalis Principia Mathematica", The Stanford Encyclopedia of Philosophy
+(Winter 2008 Edition), E. N. Zalta (ed.).
+
+[^newton-2]: ["Isaac Newton - Wikipedia"](https://en.wikipedia.org/wiki/Isaac_Newton)
+
+[^christian-example]: An example of this principle in
 a Christian context: both the Old Testament and the New Testament are valuable
 scripture. And as a member of the Church of Jesus Christ of Latter-day Saints,
 the Bible, the Book of Mormon, the other standard works, and the teachings of
-modern prophets are likewise all valuable.]
-
-But perhaps, in saying all this, I'm just being reductionistic myself.
+modern prophets are likewise all valuable.
