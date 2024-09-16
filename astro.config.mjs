@@ -2,7 +2,6 @@ import cloudflare from '@astrojs/cloudflare';
 import mdx from "@astrojs/mdx";
 import expressiveCode from "astro-expressive-code";
 import { defineConfig } from 'astro/config';
-import remarkFootnote from 'remark-footnotes';
 import remarkEmdash from './src/plugins/remark/emdash';
 
 // https://astro.build/config
@@ -11,9 +10,7 @@ export default defineConfig({
   adapter: cloudflare(),
   site: 'https://tylermercer.net',
   markdown: {
-    remarkPlugins: [[remarkFootnote, {
-      inlineNotes: true
-    }], remarkEmdash],
+    remarkPlugins: [remarkEmdash],
   },
   integrations: [expressiveCode({
     themes: ['material-theme-ocean'],
