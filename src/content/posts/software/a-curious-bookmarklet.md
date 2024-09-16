@@ -8,11 +8,7 @@ section on a webpage? ("Umm... maybe once?" - you, probably) Do you wish you
 could, with just one click, see all of the HTML `id` attributes that exist on a
 page? ("Definitely not") Well _have I got a script for you!_
 
-I'm a weirdo who likes to link to specific parts of a page.^[No, Google Chrome,
-I don't mean via [Text Fragments](https://web.dev/articles/text-fragments)---I
-mean the old way, that actually required web devs to care about URL design and
-doesn't
-[expose a privacy risk](https://github.com/WICG/scroll-to-text-fragment/issues/76).]
+I'm a weirdo who likes to link to specific parts of a page.[^text-fragments]
 I've actually popped open the browser DevTools on more than one occasion to see
 if a section heading in an article had an ID that I could link to---and often
 this is successful, because many content management systems output headings with
@@ -20,9 +16,7 @@ an auto-generated id (usually in kebab-case, e.g. the heading "**My Heading**"
 would have the id `my-heading`).
 
 Yesterday I finally got tired of needing to do this manually, so I decided to
-write a bookmarklet^[A [bookmarklet](https://en.wikipedia.org/wiki/Bookmarklet)
-is a small piece of JavaScript code that runs in a webpage when you click on a
-bookmark in your browser.] for it. Here's the script:
+write a bookmarklet[^bookmarklet] for it. Here's the script:
 
 ```js
 (function () {
@@ -88,3 +82,13 @@ bookmark in your browser.] for it. Here's the script:
 **TODO: provide bookmarklet as link**
 
 **TODO: finish post**
+
+[^text-fragments]: No, Google Chrome,
+I don't mean via [Text Fragments](https://web.dev/articles/text-fragments)---I
+mean the old way, that actually required web devs to care about URL design and
+doesn't
+[expose a privacy risk](https://github.com/WICG/scroll-to-text-fragment/issues/76).
+
+[^bookmarklet]: A [bookmarklet](https://en.wikipedia.org/wiki/Bookmarklet)
+is a small piece of JavaScript code that runs in a webpage when you click on a
+bookmark in your browser.
