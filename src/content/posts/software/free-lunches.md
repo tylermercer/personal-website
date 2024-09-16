@@ -51,9 +51,7 @@ industry, with React having such a strong presence, to a
 > that created it.
 
 This is a great point, and one we would do well to remember more often. People
-tend to behave in predictable, explainable ways.^[ I'm hesitant to use the word
-"rational" because I don't think I can say "people are rational" _and_ reference
-Dan Ariely's book _Predictably Irrational_ and still take myself seriously. ]
+tend to behave in predictable, explainable ways.[^rational]
 Understanding people's behavior from a point of "we're all trying the best we
 can" is a much healthier way to approach things than pointing fingers at some
 specific group as a scapegoat for our general responsibility in these problems.
@@ -65,30 +63,17 @@ proponents will tell you that not every website needs to be a React app." He
 also claims that developers "know that they are making ... trade-offs when they
 pick React." I believe these claims are true for some React developers, but this
 is probably a minority. It seems to me that many developers and firms choose
-React simply because it is familiar and popular.^[ See
-["The self-fulfilling prophecy of React"](https://joshcollinsworth.com/blog/self-fulfilling-prophecy-of-react)
-by Josh Collinsworth. "React isn’t great at anything except being popular." ]
+React simply because it is familiar and popular.[^self-fulfilling-prophecy-of-react]
 Most of the trade-offs Voss mentions are then chosen _implicitly_, not
 explicitly, because alternatives haven't been sincerely considered.
 
 One point of evidence for these tradeoffs being chosen implicitly is the
 comparatively low usage of [Preact](https://preactjs.com/) compared to that of
 React. Preact has a React-compatible API---with `preact/compat`, you can replace
-React with Preact in an existing React project.^[ See
-["Switching to Preact"](https://preactjs.com/guide/v10/switching-to-preact).
-Admittedly, in full-stack frameworks like Next.js, this gets significantly
-hairier, but [it can still be done](https://joyofcode.xyz/next-bundle-size).
-Furthermore, there are still people using React without a meta-framework (even
-though
-[the docs imply otherwise](https://wasp-lang.dev/blog/2023/03/17/new-react-docs-pretend-spas-dont-exist)).
-] If people were carefully considering the trade-offs of different framework
+React with Preact in an existing React project[^switching-to-preact] If people were carefully considering the trade-offs of different framework
 choices, wouldn't a lot of them decide that Preact's much smaller bundle size
-(4.2kb minified and gzipped---_one tenth_ of the size of React!^[ From
-Bundlephobia: [Preact](https://bundlephobia.com/package/preact@10.15.0) vs
-[React](https://bundlephobia.com/package/react-dom@18.2.0) ]) and better
-performance^[See the
-[JS Framework Benchmark](https://krausest.github.io/js-framework-benchmark/2023/table_chrome_112.0.5615.49.html)
-by Krauest] make it a better choice?
+(4.2kb minified and gzipped---_one tenth_ of the size of React![^bundlephobia-preact]) and better
+performance[^framework-benchmark] make it a better choice?
 
 ## "React === The Web"
 
@@ -138,20 +123,17 @@ those solutions would be better suited to the task at hand, they've perpetuated
 that status quo.
 
 As pointed out by Voss, developers aren't irrational or stupid for using React
-either.^[I actually started my web dev journey with React, and I'm grateful for
-it. I believe that the component-based thinking I learned from it makes me a
-better developer. ] Rather, developers are _efficiently lazy_ for using React,
+either.[^started-with-react] Rather, developers are _efficiently lazy_ for using React,
 and laziness is in many respects a highly valuable attribute for developers.
 However, in this specific case, our laziness as developers, combined with the
-bad framing^[And sometimes
-[outright hostility](https://fediverse.zachleat.com/@zachleat/109830047951867907)]
+bad framing[^hostility]
 from certain React proponents and educators, has led our industry into a mire.
 
 ## Free as in Lunch
 
 The good news about all of this is that there is plenty of room in this
 hawks-and-doves game for what psychologist Dan Ariely
-calls^[Dan Ariely, [_Predictably Irrational_](https://www.amazon.com/dp/0061854549)]
+calls[^predictably-irrational]
 a "free lunch"---a place of mutual benefit based on a heightened understanding
 of why the differing parties behave as they do. From his book _Predictably
 Irrational_:
@@ -194,10 +176,10 @@ I think there are a few things we can do to move towards those free lunches.
 As developers:
 
 - **We can focus on learning web development
-  principles**^[See [this tweet from Zach Leatherman](https://www.zachleat.com/twitter/1074776108422307840/)]
+  principles**[^leatherman-tweet]
   rather than learning an abstraction on top of the web. In Russell's words, "I
   promise you, there’s life after the framework that you love right
-  now."^[[JS Party #263, "Web Development's Lost Decade"](https://changelog.com/jsparty/263)]
+  now."[^lost-decade]
 - **We can explore and learn how to use performance-focused frameworks** to
   broaden our skills and add tools to our mental toolboxes. Frameworks like
   [SvelteKit](https://kit.svelte.dev/), [Solid](https://www.solidjs.com/),
@@ -212,8 +194,7 @@ As developers:
   material on building with vanilla web tech. I personally love tackling a
   project without a framework when it makes sense to---after doing lots of work
   in framework-based projects, it feels like a breath of fresh
-  air.^[I do still use build tools in these projects---most notably [Astro](https://astro.build)
-  and [Eleventy](https://11ty.dev).]
+  air.[^build-tools]
 - **We can use our influential voices as developers to push for the adoption of
   lighter frameworks** (which can even happen incrementally in some cases) over
   the JS heavy ones.
@@ -310,8 +291,7 @@ that has no JS-powered interactivity) don't need to run JS on the client at all!
 Qwik is able to ship to the browser just the parts that are actually needed
 for interactivity. It can even defer those parts individually, e.g. only running
 the JS file for a click listener for a button once the button is interacted
-with.^[See ["Prefetching"](https://qwik.builder.io/docs/concepts/progressive/) in the Qwik
-docs]
+with.[^prefetching]
 
 These superpowers make it possible to build increasingly large applications
 without an ever-increasing bundle size and time-to-interactive---what Qwik calls
@@ -336,13 +316,7 @@ Admittedly---and before I get lambasted as a myopic React-hater---the choice of
 framework is only one aspect of web performance. Bundle size, font and image
 optimisation, DOM size, the number of requests and request destinations, server
 location relative to the user, and many other factors all impact
-performance.^[For an incredible case study in all of these factors, see Taylor
-Hunt's
-["Making the world's fastest website, and other mistakes"](https://dev.to/tigt/making-the-worlds-fastest-website-and-other-mistakes-56na),
-and its four subsequent articles, on Dev.to. In addition to being compelling and
-enlightening in its own right, this series links to a veritable wealth of
-knowledge on performance. One could easily spend hours reading all the
-interesting things linked in those five articles.] In that sense, this article
+performance.[^hunt-articles] In that sense, this article
 is reductionistic (as is all writing). But using frameworks that are
 performance-minded, like Qwik and Astro, can be a springboard to thinking about
 performance as it relates to the entire stack---and using frameworks that
@@ -366,8 +340,7 @@ ways in which you have seen behavioral design impacting web performance, and how
 you think we can take that further, whether that's in addressing framework
 choice or any of the other factors in web performance. Please share your
 thoughts
-[on Twitter](https://twitter.com/tylermercerdev/status/1661968132750348289)^[I'm
-hoping I don't regret this. 😆] or [via email](/contact/)---or, even better,
+[on Twitter](https://twitter.com/tylermercerdev/status/1661968132750348289)[^twitter-regret] or [via email](/contact/)---or, even better,
 write a blog post and send me the link!
 
 ---
@@ -377,3 +350,56 @@ write a blog post and send me the link!
 - [Healthcare, Selling Lemons, and the Price of Developer Experience |
   CSS-Tricks](https://css-tricks.com/healthcare-selling-lemons-and-the-price-of-developer-experience/)
 - [Why We're Breaking Up with CSS-in-JS](https://bradfrost.com/blog/link/why-were-breaking-up-with-css-in-js/)
+
+[^rational]: I'm hesitant to use the word
+"rational" because I don't think I can say "people are rational" _and_ reference
+Dan Ariely's book _Predictably Irrational_ and still take myself seriously.
+
+[^self-fulfilling-prophecy-of-react]: See
+["The self-fulfilling prophecy of React"](https://joshcollinsworth.com/blog/self-fulfilling-prophecy-of-react)
+by Josh Collinsworth. "React isn’t great at anything except being popular."
+
+[^switching-to-preact]: See
+["Switching to Preact"](https://preactjs.com/guide/v10/switching-to-preact).
+Admittedly, in full-stack frameworks like Next.js, this gets significantly
+hairier, but [it can still be done](https://joyofcode.xyz/next-bundle-size).
+Furthermore, there are still people using React without a meta-framework (even
+though
+[the docs imply otherwise](https://wasp-lang.dev/blog/2023/03/17/new-react-docs-pretend-spas-dont-exist)).
+
+[^bundlephobia-preact]: From
+Bundlephobia: [Preact](https://bundlephobia.com/package/preact@10.15.0) vs
+[React](https://bundlephobia.com/package/react-dom@18.2.0)
+
+[^framework-benchmark]: See the
+[JS Framework Benchmark](https://krausest.github.io/js-framework-benchmark/2023/table_chrome_112.0.5615.49.html)
+by Krauest
+
+[^started-with-react]: I actually started my web dev journey with React, and I'm grateful for
+it. I believe that the component-based thinking I learned from it makes me a
+better developer.
+
+[^hostility]: And sometimes
+[outright hostility](https://fediverse.zachleat.com/@zachleat/109830047951867907)
+
+[^predictably-irrational]: Dan Ariely, [_Predictably Irrational_](https://www.amazon.com/dp/0061854549)
+
+[^leatherman-tweet]: See [this tweet from Zach Leatherman](https://www.zachleat.com/twitter/1074776108422307840/)
+
+[^lost-decade]: [JS Party #263, "Web Development's Lost Decade"](https://changelog.com/jsparty/263)
+
+[^build-tools]: I do still use build tools in these projects---most notably [Astro](https://astro.build)
+and [Eleventy](https://11ty.dev).
+
+[^prefetching]: See ["Prefetching"](https://qwik.builder.io/docs/concepts/progressive/) in the Qwik
+docs
+
+[^hunt-articles]: For an incredible case study in all of these factors, see Taylor
+Hunt's
+["Making the world's fastest website, and other mistakes"](https://dev.to/tigt/making-the-worlds-fastest-website-and-other-mistakes-56na),
+and its four subsequent articles, on Dev.to. In addition to being compelling and
+enlightening in its own right, this series links to a veritable wealth of
+knowledge on performance. One could easily spend hours reading all the
+interesting things linked in those five articles.
+
+[^twitter-regret]: I'm hoping I don't regret this. 😆
