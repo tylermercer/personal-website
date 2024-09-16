@@ -4,10 +4,7 @@ description: The rise of UFTaaS (Useless Filler Text as a Service)
 date: 2023-06-23 12:00:00
 ---
 
-Email platform [Superhuman](https://superhuman.com/)^[Superhuman apparently
-receives rave reviews from its customers. I can't make any claims about its
-overall usefulness, having never used it. This article is just addressing the AI
-feature described on the landing page.] has this blurb on their landing page:
+Email platform [Superhuman](https://superhuman.com/)[^reviews] has this blurb on their landing page:
 
 > **Introducing Superhuman AI**<br/>
 > Write entire emails with just one line
@@ -29,7 +26,7 @@ of the email in the image):
 In my mind, there's a big hole in this value proposition: **nobody wants to read
 this kind of email.** Only a masochist would prefer reading a fluffy,
 corporate-speak email over "hey team please upvote the new launch on
-producthunt."^[ Superhuman claims to match your voice, but still. ] Do you
+producthunt."[^voice] Do you
 really need an AI to give you hundreds of extra words to use instead of "hey
 team please"?
 
@@ -50,3 +47,10 @@ AI-powered products seem to be commoditized lard-generators.
 Someone should go the other way: build an AI service that takes a big fluffy
 corporate-speak email and boils it down to one concise line. _That_ would be
 nice.
+
+[^reviews]: Superhuman apparently
+receives rave reviews from its customers. I can't make any claims about its
+overall usefulness, having never used it. This article is just addressing the AI
+feature described on the landing page.
+
+[^voice]: Superhuman claims to match your voice, but still.
