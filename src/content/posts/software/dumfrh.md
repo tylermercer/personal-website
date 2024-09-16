@@ -8,10 +8,7 @@ Software development is
 [all about trade-offs](https://www.forbes.com/sites/forbestechcouncil/2020/12/16/trade-offs-in-software-engineering/).
 Every choice of technology, every architecture, and every implementation comes
 with a downside. Decisions must be made by carefully weighing these tradeoffs.
-There are no silver bullets.^[That's not to say there aren't obviously better
-choices in certain situations. Building this site in Astro instead of Blazor,
-for example, is obviously better when you consider its content-heavy nature and
-my goal of avoiding unnecessary bloat.]
+There are no silver bullets.[^tradeoffs]
 
 The age-old principle of YAGNI is no-different. YAGNI—which stands for "you
 ain't gonna need it"—is a rule of thumb for avoiding wasting time on
@@ -80,5 +77,12 @@ constrains _how_ you build it.
 
 When there's a cheap way to make future requirements easier ("cheap" meaning
 "quick to implement and introducing no additional future maintenance cost"), you
-should probably do it. DUMFRH.^[Yes, it is phonetically a garbage acronym, but
-is "YAGNI" really that much better? 😆]
+should probably do it. DUMFRH.[^name]
+
+[^tradeoffs]: That's not to say there aren't obviously better
+choices in certain situations. Building this site in Astro instead of Blazor,
+for example, is obviously better when you consider its content-heavy nature and
+my goal of avoiding unnecessary bloat.
+
+[^name]: Yes, it is phonetically a garbage acronym, but
+is "YAGNI" really that much better? 😆
