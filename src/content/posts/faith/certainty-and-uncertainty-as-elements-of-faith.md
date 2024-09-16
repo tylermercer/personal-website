@@ -19,7 +19,7 @@ ended up needing to adopt? How would we afford it? When should we decide to
 focus on adoption instead of fertility treatments?
 
 Above all, what about the promises the Lord had made to us? Both of our
-patriarchal blessings^[ A
+patriarchal blessings^[A
 [patriarchal blessing](https://history.churchofjesuschrist.org/faq/library/patriarchal-blessings?lang=eng)
 is a blessing, or inspired declaration, given to each worthy member of the
 Church of Jesus Christ of Latter-day Saints, by the authority of God (called the
@@ -27,7 +27,7 @@ priesthood). A patriarchal blessing typically includes statements about a
 person's future spiritual experiences, as well as providing insight into the
 person's spiritual gifts (attributes such as faith or wisdom, given to a person
 to benefit others) and declaring their lineage among the descendants of one of
-the twelve sons of the biblical Israel. ] mention us having children, and in the
+the twelve sons of the biblical Israel.] mention us having children, and in the
 covenant^[A covenant is a two-way promise between God and a human or humans,
 with conditions set forth by Him in His love and mercy.] given to
 Abraham,^[See"[Abrahamic Covenant](https://www.churchofjesuschrist.org/study/manual/gospel-topics/abrahamic-covenant?lang=eng)"]
