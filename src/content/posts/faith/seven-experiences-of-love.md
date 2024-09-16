@@ -45,9 +45,7 @@ Note _love_ is again a verb.
 
 ### 3 - The giver feels love for the recipient
 
-This is the first time we see _love_ as a noun.^[One could argue that the
-feeling of compassion or empathy is _love_ as a noun, but I see it as primarily
-a verb---we must choose compassion.] It might seem strange to place this feeling
+This is the first time we see _love_ as a noun.[^noun-or-verb] It might seem strange to place this feeling
 of love _after_ the action of love, but both modern psychology and the teachings
 of latter-day prophets show us that this is indeed the case.
 
@@ -96,8 +94,7 @@ feels an increase in love towards the doer of that good deed.
 To bring this back to a spiritual context, God blesses us with a portion of _His
 love_ for others when we serve them. The ancient prophet Mormon described this,
 at the end of the sermon recorded in Moroni
-7:^[[Moroni 7:47-48](https://www.churchofjesuschrist.org/study/scriptures/bofm/moro/7?lang=eng&id=p48#p48),
-emphasis mine]
+7:[^moroni-7:47-48]
 
 > Wherefore, my beloved brethren, pray unto the Father with all the energy of
 > heart, that ye may be filled with _this love, which he hath bestowed upon all
@@ -160,7 +157,7 @@ Our meager offering of service and sacrifice becomes, as in Chris' case, a
 reflection of Jesus' transcendent and supernal sacrifice. Our self-denial on
 behalf of another echoes of the supreme suffering He endured as He took upon
 Himself all our sins, sorrows, pains, and
-afflictions.^[See [Alma 7:11-12](https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/7?lang=eng&id=11-12#p11)]
+afflictions.[^alma-7:11-12]
 
 ## Good measure, pressed down, and running over
 
@@ -168,7 +165,7 @@ It is also powerful to me to note how only the first two of these seven
 experiences of love are _love as a verb_---things we do. The remainder are _love
 as a received experience_---something we feel. I am reminded of how Jesus taught
 us to
-give,^[[Luke 6:38](https://www.churchofjesuschrist.org/study/scriptures/nt/luke/6?lang=eng&id=p38#p38)]
+give,[^luke-6:38]
 and the result He promised:
 
 > Give, and it shall be given unto you; good measure, pressed down, and shaken
@@ -178,3 +175,14 @@ I suspect that the received experiences of love that come as a result of our
 choices to love---including, especially, a deeper understanding of Jesus' love
 for us and others---are a big part of that "good measure, pressed down, and
 shaken together, and running over" of which He spoke.
+
+[^noun-or-verb]: One could argue that the
+feeling of compassion or empathy is _love_ as a noun, but I see it as primarily
+a verb---we must choose compassion.
+
+[^moroni-7:47-48]: [Moroni 7:47-48](https://www.churchofjesuschrist.org/study/scriptures/bofm/moro/7?lang=eng&id=p48#p48),
+emphasis mine
+
+[^alma-7:11-12]: See [Alma 7:11-12](https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/7?lang=eng&id=11-12#p11)
+
+[^luke-6:38]: [Luke 6:38](https://www.churchofjesuschrist.org/study/scriptures/nt/luke/6?lang=eng&id=p38#p38)
