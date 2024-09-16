@@ -9,20 +9,14 @@ organization decisions that, so far, I'm quite happy with. I recently
 reorganized my personal site's styles to follow the same pattern. I thought I
 would explain it and its rationale in a post.
 
-I have five CSS "layers."^[These are only conceptual layers---they don't use
-[the new CSS Layers API](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Cascade_layers).
-Maybe they should? I haven't dabbled with Layers yet so I'm not too sure how
-they work, or if Astro's component scoped styles could be put into one.] Listed
+I have five CSS "layers."[^conceptual-layers] Listed
 in order of increasing specificity:
 
 1. The theme, as CSS custom properties applied to the `:root`
 2. The base styles---styles that apply to raw elements, e.g. `p` and `h1`.
 3. Layout classes, based on [Every Layout](https://every-layout.dev/), prefixed
    with `l-`.
-4. Utility classes, prefixed with `u-`.^[Technically these are the same
-   specificity as the layouts, but I import their source file after importing
-   the layout file, so that they occur later in the source order and thus take
-   precedence]
+4. Utility classes, prefixed with `u-`.[^specificity]
 5. Component-scoped styles
    ([via Astro](https://docs.astro.build/en/guides/styling/#scoped-styles)),
    with attribute-based scoping (which increases their specificity above the
@@ -88,6 +82,18 @@ Also, before anyone asks, I'm intentionally _not_ going to give this
 organization an acronym, because I want to avoid
 [this thing that happens](https://codepen.io/chriscoyier/post/a-weird-thing-that-happens). These
 patterns are just what works for
-me.^[On Innerhelm I also use a full [Utopia](https://utopia.fyi/)-powered
+me.[^utopia]
+
+[^conceptual-layers]: These are only conceptual layers---they don't use
+[the new CSS Layers API](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Cascade_layers).
+Maybe they should? I haven't dabbled with Layers yet so I'm not too sure how
+they work, or if Astro's component scoped styles could be put into one.
+
+[^specificity]: Technically these are the same
+specificity as the layouts, but I import their source file after importing
+the layout file, so that they occur later in the source order and thus take
+precedence.
+
+[^utopia]: On Innerhelm I also use a full [Utopia](https://utopia.fyi/)-powered
 responsive space and type system, but I haven't added that here yet. I just have
-a few responsive type sizes.]
+a few responsive type sizes.
