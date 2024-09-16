@@ -17,14 +17,8 @@ project graveyard than I care to admit.
 A big part of that is anxiety. The idea of putting something I've created that's
 permanent (or relatively permanent), like writing, out into the world puts me
 into a high stress response. About 25 percent of people report an intense fear
-of public speaking,^[
-["Social phobia in the general population: prevalence and sociodemographic profile"](https://pubmed.ncbi.nlm.nih.gov/10501711/)
-] but for me, public speaking is _significantly_ less anxiety-inducing than
-public writing or other forms of more permanent creativity.^[ That's not to say
-I don't get stressed before giving a talk--just that the stress is short-lived,
-because the event itself is short-lived. In college, I also approached papers in
-a "short-lived stress" way, writing them in the few hours before they were due.
-(I actually found I wrote better essays this way.)] Public speaking is
+of public speaking,[^social-phobia] but for me, public speaking is _significantly_ less anxiety-inducing than
+public writing or other forms of more permanent creativity.[^permanent-writing] Public speaking is
 inherently ephermeral--it's an _event_. Public writing is inherently permanent.
 (As the saying goes, "once on the Internet, always on the Internet.") That
 evokes a very deep sense of anxiety in me.
@@ -61,7 +55,7 @@ anxiety imps in my mind typically aren't all that concerned with realism.)
 However, it's also invigorating. Writing is a powerful way of making meaning of
 the complexity of life. When shared with others, it is an incredible tool for
 communication and the synthesis of new
-ideas.^[Mark Brooker discusses this idea in ["Writing is magic"](https://brooker.co.za/blog/2022/11/08/writing.html).]
+ideas.[^writing-is-magic]
 That community side of writing is something I've only rarely tapped into. I'm
 excited to see others respond to, build on, and critique the imperfect thoughts
 I share here. I'm also excited to develop my own ideas further through the
@@ -72,9 +66,7 @@ here--mostly for myself, but also so that you, as a reader, know what to expect.
 
 1. **Write more for myself than I do here.** If all my writing were to be a
    public "performance piece", the personal meaning I derive from it would be
-   reduced.^[I very much intend to be accessible and unpolished in my writing
-   here--see goal #3--but, for me, the pressure of how my writing might be
-   perceived by a reader changes how I relate to that writing.] Writing for
+   reduced.[^unpolished] Writing for
    myself is critical for my well-being and learning, in a way that writing
    publicly, by itself, can't fulfill. As such, I want to make sure that I
    continue that kind of writing, even while writing here on a regular basis.
@@ -99,11 +91,9 @@ decisions handed to me at the start of this project. This website is "my
 thoughts" not just textually but at a design and engineering level as well.
 
 That's pretty cool, when you think about it. I made a thing, from scratch, that
-other people can enjoy.^[ See
-["Make Free Stuff"](https://mxb.dev/blog/make-free-stuff/) by Max Böck] I can
+other people can enjoy.[^free-stuff] I can
 share it with them simply by handing them a sequence of characters
-(`https://tylermercer.net`).^[ URLs are _so dang cool_ when you think about it.
-I need to write more about this.] It's a piece of my mind that people _anywhere
+(`https://tylermercer.net`).[^urls] It's a piece of my mind that people _anywhere
 in the world_ can experience and (hopefully) relate to. Heck, that's not just
 pretty cool, that's incredible!
 
@@ -126,14 +116,7 @@ of it--whether that's a blog, a web app, art, or something else.
 
 To borrow and expand on the words of Chris Coyier, "you’ve got a brain. Lemme
 hear [or see] that thing go. Write some words
-[or put something else you created] at a URL."^[
-[🧠💭✏️](https://chriscoyier.net/2022/05/11/%F0%9F%A7%A0%F0%9F%92%AD%E2%9C%8F%EF%B8%8F/).
-This post, along with Chris'
-[many](https://chriscoyier.net/2022/02/24/day-and-night-your-content-searches-the-world-for-people-and-opportunities/)
-[other](https://chriscoyier.net/2022/12/26/writing-the-cornerstone-of-amplification/)
-[posts](https://chriscoyier.net/2023/01/09/getting-the-most-value-out-of-an-answer/)
-encouraging his readers to write, was another thing that helped tip the scales
-towards me actually doing this. ]
+[or put something else you created] at a URL."[^coyier-writing]
 
 ## A brief guide to this blog
 
@@ -151,3 +134,31 @@ This blog is also available as [an RSS/Atom feed](/feeds/feed.xml) and
 
 If you would like to contact me for any reason, please
 [get in touch here](/contact).
+
+[^social-phobia]: ["Social phobia in the general population: prevalence and sociodemographic profile"](https://pubmed.ncbi.nlm.nih.gov/10501711/)
+
+[^permanent-writing]: That's not to say
+I don't get stressed before giving a talk--just that the stress is short-lived,
+because the event itself is short-lived. In college, I also approached papers in
+a "short-lived stress" way, writing them in the few hours before they were due.
+(I actually found I wrote better essays this way.)
+
+[^writing-is-magic]: Mark Brooker discusses this idea in ["Writing is magic"](https://brooker.co.za/blog/2022/11/08/writing.html).
+
+[^unpolished]: I very much intend to be accessible and unpolished in my writing
+here--see goal #3--but, for me, the pressure of how my writing might be
+perceived by a reader changes how I relate to that writing.
+
+[^free-stuff]: See
+["Make Free Stuff"](https://mxb.dev/blog/make-free-stuff/) by Max Böck.
+
+[^urls]: URLs are _so dang cool_ when you think about it.
+I need to write more about this.
+
+[^coyier-writing]: [🧠💭✏️](https://chriscoyier.net/2022/05/11/%F0%9F%A7%A0%F0%9F%92%AD%E2%9C%8F%EF%B8%8F/).
+This post, along with Chris'
+[many](https://chriscoyier.net/2022/02/24/day-and-night-your-content-searches-the-world-for-people-and-opportunities/)
+[other](https://chriscoyier.net/2022/12/26/writing-the-cornerstone-of-amplification/)
+[posts](https://chriscoyier.net/2023/01/09/getting-the-most-value-out-of-an-answer/)
+encouraging his readers to write, was another thing that helped tip the scales
+towards me actually doing this.
