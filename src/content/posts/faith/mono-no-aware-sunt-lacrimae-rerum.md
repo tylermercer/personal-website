@@ -6,15 +6,13 @@ dropCap: true
 ---
 
 _Mono no aware_ is a Japanese phrase meaning "the pathos of things," signifying
-an awareness of the impermanence of things and life in general.^[
-[Mono no aware - Wikipedia](https://en.wikipedia.org/wiki/Mono_no_aware)]
+an awareness of the impermanence of things and life in general.[^mono-no-aware]
 
 _Sunt lacrimae rerum_ is a Latin phrase taken from Virgil's _Aeneid_, meaning
 "there are tears for/of things." It is uttered by Aeneas when he comes across a
 mural of the Trojan War, which he has just escaped from. His full statement is
 "Sunt lacrimae rerum et mentem mortalia tangunt," or "There are tears of/for
-things and mortal things touch the mind."^[
-[Lacrimae rerum - Wikipedia](https://en.wikipedia.org/wiki/Lacrimae_rerum)]
+things and mortal things touch the mind."[^lacrimae-rerum]
 
 I came across these two phrases a while ago and was struck by their intriguing
 duality. Things are impermanent, yet they often cause real and raw emotions. The
@@ -40,9 +38,7 @@ us.
 We often respond to that impermanence with attachment. Ironically, we hold on
 too tightly to things in an attempt to avoid losing them, and _because_ of this
 attachment, we experience loss—we lose the richness of the present to our fear,
-and we lose peace within ourselves.^[ This interesting concept of loss _because
-of_ attachment was something my wife Evelyn pointed out. I am grateful for her
-wisdom! ]
+and we lose peace within ourselves.[^loss-because-of-attachment]
 
 ## Ephemeral yet visceral
 
@@ -96,3 +92,11 @@ in April 2014](https://www.lds.org/general-conference/2014/04/grateful-in-any-ci
 
 What are your experiences with ephemerality and "tears of things?" How has your
 awareness of impermanence or the reality of your emotions impacted you?
+
+[^mono-no-aware]: [Mono no aware - Wikipedia](https://en.wikipedia.org/wiki/Mono_no_aware)
+
+[^lacrimae-rerum]: [Lacrimae rerum - Wikipedia](https://en.wikipedia.org/wiki/Lacrimae_rerum)
+
+[^loss-because-of-attachment]: This interesting concept of loss _because
+of_ attachment was something my wife Evelyn pointed out. I am grateful for her
+wisdom!
