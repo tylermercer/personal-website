@@ -19,6 +19,9 @@ export default defineConfig({
     }
   }), mdx()],
   vite: {
+    server: {
+      hostname: 'tylermercer.localhost'
+    },
     plugins: [rawFonts(['.woff'])],
     ssr: {
       external: [
