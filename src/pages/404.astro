@@ -1,0 +1,22 @@
+---
+import Layout from '../layouts/Base.astro';
+import PostDescription from '../components/PostDescription.astro';
+import * as page from '../content/_404.md';
+
+const Content = page.Content;
+
+const { title, description } = page.frontmatter;
+
+---
+
+<Layout title={title} description={description} ogImagePath="/home">
+    <h1 class="u-pattern">
+        <span class="u-guttered">{ title }</span>
+    </h1>
+    <div class="u-guttered">
+        {description &&
+            <PostDescription description={description}/>
+        }
+        <Content></Content>
+    </div>
+</Layout>
