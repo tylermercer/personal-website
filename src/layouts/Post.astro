@@ -21,7 +21,8 @@ const { post: postWithNextAndPrev, category } = Astro.props;
 
 const { item: post, next, prev } = postWithNextAndPrev;
 
-const postToLink = (post?: CollectionEntry<'posts'>) => post && { path: `/posts/${post.slug}`, label: post.data.title };
+const postToLink = (post?: CollectionEntry<"posts">) =>
+  post && { path: `/posts/${post.slug}`, label: post.data.title };
 const nextLink = postToLink(next);
 const previousLink = postToLink(prev);
 
@@ -50,7 +51,7 @@ const ogImagePath = `/posts/${post.slug}`;
   <div class="u-guttered">
     {
       post.data.description && (
-        <PostDescription description={post.data.description}/>
+        <PostDescription description={post.data.description} />
       )
     }
     <p class="u-slub">
@@ -59,10 +60,7 @@ const ogImagePath = `/posts/${post.slug}`;
         category && (
           <span>
             {" "}
-            in{" "}
-            <a href={`/posts/${category.id}/1`}>
-              {category.data.title}
-            </a>
+            in <a href={`/posts/${category.id}/1`}>{category.data.title}</a>
           </span>
         )
       }
