@@ -14,5 +14,13 @@
       ],
       "key": "ArrowDown"
     }
+  ],
+  "app:open-vault": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "R"
+    }
   ]
 }
