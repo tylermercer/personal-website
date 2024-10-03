@@ -2,6 +2,7 @@
 title: Unlaunching
 description: Killing a project that I absolutely love
 #date: 2024-10-03 9:03:00.00
+#imgForInnerhelmVersion: https://upload.wikimedia.org/wikipedia/commons/8/81/Vingtmillelieue00vern_orig_0437_1.jpg
 ---
 
 I spent the last six months building a web application called
