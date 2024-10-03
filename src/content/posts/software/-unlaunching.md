@@ -11,7 +11,7 @@ It's been a compelling project for me---the kind that I wake up thinking about, 
 
 But I've decided to open-source and archive the repo and throw away my roadmap.[^throwing-away] I'm "unlaunching" it---declaring it done and putting it out there like a launch, but with the intent to put a firm lid on the project.
 
-At the beginning of August, when I was in absorbed in this project, I realized that I was not in a good place mentally. As I wrote in my journal at that time:
+At the beginning of August, when I was absorbed in this project, I realized that I was not in a good place mentally. As I wrote in my journal at that time:
 
 **TODO: explain the negative mental state I was in better than this journal snippet does**
 
@@ -70,18 +70,15 @@ Having made that decision, I took several steps to put an end to Logwise without
 
 * I've downgraded the app's domain to a subdomain of my personal site.[^subdomains]
 * I exported my personal data from the app. Since I'm keeping the app itself online, I could theoretically continue using it for my personal logging needs, but it would be very difficult to avoid thinking about ways it could be extended. (As of this writing, my Logwise Todoist project has more than 300 tasks in it.) Instead, I'm going to reimplement Logwise's features in Obsidian, via a couple plugins.
-* I've open-sourced and archived the repo. This allows me to preserve the knowledge and ideas that I crystalized in Logwise's code, while [closing that open loop](https://notes.andymatuschak.org/Close_open_loops). I can make short blog posts on this blog about various techniques I used in Logwise, linking to and drawing snippets from the actual code I used. But, because it is archived, I've weakened the temptation to keep working on it. It being archived also sends a clear signal to people who might use it that it
-  won't be updated.
-* I've written up my reasons for unlaunching on my personal blog in this article. This will act as a public commitment device_[^commitment-device] to keep me from reneging on my decision.
-  
-I feel simultaneously nervous and reenergized. I'm looking forward to putting more energy into Innerhelm, and not getting nerd-sniped by my own project anymore.
+* I've open-sourced and archived the repo. This allows me to preserve the knowledge and ideas that I crystalized in Logwise's code, while [closing that open loop](https://notes.andymatuschak.org/Close_open_loops). I can make short blog posts on this blog about various techniques I used in Logwise, linking to and drawing snippets from the actual code I used. But, because it is archived, I've weakened the temptation to keep working on it. It being archived also sends a clear signal to people who might use it that it won't be updated.
+* I've written up my reasons for unlaunching on my personal blog, in this blog post you're reading. In addition to facilitating the above reflection, this acts as a public commitment device_[^commitment-device] to keep me from reneging on my decision.
 
-**TODO: make conclusion more betterer**
+**TODO: write conclusion**
 
 [^throwing-away]: Ok, that's not fully true. I didn't delete my Todoist project; I only archived it. But I'm intentionally making it hard to pick the project up again.
 
 [^writing-friction]: Admittedly, there's more to this difficulty than just the addictiveness of engineering projects. My brain has been conditioned over the years to treat writing as a high-stress, adrenaline-fueled, deadline-motivated activity. I'm actively reconditioning myself to have a healthier relationship with it, but that is a topic for a different post.
 
-[^subdomains]: See ["Use Subdomains"](https://chriscoyier.net/2023/09/21/use-subdomains/) by Chris Coyier
+[^subdomains]: See ["Domain Sins of My Youth"](https://blog.jim-nielsen.com/2023/domain-sins-of-my-youth/) by Jim Nielsen and ["Use Subdomains"](https://chriscoyier.net/2023/09/21/use-subdomains/) by Chris Coyier
 
 [^commitment-device]: See [_Indistractible_](https://www.nirandfar.com/indistractable/) by Nir Eyal.
