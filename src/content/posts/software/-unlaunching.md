@@ -19,18 +19,49 @@ and for which I have a constant flow of exciting ideas.
 But I've decided to open-source and archive the repo and throw away my
 roadmap.[^throwing-away] I'm "unlaunching" it.
 
-It's something that I've been debating doing for a couple weeks now. At the
-beginning of August, when I was in mentally waist-deep in this project.
+At the beginning of August, when I was in mentally waist-deep in this project, I
+realized that I was not in a good place mentally. As I wrote in my journal at
+that time:
 
-When I first picked up Innerhelm again, I made visible progress quickly by
-writing down my thoughts as atomic evergreen notes in an Obsidian vault. This
-was energizing and fruitful---the more I wrote down, the more thoughts I had and
-the more resources I added to my queue. Writing atoms felt a lot easier than
-writing weekly newsletters back in the first few months of the year had been. I
-felt creative and insightful and mentally engaged with life as a whole.
+**TODO: explain the negative mental state I was in better than this entry
+snippet does**
+
+> I've been thinking exclusively about my app ... and while the progress I've
+> made on it has been satisfying, it doesn't feed my soul.
+>
+> I need to write. Specifically, I need to write in ways that change how I
+> think, how I see the world, and who I am. I've realized that that's what
+> writing---good, thorough writing---does for me. An example is my essay
+> ["Certainty and Uncertainty as Elements of Faith"](https://tylermercer.net/posts/faith/certainty-and-uncertainty-as-elements-of-faith/),
+> which I published on my personal website last September. The ideas and
+> connections that I formed as I thought through and refined that essay have
+> changed how I approach the concepts of faith, uncertainty, and humility.
+> *Innerhelm*, as a project, has had similar effects, but I've stopped writing
+> for it, and as such have stopped reaping the intellectual and spiritual
+> benefits.
+>
+> Building something cool, useful, and challenging in Logwise is satisfying, but
+> not in the right ways. It doesn't lead me to discovering new tools with which
+> I can interact with the world, and learning and growing in truth and
+> understanding.
+>
+> I've gotta start writing again---the kind of writing that refines my thinking.
+
+**TODO: explain my initial thinking about splitting my time**
+
+I picked up Innerhelm again on August 31. At first, I made visible progress
+quickly, by writing down my thoughts as atomic evergreen notes in an Obsidian
+vault. This was energizing and fruitful---the more I wrote down, the more
+thoughts I had and the more resources I added to my queue. Writing these "atoms"
+felt a lot easier than writing weekly newsletters back in the first few months
+of the year had been. I felt creative and insightful and mentally engaged with
+the concepts I was exploring and with life as a whole.
 
 That lasted about a week and a half. Beginning around September 10, I slowly
-drifted back into engineering-brain. I think there were a few reasons for this:
+drifted back into the myopic, quasi-addicted state of mind that I had found
+myself in before.
+
+I think there were a few reasons for this:
 
 * Logwise was still something I wanted to make progress on, in particular
   because I was still using it (somewhat---but noticeably less than when I was
@@ -38,44 +69,71 @@ drifted back into engineering-brain. I think there were a few reasons for this:
   I also kept seeing tools and libraries (e.g. SimpleWebAuthn) that could help
   me with things I had on Logwise's roadmap. Each new thing I came across was a
   honeypot trap for my Logwise-focused engineering brain.
-* Isabella experienced a major sleep regression around this time. This impacted
-  my sleep as well, hindering my cognition and creativity. It also directly
-  impacted the time I could put into writing, since it seemed better for my
-  well-being overall to sleep in when I could instead of waking up early to
-  write.
+* My 8-month-old daughter experienced a major sleep regression around this time.
+  This impacted my sleep as well, hindering my cognition and creativity. It also
+  directly impacted the time I could put into writing, since it seemed better
+  for my well-being overall to sleep in when I could instead of waking up early
+  to write.
 * Work was profoundly unfulfilling at this point, and I often ended the workday
   with an itch to write code that I felt good about, in a project where I felt a
   high degree of autonomy.
 
 I picked up Logwise again and made a few changes. I was able to maintain some of
 my Innerhelm writing (specifically, my daily notes practice where I capture new
-ideas), but writing new atoms required a lot more cognitive capacity and
-presence than I was giving to it. Losing momentum on that habit was also a
+ideas), but writing new evergreen notes required a lot more cognitive capacity
+and presence than I was giving to it. Losing momentum on that habit was also a
 discouragement in itself, forming a vicious cycle.
 
-After another week, I had all but stopped writing entirely.... again.
+After another week, I had all but stopped writing entirely.... again. 🤦‍♂️
 
 I began to wonder if switching back and forth between Innerhelm and Logwise was
 not something I could do as freely as I had hoped when I initially decided to
 pick up Innerhelm again. My brain seemed to have an addiction-like,
 hyperfocus-heavy relationship to my engineering projects specifically, which
 made switching *to* them easy but switching *away* from them
-hard.[^writing-friction] I also recognized that, in general, when I'm in
-engineering hyperfocus mode, my side project thinking bleeds heavily into the
-rest of my life. My mental focus narrows, mental presence in other domains (e.g.
-my relationships with Evelyn and Isabella) gets much harder, and I feel less
-emotionally healthy overall.
+hard.[^writing-friction] **TODO: move this next bit earlier** I also recognized
+that, in general, when I'm in engineering hyperfocus mode, my side project
+thinking bleeds heavily into the rest of my life. My mental focus narrows,
+mental presence in other domains (e.g. my relationships with Evelyn and
+Isabella) gets much harder, and I feel less emotionally healthy overall.
 
 But I resisted the idea of shuttering Logwise completely. It was still a viable
 product idea, even if just for me and (hypothetically) others for whom it could
 be a good fit. I fell prey to the sunk cost fallacy: I had spent more than six
 months working on it---I couldn't just throw all that work away.
 
-Over the last couple days, I've reconsidered that assessment. I've been thinking
-about how I can put an end to Logwise without feeling like the last six months
-were completely wasted. Here's my plan:
+**TODO: tie in nonessentialism thinking**
 
-* I've downgraded the domain to a subdomain of my personal site.
+Over the last couple days, I've reconsidered that assessment.
+
+**TODO: tie in these ideas:**
+
+* [Karlsson: Almost everyone I’ve met would be well-served thinking more about what to focus on](https://www.henrikkarlsson.xyz/p/multi-armed-bandit)
+* [Matuschak: Mental states of deep software development and deep research thinking are mutually exclusive](https://notes.andymatuschak.org/z7RGGgVdDVHXkzJ6BVFKws8)
+* [Matuschak: Switching costs are high between software development and research thinking](https://notes.andymatuschak.org/zD2oDSCgLEyM4xDhjRLXtuH)
+* [Matuschak: Focused software development work is self-abnegating](https://notes.andymatuschak.org/zPgc12cKuwjrRzEnbr2a8uK)
+* [Journal: 2023-09-19](obsidian://open?vault=personal-writing&file=Spiritual%20Notes%2FJournal%2F2023-09-19) — initial insight of a different relationship with writing than with app-building
+* [Journal: 2024-08-01](obsidian://open?vault=personal-writing&file=Spiritual%20Notes%2FJournal%2F2024-08-01) — I need to write again
+* [Kohn: The Downside of “Grit” (Commentary)](https://www.alfiekohn.org/article/downside-grit/)
+* Gretchen Rubin in _Better than Before_ — habits reduce mental load, and bright line rules can
+  enforce habits.
+* Greg McKeown in _Essentialism_ — I had to choose that which was most essential.
+* Luke Burgis in _Wanting_ — My long-term goals with Logwise were highly
+  mimetic. At the heart of it, I wanted to create a widely-used app, because
+  that was what I've seen modeled by people I look up to. That core mimesis was
+  surrounded by derivative goals, like making the app financially viable, but
+  the central focus of the project was not about money; it was about achieving
+  the status of "I've built a successful app." And the reason I sought for that
+  status was because of mimesis.
+* Adam Alter in _Irresistible_: "where substance addictions are nakedly
+  destructive, many behavioral addictions are quietly destructive acts wrapped
+  in cloaks of creation."
+
+Having made that decision, I carefully crafted a plan to put an end to Logwise
+without feeling like my work on it over the last six months was completely
+wasted. Here's what I've done:
+
+* I've downgraded the domain to a subdomain of my personal site.[^subdomains]
 * I exported my data as a JSON file. Since I'm keeping the app itself online I
   could technically keep using it for my personal logging needs, but it would be
   very difficult to avoid thinking about ways it could be extended. (As of this
@@ -91,15 +149,15 @@ were completely wasted. Here's my plan:
   because it is archived, I've weakened the temptation to keep working on it. It
   being archived also sends a clear signal to people who might use it that it
   won't be updated.
-* I'm going to write up my reasons for unlaunching on my personal blog. This
-  will act as a commitment device to keep me from reneging on my decision.
-  Interestingly, it could also be a potential funnel for new Innerhelm
-  subscribers, since this decision is an example of Innerhelm's concept of
-  higher order agency.
+* I'm writing up my reasons for unlaunching on my personal blog, in this article
+  you're reading. This will act as a public _commitment
+  device_[^commitment-device] to keep me from reneging on my decision.
   
-Having decided that, I feel simultaneously nervous and reenergized. I'm looking
-forward to putting more energy into Innerhelm, and not getting nerd-sniped by my
-own project anymore.
+I feel simultaneously nervous and reenergized. I'm looking forward to putting
+more energy into Innerhelm, and not getting nerd-sniped by my own project
+anymore.
+
+**TODO: make conclusion more betterer**
 
 [^throwing-away]: Ok, that's not fully true; I just archived the project in
 Todoist. But I'm intentionally making it hard to pick the project up again.
@@ -109,3 +167,10 @@ addictiveness of engineering projects. My brain has been conditioned over the
 years to treat writing as a high-stress, adrenaline-fueled, deadline-motivated
 activity. I'm working on reconditioning myself to have a healthier relationship
 with it, but that is a topic for a different post.
+
+[^subdomains]: See
+["Use Subdomains"](https://chriscoyier.net/2023/09/21/use-subdomains/) by Chris
+Coyier
+
+[^commitment-device]: See
+[_Indistractible_](https://www.nirandfar.com/indistractable/) by Nir Eyal.
