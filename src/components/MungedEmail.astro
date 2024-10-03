@@ -2,9 +2,14 @@
 export type Props = {
     label: string;
     class?: string;
+    subject?: string;
 };
 
-const { class: className, label, ...rest } = Astro.props;
+const { class: className, label, subject, ...rest } = Astro.props;
+
+const queryParams = subject && (new URLSearchParams({
+    subject: subject
+})).toString();
 ---
 
 <a
@@ -12,6 +17,7 @@ const { class: className, label, ...rest } = Astro.props;
     target="_blank"
     data-munged-user="pbagnpg"
     data-munged-domain="glyrezrepre.arg"
+    data-query={queryParams}
     data-label={label}
     {...rest}
 >
@@ -34,9 +40,10 @@ const { class: className, label, ...rest } = Astro.props;
         link.innerText = link.dataset.label || "send me an email";
         link.href = dec(
             `znvygb:${link.dataset.mungedUser}@${link.dataset.mungedDomain}`,
-        );
+        ) + (link.dataset.query ? `?${link.dataset.query}` : '');
         link.removeAttribute("data-munged-user");
         link.removeAttribute("data-munged-domain");
         link.removeAttribute("data-label");
+        link.removeAttribute("data-query");
     });
 </script>

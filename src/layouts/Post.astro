@@ -72,7 +72,7 @@ const ogImagePath = `/posts/${post.slug}`;
     <div class:list={{ "article-content": true, "drop-caps": dropCaps }}>
       <slot />
       <div class="reply-and-share">
-        <MungedEmail label="Reply via email" />
+        <MungedEmail label="Reply via email" subject={post.data.title} />
         <ShareLinks url={url} title={post.data.title} />
       </div>
     </div>
