@@ -124,7 +124,14 @@ Over the last couple days, I've reconsidered that assessment.
   surrounded by derivative goals, like making the app financially viable, but
   the central focus of the project was not about money; it was about achieving
   the status of "I've built a successful app." And the reason I sought for that
-  status was because of mimesis.
+  status was because of mimesis. This mimetic desire leeches off of my
+  values-motivated desire to make something that is useful---but I've already
+  done that in Innerhelm. From very early on in that project, my grandfather
+  would reply to my newsletters sharing how he found what I wrote useful. It's
+  easy to discount this because it fails the stereotypically-named
+  ["Mom Test"](https://www.amazon.com/Mom-Test-customers-business-everyone-ebook/dp/B01H4G2J1U),
+  but his gratitude was genuine. That's more than I've ever recieved for
+  Logwise, or anything else "app-ish" that I've built.
 * Adam Alter in _Irresistible_: "where substance addictions are nakedly
   destructive, many behavioral addictions are quietly destructive acts wrapped
   in cloaks of creation."
