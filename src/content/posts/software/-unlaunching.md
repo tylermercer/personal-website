@@ -115,7 +115,7 @@ Rubin ([_Better Than Before_](obsidian://open?vault=resource-notes&file=Books%2F
 
 McKeown ([_Essentialism_](obsidian://open?vault=resource-notes&file=Books%2FEssentialism)) — I had to choose that which was most essential; I couldn't do it all.
 
-> 
+> **TODO: find quotes from _Essentialism_**
 
 Burgis ([_Wanting_](obsidian://open?vault=resource-notes&file=Books%2FWanting))
 
@@ -123,10 +123,22 @@ Burgis ([_Wanting_](obsidian://open?vault=resource-notes&file=Books%2FWanting))
 
 My long-term goals with Logwise were highly mimetic. At the heart of it, I wanted to create a widely-used app, because that was what I've seen modeled by people I look up to. That core mimesis was surrounded by derivative goals, like making the app financially viable, but the central focus of the project was not about money; it was about achieving the status of "I've built a successful app." And the reason I sought for that status was because of mimesis. This mimetic desire leeches off of my values-motivated desire to make something that is useful---but I've already done that in Innerhelm. From very early on in that project, my grandfather would reply to my newsletters sharing how he found what I wrote useful. It's easy to discount this because it fails the stereotypically-named ["Mom Test"](https://www.amazon.com/Mom-Test-customers-business-everyone-ebook/dp/B01H4G2J1U), but his gratitude was genuine. That's more than I've ever recieved for Logwise, or anything else "app-ish" that I've built.
 
-
 Adam Alter ([_Irresistible_](obsidian://open?vault=resource-notes&file=Books%2FIrresistible))
 
 > \[W]here substance addictions are nakedly destructive, many behavioral addictions are quietly destructive acts wrapped in cloaks of creation.
+
+Anthony de Mello (_Awareness_)
+
+> The only way someone can be of help to you is in challenging your ideas.
+
+Corey Woodfield (["Investigation of Faith as a Motive for Action"](obsidian://open?vault=resource-notes&file=Articles%2FInvestigation%20of%20Faith%20as%20a%20Motive%20for%20Action))
+
+> **TODO: find quotes on inarticulacy**
+
+Kierkegaard
+
+> **TODO: find quotes on inarticulacy**
+## A plan
 
 Having made that decision, I took several steps to put an end to Logwise without feeling like my work on it over the last six months was completely wasted. Here's what I've done:
 
