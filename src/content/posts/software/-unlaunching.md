@@ -3,6 +3,7 @@ title: Unlaunching
 description: Killing a project that I absolutely love
 #date: 2024-10-03 9:03:00.00
 #imgForInnerhelmVersion: https://upload.wikimedia.org/wikipedia/commons/8/81/Vingtmillelieue00vern_orig_0437_1.jpg
+crosspostToInnerhelm: true
 ---
 
 I spent the last six months building a web application called [Logwise](https://logwise.tylermercer.net). It's an app for logging things---sleep quality, focus levels, research insights, health symptoms, or anything else you'd like to monitor over time. It works offline (thanks to [Dexie](https://dexie.org/) and [Dexie Cloud](https://dexie.org/cloud/)) and allows you to change the schema of your logs over time without data loss (thanks to [persistent data structures](https://en.wikipedia.org/wiki/Persistent_data_structure)).

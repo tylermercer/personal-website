@@ -60,6 +60,7 @@ jobs:
         if: steps.determine_mode.outputs.mode == 'always' || steps.check_files.outputs.non_markdown_files != ''
         env:
           PUBLIC_COMMIT_HASH: ${{ steps.extract_vars.outputs.sha_short }}
+          INNERHELM_SYNDICATION_API_KEY: ${{ secrets.INNERHELM_SYNDICATION_API_KEY }}
         run: |
           npm install
           npm run build
