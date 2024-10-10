@@ -8,6 +8,7 @@ const posts = defineCollection({
     dropCaps: z.optional(z.boolean()),
     date: z.optional(z.date()), // no date = is draft
     featured: z.optional(z.boolean()),
+    crosspostToInnerhelm: z.optional(z.boolean()),
   }),
 });
 const pages = defineCollection({
