@@ -99,3 +99,7 @@ const description = unMarkdown(descriptionRaw);
         ></script>
     </body>
 </html>
+<script>
+    import logCommitHash from "../utils/logCommitHash";
+    document.addEventListener('DOMContentLoaded', logCommitHash, { once: true });
+</script>

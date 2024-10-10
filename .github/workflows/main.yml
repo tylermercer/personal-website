@@ -44,17 +44,9 @@ jobs:
           non_markdown_files=$(echo "${{ steps.changed_files.outputs.modified_files }}" | grep -v '\.md$' || true)
           echo "non_markdown_files=$non_markdown_files" >> $GITHUB_OUTPUT
 
-      - name: Build site
-        id: build_site
-        if: steps.determine_mode.outputs.mode == 'always' || steps.check_files.outputs.non_markdown_files != ''
-        run: |
-          npm install
-          npm run build
-          echo "result=built" >> $GITHUB_OUTPUT
-
       - name: Extract variables
         id: extract_vars
-        if: steps.build_site.outputs.result == 'built'
+        if: steps.determine_mode.outputs.mode == 'always' || steps.check_files.outputs.non_markdown_files != ''
         run: | # branch_trunc is the branch truncated to 28 chars, which is the CF deploy preview subdomain length
           echo "sha_short=$(git rev-parse --short HEAD)" >> $GITHUB_OUTPUT
           echo "datetime=$(date +'%Y-%m-%d %H:%M:%S')" >> $GITHUB_OUTPUT
@@ -62,6 +54,16 @@ jobs:
           branch_trunc=${branch:0:28}
           echo "branch=${branch}" >> $GITHUB_OUTPUT
           echo "branch_trunc=${branch_trunc}" >> $GITHUB_OUTPUT
+
+      - name: Build site
+        id: build_site
+        if: steps.determine_mode.outputs.mode == 'always' || steps.check_files.outputs.non_markdown_files != ''
+        env:
+          PUBLIC_COMMIT_HASH: ${{ steps.extract_vars.outputs.sha_short }}
+        run: |
+          npm install
+          npm run build
+          echo "result=built" >> $GITHUB_OUTPUT
 
       - name: Deploy to Cloudflare Pages
         id: deploy
