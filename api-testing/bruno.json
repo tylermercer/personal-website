@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "Personal Website",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}
