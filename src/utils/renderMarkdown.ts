@@ -12,6 +12,14 @@ const parser = new MarkdownIt({
     })
 }).use(footnote);
 
+//Allow ids on a and li for footnotes to work properly
+const sanitizeHtmlOptions = {
+    allowedAttributes: {
+        'a': sanitizeHtml.defaults.allowedAttributes['a'].concat(['id']),
+        'li': ['id'],
+    },
+};
+
 export default function renderMarkdown(markdown: string) {
-    return sanitizeHtml(parser.render(markdown));
+    return sanitizeHtml(parser.render(markdown), sanitizeHtmlOptions);
 }
