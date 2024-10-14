@@ -1,13 +1,14 @@
 import rss from '@astrojs/rss';
-
+import type { APIRoute } from 'astro';
+import { experimental_AstroContainer } from "astro/container";
+import { getCollection, render } from 'astro:content';
 import metadata from '../../content/_metadata';
-import { getCollection } from 'astro:content';
 import combineDescriptionItems from '../../utils/combineDescriptionItems';
 import getPostDate from "../../utils/getPostDate";
-import renderMarkdown from "../../utils/renderMarkdown";
-import sortByDate from "../../utils/sortByDate";
-import type { APIRoute } from 'astro';
 import isDraft from '../../utils/isDraft';
+import sortByDate from "../../utils/sortByDate";
+
+const container = await experimental_AstroContainer.create();
 
 const expectedApiKey = import.meta.env.INNERHELM_SYNDICATION_API_KEY;
 
@@ -40,13 +41,13 @@ export const GET: APIRoute = async (context) => {
         title: metadata.title,
         description: combineDescriptionItems(metadata.descriptionItems),
         site: context.site!,
-        items: posts.map((post) => ({
+        items: await Promise.all(posts.map(async (post) => ({
             title: post.data.title,
             pubDate: getPostDate(post),
             description: post.data.description,
             link: `/posts/${post.slug}/`,
-            content: renderMarkdown(post.body),
-        })),
+            content: (await container.renderToString((await render(post)).Content)).substring('<!DOCTYPE html>'.length),
+        }))),
         customData: `<language>${metadata.language}</language>`,
     });
 } 
