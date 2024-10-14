@@ -10,7 +10,8 @@
     "astro": "astro",
     "send-email:dev": "node ./newsletter/send-email.cjs",
     "send-email": "node ./newsletter/send-email.cjs --prod",
-    "clean": "del-cli dist"
+    "clean": "del-cli dist",
+    "postinstall": "patch-package"
   },
   "dependencies": {
     "@astrojs/cloudflare": "^11.0.4",
@@ -36,6 +37,7 @@
     "marked": "^11.0.0",
     "minimist": "^1.2.8",
     "node-fetch": "^2.0.0",
+    "patch-package": "^8.0.0",
     "prism-themes": "^1.9.0",
     "remark-footnotes": "^4.0.1",
     "sanitize-html": "^2.11.0",

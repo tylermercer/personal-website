@@ -1,7 +1,12 @@
-import { z, defineCollection } from 'astro:content';
+import { glob } from 'astro/loaders';
+import { defineCollection, z } from 'astro:content';
 
 const posts = defineCollection({
-  type: 'content', // v2.5.0 and later
+  type: 'content_layer',
+  loader: glob({
+    pattern: "**\/*.md",
+    base: "./src/content/posts",
+  }),
   schema: z.object({
     title: z.string(),
     description: z.string(),

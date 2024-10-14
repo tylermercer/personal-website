@@ -1,0 +1,19 @@
+diff --git a/node_modules/astro/dist/content/loaders/glob.js b/node_modules/astro/dist/content/loaders/glob.js
+index c4cabed..a34bea1 100644
+--- a/node_modules/astro/dist/content/loaders/glob.js
++++ b/node_modules/astro/dist/content/loaders/glob.js
+@@ -154,10 +154,10 @@ function glob(globOptions) {
+           if (isConfigFile(entry)) {
+             return;
+           }
+-          if (isInContentDir(entry)) {
+-            skippedFiles.push(entry);
+-            return;
+-          }
++          // if (isInContentDir(entry)) {
++          //   skippedFiles.push(entry);
++          //   return;
++          // }
+           return limit(async () => {
+             const entryType = configForFile(entry);
+             await syncData(entry, baseDir, entryType);

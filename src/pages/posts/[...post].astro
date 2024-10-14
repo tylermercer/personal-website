@@ -1,6 +1,6 @@
 ---
 import Layout from "../../layouts/Post.astro";
-import { type CollectionEntry, getCollection } from "astro:content";
+import { type CollectionEntry, getCollection, render } from "astro:content";
 import filterOutDraftsIfProduction from "../../utils/filterOutDraftsIfProduction";
 import getCategory from "../../utils/getCategory";
 import labelDrafts from "../../utils/labelDrafts";
@@ -19,7 +19,7 @@ export type Props = {
   entry: WithNextAndPrev<CollectionEntry<"posts">>;
 };
 const { entry } = Astro.props;
-const { Content } = await entry.item.render();
+const { Content } = await render(entry.item);
 const category = await getCategory(entry.item);
 ---
 

@@ -18,6 +18,9 @@ export default defineConfig({
       borderRadius: '0',
     }
   }), mdx()],
+  experimental: {
+    contentLayer: true,
+  },
   vite: {
     server: {
       hostname: 'tylermercer.localhost'

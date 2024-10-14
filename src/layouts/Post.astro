@@ -22,7 +22,7 @@ const { post: postWithNextAndPrev, category } = Astro.props;
 const { item: post, next, prev } = postWithNextAndPrev;
 
 const postToLink = (post?: CollectionEntry<"posts">) =>
-  post && { path: `/posts/${post.slug}`, label: post.data.title };
+  post && { path: `/posts/${post.id}`, label: post.data.title };
 const nextLink = postToLink(next);
 const previousLink = postToLink(prev);
 
@@ -32,11 +32,11 @@ const date = getPostDate(post);
 
 const patternClass = category ? `u-pattern-${category.id}` : "";
 
-const wordCount = countWords(post.body);
+const wordCount = countWords(post.rendered?.html ?? '');
 const readingTime = Math.round(wordCount / READING_RATE) || 1;
 const dropCaps = post.data.dropCaps || false;
 
-const ogImagePath = `/posts/${post.slug}`;
+const ogImagePath = `/posts/${post.id}`;
 ---
 
 <Layout
