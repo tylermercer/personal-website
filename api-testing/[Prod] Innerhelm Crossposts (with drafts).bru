@@ -1,0 +1,19 @@
+meta {
+  name: [Prod] Innerhelm Crossposts (with drafts)
+  type: http
+  seq: 4
+}
+
+get {
+  url: https://tylermercer.net/api/syndication/for-innerhelm.xml?includeDrafts
+  body: none
+  auth: none
+}
+
+params:query {
+  includeDrafts: 
+}
+
+headers {
+  X-API-Key: [Replace me]
+}
