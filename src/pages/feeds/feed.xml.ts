@@ -14,13 +14,13 @@ export async function GET(context) {
         title: metadata.title,
         description: combineDescriptionItems(metadata.descriptionItems),
         site: context.site,
-        items: blog.map((post) => ({
+        items: await Promise.all(blog.map(async (post) => ({
             title: post.data.title,
             pubDate: getPostDate(post),
             description: post.data.description,
             link: `/posts/${post.slug}/`,
-            content: renderMarkdown(post.body),
-        })),
+            content: await renderMarkdown(post.body),
+        }))),
         customData: `<language>${metadata.language}</language>`,
     });
 }

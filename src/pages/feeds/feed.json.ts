@@ -7,15 +7,16 @@ import filterOutDraftsIfProduction from "../../utils/filterOutDraftsIfProduction
 import getCategory from "../../utils/getCategory";
 import renderMarkdown from "../../utils/renderMarkdown";
 import combineDescriptionItems from '../../utils/combineDescriptionItems';
+import type { APIRoute } from 'astro';
 
-export async function GET(context) {
+export const GET: APIRoute = async (context) => {
     const blog = sortByDate(filterOutDraftsIfProduction(await getCollection('posts')));
 
     const items = (await Promise.all(blog.map(async (post) => ({
         id: `${context.site}posts/${post.slug}/`,
         url: `${context.site}posts/${post.slug}/`,
         title: post.data.title,
-        content_html: renderMarkdown(post.body),
+        content_html: await renderMarkdown(post.body),
         date_published: formatDateIso(getPostDate(post)),
         category: (await getCategory(post))?.id ?? "uncategorized"
     }))));
