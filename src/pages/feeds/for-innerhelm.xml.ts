@@ -41,13 +41,13 @@ export const GET: APIRoute = async (context) => {
         title: metadata.title,
         description: combineDescriptionItems(metadata.descriptionItems),
         site: context.site!,
-        items: posts.map((post) => ({
+        items: await Promise.all(posts.map(async (post) => ({
             title: post.data.title,
             pubDate: getPostDate(post),
             description: post.data.description,
             link: `/posts/${post.slug}/`,
-            content: renderMarkdown(post.body),
-        })),
+            content: await renderMarkdown(post.body),
+        }))),
         customData: `<language>${metadata.language}</language>`,
     });
 } 

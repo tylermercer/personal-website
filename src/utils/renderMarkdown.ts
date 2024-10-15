@@ -1,25 +1,17 @@
-import sanitizeHtml from 'sanitize-html';
-import MarkdownIt from 'markdown-it';
-import anchor from 'markdown-it-anchor';
-import footnote from 'markdown-it-footnote';
 
-const parser = new MarkdownIt({
-    html: true,
-    typographer: true
-}).use(anchor, {
-    permalink: anchor.permalink.headerLink({
-        safariReaderFix: true
-    })
-}).use(footnote);
+import { remark } from 'remark';
+import remarkRehype from 'remark-rehype';
+import rehypeStringify from 'rehype-stringify';
+import remarkEmdash from '../../src/plugins/remark/emdash';
+import remarkGfm from 'remark-gfm';
 
-//Allow ids on a and li for footnotes to work properly
-const sanitizeHtmlOptions = {
-    allowedAttributes: {
-        'a': sanitizeHtml.defaults.allowedAttributes['a'].concat(['id']),
-        'li': ['id'],
-    },
-};
 
-export default function renderMarkdown(markdown: string) {
-    return sanitizeHtml(parser.render(markdown), sanitizeHtmlOptions);
+const md = remark()
+    .use(remarkGfm)
+    .use(remarkEmdash as any)
+    .use(remarkRehype)
+    .use(rehypeStringify);
+
+export default async function renderMarkdown(markdown: string): Promise<string> {
+    return String(await md.process(markdown));
 }
