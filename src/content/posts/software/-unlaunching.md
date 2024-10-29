@@ -6,22 +6,42 @@ description: Choosing focus by pulling the plug on a project I love
 crosspostToInnerhelm: true
 ---
 
-I spent the last six months building a web application called [Logwise](https://logwise.tylermercer.net). It's an app for logging things: sleep quality, focus levels, research insights, health symptoms, or anything else you'd like to monitor over time. It works offline (via [Dexie](https://dexie.org/) and [Dexie Cloud](https://dexie.org/cloud/)) and allows you to change the schema of your logs over time without data loss (via [persistent data structures](https://en.wikipedia.org/wiki/Persistent_data_structure)).
+I spent the last six months building a web application called [Logwise](https://logwise.tylermercer.net). It's an app for logging things: sleep quality, focus levels, research insights, health symptoms, or anything else you'd like to monitor over time and understand better. It works offline (via [Dexie](https://dexie.org/) and [Dexie Cloud](https://dexie.org/cloud/)) and allows you to easily change the schema of your logs over time without data loss (via [persistent data structures](https://en.wikipedia.org/wiki/Persistent_data_structure)).
 
 It's been a compelling project for me---the kind that I wake up thinking about, and for which I have a constant flow of exciting ideas.
 
-But I've decided to open-source and archive the repo, and to throw away my roadmap.[^throwing-away] I'm "unlaunching" it---declaring it done, and putting it out into the world like a launch, but with the intent to put a firm lid on the project.
+But I've decided to open-source and archive the repo, and to throw away my roadmap.[^throwing-away] I'm "unlaunching" Logwise---declaring it done, and putting it out into the world like a launch, but with the intent to put a firm lid on the project.
+
+This essay is an articulation of why.
+
+## The life of an engineer-researcher
+
+Andy Matuschak is a software engineer, designer, and researcher exploring _tools for thought_---software interfaces designed to expand and extend how humans can think. He spends some of his time in theory-land, writing, in both short and long form, about the science and mechanics that govern this space:: ideas like [programmable attention](https://notes.andymatuschak.org/zPpaHZYKuBPyoDtgcsiZ9RV) and [enabling environments](https://notes.andymatuschak.org/Enabling_environment). He also spends a portion of his time in engineering-land, creating experimental tools for thought such as [Orbit](https://withorbit.com/).
+
+At a high level, there's a parallel between Matuschak's work and my own (in kind, if not in quality or depth). At the beginning of this year, I started a writing project called [Innerhelm](https://innerhelm.com). Innerhelm explores _agency thinking_, which is the habit of thinking as an _agent_, capable of making choices and influencing the world, rather than as an object that is acted upon.
+
+Logwise emerged from the same place that Innerhelm did. My college studies consisted of a blending of psychology and computer science, with the intent to create software that helped people live intentionally. In fact, this time last year, Logwise and Innerhelm were still the same project in my head: a _self-authorship app_ that would facilitate reflection and intentionality through templated journaling. As I explained in [the first Innerhelm post](https://innerhelm.com/posts/where-innerhelm-began/), I eventually decided to make Innerhelm solely a writing project:
+
+> \[W]riting about these ideas seemed like the most strategic step forward. It is sufficiently open-ended that I can follow the idea where it leads, while still being concrete enough to share meaningfully with others (which is itself helpful in the exploration).
+
+But, with [the birth of my daughter](/posts/a-different-kind-of-hello-world) earlier this year, the utility of a templated-journaling app was brought to mind again. There's a lot to keep track of when you're caring for a newborn, if you are so inclined: feedings, diaper changes[^diapers], sleep quality, etc. My wife and I used an existing app for these things, but I found that there were other things I wanted to log as well, which the app didn't support---things like our mental health, how much sleep we were getting, and moments with our daughter that we wanted to remember.
+
+On top of that, late-night bottle feedings gave me a lot of time to hyperfocus on how I would build such an app. By the time our lives (and sleep schedules) had begun to stabilize, I was champing at the bit to start coding.
+
+This is where I found my situation paralleled Matuschak's: I had two related projects to juggle and not enough time for either of them.
+
+
 
 - TLDR as above
 - Juggling two projects
-	- Introduce Andy Matuschak
-	- Draw parallel between Matuschak and myself
-		- Explain Innerhelm, and Logwise's connection to it
-		- Use quote about switching costs (March and October one)
-	- Matuschak had good reason to want to reconcile his experience switching between two projects. Did I?
-	- The non-essentialist lie that you can do it all
-	- Explore vs exploit
-	- The biggest risk is not finding a bad balance between exploring and exploiting. The biggest risk is _spending too much time pulling a sub-optimal lever.
+- Introduce Andy Matuschak
+- Draw parallel between Matuschak and myself
+	- Explain Innerhelm, and Logwise's connection to it
+	- Use quote about switching costs (March and October one)
+- Matuschak had good reason to want to reconcile his experience switching between two projects. Did I?
+- The non-essentialist lie that you can do it all
+- Explore vs exploit
+- The biggest risk is not finding a bad balance between exploring and exploiting. The biggest risk is _spending too much time pulling a sub-optimal lever_.
 - Why Logwise was the wrong lever
 	- _Essentialism_
 		- Contributing at highest impact 
@@ -70,3 +90,5 @@ But I've decided to open-source and archive the repo, and to throw away my roadm
 		- Challenge your assumptions. "The only way someone can be of help to you..."
 
 [^throwing-away]: I should note that I didn't delete the Todoist project with my roadmap for Logwise; I only archived it. I had a lot of knowledge and resources captured in my notes there, and, despite my minimalist approach to _physical_ possessions, I struggle to discard conceptual ones such as crystallized knowledge. But archiving the project satisfies the requirement of intentionally making it hard to pick the project up again.
+
+[^diapers]: Logging diaper changes---and which of those were diaper _failures_---led surprisingly quickly to holding strong opinions about diaper brands. Something I wouldn't have anticipated a year ago! 
