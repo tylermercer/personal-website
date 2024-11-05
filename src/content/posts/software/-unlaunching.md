@@ -12,25 +12,52 @@ It's been a compelling project for me---the kind that I wake up thinking about, 
 
 But I've decided to open-source and archive the repo, and to throw away my roadmap.[^throwing-away] I'm "unlaunching" Logwise---declaring it done, and putting it out into the world like a launch, but with the intent to put a firm lid on the project.
 
-This essay is an articulation of why.
+## A tale of two projects
 
-## The life of an engineer-researcher
-
-Andy Matuschak is a software engineer, designer, and researcher exploring _tools for thought_---software interfaces designed to expand and extend how humans can think. He spends some of his time in theory-land, writing, in both short and long form, about the science and mechanics that govern this space:: ideas like [programmable attention](https://notes.andymatuschak.org/zPpaHZYKuBPyoDtgcsiZ9RV) and [enabling environments](https://notes.andymatuschak.org/Enabling_environment). He also spends a portion of his time in engineering-land, creating experimental tools for thought such as [Orbit](https://withorbit.com/).
-
-At a high level, there's a parallel between Matuschak's work and my own (in kind, if not in quality or depth). At the beginning of this year, I started a writing project called [Innerhelm](https://innerhelm.com). Innerhelm explores _agency thinking_, which is the habit of thinking as an _agent_, capable of making choices and influencing the world, rather than as an object that is acted upon.
+At the beginning of this year, I started a writing project called [Innerhelm](https://innerhelm.com). Innerhelm explores _agency thinking_, which is the habit of thinking as an agent, capable of making choices and influencing the world, rather than as an object that is merely acted upon.
 
 Logwise emerged from the same place that Innerhelm did. My college studies consisted of a blending of psychology and computer science, with the intent to create software that helped people live intentionally. In fact, this time last year, Logwise and Innerhelm were still the same project in my head: a _self-authorship app_ that would facilitate reflection and intentionality through templated journaling. As I explained in [the first Innerhelm post](https://innerhelm.com/posts/where-innerhelm-began/), I eventually decided to make Innerhelm solely a writing project:
 
 > \[W]riting about these ideas seemed like the most strategic step forward. It is sufficiently open-ended that I can follow the idea where it leads, while still being concrete enough to share meaningfully with others (which is itself helpful in the exploration).
 
-But, with [the birth of my daughter](/posts/a-different-kind-of-hello-world) earlier this year, the utility of a templated-journaling app was brought to mind again. There's a lot to keep track of when you're caring for a newborn, if you are so inclined: feedings, diaper changes[^diapers], sleep quality, etc. My wife and I used an existing app for these things, but I found that there were other things I wanted to log as well, which the app didn't support---things like our mental health, how much sleep we were getting, and moments with our daughter that we wanted to remember.
+But, with [the birth of my daughter](/posts/a-different-kind-of-hello-world) earlier this year, the utility of a templated-journaling app was brought to mind again. There's a lot to keep track of when you're caring for a newborn, if you are so inclined: feedings, diaper changes[^diapers], sleep quality, etc. My wife and I used an existing app for these things, but I found that there were other things I wanted to log as well, which the app didn't support---things like our mental health, how much sleep we were getting, and moments with our daughter that we wanted to remember. I needed an app that was more malleable.
 
 On top of that, late-night bottle feedings gave me a lot of time to hyperfocus on how I would build such an app. By the time our lives (and sleep schedules) had begun to stabilize, I was champing at the bit to start coding.
+## Andy Matuschak
 
-This is where I found my situation paralleled Matuschak's: I had two related projects to juggle and not enough time for either of them.
+Andy Matuschak is a software engineer, designer, and researcher exploring _tools for thought_---software interfaces designed to expand and extend how humans can think. He spends some of his time in theory-land, writing, in both short and long form, about the science and mechanics that govern this space:: ideas like [programmable attention](https://notes.andymatuschak.org/zPpaHZYKuBPyoDtgcsiZ9RV) and [enabling environments](https://notes.andymatuschak.org/Enabling_environment). He also spends a portion of his time in engineering-land, creating experimental tools for thought such as [Orbit](https://withorbit.com/).
 
+At a high level, there's a parallel between Matuschak's work and the work I was trying to do (in kind, if not in quality or depth). Logwise, like Orbit, was engineering-heavy and theory-light. Innerhelm, like Matuschak's research, was the reverse.
 
+Trying to make progress on both meant reconciling the tension between these two modes of thinking. As Matuschak observes, [they are mutually exclusive](https://notes.andymatuschak.org/z7RGGgVdDVHXkzJ6BVFKws8):
+
+> In practice, it’s quite difficult to think deeply about theories while in the midst of a significant software development project. And it’s hard to build momentum on software development when spending much of one’s day in reflection and writing.
+> 
+> ...
+> 
+> In March 2020, I wrote a list of research questions for the Mnemonic medium, then embarked on building Orbit. Writing now in October 2020, I’ve not made any meaningful progress on any of those research questions.[^parallelism]
+
+To make things worse, [switching costs between them are high](https://notes.andymatuschak.org/zD2oDSCgLEyM4xDhjRLXtuH):
+
+> In my experience, it’s quite costly to switch between those two mental states. I’ve not had much success dividing up my days or even my weeks into “building” and “thinking” times.
+
+In summary, there's a sizeable obstacle to be overcome in moving an engineering project and a writing project forward at the same time. This is where I found myself in August: having made a lot of progress on Logwise, but having not written for---or even thought about---Innerhelm in months.
+
+Matuschak, being a researcher whose specifically intended output is research-informed software, had good reason to want to reconcile this tension between two projects. Did I?
+## Explore vs Exploit
+
+In ["Almost everyone I’ve met would be well-served thinking more about what to focus on"](https://www.henrikkarlsson.xyz/p/multi-armed-bandit), writer Henrik Karlsson unpacks a different tension---the tradeoffs between exploring new paths forward and following a known good one.
+
+Drawing from probability theory, Karlsson describes what is known as the _multi-armed bandit problem_. In it, a gambler sets out to maximize his returns at a slot machine (known as a "one-armed bandit"), but this machine is different than most. This is a multi-armed bandit---a slot machine with many levers, each of which gives a different likelihood of a payout.
+
+The gambler's solution lies in navigating the tradeoffs between *exploring* (trying new levers) and *exploiting* (pulling the best lever he's found so far). But this dilemma isn't exclusively the purview of Lovecraftian casinos---it also maps onto the problem space I found myself in, of determining how best to use my time and energy.
+
+As Karlsson points out, the main risk is not that of finding a bad balance between exploring and exploiting---it's _spending too much time pulling a bad lever_:
+
+> People tend to gravitate to different sides of the explore/exploit spectrum. If you are high on openness, like I am, exploring comes easy. But it is harder to make a commitment and exploit what you’ve learned about yourself and the world. Other people are more committed, but risk being too conventional in their choices. They miss better avenues for their effort. **Most, however, tend to do less than optimal of both—not exploring, not exploiting; but doing things out of blind habit, and half-heartedly.**[^emphasis]
+
+Logwise, as it turns out, was the wrong lever.
+## 
 
 - TLDR as above
 - Juggling two projects
@@ -92,3 +119,7 @@ This is where I found my situation paralleled Matuschak's: I had two related pro
 [^throwing-away]: I should note that I didn't delete the Todoist project with my roadmap for Logwise; I only archived it. I had a lot of knowledge and resources captured in my notes there, and, despite my minimalist approach to _physical_ possessions, I struggle to discard conceptual ones such as crystallized knowledge. But archiving the project satisfies the requirement of intentionally making it hard to pick the project up again.
 
 [^diapers]: Logging diaper changes---and which of those were diaper _failures_---led surprisingly quickly to holding strong opinions about diaper brands. Something I wouldn't have anticipated a year ago! 
+
+[^parallelism]: If you replace "the mnemonic medium" with "agency thinking," "Orbit" with "Logwise," and "2020" with "2024," this describes my situation exactly. Amusingly, even the months are correct.
+
+[^emphasis]: Emphasis mine.
