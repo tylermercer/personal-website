@@ -47,6 +47,7 @@ export const GET: APIRoute = async (context) => {
             description: post.data.description,
             link: `/posts/${post.slug}/`,
             content: await renderMarkdown(post.body),
+            categories: isDraft(post) ? ['draft'] : [],
         }))),
         customData: `<language>${metadata.language}</language>`,
     });
