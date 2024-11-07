@@ -20,7 +20,7 @@ Logwise emerged from the same place that Innerhelm did. My college studies consi
 
 > \[W]riting about these ideas seemed like the most strategic step forward. It is sufficiently open-ended that I can follow the idea where it leads, while still being concrete enough to share meaningfully with others (which is itself helpful in the exploration).
 
-But, with [the birth of my daughter](/posts/a-different-kind-of-hello-world) earlier this year, the utility of a templated-journaling app was brought to mind again. There's a lot to keep track of when you're caring for a newborn, if you are so inclined: feedings, diaper changes[^diapers], sleep quality, etc. My wife and I used an existing app for these things, but I found that there were other things I wanted to log as well, which the app didn't support---things like our mental health, how much sleep we were getting, and moments with our daughter that we wanted to remember. I needed an app that was more malleable.
+But, with [the birth of my daughter](/posts/a-different-kind-of-hello-world) earlier this year, the utility of a templated-journaling app was brought to mind again. There's a lot to keep track of when you're caring for a newborn, if you're so inclined: feedings, diaper changes[^diapers], sleep quality, etc. My wife and I used an existing app for these things, but I found that there were other things I wanted to log as well, which the app didn't support---things like our mental health, how much sleep we were getting, and moments with our daughter that we wanted to remember. I needed an app that was more malleable.
 
 On top of that, late-night bottle feedings gave me a lot of time to hyperfocus on how I would build such an app. By the time our lives (and sleep schedules) had begun to stabilize, I was champing at the bit to start coding.
 ## Andy Matuschak
@@ -48,15 +48,17 @@ Matuschak, being a researcher whose specifically intended output is research-inf
 
 In ["Almost everyone I’ve met would be well-served thinking more about what to focus on"](https://www.henrikkarlsson.xyz/p/multi-armed-bandit), writer Henrik Karlsson unpacks a different tension---the tradeoffs between exploring new paths forward and following a known good one.
 
-Drawing from probability theory, Karlsson describes what is known as the _multi-armed bandit problem_. In it, a gambler sets out to maximize his returns at a slot machine (known as a "one-armed bandit"), but this machine is different than most. This is a multi-armed bandit---a slot machine with many levers, each of which gives a different likelihood of a payout.
+Drawing from probability theory, Karlsson describes what is known as the _multi-armed bandit problem_. In it, a gambler plays a slot machine (known as a "one-armed bandit"), but this machine is different than most. This is a "multi-armed bandit"---a slot machine with many levers, each of which gives a different likelihood of a payout.
 
 The gambler's solution lies in navigating the tradeoffs between *exploring* (trying new levers) and *exploiting* (pulling the best lever he's found so far). But this dilemma isn't exclusively the purview of Lovecraftian casinos---it also maps onto the problem space I found myself in, of determining how best to use my time and energy.
 
-As Karlsson points out, the main risk is not that of finding a bad balance between exploring and exploiting---it's _spending too much time pulling a bad lever_:
+As Karlsson points out, 
 
 > People tend to gravitate to different sides of the explore/exploit spectrum. If you are high on openness, like I am, exploring comes easy. But it is harder to make a commitment and exploit what you’ve learned about yourself and the world. Other people are more committed, but risk being too conventional in their choices. They miss better avenues for their effort. **Most, however, tend to do less than optimal of both—not exploring, not exploiting; but doing things out of blind habit, and half-heartedly.**[^emphasis]
 
-Logwise, as it turns out, was the wrong lever.
+In other words, the main risk is not striking a bad balance between exploring and exploiting---it's _spending too much time pulling a bad lever_.
+
+Compared with Innerhelm and other priorities such as my family, Logwise was a bad lever.
 ## 
 
 - TLDR as above
@@ -70,6 +72,8 @@ Logwise, as it turns out, was the wrong lever.
 - Explore vs exploit
 - The biggest risk is not finding a bad balance between exploring and exploiting. The biggest risk is _spending too much time pulling a sub-optimal lever_.
 - Why Logwise was the wrong lever
+	- Deceptively low output 
+	- Deceptively high cost
 	- _Essentialism_
 		- Contributing at highest impact 
 			- Innerhelm higher than Logwise (more on this later)
@@ -92,8 +96,6 @@ Logwise, as it turns out, was the wrong lever.
 			- My long-term goals with Logwise were highly mimetic. At the heart of it, I wanted to create a widely-used app, because that was what I've seen modeled by people I look up to. That core mimesis was surrounded by derivative goals, like making the app financially viable, but the central focus of the project was not about money; it was about achieving the status of "I've built a successful app." And the reason I sought for that status was because of mimesis. This mimetic desire leeches off of my values-motivated desire to make something that is useful---but I've already done that in Innerhelm
 		- The "yes-ness" was inarticulable.
 		- I was not being agentic---I was riding, not driving. Ironic for someone ostensibly exploring agency thinking!
-	- Aversion to quitting (maybe)
-		- [TODO] Unpack Kohn's essay
 	- Jony Ive on focus (maybe move lower?)
 		- (Maybe tie in ideas from Brian Lee at LegalZoom)
 		- Focusing on the known good outcome of Innerhelm made this clearer
@@ -110,6 +112,9 @@ Logwise, as it turns out, was the wrong lever.
 			- Maybe quote Kahneman from Thinking Fast and Slow here?
 	- Even continuing to _use_ the application while not working on it had proved risky. Reimplementing in Obisidian
 - Conclusion
+	- Persistence is agentic, but quitting can be too.
+		- Persistence essay from Innerhelm
+		- Kohn's essay
 	- I worried that I would feel constrained---like "a wild bull caught in a net," to borrow a metaphor from Isaiah. But I haven't.
 		- Karlsson: "as a person for whom narrow focus is against my instincts, the most remarkable thing about it is how rich it feels"
 	- Takeaways:
