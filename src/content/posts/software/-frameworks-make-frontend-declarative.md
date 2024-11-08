@@ -1,19 +1,20 @@
 ---
 title: Frameworks Make Frontend Declarative
-description: The killer feature
+description: Why frameworks have taken the world of frontend web dev by storm
 # date: 2023-08-07 12:00:00.00
 ---
- _Making frontend [declarative](/software/declarative-code)_ is the primary benefit of most JavaScript view frameworks, including [React](https://react.dev), [Vue](https://vuejs.org), [Angular](https://angular.dev), [Svelte](https://svelte.dev), and [Solid](https://solidjs.com). In my experience, advocates for "vanilla JS" approaches to web application development overlook this fact.
+ _Making frontend [declarative](/posts/software/declarative-code)_ is the primary benefit of most JavaScript view frameworks, including [React](https://react.dev), [Vue](https://vuejs.org), [Angular](https://angular.dev), [Svelte](https://svelte.dev), and [Solid](https://solidjs.com). In my experience, advocates for "vanilla JS" approaches to web application development overlook this fact.
 
 In this post, I'm using the following definition of declarative code, from [this video by Josh Morony](https://www.youtube.com/watch?v=ZnaThaXb7JM) (which I also shared in the post linked above):
 
 > Declarative code [is code] where the definition of a thing and how it can change over time is contained entirely within the declaration of that thing.
 
-The building blocks of declarative code are _declarations_, whereas the building blocks of imperative code are _commands_. 
+The building blocks of declarative code are _declarations_, whereas the building blocks of imperative code are _commands_.
 
 With those ideas in mind, there are two ways to approach frontend JS:
+
 1. Imperatively, typically using JQuery or vanilla JS
-2. Declaratively, using either an established framework or a hand-rolled framework-like abstraction.
+2. Declaratively, using either an established framework or a hand-rolled framework-like abstraction
 
 While HTML is naturally declarative, vanilla JS is purely imperative. **Any attempt to connect your logic and data to your view _without_ creating or using a framework-like abstraction will be imperative.** It has to be, because, out of the box, the only mechanism JS gives you to connect data with view is _a set of commands_: things like `el.innerText = ...` and `el.setAttribute(...)`.[^signals]
 
@@ -34,10 +35,10 @@ Take a look at this example from Noam Rosenthal's article ["What Web Frameworks 
 
 <script>
   function setErrorMessage(section, message) {
-  document.forms.contactForm.elements[section].elements.error.value = message;
+    document.forms.contactForm.elements[section].elements.error.value = message;
   }
   function setShowErrors(show) {
-  document.forms.contactForm.elements.showErrors.checked = show;
+    document.forms.contactForm.elements.showErrors.checked = show;
   }
 </script>
 
@@ -47,7 +48,7 @@ Take a look at this example from Noam Rosenthal's article ["What Web Frameworks 
    }
 </style>
 ```
- 
+
 The declarations of the error messages (the two instances of `output` in the HTML) do not contain how they could change over time. That information is elsewhere entirely, in the script, where it's expressed imperatively (as commands to set the message and the shown state). As such, the error messages are not fully declarative. If you want to know how they change, you have to scan through all the code and look for references to them.
 
 Contrast that with a simple implementation in React[^react]:
@@ -116,21 +117,21 @@ To show where declarativeness really shines, let's add an indicator of the _coun
 <script>
   let count = 0;
   function setCount(newCount) {
-	  count = newCount;
-	  document.forms.contactForm.elements.output.value = `${count} errors`;
+    count = newCount;
+    document.forms.contactForm.elements.output.value = `${count} errors`;
   }
   function setErrorMessage(section, message) {
-	const old = document.forms.contactForm.elements[section].elements.error.value;
-	document.forms.contactForm.elements[section].elements.error.value = message;
-	if (message && !old) {
-		setCount(count + 1);
-	}
-	if (old && !message) {
-		setCount(count - 1);
-	}
+    const old = document.forms.contactForm.elements[section].elements.error.value;
+    document.forms.contactForm.elements[section].elements.error.value = message;
+    if (message && !old) {
+      setCount(count + 1);
+    }
+    if (old && !message) {
+      setCount(count - 1);
+    }
   }
   function setShowErrors(show) {
-  document.forms.contactForm.elements.showErrors.checked = show;
+    document.forms.contactForm.elements.showErrors.checked = show;
   }
 </script>
 ```
@@ -199,6 +200,6 @@ Everything you need to know about the `output`---specifically, that it displays 
 
 _This_ is why frameworks have taken the frontend world by storm since React hit the scene in 2013: they make frontend view and state declarative.
 
-[^react]: While I've criticized React for [its impact on frontend performance](/software/free-lunches) in the past, I'm using it here because it is the [prototypal](https://en.wikipedia.org/wiki/Prototype_theory) frontend framework---when people think "frontend framework", they usually think of React first, even if they don't use it themselves.
+[^react]: While I've criticized React for [its impact on frontend performance](/posts/software/free-lunches) in the past, I'm using it here because it is the [prototypal](https://en.wikipedia.org/wiki/Prototype_theory) frontend framework---when people think "frontend framework", they usually think of React first, even if they don't use it themselves.
 
 [^signals]: There is some interesting work being done to bring declarative state management to vanilla JavaScript, such as the in-progress [JavaScript Signals proposal](https://github.com/tc39/proposal-signals). But those efforts haven't landed yet, and they don't currently provide ways to bind their declarative state primitives to the DOM.
