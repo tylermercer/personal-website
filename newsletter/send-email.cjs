@@ -119,22 +119,22 @@ function processFeedData(feedData) {
           console.log('Body:', response.body);
         }
   
-        var scheduleReq = {
-          method: 'PUT',
-          url: `/v3/marketing/singlesends/${response.body.id}/schedule`,
-          body: {
-            send_at: 'now'
-          }
-        };
+        // var scheduleReq = {
+        //   method: 'PUT',
+        //   url: `/v3/marketing/singlesends/${response.body.id}/schedule`,
+        //   body: {
+        //     send_at: 'now'
+        //   }
+        // };
   
-        if (argv.prod || argv.send) {
-          console.log("Sending Single Send....");
-          console.log(scheduleReq)
-          return client.request(scheduleReq).then(() => console.log("Sent!"));
-        }
-        else {
-          console.log('Request to schedule:', scheduleReq);
-        }
+        // if (argv.send) {
+        //   console.log("Sending Single Send....");
+        //   console.log(scheduleReq)
+        //   return client.request(scheduleReq).then(() => console.log("Sent!"));
+        // }
+        // else {
+        //   console.log('Request to schedule:', scheduleReq);
+        // }
       })
       .catch(error => {
         console.error('Error:', error);
