@@ -1,12 +1,12 @@
 ---
 title: What is Declarative Code?
 description: A precise definition of a useful concept
-# date: 2024-11-08 12:00:00.00
+date: 2024-11-08 12:00:00.00
 ---
 
 If you spend any amount of time writing web UI's, you're likely to have come across code that is described as _declarative_ or _imperative_, usually with declarative code being framed as a good thing and imperative code as a bad thing.
 
-The difference between these two forms of code is often explained as "what" versus "how": _declarative_ code declares _what_ a thing is, whereas _imperative_ code is _how_ a thing is done.
+The difference between these two forms of code is often explained as "what" versus "how": _declarative_ code describes _what_ a thing is, whereas _imperative_ code describes _how_ a thing is done.
 
 But that's pretty nebulous, and not very actionable.
 
