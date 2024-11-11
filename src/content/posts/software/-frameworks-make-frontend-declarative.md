@@ -20,6 +20,8 @@ While HTML is naturally declarative, vanilla JS is purely imperative. **Any atte
 
 Take a look at this example from Noam Rosenthal's article ["What Web Frameworks Solve: The Vanilla Alternative"](https://www.smashingmagazine.com/2022/02/web-frameworks-guide-part2/):
 
+**Todo: Mark invalid fields for screen-readers a la https://evilmartians.com/chronicles/html-best-practices-for-login-and-signup-forms?utm_source=tldrwebdev**
+
 ```html
 <form name="contactForm">
   <input name="showErrors" type="checkbox" hidden />
