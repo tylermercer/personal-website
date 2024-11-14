@@ -129,3 +129,24 @@ ul {
 ul > li::marker {
     color: var(--color-primary-11);
 }
+
+button {
+    font-family: var(--font-accent);
+    cursor: pointer;
+    border: none;
+    color: white;
+    background-color: var(--color-primary-bg-static);
+    border-radius: 0;
+    font-weight: 700;
+    margin-bottom: 0.8rem;
+    font-size: 1rem;
+    padding: 0.7rem;
+    text-align: center;
+}
+button:hover,
+button:focus {
+    filter: brightness(0.95) contrast(1.1);
+}
+button:disabled {
+    opacity: 0.8;
+}
