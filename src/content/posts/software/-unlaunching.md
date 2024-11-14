@@ -14,7 +14,7 @@ But I've decided to open-source and archive the repo, and to throw away my roadm
 
 ## A tale of two projects
 
-At the beginning of this year, I started a writing project called [Innerhelm](https://innerhelm.com). Innerhelm explores _agency thinking_, which is the habit of thinking as an agent, capable of making choices and influencing the world, rather than as an object that is merely acted upon.
+At the beginning of this year, I started a writing project called [Innerhelm](https://innerhelm.com). Innerhelm explores _agency thinking_, which is the habit of thinking as an agent, capable of making choices and influencing the world, rather than thinking as an object that is merely acted upon.
 
 Logwise emerged from the same place that Innerhelm did. My college studies consisted of a blending of psychology and computer science, with the intent to create software that helped people live intentionally. In fact, this time last year, Logwise and Innerhelm were still the same project in my head: a _self-authorship app_ that would facilitate reflection and intentionality through templated journaling. As I explained in [the first Innerhelm post](https://innerhelm.com/posts/where-innerhelm-began/), I eventually decided to make Innerhelm solely a writing project:
 
@@ -56,10 +56,10 @@ As Karlsson points out,
 
 > People tend to gravitate to different sides of the explore/exploit spectrum. If you are high on openness, like I am, exploring comes easy. But it is harder to make a commitment and exploit what you’ve learned about yourself and the world. Other people are more committed, but risk being too conventional in their choices. They miss better avenues for their effort. **Most, however, tend to do less than optimal of both—not exploring, not exploiting; but doing things out of blind habit, and half-heartedly.**[^emphasis]
 
-In other words, the main risk is not striking a bad balance between exploring and exploiting---it's _spending too much time pulling a bad lever_.
+In other words, the main risk is not that of striking a bad balance between exploring and exploiting---it's _spending too much time pulling a bad lever_.
 
 Compared with Innerhelm and other priorities such as my family, Logwise was a bad lever.
-## 
+## Low payout, high cost
 
 - TLDR as above
 - Juggling two projects
