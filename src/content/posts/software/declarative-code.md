@@ -189,4 +189,4 @@ There are many cases where the cost of imperative code (or naive declarative cod
 
 But for large, stateful applications, especially where there's a high degree of [inherent complexity](https://lawsofux.com/teslers-law/), using a frontend framework like React, Angular, Svelte, or Vue is an excellent way to keep your code declarative and easy to understand.
 
-In the next post in this series (coming soon), we'll dive into how frontend web frameworks accomplish that.
+In the next post in this series (coming soon), we'll dive into how frontend web frameworks take declarativeness even further, by making UI itself declarative.
