@@ -49,6 +49,7 @@
     "unist-util-visit": "^5.0.0"
   },
   "devDependencies": {
+    "@jam-comments/astro": "^2.8.1",
     "@types/luxon": "^3.3.2",
     "@types/markdown-it-footnote": "^3.0.1",
     "@types/node": "^20.8.3",
