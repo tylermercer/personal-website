@@ -1,0 +1,62 @@
+---
+import JamComments from "@jam-comments/astro";
+
+const isPreview = !!import.meta.env.IS_PREVIEW;
+---
+{!isPreview && (
+    <div id="comments" class="jamcomments-container">
+        <JamComments
+            tz="America/Denver"
+            copy={{
+                commentPlaceholder: "Write something...",
+            }}
+        />
+    </div>
+)}
+<style lang="scss" is:global>
+    .jamcomments-container {
+        p {
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        .jc-Shell {
+            --jc-editor-background: var(--color-gray-1);
+        }
+        .jc-CommentList-list {
+            gap: 1rem;
+        }
+        .jc-Comment-content {
+            padding-bottom: 0.5rem;
+            & > br:last-child {
+                display: none;
+            }
+        }
+
+        .jc-Editor-tabButton {
+            color: var(--color-gray-12);
+            background-color: var(--color-gray-1);
+            text-align: center;
+            &:hover,
+            &:focus {
+                background-color: var(--color-gray-1);
+            }
+        }
+        .jc-Comment-actionButton {
+            font-family: var(--font-accent);
+            cursor: pointer;
+            border: none;
+            color: var(--color-primary-11);
+            background-color: var(--color-gray-1);
+            border-radius: 0;
+            font-weight: 600;
+            padding: 0.2rem 0.7rem;
+            text-align: center;
+        }
+        .jc-Editor-tab,
+        .jc-CommentBox textarea,
+        .jc-CommentBox input,
+        .jc-CommentBox-preview {
+            border-radius: 0;
+        }
+    }
+</style>
