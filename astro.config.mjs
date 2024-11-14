@@ -3,6 +3,14 @@ import mdx from "@astrojs/mdx";
 import expressiveCode from "astro-expressive-code";
 import { defineConfig } from 'astro/config';
 import remarkEmdash from './src/plugins/remark/emdash';
+import { jamComments } from "@jam-comments/astro/config";
+
+import { loadEnv } from "vite";
+const {
+  JAM_COMMENTS_DOMAIN,
+  JAM_COMMENTS_API_KEY,
+  JAM_COMMENTS_ENVIRONMENT
+} = loadEnv(process.env.NODE_ENV, process.cwd(), "");
 
 // https://astro.build/config
 export default defineConfig({
@@ -12,12 +20,20 @@ export default defineConfig({
   markdown: {
     remarkPlugins: [remarkEmdash],
   },
-  integrations: [expressiveCode({
-    themes: ['material-theme-ocean'],
-    styleOverrides: {
-      borderRadius: '0',
-    }
-  }), mdx()],
+  integrations: [
+    expressiveCode({
+      themes: ['material-theme-ocean'],
+      styleOverrides: {
+        borderRadius: '0',
+      }
+    }),
+    mdx(),
+    jamComments({
+      domain: JAM_COMMENTS_DOMAIN,
+      apiKey: JAM_COMMENTS_API_KEY,
+      environment: JAM_COMMENTS_ENVIRONMENT,
+    }),
+  ],
   vite: {
     server: {
       hostname: 'tylermercer.localhost'
