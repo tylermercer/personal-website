@@ -53,7 +53,7 @@ To illustrate how this looks in practice, and why it breaks down as your code be
 ```ts
 class ScoreTracker {
   private _history: number[] = [];
-  
+
   get history(): ReadonlyArray<number> {
     return this._history;
   }
@@ -80,24 +80,24 @@ Note that imperative code makes sense for the `addScore` function, since it is c
 Let's add functionality to this class and see how imperative and declarative code styles differ as it grows. We'll start by adding a member for the user's high score, thinking imperatively:
 
 ```diff lang="ts"
-class ScoreTracker {
-  private _history: number[] = [];
-+ private _highScore: number = 0;
-  
-  get history(): ReadonlyArray<number> {
-    return this._history;
-  }
-+ get highScore(): number {
-+   return this._highScore;
-+ }
+ class ScoreTracker {
+   private _history: number[] = [];
++  private _highScore: number = 0;
 
-  addScore(score: number): void {
-    this._history.push(score);
-+   if (score > this._highScore) {
-+     this._highScore = score;
-+   }
-  }
-}
+   get history(): ReadonlyArray<number> {
+     return this._history;
+   }
++  get highScore(): number {
++    return this._highScore;
++  }
+
+   addScore(score: number): void {
+     this._history.push(score);
++    if (score > this._highScore) {
++      this._highScore = score;
++    }
+   }
+ }
 ```
 
 This works, but we've had to add code to three different places. Most notably, when we add a new score, we have to imperatively update `_highScore` if the new score is higher. But this behavior is, conceptually-speaking, part of the definition of the high score concept: the high score is the highest score the user has achieved so far. Wouldn't it be great if we could bundle that logic into the declaration of `highScore`?
@@ -105,34 +105,34 @@ This works, but we've had to add code to three different places. Most notably, w
 It would be, but we've got a deadline to hit, and our manager has already assigned us the next ticket: adding the user's most recent score to the display, and allowing them to reset all their data. Let's just keep going the way things are---we don't want to lose that [sunk cost](https://en.wikipedia.org/wiki/Sunk_cost#Fallacy_effect), after all.
 
 ```diff lang="ts"
-class ScoreTracker {
-  private _history: number[] = [];
-  private _highScore: number = 0;
-+ private _mostRecentScore: number | undefined; //Undefined if no scores yet
-  
-  get history(): ReadonlyArray<number> {
-    return this._history;
-  }
-  get highScore(): number {
-    return this._highScore;
-  }
-+ get mostRecentScore(): number {
-+   return this._mostRecentScore;
-+ }
+ class ScoreTracker {
+   private _history: number[] = [];
+   private _highScore: number = 0;
++  private _mostRecentScore: number | undefined; //Undefined if no scores yet
 
-  addScore(score: number): void {
-    this._history.push(score);
-+   this._mostRecentScore = score;
-    if (score > this._highScore) {
-      this._highScore = score;
-    }
-  }
+   get history(): ReadonlyArray<number> {
+     return this._history;
+   }
+   get highScore(): number {
+     return this._highScore;
+   }
++  get mostRecentScore(): number {
++    return this._mostRecentScore;
++  }
+
+   addScore(score: number): void {
+     this._history.push(score);
++    this._mostRecentScore = score;
+     if (score > this._highScore) {
+       this._highScore = score;
+     }
+   }
 +
-+ reset(): void {
-+   this._history.clear();
-+   this._highScore = 0;
-+ }
-}
++  reset(): void {
++    this._history.clear();
++    this._highScore = 0;
++  }
+ }
 ```
 
 Phew! We met our deadline. But oh no!! 😱 There's a bug in our code! We forgot to reset `this._mostRecentScore` in our `reset` function. 🤦‍♂️
@@ -140,32 +140,32 @@ Phew! We met our deadline. But oh no!! 😱 There's a bug in our code! We forgot
 Instead of just fixing that, let's rewrite this so we don't have to touch four different places each time we add a new feature in the future. Here's how we'd implement the high score, last score, and reset features declaratively:
 
 ```diff lang="ts"
-class ScoreTracker {
-  private _history: number[] = [];
-  
-  get history(): ReadonlyArray<number> {
-    return this._history;
-  }
-+ get highScore(): number {
-+   return Math.max(...this._history);
-+ }
-+ get mostRecentScore(): number | undefined {
-+   return this._history.at(-1);
-+ }
+ class ScoreTracker {
+   private _history: number[] = [];
 
-  addScore(score: number): void {
-    this._history.push(score);
-  }
+   get history(): ReadonlyArray<number> {
+     return this._history;
+   }
++  get highScore(): number {
++    return Math.max(...this._history);
++  }
++  get mostRecentScore(): number | undefined {
++    return this._history.at(-1);
++  }
+
+   addScore(score: number): void {
+     this._history.push(score);
+   }
 +
-+ reset() {
-+   this._history.clear();
-+ }
-}
++  reset() {
++    this._history.clear();
++  }
+ }
 ```
 
 Much nicer! We captured the conceptual definition of `highScore` and `lastScore` in their declarations.
 
-(Note that `reset` is still imperative---because, as with `addScore`, it's conceptually a command. But it's much simpler now, and doesn't need to be changed as we add new features.)
+(Note that `reset` is still imperative---as with `addScore`, it's conceptually a command. But it's much simpler now, and doesn't need to be changed as we add new features.)
 
 ## The need for speed
 
@@ -185,8 +185,8 @@ You might have guessed where this is going:
 
 That's not *quite* what I'm saying here.
 
-There are many cases where the cost of imperative code (or naive declarative code) is [lower than the cost of a framework like React](/posts/software/free-lunches). For example, because there is (intentionally) comparatively little of it, I've written all the client-side JS on [my website](/), [my wife's art site](https://evelynescobar.art), and my topical blog [Innerhelm](https://innerhelm.com) in vanilla, imperative JavaScript. This keeps my pages quick to load, and the unwieldiness of managing complex imperative logic serves as an incentive to keep things simple.
+There are many cases where the cost of imperative code (or naive declarative code) is [lower than the cost of a framework like React](/posts/software/free-lunches). For example, because there is (intentionally) comparatively little client-side JS, I've written all the client-side logic on [my website](/), [my wife's art site](https://evelynescobar.art), and my topical blog [Innerhelm](https://innerhelm.com) in vanilla, imperative JavaScript. This keeps my pages quick to load, and the unwieldiness of managing complex imperative logic serves as an incentive to keep things simple.
 
-But for large, stateful applications, especially where there's a high degree of inherent complexity, using a frontend framework like React, Angular, Svelte, or Vue is an excellent way to keep your state declarative and easy to understand.
+But for large, stateful applications, especially where there's a high degree of [inherent complexity](https://lawsofux.com/teslers-law/), using a frontend framework like React, Angular, Svelte, or Vue is an excellent way to keep your code declarative and easy to understand.
 
-In the next post in this series (coming soon), we'll dive into that in more detail.
+In the next post in this series (coming soon), we'll dive into how frontend web frameworks accomplish that.
