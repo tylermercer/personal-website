@@ -63,6 +63,7 @@ jobs:
           INNERHELM_SYNDICATION_API_KEY: ${{ secrets.INNERHELM_SYNDICATION_API_KEY }}
           JAM_COMMENTS_DOMAIN: tylermercer.net
           JAM_COMMENTS_API_KEY: ${{ secrets.JAM_COMMENTS_API_KEY }}
+          JAM_COMMENTS_ENVIRONMENT: ${{ steps.extract_vars.outputs.branch == 'main' && 'production' || 'preview' }}
         run: |
           npm install
           npm run build
