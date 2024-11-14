@@ -178,7 +178,7 @@ To mitigate this, we have a couple options:
 
 You might have guessed where this is going:
 
-- Option 1 is what [React](https://react.dev/) does, via its `useMemo` hook, and, more recently, the experimental [React Compiler](https://react.dev/learn/react-compiler).
+- Option 1 is what [React](https://react.dev/) does, via its [`useMemo` hook](https://react.dev/reference/react/useMemo), and, more recently, the experimental [React Compiler](https://react.dev/learn/react-compiler).
 - Option 2 is what signals-based frameworks like [Solid](https://www.solidjs.com/) and the recently-released [Svelte 5](https://svelte.dev/blog/svelte-5-is-alive) do. The signaling behavior described above is where the term "signal" comes from.
 
 ## Use React, got it!
