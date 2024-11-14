@@ -102,7 +102,7 @@ Let's add functionality to this class and see how imperative and declarative cod
 
 This works, but we've had to add code to three different places. Most notably, when we add a new score, we have to imperatively update `_highScore` if the new score is higher. But this behavior is, conceptually-speaking, part of the definition of the high score concept: the high score is the highest score the user has achieved so far. Wouldn't it be great if we could bundle that logic into the declaration of `highScore`?
 
-It would be, but we've got a deadline to hit, and our manager has already assigned us the next ticket: adding the user's most recent score to the display, and allowing them to reset all their data. Let's just keep going the way things are---we don't want to lose that [sunk cost](https://en.wikipedia.org/wiki/Sunk_cost#Fallacy_effect), after all.
+It would be, but we've got a deadline to hit, and our manager has already assigned us the next two tickets: adding the user's most recent score to the display, and allowing them to reset all their data. Let's keep going the way things are---we don't want to lose that [sunk cost](https://en.wikipedia.org/wiki/Sunk_cost#Fallacy_effect), after all.
 
 ```diff lang="ts"
  class ScoreTracker {
@@ -183,7 +183,7 @@ You might have guessed where this is going:
 
 ## Use React, got it!
 
-That's not *quite* what I'm saying here.
+That's not _quite_ what I'm saying here.
 
 There are many cases where the cost of imperative code (or naive declarative code) is [lower than the cost of a framework like React](/posts/software/free-lunches). For example, because there is (intentionally) comparatively little client-side JS, I've written all the client-side logic on [my website](/), [my wife's art site](https://evelynescobar.art), and my topical blog [Innerhelm](https://innerhelm.com) in vanilla, imperative JavaScript. This keeps my pages quick to load, and the unwieldiness of managing complex imperative logic serves as an incentive to keep things simple.
 
