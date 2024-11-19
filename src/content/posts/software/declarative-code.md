@@ -1,7 +1,7 @@
 ---
 title: What is Declarative Code?
 description: A precise definition of a useful concept
-date: 2024-11-08 12:00:00.00
+# date: 2024-11-08 12:00:00.00
 ---
 
 If you spend any amount of time writing web UI's, you're likely to have come across code that is described as _declarative_ or _imperative_, usually with declarative code being framed as a good thing and imperative code as a bad thing.
