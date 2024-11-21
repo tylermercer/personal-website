@@ -6,4 +6,6 @@ I came across an interesting CSS pattern in [this article by Manuel Matuzovic](
 
 It took me a bit to realize how cool this is—the media query doesn't need to compete in specificity with the selectors that set the properties it's overriding! Instead, the selectors opt-in to the override for each property. This means the media query can specify those properties with simple, low-specificity selectors (like `nav` and `ul` in this example). The opt-in nature of the override also makes it clearer which properties are overridden.
 
-**Todo: connect to Svelte's component styles props implementation—in this case, the parent setting the props is the browser window.
+- [ ] Connect to Svelte's component styles props implementation—in this case, the parent setting the props is the browser window.
+- [ ] Draw parallel to theme variables
+- [ ] Give simple example
