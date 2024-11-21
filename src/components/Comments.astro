@@ -1,18 +1,12 @@
 ---
 import JamComments from "@jam-comments/astro";
-
-const isPreview = !!import.meta.env.IS_PREVIEW;
 ---
-{!isPreview && (
-    <div id="comments" class="jamcomments-container">
-        <JamComments
-            tz="America/Denver"
-            copy={{
-                commentPlaceholder: "Write something...",
-            }}
-        />
-    </div>
-)}
+<div id="comments" class="jamcomments-container">
+    <h2>Comments</h2>
+    <JamComments
+        tz="America/Denver"
+    />
+</div>
 <style lang="scss" is:global>
     .jamcomments-container {
         p {
