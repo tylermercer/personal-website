@@ -10,7 +10,7 @@ couple weeks early due to some sudden complications, but we are so glad she's
 here and that she's okay. She and Evelyn are both doing well now.
 
 I've written before about
-[the journey of faith](/post/faith/certainty-and-uncertainty-as-elements-of-faith)
+[the journey of faith](/posts/faith/certainty-and-uncertainty-as-elements-of-faith)
 that Evelyn and I went through with our desires to have children. Our need for
 faith to accept uncertainty hasn't diminished---scary complications in the
 delivery process required us to place our faith in God even more firmly.
