@@ -1,5 +1,3 @@
-
-
 [Karlsson](https://www.henrikkarlsson.xyz/p/multi-armed-bandit):
 
 > People tend to gravitate to different sides of the explore/exploit spectrum. If you are high on openness, like I am, exploring comes easy. But it is harder to make a commitment and exploit what you’ve learned about yourself and the world. Other people are more committed, but risk being too conventional in their choices. They miss better avenues for their effort. Most, however, tend to do less than optimal of both—not exploring, not exploiting; but doing things out of blind habit, and half-heartedly.
@@ -64,24 +62,32 @@ McKeown ([_Essentialism_](obsidian://open?vault=resource-notes&file=Books%2FEsse
 
 > **TODO: find quotes from _Essentialism_**
 
-Burgis ([_Wanting_](obsidian://open?vault=resource-notes&file=Books%2FWanting))
+## Burgis ([_Wanting_](obsidian://open?vault=resource-notes&file=Books%2FWanting))
 
 > **TODO: get _Wanting_ book** 
 
 My long-term goals with Logwise were highly mimetic. At the heart of it, I wanted to create a widely-used app, because that was what I've seen modeled by people I look up to. That core mimesis was surrounded by derivative goals, like making the app financially viable, but the central focus of the project was not about money; it was about achieving the status of "I've built a successful app." And the reason I sought for that status was because of mimesis. This mimetic desire leeches off of my values-motivated desire to make something that is useful---but I've already done that in Innerhelm. From very early on in that project, my grandfather would reply to my newsletters sharing how he found what I wrote useful. It's easy to discount this because it fails the stereotypically-named ["Mom Test"](https://www.amazon.com/Mom-Test-customers-business-everyone-ebook/dp/B01H4G2J1U), but his gratitude was genuine. That's more than I've ever recieved for Logwise, or anything else "app-ish" that I've built.
 
-Adam Alter ([_Irresistible_](obsidian://open?vault=resource-notes&file=Books%2FIrresistible))
+## Adam Alter ([_Irresistible_](obsidian://open?vault=resource-notes&file=Books%2FIrresistible))
 
 > \[W]here substance addictions are nakedly destructive, many behavioral addictions are quietly destructive acts wrapped in cloaks of creation.
 
-Anthony de Mello (_Awareness_)
+## Anthony de Mello (_Awareness_)
 
 > The only way someone can be of help to you is in challenging your ideas.
 
-Corey Woodfield (["Investigation of Faith as a Motive for Action"](obsidian://open?vault=resource-notes&file=Articles%2FInvestigation%20of%20Faith%20as%20a%20Motive%20for%20Action))
+## Corey Woodfield (["Investigation of Faith as a Motive for Action"](obsidian://open?vault=resource-notes&file=Articles%2FInvestigation%20of%20Faith%20as%20a%20Motive%20for%20Action))
 
 > **TODO: find quotes on inarticulacy**
 
-Kierkegaard
+## Kierkegaard
 
 > **TODO: find quotes on inarticulacy**
+
+## Leslie Lamport
+
+> If you're thinking without writing, you only think you're thinking.
+
+## Mary Ruefle (_Madness, Rack, and Honey_)
+
+> I used to think I wrote because there was something I wanted to say. Then I thought, “I will continue to write because I have not yet said what I wanted to say”; but I know now I continue to write because I have not yet heard what I have been listening to.
