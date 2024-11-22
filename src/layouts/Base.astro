@@ -100,6 +100,8 @@ const description = unMarkdown(descriptionRaw);
     </body>
 </html>
 <script>
+    import cleanPageUrl from "../utils/cleanPageUrl";
     import logCommitHash from "../utils/logCommitHash";
-    document.addEventListener('DOMContentLoaded', logCommitHash, { once: true });
+    cleanPageUrl();
+    logCommitHash();
 </script>
