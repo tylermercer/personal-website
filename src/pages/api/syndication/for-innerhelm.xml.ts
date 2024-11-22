@@ -45,6 +45,7 @@ export const GET: APIRoute = async (context) => {
             title: post.data.title,
             pubDate: getPostDate(post),
             description: post.data.description,
+            summary: post.data.description,
             link: `/posts/${post.slug}/`,
             content: await renderMarkdown(post.body),
             categories: isDraft(post) ? ['draft'] : [],
