@@ -39,14 +39,14 @@ const description = unMarkdown(descriptionRaw);
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <!-- {
+        {
             import.meta.env.MODE === "production" && (
                 <meta
                     http-equiv="Content-Security-Policy"
                     content="default-src 'self'; connect-src 'self' https://cloudflareinsights.com/cdn-cgi/rum; script-src 'self' 'unsafe-inline' https://static.cloudflareinsights.com; style-src 'self' 'unsafe-inline'; img-src 'self' data:;"
                 />
             )
-        } -->
+        }
         <meta name="generator" content={Astro.generator} />
         {description && <meta name="description" content={description} />}
         <link
