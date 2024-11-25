@@ -65,7 +65,7 @@ jobs:
           JAM_COMMENTS_API_KEY: ${{ secrets.JAM_COMMENTS_API_KEY }}
           JAM_COMMENTS_ENVIRONMENT: ${{ steps.extract_vars.outputs.branch == 'main' && 'production' || 'preview' }}
         run: |
-          npm install
+          npm ci
           npm run build
           echo "result=built" >> $GITHUB_OUTPUT
 
