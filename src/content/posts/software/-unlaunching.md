@@ -6,15 +6,15 @@ description: Choosing focus by pulling the plug on a project I love
 crosspostToInnerhelm: true
 ---
 
-I spent the last six months building a web application called [Logwise](https://logwise.tylermercer.net). It's an app for logging things: sleep quality, focus levels, research insights, health symptoms, or anything else you'd like to monitor over time and understand better. It works offline (via [Dexie](https://dexie.org/) and [Dexie Cloud](https://dexie.org/cloud/)) and allows you to easily change the schema of your logs over time without data loss (via [persistent data structures](https://en.wikipedia.org/wiki/Persistent_data_structure)).
+Earlier this year I spent seven months building a web application called [Logwise](https://logwise.tylermercer.net). It's an app for logging things: sleep quality, focus levels, research insights, health symptoms, or anything else you'd like to monitor over time and understand better. It works offline (via [Dexie](https://dexie.org/) and [Dexie Cloud](https://dexie.org/cloud/)) and allows you to easily change the schema of your logs over time without data loss (via [persistent data structures](https://en.wikipedia.org/wiki/Persistent_data_structure)).
 
 It's been a compelling project for me---the kind that I wake up thinking about, and for which I have a constant flow of exciting ideas.
 
-But I've decided to open-source and archive the repo, and to throw away my roadmap.[^throwing-away] I'm "unlaunching" Logwise: putting it out into the world, but with the intent of ending it---launching in a negative direction.
+But I've decided to open-source and archive [the code repository](https://github.com/tylermercer/logwise), and to throw away my roadmap.[^throwing-away] I'm "unlaunching" Logwise: putting it out into the world, but with the intent of ending it---launching in a negative direction.
 
 ## A tale of two projects
 
-At the beginning of this year, I started a writing project called [Innerhelm](https://innerhelm.com). Innerhelm explores _agency thinking_, which is the habit of thinking as an agent, capable of making choices and influencing the world, rather than thinking as an object that is merely acted upon.
+At the beginning of this year, I started a different project, a writing project called [Innerhelm](https://innerhelm.com). Innerhelm explores _agency thinking_, which is the habit of thinking as an agent, capable of making choices and influencing the world, rather than thinking as an object that is merely acted upon.
 
 Innerhelm and Logwise have a common background. My college studies consisted of a blending of psychology and computer science, with the intent to create software that helped people live intentionally. Both projects emerged from this intent. In fact, this time last year, Logwise and Innerhelm were a single project idea: a _self-authorship app_ that would facilitate reflection and intentionality through templated journaling.
 
@@ -22,9 +22,9 @@ As I explained in [the first Innerhelm post](https://innerhelm.com/posts/where-i
 
 > \[W]riting about these ideas seemed like the most strategic step forward. It is sufficiently open-ended that I can follow the idea where it leads, while still being concrete enough to share meaningfully with others (which is itself helpful in the exploration).
 
-But, with [the birth of my daughter](/posts/a-different-kind-of-hello-world) earlier this year, the utility of a templated-journaling app was brought to mind again. There's a lot to keep track of when you're caring for a newborn, if you're so inclined: feedings, diaper changes[^diapers], sleep quality, etc. My wife and I used an existing app for these things, but I found that there were other things I wanted to log as well, which the app didn't support---things like our mental health, how much sleep we were getting, and moments with our daughter that we wanted to remember. I needed an app that was more [malleable](https://malleable.systems/mission).
+But, with [the birth of my daughter](/posts/a-different-kind-of-hello-world) earlier this year, the utility of a templated-journaling app was brought to mind again. There's a lot to keep track of when you're caring for a newborn, if you're so inclined: feedings, diaper changes,[^diapers] sleep quality, etc. My wife and I used an existing app for these things, but I found that there were other things I wanted to log as well, which the app didn't support---things like our mental health, how much sleep we were getting, and moments with our daughter that we wanted to remember. I needed an app that was more [malleable](https://malleable.systems/mission).
 
-On top of that, late-night bottle feedings gave me a lot of time to think about how I would build such an app. By the time our lives (and sleep schedules) had begun to stabilize, I was champing at the bit to start coding.
+On top of that, late-night bottle feedings gave me a lot of time to think about how I would build such an app. By the time our lives (and sleep schedules) had begun to stabilize, I was champing at the bit to start building.
 ## Andy Matuschak
 
 Andy Matuschak is a software engineer, designer, and researcher exploring _tools for thought_---software interfaces designed to expand and extend how humans can think. He spends some of his time in theory-land, writing, in both short and long form, about the science and mechanics that govern this space: ideas like [programmable attention](https://notes.andymatuschak.org/zPpaHZYKuBPyoDtgcsiZ9RV) and [enabling environments](https://notes.andymatuschak.org/Enabling_environment). He also spends a portion of his time in engineering-land, creating experimental tools for thought such as [Orbit](https://withorbit.com/).
@@ -43,10 +43,10 @@ To make things worse, [switching costs between them are high](https://notes.andy
 
 > In my experience, it’s quite costly to switch between those two mental states. I’ve not had much success dividing up my days or even my weeks into “building” and “thinking” times.
 
-In summary, there's a tension to be overcome in moving an engineering project and a writing project forward at the same time. This is where I found myself in August: having made a lot of progress on Logwise, but having not written for---or even thought about---Innerhelm in months.
+In summary, there's a significant tension to be overcome in moving an engineering project and a writing project forward at the same time. This is where I found myself this fall: having made a lot of progress on Logwise, but having not written for---or even thought about---Innerhelm in months.
 
-Matuschak, being a researcher whose specifically intended output is research-informed software, had good reason to want to reconcile this tension between two projects. Did I?
-## Explore vs Exploit
+Matuschak, being a researcher whose specifically-intended output is research-informed software, had good reason to want to reconcile this tension between two projects. Did I?
+## Explore and exploit
 
 In ["Almost everyone I’ve met would be well-served thinking more about what to focus on"](https://www.henrikkarlsson.xyz/p/multi-armed-bandit), writer Henrik Karlsson unpacks a different tension---the tradeoffs between exploring new paths forward and following a known good one.
 
@@ -59,12 +59,12 @@ The gambler's solution lies in navigating the tradeoffs between *exploring* (try
 In other words, the main risk is not that of striking a bad balance between exploring and exploiting---it's _spending too much time pulling a bad lever_.
 
 Compared with Innerhelm and other priorities such as my family, Logwise was a bad lever.
-## Low payout, high cost
+## Logwise had a high cost and a low payout
 
-The multi-armed bandit mental model, out of the box, describes each lever as being essentially defined in only one dimension: payout probability. That is, the intent of exploring and exploiting is simply to find the lever with the best payout.
+The multi-armed bandit mental model, as it is usually rendered, describes each lever as being essentially defined in only one dimension: potential payout. That is, the intent of exploring and exploiting is simply to find the lever with the best payout.
 
-In reality, there's more to consider when examining different ways to spend ones time---most notably, there are _costs_ associated with each activity, some of which operate across levers. Logwise, in particular, had a deceptively high cost: it _seemed_ low-cost when I was engaged with it, but when I stepped back to look at it more objectively, the cost was quite substantial.
-### A tax which was grievous to be borne
+In reality, there's more to consider when examining different ways to spend one's time---most notably, there are _costs_ associated with each activity. Logwise, in particular, had a deceptively high cost: it _seemed_ low-cost when I was engaged with it, but when I stepped back to look at it more objectively, the cost was quite substantial.
+### Logwise's high cost
 
 The obvious cost was _opportunity cost_. What opportunities was I giving up to work on Logwise? 
 
