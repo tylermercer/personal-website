@@ -136,28 +136,31 @@ Of course, mimetic desire also applies to my writing for Innerhelm---there are m
 By following my mimetic desire blindly, I was failing to act agentically---I was riding, not driving. Ironic for someone ostensibly exploring agency thinking!
 ## Unlaunching
 
-## What I'm doing about it
+Realizing the steep cost and low payout of Logwise made the optimal path clear: "unlaunching" Logwise. Furthermore, I'm taking steps to keep me from opening that loop again---archiving the repository and the Todoist project for Logwise, no longer using Logwise personally, and publishing this essay.
 
-- What I'm doing about it
-	- "Law of Holes"
-	- Switching didn't work, as mentioned before
-	- Higher order agency, which I've mentioned before
-		- I would create a bright line rule
-		- Rubin on the power of habits to reduce decisional load
-		- By open-sourcing Logwise and writing publicly about this decision, I've created a _commitment pact_.
-			- (Footnote) Open-sourcing also satisfies my compulsion to not "waste" crystallized knowledge.
-		- It also leverages our inherent bias for consistency as humans to enforce my decision.
-			- Maybe quote Kahneman from Thinking Fast and Slow here?
-	- Even continuing to _use_ the application while not working on it had proved risky. Reimplementing in Obisidian
-- Conclusion
-	- Persistence is agentic, but quitting can be too.
-		- Persistence essay from Innerhelm
-		- Kohn's essay
-	- I worried that I would feel constrained---like "a wild bull caught in a net," to borrow a metaphor from Isaiah. But I haven't.
-		- Karlsson: "as a person for whom narrow focus is against my instincts, the most remarkable thing about it is how rich it feels"
-	- Takeaways:
-		- Not everything that feels compelling is worth spending time on
-		- Challenge your assumptions. "The only way someone can be of help to you..."
+Firstly, I've not just open-sourced [the code](https://github.com/tylermercer/logwise), I've archived the GitHub repository containing it. This serves to (1) preserve the code in case I need to reference it for other things, (2) signal to others that Logwise isn't under active development, and especially (3) make it hard for me to pick up again---I would have to un-archive the code, set up my local development environment again, etc.[^todoist]
+
+Second, I've decided not even to _use_ Logwise.[^obsidian] This was a hard decision, but I found in my unsuccessful efforts to straddle both projects that even just using the app would cause that close-resistant loop to re-open.
+
+Third, I've written this essay. Writing out my reasoning explicitly reinforces it in my own mind. I'm reminded of a quote by Mary Ruefle:
+
+> I used to think I wrote because there was something I wanted to say[, ...] but I know now I continue to write because I have not yet heard what I have been listening to.
+
+In addition to helping me "hear" these ideas, this essay serves as what behavioral design writer Nir Eyal calls a [commitment pact](https://www.nirandfar.com/making-accountability-pacts/)---a clear agreement with an undesirable consequence (embarrassment, in my case) for not following through. Having written out this essay leverages my brain's [inherent bias for consistency](https://fs.blog/commitment-consistency-bias/) to enforce my decision.
+
+In this way, I can use _higher-order agency_---decisions that affect my decisions---to make it easier to follow through on my intent.
+## Conclusion
+
+- Persistence is agentic, but quitting can be too.
+	- Persistence essay from Innerhelm
+	- Kohn's essay
+- I worried that I would feel constrained---like "a wild bull caught in a net," to borrow a metaphor from Isaiah. But I haven't.
+	- Karlsson: "as a person for whom narrow focus is against my instincts, the most remarkable thing about it is how rich it feels"
+- Takeaways:
+	- Not everything that feels compelling is worth spending time on
+	- Challenge your assumptions. "The only way someone can be of help to you..."
+
+---
 
 Unused:
 - The non-essentialist lie that you can do it all
@@ -166,6 +169,11 @@ Unused:
 		- Innerhelm higher than Logwise (more on this later)
 	- But was this just because I hadn't yet shipped Logwise?
 	- "If it's not hell yes, it should be a no." Logwise _felt_ like a yes!
+- What I'm doing about it
+	- Switching didn't work, as mentioned before
+	- "Law of Holes"
+	- I would create a bright line rule
+	- Rubin on the power of habits to reduce decisional load
 - Why was I pursuing this project at all? Hyperfocus and the semi-addictive nature of building a working thing explained why I _continued_, but why had I _started_ this project? What were my higher-level reasons for wanting to build Logwise? Surely there would be something more meaningful at that level of motivation.
 - Nut graf (which I've decided I don't need because I don't want to write this as news): 
 	- [Persistence is often agentic](https://innerhelm.com/posts/persistence). I've discovered that quitting can be too. I believe agentic quitting is, for most people, a dormant superpower—a practice that yields significant dividends but is underused.
@@ -190,3 +198,7 @@ Unused:
 [^app-models-of-desire]: Amir Salihefendić (creator of [Todoist](https://todoist.com)), Christina Willner and Mark Tucker (creators of [Amazing Marvin](https://amazingmarvin.com/)), and Rob Walling ([founder of Drip and serial SaaS bootstrapper](https://robwalling.com/)), among others.
 
 [^writing-models-of-desire]: Notably, Henrik Karlsson and Andy Matuschak (who I quoted in this essay), along with Nick Wignall, Anne-Laure le Cunff, James Clear, Adam Grant, and others.
+
+[^todoist]: I've done the same with the Todoist project that contained Logwise's roadmap. Archiving it allows me to consult the links and other resources I had gathered there if needed in the future, while preventing me from adding, updating, or completing tasks.
+
+[^obsidian]: Instead, I've implemented a similar logging setup using Obsidian. It's not _nearly_ as ergonomic, but it meets my needs fairly well.
