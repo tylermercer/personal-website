@@ -63,7 +63,7 @@ Compared with Innerhelm and other priorities such as my family, Logwise was a ba
 
 The multi-armed bandit mental model, as it is usually rendered, describes each lever as being essentially defined in only one dimension: potential payout. That is, the intent of exploring and exploiting is simply to find the lever with the best payout.
 
-In reality, there's more to consider when examining different ways to spend one's time---most notably, there are _costs_ associated with each activity. Logwise, in particular, had a deceptively high cost: it _seemed_ low-cost when I was engaged with it, but when I stepped back to look at it more objectively, the cost was quite substantial.
+In reality, there's more to consider when examining different ways to spend one's time, including the _costs_ associated with each activity. Logwise, in particular, had a deceptively high cost: it _seemed_ low-cost when I was engaged with it, but when I stepped back to look at it more objectively, the cost was quite substantial.
 ### Logwise's high cost
 
 The obvious cost was _opportunity cost_. What opportunities was I giving up to work on Logwise? 
@@ -84,7 +84,9 @@ But part of what made Logwise's loop so pernicious was that it was fiendishly di
 
 Part of this is because of the unbounded size of software applications. In the software engineering industry, "finished software" is almost oxymoronic---a sort of [unobtanium](https://en.wikipedia.org/wiki/Unobtainium) that only appears in jokes. Even after six months of working on it, Logwise was nowhere _near_ finished. Each task I marked off usually paralleled two or three new ideas or opportunities that I added to my backlog.[^content-sites]
 
-This meant that the overall pull of the project was _stronger_ the more I worked on it (whereas when building content sites like Innerhelm, passing a baseline level of completion leads to a steep diminishment in pull). In the depths of this project, that pull masqueraded as a good thing---the momentum and increased vision acted as a psychological reward. But this reward was actually pathological. As Adam Alter explains in _Irresistible_:
+This meant that the overall pull of the project was _stronger_ the more I worked on it (whereas when building content sites like Innerhelm, passing a baseline level of completion leads to a steep diminishment in pull). In the depths of this project, that pull masqueraded as a good thing---the momentum and increased vision acted as a psychological reward.
+
+But this reward was actually pathological. As Adam Alter explains in _Irresistible_:
 
 > \[W]here substance addictions are nakedly destructive, many behavioral addictions are quietly destructive acts wrapped in cloaks of creation.
 
@@ -95,21 +97,23 @@ As mentioned, an obvious negative effect of this strong pull was that I made no 
 
 In all honesty, recognized this effect over a year ago, when I was working on my essay ["Certainty and Uncertainty as Elements of Faith."](https://tylermercer.net/posts/faith/certainty-and-uncertainty-as-elements-of-faith/) I wrote this in my journal on September 9th, 2023:
 
-> Yesterday I was pondering on my way to work and realized something startling: focusing on building an app makes me possessive of my time and angry when I don't get to work on it (and often angry when I do, because of how slow it goes). But when my focus is on my writing, I feel expanded, more emotionally healthy, and a lot more patient with changes to our schedule that limit my time to write.
+> [F]ocusing on building an app makes me possessive of my time and angry when I don't get to work on it (and often angry when I do, because of how slow it goes). But when my focus is on my writing, I feel expanded, more emotionally healthy, and a lot more patient with changes to our schedule that limit my time to write.
 
-I hadn't forgotten this when I started Logwise; I just figured with better emotional management I could mitigate these negative effects. To a certain point, I was right---I was able to keep my frustration at a lack of time or progress from becoming anger---but there was still a gradual but noticeable emotional deadening that I experienced as I was immersed in Logwise. This is part of why I couldn't make progress on Innerhelm, even at a conceptual level, while I was working on Logwise. My ability to think abstractly about life was severely hindered. I was detached from reality, in a sense, viewing it through the lifeless technical abstractions of an app.
+I hadn't *forgotten* this when I started Logwise; I just figured with better emotional management I could mitigate these negative effects. To a certain point, I was right---I was able to keep my frustration at a lack of time or progress from becoming anger---but there was still a gradual but noticeable emotional deadening that I experienced as I was immersed in Logwise. This is part of why I couldn't make progress on Innerhelm, even at a conceptual level, while I was working on Logwise. My ability to think abstractly about life was severely hindered. I was detached from reality, in a sense, viewing it through the lifeless technical abstractions of an app.
 
 Turns out, I'm not the only one who experiences this. Here's Matuschak again:
 
 > When I’m deep in software development, reaching flow[^flow] on a daily basis, my mind narrows to a kind of tunnel-vision, totally fixated on the software systems and their problems. ... I find this effect increasingly unpleasant on a personal level. When I’m in this state, I feel my sense of self shrinking. I become unreflective. Creative thoughts cease to arise. I find writing difficult. And so on.
 
-Writing---good, thorough writing---feeds my soul: it changes how I think, how I see the world, and who I am. An example is the aforementioned essay on faith: the ideas and connections that I formed as I thought through and refined that essay have changed how I apply the concepts of faith, uncertainty, and humility in my day-to-day life. Innerhelm has had similar effects, leading me to discover new conceptual tools with which I could interact meaningfully with the world. 
+But the emotional deadening, detached worldview, and semi-addicted cognition I experienced did more than just limit my progress on Innerhelm. It affected all areas of life. Notably, I was less present as a father and husband.
+
+Writing, on the other hand, feeds my soul: it changes how I think, how I see the world, how I relate to others, and who I am. An example is the aforementioned essay on faith: the ideas and connections that I formed as I thought through and refined that essay have changed how I apply the concepts of faith, uncertainty, and humility in my day-to-day life. Innerhelm has had similar effects, leading me to discover new conceptual tools with which I could interact meaningfully with the world. 
 
 But, because of the mutual exclusion between writing and app-development modes of thought, I was totally locked out of those benefits while I was working on Logwise.
 
 As a result, Logwise had a twofold negative effect on my psyche: it *directly* led to a diminishment of self, and it's cross-lever suppressive effects *indirectly* prevented me from picking up the kind of thought-work that could have pushed back against that diminishment.
 
-## Logwise's low payout
+### Logwise's low payout
 
 As mentioned before, the original multi-armed bandit mental model only considers payout, not cost. But even when examined through a payout lens, Logwise was a worse lever than Innerhelm.
 
@@ -117,19 +121,20 @@ The payout of an opportunity is measured differently based on the context. For a
 
 In my case, the payout was the impact and benefit of making progress on a particular project. Did it get me closer to where—and who—I want to be in life? And did this payout compensate for the aforementioned costs of cognitive absorption and diminishment of self?
 
-## Rene Girard was right
+#### Mimetic desire 
 
-In [_Wanting: The Power of Mimetic Desire in Everyday Life_](https://www.amazon.com/Wanting-Power-Mimetic-Desire-Everyday/dp/1250262488/), author Luke Burgis explains French polymath and philosopher Rene Girard's theory of _mimetic desire_. According to Girard's theory, humans learn what they want primarily through imitating others' desires. When we interact with someone we trust or look up to, we unwittingly make them a model of desire---we want what they want, *because* they want it, and then unconsciously retrofit a logical rationale to support that imitated desire.[^reasonable] This mimesis, according to Burgis, is like gravity: it's invisible, pervasive, and affects everyone.
+In [_Wanting: The Power of Mimetic Desire in Everyday Life_](https://www.amazon.com/Wanting-Power-Mimetic-Desire-Everyday/dp/1250262488/), author Luke Burgis explains French polymath and philosopher Rene Girard's theory of _mimetic desire_. According to Girard's theory, humans learn what they want primarily through imitating others' desires. When we interact with someone we trust or look up to, we unwittingly make them a model of desire. We want what they want, *because* they want it, and then unconsciously retrofit a supporting rationale onto that imitated desire.[^reasonable] This mimesis, according to Burgis, is like gravity: it's invisible, pervasive, and affects everyone.
 
-This is a claim that most people reject out-of-hand because of its uncomfortable implications. But mimetic desire is important to understand, because it's a powerful influence---and one that is substantially _more_ powerful when we turn a blind eye to it.
+Most people reject this claim out-of-hand because of its uncomfortable implications. But mimetic desire is important to understand, because it's a powerful influence---and one that is _more_ powerful when we turn a blind eye to it.
 
-Since learning about this idea, I've started to look for it in myself. And I haven't needed to look far. Notably, my long-term goals with Logwise were highly mimetic. At the heart of it, I wanted to create a widely-used app, because that was something I've seen modeled by people I respect.[^app-models-of-desire] That core mimesis was surrounded by derivative goals, like making the app financially viable, but the central focus of the project was not about money; it was about achieving the status of "I've built a successful app." And the reason I sought for that status was because of mimesis.
+Since learning about this idea, I've started to look for it in myself. And I haven't needed to look far. Notably, my long-term goals with Logwise were highly mimetic. At the heart of it, I wanted to create a widely-used app, because that was something I've seen modeled by people I respect.[^app-models-of-desire] That core mimesis was surrounded by derivative goals, like making the app financially viable, but the central focus of the project was not about money; it was about achieving the status of "I've built a successful app." And the reason I sought for that status was mimesis.
 
-Interestingly, this mimetic desire hid itself behind my values-motivated desire to [make something that is useful](https://innerhelm.com/posts/where-innerhelm-began/#:~:text=i%E2%80%99ve%20always%20had%20an%20urge%20to%20make%20useful%20things). I had already done that in Innerhelm---from early on, one reader in particular expressed that my ideas were making a difference in his life---but this values-motivated desire became a façade in front of the unconscious mimesis. Until I recognized mimetic desire in myself, it _seemed_ like I was values-driven in working on Logwise.
+Interestingly, this mimetic desire hid itself behind my values-motivated desire to [make something that is useful](https://innerhelm.com/posts/where-innerhelm-began/#:~:text=i%E2%80%99ve%20always%20had%20an%20urge%20to%20make%20useful%20things). Until I recognized mimetic desire in myself, it _seemed_ like my core motivation in building Logwise originated from this values-motivated desire. 
 
-By following my mimetic desire blindly, I was not acting agentically---I was riding, not driving. Ironic for someone ostensibly exploring agency thinking!
+Of course, mimetic desire also applies to my writing for Innerhelm---there are models from whom I've learned that desire, too.[^writing-models-of-desire] But if I look past the obstructive mimetic desire behind both options, I can see that Innerhelm is much more aligned with my deeper desires---desires that stem from my personal values rather than from mimesis---than Logwise was. (That claimed goal of creating something useful? I had already done that in Innerhelm: from early on, one of my readers frequently expressed that my ideas were making a difference in his life.)
 
-Of course, mimetic desire also applies to my writing for Innerhelm---there are models from whom I've learned that desire, too.[^writing-models-of-desire] But if I look past the obstructive mimetic desire at play in both options, I can see that Innerhelm is much more aligned with my deeper desires---desires that stem from my personal values rather than from mimesis---than Logwise was.
+By following my mimetic desire blindly, I was failing to act agentically---I was riding, not driving. Ironic for someone ostensibly exploring agency thinking!
+## Unlaunching
 
 ## What I'm doing about it
 
