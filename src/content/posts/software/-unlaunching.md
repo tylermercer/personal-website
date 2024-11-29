@@ -105,13 +105,13 @@ Turns out, I'm not the only one who experiences this. Here's Matuschak again:
 
 > When I’m deep in software development, reaching flow[^flow] on a daily basis, my mind narrows to a kind of tunnel-vision, totally fixated on the software systems and their problems. ... I find this effect increasingly unpleasant on a personal level. When I’m in this state, I feel my sense of self shrinking. I become unreflective. Creative thoughts cease to arise. I find writing difficult. And so on.
 
-But the emotional deadening, detached worldview, and semi-addicted cognition I experienced did more than just limit my progress on Innerhelm. It affected all areas of life. Notably, I was less present as a father and husband.
+But the emotional deadening, detached worldview, and semi-addicted cognition I experienced did more than just limit my progress on Innerhelm. It affected all areas of life. Notably, I was less present as a father, husband, and friend.
 
-Writing, on the other hand, feeds my soul: it changes how I think, how I see the world, how I relate to others, and who I am. An example is the aforementioned essay on faith: the ideas and connections that I formed as I thought through and refined that essay have changed how I apply the concepts of faith, uncertainty, and humility in my day-to-day life. Innerhelm has had similar effects, leading me to discover new conceptual tools with which I could interact meaningfully with the world. 
+Writing, on the other hand, changes how I think, how I see the world, how I relate to others, and who I am. An example is the aforementioned essay on faith: the ideas and connections that I formed as I thought through and refined that essay have changed how I apply the concepts of faith, uncertainty, and humility in my day-to-day life. Innerhelm has had similar effects, leading me to discover new conceptual tools with which I could interact meaningfully with the world. 
 
 But, because of the mutual exclusion between writing and app-development modes of thought, I was totally locked out of those benefits while I was working on Logwise.
 
-As a result, Logwise had a twofold negative effect on my psyche: it *directly* led to a diminishment of self, and it's cross-lever suppressive effects *indirectly* prevented me from picking up the kind of thought-work that could have pushed back against that diminishment.
+As a result, Logwise had a twofold negative effect on my psyche: it *directly* led to a diminishment of self, as Matuschak observed with his engineering work, and its cross-lever suppressive effects *indirectly* prevented me from picking up the kind of thought-work that could have pushed back against that diminishment.
 
 ### Logwise's low payout
 
