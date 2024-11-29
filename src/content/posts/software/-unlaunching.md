@@ -8,13 +8,13 @@ crosspostToInnerhelm: true
 
 Earlier this year I spent seven months building a web application called [Logwise](https://logwise.tylermercer.net). It's an app for logging things: sleep quality, focus levels, research insights, health symptoms, or anything else you'd like to monitor over time and understand better. It works offline (via [Dexie](https://dexie.org/) and [Dexie Cloud](https://dexie.org/cloud/)) and allows you to easily change the schema of your logs over time without data loss (via [persistent data structures](https://en.wikipedia.org/wiki/Persistent_data_structure)).
 
-It's been a compelling project for me---the kind that I wake up thinking about, and for which I have a constant flow of exciting ideas.
+It's been a compelling side project for me---the kind that I wake up thinking about, and for which I've had a constant flow of exciting ideas.
 
 But I've decided to open-source and archive [the code repository](https://github.com/tylermercer/logwise), and to throw away my roadmap.[^throwing-away] I'm "unlaunching" Logwise: putting it out into the world, but with the intent of ending it---launching in a negative direction.
 
 ## A tale of two projects
 
-At the beginning of this year, I started a different project, a writing project called [Innerhelm](https://innerhelm.com). Innerhelm explores _agency thinking_, which is the habit of thinking as an agent, capable of making choices and influencing the world, rather than thinking as an object that is merely acted upon.
+At the beginning of this year, I started a different project, a blog and newsletter called [Innerhelm](https://innerhelm.com). Innerhelm explores _agency thinking_, which is the habit of thinking as an agent, capable of making choices and influencing the world, rather than thinking as an object that is merely acted upon.
 
 Innerhelm and Logwise have a common background. My college studies consisted of a blending of psychology and computer science, with the intent to create software that helped people live intentionally. Both projects emerged from this intent. In fact, this time last year, Logwise and Innerhelm were a single project idea: a _self-authorship app_ that would facilitate reflection and intentionality through templated journaling.
 
@@ -43,9 +43,9 @@ To make things worse, [switching costs between them are high](https://notes.andy
 
 > In my experience, it’s quite costly to switch between those two mental states. I’ve not had much success dividing up my days or even my weeks into “building” and “thinking” times.
 
-In summary, there's a significant tension to be overcome in moving an engineering project and a writing project forward at the same time. This is where I found myself this fall: having made a lot of progress on Logwise, but having not written for---or even thought about---Innerhelm in months.
+As such, there's a significant obstacle to be overcome in moving an engineering project and a writing project forward at the same time. This is reflected in where I found myself this fall: having made a lot of progress on Logwise, but having not written for (or even thought about!) Innerhelm in months.
 
-Matuschak, being a researcher whose specifically-intended output is research-informed software, had good reason to want to reconcile this tension between two projects. Did I?
+Matuschak, being a researcher whose intended output is research-informed software, had good reason to want to reconcile this tension between two projects. Did I?
 ## Explore and exploit
 
 In ["Almost everyone I’ve met would be well-served thinking more about what to focus on"](https://www.henrikkarlsson.xyz/p/multi-armed-bandit), writer Henrik Karlsson unpacks a different tension---the tradeoffs between exploring new paths forward and following a known good one.
