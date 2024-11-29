@@ -117,7 +117,7 @@ As a result, Logwise had a twofold negative effect on my psyche: it *directly* l
 
 As mentioned before, the original multi-armed bandit mental model only considers payout, not cost. But even when examined through a payout lens, Logwise was a worse lever than Innerhelm.
 
-The payout of an opportunity is measured differently based on the context. For a sales opportunity, the potential payout would be how much the customer would pay if they accepted a deal.
+The payout of an opportunity is measured differently based on the category of opportunity. For a sales opportunity, for example, the potential payout would be how much the customer would pay if they accepted a deal.
 
 In my case, the payout was the impact and benefit of making progress on a particular project. Did it get me closer to where—and who—I want to be in life? And did this payout compensate for the aforementioned costs of cognitive absorption and diminishment of self?
 
@@ -129,18 +129,18 @@ Since learning about this idea, I've started to look for it in myself. And I hav
 
 Interestingly, this mimetic desire hid itself behind my values-motivated desire to [make something that is useful](https://innerhelm.com/posts/where-innerhelm-began/#:~:text=i%E2%80%99ve%20always%20had%20an%20urge%20to%20make%20useful%20things). Until I recognized mimetic desire in myself, it _seemed_ like my core motivation in building Logwise was this values-motivated desire. 
 
-Of course, mimetic desire also applies to my writing for Innerhelm---there are models from whom I've learned that desire, too.[^writing-models-of-desire] But if I look past the obstructive mimetic desire behind both options, I can see that Innerhelm is much more aligned with my deeper desires---desires that stem from my personal values rather than from mimesis---than Logwise was. (That claimed goal of creating something useful? I had already done that in Innerhelm: from early on, one of my readers frequently expressed that my ideas were making a difference in his life.)
+Of course, mimetic desire also applies to my writing for Innerhelm---there are models from whom I've learned that desire, too.[^writing-models-of-desire] But if I look past the obstructive mimetic desire behind both options, I can see that Innerhelm is much more aligned with my deeper desires---desires that stem from the kind of person I strive to be rather than from mimesis---than Logwise was. (That claimed goal of creating something useful? I had already done that in Innerhelm: from early on, one of my readers frequently expressed that my ideas were making a difference in his life.)
 
 By following my mimetic desire blindly, I was failing to act agentically---I was riding, not driving. Ironic for someone ostensibly exploring agency thinking!
 ## Unlaunching
 
-Realizing the steep cost and low payout of Logwise made the optimal path clear: "unlaunching" Logwise. Furthermore, I'm taking steps to keep me from opening that loop again---archiving the repository and the Todoist project for Logwise, no longer using Logwise personally, and publishing this essay.
+Realizing the steep cost and low payout of Logwise made the optimal path clear: "unlaunching" Logwise. Furthermore, I'm taking steps to keep me from opening that loop again---archiving the Logwise code repository, no longer using Logwise personally, and publishing this essay.
 
 Firstly, I've not just open-sourced [the code](https://github.com/tylermercer/logwise), I've archived the GitHub repository containing it. This serves to (1) preserve the code in case I need to reference it for other things, (2) signal to others that Logwise isn't under active development, and especially (3) make it hard for me to pick up again---I would have to un-archive the code, set up my local development environment again, etc.[^todoist]
 
-Second, I've decided not even to _use_ Logwise.[^obsidian] This was a hard decision, but I found in my unsuccessful efforts to straddle both projects that even just using the app would cause that close-resistant loop to re-open.
+Second, I've decided not even to _use_ Logwise. This was a hard decision, but I found in my unsuccessful efforts to straddle both projects that even just using the app would cause that close-resistant loop to re-open.[^obsidian]
 
-Third, I've written this essay. Writing out my reasoning explicitly reinforces it in my own mind. I'm reminded of a quote by Mary Ruefle:
+Third, I've written this essay. Writing out my reasoning behind this decision explicitly reinforces it in my own mind. I'm reminded of a quote by Mary Ruefle:
 
 > I used to think I wrote because there was something I wanted to say[, ...] but I know now I continue to write because I have not yet heard what I have been listening to.
 
