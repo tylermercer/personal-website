@@ -91,3 +91,9 @@ My long-term goals with Logwise were highly mimetic. At the heart of it, I wante
 ## Mary Ruefle (_Madness, Rack, and Honey_)
 
 > I used to think I wrote because there was something I wanted to say. Then I thought, “I will continue to write because I have not yet said what I wanted to say”; but I know now I continue to write because I have not yet heard what I have been listening to.
+
+## Other
+
+- [Counterintuitive wisdom from Legalzoom's cofounder](https://open.spotify.com/episode/7MEogj3qORhqDIxDKLvKko?nd=1&dlsi=9a09fcc4be74411a)
+- [What Kind of Writer is ChatGPT?](https://www.newyorker.com/culture/annals-of-inquiry/what-kind-of-writer-is-chatgpt)
+
