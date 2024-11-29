@@ -1,6 +1,6 @@
 ---
 title: Unlaunching
-description: Choosing focus by pulling the plug on a project I love
+description: Choosing focus through agentic quitting
 #date: 2024-10-03 9:03:00.00
 #imgForInnerhelmVersion: https://upload.wikimedia.org/wikipedia/commons/8/81/Vingtmillelieue00vern_orig_0437_1.jpg
 crosspostToInnerhelm: true
