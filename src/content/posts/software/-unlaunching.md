@@ -146,36 +146,34 @@ Third, I've written this essay. Writing out my reasoning behind this decision ex
 
 In addition to helping me "hear" these ideas, this essay serves as what behavioral design writer Nir Eyal calls a [commitment pact](https://www.nirandfar.com/making-accountability-pacts/)---a clear agreement with an undesirable consequence (embarrassment, in my case) for not following through. Having written out this essay leverages my brain's [inherent bias for consistency](https://fs.blog/commitment-consistency-bias/) to enforce my decision.
 
-In this way, I can use _higher-order agency_---decisions that affect my decisions---to make it easier to follow through on my intent.
+In this way, I'm using _higher-order agency_---decisions that affect my decisions---to make it easier to follow through on my intent.
+
+## Agentic quitting
+
+As I wrote in the last Innerhelm blog post before starting on Logwise, [persistence is an important part of being agentic](https://innerhelm.com/posts/persistence). But I've discovered that quitting can be too.
+
+Admittedly, writing is a uniquely focus-demanding activity. Writers throughout time [have taken extreme measures to eliminate distractions](https://www.newyorker.com/culture/annals-of-inquiry/what-kind-of-writer-is-chatgpt#:~:text=These%20mental%20demands%20may%20help%20to%20explain%20the%20eccentric%20habits%20of%20writers)[^writing-computer] and enable deep work, and the nature of writing is such that this narrowing-down pays significant dividends. Other areas of human endeavor, such as business or athleticism, may derive more value from juggling competing demands than writing does.
+
+Furthermore, exploration---pulling multiple different levers---is still intensely valuable, especially early on. You can't confidently identify a high-output lever to focus on until you've tried a few, often in quick succession or concurrently. But, in the end, once you have learned a given activity is low-value, you will benefit from quitting that activity.
+
+Our culture typically frames persistence as hard and worthwhile, and quitting as easy and unrewarding. But, [as author and lecturer Alfie Kohn points out](https://www.alfiekohn.org/article/downside-grit/), quitting can often be quite difficult:
+
+> To know when to pull the plug requires the capacity to adopt a long-term perspective.  Continuing to do what you’ve been doing often represents the path of least resistance, so it can take guts to cut your losses.
+ 
+I believe agentic quitting is, for most people, a dormant superpower—a practice that yields significant dividends but is underused.
 ## Conclusion
 
-- Persistence is agentic, but quitting can be too.
-	- Persistence essay from Innerhelm
-	- Kohn's essay
-- I worried that I would feel constrained---like "a wild bull caught in a net," to borrow a metaphor from Isaiah. But I haven't.
-	- Karlsson: "as a person for whom narrow focus is against my instincts, the most remarkable thing about it is how rich it feels"
-- Takeaways:
-	- Not everything that feels compelling is worth spending time on
-	- Challenge your assumptions. "The only way someone can be of help to you..."
+In a society where we often wear our busyness as a badge of honor, being intentional about what you _won't_ do can be refreshing and energizing. Agentic quitting of less important things unlocks time, energy, and mental resources to put towards the things that _are_ important.
 
----
+Not everything that feels compelling is worth spending time on. Challenge your assumptions about the value and cost of the various things you do, and take both a short-term and long-term view as you evaluate them.
 
-Unused:
-- The non-essentialist lie that you can do it all
-- _Essentialism_
-	- Contributing at highest impact 
-		- Innerhelm higher than Logwise (more on this later)
-	- But was this just because I hadn't yet shipped Logwise?
-	- "If it's not hell yes, it should be a no." Logwise _felt_ like a yes!
-- What I'm doing about it
-	- Switching didn't work, as mentioned before
-	- "Law of Holes"
-	- I would create a bright line rule
-	- Rubin on the power of habits to reduce decisional load
-- Why was I pursuing this project at all? Hyperfocus and the semi-addictive nature of building a working thing explained why I _continued_, but why had I _started_ this project? What were my higher-level reasons for wanting to build Logwise? Surely there would be something more meaningful at that level of motivation.
-- Nut graf (which I've decided I don't need because I don't want to write this as news): 
-	- [Persistence is often agentic](https://innerhelm.com/posts/persistence). I've discovered that quitting can be too. I believe agentic quitting is, for most people, a dormant superpower—a practice that yields significant dividends but is underused.
+As I considered this decision to unlaunch Logwise, I worried that I would feel uncomfortably constrained---like "a wild bull [caught] in a net," to borrow a metaphor from [Isaiah](https://www.churchofjesuschrist.org/study/scriptures/ot/isa/51?lang=eng&id=p20#p20). But I haven't.
 
+On the contrary, I've felt more grounded, more curious, and more free. Zooming in on my writing has made the intricacies found in that portion of [the infinitely-detailed fractal of truth](https://tylermercer.net/en/posts/all-writing-is-reductionistic/) all the more interesting.[^still-open] As Karlsson puts it:
+
+> [A]s a person for whom narrow focus is against my instincts, the most remarkable thing about it is how rich it feels.
+
+I have to say I agree.
 
 [^throwing-away]: I should note that I didn't delete the Todoist project with my roadmap for Logwise; I only archived it. I had a lot of knowledge and resources captured in my notes there, and, despite my minimalist approach to _physical_ possessions, I struggle to discard conceptual ones such as crystallized knowledge. But archiving the project satisfies the requirement of intentionally making it hard to pick the project up again.
 
@@ -199,4 +197,11 @@ Unused:
 
 [^todoist]: I've done the same with the Todoist project that contained Logwise's roadmap. Archiving it allows me to consult the links and other resources I had gathered there if needed in the future, while preventing me from adding, updating, or completing tasks.
 
-[^obsidian]: Instead, I've implemented a similar logging setup using Obsidian. It's not _nearly_ as ergonomic, but it meets my needs fairly well.
+[^obsidian]: Instead, I've implemented a similar logging setup using Obsidian. It's not _nearly_ as ergonomic, but it meets my needs.
+
+[^still-open]: Part of this is due to the fact that Innerhelm itself is still, [by design](https://innerhelm.com/posts/where-innerhelm-began/), open-ended:
+	
+	> [F]ocusing on writing about these ideas seemed like the most strategic step forward. It is sufficiently open-ended that I can follow the idea where it leads, while still being concrete enough to share meaningfully with others (which is itself helpful in the exploration).
+	
+
+[^writing-computer]: One such extreme measure I've taken myself was to turn an old laptop into a dedicated writing device, as I explained in ["Creating a Partial Clone of a Git Repo"](https://tylermercer.net/posts/software/partial-clone-git-repo/). (I'm writing this essay on that device.)

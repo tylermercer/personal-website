@@ -97,3 +97,23 @@ My long-term goals with Logwise were highly mimetic. At the heart of it, I wante
 - [Counterintuitive wisdom from Legalzoom's cofounder](https://open.spotify.com/episode/7MEogj3qORhqDIxDKLvKko?nd=1&dlsi=9a09fcc4be74411a)
 - [What Kind of Writer is ChatGPT?](https://www.newyorker.com/culture/annals-of-inquiry/what-kind-of-writer-is-chatgpt)
 
+## Unused:
+
+- The non-essentialist lie that you can do it all
+- _Essentialism_
+	- Contributing at highest impact 
+		- Innerhelm higher than Logwise (more on this later)
+	- But was this just because I hadn't yet shipped Logwise?
+	- "If it's not hell yes, it should be a no." Logwise _felt_ like a yes!
+- What I'm doing about it
+	- Switching didn't work, as mentioned before
+	- "Law of Holes"
+	- I would create a bright line rule
+	- Rubin on the power of habits to reduce decisional load
+- Conclusion
+	- "The only way someone can be of help to you..."
+	- Jony Ives
+- Why was I pursuing this project at all? Hyperfocus and the semi-addictive nature of building a working thing explained why I _continued_, but why had I _started_ this project? What were my higher-level reasons for wanting to build Logwise? Surely there would be something more meaningful at that level of motivation.
+- Nut graf (which I've decided I don't need because I don't want to write this as news): 
+	- [Persistence is often agentic](https://innerhelm.com/posts/persistence). I've discovered that quitting can be too. I believe agentic quitting is, for most people, a dormant superpower—a practice that yields significant dividends but is underused.
+
