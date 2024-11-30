@@ -9,14 +9,13 @@ export default function cleanPageUrl() {
     const params = url.searchParams;
     const oldParams = params.toString();
 
-    for (const param of Array.from(params.keys())) {
+    for (const param of params.keys()) {
         if (trackingPrefixes.some(prefix => param.startsWith(prefix))) {
             params.delete(param);
         }
     }
 
     if (params.toString() !== oldParams) {
-        url.search = params.toString();
         history.replaceState(null, '', url.toString());
     }
 }
