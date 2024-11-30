@@ -1,13 +1,19 @@
 ---
 import JamComments from "@jam-comments/astro";
 ---
-<div id="comments" class="jamcomments-container">
-    <h2>Comments</h2>
+<div class="jamcomments-container">
+    <h2 id="comments">Comments</h2>
     <JamComments
         tz="America/Denver"
     />
 </div>
 <style lang="scss" is:global>
+    h2#comments:target {
+        background-color: var(--color-primary-bg-static);
+        color: var(--color-primary-1-static);
+        margin: 0 -1rem;
+        padding: 1rem;
+    }
     .jamcomments-container {
         p {
             margin-top: 0;
