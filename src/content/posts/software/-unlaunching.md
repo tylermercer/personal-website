@@ -95,7 +95,7 @@ Certainly, not all software hobby projects are deserving of being labeled an add
 
 As mentioned, an obvious negative effect of this strong pull was that I made no progress at all on Innerhelm during this time. But another significant side effect was a diminishment of self.
 
-In all honesty, recognized this effect over a year ago, when I was working on my essay ["Certainty and Uncertainty as Elements of Faith."](https://tylermercer.net/posts/faith/certainty-and-uncertainty-as-elements-of-faith/) I wrote this in my journal on September 9th, 2023:
+In all honesty, recognized this effect over a year ago, when I was working on my essay ["Certainty and Uncertainty as Elements of Faith."](/posts/faith/certainty-and-uncertainty-as-elements-of-faith/) I wrote this in my journal on September 9th, 2023:
 
 > [F]ocusing on building an app makes me possessive of my time and angry when I don't get to work on it (and often angry when I do, because of how slow it goes). But when my focus is on my writing, I feel expanded, more emotionally healthy, and a lot more patient with changes to our schedule that limit my time to write.
 
@@ -169,7 +169,7 @@ Not everything that feels compelling is worth spending time on. Challenge your a
 
 As I considered this decision to unlaunch Logwise, I worried that I would feel uncomfortably constrained---like "a wild bull [caught] in a net," to borrow a metaphor from [Isaiah](https://www.churchofjesuschrist.org/study/scriptures/ot/isa/51?lang=eng&id=p20#p20). But I haven't.
 
-On the contrary, I've felt more grounded, more curious, and more free. Zooming in on my writing has made the intricacies found in that portion of [the infinitely-detailed fractal of truth](https://tylermercer.net/en/posts/all-writing-is-reductionistic/) all the more interesting.[^still-open] As Karlsson puts it:
+On the contrary, I've felt more grounded, more curious, and more free. Zooming in on my writing has made the intricacies found in that portion of [the infinitely-detailed fractal of truth](/posts/all-writing-is-reductionistic/) all the more interesting.[^still-open] As Karlsson puts it:
 
 > [A]s a person for whom narrow focus is against my instincts, the most remarkable thing about it is how rich it feels.
 
@@ -204,4 +204,4 @@ I have to say I agree.
 	> [F]ocusing on writing about these ideas seemed like the most strategic step forward. It is sufficiently open-ended that I can follow the idea where it leads, while still being concrete enough to share meaningfully with others (which is itself helpful in the exploration).
 	
 
-[^writing-computer]: One such extreme measure I've taken myself was to turn an old laptop into a dedicated writing device, as I explained in ["Creating a Partial Clone of a Git Repo"](https://tylermercer.net/posts/software/partial-clone-git-repo/). (I'm writing this essay on that device.)
+[^writing-computer]: One such extreme measure I've taken myself was to turn an old laptop into a dedicated writing device, as I explained in ["Creating a Partial Clone of a Git Repo"](/posts/software/partial-clone-git-repo/). (I'm writing this essay on that device.)
