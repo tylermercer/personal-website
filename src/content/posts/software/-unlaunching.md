@@ -136,7 +136,7 @@ Firstly, I've not just open-sourced [the code](https://github.com/tylermercer/lo
 
 Second, I've decided not even to _use_ Logwise. This was a hard decision, but I found in my unsuccessful efforts to straddle both projects that even just using the app would cause that close-resistant loop to re-open.[^obsidian]
 
-Third, I've written this essay. Writing out my reasoning behind this decision explicitly reinforces it in my own mind. I'm reminded of a quote by Mary Ruefle:
+Third, I've written this essay. Writing out my reasoning behind this decision explicitly reinforces it in my own mind. I'm reminded of a quote by Mary Ruefle:[^lamport]
 
 > I used to think I wrote because there was something I wanted to say[, ...] but I know now I continue to write because I have not yet heard what I have been listening to.
 
@@ -201,3 +201,7 @@ I have to say I agree.
 	
 
 [^writing-computer]: One such extreme measure I've taken myself was to turn an old laptop into a dedicated writing device, as I explained in ["Creating a Partial Clone of a Git Repo"](/posts/software/partial-clone-git-repo/). (I'm writing this essay on that device.)
+
+[^lamport]: From _Madness, Rack, and Honey_. Quoted in ["Why We Write"](https://aworkinglibrary.com/writing/why-we-write) 
+	
+	Also relevant is this quote from eminent computer scientist Leslie Lamport: "If you're thinking without writing, you only think you're thinking."
