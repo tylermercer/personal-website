@@ -6,11 +6,11 @@ description: Choosing focus through agentic quitting
 crosspostToInnerhelm: true
 ---
 
-Earlier this year I spent seven months building a web application called [Logwise](https://logwise.tylermercer.net) in my spare time. It's an app for logging things: sleep quality, focus levels, research insights, health symptoms, or anything else you'd like to monitor over time and understand better. It works offline (via [Dexie](https://dexie.org/) and [Dexie Cloud](https://dexie.org/cloud/)) and allows you to easily change the schema of your logs over time without data loss (via [persistent data structures](https://en.wikipedia.org/wiki/Persistent_data_structure)).
+Earlier this year I spent seven months building a web application called [Logwise](https://logwise.tylermercer.net) in my spare time. It's an app for logging things: sleep quality, focus levels, health symptoms, or anything else you'd like to monitor over time and understand better. It works offline (via [Dexie](https://dexie.org/) and [Dexie Cloud](https://dexie.org/cloud/)) and allows you to easily change the schema of your logs over time without data loss (via [persistent data structures](https://en.wikipedia.org/wiki/Persistent_data_structure)).
 
 It's been a compelling side project for me---the kind that I wake up thinking about, and for which I've had a constant flow of exciting ideas.
 
-But I've decided to open-source and archive [the code repository](https://github.com/tylermercer/logwise), and to throw away my roadmap.[^throwing-away] I'm "unlaunching" Logwise: putting it out into the world, but with the intent of ending it---launching in a negative direction.
+But I've decided to open-source and archive [the code repository](https://github.com/tylermercer/logwise), and to throw away my roadmap.[^throwing-away] I'm "unlaunching" Logwise: putting it out into the world, but with the intent of ending it---launching in a negative direction. This essay explains why.
 
 ## A tale of two projects
 
@@ -18,7 +18,7 @@ At the beginning of this year, I started a different project, a blog and newslet
 
 Innerhelm and Logwise have a common background. My college studies consisted of a blending of psychology and computer science, with the intent to create software that helped people live intentionally. Both projects emerged from this intent. In fact, this time last year, Logwise and Innerhelm were a single project idea: a _self-authorship app_ that would facilitate reflection and intentionality through templated journaling.
 
-As I explained in [the first Innerhelm post](https://innerhelm.com/posts/where-innerhelm-began/), I eventually decided to make Innerhelm solely a writing project. But with [the birth of my daughter](/posts/faith/a-different-kind-of-hello-world) earlier this year, the utility of a templated-journaling app was brought to mind again. There's a lot to keep track of when you're caring for a newborn, if you're so inclined: feedings, diaper changes,[^diapers] sleep quality, etc. My wife and I used an existing app for these things, but I found that there were other things I wanted to log as well, which the app didn't support---things like our mental health, how much sleep we were getting, and moments with our daughter that we wanted to remember. I needed an app that was more [malleable](https://malleable.systems/mission).
+As I explained in [the first Innerhelm post](https://innerhelm.com/posts/where-innerhelm-began/), I eventually decided to make Innerhelm solely a writing project. But with [the birth of my daughter](/posts/faith/a-different-kind-of-hello-world) earlier this year, the utility of a templated-journaling app was brought to mind again. There's a lot you might want to keep track of when you're caring for a newborn: feedings, diaper changes,[^diapers] sleep quality, etc. My wife and I used an existing app for these things, but I found that there were other things I wanted to log as well, which the app didn't support---things like our mental health, how much sleep we were getting, and moments with our daughter that we wanted to remember. I needed an app that was more *malleable*---something I could adapt to my specific needs.[^malleable]
 
 On top of that, late-night bottle feedings gave me a lot of time to think about how I would build such an app. By the time our lives (and sleep schedules) had begun to stabilize, I was champing at the bit to start building.
 ## Andy Matuschak
@@ -44,7 +44,7 @@ As such, there's a significant obstacle to be overcome in moving an engineering 
 Matuschak, being a researcher whose intended output is research-informed software, had good reason to want to reconcile this tension between two projects. Did I?
 ## Explore and exploit
 
-In ["Almost everyone I’ve met would be well-served thinking more about what to focus on"](https://www.henrikkarlsson.xyz/p/multi-armed-bandit), writer Henrik Karlsson unpacks a different tension---the tradeoffs between exploring new paths forward and following a known good one.
+In his essay ["Almost everyone I’ve met would be well-served thinking more about what to focus on"](https://www.henrikkarlsson.xyz/p/multi-armed-bandit), writer Henrik Karlsson unpacks another tension---the tradeoffs between exploring new paths forward and following a known good one.
 
 Drawing from probability theory, Karlsson describes what is known as the _multi-armed bandit problem_. In it, a gambler plays a slot machine (known as a "one-armed bandit"), but this machine is different than most. This is a "multi-armed bandit"---a slot machine with many levers, each of which gives a different likelihood of a payout.
 
@@ -54,8 +54,8 @@ The gambler's solution lies in navigating the tradeoffs between *exploring* (try
 
 In other words, the main risk is not that of striking a bad balance between exploring and exploiting---it's _spending too much time pulling a bad lever_.
 
-Compared with Innerhelm and other priorities such as my family, Logwise was a bad lever.
-## Logwise had a high cost and a low payout
+Compared with Innerhelm and other priorities such as my family, Logwise was a bad lever---it had a high cost and yielded a comparatively low payout.
+## Logwise's high cost and low payout
 
 The multi-armed bandit mental model, as it is usually rendered, describes each lever as being essentially defined in only one dimension: potential payout. That is, the intent of exploring and exploiting is simply to find the lever with the best payout.
 
@@ -68,7 +68,7 @@ Innerhelm, as mentioned above, was one of them: when I was heads-down on Logwise
 
 Logwise was what Matuschak would describe as an "open loop":
 
-> Tasks left undone, observations left unrecorded, replies yet to be written—these swirl about our minds, as if we’re rehearsing them over and over again to make sure they’re not forgotten.
+> Tasks left undone, observations left unrecorded, replies yet to be written—these swirl about our minds, as if we’re rehearsing them over and over again to make sure they’re not forgotten.[^zeigarnik]
 
 Deep focus on a subject involves defending a loop on that subject from the other loops---small ones, like tasks, and big ones, like Logwise---that would crowd it out. This requires [a system for closing open loops](https://notes.andymatuschak.org/Close_open_loops), but it also requires you to be careful about which loops you open in the first place. Karlsson encountered this as he became a writer:
 
@@ -76,7 +76,7 @@ Deep focus on a subject involves defending a loop on that subject from the other
 
 #### A close-resistant loop
 
-But part of what made Logwise's loop so pernicious was that it was fiendishly difficult to close. Compared to projects like this website or Innerhelm, Logwise had so much more _depth_---there's so much more for my engineering brain to get absorbed in with an application than with a content site.
+But part of what made Logwise's loop so pernicious was that it was fiendishly difficult to close. Compared to projects like this website or Innerhelm, Logwise had so much more _depth_, in a dangerous way---there's so much more for my engineering brain to get absorbed in with an application than with a content site.
 
 Part of this is because of the unbounded size of software applications. In the software engineering industry, "finished software" is almost oxymoronic---a sort of [unobtanium](https://en.wikipedia.org/wiki/Unobtainium) that only appears in jokes. Even after six months of working on it, Logwise was nowhere _near_ finished. Each task I marked off usually paralleled two or three new ideas or opportunities that I added to my backlog.[^content-sites]
 
@@ -91,7 +91,7 @@ Certainly, not all software hobby projects are deserving of being labeled an add
 
 As mentioned, an obvious negative effect of this strong pull was that I made no progress at all on Innerhelm during this time. But another significant side effect was a diminishment of self.
 
-In all honesty, recognized this effect over a year ago, when I was working on my essay ["Certainty and Uncertainty as Elements of Faith."](/posts/faith/certainty-and-uncertainty-as-elements-of-faith/) I wrote this in my journal on September 9th, 2023:
+In all honesty, I recognized this effect over a year ago, when I was working on [an essay on this site](/posts/faith/certainty-and-uncertainty-as-elements-of-faith/). I wrote this in my journal on September 9th, 2023:
 
 > [F]ocusing on building an app makes me possessive of my time and angry when I don't get to work on it (and often angry when I do, because of how slow it goes). But when my focus is on my writing, I feel expanded, more emotionally healthy, and a lot more patient with changes to our schedule that limit my time to write.
 
@@ -127,14 +127,14 @@ Interestingly, this mimetic desire hid itself behind my values-motivated desire 
 
 Of course, mimetic desire also applies to my writing for Innerhelm---there are models from whom I've learned that desire, too.[^writing-models-of-desire] But if I look past the obstructive mimetic desire behind both options, I can see that Innerhelm is much more aligned with my deeper desires---desires that stem from the kind of person I strive to be rather than from mimesis---than Logwise was. (That claimed goal of creating something useful? I had already done that in Innerhelm: from early on, one of my readers frequently expressed that my ideas were making a difference in his life.)
 
-By following my mimetic desire blindly, I was failing to act agentically---I was riding, not driving. Ironic for someone ostensibly exploring agency thinking!
+By following my mimetic desire blindly, I was failing to act agentically---I was riding, not driving. Ironic for someone trying to explore agency thinking!
 ## Unlaunching
 
 Realizing the steep cost and low payout of Logwise made the optimal path clear: "unlaunching" Logwise. Furthermore, I'm taking steps to keep me from opening that loop again---archiving the Logwise code repository, no longer using Logwise personally, and publishing this essay.
 
 Firstly, I've not just open-sourced [the code](https://github.com/tylermercer/logwise), I've archived the GitHub repository containing it. This serves to (1) preserve the code in case I need to reference it for other things, (2) signal to others that Logwise isn't under active development, and especially (3) make it hard for me to pick up again---I would have to un-archive the code, set up my local development environment again, etc.[^todoist]
 
-Second, I've decided not even to _use_ Logwise. This was a hard decision, but I found in my unsuccessful efforts to straddle both projects that even just using the app would cause that close-resistant loop to re-open.[^obsidian]
+Second, I've decided not even to _use_ Logwise. This was a hard decision, but I found in my unsuccessful efforts to straddle both projects that even just using the app would cause that close-resistant loop to re-open. Instead, I've implemented a similar logging setup using [Obsidian](https://obsidian.md). It's not nearly as ergonomic, but it meets my needs.
 
 Third, I've written this essay. Writing out my reasoning behind this decision explicitly reinforces it in my own mind. I'm reminded of a quote by Mary Ruefle:[^lamport]
 
@@ -146,11 +146,11 @@ In this way, I'm using _higher-order agency_---decisions that affect my decision
 
 ## Agentic quitting
 
-As I wrote in the last Innerhelm blog post before starting on Logwise, [persistence is an important part of being agentic](https://innerhelm.com/posts/persistence). But I've discovered that quitting can be too.
+As I wrote in the last Innerhelm blog post before starting on Logwise, [persistence is an important part of being agentic](https://innerhelm.com/posts/persistence). But I've discovered that quitting can be agentic as well.
 
 Admittedly, writing is a uniquely focus-demanding activity. Writers throughout time [have taken extreme measures to eliminate distractions](https://www.newyorker.com/culture/annals-of-inquiry/what-kind-of-writer-is-chatgpt#:~:text=These%20mental%20demands%20may%20help%20to%20explain%20the%20eccentric%20habits%20of%20writers)[^writing-computer] and enable deep work, and the nature of writing is such that this narrowing-down pays significant dividends. Other areas of human endeavor, such as business or athleticism, may derive more value from juggling competing demands than writing does.
 
-Furthermore, exploration---pulling multiple different levers---is still intensely valuable, especially early on. You can't confidently identify a high-output lever to focus on until you've tried a few, often in quick succession or concurrently. But, in the end, once you have learned a given activity is low-value, you will benefit from quitting that activity.
+Furthermore, exploration---pulling multiple different levers---is still intensely valuable, especially early on. You can't confidently identify a high-output lever to focus on until you've tried a few, often in quick succession or concurrently. But, once you've learned a given activity is low-value, you will benefit from quitting that activity.
 
 Our culture typically frames persistence as hard and worthwhile, and quitting as easy and unrewarding. But, [as author and lecturer Alfie Kohn points out](https://www.alfiekohn.org/article/downside-grit/), quitting can often be quite difficult:
 
@@ -159,7 +159,7 @@ Our culture typically frames persistence as hard and worthwhile, and quitting as
 I believe agentic quitting is, for most people, a dormant superpower—a practice that yields significant dividends but is underused.
 ## Conclusion
 
-In a society where we often wear our busyness as a badge of honor, being intentional about what you _won't_ do can be refreshing and energizing. Agentic quitting of less important things unlocks time, energy, and mental resources to put towards the things that _are_ important.
+In a society where we often wear our busyness as a badge of honor, being intentional about what you _won't_ do can be refreshing and energizing. Agentic quitting of less-important things unlocks time, energy, and mental resources to put towards the things that _are_ important.
 
 Not everything that feels compelling is worth spending time on. Challenge your assumptions about the value and cost of the various things you do, and take both a short-term and long-term view as you evaluate them.
 
@@ -171,7 +171,7 @@ On the contrary, I've felt more grounded, more curious, and more free. Zooming i
 
 I have to say I agree.
 
-[^throwing-away]: I should note that I didn't delete the Todoist project with my roadmap for Logwise; I only archived it. I had a lot of knowledge and resources captured in my notes there, and, despite my minimalist approach to _physical_ possessions, I struggle to discard conceptual ones such as crystallized knowledge. But archiving the project satisfies the requirement of intentionally making it hard to pick the project up again.
+[^throwing-away]: I should note that I didn't delete the Todoist project with my roadmap for Logwise; I only archived it. I had a lot of knowledge and resources captured in my notes there, and, despite my minimalist approach to _physical_ possessions, I struggle to discard conceptual ones such as crystallized knowledge. But archiving the project serves to make it hard to pick the project up again---a form of desirable difficulty.
 
 [^diapers]: Logging diaper changes---and which of those were diaper _failures_---led surprisingly quickly to holding strong opinions about diaper brands. Something I wouldn't have anticipated a year ago! 
 
@@ -193,8 +193,6 @@ I have to say I agree.
 
 [^todoist]: I've done the same with the Todoist project that contained Logwise's roadmap. Archiving it allows me to consult the links and other resources I had gathered there if needed in the future, while preventing me from adding, updating, or completing tasks.
 
-[^obsidian]: Instead, I've implemented a similar logging setup using Obsidian. It's not _nearly_ as ergonomic, but it meets my needs.
-
 [^still-open]: Part of this is due to the fact that Innerhelm itself is still, [by design](https://innerhelm.com/posts/where-innerhelm-began/), open-ended:
 	
 	> [F]ocusing on writing about these ideas seemed like the most strategic step forward. It is sufficiently open-ended that I can follow the idea where it leads, while still being concrete enough to share meaningfully with others (which is itself helpful in the exploration).
@@ -202,6 +200,10 @@ I have to say I agree.
 
 [^writing-computer]: One such extreme measure I've taken myself was to turn an old laptop into a dedicated writing device, as I explained in ["Creating a Partial Clone of a Git Repo"](/posts/software/partial-clone-git-repo/). (I'm writing this essay on that device.)
 
-[^lamport]: From _Madness, Rack, and Honey_. Quoted in ["Why We Write"](https://aworkinglibrary.com/writing/why-we-write) 
+[^lamport]: From _Madness, Rack, and Honey_. Quoted by Mandy Brown in her blog post ["Why We Write"](https://aworkinglibrary.com/writing/why-we-write).
 	
 	Also relevant is this quote from eminent computer scientist Leslie Lamport: "If you're thinking without writing, you only think you're thinking."
+
+[^malleable]: These ideas are expanded and formalized by [the Malleable Systems Collective](https://malleable.systems), which catalogs and experiments with malleable software.
+
+[^zeigarnik]: This tendency of open loops to stick in the mind is called [the Zeigarnik effect](https://en.wikipedia.org/wiki/Zeigarnik_effect).
