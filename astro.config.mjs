@@ -14,7 +14,7 @@ const {
 
 // https://astro.build/config
 export default defineConfig({
-  output: 'hybrid',
+  output: 'static',
   adapter: cloudflare(),
   site: 'https://tylermercer.net',
   markdown: {
