@@ -42,6 +42,7 @@ To make things worse, [switching costs between them are high](https://notes.andy
 As such, there's a significant obstacle to be overcome in moving an engineering project and a writing project forward at the same time. This is reflected in where I found myself this fall: having made a lot of progress on Logwise, but having not written for (or even thought about!) Innerhelm in months.
 
 Matuschak, being a researcher whose intended output is research-informed software, had good reason to want to reconcile this tension between two projects. Did I?
+
 ## Explore and exploit
 
 In his essay ["Almost everyone I’ve met would be well-served thinking more about what to focus on"](https://www.henrikkarlsson.xyz/p/multi-armed-bandit), writer Henrik Karlsson unpacks another tension---the tradeoffs between exploring new paths forward and following a known good one.
@@ -55,12 +56,14 @@ The gambler's solution lies in navigating the tradeoffs between *exploring* (try
 In other words, the main risk is not that of striking a bad balance between exploring and exploiting---it's _spending too much time pulling a bad lever_.
 
 Compared with Innerhelm and other priorities such as my family, Logwise was a bad lever---it had a high cost and yielded a comparatively low payout.
+
 ## Logwise's high cost and low payout
 
 The multi-armed bandit mental model, as it is usually rendered, describes each lever as being essentially defined in only one dimension: potential payout. That is, the intent of exploring and exploiting is simply to find the lever with the best payout.
 
 In reality, there's more to consider when examining different ways to spend one's time, including the _costs_ associated with each activity. Logwise, in particular, had a deceptively high cost: it _seemed_ low-cost when I was engaged with it, but when I stepped back to look at it more objectively, the cost was quite substantial.
-### Logwise's high cost
+
+### Cost
 
 The obvious cost was _opportunity cost_. What opportunities was I giving up to work on Logwise? 
 
@@ -87,6 +90,7 @@ But this reward was actually pathological. As Adam Alter explains in _Irresistib
 > \[W]here substance addictions are nakedly destructive, many behavioral addictions are quietly destructive acts wrapped in cloaks of creation.
 
 Certainly, not all software hobby projects are deserving of being labeled an addiction, but Logwise was for me. The good feeling of having produced some measurable addition to the project each time I worked on it acted as a "cloak of creation" that masked its "quietly destructive" effects on my overall life.
+
 #### A diminishment of self
 
 As mentioned, an obvious negative effect of this strong pull was that I made no progress at all on Innerhelm during this time. But another significant side effect was a diminishment of self.
@@ -109,7 +113,7 @@ But, because of the mutual exclusion between writing and app-development modes o
 
 As a result, Logwise had a twofold negative effect on my psyche: it *directly* led to a diminishment of self, as Matuschak observed with his engineering work, and its cross-lever suppressive effects *indirectly* prevented me from picking up the kind of thought-work that could have pushed back against that diminishment.
 
-### Logwise's low payout
+### Payout
 
 As mentioned before, the original multi-armed bandit mental model only considers payout, not cost. But even when examined through a payout lens, Logwise was a worse lever than Innerhelm.
 
@@ -128,6 +132,7 @@ Interestingly, this mimetic desire hid itself behind my values-motivated desire 
 Of course, mimetic desire also applies to my writing for Innerhelm---there are models from whom I've learned that desire, too.[^writing-models-of-desire] But if I look past the obstructive mimetic desire behind both options, I can see that Innerhelm is much more aligned with my deeper desires---desires that stem from the kind of person I strive to be rather than from mimesis---than Logwise was. (That claimed goal of creating something useful? I had already done that in Innerhelm: from early on, one of my readers frequently expressed that my ideas were making a difference in his life.)
 
 By following my mimetic desire blindly, I was failing to act agentically---I was riding, not driving. Ironic for someone trying to explore agency thinking!
+
 ## Unlaunching
 
 Realizing the steep cost and low payout of Logwise made the optimal path clear: "unlaunching" Logwise. Furthermore, I'm taking steps to keep me from opening that loop again---archiving the Logwise code repository, no longer using Logwise personally, and publishing this essay.
@@ -197,7 +202,6 @@ I have to say I agree.
 	
 	> [F]ocusing on writing about these ideas seemed like the most strategic step forward. It is sufficiently open-ended that I can follow the idea where it leads, while still being concrete enough to share meaningfully with others (which is itself helpful in the exploration).
 	
-
 [^writing-computer]: One such extreme measure I've taken myself was to turn an old laptop into a dedicated writing device, as I explained in ["Creating a Partial Clone of a Git Repo"](/posts/software/partial-clone-git-repo/). (I'm writing this essay on that device.)
 
 [^lamport]: From _Madness, Rack, and Honey_. Quoted by Mandy Brown in her blog post ["Why We Write"](https://aworkinglibrary.com/writing/why-we-write).
