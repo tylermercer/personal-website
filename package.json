@@ -6,7 +6,7 @@
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build",
-    "preview": "astro preview",
+    "preview": "wrangler pages dev ./dist --port 4321",
     "astro": "astro",
     "send-email:dev": "node ./newsletter/send-email.cjs",
     "send-email": "node ./newsletter/send-email.cjs --prod",
