@@ -1,9 +1,9 @@
 ---
 title: Unlaunching
 description: Choosing focus through agentic quitting
-#date: 2024-10-03 9:03:00.00
-#imgForInnerhelmVersion: https://upload.wikimedia.org/wikipedia/commons/8/81/Vingtmillelieue00vern_orig_0437_1.jpg
+date: 2024-12-23 9:03:00.00
 crosspostToInnerhelm: true
+featured: true
 ---
 
 Earlier this year I spent seven months building a web application called [Logwise](https://logwise.tylermercer.net) in my spare time. It's an app for logging things: sleep quality, focus levels, health symptoms, or anything else you'd like to monitor over time and understand better. It works offline (via [Dexie](https://dexie.org/) and [Dexie Cloud](https://dexie.org/cloud/)) and allows you to easily change the schema of your logs over time without data loss (via [persistent data structures](https://en.wikipedia.org/wiki/Persistent_data_structure)).
