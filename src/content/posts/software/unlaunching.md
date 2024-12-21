@@ -54,19 +54,14 @@ The gambler's solution lies in navigating the tradeoffs between *exploring* (try
 
 In other words, the main risk is not that of striking a bad balance between exploring and exploiting---it's _spending too much time pulling a bad lever_.
 
-Compared with Innerhelm and other priorities such as my family, Logwise was a bad lever---it had a high cost and yielded a comparatively low payout.
+But that doesn't mean we can just pull the best lever---exploration is necessary in order to identify a good lever in the first place. The key is to pick a strategy that allows us to explore various options while minimizing the time spent pulling lower-payout levers.
+## Logwise's cost
 
-## Logwise's high cost and low payout
+The multi-armed bandit mental model, as it is usually rendered, describes each lever as being essentially defined in only one dimension: potential payout. But when using this model for evaluating different ways to spend one's time, we also have to consider _cost_.
 
-The multi-armed bandit mental model, as it is usually rendered, describes each lever as being essentially defined in only one dimension: potential payout. That is, the intent of exploring and exploiting is simply to find the lever with the best payout.
+The obvious cost to Logwise was _opportunity cost_. What opportunities was I giving up to work on Logwise? 
 
-In reality, there's more to consider when examining different ways to spend one's time, including the _costs_ associated with each activity. Logwise, in particular, had a deceptively high cost: it _seemed_ low-cost when I was engaged with it, but when I stepped back to look at it more objectively, the cost was quite substantial.
-
-### Cost
-
-The obvious cost was _opportunity cost_. What opportunities was I giving up to work on Logwise? 
-
-Innerhelm, as mentioned above, was one of them: when I was heads-down on Logwise, I couldn't make any progress on Innerhelm, because of the mutual exclusion between those two thinking styles described by Matuschak. And the high switching cost between them gives the "lever" of Logwise a surprising cross-lever effect: after pulling the Logwise lever, the Innerhelm lever cannot be pulled while the Logwise lever slowly returns to the top again!
+Innerhelm, as mentioned above, was one of them: when I was heads-down on Logwise, I couldn't make any progress on Innerhelm, because of the mutual exclusion between those two thinking styles described by Matuschak. And the high switching cost between them gives the "lever" of Logwise a surprising cross-lever effect: after pulling the Logwise lever, the Innerhelm lever cannot be pulled while the Logwise lever slowly returns to the top again! 
 
 Logwise was what Matuschak would describe as an "open loop":
 
@@ -75,10 +70,9 @@ Logwise was what Matuschak would describe as an "open loop":
 Deep focus on a subject involves defending a loop on that subject from the other loops---small ones, like tasks, and big ones, like Logwise---that would crowd it out. This requires [a system for closing open loops](https://notes.andymatuschak.org/Close_open_loops), but it also requires you to be careful about which loops you open in the first place. Karlsson encountered this as he became a writer:
 
 > Unintentionally, I [used to] tell my brain to focus on [unimportant things]—a conflict in a TV series I was watching, for instance. I would watch an episode before bed, and the cliffhanger would open a loop in my head. That loop would be churning in my head as I slept; I woke to a blank page. I don’t have time for that anymore. I make sure to always have an open loop concerning my writing. And I close every other loop—by wrapping it up as fast as I can, or by writing it down on a list, or, preferably, not opening the loop at all.
+### A close-resistant loop
 
-#### A close-resistant loop
-
-But part of what made Logwise's loop so pernicious was that it was fiendishly difficult to close. Compared to projects like this website or Innerhelm, Logwise had so much more _depth_, in a dangerous way---there's so much more for my engineering brain to get absorbed in with an application than with a content site.
+Part of what made Logwise's loop so pernicious was that it was fiendishly difficult to close. Compared to projects like this website or Innerhelm, Logwise had so much more _depth_, in a dangerous way---there's so much more for my engineering brain to get absorbed in with an application than with a content site.
 
 Part of this is because of the unbounded size of software applications. In the software engineering industry, "finished software" is almost oxymoronic---a sort of [unobtanium](https://en.wikipedia.org/wiki/Unobtainium) that only appears in jokes. Even after six months of working on it, Logwise was nowhere _near_ finished. Each task I marked off usually paralleled two or three new ideas or opportunities that I added to my backlog.[^content-sites]
 
@@ -90,7 +84,8 @@ But this reward was actually pathological. As Adam Alter explains in _Irresistib
 
 Certainly, not all software hobby projects are deserving of being labeled an addiction, but Logwise was for me. The good feeling of having produced some measurable addition to the project each time I worked on it acted as a "cloak of creation" that masked its "quietly destructive" effects on my overall life.
 
-#### A diminishment of self
+Logwise's cost wasn't just _high_, it was _deceptively_ high. Logwise _seemed_ low-cost when I was engaged with it, but when I stepped back to look at it more objectively, the cost was quite substantial. The illusory reward of it's strong pull actually took me further away from the person I wanted to be.
+### A diminishment of self
 
 As mentioned, an obvious negative effect of this strong pull was that I made no progress at all on Innerhelm during this time. But another significant side effect was a diminishment of self.
 
@@ -110,33 +105,47 @@ Writing, on the other hand, changes how I think, how I see the world, how I rela
 
 But, because of the mutual exclusion between writing and app-development modes of thought, I was totally locked out of those benefits while I was working on Logwise.
 
-As a result, Logwise had a twofold negative effect on my psyche: it *directly* led to a diminishment of self, as Matuschak observed with his engineering work, and its cross-lever suppressive effects *indirectly* prevented me from picking up the kind of thought-work that could have pushed back against that diminishment.
+As a result, Logwise had a twofold negative effect on my psyche: it *directly* led to a costly diminishment of self, as Matuschak observed with his engineering work, and its cross-lever suppressive effects *indirectly* prevented me from picking up the kind of thought-work that could have pushed back against that diminishment.
 
-### Payout
-
-As mentioned before, the original multi-armed bandit mental model only considers payout, not cost. But even when examined through a payout lens, Logwise was a worse lever than Innerhelm.
+## Logwise's payout
 
 The payout of an opportunity is measured differently based on the category of opportunity. For a sales opportunity, for example, the potential payout would be how much the customer would pay if they accepted a deal.
 
-In my case, the payout was the impact and benefit of making progress on a particular project. Did it get me closer to where—and who—I want to be in life? And did this payout compensate for the aforementioned costs of cognitive absorption and diminishment of self?
+In my case, the payout was the impact and benefit of making progress on a particular project. Did it get me closer to where I authentically wanted to be in life? And did this payout compensate for the aforementioned costs of cognitive absorption and diminishment of self?
 
-#### Mimetic desire 
+### Mimetic desire 
 
 In [_Wanting: The Power of Mimetic Desire in Everyday Life_](https://www.amazon.com/Wanting-Power-Mimetic-Desire-Everyday/dp/1250262488/), author Luke Burgis explains French polymath and philosopher Rene Girard's theory of _mimetic desire_. According to Girard's theory, humans learn what they want primarily through imitating others' desires. When we interact with someone we trust or look up to, we unwittingly make them a model of desire. We want what they want, *because* they want it, and then unconsciously retrofit a supporting rationale onto that imitated desire.[^reasonable] This mimesis, according to Burgis, is like gravity: it's invisible, pervasive, and affects everyone. It's a powerful influence---and one that is _more_ powerful when we aren't aware of it.
 
 Since learning about this idea, I've started to look for it in myself. And I haven't needed to look far. Notably, my long-term goals with Logwise were highly mimetic. Beyond simply creating something useful for myself, I wanted to create a widely-used app, because that was something I've seen modeled by people I respect.[^app-models-of-desire] That core mimesis was surrounded by derivative goals, like making the app financially viable, but the central focus of the project was not about money; it was about achieving the status of "I've built a successful app." And the reason I sought for that status was mimesis.
 
-Interestingly, this mimetic desire hid itself behind my values-motivated desire to [make something that is useful](https://innerhelm.com/posts/where-innerhelm-began/#:~:text=i%E2%80%99ve%20always%20had%20an%20urge%20to%20make%20useful%20things). Until I recognized mimetic desire in myself, it _seemed_ like my core motivation in building Logwise was this values-motivated desire. 
+Interestingly, this mimetic desire hid itself behind my more-authentic desire to [make something that is useful](https://innerhelm.com/posts/where-innerhelm-began/#:~:text=i%E2%80%99ve%20always%20had%20an%20urge%20to%20make%20useful%20things). Until I recognized mimetic desire in myself, it _seemed_ like my core motivation in building Logwise was this authentic desire. 
 
-Of course, mimetic desire also applies to my writing for Innerhelm---there are models from whom I've learned that desire, too.[^writing-models-of-desire] But if I look past the obstructive mimetic desire behind both options, I can see that Innerhelm is much more aligned with my deeper desires---desires that stem from the kind of person I strive to be rather than from mimesis---than Logwise was. (That claimed goal of creating something useful? I had already done that in Innerhelm: from early on, one of my readers frequently expressed that my ideas were making a difference in his life.)
+Of course, mimetic desire also applies to my writing for Innerhelm---there are models from whom I've learned that desire, too.[^writing-models-of-desire] But if I look past the obstructive mimetic desire behind both options, I can see that Innerhelm is much more aligned with my authentic desires than Logwise was. (That claimed goal of creating something useful? I had already done that in Innerhelm: from early on, one of my readers frequently expressed that my ideas were making a difference in his life.)
 
 By following my mimetic desire blindly, I was failing to act agentically---I was riding, not driving. Ironic for someone trying to explore agency thinking!
 
+## Measuring costs and payouts
+
+How do we measure these costs and payouts? Our hypothetical gambler would measure them monetarily, but applying it to how to spend one's time is more complex. There's not a simple scale on which we can rank the payout and cost of the things we do.
+
+As mentioned previously, Logwise was low payout because the desires it fulfilled were merely mimetic. Perhaps if we focus on authentic desires instead, we can use them to measure these payouts and costs.
+
+When thinking about our authentic desires, we often shape them as long-term goals---e.g. "I work hard because I want to provide a good future for my family." But this doesn't help much in terms of comparing ways to spend our time, since each option is likely to have its own long-term goal attached.
+
+A mental model that can be more useful here is _personal values_. Different people have different conceptions of what personal values are, but I like the definition given by Russ Harris in _The Happiness Trap_: our values are "how we want to be, what we want to stand for, and how we want to relate to the world around us."
+
+With that definition in mind, here are some of my personal values:
+- Investing in important relationships (including, as mentioned previously, as a husband, father, and friend)
+- Thinking and living agentically
+- Being curious about things that matter (as measured against my other values)
+
+Compared with Innerhelm and other priorities such as my family, Logwise didn't measure up against these values. The effects of mimetic desire, my brain's quasi-addicted relationship to Logwise, and the diminishment of self that I experienced meant that Logwise was a _net negative_---it cost more than it paid out, taking me _further_ from the kind of person I want to be, instead of closer to it.
 ## Unlaunching
 
-Realizing the steep cost and low payout of Logwise made the optimal path clear: "unlaunching" Logwise. Furthermore, I'm taking steps to keep me from opening that loop again---archiving the Logwise code repository, no longer using Logwise personally, and publishing this essay.
+Realizing the steep cost and low payout of Logwise made the optimal path clear: "unlaunching" Logwise. Furthermore, I'm taking steps to keep me from opening that loop again.
 
-Firstly, I've not just open-sourced [the code](https://github.com/tylermercer/logwise), I've archived the GitHub repository containing it. This serves to (1) preserve the code in case I need to reference it for other things, (2) signal to others that Logwise isn't under active development, and especially (3) make it hard for me to pick up again---I would have to un-archive the code, set up my local development environment again, etc.[^todoist]
+Firstly, I've not just open-sourced [the code](https://github.com/tylermercer/logwise), I've archived the GitHub repository containing it. Archiving the repository serves to (1) preserve the code in case I need to reference it for other things, (2) signal to others that Logwise isn't under active development, and especially (3) make it hard for me to pick up again---I would have to un-archive the code, set up my local development environment again, etc.[^todoist]
 
 Second, I've decided not even to _use_ Logwise. This was a hard decision, but I found in my unsuccessful efforts to straddle both projects that even just using the app would cause that close-resistant loop to re-open. Instead, I've implemented a similar logging setup using [Obsidian](https://obsidian.md). It's not nearly as ergonomic, but it meets my needs.
 
