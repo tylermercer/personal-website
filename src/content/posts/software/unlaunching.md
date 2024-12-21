@@ -2,7 +2,6 @@
 title: Unlaunching
 description: Choosing focus through agentic quitting
 date: 2024-12-23 9:03:00.00
-crosspostToInnerhelm: true
 featured: true
 ---
 
