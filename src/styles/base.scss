@@ -160,4 +160,12 @@ button:disabled {
     overflow: hidden;
     clip: rect(0,0,0,0);
     border: 0;
-  }
+}
+
+summary {
+    font-weight: bold;
+    font-size: var(--step-1);
+    font-family: var(--font-heading);
+    color: var(--primary-700);
+    cursor: pointer;
+}

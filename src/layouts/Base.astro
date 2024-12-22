@@ -104,4 +104,27 @@ const description = unMarkdown(descriptionRaw);
     import logCommitHash from "../utils/logCommitHash";
     cleanPageUrl();
     logCommitHash();
+
+    document.addEventListener("DOMContentLoaded", () => {
+        const footnotesSection = document.querySelector(
+            "section[data-footnotes]",
+        );
+        if (footnotesSection) {
+            footnotesSection.setAttribute("aria-label", "Footnotes");
+
+            const details = document.createElement("details");
+
+            const summary = document.createElement("summary");
+
+            summary.textContent = "Footnotes";
+
+            while (footnotesSection.firstChild) {
+                details.appendChild(footnotesSection.firstChild);
+            }
+
+            details.insertBefore(summary, details.firstChild);
+
+            footnotesSection.appendChild(details);
+        }
+    });
 </script>
