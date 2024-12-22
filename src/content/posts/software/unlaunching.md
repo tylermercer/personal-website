@@ -77,7 +77,7 @@ Deep focus on a subject involves defending a loop on that subject from the other
 
 But part of what made Logwise's loop so pernicious was that it was fiendishly difficult to close. Compared to projects like this website or Innerhelm, Logwise had so much more _depth_, in a dangerous way---there's so much more for my engineering brain to get absorbed in with an application than with a content site.
 
-Part of this is because of the unbounded size of software applications. In the software engineering industry, "finished software" is almost oxymoronic---a sort of [unobtanium](https://en.wikipedia.org/wiki/Unobtainium) that only appears in jokes. Even after six months of working on it, Logwise was nowhere _near_ finished. Each task I marked off usually paralleled two or three new ideas or opportunities that I added to my backlog.[^content-sites]
+Part of this is because of the unbounded size of software applications. In the software engineering industry, "finished software" is almost oxymoronic---a sort of [unobtanium](https://en.wikipedia.org/wiki/Unobtainium) that only appears in jokes. Even after six months of working on it, Logwise was nowhere _near_ finished. Each task I marked off was usually accompanied by two or three new ideas that I added to my backlog.[^content-sites]
 
 This meant that the overall pull of the project was _stronger_ the more I worked on it (whereas when building content sites like Innerhelm, passing a baseline level of completion leads to a steep diminishment in pull). In the depths of this project, that pull masqueraded as a good thing---the momentum and increased vision acted as a psychological reward.
 
