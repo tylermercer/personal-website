@@ -19,7 +19,8 @@ Innerhelm and Logwise have a common background. My college studies consisted of 
 
 As I explained in [the first Innerhelm post](https://innerhelm.com/posts/where-innerhelm-began/), I eventually decided to make Innerhelm solely a writing project. But with [the birth of my daughter](/posts/faith/a-different-kind-of-hello-world) earlier this year, the utility of a templated-journaling app was brought to mind again. There's a lot you might want to keep track of when you're caring for a newborn: feedings, diaper changes,[^diapers] sleep quality, etc. My wife and I used an existing app for these things, but I found that there were other things I wanted to log as well, which the app didn't support---things like our mental health, how much sleep we were getting, and moments with our daughter that we wanted to remember. I needed an app that was more *malleable*---something I could adapt to my specific needs.[^malleable]
 
-On top of that, late-night bottle feedings gave me a lot of time to think about how I would build such an app. By the time our lives (and sleep schedules) had begun to stabilize, I was champing at the bit to start building.
+On top of that, late-night bottle feedings gave me a lot of time to think about how I would build such an app. By the time our lives (and sleep schedules) had begun to stabilize, I was chomping at the bit to start building.
+
 ## Andy Matuschak
 
 Andy Matuschak is a software engineer, designer, and researcher exploring _tools for thought_---software interfaces designed to expand and extend how humans can think. He spends some of his time in theory-land, writing, in both short and long form, about the science and mechanics that govern this space: ideas like [programmable attention](https://notes.andymatuschak.org/zPpaHZYKuBPyoDtgcsiZ9RV) and [enabling environments](https://notes.andymatuschak.org/Enabling_environment). He also spends a portion of his time in engineering-land, creating experimental tools for thought such as [Orbit](https://withorbit.com/).
@@ -54,7 +55,8 @@ The gambler's solution lies in navigating the tradeoffs between *exploring* (try
 
 In other words, the main risk is not that of striking a bad balance between exploring and exploiting---it's _spending too much time pulling a bad lever_.
 
-But that doesn't mean we can just pull the best lever---exploration is necessary in order to identify a good lever in the first place. The key is to pick a strategy that allows us to explore various options while minimizing the time spent pulling lower-payout levers.
+But that doesn't mean we can just pick the best lever and pull it. Exploration is necessary in order to identify a good lever in the first place. The key is to pick a strategy that allows us to explore various options initially and zero-in on the best levers over time, while minimizing the total time spent pulling lower-payout levers.
+
 ## Logwise's cost
 
 The multi-armed bandit mental model, as it is usually rendered, describes each lever as being essentially defined in only one dimension: potential payout. But when using this model for evaluating different ways to spend one's time, we also have to consider _cost_.
@@ -70,9 +72,10 @@ Logwise was what Matuschak would describe as an "open loop":
 Deep focus on a subject involves defending a loop on that subject from the other loops---small ones, like tasks, and big ones, like Logwise---that would crowd it out. This requires [a system for closing open loops](https://notes.andymatuschak.org/Close_open_loops), but it also requires you to be careful about which loops you open in the first place. Karlsson encountered this as he became a writer:
 
 > Unintentionally, I [used to] tell my brain to focus on [unimportant things]—a conflict in a TV series I was watching, for instance. I would watch an episode before bed, and the cliffhanger would open a loop in my head. That loop would be churning in my head as I slept; I woke to a blank page. I don’t have time for that anymore. I make sure to always have an open loop concerning my writing. And I close every other loop—by wrapping it up as fast as I can, or by writing it down on a list, or, preferably, not opening the loop at all.
+> 
 ### A close-resistant loop
 
-Part of what made Logwise's loop so pernicious was that it was fiendishly difficult to close. Compared to projects like this website or Innerhelm, Logwise had so much more _depth_, in a dangerous way---there's so much more for my engineering brain to get absorbed in with an application than with a content site.
+But part of what made Logwise's loop so pernicious was that it was fiendishly difficult to close. Compared to projects like this website or Innerhelm, Logwise had so much more _depth_, in a dangerous way---there's so much more for my engineering brain to get absorbed in with an application than with a content site.
 
 Part of this is because of the unbounded size of software applications. In the software engineering industry, "finished software" is almost oxymoronic---a sort of [unobtanium](https://en.wikipedia.org/wiki/Unobtainium) that only appears in jokes. Even after six months of working on it, Logwise was nowhere _near_ finished. Each task I marked off usually paralleled two or three new ideas or opportunities that I added to my backlog.[^content-sites]
 
@@ -85,6 +88,7 @@ But this reward was actually pathological. As Adam Alter explains in _Irresistib
 Certainly, not all software hobby projects are deserving of being labeled an addiction, but Logwise was for me. The good feeling of having produced some measurable addition to the project each time I worked on it acted as a "cloak of creation" that masked its "quietly destructive" effects on my overall life.
 
 Logwise's cost wasn't just _high_, it was _deceptively_ high. Logwise _seemed_ low-cost when I was engaged with it, but when I stepped back to look at it more objectively, the cost was quite substantial. The illusory reward of it's strong pull actually took me further away from the person I wanted to be.
+
 ### A diminishment of self
 
 As mentioned, an obvious negative effect of this strong pull was that I made no progress at all on Innerhelm during this time. But another significant side effect was a diminishment of self.
@@ -109,7 +113,7 @@ As a result, Logwise had a twofold negative effect on my psyche: it *directly* l
 
 ## Logwise's payout
 
-The payout of an opportunity is measured differently based on the category of opportunity. For a sales opportunity, for example, the potential payout would be how much the customer would pay if they accepted a deal.
+Now let's consider payout. The payout of an opportunity is measured differently based on the category of opportunity. For a sales opportunity, for example, the potential payout would be how much the customer would pay if they accepted a deal.
 
 In my case, the payout was the impact and benefit of making progress on a particular project. Did it get me closer to where I authentically wanted to be in life? And did this payout compensate for the aforementioned costs of cognitive absorption and diminishment of self?
 
@@ -129,9 +133,9 @@ By following my mimetic desire blindly, I was failing to act agentically---I was
 
 How do we measure these costs and payouts? Our hypothetical gambler would measure them monetarily, but applying it to how to spend one's time is more complex. There's not a simple scale on which we can rank the payout and cost of the things we do.
 
-As mentioned previously, Logwise was low payout because the desires it fulfilled were merely mimetic. Perhaps if we focus on authentic desires instead, we can use them to measure these payouts and costs.
+As mentioned previously, Logwise was low payout because the desires it fulfilled were merely mimetic. A high payout activity like Innerhelm, on the other hand, aligns with my authentic desires.[^mimetic-and-authentic]
 
-When thinking about our authentic desires, we often shape them as long-term goals---e.g. "I work hard because I want to provide a good future for my family." But this doesn't help much in terms of comparing ways to spend our time, since each option is likely to have its own long-term goal attached.
+When thinking about our authentic desires, we often render them as long-term goals---e.g. "I work hard because I want to provide a good future for my family." But this doesn't help much in terms of comparing ways to spend our time, since each option is likely to have its own long-term goal attached.
 
 A mental model that can be more useful here is _personal values_. Different people have different conceptions of what personal values are, but I like the definition given by Russ Harris in _The Happiness Trap_: our values are "how we want to be, what we want to stand for, and how we want to relate to the world around us."
 
@@ -141,11 +145,12 @@ With that definition in mind, here are some of my personal values:
 - Being curious about things that matter (as measured against my other values)
 
 Compared with Innerhelm and other priorities such as my family, Logwise didn't measure up against these values. The effects of mimetic desire, my brain's quasi-addicted relationship to Logwise, and the diminishment of self that I experienced meant that Logwise was a _net negative_---it cost more than it paid out, taking me _further_ from the kind of person I want to be, instead of closer to it.
+
 ## Unlaunching
 
 Realizing the steep cost and low payout of Logwise made the optimal path clear: "unlaunching" Logwise. Furthermore, I'm taking steps to keep me from opening that loop again.
 
-Firstly, I've not just open-sourced [the code](https://github.com/tylermercer/logwise), I've archived the GitHub repository containing it. Archiving the repository serves to (1) preserve the code in case I need to reference it for other things, (2) signal to others that Logwise isn't under active development, and especially (3) make it hard for me to pick up again---I would have to un-archive the code, set up my local development environment again, etc.[^todoist]
+Firstly, I've open-sourced [the code](https://github.com/tylermercer/logwise) and archived the GitHub repository containing it. Archiving the repository serves to (1) preserve the code in case I need to reference it for other things, (2) signal to others that Logwise isn't under active development, and especially (3) make it hard for me to pick up again---I would have to un-archive the code, set up my local development environment again, etc.[^todoist]
 
 Second, I've decided not even to _use_ Logwise. This was a hard decision, but I found in my unsuccessful efforts to straddle both projects that even just using the app would cause that close-resistant loop to re-open. Instead, I've implemented a similar logging setup using [Obsidian](https://obsidian.md). It's not nearly as ergonomic, but it meets my needs.
 
@@ -163,7 +168,7 @@ As I wrote in the last Innerhelm blog post before starting on Logwise, [persiste
 
 Admittedly, writing is a uniquely focus-demanding activity. Writers throughout time [have taken extreme measures to eliminate distractions](https://www.newyorker.com/culture/annals-of-inquiry/what-kind-of-writer-is-chatgpt#:~:text=These%20mental%20demands%20may%20help%20to%20explain%20the%20eccentric%20habits%20of%20writers)[^writing-computer] and enable deep work, and the nature of writing is such that this narrowing-down pays significant dividends. Other areas of human endeavor, such as business or athleticism, may derive more value from juggling competing demands than writing does.
 
-Furthermore, exploration---pulling multiple different levers---is still intensely valuable, especially early on. You can't confidently identify a high-output lever to focus on until you've tried a few, often in quick succession or concurrently. But, once you've learned a given activity is low-value, you will benefit from quitting that activity.
+Furthermore, exploration---pulling multiple different levers---is still intensely valuable, especially early on. You can't confidently identify a high-output lever to focus on until you've tried a few, often in quick succession or concurrently. It's also good to explore adjacent levers over time, even after you've found a good lever; even an endeavor that has proved valuable can be improved upon. But, once you've learned a given activity is low-value, you will benefit from quitting that activity.
 
 Our culture typically frames persistence as hard and worthwhile, and quitting as easy and unrewarding. But, [as author and lecturer Alfie Kohn points out](https://www.alfiekohn.org/article/downside-grit/), quitting can often be quite difficult:
 
@@ -174,7 +179,7 @@ I believe agentic quitting is, for most people, a dormant superpower—a practic
 
 In a society where we often wear our busyness as a badge of honor, being intentional about what you _won't_ do can be refreshing and energizing. Agentic quitting of less-important things unlocks time, energy, and mental resources to put towards the things that _are_ important.
 
-Not everything that feels compelling is worth spending time on. Challenge your assumptions about the value and cost of the various things you do, and take both a short-term and long-term view as you evaluate them.
+Not everything that feels compelling is worth spending time on. Challenge your assumptions about the payouts and costs of the various things you do, and take both a short-term and long-term view as you evaluate them.
 
 As I considered this decision to unlaunch Logwise, I worried that I would feel uncomfortably constrained---like "a wild bull [caught] in a net," to borrow a metaphor from [Isaiah](https://www.churchofjesuschrist.org/study/scriptures/ot/isa/51?lang=eng&id=p20#p20). But I haven't.
 
@@ -219,3 +224,5 @@ I have to say I agree.
 [^malleable]: These ideas are expanded and formalized by [the Malleable Systems Collective](https://malleable.systems), which catalogs and experiments with malleable software.
 
 [^zeigarnik]: This tendency of open loops to stick in the mind is called [the Zeigarnik effect](https://en.wikipedia.org/wiki/Zeigarnik_effect).
+
+[^mimetic-and-authentic]: It's worth noting that authentic desires are not necessarily non-mimetic. I can point to individuals who modeled my authentic desires for me just as I can point to models behind the inauthentic desires I mentioned earlier. The key is that while all or almost all desires are mimetic to some degree, not all desires are authentic, and it's the authentic ones that we want to focus on.
