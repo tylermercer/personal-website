@@ -3,6 +3,8 @@ title: Unlaunching
 description: Choosing focus through agentic quitting
 date: 2024-12-23 9:03:00.00
 featured: true
+overrideMetaTitle: 'Unlaunching: choosing focus through agentic quitting'
+overrideMetaDescription: Earlier this year I spent seven months building a web application called Logwise. But I'm unlaunching it.
 ---
 
 Earlier this year I spent seven months building a web application called [Logwise](https://logwise.tylermercer.net) in my spare time. It's an app for logging things: sleep quality, focus levels, health symptoms, or anything else you'd like to monitor over time and understand better. It works offline (via [Dexie](https://dexie.org/) and [Dexie Cloud](https://dexie.org/cloud/)) and allows you to easily change the schema of your logs over time without data loss (via [persistent data structures](https://en.wikipedia.org/wiki/Persistent_data_structure)).

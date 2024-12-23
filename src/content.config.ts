@@ -8,6 +8,8 @@ const posts = defineCollection({
     dropCaps: z.optional(z.boolean()),
     date: z.optional(z.date()), // no date = is draft
     featured: z.optional(z.boolean()),
+    overrideMetaTitle: z.optional(z.string()),
+    overrideMetaDescription: z.optional(z.string()),
   }),
 });
 const pages = defineCollection({

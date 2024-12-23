@@ -41,8 +41,8 @@ const ogImagePath = `/posts/${post.slug}`;
 ---
 
 <Layout
-  title={post.data.title}
-  description={post.data.description}
+  title={post.data.overrideMetaTitle ?? post.data.title}
+  description={post.data.overrideMetaDescription ?? post.data.description}
   ogImagePath={ogImagePath}
   category={category}
 >
