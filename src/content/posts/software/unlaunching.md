@@ -166,7 +166,7 @@ In this way, I'm using _higher-order agency_---decisions that affect my decision
 
 As I wrote in the last Innerhelm blog post before starting on Logwise, [persistence is an important part of being agentic](https://innerhelm.com/posts/persistence). But I've discovered that quitting can be agentic as well.
 
-Admittedly, writing is a uniquely focus-demanding activity. Writers throughout time [have taken extreme measures to eliminate distractions](https://www.newyorker.com/culture/annals-of-inquiry/what-kind-of-writer-is-chatgpt#:~:text=These%20mental%20demands%20may%20help%20to%20explain%20the%20eccentric%20habits%20of%20writers)[^writing-computer] and enable deep work, and the nature of writing is such that this narrowing-down pays significant dividends. Other areas of human endeavor, such as business or athleticism, may derive more value from juggling competing demands than writing does.
+Admittedly, writing is a uniquely focus-demanding activity. Writers throughout time [have taken extreme measures to eliminate distractions](https://www.newyorker.com/culture/annals-of-inquiry/what-kind-of-writer-is-chatgpt#:~:text=These%20mental%20demands%20may%20help%20to%20explain%20the%20eccentric%20habits%20of%20writers)[^writing-computer] and enable deep work, and the nature of writing is such that this narrowing-down pays significant dividends. Other areas of human endeavor, such as business or athleticism, may derive more value from juggling competing demands than writing does.[^russet]
 
 Furthermore, exploration---pulling multiple different levers---is still intensely valuable, especially early on. You can't confidently identify a high-output lever to focus on until you've tried a few, often in quick succession or concurrently. It's also good to explore adjacent levers over time, even after you've found a good lever; even an endeavor that has proved valuable can be improved upon. But, once you've learned a given activity is low-value, you will benefit from quitting that activity.
 
@@ -237,3 +237,5 @@ _Thanks to Dan Mercer and Kenneth Christensen for their feedback on this._
 [^zeigarnik]: This tendency of open loops to stick in the mind is called [the Zeigarnik effect](https://en.wikipedia.org/wiki/Zeigarnik_effect).
 
 [^mimetic-and-authentic]: It's worth noting that authentic desires are not necessarily non-mimetic. I can point to individuals who modeled my authentic desires for me just as I can point to models behind the inauthentic desires I mentioned earlier. The key is that while all or almost all desires are mimetic to some degree, not all desires are authentic, and it's the authentic ones that we want to focus on.
+
+[^russet]: This was pointed out in [a comment on Karlsson's essay](https://www.henrikkarlsson.xyz/p/multi-armed-bandit/comment/46550851).
