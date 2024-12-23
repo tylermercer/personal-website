@@ -191,9 +191,14 @@ I have to say I agree.
 
 <small>
 
-_Thanks to Dan Mercer and Kenneth Christensen for their feedback on this. This post was also published on [Innerhelm.com](https://innerhelm.com/posts/unlaunching)._
-
+_This post was also published on [Innerhelm.com](https://innerhelm.com/posts/unlaunching). **If this sort of post is interesting to you, consider [subscribing](https://innerhelm.com/#newsletter)!**_
 </small>
+
+<small>
+
+_Thanks to Dan Mercer and Kenneth Christensen for their feedback on this._
+</small>
+
 
 [^throwing-away]: I should note that I didn't delete the Todoist project with my roadmap for Logwise; I only archived it. I had a lot of knowledge and resources captured in my notes there, and, despite my minimalist approach to _physical_ possessions, I struggle to discard conceptual ones such as crystallized knowledge. But archiving the project serves to make it hard to pick the project up again---a form of desirable difficulty.
 
