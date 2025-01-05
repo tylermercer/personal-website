@@ -23,6 +23,16 @@ jobs:
         id: checkout_repo
         uses: actions/checkout@v4
 
+      - name: Cache assets
+        uses: actions/cache@v3
+        with:
+          path: |
+            assets-cache
+            node_modules/.astro
+          key: assets-${{ github.run_id }} # Save each run's cache
+          restore-keys: | # Restore most recent cache
+            assets-
+
       - name: Extract variables
         id: extract_vars
         run: | # branch_trunc is the branch truncated to 28 chars, which is the CF deploy preview subdomain length
