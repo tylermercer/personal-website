@@ -6,6 +6,7 @@ import remarkEmdash from './src/plugins/remark/emdash';
 import { jamComments } from "@jam-comments/astro/config";
 
 import { loadEnv } from "vite";
+import sitemap from '@astrojs/sitemap';
 const {
   JAM_COMMENTS_DOMAIN,
   JAM_COMMENTS_API_KEY,
@@ -33,6 +34,7 @@ export default defineConfig({
       apiKey: JAM_COMMENTS_API_KEY,
       environment: JAM_COMMENTS_ENVIRONMENT,
     }),
+    sitemap(),
   ],
   vite: {
     server: {
