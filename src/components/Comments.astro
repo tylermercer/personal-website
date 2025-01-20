@@ -1,12 +1,15 @@
 ---
 import JamComments from "@jam-comments/astro";
 ---
-<div class="jamcomments-container">
-    <h2 id="comments">Comments</h2>
-    <JamComments
-        tz="America/Denver"
-    />
-</div>
+{/* Removed until jamcomments is working again */}
+{false && (
+    <div class="jamcomments-container">
+        <h2 id="comments">Comments</h2>
+        <JamComments
+            tz="America/Denver"
+        />
+    </div>
+)}
 <style lang="scss" is:global>
     h2#comments:target {
         background-color: var(--color-primary-bg-static);
