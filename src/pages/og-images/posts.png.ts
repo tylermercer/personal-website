@@ -1,10 +1,15 @@
 import type { APIRoute } from "astro";
-import { renderImage } from "./_renderImage";
 import allPostsCategory from "../../content/_allPostsCategory";
+import renderer from "./_og-utils/renderer";
 
 export const GET: APIRoute = async () => {
-    return await renderImage({
-        ...allPostsCategory.data,
-        growTitleBox: true
+
+    return await renderer.renderOgImage({
+        options: {
+            props: {
+                ...allPostsCategory.data,
+                growTitleBox: true
+            }
+        }
     });
 }

@@ -43,9 +43,13 @@ export default defineConfig({
     plugins: [rawFonts(['.woff'])],
     ssr: {
       external: [
-        'markdown-it',
+        'astro/container',
+        'crypto',
+        'fs',
+        'path',
         'sharp',
-      ]
+        'esbuild',
+      ].flatMap(id => [id, `node:${id}`]),
     }
   },
 });

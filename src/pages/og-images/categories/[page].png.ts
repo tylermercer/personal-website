@@ -1,7 +1,7 @@
 import { getCollection, type CollectionEntry, getDataEntryById } from "astro:content";
 import type { APIRoute } from "astro";
 
-import { renderImage } from "../_renderImage";
+import renderer from "../_og-utils/renderer";
 
 export async function getStaticPaths() {
     const categories = await getCollection('categories');
@@ -14,8 +14,13 @@ export const GET: APIRoute = async ({ params }) => {
     const page = params.page;
 
     const entry = await getDataEntryById('categories', page!!) as CollectionEntry<'categories'>;
-    return await renderImage({
-        ...entry.data,
-        category: page
+
+    return await renderer.renderOgImage({
+        options: {
+            props: {
+                ...entry.data,
+                category: page
+            }
+        }
     });
 }
