@@ -1,7 +1,5 @@
-import { generateCacheKey, getCache, type IBufferCacheProvider } from "../cache/BufferCache";
+import { generateCacheKey, type IBufferCacheProvider } from "../cache/BufferCache";
 import sharp from "sharp";
-
-const cache = getCache("lqip-images", "./assets-cache/");
 
 export default class LqipRenderer {
     constructor(private readonly cache: IBufferCacheProvider) {}
