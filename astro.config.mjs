@@ -50,7 +50,7 @@ export default defineConfig({
         'sharp',
         'esbuild',
       ].flatMap(id => [id, `node:${id}`]),
-    }
+    },
   },
 });
 function rawFonts(ext) {
