@@ -22,7 +22,7 @@ function initializeFilenameToDirMap() {
 
     for (const file of rootFiles) {
         const [filename] = file.split('.');
-        addFilenameToDirMap(filename, ""); // Root files get an empty string for the directory
+        addFilenameToDirMap(filename!, ""); // Root files get an empty string for the directory
     }
 
     // Process subdirectories
@@ -38,7 +38,7 @@ function initializeFilenameToDirMap() {
 
         for (const file of files) {
             const [filename] = file.split('.');
-            addFilenameToDirMap(filename, dir); // Subdirectory files map to their directory name
+            addFilenameToDirMap(filename!, dir); // Subdirectory files map to their directory name
         }
     }
 }
@@ -47,7 +47,10 @@ function initializeFilenameToDirMap() {
 initializeFilenameToDirMap();
 
 export default function getBuildTimeImagePath({ src }: { src: string }, imageDir?: string | undefined): string {
-    const [filename, _, ext] = src.split('/').pop()!.split('?')[0].split('.');
+    const parts = src.split('/').pop()!.split('?')[0]!.split('.');
+
+    const filename = parts.at(0)!;
+    const ext = parts.at(-1)!;
 
     const dir = imageDir ?? filenameToDirMap.get(filename);
 
