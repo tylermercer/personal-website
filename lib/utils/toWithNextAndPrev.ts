@@ -1,8 +1,7 @@
-
 export type WithNextAndPrev<T> = {
     item: T,
-    next?: T,
-    prev?: T
+    next?: T | undefined,
+    prev?: T | undefined,
 }
 
 export default function toWithNextAndPrev<T>(items: T[], reverse: boolean = false): WithNextAndPrev<T>[] {
