@@ -9,7 +9,7 @@ export default function cleanPageUrl() {
     const params = url.searchParams;
     const oldParams = params.toString();
 
-    for (const param of params.keys()) {
+    for (const param of Array.from(params.keys())) {
         if (trackingPrefixes.some(prefix => param.startsWith(prefix))) {
             params.delete(param);
         }
