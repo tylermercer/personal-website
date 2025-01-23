@@ -63,7 +63,7 @@ export default class OgImageRenderer<T extends Partial<OgImageOptions>> {
                     Object.entries(props.images).map(
                         async ([key, value]) => [key, {
                             ...value,
-                            path: await this.assetToDataUrl(`${slug}-${value}`, value.path, value.dimensions)
+                            path: await this.assetToDataUrl(`${slug}-${key}`, value.path, value.dimensions)
                         }]
                     )
                 )
