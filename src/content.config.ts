@@ -19,6 +19,19 @@ const pages = defineCollection({
     description: z.string(),
   }),
 });
+const links = defineCollection({
+  type: 'content',
+  schema: z.object({
+    link: z.string().refine((val) => {
+      try {
+        new URL(val);
+        return true;
+      } catch (e) {
+        return false;
+      }
+    }),
+  }),
+})
 const categories = defineCollection({
   type: 'data',
   schema: z.object({
@@ -31,4 +44,5 @@ export const collections = {
   'posts': posts,
   'pages': pages,
   'categories': categories,
+  'links': links,
 };

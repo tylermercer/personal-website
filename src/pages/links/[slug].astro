@@ -1,0 +1,33 @@
+---
+import LinkCard from "@components/LinkCard.astro";
+import Layout from "@layouts/Base.astro";
+import formatPostDate from "@utils/formatPostDate";
+import getLinkDate from "@utils/getLinkDate";
+import { type CollectionEntry, getCollection } from "astro:content";
+import unMarkdown from "lib/utils/unMarkdown";
+
+export async function getStaticPaths() {
+    const links = await getCollection("links");
+    return links.map((entry) => ({
+        params: { slug: entry.slug },
+        props: { entry },
+    }));
+}
+
+export type Props = {
+    entry: CollectionEntry<"links">;
+};
+const { entry } = Astro.props;
+const { Content } = await entry.render();
+---
+
+<Layout
+    title={formatPostDate(getLinkDate(entry.slug))}
+    description={unMarkdown(entry.body)}
+    ogImagePath="/home"
+>
+    <main class="u-guttered">
+        <p><a href="/links/1">All links</a></p>
+        <LinkCard link={entry} />
+    </main>
+</Layout>

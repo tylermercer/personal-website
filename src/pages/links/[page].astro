@@ -1,0 +1,73 @@
+---
+import category from "@content/_allPostsCategory";
+import type { GetStaticPaths } from "astro";
+import { getCollection, type CollectionEntry } from "astro:content";
+
+import LinkCard from "@components/LinkCard.astro";
+import NextPrevLinks from "@components/NextPrevLinks.astro";
+import Layout from "@layouts/Page.astro";
+
+export type Props = {
+    page: {
+        data: CollectionEntry<"links">[];
+        url: {
+            next: string;
+            prev: string;
+        };
+    };
+};
+
+const { page } = Astro.props;
+
+export const getStaticPaths = (async ({ paginate }) => {
+    const links = await getCollection("links");
+    return paginate(links.sort((a, b) => a.slug > b.slug ? -1 : 1), { pageSize: 5 });
+}) satisfies GetStaticPaths;
+
+const nextPageUrl = page.url.next;
+const previousPageUrl = page.url.prev;
+const paginatedLinks = page.data;
+
+const previous = previousPageUrl
+    ? {
+          label: "← Newer",
+          path: previousPageUrl,
+      }
+    : undefined;
+const next = nextPageUrl
+    ? {
+          label: "Older →",
+          path: nextPageUrl,
+      }
+    : undefined;
+---
+
+<Layout
+    title={"Links"}
+    description={"Links that I find interesting"}
+    category={category}
+    ogImagePath={"/home"}
+>
+    <ul id="links" class="links-list">
+        {
+            paginatedLinks.map((l) => (
+                <li>
+                    <LinkCard link={l} />
+                </li>
+            ))
+        }
+    </ul>
+    <div id="next-prev-links">
+        <NextPrevLinks next={next} previous={previous} />
+    </div>
+</Layout>
+<style lang="scss">
+    .links-list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        & li {
+            margin-block: 2rem;
+        }
+    }
+</style>
