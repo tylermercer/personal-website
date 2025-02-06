@@ -1,0 +1,40 @@
+---
+import getLinkDate from "@utils/getLinkDate";
+import type { CollectionEntry } from "astro:content";
+import formatPostDate from "../utils/formatPostDate";
+
+export type Props = {
+    link: CollectionEntry<"links">;
+};
+
+const { link } = Astro.props;
+
+const { Content } = await link.render();
+const l = link;
+---
+
+<article class="link-card">
+    <p>
+        <a href={l.data.link}>{l.data.link}</a>
+    </p>
+    <Content />
+    <p class="date u-slub">
+        <a href={`/links/${l.slug}`}>
+            <time datetime={getLinkDate(l.slug).toISOString()}>
+                {formatPostDate(getLinkDate(l.slug))}
+            </time>
+        </a>
+    </p>
+</article>
+
+<style lang="scss">
+    .date a:any-link {
+        color: inherit;
+        text-decoration-color: var(--color-gray-9);
+    }
+    .link-card {
+        :global(p) {
+            margin-block: 0.5rem;
+        }
+    }
+</style>
