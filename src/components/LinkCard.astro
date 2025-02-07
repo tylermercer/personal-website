@@ -31,6 +31,9 @@ const permalink = `/links/${getLinkSlug(l)}`;
             <time datetime={getLinkDate(l.slug).toISOString()}>
                 {formatPostDate(getLinkDate(l.slug))}
             </time>
+        </a> &middot;{" "}
+        <a href={permalink + "#comments"}>
+            No comments
         </a>
     </p>
 </article>

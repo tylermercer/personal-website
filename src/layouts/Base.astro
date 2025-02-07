@@ -126,5 +126,16 @@ const description = unMarkdown(descriptionRaw);
 
             footnotesSection.appendChild(details);
         }
+
+        // Focus the comment box
+        if (window.location.hash === "#comments") {
+            requestAnimationFrame(() => {
+                (
+                    document.querySelector(
+                        "label.jc-CommentBox-label > textarea",
+                    ) as HTMLTextAreaElement | null
+                )?.focus();
+            });
+        }
     });
 </script>

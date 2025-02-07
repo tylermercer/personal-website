@@ -52,3 +52,9 @@ const { entry } = Astro.props;
         }
     }
 </style>
+
+<style lang="scss" is:global>
+    html:has(#comments:target) {
+        scroll-behavior: smooth;
+    }
+</style>
