@@ -38,12 +38,15 @@ const { entry } = Astro.props;
 <style lang="scss">
     .link-container {
         --u-guttered-content-width: 60rem;
+        --l-sidebar-width: 25rem;
         margin-top: 1rem;
-        position: relative;
     }
     .link-card {
         align-self: flex-start;
-        position: sticky;
-        top: 0;
+        // Magic number is gross but that's what you get combining media queries and Every Layout
+        @media (min-width: 1092px) {
+            position: sticky;
+            top: 2rem;
+        }
     }
 </style>
