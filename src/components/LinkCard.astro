@@ -2,6 +2,7 @@
 import getLinkDate from "@utils/getLinkDate";
 import type { CollectionEntry } from "astro:content";
 import formatPostDate from "../utils/formatPostDate";
+import getLinkSlug from "@utils/getLinkSlug";
 
 export type Props = {
     link: CollectionEntry<"links">;
@@ -22,7 +23,7 @@ const l = link;
     </hgroup>
     <Content />
     <p class="date u-slub">
-        <a href={`/links/${l.slug}`}>
+        <a href={`/links/${getLinkSlug(l)}`}>
             <time datetime={getLinkDate(l.slug).toISOString()}>
                 {formatPostDate(getLinkDate(l.slug))}
             </time>
