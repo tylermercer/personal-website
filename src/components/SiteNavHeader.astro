@@ -12,7 +12,7 @@ const { category } = Astro.props;
 const patternClass = category ? `u-pattern-${category.id}` : "";
 
 const isCurrent = (path: string) =>
-  trimTrailingSlash(Astro.url.pathname) === path ? "page" : undefined;
+  trimTrailingSlash(Astro.url.pathname).startsWith(path) ? "page" : undefined;
 ---
 
 <header class="site-nav-container u-guttered">
