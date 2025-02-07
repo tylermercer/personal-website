@@ -49,6 +49,7 @@ const description = unMarkdown(descriptionRaw);
         }
         <meta name="generator" content={Astro.generator} />
         {description && <meta name="description" content={description} />}
+        <link rel="canonical" href={Astro.url} />
         <link
             rel="alternate"
             type="application/rss+xml"
