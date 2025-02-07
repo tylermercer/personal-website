@@ -21,7 +21,7 @@ const { page } = Astro.props;
 
 export const getStaticPaths = (async ({ paginate }) => {
     const links = await getCollection("links");
-    return paginate(links.sort((a, b) => a.slug > b.slug ? -1 : 1), { pageSize: 5 });
+    return paginate(links.sort((a, b) => a.slug > b.slug ? -1 : 1), { pageSize: 100 });
 }) satisfies GetStaticPaths;
 
 const nextPageUrl = page.url.next;
