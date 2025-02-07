@@ -10,6 +10,7 @@
     "astro": "astro",
     "send-email:dev": "node ./newsletter/send-email.cjs",
     "send-email": "node ./newsletter/send-email.cjs --prod",
+    "fetch-links": "node ./scripts/fetch-links.js",
     "clean": "del-cli dist"
   },
   "dependencies": {
