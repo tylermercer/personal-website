@@ -10,6 +10,7 @@ import countWords from "@utils/countWords";
 import formatPostDate from "@utils/formatPostDate";
 import getPostDate from "@utils/getPostDate";
 import type { WithNextAndPrev } from "lib/utils/toWithNextAndPrev";
+import getCommentCount from "@utils/getCommentCount";
 
 export type Props = {
   post: WithNextAndPrev<CollectionEntry<"posts">>;
@@ -66,7 +67,8 @@ const ogImagePath = `/posts/${post.slug}`;
         )
       }
       <span> &mdash;</span>
-      {wordCount} words &mdash; {readingTime} min read
+      {wordCount} words &mdash; {readingTime} min read{" "}
+      <span> &mdash; <a href="#comments">{getCommentCount(Astro.url.pathname)} comments</a></span>
     </p>
     <div class:list={{ "article-content": true, "drop-caps": dropCaps }}>
       <slot />
