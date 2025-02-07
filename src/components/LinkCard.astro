@@ -6,24 +6,28 @@ import getLinkSlug from "@utils/getLinkSlug";
 
 export type Props = {
     link: CollectionEntry<"links">;
+    useH1?: boolean;
 };
 
-const { link } = Astro.props;
+const { link, useH1 = false } = Astro.props;
 
 const { Content } = await link.render();
 const l = link;
+const Tag = useH1 ? "h1" : "h2";
+
+const permalink = `/links/${getLinkSlug(l)}`;
 ---
 
 <article class="link-card">
     <hgroup>
         <p class="u-slub">{new URL(l.data.link).host}</p>
-        <h2>
-            <a href={l.data.link}>{l.data.title}</a>
-        </h2>
+        <Tag class="h2">
+            <a href={l.data.link} rel="noopener noreferrer">{l.data.title}</a>
+        </Tag>
     </hgroup>
     <Content />
     <p class="date u-slub">
-        <a href={`/links/${getLinkSlug(l)}`}>
+        <a href={permalink}>
             <time datetime={getLinkDate(l.slug).toISOString()}>
                 {formatPostDate(getLinkDate(l.slug))}
             </time>
@@ -44,7 +48,7 @@ const l = link;
             margin-block: 0.5rem;
         }
     }
-    h2 {
+    .h2 {
         margin-block: 0.8rem;
     }
 </style>
