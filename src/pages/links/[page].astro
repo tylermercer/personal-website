@@ -21,12 +21,17 @@ const { page } = Astro.props;
 
 export const getStaticPaths = (async ({ paginate }) => {
     const links = await getCollection("links");
-    return paginate(links.sort((a, b) => a.slug > b.slug ? -1 : 1), { pageSize: 100 });
+    return paginate(
+        links.sort((a, b) => (a.slug > b.slug ? -1 : 1)),
+        { pageSize: 100 },
+    );
 }) satisfies GetStaticPaths;
 
 const nextPageUrl = page.url.next;
 const previousPageUrl = page.url.prev;
 const paginatedLinks = page.data;
+
+const isFirstPage = !previousPageUrl;
 
 const previous = previousPageUrl
     ? {
@@ -43,11 +48,36 @@ const next = nextPageUrl
 ---
 
 <Layout
-    title={"Links"}
+    title={"Linkblog"}
     description={"Links that I find interesting"}
     category={category}
     ogImagePath={"/home"}
 >
+    {
+        isFirstPage && (
+            <p>
+                <details>
+                    <summary>What is this?</summary>
+                    <p>
+                        This is what is known among{" "}
+                        <a href="https://indieweb.org/">IndieWeb</a> writers as
+                        a
+                        <a href="https://en.wikipedia.org/wiki/Linklog"
+                        >linkblog</a>.
+                        It's a collection of links that I find interesting.
+                    </p>
+                    <p>
+                        Most of the links I share are of a technical nature, but
+                        I also occasionally share links relating to UI/UX design
+                        or behavioral science.
+                    </p>
+                    <p>
+                        <a href="/posts/software/linkblog">Learn more</a>
+                    </p>
+                </details>
+            </p>
+        )
+    }
     <ul id="links" class="links-list">
         {
             paginatedLinks.map((l) => (
