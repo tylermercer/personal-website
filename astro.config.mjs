@@ -29,11 +29,11 @@ export default defineConfig({
       }
     }),
     mdx(),
-    // jamComments({
-    //   domain: JAM_COMMENTS_DOMAIN,
-    //   apiKey: JAM_COMMENTS_API_KEY,
-    //   environment: JAM_COMMENTS_ENVIRONMENT,
-    // }),
+    jamComments({
+      domain: JAM_COMMENTS_DOMAIN,
+      apiKey: JAM_COMMENTS_API_KEY,
+      environment: JAM_COMMENTS_ENVIRONMENT,
+    }),
     sitemap(),
   ],
   vite: {
