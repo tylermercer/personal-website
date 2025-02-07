@@ -1,4 +1,5 @@
 ---
+import Comments from "@components/Comments.astro";
 import LinkCard from "@components/LinkCard.astro";
 import Layout from "@layouts/Base.astro";
 import formatPostDate from "@utils/formatPostDate";
@@ -31,7 +32,7 @@ const { entry } = Astro.props;
             <LinkCard link={entry} />
         </div>
         <div class="sidebar">
-            <h2>Comments</h2>
+            <Comments />
         </div>
     </div>
 </Layout>
