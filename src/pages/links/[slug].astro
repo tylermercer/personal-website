@@ -26,7 +26,9 @@ const { entry } = Astro.props;
     ogImagePath="/home"
 >
     <div class="l-sidebar u-guttered link-container">
-        <LinkCard link={entry} />
+        <div class="link-card">
+            <LinkCard link={entry} />
+        </div>
         <div class="sidebar">
             <h2>Comments</h2>
         </div>
@@ -37,5 +39,11 @@ const { entry } = Astro.props;
     .link-container {
         --u-guttered-content-width: 60rem;
         margin-top: 1rem;
+        position: relative;
+    }
+    .link-card {
+        align-self: flex-start;
+        position: sticky;
+        top: 0;
     }
 </style>
