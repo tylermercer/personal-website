@@ -22,6 +22,7 @@ const pages = defineCollection({
 const links = defineCollection({
   type: 'content',
   schema: z.object({
+    title: z.string(),
     link: z.string().refine((val) => {
       try {
         new URL(val);

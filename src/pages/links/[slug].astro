@@ -18,7 +18,6 @@ export type Props = {
     entry: CollectionEntry<"links">;
 };
 const { entry } = Astro.props;
-const { Content } = await entry.render();
 ---
 
 <Layout
@@ -26,8 +25,17 @@ const { Content } = await entry.render();
     description={unMarkdown(entry.body)}
     ogImagePath="/home"
 >
-    <main class="u-guttered">
-        <p><a href="/links/1">All links</a></p>
+    <div class="l-sidebar u-guttered link-container">
         <LinkCard link={entry} />
-    </main>
+        <div class="sidebar">
+            <h2>Comments</h2>
+        </div>
+    </div>
 </Layout>
+
+<style lang="scss">
+    .link-container {
+        --u-guttered-content-width: 60rem;
+        margin-top: 1rem;
+    }
+</style>

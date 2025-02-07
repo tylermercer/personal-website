@@ -14,9 +14,12 @@ const l = link;
 ---
 
 <article class="link-card">
-    <p>
-        <a href={l.data.link}>{l.data.link}</a>
-    </p>
+    <hgroup>
+        <p class="u-slub">{new URL(l.data.link).host}</p>
+        <h2>
+            <a href={l.data.link}>{l.data.title}</a>
+        </h2>
+    </hgroup>
     <Content />
     <p class="date u-slub">
         <a href={`/links/${l.slug}`}>
@@ -28,6 +31,9 @@ const l = link;
 </article>
 
 <style lang="scss">
+    .u-slub {
+        line-height: 1.4em;
+    }
     .date a:any-link {
         color: inherit;
         text-decoration-color: var(--color-gray-9);
@@ -36,5 +42,8 @@ const l = link;
         :global(p) {
             margin-block: 0.5rem;
         }
+    }
+    h2 {
+        margin-block: 0.8rem;
     }
 </style>
