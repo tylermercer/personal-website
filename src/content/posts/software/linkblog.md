@@ -1,6 +1,6 @@
 ---
-title: Adding a linkblog to this site
-description: I come across a lot of neat things—might as well share 'em here.
+title: Adding a Linkblog to This Site
+description: I come across a lot of neat things—might as well share them here.
 date: 2025-02-07 12:00:00
 ---
 
