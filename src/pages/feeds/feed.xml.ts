@@ -1,14 +1,15 @@
 import rss from '@astrojs/rss';
 
-import metadata from '../../content/_metadata';
+import metadata from '@content/_metadata';
+import combineDescriptionItems from '@utils/combineDescriptionItems';
+import filterOutDraftsIfProduction from "@utils/filterOutDraftsIfProduction";
+import getPostDate from "@utils/getPostDate";
+import renderMarkdown from "@utils/renderMarkdown";
+import sortByDate from "@utils/sortByDate";
+import type { APIRoute } from 'astro';
 import { getCollection } from 'astro:content';
-import combineDescriptionItems from '../../utils/combineDescriptionItems';
-import filterOutDraftsIfProduction from "../../utils/filterOutDraftsIfProduction";
-import getPostDate from "../../utils/getPostDate";
-import renderMarkdown from "../../utils/renderMarkdown";
-import sortByDate from "../../utils/sortByDate";
 
-export async function GET(context) {
+export const GET: APIRoute = async (context) => {
     const blog = sortByDate(filterOutDraftsIfProduction(await getCollection('posts')));
     return rss({
         title: metadata.title,

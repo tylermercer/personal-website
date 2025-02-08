@@ -1,12 +1,12 @@
-import metadata from '../../content/_metadata';
+import metadata from '@content/_metadata';
 import { getCollection } from 'astro:content';
-import formatDateIso from '../../utils/formatDateIso';
-import getPostDate from "../../utils/getPostDate";
-import sortByDate from "../../utils/sortByDate";
-import filterOutDraftsIfProduction from "../../utils/filterOutDraftsIfProduction";
-import getCategory from "../../utils/getCategory";
-import renderMarkdown from "../../utils/renderMarkdown";
-import combineDescriptionItems from '../../utils/combineDescriptionItems';
+import formatDateIso from '@utils/formatDateIso';
+import getPostDate from "@utils/getPostDate";
+import sortByDate from "@utils/sortByDate";
+import filterOutDraftsIfProduction from "@utils/filterOutDraftsIfProduction";
+import getCategory from "@utils/getCategory";
+import renderMarkdown from "@utils/renderMarkdown";
+import combineDescriptionItems from '@utils/combineDescriptionItems';
 import type { APIRoute } from 'astro';
 
 export const GET: APIRoute = async (context) => {
