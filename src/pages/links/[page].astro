@@ -55,27 +55,26 @@ const next = nextPageUrl
 >
     {
         isFirstPage && (
-            <p>
-                <details>
-                    <summary>What is this?</summary>
-                    <p>
-                        This is what is known among{" "}
-                        <a href="https://indieweb.org/">IndieWeb</a> writers as
-                        a
-                        <a href="https://en.wikipedia.org/wiki/Linklog"
-                        >linkblog</a>.
-                        It's a collection of links that I find interesting.
-                    </p>
-                    <p>
-                        Most of the links I share are of a technical nature, but
-                        I also occasionally share links relating to UI/UX design
-                        or behavioral science.
-                    </p>
-                    <p>
-                        <a href="/posts/software/linkblog">Learn more</a>
-                    </p>
-                </details>
-            </p>
+            <details>
+                <summary>What is this?</summary>
+                <p>
+                    This is what is known among{" "}
+                    <a href="https://indieweb.org/">IndieWeb</a> writers as a
+                    <a href="https://en.wikipedia.org/wiki/Linklog">linkblog</a>
+                    . It's a collection of links that I find interesting.
+                </p>
+                <p>
+                    Most of the links I share are of a technical nature, but I
+                    also occasionally share links relating to UI/UX design or
+                    behavioral science.
+                </p>
+                <p>
+                    <a href="/posts/software/linkblog">Learn more here</a>. You
+                    can also subscribe to this feed via{" "}
+                    <a href="/feeds/links.xml">RSS</a> or
+                    <a href="/feeds/links.json">JSON</a>.
+                </p>
+            </details>
         )
     }
     <ul id="links" class="links-list">
