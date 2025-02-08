@@ -1,11 +1,11 @@
 ---
-import type { CollectionEntry } from "astro:content";
-import "@fontsource-variable/figtree";
+import SiteFooter from "@components/SiteFooter.astro";
+import SiteNavHeader from "@components/SiteNavHeader.astro";
+import metadata from "@content/_metadata";
 import "@fontsource-variable/faustina";
-import "../styles/_style.scss";
-import SiteFooter from "../components/SiteFooter.astro";
-import SiteNavHeader from "../components/SiteNavHeader.astro";
-import metadata from "../content/_metadata";
+import "@fontsource-variable/figtree";
+import "@styles/_style.scss";
+import type { CollectionEntry } from "astro:content";
 import unMarkdown from "lib/utils/unMarkdown";
 
 export type Props = {
@@ -32,6 +32,8 @@ const titleFull =
 const ogImagePath = `/og-images${ogImagePathRaw}.png`;
 
 const description = unMarkdown(descriptionRaw);
+
+const isLinksPage = Astro.url.pathname.startsWith("/links");
 ---
 
 <!doctype html>
@@ -50,18 +52,39 @@ const description = unMarkdown(descriptionRaw);
         <meta name="generator" content={Astro.generator} />
         {description && <meta name="description" content={description} />}
         <link rel="canonical" href={Astro.url} />
-        <link
-            rel="alternate"
-            type="application/rss+xml"
-            title={defaultTitle}
-            href={`${Astro.site}feeds/feed.xml`}
-        />
-        <link
-            rel="alternate"
-            type="application/json"
-            title={defaultTitle}
-            href={`${Astro.site}feeds/feed.json`}
-        />
+        {
+            isLinksPage ? (
+                <>
+                    <link
+                        rel="alternate"
+                        type="application/rss+xml"
+                        title={"Tyler Mercer - Links"}
+                        href={`${Astro.site}feeds/links.xml`}
+                    />
+                    <link
+                        rel="alternate"
+                        type="application/json"
+                        title={"Tyler Mercer - Links"}
+                        href={`${Astro.site}feeds/links.json`}
+                    />
+                </>
+            ) : (
+                <>
+                    <link
+                        rel="alternate"
+                        type="application/rss+xml"
+                        title={defaultTitle}
+                        href={`${Astro.site}feeds/feed.xml`}
+                    />
+                    <link
+                        rel="alternate"
+                        type="application/json"
+                        title={defaultTitle}
+                        href={`${Astro.site}feeds/feed.json`}
+                    />
+                </>
+            )
+        }
         <title>{titleFull}</title>
         <!-- Icons -->
         <link
