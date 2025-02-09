@@ -406,8 +406,9 @@ himself or God's promises, but he instead chose to say, "I know God will
 eventually redeem the Lamanites, but I don't know when or how, and that's ok."
 
 Even after he had lost his family, his livestock, and his property, Job
-faithfully declared, "Though [God] slay me, yet will I trust in
-Him."[^job-13:35] submissive faith is found in Jesus
+faithfully declared, "Though [God] slay me, yet will I trust in Him."[^job-13:35] 
+
+But the most significant example of meek, submissive faith is found in Jesus
 Christ Himself. At the apex of His mortal ministry, when He was about to suffer
 the sins, pain, sickness, and sorrows of all
 humankind,[^alma-7:11-12]
