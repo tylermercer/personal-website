@@ -32,7 +32,8 @@ Different folks implement this in different ways:
 I've decided to add a linkblog to this site as well. Mine aims to incorporate
 the parts I like about each of the approaches I've seen others use, by having a
 dedicated area on the site for links, without going so far as to put it on its
-own subdomain. You can [check it out here](/links/1).
+own subdomain. You can [check it out here](/links/1). (**Update:** I've also
+created [RSS](/feeds/links.xml) and [JSON](/feeds/links.json) feeds for it.)
 
 I opted for the separate-feeds approach because these two feeds will be _vastly_
 different in terms of publish frequency: I actually crosspost my links from a
