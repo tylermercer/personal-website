@@ -39,7 +39,7 @@ different in terms of publish frequency: I actually crosspost my links from a
 few channels on a private chat server I use with my family, where I often share
 things with my technically-minded siblings [Dan](https://danmercer.net/),
 [E.J.](https://mercer.dev), and
-[Russsell](https://www.linkedin.com/in/russell-mercer/).
+[Russell](https://www.linkedin.com/in/russell-mercer/).
 
 Most of the links I share are of a technical nature, but I'll also occasionally
 share links relating to UI/UX design or behavioral science.
