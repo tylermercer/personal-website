@@ -8,8 +8,8 @@
     "build": "astro build",
     "preview": "wrangler pages dev ./dist --port 4321",
     "astro": "astro",
-    "send-email:dev": "node ./newsletter/send-email.cjs",
-    "send-email": "node ./newsletter/send-email.cjs --prod",
+    "create-email:dev": "node ./newsletter/create-email.cjs",
+    "create-email": "node ./newsletter/create-email.cjs --prod",
     "clean": "del-cli dist"
   },
   "dependencies": {
