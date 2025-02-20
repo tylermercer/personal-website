@@ -1,21 +1,29 @@
 ---
-import Layout from '../layouts/Page.astro';
+import Layout from "@layouts/Page.astro";
 import { type CollectionEntry, getCollection } from "astro:content";
 
 export async function getStaticPaths() {
-  const pages = await getCollection('pages');
-  return pages.map(entry => ({
-    params: { page: entry.slug }, props: { entry },
+  const pages = await getCollection("pages");
+  return pages.map((entry) => ({
+    params: { page: entry.slug },
+    props: { entry },
   }));
 }
 
 export type Props = {
-    entry: CollectionEntry<'pages'>;
-}
+  entry: CollectionEntry<"pages">;
+};
 const { entry } = Astro.props;
 const ogImagePath = `/pages/${entry.slug}`;
 const { Content } = await entry.render();
 ---
-<Layout title={entry.data.title} description={entry.data.description} ogImagePath={ogImagePath}>
+
+<Layout
+  title={entry.data.title}
+  description={entry.data.description}
+  ogImagePath={ogImagePath}
+>
+  <div class="u-markdown-float-leading-image">
     <Content />
+  </div>
 </Layout>

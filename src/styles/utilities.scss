@@ -109,3 +109,13 @@ $svg-color-dark: encodeColor($color-primary-fg);
         }
     }
 }
+
+.u-markdown-float-leading-image>p:first-child>img {
+    float: inline-end;
+    inline-size: min(60%, 300px);
+    block-size: auto;
+    margin-inline-start: var(1rem);
+    margin-block-end: 0.25lh;
+    aspect-ratio: 1;
+    object-fit: cover;
+}
