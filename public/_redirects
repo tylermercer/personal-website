@@ -12,9 +12,13 @@
 
 # Category redirects
 /posts/ /posts/1 301
+/posts /posts/1 301
 /posts/faith/ /posts/faith/1 301
+/posts/faith /posts/faith/1 301
 /posts/software/ /posts/software/1 301
+/posts/software /posts/software/1 301
 /links/ /links/1 301
+/links /links/1 301
 
 # Post redirects
 /posts/faith/explicability-agency-and-forgiveness/ /posts/faith/explicability-does-not-negate-agency/ 301
