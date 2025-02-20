@@ -68,7 +68,7 @@ Some of my core beliefs:
   principles. This light can be seen througout the world, in every culture, and
   across history.
 
-I hope that [my writings about my faith](/posts/faith) can capture the sense of
+I hope that [my writings about my faith](/posts/faith/) can capture the sense of
 wonder that I feel about those ideas and how I see them in the world. I also
 hope that what I write can be accessible to anyone, regardless of what they
 believe. God's light can be found in all of us.
