@@ -3,7 +3,7 @@ import getLinkDate from "@utils/getLinkDate";
 import type { CollectionEntry } from "astro:content";
 import formatPostDate from "../utils/formatPostDate";
 import getLinkSlug from "@utils/getLinkSlug";
-import getCommentCount from "@utils/getCommentCount";
+import getCommentCount from "lib/utils/getJamCommentsCommentCount";
 
 export type Props = {
     link: CollectionEntry<"links">;
