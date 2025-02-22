@@ -8,7 +8,7 @@ export const GET: APIRoute = async () => {
         options: {
             props: {
                 ...allPostsCategory.data,
-                growTitleBox: true
+                cacheBust: 1,
             }
         }
     });

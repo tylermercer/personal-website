@@ -12,8 +12,8 @@ export const GET: APIRoute = async () => {
             props: {
                 ...metadata,
                 description, 
-                growTitleBox: true,
                 hideDateline: true,
+                cacheBust: 1,
             }
         }
     });
