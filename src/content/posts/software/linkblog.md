@@ -29,10 +29,10 @@ Different folks implement this in different ways:
   [digital garden](https://maggieappleton.com/garden-history) vibes, where
   thoughts begin as seeds and grow into more detailed things.
 
-I've decided to add a linkblog to this site as well. Mine aims to incorporate
-the parts I like about each of the approaches I've seen others use, by having a
+I’ve decided to add a linkblog to this site as well. Mine aims to incorporate
+the parts I like about each of the approaches I’ve seen others use, by having a
 dedicated area on the site for links, without going so far as to put it on its
-own subdomain. You can [check it out here](/links/1). (**Update:** I've also
+own subdomain. You can [check it out here](/links/1). (**Update:** I’ve also
 created [RSS](/feeds/links.xml) and [JSON](/feeds/links.json) feeds for it.)
 
 I opted for the separate-feeds approach because these two feeds will be _vastly_
@@ -42,7 +42,7 @@ things with my technically-minded siblings [Dan](https://danmercer.net/),
 [E.J.](https://mercer.dev), and
 [Russell](https://www.linkedin.com/in/russell-mercer/).
 
-Most of the links I share are of a technical nature, but I'll also occasionally
+Most of the links I share are of a technical nature, but I’ll also occasionally
 share links relating to UI/UX design or behavioral science.
 
-(Here's hoping this can help me publish more longer-form posts as well. 😅)
+(Here’s hoping this can help me publish more longer-form posts as well. 😅)

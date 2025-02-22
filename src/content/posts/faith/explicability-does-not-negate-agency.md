@@ -38,18 +38,18 @@ in the Book of Mormon. In it, the prophet Lehi teaches his son Jacob about why
 [the Fall of Adam](https://www.churchofjesuschrist.org/study/manual/gospel-principles/chapter-6-the-fall-of-adam-and-eve)
 and
 [the Atonement of Jesus Christ](https://www.churchofjesuschrist.org/study/manual/gospel-principles/chapter-12-the-atonement)
-were both necessary parts of God's plan.
+were both necessary parts of God’s plan.
 
 As I reread this chapter recently, I noticed that
 [verse 16](https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/2?id=p16#p16)
-suggests that explicability _doesn't_ eliminate agency. Instead, Lehi says that
+suggests that explicability _doesn’t_ eliminate agency. Instead, Lehi says that
 explicability is a _necessary part_ of agency:
 
 > 16 Wherefore, the Lord God gave unto man that he should act for himself.
 > Wherefore, **man could not act for himself save it should be that he was
 > enticed by the one or the other.**
 
-People don't do things that don't have explanations. And yet, at the same time,
+People don’t do things that don’t have explanations. And yet, at the same time,
 there may be multiple explicable decisions in a given situation. For example,
 when I feel hurt by another person, I can either respond with hurtfulness in
 kind, or I can choose to acknowledge my hurt without retaliating. Either of
@@ -57,12 +57,12 @@ those choices is explicable---after making either choice, I could point to
 something in my past that led to that choice. But that does not eliminate my
 ability and responsibility to choose.
 
-I'm reminded of a quote by Victor Frankl: "Between stimulus and response there
+I’m reminded of a quote by Victor Frankl: "Between stimulus and response there
 is a space. In that space lies our power to choose our response. In our response
 lies our growth and our freedom." Each potential response is still capable of
 being explained by the given stimulus, but we choose our response nonetheless.
 
-This connects to several other things I've been considering lately as well; I
+This connects to several other things I’ve been considering lately as well; I
 will write my thoughts about those things in future posts.
 
 [^josh-24:15]: [Josh. 24:15](https://www.churchofjesuschrist.org/study/scriptures/ot/josh/24?lang=eng&id=p15#p15)

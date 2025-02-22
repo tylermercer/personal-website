@@ -50,7 +50,7 @@ an inability to exert more faith.[^faith-and-hope]
 ## Faith to Accept Uncertainty
 
 Around the time we were grappling with these concerns, my wife and I read
-["Accepting the Lord's Will and Timing"](https://www.churchofjesuschrist.org/study/liahona/2016/08/accepting-the-lords-will-and-timing?lang=eng),
+["Accepting the Lord’s Will and Timing"](https://www.churchofjesuschrist.org/study/liahona/2016/08/accepting-the-lords-will-and-timing?lang=eng),
 an article by Elder David A. Bednar.[^bednar-article] This article started a journey of discovery for us through which we learned
 that we had been thinking about faith the wrong way.
 
@@ -95,7 +95,7 @@ came to the section on faith. In it, Brown quotes theologian Richard Rohr:
 That was the kind of faith John and Heather had had to exercise. Faith to
 accept, acknowledge, and perhaps even embrace uncertainty.
 
-As I've pondered and studied that idea since then, I've encountered it
+As I’ve pondered and studied that idea since then, I’ve encountered it
 everywhere, such as in
 [Hebrews 11:13-16](https://www.churchofjesuschrist.org/study/scriptures/nt/heb/11?lang=eng&id=p13-p16#p13):
 
@@ -143,7 +143,7 @@ _also_ did all of the things mentioned in that verse:
 
 However, Enos specifically says he and his fellow missionaries were
 _unsuccessful_ in their attempts to teach the then-unbelieving
-Lamanites.[^enos-but-our-labors-were-vain] The promise in Alma 26 wasn't fulfilled for Enos
+Lamanites.[^enos-but-our-labors-were-vain] The promise in Alma 26 wasn’t fulfilled for Enos
 until 330 years later (which, ironically, was the occasion for the great teacher
 Ammon uttering the words previously quoted from Alma 26). Clearly, there is
 uncertainty about how and when this promise is fulfilled.
@@ -159,10 +159,10 @@ involves both certainty and uncertainty. This can be seen in
 > which are true.
 
 There must be some true idea in which we believe in order for us to have faith.
-But that's exactly where rejecting uncertainty undermines our faith: rejecting
+But that’s exactly where rejecting uncertainty undermines our faith: rejecting
 uncertainty leads us to hold _false_ beliefs, like "if I do the things in Alma
-26:22 then I _will_ baptize people on my mission." I learned that you can't have
-effectual faith by believing something that's false.
+26:22 then I _will_ baptize people on my mission." I learned that you can’t have
+effectual faith by believing something that’s false.
 
 To see why false certainty is a hindrance, I found it helpful to examine
 knowledge, faith, and false certainty using the _justified true belief_ (JTB)
@@ -226,7 +226,7 @@ _uncertain_ and not seeking further light:
 > And in this way, can an overemphasis on uncertainty ultimately trip us up?
 
 These are thought provoking questions. I think they are especially relevant to
-uncertainty that does not pertain to the fulfillment of God's promises in the
+uncertainty that does not pertain to the fulfillment of God’s promises in the
 future. For example, many people face uncertainties about how to harmonize or
 reconcile certain aspects of religion and science or history, and some choose to
 put these uncertainties on a metaphorical "shelf" for later resolution. While
@@ -246,7 +246,7 @@ quote
 
 ## When Uncertainty is Still Valuable
 
-However, when it comes to how things will happen in the future, I've come to
+However, when it comes to how things will happen in the future, I’ve come to
 believe that the Lord often reveals additional knowledge to us by allowing us to
 simply witness His will as events proceed, rather than revealing what will
 happen in detail to us beforehand. Our desiring that the future be revealed to
@@ -297,9 +297,9 @@ perseverance. Acknowledging what we do not know, and cultivating a mindset of
 openness, can mitigate these negative self-limiting effects.
 
 The self-restricting nature of false certainty, over time, can cause spiritual
-stagnation and complacency. We may think we've "already heard it all" or that we
+stagnation and complacency. We may think we’ve "already heard it all" or that we
 know all that we need to about the gospel. When taken to an extreme, it can lead
-us to reject God's word and His prophets. The scriptures contain many examples
+us to reject God’s word and His prophets. The scriptures contain many examples
 of this: from the self-assured Pharisees, mentioned previously; to the Nephites
 in the time preceding Jesus' visit to the Americas, who relied on their own
 wisdom to conclude that "it is not reasonable that such a being as Christ shall
@@ -316,7 +316,7 @@ this:[^2-nephi-28:28]
 > of God! For behold, he that is built upon the rock receiveth it with gladness;
 > and he that is built upon a sandy foundation trembleth lest he shall fall.
 
-It's counterintuitive, but false certainty's "sandy" nature means that it's only
+It’s counterintuitive, but false certainty’s "sandy" nature means that it’s only
 through _acknowledging uncertainty_ that we can dig deep enough to reach the
 firm, bedrock foundation of Jesus Christ and His
 gospel.[^helaman-5:12]
@@ -359,7 +359,7 @@ Redeemer and is distinguished by righteous responsiveness, willing
 submissiveness, and strong
 self-restraint."[^bednar-meekness]
 Each of these characteristics supports our effectual faith, but I think Elder
-Uchtdorf's point is that meekness is not just a "nice-to-have" when it comes to
+Uchtdorf’s point is that meekness is not just a "nice-to-have" when it comes to
 faith. The ancient prophet Mormon seemed to
 agree:[^moroni-7:42-43]
 
@@ -369,7 +369,7 @@ agree:[^moroni-7:42-43]
 > 43 If [he is not], his faith and hope is vain, for none is acceptable before
 > God, save the meek and lowly in heart;
 
-"Cannot" is more than just "likely won't." Meekness is a necessary part of
+"Cannot" is more than just "likely won’t." Meekness is a necessary part of
 faith. I believe this has more to do with the inherent nature of faith than with
 God being particular about how we exercise it. Certainly, as the apostle James
 wrote, "God resisteth the
@@ -377,7 +377,7 @@ proud,"[^james-4:6]
 but, perhaps more significantly, _the proud resist God_. When we seek to hold
 firmly to something that is not true, in essence demanding that it be true, we
 unwittingly fall into pride. Faith, on the other hand, is the meek submission of
-our will and mind (wherein we lack justification) to God's will and mind (from
+our will and mind (wherein we lack justification) to God’s will and mind (from
 which we learn truth, thus forming the _unjustified true belief_ discussed
 earlier). In the words of Jacob:[^jacob-4:10]
 
@@ -397,13 +397,13 @@ replied "I know that he loveth his children; nevertheless, I do not know the
 meaning of all
 things."[^1-nephi-11:17]
 He acknowledged what he did not know (the condescension of God) while holding to
-what _had_ been revealed to him (God's love for His children).
+what _had_ been revealed to him (God’s love for His children).
 
 Faith to accept uncertainty enabled Enos to keep going even when he did not
 succeed in preaching the gospel to the Lamanites---when God had directly
 promised him that the Lamanites would receive the gospel. He could have doubted
-himself or God's promises, but he instead chose to say, "I know God will
-eventually redeem the Lamanites, but I don't know when or how, and that's ok."
+himself or God’s promises, but he instead chose to say, "I know God will
+eventually redeem the Lamanites, but I don’t know when or how, and that’s ok."
 
 Even after he had lost his family, his livestock, and his property, Job
 faithfully declared, "Though [God] slay me, yet will I trust in Him."[^job-13:35] 
@@ -412,7 +412,7 @@ But the most significant example of meek, submissive faith is found in Jesus
 Christ Himself. At the apex of His mortal ministry, when He was about to suffer
 the sins, pain, sickness, and sorrows of all
 humankind,[^alma-7:11-12]
-He deferred humbly to His Father's will and
+He deferred humbly to His Father’s will and
 knowledge:[^matt-26:39-luke-22:42]
 
 > O my Father, if it be possible, let this cup pass from me: nevertheless not as
@@ -428,16 +428,16 @@ The exact text in each case differs slightly from this form, but we can apply
 this pattern in our own lives:
 
 * Someone who seeks to be married but has not received that blessing yet might
-  say, "I don't know when or how I will have the opportunity to marry, but I
+  say, "I don’t know when or how I will have the opportunity to marry, but I
   know God has promised that 'no blessings will be withheld from His faithful
   Saints.'"[^celestial-marriage]
-* Someone who struggles with the Church's former policy of not conferring the
-  priesthood upon Black members might say, "I don't know why the Priesthood was
+* Someone who struggles with the Church’s former policy of not conferring the
+  priesthood upon Black members might say, "I don’t know why the Priesthood was
   not given to Blacks for a time in this dispensation, but I know that God
   'denieth none that come unto him, black and white, bond and free, male and
   female.'"[^2-nephi-26:33]
-* Someone in John and Heather's situation, discussed earlier---facing uncertain
-  health outcomes and possibly even death---might faithfully declare, "I don't
+* Someone in John and Heather’s situation, discussed earlier---facing uncertain
+  health outcomes and possibly even death---might faithfully declare, "I don’t
   know whether I will be healed or not, but I know that 'all things have been
   done in the wisdom of Him who knoweth all things' and that 'there shall be a
   resurrection of the dead, both of the just and
@@ -445,7 +445,7 @@ this pattern in our own lives:
 
 Importantly, the second clause does not _negate_ the first clause. The unknown
 thing is still unknown. Rather, meekly recognizing what we do know _and_ what we
-don't know allows us to move forward with faith in Christ. We move forward _even
+don’t know allows us to move forward with faith in Christ. We move forward _even
 though_ there are unknowns. This makes our faith much more soul-stretching than
 moving forward because the unknowns have been resolved.
 
@@ -464,7 +464,7 @@ as children were born in our church congregation.
 
 Shortly after we learned my wife was pregnant, I had a distinct impression. I
 was pondering what we had learned, and I realized that the "overcoming" of our
-trial hadn't happened through receiving the blessing we had sought. It had come
+trial hadn’t happened through receiving the blessing we had sought. It had come
 earlier, through the Lord gently instructing us in what it really means to have
 faith in Him. We overcame the difficulty of infertility _as soon as_ we chose to
 have meek, uncertainty-acknowledging faith in Christ. Our worry and concerns
@@ -489,13 +489,13 @@ outcome.
 
 Fortunately---and _so_ gratefully!---things did turn out okay. Our baby
 continued developing and is growing healthily as I write this. We have since
-learned that she's a girl, and feel so much joyful anticipation and so much
-gratitude for the Lord's hand in our lives and her life in this way. However,
-we're also grateful for the powerful truths we have learned, and for the
+learned that she’s a girl, and feel so much joyful anticipation and so much
+gratitude for the Lord’s hand in our lives and her life in this way. However,
+we’re also grateful for the powerful truths we have learned, and for the
 "furnace of
 affliction"[^isaiah-48:10]
-in which our faith was refined. We aren't perfect at avoiding false certainty,
-but we have learned to rely more meekly upon God's grace and mercy, trusting in
+in which our faith was refined. We aren’t perfect at avoiding false certainty,
+but we have learned to rely more meekly upon God’s grace and mercy, trusting in
 His timing and choosing to acknowledge what we do not know.
 
 [^patriarchal-blessings]: A
@@ -503,8 +503,8 @@ His timing and choosing to acknowledge what we do not know.
 is a blessing, or inspired declaration, given to each worthy member of the
 Church of Jesus Christ of Latter-day Saints, by the authority of God (called the
 priesthood). A patriarchal blessing typically includes statements about a
-person's future spiritual experiences, as well as providing insight into the
-person's spiritual gifts (attributes such as faith or wisdom, given to a person
+person’s future spiritual experiences, as well as providing insight into the
+person’s spiritual gifts (attributes such as faith or wisdom, given to a person
 to benefit others) and declaring their lineage among the descendants of one of
 the twelve sons of the biblical Israel.
 
@@ -557,7 +557,7 @@ and
 [^enos-but-our-labors-were-vain]: [Verse 20](https://www.churchofjesuschrist.org/study/scriptures/bofm/enos/1?lang=eng&id=p20#p20):
 "But our labors were vain"
 
-[^ellenhorn]: [_How We Change (And Ten Reasons Why We Don't)_](https://www.harpercollins.com/products/how-we-change-ross-ellenhorn)
+[^ellenhorn]: [_How We Change (And Ten Reasons Why We Don’t)_](https://www.harpercollins.com/products/how-we-change-ross-ellenhorn)
 
 [^james-1:5]: [James 1:5](https://www.churchofjesuschrist.org/study/scriptures/nt/james/1?lang=eng&id=p5#p5)
 

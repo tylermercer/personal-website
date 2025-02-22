@@ -71,7 +71,7 @@ themselves and each
 other.^[See [Moses 7:28-37](https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/7?lang=eng&id=p28-p37#p28).
 See also _The God Who Weeps_ by Terryl and Fiona Givens. Quoting from that book:
 "It is not their wickedness, but their 'misery,' not their disobedience, but
-their 'suffering,' that elicits the God of Heaven's tears."] God, a perfect
+their 'suffering,' that elicits the God of Heaven’s tears."] God, a perfect
 being, was willing to experience emotional pain---vulnerability---because of His
 love for His children.
 

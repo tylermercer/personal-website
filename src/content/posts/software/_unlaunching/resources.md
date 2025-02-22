@@ -10,13 +10,13 @@
 
 Me ([2024-08-01](obsidian://open?vault=personal-writing&file=Spiritual%20Notes%2FJournal%2F2024-08-01))
 
-> I've been thinking exclusively about my app in the mornings, and while the progress I've made on it has been satisfying, it doesn't feed my soul.
+> I’ve been thinking exclusively about my app in the mornings, and while the progress I’ve made on it has been satisfying, it doesn’t feed my soul.
 > 
-> I need to write. Specifically, I need to write about eternal truths in ways that change how I think, how I see the world, and who I am. I've realized that that's what writing---good, thorough writing---does for me. An example is my essay ["Certainty and Uncertainty as Elements of Faith"](<https://tylermercer.net/posts/faith/certainty-and-uncertainty-as-elements-of-faith/>), which I published on my personal website last September. The ideas and connections that I formed as I thought through and refined that essay have changed how I approach the concepts of faith, uncertainty, and humility. [*Innerhelm*](<https://innerhelm.com/>), as a project, has had similar effects, but I've stopped writing for it, and as such have stopped reaping the intellectual and spiritual benefits.
+> I need to write. Specifically, I need to write about eternal truths in ways that change how I think, how I see the world, and who I am. I’ve realized that that’s what writing---good, thorough writing---does for me. An example is my essay ["Certainty and Uncertainty as Elements of Faith"](<https://tylermercer.net/posts/faith/certainty-and-uncertainty-as-elements-of-faith/>), which I published on my personal website last September. The ideas and connections that I formed as I thought through and refined that essay have changed how I approach the concepts of faith, uncertainty, and humility. [*Innerhelm*](<https://innerhelm.com/>), as a project, has had similar effects, but I’ve stopped writing for it, and as such have stopped reaping the intellectual and spiritual benefits.
 > 
-> Building something cool, useful, and challenging in Logwise is satisfying, but not in the right ways. It doesn't lead me to discovering new tools with which I can interact with the world, and learning and growing in truth and understanding.
+> Building something cool, useful, and challenging in Logwise is satisfying, but not in the right ways. It doesn’t lead me to discovering new tools with which I can interact with the world, and learning and growing in truth and understanding.
 > 
-> I've gotta start writing again---the kind of writing that refines my thinking.
+> I’ve gotta start writing again---the kind of writing that refines my thinking.
 
 Kohn ([The Downside of “Grit” (Commentary)](https://www.alfiekohn.org/article/downside-grit/)]):
 
@@ -30,7 +30,7 @@ Kohn ([The Downside of “Grit” (Commentary)](https://www.alfiekohn.org/articl
 
 > Even the achievement claims seem less persuasive when you look closely.  Are more A’s given to students who report that they put off doing what they enjoy until they finish their homework (as one study found)?  Sure. In other words, those who do what they’ve been told,  regardless of whether it’s satisfying or sensible, are rewarded by those who told them to do it. \[Maybe tie in _Wanting_ here. I was "told" what to do by the models I emulated.]
 
-> \[Duckworth's] value judgment, in other words, is that children should spend their time trying to improve at one thing rather than exploring, and becoming reasonably competent at, several things.  But for anyone who favors breadth and variety in life, no reason has been offered to prefer a life of specialization. \[Karlsson's approach makes a lot more sense. Focus is more valuable when your exploration has helped you determine _what_ to focus on.]
+> \[Duckworth’s] value judgment, in other words, is that children should spend their time trying to improve at one thing rather than exploring, and becoming reasonably competent at, several things.  But for anyone who favors breadth and variety in life, no reason has been offered to prefer a life of specialization. \[Karlsson’s approach makes a lot more sense. Focus is more valuable when your exploration has helped you determine _what_ to focus on.]
 
 Rubin ([_Better Than Before_](obsidian://open?vault=resource-notes&file=Books%2FBetter%20Than%20Before)) — habits reduce mental load, and bright line rules can enforce habits
 
@@ -38,7 +38,7 @@ Rubin ([_Better Than Before_](obsidian://open?vault=resource-notes&file=Books%2F
 
 > **TODO: get quote from intro about habits reducing mental load**
 
-McKeown ([_Essentialism_](obsidian://open?vault=resource-notes&file=Books%2FEssentialism)) — I had to choose that which was most essential; I couldn't do it all.
+McKeown ([_Essentialism_](obsidian://open?vault=resource-notes&file=Books%2FEssentialism)) — I had to choose that which was most essential; I couldn’t do it all.
 
 > **TODO: find quotes from _Essentialism_**
 
@@ -56,11 +56,11 @@ McKeown ([_Essentialism_](obsidian://open?vault=resource-notes&file=Books%2FEsse
 
 ## Leslie Lamport
 
-> If you're thinking without writing, you only think you're thinking.
+> If you’re thinking without writing, you only think you’re thinking.
 
 ## Other
 
-- [Counterintuitive wisdom from Legalzoom's cofounder](https://open.spotify.com/episode/7MEogj3qORhqDIxDKLvKko?nd=1&dlsi=9a09fcc4be74411a)
+- [Counterintuitive wisdom from Legalzoom’s cofounder](https://open.spotify.com/episode/7MEogj3qORhqDIxDKLvKko?nd=1&dlsi=9a09fcc4be74411a)
 - [What Kind of Writer is ChatGPT?](https://www.newyorker.com/culture/annals-of-inquiry/what-kind-of-writer-is-chatgpt)
 
 ## Unused:
@@ -69,10 +69,10 @@ McKeown ([_Essentialism_](obsidian://open?vault=resource-notes&file=Books%2FEsse
 - _Essentialism_
 	- Contributing at highest impact 
 		- Innerhelm higher than Logwise (more on this later)
-	- But was this just because I hadn't yet shipped Logwise?
-	- "If it's not hell yes, it should be a no." Logwise _felt_ like a yes!
-- What I'm doing about it
-	- Switching didn't work, as mentioned before
+	- But was this just because I hadn’t yet shipped Logwise?
+	- "If it’s not hell yes, it should be a no." Logwise _felt_ like a yes!
+- What I’m doing about it
+	- Switching didn’t work, as mentioned before
 	- "Law of Holes"
 	- I would create a bright line rule
 	- Rubin on the power of habits to reduce decisional load
@@ -80,6 +80,6 @@ McKeown ([_Essentialism_](obsidian://open?vault=resource-notes&file=Books%2FEsse
 	- "The only way someone can be of help to you..."
 	- Jony Ives
 - Why was I pursuing this project at all? Hyperfocus and the semi-addictive nature of building a working thing explained why I _continued_, but why had I _started_ this project? What were my higher-level reasons for wanting to build Logwise? Surely there would be something more meaningful at that level of motivation.
-- Nut graf (which I've decided I don't need because I don't want to write this as news): 
-	- [Persistence is often agentic](https://innerhelm.com/posts/persistence). I've discovered that quitting can be too. I believe agentic quitting is, for most people, a dormant superpower—a practice that yields significant dividends but is underused.
+- Nut graf (which I’ve decided I don’t need because I don’t want to write this as news): 
+	- [Persistence is often agentic](https://innerhelm.com/posts/persistence). I’ve discovered that quitting can be too. I believe agentic quitting is, for most people, a dormant superpower—a practice that yields significant dividends but is underused.
 

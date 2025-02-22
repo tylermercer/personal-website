@@ -12,7 +12,7 @@ An interesting tip about links on the web from
 > is the third most problematic item on the web (after CAPTCHAs and Flash)
 > according to a WebAIM Screen Reader User Survey.
 
-Admittedly, the article is a bit dated—I'm skeptical that Flash is still a top
+Admittedly, the article is a bit dated—I’m skeptical that Flash is still a top
 accessibility concern on the web—but, as far as I can tell, the behavior of
 screenreaders has not changed.
 

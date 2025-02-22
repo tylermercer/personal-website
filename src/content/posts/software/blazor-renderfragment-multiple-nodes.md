@@ -1,15 +1,15 @@
 ---
 title: Returning Multiple Root Nodes From a RenderFragment
-description: The Blazor version of React's Fragment API
+description: The Blazor version of React’s Fragment API
 date: 2023-08-07 12:00:00.00
 ---
 
-If you're coming to Blazor from a framework like React, you might encounter a
-need for the equivalent of React's
+If you’re coming to Blazor from a framework like React, you might encounter a
+need for the equivalent of React’s
 [`Fragment`](https://react.dev/reference/react/Fragment), which allows you to
 return a set of DOM nodes from a function, rather than being limited to
 returning one node. At the time of this writing, searching for this (e.g.
-"RenderFragment with multiple nodes") on Blazor's documentation site doesn't
+"RenderFragment with multiple nodes") on Blazor’s documentation site doesn’t
 yield any useful results, but there _is_ a way to do it!
 
 You can put multiple root elements in a RenderFragment by surrounding them with
@@ -27,7 +27,7 @@ You can put multiple root elements in a RenderFragment by surrounding them with
 }
 ```
 
-This is particularly useful when you can't or don't want to add a wrapping
+This is particularly useful when you can’t or don’t want to add a wrapping
 element, such as when rendering a set of `<tr>` elements that will be included
 in a table.
 

@@ -1,6 +1,6 @@
 ---
-title: Nephi's Agency Thinking
-description: Insights from seeing Nephi's story through an agency thinking lens
+title: Nephi’s Agency Thinking
+description: Insights from seeing Nephi’s story through an agency thinking lens
 ---
 
 <!--Narrative intro-->
@@ -13,6 +13,6 @@ description: Insights from seeing Nephi's story through an agency thinking lens
 
 <!--Example 3: Building the ship-->
 
-<!--But wasn't Laman and Lemuel's problem a lack of faith?-->
+<!--But wasn’t Laman and Lemuel’s problem a lack of faith?-->
 
 <!--Conclusion-->

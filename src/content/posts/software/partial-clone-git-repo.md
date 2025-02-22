@@ -18,12 +18,12 @@ git checkout
 
 I upgraded my computer a few months ago, and, after some thought, decided to
 turn my old one into a writing-only device. The goal was to use _higher-order
-agency thinking_---decisions that shape one's
+agency thinking_---decisions that shape one’s
 decisions[^innerhelm]---to enable myself to focus more deeply on my journaling, this blog,
 [Innerhelm](https://innerhelm.com), and my other writing. I removed everything
 not related to writing from this device: accounts and bookmarks in my browser,
 the messaging apps I use, the handful of games I had installed, and even the VS
-Code extensions I use that don't relate to Markdown. (I use VS Code for my
+Code extensions I use that don’t relate to Markdown. (I use VS Code for my
 writing for a few reasons, most notably (a) because I have yet to find a text
 editor I like that supports the inline footnotes syntax I use, and (b) because I
 have a large amount of muscle memory built up for getting around it, which
@@ -34,8 +34,8 @@ I was left with a much-less-interesting VS Code for my blog writing,
 [Obsidian](https://obsidian.md/) for storing quotes from books and articles that
 I might use in my writing.
 
-But one big distractor remained: my personal site's code. I've spent so many
-hours tweaking this site's design and implementation like [one would rub a
+But one big distractor remained: my personal site’s code. I’ve spent so many
+hours tweaking this site’s design and implementation like [one would rub a
 worry-stone](https://ethanmarcotte.com/wrote/let-a-website-be-a-worry-stone/)---not
 out of genuine need but as an escape from the "should" of writing. Because my
 posts are stored as Markdown files in an Astro content collection, the code that
@@ -47,7 +47,7 @@ myself to the mast" by only cloning the folder that contains my posts. Turns
 out, there is! (Kudos to Ciro Santilli for providing the solution in
 [this answer on Stack Overflow](https://stackoverflow.com/a/52269934).)
 
-There are two commands you'll need to run. Let's break down each of them.
+There are two commands you’ll need to run. Let’s break down each of them.
 
 ## Step 1: Clone the repository
 
@@ -55,10 +55,10 @@ There are two commands you'll need to run. Let's break down each of them.
 git clone -n --depth=1 --no-checkout --filter=tree:0 <your-repo-git-url>
 ```
 
-This isn't your standard-issue git clone command. Here we use `--filter` to
+This isn’t your standard-issue git clone command. Here we use `--filter` to
 specify the objects (think versions of files) we want to download. Specifying
-`tree:0` as the filter value means we don't want _anything_---at least, not
-until we say which files we _do_ want. `--depth=1` means we don't want any
+`tree:0` as the filter value means we don’t want _anything_---at least, not
+until we say which files we _do_ want. `--depth=1` means we don’t want any
 commits other than the most recent one. (Commits we or others make on the main
 branch will be pulled when we `git pull`, but nothing older than the most recent
 commit at the time of the clone will be downloaded, even on those subsequent

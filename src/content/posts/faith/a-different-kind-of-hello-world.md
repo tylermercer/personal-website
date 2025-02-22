@@ -6,13 +6,13 @@ featured: true
 ---
 
 Something special happened a couple weeks ago: my daughter was born! She came a
-couple weeks early due to some sudden complications, but we are so glad she's
-here and that she's okay. She and Evelyn are both doing well now.
+couple weeks early due to some sudden complications, but we are so glad she’s
+here and that she’s okay. She and Evelyn are both doing well now.
 
-I've written before about
+I’ve written before about
 [the journey of faith](/posts/faith/certainty-and-uncertainty-as-elements-of-faith)
 that Evelyn and I went through with our desires to have children. Our need for
-faith to accept uncertainty hasn't diminished---scary complications in the
+faith to accept uncertainty hasn’t diminished---scary complications in the
 delivery process required us to place our faith in God even more firmly.
 Gratefully, He intervened in some miraculous ways, and provided protection and
 safety for both my wife and our daughter.
@@ -35,7 +35,7 @@ no matter what happened in this life.
 
 (We finalized the name as _Isabella_ instead of _Isabelle_ because we liked the
 cadence more, and preferred the diminutive form of "Bella" over "Belle," but the
-name's origin is the same.)
+name’s origin is the same.)
 
-Welcome to the world, Isabella. It's a beautiful place. I can't wait to see the
-impact you have on it---you've changed _my_ world so much already. ❤️
+Welcome to the world, Isabella. It’s a beautiful place. I can’t wait to see the
+impact you have on it---you’ve changed _my_ world so much already. ❤️

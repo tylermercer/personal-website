@@ -22,12 +22,12 @@ which contains a code comment mentioning
 for that answer has [another answer](https://stackoverflow.com/a/7061193) with
 the code I was looking for, and that answer cited
 [this GitHub Gist](https://gist.github.com/982883). It had to laugh when I saw
-that it wasn't minified---it was golfed. "Clever minifier" indeed---a clever
+that it wasn’t minified---it was golfed. "Clever minifier" indeed---a clever
 _human_ minifier.
 
-[^unsafe-random]: I recognize that this isn't a
+[^unsafe-random]: I recognize that this isn’t a
 "proper" GUID because it relies on `Math.random()`. As
 [Stack Overflow user broofa puts it](https://stackoverflow.com/a/2117523),
 "solutions based on `Math.random()` do not provide good uniqueness guarantees."
-But the website in question didn't need very good uniqueness guarantees for what
+But the website in question didn’t need very good uniqueness guarantees for what
 it was doing.

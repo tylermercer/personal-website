@@ -19,11 +19,11 @@ of the email in the image):
 > I am thrilled about our recent product launch! 🎉 ...<br/>
 > ProductHunt is a great platform for tapping into ...<br/>
 > and gaining exposure for our product. However, ...<br/>
-> That's why I'm reaching out to ask you for your help ...<br/>
+> That’s why I’m reaching out to ask you for your help ...<br/>
 > please take a moment to upvote our product ...<br/>
 > ...
 
-In my mind, there's a big hole in this value proposition: **nobody wants to read
+In my mind, there’s a big hole in this value proposition: **nobody wants to read
 this kind of email.** Only a masochist would prefer reading a fluffy,
 corporate-speak email over "hey team please upvote the new launch on
 producthunt."[^voice] Do you
@@ -34,8 +34,8 @@ The value prop of "Write entire emails with just one line" has always been true.
 You could _always_ write your emails in the same amount of words it would take
 to describe to an AI: just use those words _as the email itself._
 
-Words are free-as-in-speech, but they aren't free-as-in-beer. In this case, they
-are free-as-in-mattress: it's free, but no one wants it. Each unnecessary word
+Words are free-as-in-speech, but they aren’t free-as-in-beer. In this case, they
+are free-as-in-mattress: it’s free, but no one wants it. Each unnecessary word
 is just additional cognitive overhead for your readers.
 
 [Richard Lanham](https://english.ucla.edu/people-faculty/lanham-richard/),
@@ -49,7 +49,7 @@ corporate-speak email and boils it down to one concise line. _That_ would be
 nice.
 
 [^reviews]: Superhuman apparently
-receives rave reviews from its customers. I can't make any claims about its
+receives rave reviews from its customers. I can’t make any claims about its
 overall usefulness, having never used it. This article is just addressing the AI
 feature described on the landing page.
 

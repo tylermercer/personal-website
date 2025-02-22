@@ -5,7 +5,7 @@ description: About Tyler Mercer
 
 ![Tyler Mercer](../../assets/me.png)
 
-Hi! I'm Tyler, a software engineer, web developer, and design enthusiast. I'm
+Hi! I’m Tyler, a software engineer, web developer, and design enthusiast. I’m
 currently working at [Lucid](https://lucid.co/) as a senior software
 engineer.[^lucid]
 
@@ -35,7 +35,7 @@ and have continued since then to study psychology informally.
 
 I also love learning about different technologies, architectures, and tools that
 can help me achieve this. I am firmly against the "use one tool for everything"
-approach that can often be seen in today's web development industry.
+approach that can often be seen in today’s web development industry.
 
 While I have dabbled in native development in the past, nowadays I am firmly
 web-first. That might seem contradictory with my previous statement about
@@ -45,9 +45,9 @@ platform, without being restricted by oppressive app-store policies and fees,
 and to contribute to an open, accessible, performant, and truly _worldwide_ web.
 The web is _the single greatest tool for communication and creativity ever
 invented by mankind_[^web-creativity], and is
-_inherently widely accessible_--all you need is a web browser. It's also
+_inherently widely accessible_--all you need is a web browser. It’s also
 distributed by design and governed by open standards rather than by a large
-corporate organization. You won't find any other widely-used development
+corporate organization. You won’t find any other widely-used development
 platform with those characteristics.[^coyier-web]
 
 ## My Faith
@@ -71,16 +71,16 @@ Some of my core beliefs:
 I hope that [my writings about my faith](/posts/faith/) can capture the sense of
 wonder that I feel about those ideas and how I see them in the world. I also
 hope that what I write can be accessible to anyone, regardless of what they
-believe. God's light can be found in all of us.
+believe. God’s light can be found in all of us.
 
 ## Under the Hood
 
-See [the site's colophon](/colophon/) for more about how it is built and
+See [the site’s colophon](/colophon/) for more about how it is built and
 deployed.
 
 ## Contact Me
 
-If you'd like to get in touch, you can [contact me here](/contact/).
+If you’d like to get in touch, you can [contact me here](/contact/).
 
 [^lucid]: The opinions and views expressed on this site are my own and don’t
 necessarily reflect those of Lucid.

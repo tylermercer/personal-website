@@ -5,13 +5,13 @@ description: TODO
 
 Today I read
 [Acts 27](https://www.churchofjesuschrist.org/study/scriptures/nt/acts/27?lang=eng).
-It's a gripping account of a perilous voyage Paul took towards Rome. Before
+It’s a gripping account of a perilous voyage Paul took towards Rome. Before
 departing from a place called The Fair Havens (which, ironically, was "not
 commodious to winter in", as mentioned in
 [verse 12](https://www.churchofjesuschrist.org/study/scriptures/nt/acts/27?lang=eng&id=p12#p12)),
 Paul prophesied that the journey would be a dangerous one, with "hurt and much
 damage, not only of the lading and ship, but also of our lives." The centurion
-leading the group didn't believe him, and the sailors wanted to leave rather
+leading the group didn’t believe him, and the sailors wanted to leave rather
 than to winter at The Fair Havens, so they did so. Eventually, they were caught
 in a horrible storm, but through the prophetic reassurance and guidance of Paul
 (who, midway through the voyage, told them that God would spare all their

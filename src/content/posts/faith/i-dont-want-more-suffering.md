@@ -28,20 +28,20 @@ today:
 As I read verse 13, I saw the "stop to the shedding of blood" as connected to
 verses 11 and 12 and not just to the animal sacrifices under the law of Moses
 mentioned in the preceding verses. This connection is perhaps eisegetical, but
-I think it's significant---God sent His son to "fulfill the demands of justice"
+I think it’s significant---God sent His son to "fulfill the demands of justice"
 because justice demands _our_ blood. Justice demands "an eye for an eye," which
 means that, without a Savior, there would just be more pain and suffering in
 response to the pain and suffering we inflict on others. God yearns to _stop_ the
 pain and suffering, not to have it propagate unbounded. Thus, He sent His Son that
-there could be "a stop to the shedding of blood." I'm reminded of a quote from
+there could be "a stop to the shedding of blood." I’m reminded of a quote from
 _The Brothers Karamazov_, in which a man named Ivan expresses his dissatisfaction
 with the idea of a God whose primary goal is justice:
 
 > What do I care for avenging them? What do I care for a hell for oppressors?
-> ... I want to forgive. I want to embrace. I don't want more suffering. ... And
+> ... I want to forgive. I want to embrace. I don’t want more suffering. ... And
 > so I hasten to give back my entrance ticket, and if I am an honest man I am
-> bound to give it back as soon as possible. And that I am doing. It's not God
-> that I don't accept, Alyosha, only I most respectfully return him the ticket.
+> bound to give it back as soon as possible. And that I am doing. It’s not God
+> that I don’t accept, Alyosha, only I most respectfully return him the ticket.
 
-Fortunately, God agrees with Ivan. He _also_ doesn't want more suffering. He
+Fortunately, God agrees with Ivan. He _also_ doesn’t want more suffering. He
 _also_ wants to embrace and to forgive.

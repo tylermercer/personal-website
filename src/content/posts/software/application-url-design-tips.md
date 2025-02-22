@@ -4,10 +4,10 @@ description: Useful tips for organizing the URLs in a web app
 date: 2023-03-16 9:03:00.00
 ---
 
-It's not every day that a _question_ on Stack Overflow proves helpful rather
+It’s not every day that a _question_ on Stack Overflow proves helpful rather
 than an answer, but
 [this Stack Overflow question about organizing URLs](https://stackoverflow.com/questions/37734246/how-to-organise-resources-in-web-application-url-structure)
-provides some great tips. I've included them here for permanence:
+provides some great tips. I’ve included them here for permanence:
 
 > 1. Namespacing features behind the username
 >    like `example.com/{username}/followers`
@@ -15,12 +15,12 @@ provides some great tips. I've included them here for permanence:
 > 2. Private things, such as account settings,
 >    should never be namespaced behind the username,
 >    and should just appear after `/account` or `/settings`.
-> 3. It's best to keep the base resource URLs as lean as possible.
+> 3. It’s best to keep the base resource URLs as lean as possible.
 >    Filters, sorting requirements, advanced searching and pagination
 >    can all be implemented as query parameters.
 > 4. A query string should be treated as an optional addition to the page;
 >    the URL should work to produce a valid and useful page
->    even when it's removed.
+>    even when it’s removed.
 > 5. In a good, hackable URL,
 >    a human can adjust or remove parts of the path
 >    and get expected results from your site.

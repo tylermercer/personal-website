@@ -8,7 +8,7 @@ dropCap: true
 _Mono no aware_ is a Japanese phrase meaning "the pathos of things," signifying
 an awareness of the impermanence of things and life in general.[^mono-no-aware]
 
-_Sunt lacrimae rerum_ is a Latin phrase taken from Virgil's _Aeneid_, meaning
+_Sunt lacrimae rerum_ is a Latin phrase taken from Virgil’s _Aeneid_, meaning
 "there are tears for/of things." It is uttered by Aeneas when he comes across a
 mural of the Trojan War, which he has just escaped from. His full statement is
 "Sunt lacrimae rerum et mentem mortalia tangunt," or "There are tears of/for
@@ -25,7 +25,7 @@ part by impermanent things.
 Juxtaposing these two phrases led me to some interesting thoughts. Initially, my
 first conclusion was that because things are impermanent, they need not cause
 tears---bringing to mind the oft-quoted aphorism "This too shall pass." But
-what's perhaps most intriguing to me about this combination of ideas is that, in
+what’s perhaps most intriguing to me about this combination of ideas is that, in
 a way, it actually _refutes_ this conclusion, because mortal things _do_ touch
 the mind. The feelings caused by the impermanent things of life are profoundly
 real, notwithstanding their impermanence.

@@ -1,6 +1,6 @@
 ---
 title: Signing the “Pause Giant AI Experiments” Petition
-description: I signed Future of Life's “Pause Giant AI Experiments” petition. You should too.
+description: I signed Future of Life’s “Pause Giant AI Experiments” petition. You should too.
 date: 2023-03-29 9:00:00.00
 ---
 
@@ -12,7 +12,7 @@ I believe AI will change our future dramatically, and we should not rush
 headlong into those changes. AI research beyond the level of current Chat AI
 systems deserves careful ethical consideration.
 
-I'm not against AI as a concept. In fact, I'm currently working on a project
+I’m not against AI as a concept. In fact, I’m currently working on a project
 that will hopefully benefit greatly from it. But there is a lot riding on how we
 as a species approach the development of powerful AI systems. Depending on the
 decisions we make, they could either improve life for the majority of mankind or

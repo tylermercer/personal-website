@@ -10,10 +10,10 @@ Some principles that apply to component-based UI frameworks like React, which ar
 Reaching for inheritance to solve a problem with Blazor components
 is usually the wrong approach. Practice thinking in composition ("what other components is this component composed of?") instead of inheritance.[^fp]
 
-## [Don't sync state. Derive it!](https://kentcdodds.com/blog/dont-sync-state-derive-it)
+## [Don’t sync state. Derive it!](https://kentcdodds.com/blog/dont-sync-state-derive-it)
 
 If you are constantly having to remember to update one piece of state
-(e.g. the status of the steps passed into a Stepper) when another piece of state changes (e.g. the step you're currently on), that's a good sign that one of those pieces of state should be derived from the other (e.g. `private List<Step> Steps => /* compute step statuses for current step */`).
+(e.g. the status of the steps passed into a Stepper) when another piece of state changes (e.g. the step you’re currently on), that’s a good sign that one of those pieces of state should be derived from the other (e.g. `private List<Step> Steps => /* compute step statuses for current step */`).
 
 ## Use [Compound Components](https://www.smashingmagazine.com/2021/08/compound-components-react/)
 

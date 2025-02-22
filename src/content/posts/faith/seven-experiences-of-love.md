@@ -19,9 +19,9 @@ cheerful."
 
 ## Love and cheerful giving
 
-This last thought---"it's love that makes a giver cheerful"---seemed worth
+This last thought---"it’s love that makes a giver cheerful"---seemed worth
 thinking about more deeply. After some consideration, I saw at least seven ways
-"love" plays into a person's experience of giving to someone in need:
+"love" plays into a person’s experience of giving to someone in need:
 
 ### 1 - The giver loves the recipient by choosing to feel compassion
 
@@ -30,7 +30,7 @@ attitude of compassion or empathy for their plight, rather than a mindset of
 accusation (e.g.
 [Mosiah 4:17](https://www.churchofjesuschrist.org/study/scriptures/bofm/mosiah/4?lang=eng&id=p17#p17)'s
 example of "the man has brought upon himself his misery") or toxic individualism
-("I've got my own problems" or "I don't want to get involved"). Note _love_ is a
+("I’ve got my own problems" or "I don’t want to get involved"). Note _love_ is a
 verb here.
 
 ### 2 - The giver loves the recipient through giving
@@ -89,7 +89,7 @@ This one may not always occur (such as in cases where the person did not want to
 be helped or is unaware of being helped) but often the recipient of a good deed
 feels an increase in love towards the doer of that good deed.
 
-### 5 - The giver feels God's love for the recipient
+### 5 - The giver feels God’s love for the recipient
 
 To bring this back to a spiritual context, God blesses us with a portion of _His
 love_ for others when we serve them. The ancient prophet Mormon described this,
@@ -105,17 +105,17 @@ at the end of the sermon recorded in Moroni
 
 Serving others is part of being a disciple of Jesus Christ, who spent His entire
 earthly ministry doing so, and Mormon promises that those who are disciples of
-Christ will be filled with God's love.
+Christ will be filled with God’s love.
 
-### 6 - The giver feels God's love for them
+### 6 - The giver feels God’s love for them
 
 This connects back to the passage in 2 Corinthians from earlier: "God loveth a
-cheerful giver." When we serve others genuinely, we can feel God's love for us.
+cheerful giver." When we serve others genuinely, we can feel God’s love for us.
 I believe that this love is a manifestation of His paternal joy in seeing us
 bless others as He does---much as a parent feels tenderness and love when his or
 her children are kind to each other.
 
-### 7 - The recipient feels God's love for them
+### 7 - The recipient feels God’s love for them
 
 This one, again, may not always occur---it depends on the state of the
 recipient. But this idea reminds me of
@@ -137,7 +137,7 @@ towards God and His love.
 
 ## Why we serve
 
-God's love, in its fulness, is manifest in the life and mission of Jesus Christ.
+God’s love, in its fulness, is manifest in the life and mission of Jesus Christ.
 [John 3:16](https://www.churchofjesuschrist.org/study/scriptures/nt/john/3?lang=eng&id=16#p16)
 (probably the most-quoted Bible verse of all time) captures this well:
 
@@ -145,9 +145,9 @@ God's love, in its fulness, is manifest in the life and mission of Jesus Christ.
 > believeth in him should not perish, but have everlasting life.
 
 I think this love, found in experiences #5 and #7 above, is _the point_ of our
-service. We serve so that others can feel the Savior's love, as we grow to
+service. We serve so that others can feel the Savior’s love, as we grow to
 become more like Him. Our service and sacrifice pales in comparison to the
-Savior's infinite love, but only through our sacrifice can we more deeply
+Savior’s infinite love, but only through our sacrifice can we more deeply
 understand the profound depth of that love.
 
 Consider Chris' experience---he understood Jesus' love on a substantially more

@@ -1,18 +1,18 @@
 ---
 title: Partytown + Cloudflare Analytics = ?
-description: Trying to speed up Cloudflare Analytics and reclaim my site's vanity four-100's Pagespeed score
+description: Trying to speed up Cloudflare Analytics and reclaim my site’s vanity four-100's Pagespeed score
 ---
 
-**_TODO: transition to "You don't need Partytown to make Cloudflare Web Analytics faster"_**
+**_TODO: transition to "You don’t need Partytown to make Cloudflare Web Analytics faster"_**
 
 **_Use [this link](https://without-partytown.tylermercer.pages.dev/) and [this link](https://add-partytown.tylermercer.pages.dev/)_**
 
 A while back, [my brother](https://danmercer.net) shared
 [this article](https://dev.to/adamdbradley/how-partytown-s-sync-communication-works-4244)
-about Partytown's clever way of communicating from a web worker to the main
+about Partytown’s clever way of communicating from a web worker to the main
 thread synchronously. [Partytown](https://partytown.builder.io/) is a library
 that enables you to easily move third-party scripts to a worker thread to
-improve main-thread performance. (It's maintained by the people behind Qwik,
+improve main-thread performance. (It’s maintained by the people behind Qwik,
 which I mentioned in
 ["Free Lunches in Frontend Dev."](https://tylermercer.net/posts/software/free-lunches/))
 
@@ -20,26 +20,26 @@ This got me wondering if I could move Cloudflare Web Analytics off of the main
 thread on this site. Cloudflare Web Analytics is a great analytics platform, but
 adding it caused my site to lose its perfect score on
 [pagespeed.web.dev](https://pagespeed.web.dev). So, turning a willfully blind
-eye to [Goodhart's Law](https://en.wikipedia.org/wiki/Goodhart%27s_law), I
+eye to [Goodhart’s Law](https://en.wikipedia.org/wiki/Goodhart%27s_law), I
 decided to give Partytown a shot.
 
 My site is built using Eleventy^[ You can read more about how this site was
-built in [it's colophon](/colophon/). ]. At the time of this writing, Partytown
+built in [it’s colophon](/colophon/). ]. At the time of this writing, Partytown
 does not have an integration for Eleventy, so I turned to
 [the HTML section of the docs](https://partytown.builder.io/html) instead. It
 proved to be pretty straightfoward, once I found the different steps I needed to
 take (which required me to consult several other places in the docs in addition
 to that page).
 
-Here's how you can do the same for your website.
+Here’s how you can do the same for your website.
 
 ## Add the Partytown script as an inline script
 
 First off, install `@builder.io/partytown` using NPM or your package manager of
-choice. This package includes a script that we'll need to inline in our page.
+choice. This package includes a script that we’ll need to inline in our page.
 
-To access the Partytown script source from within your site's templating in
-Eleventy, you can add it as global data. In your site's `_data` folder, create a
+To access the Partytown script source from within your site’s templating in
+Eleventy, you can add it as global data. In your site’s `_data` folder, create a
 [JS data file](https://www.11ty.dev/docs/data-js/) called `partytown.js`, with
 the following contents:
 
@@ -50,7 +50,7 @@ module.exports = {
 };
 ```
 
-In your site's `head`, add the following. Make sure it is placed before any third-party script tags.
+In your site’s `head`, add the following. Make sure it is placed before any third-party script tags.
 
 ```html
 <script>
@@ -58,7 +58,7 @@ In your site's `head`, add the following. Make sure it is placed before any thir
 </script>
 ```
 
-(Note: I'm using the
+(Note: I’m using the
 [Nunjucks templating language](https://www.11ty.dev/docs/languages/nunjucks/)
 here.)
 
@@ -67,7 +67,7 @@ here.)
 Move your Cloudflare Analytics script tag to immediately follow this new script
 tag, and add a `type` attribute of `text/partytown`. This allows Partytown to
 find and offload this script. Your document head should now look like this:^[ I
-left the `defer` attribute as recommended by the Cloudflare docs, but I'm not
+left the `defer` attribute as recommended by the Cloudflare docs, but I’m not
 actually sure it does anything when Partytown is running your scripts. If anyone
 knows the answer to this, please [shoot me an email!](/contact/)]
 
@@ -81,6 +81,6 @@ knows the answer to this, please [shoot me an email!](/contact/)]
 </head>
 ```
 
-## Copy Partytown's other JS files into your built site
+## Copy Partytown’s other JS files into your built site
 
 ## Self-serve Cloudflare Web Analytics

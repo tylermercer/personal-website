@@ -5,19 +5,19 @@ dropCap: true
 date: 2023-05-25 12:00:00
 ---
 
-Alex Russell's article
+Alex Russell’s article
 ["The Market For Lemons"](https://infrequently.org/2023/02/the-market-for-lemons/)
-made quite a stir when he posted it a few months back. If you haven't read it, I
+made quite a stir when he posted it a few months back. If you haven’t read it, I
 recommend it. There have been some very well-worded responses, like Laurie
-Voss's
+Voss’s
 ["The case for frameworks"](https://seldo.com/posts/the_case_for_frameworks);
-together they've made for an interesting conversation, which I've learned a lot
+together they’ve made for an interesting conversation, which I’ve learned a lot
 from and thought about a lot.
 
-To summarize, Russell's article accuses React, other JS-heavy frontend
+To summarize, Russell’s article accuses React, other JS-heavy frontend
 frameworks, and their proponents of bogging down the web development industry
 with slow page load times and high rates of poor usability and performance.
-Voss's article responds to that claim by highlighting the rational reasons
+Voss’s article responds to that claim by highlighting the rational reasons
 behind the popularity of React.
 
 I like where Voss starts with his article: he compares the current web dev
@@ -29,7 +29,7 @@ industry, with React having such a strong presence, to a
 > will always end up at the same mix of hawks and doves, a point of equilibrium
 > known as an evolutionarily stable strategy.
 >
-> All you need to take away from this to understand the argument I'm about to
+> All you need to take away from this to understand the argument I’m about to
 > make is that: while a world of doves all cooperating with each other would be
 > nicer, indeed the best possible world, it is not the world you end up with
 > because it is not **stable**. It only takes a single hawk to show up to throw
@@ -37,7 +37,7 @@ industry, with React having such a strong presence, to a
 >
 > How this translates to the world of software is: it is my assertion that the
 > world as it exists is a world in a relatively stable equilibrium. Reality is
-> complicated, so there aren't just two teams of hawks and doves, there are tens
+> complicated, so there aren’t just two teams of hawks and doves, there are tens
 > of millions of software developers out there, all working relatively
 > independently and in their own best interests with different priorities and
 > resources and trade-offs. The result is the world we see, and despite it being
@@ -52,7 +52,7 @@ industry, with React having such a strong presence, to a
 
 This is a great point, and one we would do well to remember more often. People
 tend to behave in predictable, explainable ways.[^rational]
-Understanding people's behavior from a point of "we're all trying the best we
+Understanding people’s behavior from a point of "we’re all trying the best we
 can" is a much healthier way to approach things than pointing fingers at some
 specific group as a scapegoat for our general responsibility in these problems.
 
@@ -65,13 +65,13 @@ pick React." I believe these claims are true for some React developers, but this
 is probably a minority. It seems to me that many developers and firms choose
 React simply because it is familiar and popular.[^self-fulfilling-prophecy-of-react]
 Most of the trade-offs Voss mentions are then chosen _implicitly_, not
-explicitly, because alternatives haven't been sincerely considered.
+explicitly, because alternatives haven’t been sincerely considered.
 
 One point of evidence for these tradeoffs being chosen implicitly is the
 comparatively low usage of [Preact](https://preactjs.com/) compared to that of
 React. Preact has a React-compatible API---with `preact/compat`, you can replace
 React with Preact in an existing React project[^switching-to-preact] If people were carefully considering the trade-offs of different framework
-choices, wouldn't a lot of them decide that Preact's much smaller bundle size
+choices, wouldn’t a lot of them decide that Preact’s much smaller bundle size
 (4.2kb minified and gzipped---_one tenth_ of the size of React![^bundlephobia-preact]) and better
 performance[^framework-benchmark] make it a better choice?
 
@@ -89,8 +89,8 @@ On the framework side, the entire selling point of React meta-frameworks like
 Remix and Next.js is that you can use them for everything. Like the educators
 mentioned above, the framework authors implicitly frame React as the One True
 Way to build for the web. For example,
-[Next.js includes a blog as one of it's starter templates](https://vercel.com/templates/next.js/blog-starter-kit).
-I am skeptical that there's ever a good reason for a blog to be rendered
+[Next.js includes a blog as one of it’s starter templates](https://vercel.com/templates/next.js/blog-starter-kit).
+I am skeptical that there’s ever a good reason for a blog to be rendered
 client-side using React, regardless of whether it uses SSR. In the case of a
 blog especially,
 [hydration is pure overhead](https://www.builder.io/blog/hydration-is-pure-overhead).
@@ -100,7 +100,7 @@ those features can be provided as
 than by rendering the entire page, most of which is a static document, from JS.)
 The same goes for
 [docs sites](https://vercel.com/templates/next.js/documentation-starter-kit).
-But there's an implicit premise in the branding and documentation of frameworks
+But there’s an implicit premise in the branding and documentation of frameworks
 like Next.js and Remix that you should use them for any kind of project.
 
 Client-heavy React frameworks like Next.js and Remix are hammers---useful,
@@ -108,21 +108,21 @@ certainly (such as for business-to-business, auth-gated SaaS applications), but
 abjectly _not_ the right answer for every problem, unless you squint hard enough
 that screws, eye-bolts, and your mobile users' big toes all look like nails. But
 they have consistently branded themselves as universal solutions, in a way that,
-I believe, has misled many developers, especially ones who don't take it upon
+I believe, has misled many developers, especially ones who don’t take it upon
 themselves to seriously consider options outside the "React bubble."
 
 ## Unfortunate Side Effects of Sensible Thinking
 
-Now, to be clear, I don't think educators or framework marketers are maliciously
-scheming to keep hapless developers in the React bubble. Returning to Voss's
+Now, to be clear, I don’t think educators or framework marketers are maliciously
+scheming to keep hapless developers in the React bubble. Returning to Voss’s
 point about the equilibrium existing for rational reasons, educators and
 framework authors have a lot of rational reasons to focus on React. The
 ecosystem is huge, and the market for React developers is equally massive. But
 by not actively pointing developers to other, non-React web dev approaches when
-those solutions would be better suited to the task at hand, they've perpetuated
+those solutions would be better suited to the task at hand, they’ve perpetuated
 that status quo.
 
-As pointed out by Voss, developers aren't irrational or stupid for using React
+As pointed out by Voss, developers aren’t irrational or stupid for using React
 either.[^started-with-react] Rather, developers are _efficiently lazy_ for using React,
 and laziness is in many respects a highly valuable attribute for developers.
 However, in this specific case, our laziness as developers, combined with the
@@ -146,7 +146,7 @@ Irrational_:
 > consequence, economic theory asserts that there are no free lunches—if there
 > were any, someone would have already found them and extracted all their value.
 
-Sounds like Voss's description of the web dev industry---a stable equilibrium
+Sounds like Voss’s description of the web dev industry---a stable equilibrium
 driven by rational decisions. Note that in this context, the "utility" includes
 both UX and DX (developer experience), and stems from decisions made by
 developers, framework authors, firms, etc.
@@ -177,7 +177,7 @@ As developers:
 
 - **We can focus on learning web development
   principles**[^leatherman-tweet]
-  rather than learning an abstraction on top of the web. In Russell's words, "I
+  rather than learning an abstraction on top of the web. In Russell’s words, "I
   promise you, there’s life after the framework that you love right
   now."[^lost-decade]
 - **We can explore and learn how to use performance-focused frameworks** to
@@ -230,7 +230,7 @@ remarkably well: Astro and Qwik.
 architecture" that hydrates individual framework components on an otherwise
 static page rather than hydrating the whole page.
 
-It does a great job of specifying that it _isn't_ the best fit for every
+It does a great job of specifying that it _isn’t_ the best fit for every
 project. From ["Why Astro"](https://docs.astro.build/en/concepts/why-astro/)
 (emphasis mine):
 
@@ -251,19 +251,19 @@ project. From ["Why Astro"](https://docs.astro.build/en/concepts/why-astro/)
 > more application-focused alternative to Astro.
 
 Astro also does a great job of providing interoperability in a way that is
-geared towards its specific use case: You can use Astro's integrations to render
+geared towards its specific use case: You can use Astro’s integrations to render
 React, Svelte, Vue, Preact, Solid, or Lit components within your site. These
 components can be marked as "islands" of interactivity to make them hydrate on
 the client, but by default they render only on the server. This allows Astro to
 lean into their 0-JS-by-default strength while still providing support for
 developers who are familiar with the dominant React ecosystem.
 
-Personally, I've found working in Astro to be a breath of fresh air. I've
+Personally, I’ve found working in Astro to be a breath of fresh air. I’ve
 particularly enjoyed working without framework components--being able to
 encapsulate style, markup, and logic for a component all in one file but in a
-way that still feels "vanilla" is _so_ nice. It feels like I've emerged from
-[Plato's cave](https://en.wikipedia.org/wiki/Allegory_of_the_cave) and seen
-HTML's ideal form.
+way that still feels "vanilla" is _so_ nice. It feels like I’ve emerged from
+[Plato’s cave](https://en.wikipedia.org/wiki/Allegory_of_the_cave) and seen
+HTML’s ideal form.
 
 ## Framework Example #2: Qwik
 
@@ -284,10 +284,10 @@ Qwik docs](https://qwik.builder.io/docs/concepts/resumable/):
 > lifecycle can be serialized and moved to a different VM instance (server to
 > browser). There, the application simply resumes where the serialization
 > stopped. No hydration is required. This is why we say that Qwik applications
-> don't hydrate; they resume.
+> don’t hydrate; they resume.
 
 This means that components that only need JS on the server (e.g. a top nav bar
-that has no JS-powered interactivity) don't need to run JS on the client at all!
+that has no JS-powered interactivity) don’t need to run JS on the client at all!
 Qwik is able to ship to the browser just the parts that are actually needed
 for interactivity. It can even defer those parts individually, e.g. only running
 the JS file for a click listener for a button once the button is interacted
@@ -300,7 +300,7 @@ without an ever-increasing bundle size and time-to-interactive---what Qwik calls
 Qwik also provides
 [a React adapter](https://www.npmjs.com/package/@builder.io/qwik-react) to allow
 you to use React components in your Qwik projects, much like Astro does. This
-allows Qwik developers to tap into React's ecosystem and could even facilitate
+allows Qwik developers to tap into React’s ecosystem and could even facilitate
 porting large React applications to Qwik.
 
 ## A Better Web for Everyone
@@ -320,7 +320,7 @@ performance.[^hunt-articles] In that sense, this article
 is reductionistic (as is all writing). But using frameworks that are
 performance-minded, like Qwik and Astro, can be a springboard to thinking about
 performance as it relates to the entire stack---and using frameworks that
-_aren't_ can be an albatross.
+_aren’t_ can be an albatross.
 
 Ultimately, though, I believe the problem of the "market for lemons" is at its
 core a behavioral design problem: **how can we leverage the current system, and
@@ -335,9 +335,9 @@ patterns---to unlock these free lunches for ourselves and our users.
 
 ---
 
-I'm curious what you thought of this article. In particular, I'm curious about
+I’m curious what you thought of this article. In particular, I’m curious about
 ways in which you have seen behavioral design impacting web performance, and how
-you think we can take that further, whether that's in addressing framework
+you think we can take that further, whether that’s in addressing framework
 choice or any of the other factors in web performance. Please share your
 thoughts
 [on Twitter](https://twitter.com/tylermercerdev/status/1661968132750348289)[^twitter-regret] or [via email](/contact/)---or, even better,
@@ -349,11 +349,11 @@ write a blog post and send me the link!
 
 - [Healthcare, Selling Lemons, and the Price of Developer Experience |
   CSS-Tricks](https://css-tricks.com/healthcare-selling-lemons-and-the-price-of-developer-experience/)
-- [Why We're Breaking Up with CSS-in-JS](https://bradfrost.com/blog/link/why-were-breaking-up-with-css-in-js/)
+- [Why We’re Breaking Up with CSS-in-JS](https://bradfrost.com/blog/link/why-were-breaking-up-with-css-in-js/)
 
-[^rational]: I'm hesitant to use the word
-"rational" because I don't think I can say "people are rational" _and_ reference
-Dan Ariely's book _Predictably Irrational_ and still take myself seriously.
+[^rational]: I’m hesitant to use the word
+"rational" because I don’t think I can say "people are rational" _and_ reference
+Dan Ariely’s book _Predictably Irrational_ and still take myself seriously.
 
 [^self-fulfilling-prophecy-of-react]: See
 ["The self-fulfilling prophecy of React"](https://joshcollinsworth.com/blog/self-fulfilling-prophecy-of-react)
@@ -375,7 +375,7 @@ Bundlephobia: [Preact](https://bundlephobia.com/package/preact@10.15.0) vs
 [JS Framework Benchmark](https://krausest.github.io/js-framework-benchmark/2023/table_chrome_112.0.5615.49.html)
 by Krauest
 
-[^started-with-react]: I actually started my web dev journey with React, and I'm grateful for
+[^started-with-react]: I actually started my web dev journey with React, and I’m grateful for
 it. I believe that the component-based thinking I learned from it makes me a
 better developer.
 
@@ -386,7 +386,7 @@ better developer.
 
 [^leatherman-tweet]: See [this tweet from Zach Leatherman](https://www.zachleat.com/twitter/1074776108422307840/)
 
-[^lost-decade]: [JS Party #263, "Web Development's Lost Decade"](https://changelog.com/jsparty/263)
+[^lost-decade]: [JS Party #263, "Web Development’s Lost Decade"](https://changelog.com/jsparty/263)
 
 [^build-tools]: I do still use build tools in these projects---most notably [Astro](https://astro.build)
 and [Eleventy](https://11ty.dev).
@@ -395,11 +395,11 @@ and [Eleventy](https://11ty.dev).
 docs
 
 [^hunt-articles]: For an incredible case study in all of these factors, see Taylor
-Hunt's
-["Making the world's fastest website, and other mistakes"](https://dev.to/tigt/making-the-worlds-fastest-website-and-other-mistakes-56na),
+Hunt’s
+["Making the world’s fastest website, and other mistakes"](https://dev.to/tigt/making-the-worlds-fastest-website-and-other-mistakes-56na),
 and its four subsequent articles, on Dev.to. In addition to being compelling and
 enlightening in its own right, this series links to a veritable wealth of
 knowledge on performance. One could easily spend hours reading all the
 interesting things linked in those five articles.
 
-[^twitter-regret]: I'm hoping I don't regret this. 😆
+[^twitter-regret]: I’m hoping I don’t regret this. 😆
