@@ -6,7 +6,7 @@ export default
         language: "en",
         descriptionItems: [
             "[Software engineer](/about/#software-design--engineering-ethos)",
-            "[Explorer of agency thinking](https://innerhelm.com)",
+            "[Writer](https://innerhelm.com)",
             "[Husband](https://evelynescobar.art/)",
             "[Father](/posts/faith/a-different-kind-of-hello-world)",
             "[Follower of Jesus](/about/#my-faith)"
