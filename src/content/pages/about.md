@@ -1,6 +1,6 @@
 ---
-title: About Me
-description: About Tyler Mercer
+title: About Tyler Mercer
+description: Software engineer, writer, husband, father, and follower of Jesus
 ---
 
 ![Tyler Mercer](../../assets/me.png)
