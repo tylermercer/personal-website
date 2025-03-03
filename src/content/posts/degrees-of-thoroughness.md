@@ -37,7 +37,7 @@ Some writing—such as [my post about my linkblog](/posts/software/linkblog/), o
 
 But, importantly, the incrementality of this approach offers a smooth upgrade path. If I were so inclined, I could "upgrade" this post to a 3 by refining the outline, reassembling the thoughts I already have here according to that outline, and running it by my review group for feedback.
 
-I used to write everything in one sitting in part because writing in stages seemed like more work. But that's a bit like saying waterfall software development is less work than Agile software development. What you eliminate in "work," you end up taking on as risk and stress instead. You run the risk of wasting the _whole thing_ (like my early Innerhelm newsletters) instead of just wasting parts of it (such as the parts from the brain dump that I don't include in the outlined essay, or the parts of the outlined essay that I cut based on feedback).
+I used to write everything in one sitting in part because writing in stages seemed like more work. But that's a bit like saying Agile software development is more work than waterfall software development. What you eliminate in "work" by choosing a non-incremental approach, you end up taking on as risk and stress instead. You run the risk of wasting the _whole thing_ (like my early Innerhelm newsletters) instead of just wasting parts of it (such as the parts from the brain dump that I don't include in the outlined essay, or the parts of the outlined essay that I cut based on feedback).
 
 ## Fine-tuning
 
