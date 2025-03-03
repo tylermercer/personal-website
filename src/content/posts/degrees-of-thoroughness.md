@@ -13,7 +13,7 @@ But once I realized that my procrastination of my writing was a vicious cycle of
 
 ## An emergent process
 
-At this point, you might be expecting me to say "here's how I solved it." Unfortunately, I haven't arrived at a complete solution yet---hence why I haven't written anything for _Innerhelm_ since publishing "Unlaunching" last December. But I realized that there's a pattern to how I wrote "Unlaunching" that could provide a healthier, more incremental alternative to the deadline-fueled procrastination I've done in the past.
+At this point, you might be expecting me to say "here's how I solved it." Unfortunately, I haven't arrived at a complete solution yet---hence why I haven't written anything for _Innerhelm_ since publishing ["Unlaunching"](/posts/software/unlaunching/) last December. But I realized that there's a pattern to how I wrote "Unlaunching" that could provide a healthier, more incremental alternative to the deadline-fueled procrastination I've done in the past.
 
 In broad strokes, here's the process I followed in writing "Unlaunching," and which I'm considering using going forward:
 
@@ -33,7 +33,7 @@ In a sense, it's a set of three degrees of thoroughness:
 2. Written based on an outline
 3. Written based on an outline and reviewed by others
 
-Some writing—such as [my post about my linkblog](/posts/linkblog), or this post—only deserves to be a 1 or 2. Other writing, such as "Unlaunching," I want to be a 3.
+Some writing—such as [my post about my linkblog](/posts/software/linkblog/), or this post—only deserves to be a 1 or 2. Other writing, such as "Unlaunching," I want to be a 3.
 
 But, importantly, the incrementality of this approach offers a smooth upgrade path. If I were so inclined, I could "upgrade" this post to a 3 by refining the outline, reassembling the thoughts I already have here according to that outline, and running it by my review group for feedback.
 
