@@ -1,0 +1,16 @@
+---
+import getCommentCount from "lib/utils/getJamCommentsCommentCount";
+
+export interface Props {
+    pathname?: string;
+}
+
+const commentCount = getCommentCount(Astro.props.pathname ?? Astro.url.pathname);
+---
+{
+    commentCount > 0
+      ? commentCount === 1
+        ? "1 comment"
+        : `${commentCount} comments`
+      : "No comments yet"
+  }

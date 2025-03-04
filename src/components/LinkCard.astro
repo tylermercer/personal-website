@@ -3,7 +3,7 @@ import getLinkDate from "@utils/getLinkDate";
 import type { CollectionEntry } from "astro:content";
 import formatPostDate from "../utils/formatPostDate";
 import getLinkSlug from "@utils/getLinkSlug";
-import getCommentCount from "lib/utils/getJamCommentsCommentCount";
+import CommentsCount from "./CommentsCount.astro";
 
 export type Props = {
     link: CollectionEntry<"links">;
@@ -33,9 +33,7 @@ const permalink = `/links/${getLinkSlug(l)}`;
                 {formatPostDate(getLinkDate(l.slug))}
             </time>
         </a> &middot;{" "}
-        <a href={permalink + "#comments"}>
-            {getCommentCount(permalink)} comments
-        </a>
+        <a href={permalink + "#comments"}><CommentsCount pathname={permalink} /></a>
     </p>
 </article>
 
