@@ -85,6 +85,8 @@ function processFeedData(feedData) {
           </p>
           <h1>${title}</h1>
           ${html}
+          <hr>
+          <p><a href="${url}#comments">Leave a comment</a></p>
         </div>`));
     };
 
