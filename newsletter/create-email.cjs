@@ -54,6 +54,17 @@ function processFeedData(feedData) {
     console.log("Building email html....");
   
     const css = sass.compile(path.join(__dirname, 'style.scss')).css;
+
+    const fixRelativeLinks = (html) => {
+      const $ = cheerio.load(html);
+  
+      $('a[href^="/"]').each(function () {
+        const link = $(this);
+        link.attr('href', `https://tylermercer.net${link.attr('href')}`);
+      });
+  
+      return $.html();
+    };
   
     const removeFootnoteLinks = (html) => {
       const $ = cheerio.load(html);
@@ -73,7 +84,7 @@ function processFeedData(feedData) {
     };
   
     const format = (html, url, title) => {
-      return juice(removeFootnoteLinks(`
+      return juice(fixRelativeLinks(removeFootnoteLinks(`
         <style>
         ${css}
         </style>
@@ -87,7 +98,7 @@ function processFeedData(feedData) {
           ${html}
           <hr>
           <p><a href="${url}#comments">Leave a comment</a></p>
-        </div>`));
+        </div>`)));
     };
 
     const htmlContent = format(latestPost.content_html, latestPost.url, latestPost.title);
