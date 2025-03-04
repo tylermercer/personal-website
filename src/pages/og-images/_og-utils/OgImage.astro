@@ -12,27 +12,35 @@ export type Props = {
 
 export const partial = true;
 
-const { title, description, category, hideDateline } =
-    Astro.props;
+const { title, description, category, hideDateline } = Astro.props;
 
 const date: Date | undefined =
     "date" in Astro.props ? Astro.props.date : undefined;
 
-const beep = (...f: any[]) => (console.log(...f) as unknown as false) || f[0];
+const hideDescription =
+    title.length + description.length > 120 || description.length > 85; // magic numbers yay
 ---
 
 <div class="root">
-    <div
-        class={`title-container pattern pattern-${category || ""}`}
-    >
+    <div class={`title-container pattern pattern-${category || ""}`}>
         <h1 class="title">{title}</h1>
     </div>
     <div class={`bg-container`}>
-        <div class="description">{beep(unMarkdown(description))}</div>
         {
-            hideDateline
-                ? ""
-                : <div class="dateline">{date ? `${formatPostDate(date)} — ` : ""}Tyler Mercer</div>
+            hideDescription ? (
+                ""
+            ) : (
+                <div class="description">{unMarkdown(description)}</div>
+            )
+        }
+        {
+            hideDateline ? (
+                ""
+            ) : (
+                <div class="dateline">
+                    {date ? `${formatPostDate(date)} — ` : ""}Tyler Mercer
+                </div>
+            )
         }
     </div>
 </div>

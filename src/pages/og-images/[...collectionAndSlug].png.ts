@@ -29,7 +29,7 @@ export const GET: APIRoute = async ({ params }) => {
             props: {
                 ...entry.data,
                 category: category?.id,
-                cacheBust: 1,
+                cacheBust: 2,
             }
         }
     });
