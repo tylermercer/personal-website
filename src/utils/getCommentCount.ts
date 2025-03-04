@@ -15,7 +15,7 @@ export default function getCommentCount(slug: string) {
     const match = comments.match(/data-jam-comments-count="(\d+)"/);
 
     if (match) {
-        const count = parseInt(match[1], 10);
+        const count = parseInt(match[1]!, 10);
         commentCountMap.set(slug, count);
         return count;
     } else {
