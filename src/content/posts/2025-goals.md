@@ -14,7 +14,7 @@ Here are the goals I'm reaching for this year, and specific things I'm doing to 
 1. **Minimize my intake of refined sugar.** I've done this by setting strict rules for what sugar I _will_ eat, including dark chocolate (at most one square per day), ice cream (at most once per calendar month, and only on a date with my wife), and dried fruit (as much as I want, provided it's unsweetened). It's been helpful to have precise ways in which I can enjoy sugar without giving myself license to eat whatever I want (which did not mix well with working from home, since I would tend to eat whatever sugary snackable foods I could find).
 2. **Move more.** I've implemented this by getting a treadmill base for my standing desk. Last December, when I decided to do this, I set up a step-tracking app on my phone, so that I could monitor my step counts before and after getting the treadmill base.
 
-  I also have been tracking in my notes how many hours I walk each day, which has been very helpful. As author Gretchen Rubin writes in _Better Than Before_: "Self-measurement brings self-awareness, and self-awareness strengthens our self-control."
+    I also have been tracking in my notes how many hours I walk each day, which has been very helpful. As author Gretchen Rubin writes in _Better Than Before_: "Self-measurement brings self-awareness, and self-awareness strengthens our self-control."
 
 ## Be mentally healthier
 
