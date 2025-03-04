@@ -1,6 +1,6 @@
 ---
 title: Degrees of Thoroughness
-description: Towards an effective personal writing process
+description: Improving my personal writing process
 date: 2025-03-03 12:00:00
 ---
 A few months back, I came across [some (unnamed?) person's thoughts on procrastination](https://learnhowtolearn.org/how-i-cured-procrastination/) and how they overcame it. They argue that procrastination is a limbic response where your brain tries to defer pain to avoid it, but by so doing makes it more intense. That intensity reinforces the deferral behavior---clearly, your brain reasons, if it was _that bad_, it was a good thing to defer. This becomes "a vicious cycle of pushing off work, leading to higher peak pain, leading to pushing off work more, leading to even more peak pain, etc. Every iteration of this cycle your brain gets another dose of suffering and further associates work with pain."
