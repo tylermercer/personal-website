@@ -22,6 +22,9 @@ jobs:
       - name: Checkout repository
         id: checkout_repo
         uses: actions/checkout@v4
+        with:
+          submodules: recursive
+          token: ${{ secrets.GH_PAT }}
 
       - name: Cache assets
         uses: actions/cache@v3
