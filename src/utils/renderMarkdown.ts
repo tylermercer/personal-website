@@ -2,7 +2,7 @@
 import { remark } from 'remark';
 import remarkRehype from 'remark-rehype';
 import rehypeStringify from 'rehype-stringify';
-import remarkEmdash from '../../src/plugins/remark/emdash';
+import remarkEmdash from 'lib/plugins/remark/emdash';
 import remarkGfm from 'remark-gfm';
 
 

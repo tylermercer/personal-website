@@ -2,7 +2,7 @@ import cloudflare from '@astrojs/cloudflare';
 import mdx from "@astrojs/mdx";
 import expressiveCode from "astro-expressive-code";
 import { defineConfig } from 'astro/config';
-import remarkEmdash from './src/plugins/remark/emdash';
+import remarkEmdash from './lib/plugins/remark/emdash';
 import { jamComments } from "@jam-comments/astro/config";
 
 import { loadEnv } from "vite";
