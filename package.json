@@ -37,6 +37,7 @@
     "minimist": "^1.2.8",
     "node-fetch": "^2.0.0",
     "prism-themes": "^1.9.0",
+    "rehype-rewrite": "^4.0.2",
     "rehype-stringify": "^10.0.1",
     "remark": "^15.0.1",
     "remark-footnotes": "^4.0.1",
