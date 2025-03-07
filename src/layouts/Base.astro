@@ -101,7 +101,7 @@ const isLinksPage = Astro.url.pathname.startsWith("/links");
         <meta property="og:locale" content="en" />
         <meta property="og:image:alt" content={description} />
         <meta property="og:site_name" content={defaultTitle} />
-        <meta name="og:description" content={description} />
+        <meta property="og:description" content={description} />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content={metadata.twitter} />
         <meta name="twitter:title" content={titleFull} />
