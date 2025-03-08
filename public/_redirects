@@ -23,6 +23,7 @@
 # Post redirects
 /posts/faith/explicability-agency-and-forgiveness/ /posts/faith/explicability-does-not-negate-agency/ 301
 /posts/faith/-seven-experiences-of-love/ /posts/faith/seven-experiences-of-love/ 301
+/posts/software/unlaunching/ https://innerhelm.com/posts/unlaunching/ 301
 
 # Serve localized content from their respective locations
 /es/* /es/:splat 200
