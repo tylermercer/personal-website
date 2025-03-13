@@ -1,4 +1,4 @@
 [submodule "src/content"]
 	path = src/content
 	url = git@github.com:tylermercer/personal-website-content.git
-	branch = main
+	branch = give-three-examples
