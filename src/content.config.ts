@@ -10,6 +10,7 @@ const posts = defineCollection({
     featured: z.optional(z.boolean()),
     overrideMetaTitle: z.optional(z.string()),
     overrideMetaDescription: z.optional(z.string()),
+    externalLink: z.optional(z.string()),
   }),
 });
 const pages = defineCollection({
