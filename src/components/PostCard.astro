@@ -12,9 +12,11 @@ const { post } = Astro.props;
 ---
 
 <article class="post-card">
+<p>
     <time class="u-slub" datetime={getPostDate(post).toISOString()}>
         {formatPostDate(getPostDate(post))}
     </time>
+    {post.data.externalLink && (<>&mdash; {new URL(post.data.externalLink).host}</>)}
     <h3>
         <a href={post.data.externalLink || `/posts/${post.slug}`}>{post.data.title}</a>
     </h3>
