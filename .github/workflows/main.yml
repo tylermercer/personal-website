@@ -72,7 +72,7 @@ jobs:
 
       - name: Add preview URL to pull request
         if: github.event_name == 'pull_request' && steps.build_site.outputs.result == 'built'
-        uses: thollander/actions-comment-pull-request@v2
+        uses: thollander/actions-comment-pull-request@24bffb9b452ba05a4f3f77933840a6a841d1b32b
         with:
           comment_tag: deploy_preview
           mode: recreate
