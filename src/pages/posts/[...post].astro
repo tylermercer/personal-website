@@ -5,7 +5,7 @@ import getCategory from "@utils/getCategory";
 import labelDrafts from "@utils/labelDrafts";
 import sortByDate from "@utils/sortByDate";
 import { type CollectionEntry, getCollection } from "astro:content";
-import toWithNextAndPrev, { type WithNextAndPrev } from "lib/utils/toWithNextAndPrev";
+import toWithNextAndPrev, { type WithNextAndPrev } from "lib/toWithNextAndPrev";
 
 export async function getStaticPaths() {
   const posts = await getCollection("posts");

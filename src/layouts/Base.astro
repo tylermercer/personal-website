@@ -6,7 +6,7 @@ import "@fontsource-variable/faustina";
 import "@fontsource-variable/figtree";
 import "@styles/_style.scss";
 import type { CollectionEntry } from "astro:content";
-import unMarkdown from "lib/utils/unMarkdown";
+import unMarkdown from "lib/unMarkdown";
 
 export type Props = {
     title: string;
@@ -124,8 +124,8 @@ const isLinksPage = Astro.url.pathname.startsWith("/links");
     </body>
 </html>
 <script>
-    import cleanPageUrl from "lib/utils/cleanPageUrl";
-    import logCommitHash from "lib/utils/logCommitHash";
+    import cleanPageUrl from "lib/cleanPageUrl";
+    import logCommitHash from "lib/logCommitHash";
     cleanPageUrl();
     logCommitHash();
 

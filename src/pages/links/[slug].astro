@@ -6,7 +6,7 @@ import formatPostDate from "@utils/formatPostDate";
 import getLinkDate from "@utils/getLinkDate";
 import getLinkSlug from "@utils/getLinkSlug";
 import { type CollectionEntry, getCollection } from "astro:content";
-import unMarkdown from "lib/utils/unMarkdown";
+import unMarkdown from "lib/unMarkdown";
 
 export async function getStaticPaths() {
     const links = await getCollection("links");

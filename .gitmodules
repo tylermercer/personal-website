@@ -2,3 +2,7 @@
 	path = src/content
 	url = git@github.com:tylermercer/personal-website-content.git
 	branch = main
+[submodule "lib"]
+	path = lib
+	url = git@github.com:tylermercer/utils.git
+	branch = main
