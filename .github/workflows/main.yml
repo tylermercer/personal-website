@@ -28,7 +28,7 @@ jobs:
 
       - name: Update content submodule to latest main
         run: |
-          git submodule update --remote
+          git submodule update ./src/content --remote
 
       - name: Cache assets
         uses: actions/cache@v3
