@@ -3,6 +3,7 @@ import mdx from "@astrojs/mdx";
 import expressiveCode from "astro-expressive-code";
 import { defineConfig } from 'astro/config';
 import remarkEmdash from './lib/plugins/remark/emdash';
+import rehypeSemanticBlockquotes from 'rehype-semantic-blockquotes';
 import { jamComments } from "@jam-comments/astro/config";
 
 import { loadEnv } from "vite";
@@ -19,7 +20,14 @@ export default defineConfig({
   adapter: cloudflare(),
   site: 'https://tylermercer.net',
   markdown: {
-    remarkPlugins: [remarkEmdash],
+    remarkPlugins: [
+      remarkEmdash,
+    ],
+    rehypePlugins: [
+      rehypeSemanticBlockquotes({
+        syntax: '~ ',
+      }),
+    ],
   },
   integrations: [
     expressiveCode({
