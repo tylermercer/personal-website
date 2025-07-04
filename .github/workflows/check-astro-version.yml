@@ -1,0 +1,80 @@
+name: Check for Astro Updates
+
+on:
+  schedule:
+    - cron: "0 0 * * 0" # Runs every Sunday at midnight UTC
+  workflow_dispatch: # Allows manual triggering
+
+jobs:
+  check_astro_version:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read # To checkout the repo and read package.json
+      issues: write # To create issues
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Get latest Astro version from NPM
+        id: get_latest_version
+        run: |
+          LATEST_VERSION=$(npm view astro version)
+          echo "Latest Astro version from NPM: $LATEST_VERSION"
+          echo "latest_astro_version=$LATEST_VERSION" >> $GITHUB_OUTPUT
+
+      - name: Get current Astro version from package.json
+        id: get_current_version
+        run: |
+          CURRENT_VERSION=$(jq -r '.dependencies.astro // .devDependencies.astro // ""' package.json | sed 's/[^0-9.]*//g')
+          echo "Current Astro version in package.json: $CURRENT_VERSION"
+          echo "current_astro_version=$CURRENT_VERSION" >> $GITHUB_OUTPUT
+
+      - name: Compare versions and create issue if new version is available
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Required for gh CLI to create issues
+          LATEST_ASTRO_VERSION: ${{ steps.get_latest_version.outputs.latest_astro_version }}
+          CURRENT_ASTRO_VERSION: ${{ steps.get_current_version.outputs.current_astro_version }}
+        run: |
+          echo "Latest Astro version from NPM: $LATEST_ASTRO_VERSION"
+          echo "Current Astro version from package.json: $CURRENT_ASTRO_VERSION"
+
+          if [ -z "$LATEST_ASTRO_VERSION" ]; then
+            echo "Could not determine latest Astro version from RSS. Exiting."
+            exit 1
+          fi
+
+          if [ -z "$CURRENT_ASTRO_VERSION" ]; then
+            echo "Could not determine current Astro version from package.json. Exiting."
+            exit 1
+          fi
+
+          # Simple version comparison (works for X.Y.Z and X.Y formats)
+          # For more robust comparison, a dedicated version comparison tool/script might be needed
+          if [ "$(printf '%s\n' "$LATEST_ASTRO_VERSION" "$CURRENT_ASTRO_VERSION" | sort -V | head -n1)" = "$CURRENT_ASTRO_VERSION" ] && [ "$LATEST_ASTRO_VERSION" != "$CURRENT_ASTRO_VERSION" ]; then
+            echo "New Astro version $LATEST_ASTRO_VERSION is available (current is $CURRENT_ASTRO_VERSION)."
+            ISSUE_TITLE="New Astro version $LATEST_ASTRO_VERSION available"
+            ISSUE_BODY=$(cat <<EOF
+          A new version of Astro ($LATEST_ASTRO_VERSION) has been released! Current version is $CURRENT_ASTRO_VERSION.
+
+          **Upgrade Steps:**
+
+          1. Update the Astro version in \`package.json\` to \`$LATEST_ASTRO_VERSION\`.
+          2. Run \`npm install\` to update dependencies.
+          3. Review the Astro release notes for any breaking changes or specific migration instructions.
+          4. Test the application thoroughly after upgrading.
+          5. Run \`npm run agent-build\` to ensure the build passes with the agent-specific configuration.
+
+          **Useful Links:**
+          - Astro Changelog: https://astro.build/changelog/
+          - Astro Blog (for release announcements): https://astro.build/blog/
+          EOF
+          )
+            gh issue create --title "$ISSUE_TITLE" --body "$ISSUE_BODY" --label "jules,enhancement"
+          else
+            echo "Current Astro version $CURRENT_ASTRO_VERSION is up to date with NPM ($LATEST_ASTRO_VERSION)."
+          fi
