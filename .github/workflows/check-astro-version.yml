@@ -74,7 +74,7 @@ jobs:
           - Astro Blog (for release announcements): https://astro.build/blog/
           EOF
           )
-            gh issue create --title "$ISSUE_TITLE" --body "$ISSUE_BODY" --label "jules,enhancement"
+            gh issue create --title "$ISSUE_TITLE" --body "$ISSUE_BODY" --label "enhancement"
           else
             echo "Current Astro version $CURRENT_ASTRO_VERSION is up to date with NPM ($LATEST_ASTRO_VERSION)."
           fi
