@@ -62,13 +62,12 @@ jobs:
           A new version of Astro ($LATEST_ASTRO_VERSION) has been released! Current version is $CURRENT_ASTRO_VERSION.
 
           **Upgrade Steps:**
-
-          1. Update the Astro version in \`package.json\` to \`$LATEST_ASTRO_VERSION\`.
-          2. Run \`npm install\` to update dependencies.
+          
+          1. Run `npx @astrojs/upgrade`.
+          2. If that fails, follow the guidance in the error output.
           3. Review the Astro release notes for any breaking changes or specific migration instructions.
-          4. Test the application thoroughly after upgrading.
-          5. Run \`npm run agent-build\` to ensure the build passes with the agent-specific configuration.
-
+          4. Run `npm run build` to ensure the build passes.
+          
           **Useful Links:**
           - Astro Changelog: https://astro.build/changelog/
           - Astro Blog (for release announcements): https://astro.build/blog/
