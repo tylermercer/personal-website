@@ -6,6 +6,7 @@ import { getCollection, type CollectionEntry } from "astro:content";
 import LinkCard from "@components/LinkCard.astro";
 import NextPrevLinks from "@components/NextPrevLinks.astro";
 import Layout from "@layouts/Page.astro";
+import { filterOutFutureLinksIfProduction } from "@utils/filterOutFutureLinksIfProduction";
 
 export type Props = {
     page: {
@@ -20,7 +21,7 @@ export type Props = {
 const { page } = Astro.props;
 
 export const getStaticPaths = (async ({ paginate }) => {
-    const links = await getCollection("links");
+    const links = filterOutFutureLinksIfProduction(await getCollection("links"));
     return paginate(
         links.sort((a, b) => (a.slug > b.slug ? -1 : 1)),
         { pageSize: 100 },

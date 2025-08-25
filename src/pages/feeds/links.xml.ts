@@ -1,5 +1,6 @@
 import rss from '@astrojs/rss';
 import metadata from '@content/_metadata';
+import { filterOutFutureLinksIfProduction } from '@utils/filterOutFutureLinksIfProduction';
 import getLinkDate from '@utils/getLinkDate';
 import getLinkSlug from '@utils/getLinkSlug';
 import renderMarkdown from "@utils/renderMarkdown";
@@ -7,7 +8,7 @@ import type { APIRoute } from 'astro';
 import { getCollection } from 'astro:content';
 
 export const GET: APIRoute = async (context) => {
-    const links = (await getCollection('links')).sort((a, b) => (a.slug > b.slug ? -1 : 1));
+    const links = filterOutFutureLinksIfProduction(await getCollection('links')).sort((a, b) => (a.slug > b.slug ? -1 : 1));
     return rss({
         title: "Tyler Mercer - Links",
         description: "Links I find interesting",

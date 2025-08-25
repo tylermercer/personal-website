@@ -2,6 +2,7 @@
 import Comments from "@components/Comments.astro";
 import LinkCard from "@components/LinkCard.astro";
 import Layout from "@layouts/Base.astro";
+import { filterOutFutureLinksIfProduction } from "@utils/filterOutFutureLinksIfProduction";
 import formatPostDate from "@utils/formatPostDate";
 import getLinkDate from "@utils/getLinkDate";
 import getLinkSlug from "@utils/getLinkSlug";
@@ -9,7 +10,7 @@ import { type CollectionEntry, getCollection } from "astro:content";
 import unMarkdown from "lib/unMarkdown";
 
 export async function getStaticPaths() {
-    const links = await getCollection("links");
+    const links = filterOutFutureLinksIfProduction(await getCollection("links"));
     return links.map((entry: CollectionEntry<"links">) => ({
         params: { slug: getLinkSlug(entry) },
         props: { entry },

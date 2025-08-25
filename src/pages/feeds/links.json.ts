@@ -1,4 +1,5 @@
 import metadata from '@content/_metadata';
+import { filterOutFutureLinksIfProduction } from '@utils/filterOutFutureLinksIfProduction';
 import formatDateIso from '@utils/formatDateIso';
 import getLinkDate from '@utils/getLinkDate';
 import getLinkSlug from '@utils/getLinkSlug';
@@ -7,7 +8,7 @@ import type { APIRoute } from 'astro';
 import { getCollection } from 'astro:content';
 
 export const GET: APIRoute = async (context) => {
-    const links = (await getCollection('links')).sort((a, b) => (a.slug > b.slug ? -1 : 1));
+    const links = filterOutFutureLinksIfProduction(await getCollection('links')).sort((a, b) => (a.slug > b.slug ? -1 : 1));
 
     return new Response(
         JSON.stringify({
