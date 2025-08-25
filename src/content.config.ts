@@ -32,6 +32,7 @@ const links = defineCollection({
         return false;
       }
     }),
+    pubDate: z.date().optional(), // if provided, prevents publishing until this date
   }),
 })
 const categories = defineCollection({

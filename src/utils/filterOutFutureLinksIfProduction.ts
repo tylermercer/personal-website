@@ -7,6 +7,6 @@ export const filterOutFutureLinksIfProduction = (entries: CollectionEntry<'links
     const now = new Date();
     return entries.filter(entry => {
         const entryDate = getLinkDate(entry.slug);
-        return entryDate <= now;
+        return entryDate <= now && (!entry.data.pubDate || entry.data.pubDate <= now);
     });
 }
