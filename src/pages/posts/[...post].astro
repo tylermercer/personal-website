@@ -1,5 +1,6 @@
 ---
 import Layout from "@layouts/Post.astro";
+import { filterOutCrossSitePosts } from "@utils/filterOutCrossSitePosts";
 import filterOutDraftsIfProduction from "@utils/filterOutDraftsIfProduction";
 import getCategory from "@utils/getCategory";
 import labelDrafts from "@utils/labelDrafts";
@@ -9,7 +10,12 @@ import toWithNextAndPrev, { type WithNextAndPrev } from "lib/toWithNextAndPrev";
 
 export async function getStaticPaths() {
   const posts = await getCollection("posts");
-  return toWithNextAndPrev(labelDrafts(sortByDate(filterOutDraftsIfProduction(posts))), true).map((entry) => ({
+  return toWithNextAndPrev(
+    labelDrafts(
+      sortByDate(filterOutDraftsIfProduction(filterOutCrossSitePosts(posts))),
+    ),
+    true,
+  ).map((entry) => ({
     params: { post: entry.item.slug },
     props: { entry },
   }));
