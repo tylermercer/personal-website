@@ -45,7 +45,7 @@ async function fillMissingTitles(markdownFiles) {
   return updatedFiles;
 }
 
-const dir = '../personal-website-content/links'; // Folder with your .md files
+const dir = './src/content/links'; // Folder with your .md files
 const filenames = await fs.readdir(dir);
 const markdownFiles = await Promise.all(
   filenames.map(f => fs.readFile(path.join(dir, f), 'utf8'))
