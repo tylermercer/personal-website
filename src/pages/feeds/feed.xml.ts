@@ -19,8 +19,8 @@ export const GET: APIRoute = async (context) => {
             title: post.data.title,
             pubDate: getPostDate(post),
             description: post.data.description,
-            link: `/posts/${post.slug}/`,
-            content: await renderMarkdown(post.body),
+            link: post.data.externalLink || `/posts/${post.slug}/`,
+            content: !post.data.externalLink ? await renderMarkdown(post.body) : undefined,
         }))),
         customData: `<language>${metadata.language}</language>`,
     });

@@ -6,9 +6,10 @@ import filterOutDraftsIfProduction from "../../utils/filterOutDraftsIfProduction
 import labelDrafts from "../../utils/labelDrafts";
 import getCategory from "../../utils/getCategory";
 import renderer from "./_og-utils/renderer";
+import { filterOutCrossSitePosts } from "@utils/filterOutCrossSitePosts";
 
 export async function getStaticPaths() {
-    const posts = labelDrafts(sortByDate(filterOutDraftsIfProduction(await getCollection("posts"))));
+    const posts = labelDrafts(sortByDate(filterOutDraftsIfProduction(filterOutCrossSitePosts(await getCollection("posts")))));
     const pages = await getCollection('pages');
     const toParams = (collection: string) => (entry: { slug: string }) => ({
         params: { collectionAndSlug: `${collection}/${entry.slug}` },

@@ -13,10 +13,10 @@ export const GET: APIRoute = async (context) => {
     const blog = sortByDate(filterOutDraftsIfProduction(await getCollection('posts')));
 
     const items = (await Promise.all(blog.map(async (post) => ({
-        id: `${context.site}posts/${post.slug}/`,
-        url: `${context.site}posts/${post.slug}/`,
+        id: post.data.externalLink || `${context.site}posts/${post.slug}/`,
+        url: post.data.externalLink || `${context.site}posts/${post.slug}/`,
         title: post.data.title,
-        content_html: await renderMarkdown(post.body),
+        content_html: !post.data.externalLink ? await renderMarkdown(post.body) : undefined,
         date_published: formatDateIso(getPostDate(post)),
         category: (await getCategory(post))?.id ?? "uncategorized"
     }))));
