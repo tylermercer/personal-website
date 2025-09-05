@@ -3,6 +3,7 @@ import mdx from "@astrojs/mdx";
 import expressiveCode from "astro-expressive-code";
 import { defineConfig } from 'astro/config';
 import remarkEmdash from './lib/plugins/remark/emdash';
+import remarkEmdash from './lib/plugins/remark/autolink-headings';
 import { jamComments } from "@jam-comments/astro/config";
 
 import { loadEnv } from "vite";
@@ -20,6 +21,7 @@ export default defineConfig({
   site: 'https://tylermercer.net',
   markdown: {
     remarkPlugins: [remarkEmdash],
+    rehypePlugins: [rehypeAutolinkHeadings],
   },
   integrations: [
     expressiveCode({
