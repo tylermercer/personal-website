@@ -3,6 +3,7 @@ import mdx from "@astrojs/mdx";
 import expressiveCode from "astro-expressive-code";
 import { defineConfig } from 'astro/config';
 import remarkEmdash from './lib/plugins/remark/emdash';
+import rehypeAutolinkHeadings from './lib/plugins/rehype/autolink-headings';
 import { jamComments } from "@jam-comments/astro/config";
 
 import { loadEnv } from "vite";
@@ -18,9 +19,6 @@ export default defineConfig({
   output: 'static',
   adapter: cloudflare(),
   site: 'https://tylermercer.net',
-  markdown: {
-    remarkPlugins: [remarkEmdash],
-  },
   integrations: [
     expressiveCode({
       themes: ['material-theme-ocean'],
@@ -28,7 +26,11 @@ export default defineConfig({
         borderRadius: '0',
       }
     }),
-    mdx(),
+    mdx({
+      extendMarkdownConfig: true,
+      remarkPlugins: [remarkEmdash],
+      rehypePlugins: [rehypeAutolinkHeadings],
+    }),
     jamComments({
       domain: JAM_COMMENTS_DOMAIN,
       apiKey: JAM_COMMENTS_API_KEY,
