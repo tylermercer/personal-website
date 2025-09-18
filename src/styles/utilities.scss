@@ -1,5 +1,5 @@
-@import './tokens/color-vars.scss';
-@import './functions.scss';
+@use 'tokens/color-vars.scss';
+@use 'functions.scss';
 
 .u-sr-only {
     position: absolute;
@@ -25,8 +25,8 @@
     display: block;
 }
 
-$svg-color-light: encodeColor($color-primary-fg);
-$svg-color-dark: encodeColor($color-primary-fg);
+$svg-color-light: functions.encodeColor(color-vars.$color-primary-fg);
+$svg-color-dark: functions.encodeColor(color-vars.$color-primary-fg);
 
 .u-pattern {
     background-color: var(--color-primary-bg-static);
@@ -75,18 +75,18 @@ $svg-color-dark: encodeColor($color-primary-fg);
 @media (prefers-color-scheme: light) {
     .u-surface {
         box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15) inset;
-        background-color: $color-gray-light-1;
+        background-color: color-vars.$color-gray-light-1;
 
         &:has(&) {
-            background-color: $color-gray-light-3;
+            background-color: color-vars.$color-gray-light-3;
         }
 
         &:has(& &) {
-            background-color: $color-gray-light-5;
+            background-color: color-vars.$color-gray-light-5;
         }
 
         &:has(& & &) {
-            background-color: $color-gray-light-7;
+            background-color: color-vars.$color-gray-light-7;
         }
     }
 }
@@ -94,18 +94,18 @@ $svg-color-dark: encodeColor($color-primary-fg);
 @media (prefers-color-scheme: dark) {
     .u-surface {
         box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.1) inset;
-        background-color: $color-gray-dark-1;
+        background-color: color-vars.$color-gray-dark-1;
 
         & & {
-            background-color: $color-gray-dark-3;
+            background-color: color-vars.$color-gray-dark-3;
         }
 
         & & & {
-            background-color: $color-gray-dark-5;
+            background-color: color-vars.$color-gray-dark-5;
         }
 
         & & & & {
-            background-color: $color-gray-dark-7;
+            background-color: color-vars.$color-gray-dark-7;
         }
     }
 }

@@ -40,6 +40,19 @@ jobs:
           restore-keys: | # Restore most recent cache
             assets-
 
+      - name: Cache pnpm store
+        uses: actions/cache@v3
+        with:
+          path: ~/.pnpm-store
+          key: ${{ runner.os }}-pnpm-${{ hashFiles('**/pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-pnpm-
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 10
+
       - name: Extract variables
         id: extract_vars
         run: | # branch_trunc is the branch truncated to 28 chars, which is the CF deploy preview subdomain length
@@ -58,8 +71,8 @@ jobs:
           JAM_COMMENTS_API_KEY: ${{ secrets.JAM_COMMENTS_API_KEY }}
           JAM_COMMENTS_ENVIRONMENT: ${{ steps.extract_vars.outputs.branch == 'main' && 'production' || 'preview' }}
         run: |
-          npm ci
-          npm run build
+          pnpm install --frozen-lockfile
+          pnpm build
           echo "result=built" >> $GITHUB_OUTPUT
 
       - name: Deploy to Cloudflare Pages

@@ -1,95 +1,96 @@
-@import './color-vars';
+@use "sass:meta";
+@use 'color-vars';
 
 @mixin base-colors {
-    --color-primary-fg-static: #{$color-primary-fg};
-    --color-primary-bg-static: #{$color-primary-bg};
-    --color-primary-1-static: #{$color-primary-light-1};
-    --color-primary-2-static: #{$color-primary-light-2};
-    --color-primary-3-static: #{$color-primary-light-3};
-    --color-primary-4-static: #{$color-primary-light-4};
-    --color-primary-5-static: #{$color-primary-light-5};
-    --color-primary-6-static: #{$color-primary-light-6};
-    --color-primary-7-static: #{$color-primary-light-7};
-    --color-primary-8-static: #{$color-primary-light-8};
-    --color-primary-9-static: #{$color-primary-light-9};
-    --color-primary-10-static: #{$color-primary-light-10};
-    --color-primary-11-static: #{$color-primary-light-11};
-    --color-primary-12-static: #{$color-primary-light-12};
+    --color-primary-fg-static: #{color-vars.$color-primary-fg};
+    --color-primary-bg-static: #{color-vars.$color-primary-bg};
+    --color-primary-1-static: #{color-vars.$color-primary-light-1};
+    --color-primary-2-static: #{color-vars.$color-primary-light-2};
+    --color-primary-3-static: #{color-vars.$color-primary-light-3};
+    --color-primary-4-static: #{color-vars.$color-primary-light-4};
+    --color-primary-5-static: #{color-vars.$color-primary-light-5};
+    --color-primary-6-static: #{color-vars.$color-primary-light-6};
+    --color-primary-7-static: #{color-vars.$color-primary-light-7};
+    --color-primary-8-static: #{color-vars.$color-primary-light-8};
+    --color-primary-9-static: #{color-vars.$color-primary-light-9};
+    --color-primary-10-static: #{color-vars.$color-primary-light-10};
+    --color-primary-11-static: #{color-vars.$color-primary-light-11};
+    --color-primary-12-static: #{color-vars.$color-primary-light-12};
 
-    --color-gray-1-static: #{$color-gray-light-1};
-    --color-gray-2-static: #{$color-gray-light-2};
-    --color-gray-3-static: #{$color-gray-light-3};
-    --color-gray-4-static: #{$color-gray-light-4};
-    --color-gray-5-static: #{$color-gray-light-5};
-    --color-gray-6-static: #{$color-gray-light-6};
-    --color-gray-7-static: #{$color-gray-light-7};
-    --color-gray-8-static: #{$color-gray-light-8};
-    --color-gray-9-static: #{$color-gray-light-9};
-    --color-gray-10-static: #{$color-gray-light-10};
-    --color-gray-11-static: #{$color-gray-light-11};
-    --color-gray-12-static: #{$color-gray-light-12};
+    --color-gray-1-static: #{color-vars.$color-gray-light-1};
+    --color-gray-2-static: #{color-vars.$color-gray-light-2};
+    --color-gray-3-static: #{color-vars.$color-gray-light-3};
+    --color-gray-4-static: #{color-vars.$color-gray-light-4};
+    --color-gray-5-static: #{color-vars.$color-gray-light-5};
+    --color-gray-6-static: #{color-vars.$color-gray-light-6};
+    --color-gray-7-static: #{color-vars.$color-gray-light-7};
+    --color-gray-8-static: #{color-vars.$color-gray-light-8};
+    --color-gray-9-static: #{color-vars.$color-gray-light-9};
+    --color-gray-10-static: #{color-vars.$color-gray-light-10};
+    --color-gray-11-static: #{color-vars.$color-gray-light-11};
+    --color-gray-12-static: #{color-vars.$color-gray-light-12};
 }
 
 @mixin light-colors {
-    --color-primary-1: #{$color-primary-light-1};
-    --color-primary-2: #{$color-primary-light-2};
-    --color-primary-3: #{$color-primary-light-3};
-    --color-primary-4: #{$color-primary-light-4};
-    --color-primary-5: #{$color-primary-light-5};
-    --color-primary-6: #{$color-primary-light-6};
-    --color-primary-7: #{$color-primary-light-7};
-    --color-primary-8: #{$color-primary-light-8};
-    --color-primary-9: #{$color-primary-light-9};
-    --color-primary-10: #{$color-primary-light-10};
-    --color-primary-11: #{$color-primary-light-11};
-    --color-primary-12: #{$color-primary-light-12};
+    --color-primary-1: #{color-vars.$color-primary-light-1};
+    --color-primary-2: #{color-vars.$color-primary-light-2};
+    --color-primary-3: #{color-vars.$color-primary-light-3};
+    --color-primary-4: #{color-vars.$color-primary-light-4};
+    --color-primary-5: #{color-vars.$color-primary-light-5};
+    --color-primary-6: #{color-vars.$color-primary-light-6};
+    --color-primary-7: #{color-vars.$color-primary-light-7};
+    --color-primary-8: #{color-vars.$color-primary-light-8};
+    --color-primary-9: #{color-vars.$color-primary-light-9};
+    --color-primary-10: #{color-vars.$color-primary-light-10};
+    --color-primary-11: #{color-vars.$color-primary-light-11};
+    --color-primary-12: #{color-vars.$color-primary-light-12};
 
-    --color-gray-1: #{$color-gray-light-1};
-    --color-gray-2: #{$color-gray-light-2};
-    --color-gray-3: #{$color-gray-light-3};
-    --color-gray-4: #{$color-gray-light-4};
-    --color-gray-5: #{$color-gray-light-5};
-    --color-gray-6: #{$color-gray-light-6};
-    --color-gray-7: #{$color-gray-light-7};
-    --color-gray-8: #{$color-gray-light-8};
-    --color-gray-9: #{$color-gray-light-9};
-    --color-gray-10: #{$color-gray-light-10};
-    --color-gray-11: #{$color-gray-light-11};
-    --color-gray-12: #{$color-gray-light-12};
+    --color-gray-1: #{color-vars.$color-gray-light-1};
+    --color-gray-2: #{color-vars.$color-gray-light-2};
+    --color-gray-3: #{color-vars.$color-gray-light-3};
+    --color-gray-4: #{color-vars.$color-gray-light-4};
+    --color-gray-5: #{color-vars.$color-gray-light-5};
+    --color-gray-6: #{color-vars.$color-gray-light-6};
+    --color-gray-7: #{color-vars.$color-gray-light-7};
+    --color-gray-8: #{color-vars.$color-gray-light-8};
+    --color-gray-9: #{color-vars.$color-gray-light-9};
+    --color-gray-10: #{color-vars.$color-gray-light-10};
+    --color-gray-11: #{color-vars.$color-gray-light-11};
+    --color-gray-12: #{color-vars.$color-gray-light-12};
 }
 
 @mixin dark-colors {
-    --color-primary-1:  #{$color-primary-dark-1};
-    --color-primary-2:  #{$color-primary-dark-2};
-    --color-primary-3:  #{$color-primary-dark-3};
-    --color-primary-4:  #{$color-primary-dark-4};
-    --color-primary-5:  #{$color-primary-dark-5};
-    --color-primary-6:  #{$color-primary-dark-6};
-    --color-primary-7:  #{$color-primary-dark-7};
-    --color-primary-8:  #{$color-primary-dark-8};
-    --color-primary-9:  #{$color-primary-dark-9};
-    --color-primary-10: #{$color-primary-dark-10};
-    --color-primary-11: #{$color-primary-dark-11};
-    --color-primary-12: #{$color-primary-dark-12};
+    --color-primary-1:  #{color-vars.$color-primary-dark-1};
+    --color-primary-2:  #{color-vars.$color-primary-dark-2};
+    --color-primary-3:  #{color-vars.$color-primary-dark-3};
+    --color-primary-4:  #{color-vars.$color-primary-dark-4};
+    --color-primary-5:  #{color-vars.$color-primary-dark-5};
+    --color-primary-6:  #{color-vars.$color-primary-dark-6};
+    --color-primary-7:  #{color-vars.$color-primary-dark-7};
+    --color-primary-8:  #{color-vars.$color-primary-dark-8};
+    --color-primary-9:  #{color-vars.$color-primary-dark-9};
+    --color-primary-10: #{color-vars.$color-primary-dark-10};
+    --color-primary-11: #{color-vars.$color-primary-dark-11};
+    --color-primary-12: #{color-vars.$color-primary-dark-12};
 
-    --color-gray-1:  #{$color-gray-dark-1};
-    --color-gray-2:  #{$color-gray-dark-2};
-    --color-gray-3:  #{$color-gray-dark-3};
-    --color-gray-4:  #{$color-gray-dark-4};
-    --color-gray-5:  #{$color-gray-dark-5};
-    --color-gray-6:  #{$color-gray-dark-6};
-    --color-gray-7:  #{$color-gray-dark-7};
-    --color-gray-8:  #{$color-gray-dark-8};
-    --color-gray-9:  #{$color-gray-dark-9};
-    --color-gray-10: #{$color-gray-dark-10};
-    --color-gray-11: #{$color-gray-dark-11};
-    --color-gray-12: #{$color-gray-dark-12};
+    --color-gray-1:  #{color-vars.$color-gray-dark-1};
+    --color-gray-2:  #{color-vars.$color-gray-dark-2};
+    --color-gray-3:  #{color-vars.$color-gray-dark-3};
+    --color-gray-4:  #{color-vars.$color-gray-dark-4};
+    --color-gray-5:  #{color-vars.$color-gray-dark-5};
+    --color-gray-6:  #{color-vars.$color-gray-dark-6};
+    --color-gray-7:  #{color-vars.$color-gray-dark-7};
+    --color-gray-8:  #{color-vars.$color-gray-dark-8};
+    --color-gray-9:  #{color-vars.$color-gray-dark-9};
+    --color-gray-10: #{color-vars.$color-gray-dark-10};
+    --color-gray-11: #{color-vars.$color-gray-dark-11};
+    --color-gray-12: #{color-vars.$color-gray-dark-12};
 }
 @media (prefers-color-scheme: dark) {
-    @import '../../../node_modules/prism-themes/themes/prism-coldark-dark';
+    @include meta.load-css('../../../node_modules/prism-themes/themes/prism-coldark-dark');
 }
 @media (prefers-color-scheme: light) {
-    @import '../../../node_modules/prism-themes/themes/prism-coldark-cold';
+    @include meta.load-css('../../../node_modules/prism-themes/themes/prism-coldark-cold');
 }
 
 
